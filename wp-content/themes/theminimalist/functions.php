@@ -151,7 +151,7 @@ function tm_website_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'tm_website_scripts' );
 
-function load_stylesheets()
+/*function load_stylesheets()
 {
 wp_register_style('main', get_template_directory_uri().'/scss/main.css', array(), 1, 'all');
 wp_enqueue_style('main');
@@ -164,7 +164,7 @@ wp_register_script('jquery-min', get_template_directory_uri().'/js/jquery-3.3.1.
 wp_enqueue_script('jquery-min');
 wp_register_script('form-js', get_template_directory_uri().'/js/form.js', array(), 1, 1, 1);
 wp_enqueue_script('form-js');
-}
+}*/
 /**
  * Implement the Custom Header feature.
  */
@@ -192,3 +192,15 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
+//This function prints the JavaScript to the footer
+add_action( 'wp_footer', 'redirect_cf7' );
+ 
+function redirect_cf7() {
+?>
+<script type="text/javascript">
+document.addEventListener( 'wpcf7mailsent', function( event ) {
+       location = 'http://localhost/wp-tm-site/thank-you/';
+}, false );
+</script>
+<?php
+}
