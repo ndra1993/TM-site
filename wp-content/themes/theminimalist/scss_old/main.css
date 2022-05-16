@@ -1,7 +1,4 @@
 /* Fonts Weight */
-.h1, .h2, .h3, .h4, .h5, .h6 {
-  overflow-wrap: normal; }
-
 .wrapper {
   padding: 0px 0px 0px 50px; }
   @media screen and (max-width: 780px) {
@@ -51,16 +48,16 @@
 
 .h4 {
   font-family: "Poppins", sans-serif;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 700;
   margin: 0px; }
-  @media screen and (max-width: 1600px) {
+  @media screen and (max-width: 1280px) {
     .h4 {
       font-size: 12px; } }
 
 .letstalkCta {
   font-family: "Poppins", sans-serif;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 800;
   color: #000;
   border-radius: 3px;
@@ -71,8 +68,7 @@
   border: none; }
   @media screen and (max-width: 1600px) {
     .letstalkCta {
-      padding: 50px;
-      font-size: 18px; } }
+      padding: 50px; } }
   @media screen and (max-width: 780px) {
     .letstalkCta {
       padding: 42px;
@@ -134,9 +130,20 @@
           position: static; } }
       .videoSec .textVideo .videoLogos #video {
         width: 100%; }
-      .videoSec .textVideo .videoLogos .logos .logoImg img {
-        width: 100%;
-        text-align: center; }
+      .videoSec .textVideo .videoLogos .logos {
+        display: flex;
+        align-items: center;
+        width: 95%;
+        margin-top: 30px;
+        justify-content: end; }
+        .videoSec .textVideo .videoLogos .logos .logoImg {
+          margin-right: 30px; }
+          .videoSec .textVideo .videoLogos .logos .logoImg img {
+            width: 70px;
+            text-align: center; }
+            @media screen and (max-width: 1300px) {
+              .videoSec .textVideo .videoLogos .logos .logoImg img {
+                width: 50px; } }
     .videoSec .textVideo .textLarge {
       position: absolute;
       top: 42%;
@@ -155,15 +162,8 @@
           position: static;
           transform: translateY(5%);
           margin: 20px; } }
-    .videoSec .textVideo .hoverDiv {
-      top: 62px;
-      position: absolute;
-      height: 255px !important;
-      width: 452px !important;
-      background-color: brown;
-      right: 0; }
     .videoSec .textVideo:hover {
-      transition: 1s all; }
+      height: 40vh; }
       .videoSec .textVideo:hover .textLarge {
         width: 35%;
         transition: 1s all;
@@ -221,7 +221,7 @@
         .formSection .sec1 h1 {
           margin-top: 90px; } }
   .formSection .form-wrap {
-    border-left: 1px solid #000;
+    border-left: 2px solid #000;
     background-color: #fff;
     width: 46%;
     animation: 1s ease-out 0s 1 slideInFromright; }
@@ -243,7 +243,7 @@
       .formSection .form-wrap .tabs .close {
         width: 23%; }
       .formSection .form-wrap .tabs a {
-        padding: 80px;
+        padding: 58px;
         text-decoration: none;
         text-align: center;
         font-weight: 800;
@@ -269,7 +269,7 @@
     .formSection .form-wrap .tabs-content .active {
       display: block !important; }
     .formSection .form-wrap .tabs-content form fieldset {
-      width: 80%;
+      width: 74%;
       height: auto;
       border: none;
       background: #fdfdfd;
@@ -277,9 +277,6 @@
       @media screen and (max-width: 1800px) {
         .formSection .form-wrap .tabs-content form fieldset {
           width: 85%; } }
-      @media screen and (max-width: 1180px) {
-        .formSection .form-wrap .tabs-content form fieldset {
-          width: 90%; } }
       @media screen and (max-width: 1090px) {
         .formSection .form-wrap .tabs-content form fieldset {
           width: 100%; } }
@@ -291,7 +288,7 @@
         @media screen and (max-width: 1800px) {
           .formSection .form-wrap .tabs-content form fieldset .content {
             padding: 46px 30px 34px 30px; } }
-        @media screen and (max-width: 1280px) {
+        @media screen and (max-width: 1090px) {
           .formSection .form-wrap .tabs-content form fieldset .content {
             display: block;
             align-items: center;
@@ -303,6 +300,11 @@
         .formSection .form-wrap .tabs-content form fieldset .content:active, .formSection .form-wrap .tabs-content form fieldset .content:focus, .formSection .form-wrap .tabs-content form fieldset .content:hover {
           outline: none;
           border-bottom: 3px solid #14CC8A; }
+        .formSection .form-wrap .tabs-content form fieldset .content .selextInput {
+          width: 74%; }
+          @media screen and (max-width: 1090px) {
+            .formSection .form-wrap .tabs-content form fieldset .content .selextInput {
+              width: 100%; } }
         .formSection .form-wrap .tabs-content form fieldset .content .ctc {
           width: 75%;
           display: flex;
@@ -353,22 +355,18 @@
               background-color: #fff;
               border: 1px dashed #000;
               border-radius: 5px;
-              padding: 10px 15px;
-              cursor: pointer; }
+              padding: 10px 15px; }
               @media screen and (max-width: 1090px) {
                 .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex input {
                   width: 100%; } }
         .formSection .form-wrap .tabs-content form fieldset .content label {
           font-family: "Poppins", sans-serif;
           float: left;
-          width: 23%;
+          width: 18%;
           font-size: 16px;
           color: #000;
           font-weight: 500;
           line-height: 16px; }
-          @media screen and (max-width: 1640px) {
-            .formSection .form-wrap .tabs-content form fieldset .content label {
-              width: 33%; } }
           @media screen and (max-width: 1280px) {
             .formSection .form-wrap .tabs-content form fieldset .content label {
               font-size: 16px;
@@ -461,8 +459,7 @@
           padding: 2px 0;
           width: 24px;
           height: 24px;
-          margin-bottom: 20px;
-          cursor: pointer; }
+          margin-bottom: 20px; }
           @media screen and (max-width: 770px) {
             .formSection .form-wrap .tabs-content form fieldset .checkboxContent input.checkbox {
               margin-right: 15px; } }
@@ -479,8 +476,7 @@
         color: rgba(0, 0, 0, 0.2);
         padding: 80px;
         background: #E3E3E3;
-        float: left;
-        cursor: pointer; }
+        float: left; }
         .formSection .form-wrap .tabs-content form fieldset .submit:hover, .formSection .form-wrap .tabs-content form fieldset .submit:focus {
           background-color: #00FFA3; }
         @media screen and (max-width: 1280px) {
@@ -489,7 +485,6 @@
             font-size: 18px; } }
         @media screen and (max-width: 770px) {
           .formSection .form-wrap .tabs-content form fieldset .submit {
-            height: 100px;
             width: 100%;
             text-align: center; } }
   @media screen and (max-width: 1450px) {
@@ -505,22 +500,22 @@
 
 .thankYou {
   background-color: #00FFA3;
-  padding: 200px 217px 0px 217px; }
+  padding: 200px 166px 0px 166px; }
+  @media screen and (max-width: 1090px) {
+    .thankYou {
+      padding: 100px; } }
   .thankYou .thanksImage {
     display: block;
     width: auto;
     margin-left: auto;
     margin-right: auto; }
-  .thankYou .h2 {
-    font-size: 36px;
-    font-family: "Poppins", sans-serif; }
-  .thankYou h3 {
-    font-size: 18px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 400; }
   .thankYou h2, .thankYou h3, .thankYou div {
     text-align: center;
     margin-top: 20px; }
+  .thankYou h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14px; }
   .thankYou a {
     font-size: 18px;
     font-family: "Poppins", sans-serif;
@@ -529,20 +524,5 @@
     display: inline-block;
     margin-top: 160px;
     margin-bottom: 50px; }
-  @media screen and (max-width: 1680px) {
-    .thankYou {
-      padding: 200px 162px 0px 167px; }
-      .thankYou h3 {
-        font-size: 16px; }
-      .thankYou .h2 {
-        font-size: 32px; } }
-  @media screen and (max-width: 1280px) {
-    .thankYou h3 {
-      font-size: 14px; }
-    .thankYou .h2 {
-      font-size: 24px; } }
-  @media screen and (max-width: 1090px) {
-    .thankYou {
-      padding: 80px; } }
 
 /*# sourceMappingURL=main.css.map */

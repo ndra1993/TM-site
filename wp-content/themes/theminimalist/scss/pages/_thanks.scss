@@ -1,36 +1,21 @@
 .thankYou{
     background-color: $green;
-    padding: 200px 166px 0px 166px;
-    @media screen and (max-width:1090px) {
-		padding: 100px;
-	}
-
-    .thanksImage{
-        display: block;
-        width: auto;
-        margin-left: auto;
-        margin-right: auto;
-
-        
-    }
-    h2,h3,div{
-        text-align: center;
-        margin-top: 20px;
-    }
-
-    h3{
-        font-family: $main-font;
-        font-weight: $regular-w;
-        font-size: 14px;
-    }
-
-    a{
-        font-size: 18px;
-        font-family: $main-font;
-        font-weight: $extrabold-w;
-        color: $black;
-        display: inline-block;
-        margin-top: 160px;
-        margin-bottom: 50px;
-    }
+       padding: 200px 217px 0px 217px;
+      .thanksImage{display: block;width: auto;margin-left: auto;margin-right: auto;}
+   .h2{font-size:36px;font-family: $main-font;}
+    h3{font-size:18px;font-family: $main-font;font-weight: $regular-w;}
+    h2,h3,div{text-align: center;margin-top: 20px;}
+   a{font-size: 18px;font-family: $main-font;font-weight: $extrabold-w;color: $black;display: inline-block;margin-top: 160px;margin-bottom: 50px;}
+   @media screen and (max-width:1680px){
+       padding: 200px 162px 0px 167px;
+        h3{font-size:16px;}
+       .h2{font-size:32px;}
+   }
+   @media screen and (max-width:1280px){
+        h3{font-size:14px;}
+       .h2{font-size:24px;}
+   }
+   @media screen and (max-width:1090px) {
+       padding: 80px;
+   }
 }

@@ -1,162 +1,121 @@
 // Mainpage scss//
 
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 
-.mainHeader {
+.mainHeader{
     width: 100%;
 
-    .headerSection {
+    .headerSection{
         margin: 0 auto;
-        @include display-property(flex, baseline);
+        @include display-property(flex,baseline);
+        
 
-
-        .tmLogo {
-            @media screen and (max-width:768px) {
+        .tmLogo{
+            @media screen and (max-width:768px){
                 margin-left: 28px;
                 width: 44%;
-
-                img {
+                img{
                     width: 80%;
                 }
             }
-
+           
         }
-
         .qrCode {
-            @include display-property(flex, center);
-
-            .qrcodeContent {
-                @include display-property(flex, center);
-
-                a {
+            @include display-property(flex,center);
+    
+            .qrcodeContent{
+                @include display-property(flex,center);
+                a{
                     margin: 0px 10px 0px 40px;
-
                     @media screen and (max-width:1000px) {
                         margin: 0px 10px 0px 10px;
                     }
                 }
-
+                
             }
-        }
-
+        }    
         @media screen and (max-width:1020px) {
-            .qrCode {
-                .qrcodeContent {
-                    @include display-property(none, none);
+            .qrCode{
+                .qrcodeContent{
+                    @include display-property(none,none); 
                 }
-
+    
             }
         }
     }
-
+    
 }
 
 
 
 
-.videoSec {
+.videoSec{
     position: relative;
-
-    .textVideo {
+    .textVideo{
         height: 100vh;
-        position: relative;
+        position:relative;
         display: flex;
         align-items: center;
         flex-flow: wrap;
         transition: 0.2s all;
 
-        .videoLogos {
+        .videoLogos{
             width: 45%;
             margin-left: auto;
             position: relative;
-
-            @media screen and (max-width:780px) {
+            @media screen and (max-width:780px){
                 width: 100%;
                 position: static;
-
-            }
-
-            #video {
+                
+             }
+            #video{
                 width: 100%;
             }
-
-            .logos {
-                .logoImg {
-                    img {
-                        width: 100%;
+            .logos{
+                display: flex;
+                align-items: center;
+                width: 95%;
+                margin-top: 30px;
+                justify-content: end;
+                .logoImg{
+                    margin-right: 30px;
+                    img{
+                        width: 70px;
                         text-align: center;
-
-                        @media screen and (max-width:1300px) {
-                            
+                        @media screen and (max-width:1300px){
+                            width: 50px;
                         }
-                    }
+                    }   
                 }
             }
         }
-
-        .textLarge {
-            position: absolute;
-            top: 42%;
-            left: 0;
-            z-index: 1;
+        .textLarge{
+            position:absolute;
+            top:42%;
+            left:0;
+            z-index:1;
             width: 78%;
             margin: auto;
             transform: translateY(-50%);
-
-            @media screen and (max-width:1050px) {
+            @media screen and (max-width:1050px){
                 width: 73%;
             }
-
-            @media screen and (max-width:780px) {
+             @media screen and (max-width:780px){
                 width: 100%;
                 margin-bottom: 35px;
                 position: static;
-                transform: translateY(5%);
+                transform:translateY(5%);
                 margin: 20px;
-            }
-        }
-
-        .hoverDiv {
-            top: 62px;
-            position: absolute;
-            height: 255px !important;
-            width: 452px !important;
-            background-color: brown;
-            right: 0;
-
-        }
-
-        // .hoverDiv:hover {
-        
-
-        //     .textLarge {
-        //         transition: 1s all;
-        //         width: 35%;
-        //         top: 52%;
-        //     }
-
-        //     .h1 {
-        //         font-size: 64px;
-
-        //         @media screen and (max-width:1600px) {
-        //             font-size: 52px;
-        //         }
-        //     }
-        // }
-
-
-        // .hoverDiv:hover+.videoLogos {
-        //     width: 65%;
-        //     transition: 1s all;
-        // }
+            }   
+        }  
 
         &:hover{
-            transition: 1s all;
+            height: 40vh;
             .textLarge{
                 width: 35%;
                 transition: 1s all;
@@ -171,11 +130,11 @@
             .videoLogos{
                 width: 65%;
                 transition: 1s all;
-
+                    
             }
         }
-
-        @media screen and (max-width:1400px) {
+         
+        @media screen and (max-width:1400px){
             height: 65vh;
 
             &:hover{
@@ -192,7 +151,7 @@
             }
         }
 
-        @media screen and (max-width:1050px) {
+        @media screen and (max-width:1050px){
             pointer-events: none;
             height: 67vh;
             &:hover{
@@ -205,13 +164,12 @@
                 }
                 .videoLogos{
                     pointer-events: none;
-
+                    
                 }
             }
         }
-
-        @media screen and (max-width:768px) {
+        @media screen and (max-width:768px){
             height: 40vh;
-        }
+        }         
     }
 }
