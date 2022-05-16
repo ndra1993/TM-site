@@ -5,7 +5,7 @@
    .h2{font-size:36px;font-family: $main-font;}
     h3{font-size:18px;font-family: $main-font;font-weight: $regular-w;}
     h2,h3,div{text-align: center;margin-top: 20px;}
-   a{font-size: 18px;font-family: $main-font;font-weight: $extrabold-w;color: $black;display: inline-block;margin-top: 160px;margin-bottom: 50px;}
+   a{font-size: 18px;font-family: $main-font;font-weight: $extrabold-w;color: $black;display: inline-block;margin-top: 80px;margin-bottom: 50px;}
    @media screen and (max-width:1680px){
        padding: 200px 162px 0px 167px;
         h3{font-size:16px;}
@@ -13,7 +13,7 @@
    }
    @media screen and (max-width:1280px){
         h3{font-size:14px;}
-       .h2{font-size:24px;}
+       .h2{font-size:32px;}
    }
    @media screen and (max-width:1090px) {
        padding: 80px;

@@ -273,7 +273,8 @@
       height: auto;
       border: none;
       background: #fdfdfd;
-      padding: 0px; }
+      padding: 0px;
+      margin-bottom: 15px; }
       @media screen and (max-width: 1800px) {
         .formSection .form-wrap .tabs-content form fieldset {
           width: 85%; } }
@@ -357,7 +358,7 @@
               cursor: pointer; }
               @media screen and (max-width: 1090px) {
                 .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex input {
-                  width: 100%; } }
+                  width: 50%; } }
         .formSection .form-wrap .tabs-content form fieldset .content label {
           font-family: "Poppins", sans-serif;
           float: left;
@@ -501,6 +502,7 @@
     .formSection .sec1 {
       display: none; }
     .formSection .form-wrap {
+      border-left: 0px solid #000;
       width: 100%; } }
 
 .thankYou {
@@ -527,7 +529,7 @@
     font-weight: 800;
     color: #000;
     display: inline-block;
-    margin-top: 160px;
+    margin-top: 80px;
     margin-bottom: 50px; }
   @media screen and (max-width: 1680px) {
     .thankYou {
@@ -540,7 +542,7 @@
     .thankYou h3 {
       font-size: 14px; }
     .thankYou .h2 {
-      font-size: 24px; } }
+      font-size: 32px; } }
   @media screen and (max-width: 1090px) {
     .thankYou {
       padding: 80px; } }

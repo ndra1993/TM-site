@@ -49,6 +49,7 @@
 .wpcf7-not-valid-tip {
 	color: #dc3232; /* Red */
 	font-size: 1em;
+	padding-top: 10px;
 	font-weight: normal;
 	display: block;
 }
@@ -68,6 +69,8 @@
 	display: inline-block;
 	margin: 0 0 0 1em;
 }
+.wpcf7-list-item label{display: flex;}
+.wpcf7-list-item label .checkbox{width: 20% !important;}
 
 .wpcf7-list-item-label::before,
 .wpcf7-list-item-label::after {
