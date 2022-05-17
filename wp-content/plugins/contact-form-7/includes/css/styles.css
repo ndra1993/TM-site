@@ -47,6 +47,7 @@
 }
 
 .wpcf7-not-valid-tip {
+	font-family: "Poppins", sans-serif;
 	color: #dc3232; /* Red */
 	font-size: 1em;
 	padding-top: 10px;

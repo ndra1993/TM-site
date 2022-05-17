@@ -37,13 +37,13 @@
 			text-transform: uppercase;
 	
 			.signup-tab{
-				width: 50%;
+				width: 55%;
 			}
 			.login-tab{
-				width: 27%;
+				width: 30%;
 			}
 			.close{
-				width: 23%;
+				width: 15%;
 			}
 			a {
 				@include tabproperty;
@@ -65,7 +65,7 @@
 	
 			form {
 				fieldset {
-					width: 80%;
+					width: 100%;
 					height: auto;
 					border: none;
 					background: #fdfdfd;
@@ -73,11 +73,11 @@
 					margin-bottom:15px;
 			
 					@media screen and (max-width:1800px) {
-						width: 85%;
+						width: 100%;
 					}
 
 					@media screen and(max-width:1180px) {
-						width: 90%;
+						width: 100%;
 					}
 					@media screen and (max-width:1090px) {
 						width: 100%;
@@ -102,7 +102,13 @@
 							border-bottom: 3px solid #14CC8A;
 						}
 						
-						
+						.mobFlex{
+						@media screen and (max-width:1400px) {
+							@media screen and (max-width:1800px) {
+							padding: 46px 30px 34px 30px;
+						}
+						}
+						}
 				
 						.ctc{
 							width: 75%;
@@ -146,12 +152,14 @@
 									border: none;
 									width: 75%;
 									font-weight: $semibold-w;
-									font-size: 24px;
+									font-size: 16px;
 									@media screen and (max-width:1090px) {
 										width: 100%;
 									}
 								}
-				
+								.mob-file{
+								@media screen and (max-width:900px) {display:none;}
+								}
 								
 				
 								input{
@@ -166,7 +174,7 @@
 									cursor: pointer;
 				
 									@media screen and (max-width:1090px) {
-										width: 50%;
+										width: 75%;
 									}
 									
 				

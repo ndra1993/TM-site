@@ -237,11 +237,11 @@
       justify-content: space-between;
       text-transform: uppercase; }
       .formSection .form-wrap .tabs .signup-tab {
-        width: 50%; }
+        width: 55%; }
       .formSection .form-wrap .tabs .login-tab {
-        width: 27%; }
+        width: 30%; }
       .formSection .form-wrap .tabs .close {
-        width: 23%; }
+        width: 15%; }
       .formSection .form-wrap .tabs a {
         padding: 80px;
         text-decoration: none;
@@ -269,7 +269,7 @@
     .formSection .form-wrap .tabs-content .active {
       display: block !important; }
     .formSection .form-wrap .tabs-content form fieldset {
-      width: 80%;
+      width: 100%;
       height: auto;
       border: none;
       background: #fdfdfd;
@@ -277,10 +277,10 @@
       margin-bottom: 15px; }
       @media screen and (max-width: 1800px) {
         .formSection .form-wrap .tabs-content form fieldset {
-          width: 85%; } }
+          width: 100%; } }
       @media screen and (max-width: 1180px) {
         .formSection .form-wrap .tabs-content form fieldset {
-          width: 90%; } }
+          width: 100%; } }
       @media screen and (max-width: 1090px) {
         .formSection .form-wrap .tabs-content form fieldset {
           width: 100%; } }
@@ -338,14 +338,24 @@
                 display: block;
                 align-items: center;
                 justify-content: space-between; } }
+               @media screen and (max-width: 1400px) {
+              .formSection .form-wrap .tabs-content form fieldset .mobFlex    {
+                display: flex;
+                 } 
+
             .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .file-name, .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .upload-file {
               border: none;
               width: 75%;
               font-weight: 600;
-              font-size: 24px; }
+              font-size: 16px; }
               @media screen and (max-width: 1090px) {
                 .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .file-name, .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .upload-file {
                   width: 100%; } }
+                  @media screen and (max-width: 900px) {
+                  .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .mob-file{
+                    display: none;
+                  }
+                }
             .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex input {
               font-size: 16px;
               font-weight: 500;
@@ -358,7 +368,7 @@
               cursor: pointer; }
               @media screen and (max-width: 1090px) {
                 .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex input {
-                  width: 50%; } }
+                  width: 75%; } }
         .formSection .form-wrap .tabs-content form fieldset .content label {
           font-family: "Poppins", sans-serif;
           float: left;
