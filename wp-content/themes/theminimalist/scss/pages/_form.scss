@@ -103,7 +103,7 @@
 						}
 						
 						.mobFlex{
-						@media screen and (max-width:1400px) {
+						@media screen and (max-width:5000px) {
 							@media screen and (max-width:1800px) {
 							padding: 46px 30px 34px 30px;
 						}
@@ -151,10 +151,13 @@
 								.file-name, .upload-file{
 									border: none;
 									width: 75%;
-									font-weight: $semibold-w;
-									font-size: 16px;
+									
+									font-size: 24px;
 									@media screen and (max-width:1090px) {
 										width: 100%;
+									}
+									@media screen and (max-width:1366px) {
+										font-size: 18px;
 									}
 								}
 								.mob-file{
@@ -294,7 +297,7 @@
 					}
 					.checkboxContent{
 						border: none;
-						padding: 46px 0px 34px 46px;
+						padding: 46px 0px 34px 0px;
 						display: flex;
 						align-items: center;
 						width: 82%;
