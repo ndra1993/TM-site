@@ -237,7 +237,7 @@
       justify-content: space-between;
       text-transform: uppercase; }
       .formSection .form-wrap .tabs .signup-tab {
-        width: 55%; }
+        width: 56%; }
       .formSection .form-wrap .tabs .login-tab {
         width: 30%; }
       .formSection .form-wrap .tabs .close {
@@ -486,7 +486,7 @@
         text-transform: uppercase;
         text-decoration: none;
         margin-top: 20px;
-        border-bottom: none;
+        border: none;
         color: rgba(0, 0, 0, 0.2);
         padding: 80px;
         background: #E3E3E3;
