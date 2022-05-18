@@ -310,6 +310,7 @@
           align-items: center; }
           @media screen and (max-width: 1090px) {
             .formSection .form-wrap .tabs-content form fieldset .content .ctc {
+              margin-top:-15px;
               width: 100%; } }
           .formSection .form-wrap .tabs-content form fieldset .content .ctc select {
             font-family: "Poppins", sans-serif;
@@ -556,9 +557,13 @@
     .thankYou h3 {
       font-size: 14px; }
     .thankYou .h2 {
-      font-size: 32px; } }
+      font-size: 24px; } }
   @media screen and (max-width: 1090px) {
     .thankYou {
-      padding: 80px; } }
+      padding: 60px 80px; } 
+      .thankYou a{
+        margin-bottom: 0px;
+        margin-top: 60px;
+      }}
 
 /*# sourceMappingURL=main.css.map */
