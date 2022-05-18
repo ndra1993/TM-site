@@ -49,6 +49,7 @@
 				@include tabproperty;
 				
 			}
+
 			a.active {
 				@include onclicktab;
 			   
@@ -68,7 +69,7 @@
 					width: 100%;
 					height: auto;
 					border: none;
-					background: #fdfdfd;
+					background: #fff;
 					padding: 0px;
 					margin-bottom:15px;
 			
@@ -194,13 +195,13 @@
 							font-size: 16px;
 							color: $black;
 							font-weight: $medium-w;
-							line-height: 16px;
+							line-height: 20px;
 
 							@media  screen and (max-width:1640px) {
-								width: 33%;
+								width: 17%;
 							}
 				
-							@media screen and (max-width:1280px) {
+							@media screen and (max-width:1366px) {
 								font-size: 16px;
 								line-height: 20px;
 							}
@@ -231,12 +232,12 @@
 								outline: none;
 							}
 				
-							@media screen and (max-width:1280px) {
+							@media screen and (max-width:1366px) {
 								font-size: 18px;
 								line-height: 24px;
 							}
 							@media screen and (max-width:1090px) {
-								font-size: 24px;
+								font-size: 18px;
 								width: 100%;
 								padding: 0px;
 							}

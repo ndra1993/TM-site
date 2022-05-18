@@ -272,7 +272,7 @@
       width: 100%;
       height: auto;
       border: none;
-      background: #fdfdfd;
+      background: #fff;
       padding: 0px;
       margin-bottom: 15px; }
       @media screen and (max-width: 1800px) {
@@ -380,11 +380,11 @@
           font-size: 16px;
           color: #000;
           font-weight: 500;
-          line-height: 16px; }
+          line-height: 20px; }
           @media screen and (max-width: 1640px) {
             .formSection .form-wrap .tabs-content form fieldset .content label {
-              width: 33%; } }
-          @media screen and (max-width: 1280px) {
+              width: 17%; } }
+          @media screen and (max-width: 1366px) {
             .formSection .form-wrap .tabs-content form fieldset .content label {
               font-size: 16px;
               line-height: 20px; } }
@@ -408,13 +408,13 @@
             border: none; }
           .formSection .form-wrap .tabs-content form fieldset .content input:focus {
             outline: none; }
-          @media screen and (max-width: 1280px) {
+          @media screen and (max-width: 1366px) {
             .formSection .form-wrap .tabs-content form fieldset .content input {
               font-size: 18px;
               line-height: 24px; } }
           @media screen and (max-width: 1090px) {
             .formSection .form-wrap .tabs-content form fieldset .content input {
-              font-size: 24px;
+              font-size: 18px;
               width: 100%;
               padding: 0px; } }
         .formSection .form-wrap .tabs-content form fieldset .content .InputGroup {
