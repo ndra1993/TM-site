@@ -300,7 +300,8 @@
             padding: 46px 20px 34px 20px; } }
         @media screen and (max-width: 1090px) {
           .formSection .form-wrap .tabs-content form fieldset .content {
-            padding: 25px 30px; } }
+            padding: 25px 30px; } 
+            .mobFlex{display: block;}}
         .formSection .form-wrap .tabs-content form fieldset .content:active, .formSection .form-wrap .tabs-content form fieldset .content:focus, .formSection .form-wrap .tabs-content form fieldset .content:hover {
           outline: none;
           border-bottom: 3px solid #14CC8A; }
@@ -355,10 +356,13 @@
               }
               @media screen and (max-width: 1090px) {
                 .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .file-name, .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .upload-file {
-                  width: 100%; } }
+                  width: 100%; } 
+                  .formSection .form-wrap .tabs-content form fieldset .mobFlex{
+                    display: block;
+                  }}
                   @media screen and (max-width: 900px) {
                   .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .mob-file{
-                    display: none;
+                    display: block;
                   }
                 }
             .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex input {
@@ -475,13 +479,19 @@
         .formSection .form-wrap .tabs-content form fieldset .checkboxContent input.checkbox {
           margin: 0;
           padding: 2px 0;
-          width: 24px;
-          height: 24px;
+          width: 35px;
+          height: 35px;
           margin-bottom: 20px;
+          margin-right: 15px;
           cursor: pointer; }
           @media screen and (max-width: 770px) {
             .formSection .form-wrap .tabs-content form fieldset .checkboxContent input.checkbox {
-              margin-right: 15px; } }
+              margin-right: 10px;
+              width:24px; } }
+              @media screen and (max-width: 575px) {
+            .formSection .form-wrap .tabs-content form fieldset .checkboxContent input.checkbox {
+              width:40px;
+              height:30px; } }
           .formSection .form-wrap .tabs-content form fieldset .checkboxContent input.checkbox:checked {
             background: #00FFA3; }
       .formSection .form-wrap .tabs-content form fieldset .submit {
@@ -552,15 +562,15 @@
       .thankYou h3 {
         font-size: 16px; }
       .thankYou .h2 {
-        font-size: 32px; } }
-  @media screen and (max-width: 1280px) {
+        font-size: 32px; line-height: 30px;} }
+  @media screen and (max-width: 1400px) {
     .thankYou h3 {
       font-size: 14px; }
     .thankYou .h2 {
       font-size: 24px; } }
   @media screen and (max-width: 1090px) {
     .thankYou {
-      padding: 60px 80px; } 
+      padding: 100px 80px; } 
       .thankYou a{
         margin-bottom: 0px;
         margin-top: 60px;

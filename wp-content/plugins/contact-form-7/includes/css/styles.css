@@ -11,6 +11,10 @@
 	word-wrap: normal !important;
 }
 
+.wpcf7-response-output{
+	font-family: "Poppins", sans-serif;
+}
+
 .wpcf7 form .wpcf7-response-output {
 	margin: 2em 0.5em 1em;
 	padding: 0.2em 1em;
@@ -72,7 +76,10 @@
 	font-family: "Poppins", sans-serif;
 }
 .wpcf7-list-item label{display: flex;}
-.wpcf7-list-item label .checkbox{width: 15% !important;}
+/*.wpcf7-list-item label .checkbox{width: 15% !important;}*/
+@media screen and (max-width:700px) {
+	.wpcf7-list-item{margin: 0 0 0 0em;}
+}
 
 .wpcf7-list-item-label::before,
 .wpcf7-list-item-label::after {
