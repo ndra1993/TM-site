@@ -114,7 +114,8 @@ $extrabold-w: 800;
 // ----------------------------------------------------------------------
 // CTA
 // ----------------------------------------------------------------------
-
+.letstalksection{
+	width:max-content;
 
 .letstalkCta{
     font-family: $main-font;
@@ -136,10 +137,10 @@ $extrabold-w: 800;
 	}
 
 	@media screen and (max-width:780px){
-		padding: 42px;
+		padding: 20px;
 		font-size: 13px;
 	}
-
+}
 	
 }
 
