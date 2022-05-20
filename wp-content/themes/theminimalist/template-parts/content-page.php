@@ -21,7 +21,9 @@
                     </h4>
                     <a href="<?php echo site_url();?>" target="_blank"><img src="<?php bloginfo('template_directory');?>/images/qr-code.png" alt="" /></a>
                 </div>
-                <a href="<?php echo site_url('/forms/');?>" class="letstalkCta">LETS TALK</a>
+                <div class="letstalksection">
+                    <a href="<?php echo site_url('/forms/');?>" class="letstalkCta">LETS TALK</a>
+                </div>
             </div>
         </div>
     </header>
