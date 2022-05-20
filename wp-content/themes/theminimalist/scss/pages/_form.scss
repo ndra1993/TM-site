@@ -88,14 +88,17 @@
 						@include display-property(flex,center);
 						padding: 46px 44px 34px 42px;
 				
+						@media screen and (min-width:2000px) {
+							justify-content: normal;
+						}
 						@media screen and (max-width:1800px) {
 							padding: 46px 30px 34px 30px;
 						}
 						@media screen and (max-width:1280px) {
-							@include display-property(block,center);
 							padding: 46px 20px 34px 20px;
 						}
 						@media screen and (max-width:1090px) {
+							@include display-property(block,center);
 							padding: 25px 30px;
 						}
 						&:active, &:focus ,&:hover {
@@ -223,10 +226,11 @@
 							font-size: 24px;
 							font-weight: $semibold-w;
 							margin: 0;
-							padding: 0 10px;
+							padding: 0 0px;
 							width: 75%;
 							vertical-align: middle;
 							caret-color: $green;
+							cursor: pointer;
 
 							
 							&:hover {
@@ -363,7 +367,7 @@
 						}
 						
 						@media screen and (max-width:770px) {
-							height:100px;
+							padding: 25px 50px;
 							width: 100%;
 							text-align: center;
 						}

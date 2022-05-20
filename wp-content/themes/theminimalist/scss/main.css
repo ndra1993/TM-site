@@ -134,6 +134,11 @@
           position: static; } }
       .videoSec .textVideo .videoLogos #video {
         width: 100%; }
+        .logos{
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+        }
       .videoSec .textVideo .videoLogos .logos .logoImg img {
         width: 100%;
         text-align: center; }
@@ -289,17 +294,22 @@
         align-items: center;
         justify-content: space-between;
         padding: 46px 44px 34px 42px; }
+        @media screen and (min-width: 2000px) {
+          .formSection .form-wrap .tabs-content form fieldset .content {
+            justify-content: normal;
+          }
+        }
         @media screen and (max-width: 1800px) {
           .formSection .form-wrap .tabs-content form fieldset .content {
             padding: 46px 30px 34px 30px; } }
         @media screen and (max-width: 1280px) {
           .formSection .form-wrap .tabs-content form fieldset .content {
-            display: block;
             align-items: center;
             justify-content: space-between;
             padding: 46px 20px 34px 20px; } }
         @media screen and (max-width: 1090px) {
           .formSection .form-wrap .tabs-content form fieldset .content {
+            display: block;
             padding: 25px 30px; } 
             .mobFlex{display: block;}}
         .formSection .form-wrap .tabs-content form fieldset .content:active, .formSection .form-wrap .tabs-content form fieldset .content:focus, .formSection .form-wrap .tabs-content form fieldset .content:hover {
@@ -405,10 +415,11 @@
           font-size: 24px;
           font-weight: 600;
           margin: 0;
-          padding: 0 10px;
+          padding: 0 0px;
           width: 75%;
           vertical-align: middle;
-          caret-color: #00FFA3; }
+          caret-color: #00FFA3;
+          cursor: pointer;}
           .formSection .form-wrap .tabs-content form fieldset .content input:hover {
             border: none; }
           .formSection .form-wrap .tabs-content form fieldset .content input:focus {
@@ -515,7 +526,7 @@
             font-size: 18px; } }
         @media screen and (max-width: 770px) {
           .formSection .form-wrap .tabs-content form fieldset .submit {
-            height: 100px;
+            padding: 25px 50px;
             width: 100%;
             text-align: center; } }
   @media screen and (max-width: 1450px) {

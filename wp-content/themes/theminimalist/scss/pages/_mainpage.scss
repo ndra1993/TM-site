@@ -86,6 +86,9 @@
             }
 
             .logos {
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
                 .logoImg {
                     img {
                         width: 100%;
