@@ -12,6 +12,7 @@
     @media screen and (max-width:768px) {margin-top:25px;}
     .headerSection {
         margin: 0 auto;
+        margin-top: -5px;
         @include display-property(flex, baseline);
 
 
