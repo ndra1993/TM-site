@@ -67,7 +67,7 @@
   color: #000;
   border-radius: 3px;
   background-color: #00FFA3;
-  padding: 80px;
+  padding: 50px 80px;
   text-decoration: none;
   cursor: pointer;
   border: none; }
@@ -89,12 +89,15 @@
   width: 100%; }
   .mainHeader .headerSection {
     margin-top: -5px;
-    margin: 0 auto;
+    /*margin: 0 auto;*/
     display: flex;
     align-items: baseline;
     justify-content: space-between; }
+    @media screen and (max-width: 1600px) {
+      .mainHeader .headerSection {margin-top: -2px;}
+    }
     @media screen and (max-width: 768px) {
-      .mainHeader {margin-top: 25px;}
+      .mainHeader {margin: 25px 0px;}
       .mainHeader .headerSection .tmLogo {
         margin-left: 28px;
         width: 44%; }
