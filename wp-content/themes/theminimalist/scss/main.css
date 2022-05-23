@@ -425,7 +425,7 @@
           padding: 0 0px;
           width: 75%;
           vertical-align: middle;
-          caret-color: #00FFA3;
+          caret-color: #000;
           cursor: pointer;}
           .formSection .form-wrap .tabs-content form fieldset .content input:hover {
             border: none; }
