@@ -93,6 +93,7 @@
     align-items: baseline;
     justify-content: space-between; }
     @media screen and (max-width: 768px) {
+      .mainHeader {margin-top: 25px;}
       .mainHeader .headerSection .tmLogo {
         margin-left: 28px;
         width: 44%; }
@@ -140,7 +141,9 @@
           display: flex;
           align-items: center;
           justify-content: space-around;
+          margin: 10px auto;
         }
+        .videoSec .textVideo .videoLogos .logos .logoImg{margin: auto 10px;}
       .videoSec .textVideo .videoLogos .logos .logoImg img {
         width: 100%;
         text-align: center; }

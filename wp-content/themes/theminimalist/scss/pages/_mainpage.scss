@@ -9,7 +9,7 @@
 
 .mainHeader {
     width: 100%;
-
+    @media screen and (max-width:768px) {margin-top:25px;}
     .headerSection {
         margin: 0 auto;
         @include display-property(flex, baseline);
@@ -89,7 +89,9 @@
                 display: flex;
                 align-items: center;
                 justify-content: space-around;
+                margin: 10px auto;
                 .logoImg {
+                        margin: auto 10px;
                     img {
                         width: 100%;
                         text-align: center;
