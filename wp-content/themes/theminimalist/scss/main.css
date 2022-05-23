@@ -67,7 +67,7 @@
   color: #000;
   border-radius: 3px;
   background-color: #00FFA3;
-  padding: 50px 80px;
+  padding: 50px;
   text-decoration: none;
   cursor: pointer;
   border: none; }
@@ -525,7 +525,8 @@
               width:40px;
               height:30px; } }
           .formSection .form-wrap .tabs-content form fieldset .checkboxContent input.checkbox:checked {
-            background: #00FFA3; }
+            background: #00FFA3;
+            accent-color: #00FFA3; }
       .formSection .form-wrap .tabs-content form fieldset .submit {
         font-family: "Poppins", sans-serif;
         font-weight: 800;
