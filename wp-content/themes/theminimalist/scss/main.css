@@ -266,7 +266,8 @@
         display: block;
         color: #000;
         font-family: "Poppins", sans-serif;
-        border: 1px solid #000; }
+        border: 1px solid #000; 
+        position: relative;}
         @media screen and (max-width: 1800px) {
           .formSection .form-wrap .tabs a {
             padding: 70px; } }
@@ -276,9 +277,19 @@
         @media screen and (max-width: 1280px) {
           .formSection .form-wrap .tabs a {
             padding: 50px 15px; } }
-      .formSection .form-wrap .tabs a.active {
+      /*.formSection .form-wrap .tabs a.active {
         background-color: #fff;
-        border-bottom: 6px solid #00FFA3; }
+        border-bottom: 6px solid #00FFA3; }*/
+        .formSection .form-wrap .tabs a.active:before{
+          content: "";
+          position: absolute;
+          border: 5px solid #00FFA3;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          background-color: #fff;
+          
+        }
     .formSection .form-wrap .tabs-content div[id$="tab-content"] {
       display: none; }
     .formSection .form-wrap .tabs-content .active {
@@ -428,7 +439,7 @@
           padding: 0 0px;
           width: 75%;
           vertical-align: middle;
-          caret-color: #000;
+          caret-color: #00FFA3;
           cursor: pointer;}
           .formSection .form-wrap .tabs-content form fieldset .content input:hover {
             border: none; }

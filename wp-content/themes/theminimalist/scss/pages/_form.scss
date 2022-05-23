@@ -47,12 +47,21 @@
 			}
 			a {
 				@include tabproperty;
+				position:relative;
 				
 			}
 
 			a.active {
 				@include onclicktab;
 			   
+			}
+			&:active:before{
+				content: "";
+                position: absolute;
+                border: 5px solid #00FFA3;
+                bottom: 0;
+                left: 0;
+                right: 0;
 			}	
 		}
 		.tabs-content {
@@ -229,7 +238,7 @@
 							padding: 0 0px;
 							width: 75%;
 							vertical-align: middle;
-							caret-color: #000;
+							caret-color: #00FFA3;
 							cursor: pointer;
 
 							
