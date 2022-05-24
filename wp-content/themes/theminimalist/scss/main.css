@@ -441,6 +441,7 @@
           vertical-align: middle;
           caret-color: #00FFA3;
           cursor: pointer;}
+          .formSection .form-wrap .tabs-content form fieldset .content input .hide-radio{display: none;}
           .formSection .form-wrap .tabs-content form fieldset .content input:hover {
             border: none; }
           .formSection .form-wrap .tabs-content form fieldset .content input:focus {
