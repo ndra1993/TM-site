@@ -91,7 +91,7 @@
     margin-top: -5px;
     /*margin: 0 auto;*/
     display: flex;
-    align-items: baseline;
+    align-items: center;
     justify-content: space-between; }
     @media screen and (min-width: 1600px) {
       .mainHeader .headerSection {margin-top: -2px;}
@@ -99,8 +99,8 @@
     @media screen and (max-width: 768px) {
       .mainHeader {margin: 25px 0px;}
       .mainHeader .headerSection .tmLogo {
-        margin-left: 28px;
-        width: 44%; }
+        margin-left: 20px;
+        width: 75%; }
         .mainHeader .headerSection .tmLogo img {
           width: 80%; } }
     .mainHeader .headerSection .qrCode {
@@ -525,8 +525,8 @@
               width:40px;
               height:30px; } }
           .formSection .form-wrap .tabs-content form fieldset .checkboxContent input.checkbox:checked {
-            background: #00FFA3;
-            accent-color: #00FFA3; }
+            /*background: #00FFA3;*/
+            accent-color: #00FFA3 !important; }
       .formSection .form-wrap .tabs-content form fieldset .submit {
         font-family: "Poppins", sans-serif;
         font-weight: 800;
