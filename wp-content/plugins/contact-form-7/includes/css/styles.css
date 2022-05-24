@@ -76,17 +76,17 @@
 	display: inline-block;
 	margin: 0 0 0 1em;
 	font-family: "Poppins", sans-serif;
-	border: 1px solid #000000;
+	/*border: 1px solid #000000;
     padding: 10px 10px;
     border-radius: 5px;
     font-weight: 500;
     letter-spacing: -0.03em;
-    background: #fff;
+    background: #fff;*/
 }
-.wpcf7-list-item:active {    
+/*.wpcf7-list-item:active {    
 	background: #00FFA3;
     border: none;}
-.wpcf7-list-item input{display: none;}
+.wpcf7-list-item input{display: none;}*/
 
 @media screen and (max-width:1090px) {
 .wpcf7-list-item{font-size: 13px;}
