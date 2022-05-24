@@ -36,7 +36,7 @@
                 </h1>
             </div>
             <div class="videoLogos">
-                <!-- <div class="hoverDiv"></div> -->
+                <div class="hoverDiv"></div>
                 <div class="mainVideo">
                     <video id="video" src="<?php bloginfo('template_directory');?>/images/butterfly_nectar_feeding_moth_beak_689.mp4" controls="true" autoplay="autoplay" loop="true"muted defaultmuted playsinline /></video>
                     <!-- <video id="video" controls>
