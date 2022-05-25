@@ -110,6 +110,9 @@
 							@include display-property(block,center);
 							padding: 25px 30px;
 						}
+						@media screen and (max-width:1090px) {
+							padding: 25px 20px;
+						}
 						&:active, &:focus ,&:hover {
 							outline: none;
 							border-bottom: 3px solid #14CC8A;
@@ -167,7 +170,7 @@
 				
 								.file-name, .upload-file{
 									border: none;
-									width: 75%;
+									width: 70%;
 									
 									font-size: 24px;
 									@media screen and (max-width:1090px) {
@@ -186,13 +189,15 @@
 									font-size: 16px;
 									font-weight: $medium-w;
 									color: $black;
-									width: 28%;
+									width: 25%;
 									background-color: $white;
 									border: 1px dashed $black;
 									border-radius: 5px;
 									padding: 10px 0px;
 									cursor: pointer;
-				
+									white-space: nowrap;
+								    overflow: hidden;
+								    text-overflow: ellipsis;
 									@media screen and (max-width:1090px) {
 										width: 75%;
 									}
@@ -348,7 +353,7 @@
 								height:30px;
 							}
 							&:checked{
-								accent-color: #00FFA3;
+								accent-color: hsl(158deg 100% 50%) !important;
 							}
 						}	
 					}

@@ -378,7 +378,7 @@
 
             .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .file-name, .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .upload-file {
               border: none;
-              width: 75%;
+              width: 70%;
               /*font-weight: 500;*/
               font-size: 24px; }
               @media screen and (max-width: 1366px) {
@@ -405,7 +405,10 @@
               border: 1px dashed #000;
               border-radius: 5px;
               padding: 10px 0px;
-              cursor: pointer; }
+              cursor: pointer; 
+              white-space: nowrap;
+              overflow: hidden;
+              text-overflow: ellipsis;}
               @media screen and (max-width: 1090px) {
                 .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex input {
                   width: 75%; } }
@@ -527,7 +530,7 @@
               height:30px; } }
           .formSection .form-wrap .tabs-content form fieldset .checkboxContent input.checkbox:checked {
             /*background: #00FFA3;*/
-            accent-color: #00FFA3 !important; }
+            accent-color: hsl(158deg 100% 50%) !important; }
       .formSection .form-wrap .tabs-content form fieldset .submit {
         font-family: "Poppins", sans-serif;
         font-weight: 800;
