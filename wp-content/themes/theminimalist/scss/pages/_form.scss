@@ -348,7 +348,7 @@
 							margin: 0;
 							padding: 2px 0;
 							width: 35px;
-							height: 35px;
+							height: 30px;
 							margin-bottom: 20px;
 							cursor: pointer;
 							margin-right: 15px;
@@ -361,7 +361,7 @@
 								height:30px;
 							}
 							&:checked{
-								accent-color: hsl(158deg 100% 50%);
+								accent-color: rgb(0 255 162);
 							}
 						}	
 					}
