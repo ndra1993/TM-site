@@ -78,7 +78,7 @@
 	font-family: "Poppins", sans-serif;
 	
 }
-.content .wpcf7-list-item {
+/*.content .wpcf7-list-item {
 	padding: 10px 10px;
     border-radius: 5px;
     font-weight: 500;
@@ -88,7 +88,7 @@
 .content .wpcf7-list-item:active {    
 	background: #00FFA3;
     border: none;}
-.content .wpcf7-list-item input[type='radio']{display: none;}
+.content .wpcf7-list-item input[type='radio']{display: none;}*/
 /*.content .wpcf7-list-item-label{
 	border: 1px solid #000000;
     padding: 10px 10px;
