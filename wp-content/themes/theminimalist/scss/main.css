@@ -256,7 +256,8 @@
       .formSection .form-wrap .tabs .login-tab {
         width: 30%; }
       .formSection .form-wrap .tabs .close {
-        width: 15%; }
+        width: 15%;
+        border-right: 0; }
       .formSection .form-wrap .tabs a {
         padding: 80px;
         text-decoration: none;
@@ -266,7 +267,8 @@
         display: block;
         color: #000;
         font-family: "Poppins", sans-serif;
-        border: 1px solid #000; 
+        border-bottom: 1px solid #000;
+        border-right: 1px solid #000; 
         position: relative;}
         @media screen and (max-width: 1800px) {
           .formSection .form-wrap .tabs a {
@@ -314,7 +316,8 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 46px 44px 34px 42px; }
+        padding: 46px 44px 34px 42px;
+        border-bottom: 1px solid #000; }
         @media screen and (min-width: 2000px) {
           .formSection .form-wrap .tabs-content form fieldset .content {
             justify-content: normal;
@@ -333,9 +336,15 @@
             display: block;
             padding: 25px 30px; } 
             .mobFlex{display: block;}}
-        .formSection .form-wrap .tabs-content form fieldset .content:active, .formSection .form-wrap .tabs-content form fieldset .content:focus, .formSection .form-wrap .tabs-content form fieldset .content:hover {
-          outline: none;
-          border-bottom: 3px solid #14CC8A; }
+        .formSection .form-wrap .tabs-content form fieldset .content:active:after, .formSection .form-wrap .tabs-content form fieldset .content:focus:after, .formSection .form-wrap .tabs-content form fieldset .content:hover:after {
+          border: 3px solid #14CC8A;
+    position: absolute;
+    content: "";
+    /*width: 100%;*/
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #fff; }
         .formSection .form-wrap .tabs-content form fieldset .content .ctc {
           width: 75%;
           display: flex;
@@ -494,7 +503,7 @@
           .formSection .form-wrap .tabs-content form fieldset .content .InputGroup input[type="radio"]:checked + label {
             background-color: #00FFA3; }
       .formSection .form-wrap .tabs-content form fieldset .borderBlack {
-        border-bottom: 1px solid #000; }
+        position: relative; }
       .formSection .form-wrap .tabs-content form fieldset .borderDotted {
         border-bottom: 1px dashed #000; }
       .formSection .form-wrap .tabs-content form fieldset .checkboxContent {
@@ -530,7 +539,7 @@
               height:30px; } }
           .formSection .form-wrap .tabs-content form fieldset .checkboxContent input.checkbox:checked {
             /*background: #00FFA3;*/
-            accent-color: hsl(158deg 100% 50%) !important; }
+            accent-color: hsl(158deg 100% 50%); }
       .formSection .form-wrap .tabs-content form fieldset .submit {
         font-family: "Poppins", sans-serif;
         font-weight: 800;

@@ -164,7 +164,8 @@ $extrabold-w: 800;
 	display: block;
 	color: $black;
 	font-family: $main-font;
-	border: 1px solid $black;
+	border-bottom: 1px solid $black;
+	border-right: 1px solid $black;
 	position:relative;
 
 	@media screen and (max-width:1800px) {

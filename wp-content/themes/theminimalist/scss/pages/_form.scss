@@ -44,6 +44,7 @@
 			}
 			.close{
 				width: 15%;
+				border-right: 0;
 			}
 			a {
 				@include tabproperty;
@@ -96,6 +97,7 @@
 					.content{
 						@include display-property(flex,center);
 						padding: 46px 44px 34px 42px;
+						border-bottom:1px solid #000;
 				
 						@media screen and (min-width:2000px) {
 							justify-content: normal;
@@ -113,9 +115,14 @@
 						@media screen and (max-width:1090px) {
 							padding: 25px 20px;
 						}
-						&:active, &:focus ,&:hover {
-							outline: none;
-							border-bottom: 3px solid #14CC8A;
+						&:active:after, &:focus:after ,&:hover:after {
+							border: 3px solid #14CC8A;
+						    position: absolute;
+						    content: "";
+						    right: 0;
+						    bottom: 0;
+						    left: 0;
+						    background: #fff;
 						}
 						
 						.mobFlex{
@@ -137,6 +144,7 @@
 								margin-top:-15px;
 								width: 100%;
 							}
+							.cars{width:auto;}
 	
 							select {
 								font-family: $main-font;
@@ -312,7 +320,7 @@
 					}
 
 					.borderBlack{
-						border-bottom: 1px solid $black;
+						position:relative;
 					}
 
 					.borderDotted{
@@ -353,7 +361,7 @@
 								height:30px;
 							}
 							&:checked{
-								accent-color: hsl(158deg 100% 50%) !important;
+								accent-color: hsl(158deg 100% 50%);
 							}
 						}	
 					}
