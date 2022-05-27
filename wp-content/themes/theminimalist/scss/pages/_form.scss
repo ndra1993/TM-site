@@ -55,15 +55,16 @@
 			a.active {
 				@include onclicktab;
 			   
-			}
-			&:active:before{
+			
+			&:after{
 				content: "";
                 position: absolute;
                 border: 5px solid #00FFA3;
                 bottom: 0;
                 left: 0;
                 right: 0;
-			}	
+			}
+		}	
 		}
 		.tabs-content {
 			

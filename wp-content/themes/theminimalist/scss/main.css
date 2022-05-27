@@ -282,10 +282,7 @@
         @media screen and (max-width: 1280px) {
           .formSection .form-wrap .tabs a {
             padding: 50px 15px; } }
-      .formSection .form-wrap .tabs a.active {
-        background-color: #fff;
-        border-bottom: 6px solid #00FFA3; }
-      .formSection .form-wrap .tabs:active:before {
+      .formSection .form-wrap .tabs a.active:after {
         content: "";
         position: absolute;
         border: 5px solid #00FFA3;
