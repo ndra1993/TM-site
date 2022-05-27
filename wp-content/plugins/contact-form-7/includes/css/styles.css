@@ -89,6 +89,7 @@
     border: 1px solid;
     white-space: nowrap;
     display: inline-block;
+    cursor: pointer;
 }
 .content .wpcf7-list-item input[type="radio"]{
 	visibility: hidden;
