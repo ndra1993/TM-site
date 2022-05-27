@@ -123,6 +123,9 @@
 	.radio-915 .wpcf7-list-item, .radio-552 .wpcf7-list-item{margin: 0 2em 0 0em;}
 	.wpcf7-list-item{margin: 0 0 0 3em;}
 }
+@media screen and (max-width:400px) {
+	.radio-915 .wpcf7-list-item, .radio-552 .wpcf7-list-item{margin: 0 0.5em 0 0em;}
+}
 
 .wpcf7-list-item label{display: flex;}
 /*.wpcf7-list-item label .checkbox{width: 15% !important;}*/
