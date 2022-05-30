@@ -314,7 +314,9 @@
         align-items: center;
         justify-content: space-between;
         padding: 46px 44px 34px 42px;
-        border-bottom: 1px solid #000; }
+        border-bottom: 1px dashed #000; }
+        .formSection .form-wrap .tabs-content form fieldset .content:focus {
+          border-bottom: 1px solid #000; }
         @media screen and (min-width: 2000px) {
           .formSection .form-wrap .tabs-content form fieldset .content {
             justify-content: normal; } }
