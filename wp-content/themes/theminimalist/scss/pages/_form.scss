@@ -55,16 +55,15 @@
 			a.active {
 				@include onclicktab;
 			   
-			
-			&:after{
+			}
+			&:active:before{
 				content: "";
                 position: absolute;
                 border: 5px solid #00FFA3;
                 bottom: 0;
                 left: 0;
                 right: 0;
-			}
-		}	
+			}	
 		}
 		.tabs-content {
 			
@@ -362,8 +361,7 @@
 								height:30px;
 							}
 							&:checked{
-								--brand: rgb(0 255 162);
-    							accent-color: var(--brand);
+								accent-color: rgb(0 255 162);
 							}
 						}	
 					}

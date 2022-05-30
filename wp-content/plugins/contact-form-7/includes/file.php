@@ -9,7 +9,7 @@
  */
 function wpcf7_unship_uploaded_file( $file, $args = '' ) {
 	$args = wp_parse_args( $args, array(
-		'required' => false,
+		'required' => true,
 		'filetypes' => '',
 		'limit' => MB_IN_BYTES,
 	) );

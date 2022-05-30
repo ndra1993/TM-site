@@ -182,5 +182,6 @@ $extrabold-w: 800;
 
 
 @mixin onclicktab {
-	
+	background-color: $white;
+	border-bottom: 6px solid $green;
 }
