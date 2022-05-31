@@ -85,142 +85,94 @@
   padding: 0;
   box-sizing: border-box; }
 
-.mainHeader {
-  width: 100%; }
-  @media screen and (max-width: 768px) {
-    .mainHeader {
-      margin: 25px 0px; } }
-  .mainHeader .headerSection {
-    margin-top: -5px;
-    align-items: center;
+header {
+  padding-left: 75px; }
+  header .headerContent {
     display: flex;
-    align-items: baseline;
+    align-items: center;
     justify-content: space-between; }
-    @media screen and (min-width: 1600px) {
-      .mainHeader .headerSection {
-        margin-top: -2px; } }
-    @media screen and (max-width: 768px) {
-      .mainHeader .headerSection .tmLogo {
-        margin-left: 20px;
-        width: 75%; }
-        .mainHeader .headerSection .tmLogo img {
-          width: 80%; } }
-    .mainHeader .headerSection .qrCode {
-      display: flex;
-      align-items: center;
-      justify-content: space-between; }
-      .mainHeader .headerSection .qrCode .qrcodeContent {
-        display: flex;
-        align-items: center;
-        justify-content: space-between; }
-        .mainHeader .headerSection .qrCode .qrcodeContent a {
-          margin: 0px 10px 0px 40px; }
-          @media screen and (max-width: 1000px) {
-            .mainHeader .headerSection .qrCode .qrcodeContent a {
-              margin: 0px 10px 0px 10px; } }
+  header .homeBox {
+    display: flex;
+    align-items: center; }
+  header .homeBox p {
+    width: 200px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000; }
     @media screen and (max-width: 1020px) {
-      .mainHeader .headerSection .qrCode .qrcodeContent {
+      header .homeBox p {
         display: none;
         align-items: none;
         justify-content: space-between; } }
-
-.videoSec {
-  position: relative; }
-  .videoSec .textVideo {
-    height: 100vh;
-    position: relative;
+  header .homeBox .qrImg {
+    margin: 0px 15px; }
+    @media screen and (max-width: 1020px) {
+      header .homeBox .qrImg {
+        display: none;
+        align-items: none;
+        justify-content: space-between; } }
+  header .homeBox .connectCta {
+    padding: 80px;
+    background: #00FFA3;
+    text-align: center;
     display: flex;
-    align-items: center;
-    flex-flow: wrap;
-    transition: 0.2s all; }
-    .videoSec .textVideo .videoLogos {
-      width: 45%;
-      margin-left: auto;
-      position: relative; }
-      @media screen and (max-width: 780px) {
-        .videoSec .textVideo .videoLogos {
-          width: 100%;
-          position: static; } }
-      .videoSec .textVideo .videoLogos #video {
-        width: 100%; }
-      .videoSec .textVideo .videoLogos .logos {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        margin: 10px auto; }
-        .videoSec .textVideo .videoLogos .logos .logoImg {
-          margin: auto 10px; }
-          .videoSec .textVideo .videoLogos .logos .logoImg img {
-            width: 100%;
-            text-align: center; }
-    .videoSec .textVideo .textLarge {
-      position: absolute;
-      top: 42%;
-      left: 0;
-      z-index: 1;
-      width: 78%;
-      margin: auto;
-      transform: translateY(-50%); }
-      @media screen and (max-width: 1050px) {
-        .videoSec .textVideo .textLarge {
-          width: 73%; } }
-      @media screen and (max-width: 780px) {
-        .videoSec .textVideo .textLarge {
-          width: 100%;
-          margin-bottom: 35px;
-          position: static;
-          transform: translateY(5%);
-          margin: 20px; } }
-    .videoSec .textVideo .hoverDiv {
-      top: 62px;
-      position: absolute;
-      height: 255px !important;
-      width: 452px !important;
-      background-color: brown;
-      right: 0;
-      display: none; }
-    .videoSec .textVideo:hover {
-      transition: 1s all; }
-      .videoSec .textVideo:hover .textLarge {
-        width: 35%;
-        transition: 1s all;
-        top: 52%; }
-        .videoSec .textVideo:hover .textLarge .h1 {
-          font-size: 64px; }
-          @media screen and (max-width: 1600px) {
-            .videoSec .textVideo:hover .textLarge .h1 {
-              font-size: 52px; } }
-      .videoSec .textVideo:hover .videoLogos {
-        width: 65%;
-        transition: 1s all; }
-    @media screen and (max-width: 1400px) {
-      .videoSec .textVideo {
-        height: 65vh; }
-        .videoSec .textVideo:hover {
-          height: 20vh; }
-          .videoSec .textVideo:hover .textLarge {
-            top: 70%; }
-            .videoSec .textVideo:hover .textLarge .h1 {
-              font-size: 42px; } }
-        @media screen and (max-width: 1400px) and (max-width: 1050px) {
-          .videoSec .textVideo:hover .textLarge .h1 {
-            font-size: 32px; } }
+    justify-content: center;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #000000; }
 
-    @media screen and (max-width: 1050px) {
-      .videoSec .textVideo {
-        pointer-events: none;
-        height: 67vh; }
-        .videoSec .textVideo:hover {
-          height: 100vh; }
-          .videoSec .textVideo:hover .textLarge {
-            pointer-events: none; }
-            .videoSec .textVideo:hover .textLarge .h1 {
-              pointer-events: none; }
-          .videoSec .textVideo:hover .videoLogos {
-            pointer-events: none; } }
-    @media screen and (max-width: 768px) {
-      .videoSec .textVideo {
-        height: 40vh; } }
+.homeBanner {
+  height: calc(100vh - 100px);
+  overflow: hidden;
+  margin-top: 100px; }
+
+.bannerContent {
+  position: relative;
+  height: 100%; }
+
+.bannerText {
+  width: 70%;
+  position: absolute;
+  top: 0;
+  left: 75px;
+  z-index: 1;
+  transition: .5s all ease-in-out; }
+  .bannerText .textHover {
+    width: 30%;
+    top: 5%;
+    transition: .5s all ease-in-out; }
+    .bannerText .textHover h1 {
+      font-size: 40px; }
+
+.bannerVideo {
+  width: 40%;
+  right: 0;
+  top: 10%;
+  height: auto;
+  position: absolute;
+  margin: auto;
+  transition: .5s all ease-in-out; }
+  .bannerVideo .vidHover {
+    width: 60%;
+    right: 0;
+    top: 0%;
+    transition: .5s all ease-in-out; }
+  .bannerVideo video {
+    width: 100%;
+    height: auto; }
+  .bannerVideo .videoHoverBox {
+    background: transparent;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 2; }
 
 .formSection {
   max-width: 100%;
@@ -357,7 +309,9 @@
             .formSection .form-wrap .tabs-content form fieldset .content .ctc {
               margin-top: -15px;
               width: 100%; } }
-          .formSection .form-wrap .tabs-content form fieldset .content .ctc .cars {
+          .formSection .form-wrap .tabs-content form fieldset .content .ctc .current {
+            width: auto; }
+          .formSection .form-wrap .tabs-content form fieldset .content .ctc .expected {
             width: auto; }
           .formSection .form-wrap .tabs-content form fieldset .content .ctc select {
             font-family: "Poppins", sans-serif;
@@ -510,7 +464,7 @@
         justify-content: space-between; }
         @media screen and (max-width: 770px) {
           .formSection .form-wrap .tabs-content form fieldset .checkboxContent {
-            padding: 46px 30px 34px 30px;
+            padding: 25px 20px;
             width: 100%; } }
         .formSection .form-wrap .tabs-content form fieldset .checkboxContent .policy {
           font-family: "Poppins", sans-serif;
@@ -531,7 +485,11 @@
           @media screen and (max-width: 575px) {
             .formSection .form-wrap .tabs-content form fieldset .checkboxContent input.checkbox {
               width: 40px;
-              height: 30px; } }
+              height: 25px; } }
+          @media screen and (max-width: 350px) {
+            .formSection .form-wrap .tabs-content form fieldset .checkboxContent input.checkbox {
+              width: 40px;
+              height: 20px; } }
           .formSection .form-wrap .tabs-content form fieldset .checkboxContent input.checkbox:checked {
             --brand: rgb(0 255 162);
             accent-color: var(--brand); }
