@@ -7,9 +7,15 @@
 }
 
 header{
-    padding-left: 75px;
+    padding-left: 0px;
+    @media screen and (max-width:780px){padding-left: 15px;}
     .headerContent{display: flex;align-items: center;justify-content: space-between;}
-    .logoBox{}
+    .logoBox{
+        @media screen and (max-width:575px) {width:60%;}
+        img{
+        @media screen and (max-width:575px) {width:75%;}
+        }
+    }
     .homeBox{display: flex;align-items: center;}
     .homeBox{
         p{width:200px;font-family: "Poppins", sans-serif;font-weight: 700;font-size: 16px;line-height: 20px;color: #000000;
@@ -24,24 +30,47 @@ header{
             }
     }
     .homeBox{
-        .connectCta{padding: 80px;background: #00FFA3;text-align: center;display: flex;justify-content: center;text-decoration: none;font-family: "Poppins", sans-serif;font-weight: 800;font-size: 24px;line-height: 24px;text-transform: uppercase;color: #000000;}
+        .connectCta{padding: 80px;background: #00FFA3;text-align: center;display: flex;justify-content: center;text-decoration: none;font-family: "Poppins", sans-serif;font-weight: 800;font-size: 24px;line-height: 24px;text-transform: uppercase;color: #000000;
+        @media screen and (max-width:1050px) {padding: 60px;}
+        @media screen and (max-width:780px) {padding: 25px; font-size:13px;}
+        }
     }
 }
 
 
 .homeBanner{
-    height: calc(100vh - 100px);overflow: hidden;margin-top: 100px;}
+    height: calc(100vh - 100px);overflow: hidden;margin-top: 0px;}
         .bannerContent{position: relative;height: 100%;}
-        .bannerText{width: 70%;position:absolute;top: 0;left: 75px;z-index: 1;transition: .5s all ease-in-out;
-            .textHover{width: 30%;top:5%;transition: .5s all ease-in-out;
+        .bannerText{width: 75%;position:absolute;top: 15%;left: 0px;z-index: 1;transition: .5s all ease-in-out;
+            @media screen and (max-width:780px) {width:auto; margin:20px; position:unset;}
+            
+            }
+        .bannerText.textHover{width: 33%;top:15%;transition: .5s all ease-in-out;
                 h1{font-size: 40px;}
                 }
-            }
-        .bannerVideo{width: 40%;right: 0;top: 10%;height: auto;position: absolute;margin: auto;transition: .5s all ease-in-out;
-            .vidHover{width: 60%;right: 0;top: 0%;transition: .5s all ease-in-out;}
+        .bannerVideo{width: 40%;right: 0;top: 30%;height: auto;position: absolute;margin: auto;transition: .5s all ease-in-out;
+            @media screen and (max-width:780px) {width:auto; position:unset;}
             video{width: 100%;height: auto;}
-            .videoHoverBox{background: transparent;width: 100%;height: 100%;position: absolute;top: 0;z-index: 2;}   
-            }    
+            .videoHoverBox{background: transparent;width: 100%;height: 100%;position: absolute;top: 0;z-index: 2;}  
+            .logos{
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                margin: 10px auto;
+                .logoImg {
+                        margin: auto 10px;
+                    img {
+                        width: 100%;
+                        text-align: center;
+
+                        @media screen and (max-width:1300px) {
+                            
+                        }
+                    }
+                }
+            } 
+            } 
+            .bannerVideo.vidHover{width: 65%;right: 0;top: 0%;transition: .5s all ease-in-out;}  
 
 
 

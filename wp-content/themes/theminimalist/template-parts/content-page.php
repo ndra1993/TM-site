@@ -17,15 +17,16 @@
     /*.bannerText.textHover{width: 30%;top:5%;transition: .5s all ease-in-out;}
     .bannerText.textHover h1{font-size: 40px;}*/
     /*.bannerVideo{width: 40%;right: 0;top: 10%;height: auto;position: absolute;margin: auto;transition: .5s all ease-in-out;}*/
-    .bannerVideo.vidHover{width: 60%;right: 0;top: 0%;transition: .5s all ease-in-out;}
-    .bannerVideo video{width: 100%;height: auto;}
-    .bannerVideo .videoHoverBox{background: transparent;width: 100%;height: 100%;position: absolute;top: 0;z-index: 2;}
+    /*.bannerVideo.vidHover{width: 60%;right: 0;top: 0%;transition: .5s all ease-in-out;}*/
+    /*.bannerVideo video{width: 100%;height: auto;}
+    .bannerVideo .videoHoverBox{background: transparent;width: 100%;height: 100%;position: absolute;top: 0;z-index: 2;}*/
 </style>
 
+<div class="wrapper">
 <header>
     <div class="headerContent">
         <div class="logoBox">
-            <a href="">
+            <a href="<?php echo site_url();?>" target="_blank">
                 <img src="<?php bloginfo('template_directory');?>/images/logo.png" alt="">
             </a>
         </div>
@@ -46,12 +47,30 @@
                 <video id="video" src="<?php bloginfo('template_directory');?>/images/butterfly_nectar_feeding_moth_beak_689.mp4" controls="true" autoplay="autoplay" loop="true"muted defaultmuted playsinline /></video>
                 <div class="videoHoverBox"></div>
             </div>
-            <div class="logoSlider">
-                
+            <div class="logos">
+                <div class="logoImg">
+                    <img src="<?php bloginfo('template_directory');?>/images/coca-cola-logo.png" alt="" />
+                </div>
+                <div class="logoImg">
+                    <img src="<?php bloginfo('template_directory');?>/images/mondelez-logo.png" alt="" />
+                </div>
+                <div class="logoImg">
+                    <img src="<?php bloginfo('template_directory');?>/images/tata-logo.png" alt="" />
+                </div>
+                <div class="logoImg">
+                    <img src="<?php bloginfo('template_directory');?>/images/airtel-logo.png" alt="" />
+                </div>
+                <div class="logoImg">
+                    <img src="<?php bloginfo('template_directory');?>/images/mtv-logo.png" alt="" />
+                </div>
             </div>
+            <!-- <div class="logoSlider">
+                
+            </div> -->
         </div>
     </div>
 </section>
+</div>
     <!-- <section class="videoSec">
         <div class="textVideo">
             <div class="textLarge">

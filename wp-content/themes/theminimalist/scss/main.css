@@ -4,6 +4,9 @@
 
 .wrapper {
   padding: 0px 0px 0px 50px; }
+  @media screen and (max-width: 1060px) {
+    .wrapper {
+      padding: 0px 0px 0px 25px; } }
   @media screen and (max-width: 780px) {
     .wrapper {
       padding: 0px; } }
@@ -86,11 +89,20 @@
   box-sizing: border-box; }
 
 header {
-  padding-left: 75px; }
+  padding-left: 0px; }
+  @media screen and (max-width: 780px) {
+    header {
+      padding-left: 15px; } }
   header .headerContent {
     display: flex;
     align-items: center;
     justify-content: space-between; }
+  @media screen and (max-width: 575px) {
+    header .logoBox {
+      width: 60%; } }
+  @media screen and (max-width: 575px) {
+    header .logoBox img {
+      width: 75%; } }
   header .homeBox {
     display: flex;
     align-items: center; }
@@ -126,43 +138,55 @@ header {
     line-height: 24px;
     text-transform: uppercase;
     color: #000000; }
+    @media screen and (max-width: 1050px) {
+      header .homeBox .connectCta {
+        padding: 60px; } }
+    @media screen and (max-width: 780px) {
+      header .homeBox .connectCta {
+        padding: 25px;
+        font-size: 13px; } }
 
 .homeBanner {
   height: calc(100vh - 100px);
   overflow: hidden;
-  margin-top: 100px; }
+  margin-top: 0px; }
 
 .bannerContent {
   position: relative;
   height: 100%; }
 
 .bannerText {
-  width: 70%;
+  width: 75%;
   position: absolute;
-  top: 0;
-  left: 75px;
+  top: 15%;
+  left: 0px;
   z-index: 1;
   transition: .5s all ease-in-out; }
-  .bannerText .textHover {
-    width: 30%;
-    top: 5%;
-    transition: .5s all ease-in-out; }
-    .bannerText .textHover h1 {
-      font-size: 40px; }
+  @media screen and (max-width: 780px) {
+    .bannerText {
+      width: auto;
+      margin: 20px;
+      position: unset; } }
+
+.bannerText.textHover {
+  width: 33%;
+  top: 15%;
+  transition: .5s all ease-in-out; }
+  .bannerText.textHover h1 {
+    font-size: 40px; }
 
 .bannerVideo {
   width: 40%;
   right: 0;
-  top: 10%;
+  top: 30%;
   height: auto;
   position: absolute;
   margin: auto;
   transition: .5s all ease-in-out; }
-  .bannerVideo .vidHover {
-    width: 60%;
-    right: 0;
-    top: 0%;
-    transition: .5s all ease-in-out; }
+  @media screen and (max-width: 780px) {
+    .bannerVideo {
+      width: auto;
+      position: unset; } }
   .bannerVideo video {
     width: 100%;
     height: auto; }
@@ -173,6 +197,22 @@ header {
     position: absolute;
     top: 0;
     z-index: 2; }
+  .bannerVideo .logos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px auto; }
+    .bannerVideo .logos .logoImg {
+      margin: auto 10px; }
+      .bannerVideo .logos .logoImg img {
+        width: 100%;
+        text-align: center; }
+
+.bannerVideo.vidHover {
+  width: 65%;
+  right: 0;
+  top: 0%;
+  transition: .5s all ease-in-out; }
 
 .formSection {
   max-width: 100%;
