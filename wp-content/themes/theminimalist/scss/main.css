@@ -127,6 +127,9 @@ header {
         justify-content: space-between; } }
   header .homeBox .qrImg {
     margin: 0px 15px; }
+    @media screen and (max-width: 1400px) {
+      header .homeBox .qrImg {
+        width: 93px; } }
     @media screen and (max-width: 1020px) {
       header .homeBox .qrImg {
         display: none;
@@ -147,10 +150,8 @@ header {
     color: #000000; }
     @media screen and (max-width: 1400px) {
       header .homeBox .connectCta {
-        font-size: 18px; } }
-    @media screen and (max-width: 1050px) {
-      header .homeBox .connectCta {
-        padding: 60px; } }
+        font-size: 18px;
+        padding: 50px; } }
     @media screen and (max-width: 780px) {
       header .homeBox .connectCta {
         padding: 25px;
@@ -408,7 +409,7 @@ header {
                 justify-content: space-between; } }
             .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .file-name, .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .upload-file {
               border: none;
-              width: 70%;
+              width: 90%;
               font-size: 24px; }
               @media screen and (max-width: 1090px) {
                 .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .file-name, .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .upload-file {

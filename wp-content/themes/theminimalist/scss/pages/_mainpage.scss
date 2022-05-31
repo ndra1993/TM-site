@@ -27,14 +27,14 @@ header{
             } 
     .homeBox {
         .qrImg{margin: 0px 15px;
+        @media screen and (max-width:1400px) {width:93px;}
         @media screen and (max-width:1020px) {
             @include display-property(none, none);}
             }
     }
     .homeBox{
         .connectCta{padding: 80px;background: #00FFA3;text-align: center;display: flex;justify-content: center;text-decoration: none;font-family: "Poppins", sans-serif;font-weight: 800;font-size: 24px;line-height: 24px;text-transform: uppercase;color: #000000;
-        @media screen and (max-width:1400px) {font-size: 18px;}
-        @media screen and (max-width:1050px) {padding: 60px;}
+        @media screen and (max-width:1400px) {font-size: 18px; padding: 50px;}
         @media screen and (max-width:780px) {padding: 25px; font-size:13px;}
         }
     }
