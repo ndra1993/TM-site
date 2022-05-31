@@ -13,12 +13,14 @@ header{
     .logoBox{
         @media screen and (max-width:575px) {width:60%;}
         img{
+        @media screen and (max-width:1400px) {width:70%;}
         @media screen and (max-width:575px) {width:75%;}
         }
     }
     .homeBox{display: flex;align-items: center;}
     .homeBox{
         p{width:200px;font-family: "Poppins", sans-serif;font-weight: 700;font-size: 16px;line-height: 20px;color: #000000;
+        @media screen and (max-width:1400px) {width:165px; font-size: 12px;}
         @media screen and (max-width:1020px) {
             @include display-property(none, none);}
             }
@@ -31,6 +33,7 @@ header{
     }
     .homeBox{
         .connectCta{padding: 80px;background: #00FFA3;text-align: center;display: flex;justify-content: center;text-decoration: none;font-family: "Poppins", sans-serif;font-weight: 800;font-size: 24px;line-height: 24px;text-transform: uppercase;color: #000000;
+        @media screen and (max-width:1400px) {font-size: 18px;}
         @media screen and (max-width:1050px) {padding: 60px;}
         @media screen and (max-width:780px) {padding: 25px; font-size:13px;}
         }
@@ -41,12 +44,17 @@ header{
 .homeBanner{
     height: calc(100vh - 100px);overflow: hidden;margin-top: 0px;}
         .bannerContent{position: relative;height: 100%;}
-        .bannerText{width: 75%;position:absolute;top: 15%;left: 0px;z-index: 1;transition: .5s all ease-in-out;
+        .bannerText{width: 65%;position:absolute;top: 30%;left: 0px;z-index: 1;transition: .5s all ease-in-out;
+            @media screen and (max-width:1920px) {width: 60%;top: 15%;}
             @media screen and (max-width:780px) {width:auto; margin:20px; position:unset;}
             
             }
-        .bannerText.textHover{width: 33%;top:15%;transition: .5s all ease-in-out;
-                h1{font-size: 40px;}
+        .bannerText.textHover{width: 33%;top:30%;transition: .5s all ease-in-out;
+                @media screen and (max-width:900px) {width: auto;}
+                h1{font-size: 64px;
+                    @media screen and (max-width:1600px) {font-size: 40px;}
+                    @media screen and (max-width:900px) {font-size: 30px;}
+                    }
                 }
         .bannerVideo{width: 40%;right: 0;top: 30%;height: auto;position: absolute;margin: auto;transition: .5s all ease-in-out;
             @media screen and (max-width:780px) {width:auto; position:unset;}
@@ -70,7 +78,9 @@ header{
                 }
             } 
             } 
-            .bannerVideo.vidHover{width: 65%;right: 0;top: 0%;transition: .5s all ease-in-out;}  
+            .bannerVideo.vidHover{width: 65%;right: 0;top: 0%;transition: .5s all ease-in-out;
+                @media screen and (max-width:900px) {width: auto;}
+                }  
 
 
 
