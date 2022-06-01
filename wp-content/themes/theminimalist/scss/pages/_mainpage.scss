@@ -45,7 +45,8 @@ header{
     height: calc(100vh - 100px);overflow: hidden;margin-top: 0px;}
         .bannerContent{position: relative;height: 100%;}
         .bannerText{width: 60%;position:absolute;top: 10%;left: 0px;z-index: 1;transition: .5s all ease-in-out;
-            @media screen and (max-width:1950px) {width: 75%;top: 3%;}
+            @media screen and (max-width:1950px) {width: 76%;top: 3%;}
+            @media screen and (max-width:1600px) {width: 70%;top: 3%;}
             @media screen and (max-width:1450px) {width: 75%;top: 5%;}
             @media screen and (max-width:1050px) {width: 70%;top: 5%;}
             @media screen and (max-width:900px) {width:auto; margin:20px; position:unset;}
@@ -59,6 +60,7 @@ header{
                 @media screen and (max-width:1050px) {width: 40%; top:5%;}
                 @media screen and (max-width:900px) {width: auto;}
                 h1{font-size: 64px;
+                    @media screen and (max-width:1800px) {font-size: 50px;}
                     @media screen and (max-width:1600px) {font-size: 40px;}
                     @media screen and (max-width:900px) {font-size: 30px;}
                     }

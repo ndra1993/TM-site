@@ -20,9 +20,12 @@
   font-weight: 800;
   margin: 0px;
   line-height: 1em; }
-  @media screen and (max-width: 1600px) {
+  @media screen and (max-width: 1800px) {
     .h1 {
       font-size: 120px; } }
+  @media screen and (max-width: 1600px) {
+    .h1 {
+      font-size: 100px; } }
   @media screen and (max-width: 1400px) {
     .h1 {
       font-size: 90px; } }
@@ -175,7 +178,11 @@ header {
   transition: .5s all ease-in-out; }
   @media screen and (max-width: 1950px) {
     .bannerText {
-      width: 75%;
+      width: 76%;
+      top: 3%; } }
+  @media screen and (max-width: 1600px) {
+    .bannerText {
+      width: 70%;
       top: 3%; } }
   @media screen and (max-width: 1450px) {
     .bannerText {
@@ -210,6 +217,9 @@ header {
       width: auto; } }
   .bannerText.textHover h1 {
     font-size: 64px; }
+    @media screen and (max-width: 1800px) {
+      .bannerText.textHover h1 {
+        font-size: 50px; } }
     @media screen and (max-width: 1600px) {
       .bannerText.textHover h1 {
         font-size: 40px; } }

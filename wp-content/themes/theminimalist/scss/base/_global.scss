@@ -52,8 +52,11 @@ $extrabold-w: 800;
 	margin:0px;
     line-height: 1em;
 
-	@media screen and (max-width:1600px) {
+    @media screen and (max-width:1800px) {
 		font-size:120px;
+	}
+	@media screen and (max-width:1600px) {
+		font-size:100px;
 	}
 
 	@media screen and (max-width:1400px) {
