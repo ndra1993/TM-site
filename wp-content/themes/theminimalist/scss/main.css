@@ -510,7 +510,8 @@ header {
           width: 75%;
           vertical-align: middle;
           caret-color: #00FFA3;
-          cursor: pointer; }
+          cursor: pointer;
+          text-overflow: ellipsis; }
           .formSection .form-wrap .tabs-content form fieldset .content input:hover {
             border: none; }
           .formSection .form-wrap .tabs-content form fieldset .content input:focus {
