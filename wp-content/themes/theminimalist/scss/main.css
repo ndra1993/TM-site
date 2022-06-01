@@ -454,7 +454,8 @@ header {
               border: none;
               width: 90%;
               padding: 10px 10px 10px 0px;
-              font-size: 24px; }
+              font-size: 24px;
+              cursor: unset; }
               @media screen and (max-width: 1090px) {
                 .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .file-name, .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .upload-file {
                   width: 100%; } }
