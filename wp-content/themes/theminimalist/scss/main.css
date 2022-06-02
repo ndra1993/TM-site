@@ -450,17 +450,29 @@ header {
                 display: block;
                 align-items: center;
                 justify-content: space-between; } }
-            .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .file-name, .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .upload-file {
+            .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .file-name {
               border: none;
               width: 90%;
               padding: 10px 10px 10px 0px;
               font-size: 24px;
               cursor: unset; }
               @media screen and (max-width: 1090px) {
-                .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .file-name, .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .upload-file {
+                .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .file-name {
                   width: 100%; } }
               @media screen and (max-width: 1366px) {
-                .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .file-name, .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .upload-file {
+                .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .file-name {
+                  font-size: 18px; } }
+            .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .upload-file {
+              border: none;
+              width: 90%;
+              padding: 10px 10px 0px 0px;
+              font-size: 24px;
+              cursor: unset; }
+              @media screen and (max-width: 1090px) {
+                .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .upload-file {
+                  width: 100%; } }
+              @media screen and (max-width: 1366px) {
+                .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .upload-file {
                   font-size: 18px; } }
             @media screen and (max-width: 900px) {
               .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .mob-file {

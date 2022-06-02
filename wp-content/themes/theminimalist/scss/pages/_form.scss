@@ -180,10 +180,23 @@
 									@include display-property(block,center);
 								}
 				
-								.file-name, .upload-file{
+								.file-name{
 									border: none;
 									width: 90%;
 									padding: 10px 10px 10px 0px;
+									font-size: 24px;
+									cursor: unset;
+									@media screen and (max-width:1090px) {
+										width: 100%;
+									}
+									@media screen and (max-width:1366px) {
+										font-size: 18px;
+									}
+								}
+								.upload-file{
+									border: none;
+									width: 90%;
+									padding: 10px 10px 0px 0px;
 									font-size: 24px;
 									cursor: unset;
 									@media screen and (max-width:1090px) {
