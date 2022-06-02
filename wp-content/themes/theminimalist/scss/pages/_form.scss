@@ -100,7 +100,7 @@
 						padding: 46px 44px 34px 42px;
 						border-bottom:1px dashed #000;
 
-						&:focus{border-bottom:1px solid #000;}
+						&:focus-within{border-bottom:1px solid #000;}
 				
 						@media screen and (min-width:2000px) {
 							justify-content: normal;
