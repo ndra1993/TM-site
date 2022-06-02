@@ -18,7 +18,7 @@ exit; */
 			<h1 class="h1">We’d Love to hear from you</h1> </div>
 		<div class="form-wrap">
 			<div class="tabs" id="myTab">
-				<h2 class="signup-tab h2"><a href="#signup-tab-content" data-toggle="tab">Scope my project</a></h2>
+				<h2 class="signup-tab h2"><a href="#signup-tab-content" class="active" data-toggle="tab">Scope my project</a></h2>
 				<h2 class="login-tab h2"><a href="#login-tab-content" data-toggle="tab">Careers</a></h2>
 				<a href="<?php echo site_url();?>" class="close">
 					<h2 class="h2">X</h2> </a>

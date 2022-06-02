@@ -108,7 +108,7 @@ header {
       width: 70%; } }
   @media screen and (max-width: 900px) {
     header .logoBox img {
-      width: 75%; } }
+      width: 65%; } }
   header .homeBox {
     display: flex;
     align-items: center; }
