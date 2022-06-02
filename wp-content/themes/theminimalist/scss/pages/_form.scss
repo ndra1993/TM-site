@@ -423,19 +423,28 @@
 			}
 		}
 	}
+	
 
 	@media screen and (max-width:1450px) {
 		.sec1{
 			width: 46%;
+			img{width:36%;}
 		}
 		.form-wrap{
 			width: 52%;
 		}
 	}
-	
-	@media screen and (max-width:770px) {
+
+	@media screen and (max-width:1030px) {
+		.sec1{
+			img{width:48%;}
+		}
+		
+	}
+	@media screen and (max-width:900px) {
 		.sec1{
 			display: none;
+			img{width:50%;}
 		}
 		.form-wrap{
 			width: 100%;

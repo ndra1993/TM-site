@@ -7,7 +7,7 @@
   @media screen and (max-width: 1060px) {
     .wrapper {
       padding: 0px 0px 0px 25px; } }
-  @media screen and (max-width: 780px) {
+  @media screen and (max-width: 900px) {
     .wrapper {
       padding: 0px; } }
 
@@ -106,7 +106,7 @@ header {
   @media screen and (max-width: 1400px) {
     header .logoBox img {
       width: 70%; } }
-  @media screen and (max-width: 575px) {
+  @media screen and (max-width: 900px) {
     header .logoBox img {
       width: 75%; } }
   header .homeBox {
@@ -646,11 +646,18 @@ header {
   @media screen and (max-width: 1450px) {
     .formSection .sec1 {
       width: 46%; }
+      .formSection .sec1 img {
+        width: 36%; }
     .formSection .form-wrap {
       width: 52%; } }
-  @media screen and (max-width: 770px) {
+  @media screen and (max-width: 1030px) {
+    .formSection .sec1 img {
+      width: 48%; } }
+  @media screen and (max-width: 900px) {
     .formSection .sec1 {
       display: none; }
+      .formSection .sec1 img {
+        width: 50%; }
     .formSection .form-wrap {
       width: 100%;
       border-left: 0px solid #000; } }

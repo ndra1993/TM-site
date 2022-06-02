@@ -1,27 +1,5 @@
 <?php get_header(); /*Template Name: Homepage*/ ?>
 
-<style type="text/css">
-    /*new header */
-    /*header{padding-left: 75px;}
-    header .headerContent{display: flex;align-items: center;justify-content: space-between;}
-    header .logoBox{}
-    header .homeBox{display: flex;align-items: center;}
-    header .homeBox p{width:200px;font-family: "Poppins", sans-serif;font-weight: 700;font-size: 16px;line-height: 20px;color: #000000;}
-    header .homeBox .qrImg{margin: 0px 15px;}
-    header .homeBox .connectCta{padding: 80px;background: #00FFA3;text-align: center;display: flex;justify-content: center;text-decoration: none;font-family: "Poppins", sans-serif;font-weight: 800;font-size: 24px;line-height: 24px;text-transform: uppercase;color: #000000;}*/
-    /*homepage css */
-    /*.homeBanner{height: calc(100vh - 100px);overflow: hidden;margin-top: 100px;}
-    .bannerContent{position: relative;height: 100%;}
-    .bannerText{width: 70%;position:absolute;top: 0;left: 75px;z-index: 1;transition: .5s all ease-in-out;}
-    .bannerText h1{font-size: 140px;}*/
-    /*.bannerText.textHover{width: 30%;top:5%;transition: .5s all ease-in-out;}
-    .bannerText.textHover h1{font-size: 40px;}*/
-    /*.bannerVideo{width: 40%;right: 0;top: 10%;height: auto;position: absolute;margin: auto;transition: .5s all ease-in-out;}*/
-    /*.bannerVideo.vidHover{width: 60%;right: 0;top: 0%;transition: .5s all ease-in-out;}*/
-    /*.bannerVideo video{width: 100%;height: auto;}
-    .bannerVideo .videoHoverBox{background: transparent;width: 100%;height: 100%;position: absolute;top: 0;z-index: 2;}*/
-</style>
-
 <div class="wrapper">
 <header>
     <div class="headerContent">
