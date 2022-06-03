@@ -385,6 +385,8 @@
 							&:checked{
 								--brand: rgb(0 255 162);
     							accent-color: var(--brand);
+    							-webkit-appearance: checkbox;
+    							background:#00ffa2;
 							}
 						}	
 					}
