@@ -103,7 +103,7 @@ header {
   @media screen and (max-width: 575px) {
     header .logoBox {
       width: 60%; } }
-  @media screen and (max-width: 1400px) {
+  @media screen and (max-width: 1450px) {
     header .logoBox img {
       width: 70%; } }
   @media screen and (max-width: 900px) {
