@@ -129,8 +129,9 @@ header {
         align-items: none;
         justify-content: space-between; } }
   header .homeBox .qrImg {
-    margin: 0px 15px; }
-    @media screen and (max-width: 1400px) {
+    margin: 0px 15px;
+    width: 130px; }
+    @media screen and (max-width: 1450px) {
       header .homeBox .qrImg {
         width: 93px; } }
     @media screen and (max-width: 1020px) {
