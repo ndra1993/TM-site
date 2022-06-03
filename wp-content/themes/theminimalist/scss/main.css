@@ -596,7 +596,7 @@ header {
           font-family: "Poppins", sans-serif;
           font-weight: 400;
           width: 90%; }
-        .formSection .form-wrap .tabs-content form fieldset .checkboxContent input.checkbox {
+        .formSection .form-wrap .tabs-content form fieldset .checkboxContent input[type='checkbox'] {
           margin: 0;
           padding: 2px 0;
           width: 35px;
@@ -605,21 +605,21 @@ header {
           cursor: pointer;
           margin-right: 15px; }
           @media screen and (max-width: 770px) {
-            .formSection .form-wrap .tabs-content form fieldset .checkboxContent input.checkbox {
+            .formSection .form-wrap .tabs-content form fieldset .checkboxContent input[type='checkbox'] {
               margin-right: 10px;
               width: 24px; } }
           @media screen and (max-width: 575px) {
-            .formSection .form-wrap .tabs-content form fieldset .checkboxContent input.checkbox {
+            .formSection .form-wrap .tabs-content form fieldset .checkboxContent input[type='checkbox'] {
               width: 40px;
               height: 25px; } }
           @media screen and (max-width: 350px) {
-            .formSection .form-wrap .tabs-content form fieldset .checkboxContent input.checkbox {
+            .formSection .form-wrap .tabs-content form fieldset .checkboxContent input[type='checkbox'] {
               width: 40px;
               height: 20px; } }
-          .formSection .form-wrap .tabs-content form fieldset .checkboxContent input.checkbox:checked {
+          .formSection .form-wrap .tabs-content form fieldset .checkboxContent input[type='checkbox']:checked {
             -webkit-appearance: checkbox;
-            background: #00ffa2;
-            accent-color: #00ffa2; }
+            background-color: #00FFA3;
+            accent-color: #00FFA3; }
       .formSection .form-wrap .tabs-content form fieldset .submit {
         font-family: "Poppins", sans-serif;
         font-weight: 800;
