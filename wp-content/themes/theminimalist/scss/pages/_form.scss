@@ -383,10 +383,9 @@
 								height:20px;
 							}
 							&:checked{
-								--brand: rgb(0 255 162);
-    							accent-color: var(--brand);
-    							-webkit-appearance: checkbox;
+								-webkit-appearance: checkbox;
     							background:#00ffa2;
+    							accent-color: #00ffa2;
 							}
 						}	
 					}

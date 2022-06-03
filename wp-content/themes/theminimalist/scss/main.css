@@ -616,10 +616,9 @@ header {
               width: 40px;
               height: 20px; } }
           .formSection .form-wrap .tabs-content form fieldset .checkboxContent input.checkbox:checked {
-            --brand: rgb(0 255 162);
-            accent-color: var(--brand);
             -webkit-appearance: checkbox;
-            background: #00ffa2; }
+            background: #00ffa2;
+            accent-color: #00ffa2; }
       .formSection .form-wrap .tabs-content form fieldset .submit {
         font-family: "Poppins", sans-serif;
         font-weight: 800;
