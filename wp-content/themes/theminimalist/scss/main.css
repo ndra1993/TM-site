@@ -441,7 +441,9 @@ header {
         .formSection .form-wrap .tabs-content form fieldset .content .filesBtn {
           width: 75%; }
           .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .file, .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .upload {
-            display: none; }
+            display: block;
+            opacity: 0;
+            height: 0; }
           .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex {
             display: flex;
             align-items: center;

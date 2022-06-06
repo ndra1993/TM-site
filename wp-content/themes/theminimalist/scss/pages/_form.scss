@@ -172,7 +172,9 @@
 							width: 75%;
 							
 							.file, .upload{
-								display: none;
+								display: block;
+								opacity:0;
+								height:0;
 							}
 							.d-flex{
 								@include display-property(flex,center);
