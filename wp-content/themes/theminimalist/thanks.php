@@ -35,7 +35,7 @@
                         <h2 class="h2">Thank you for getting in touch!</h2>
                         <h3>We appreciate you contacting us One of our colleagues will get back in touch with you soon!Have a great day!</h3>
                         <div>
-                            <a href="<?php echo site_url();?>" target="_blank">Go to home</a>
+                            <a href="<?php echo site_url();?>">Go to home</a>
                         </div>
                     </div>
                 </div>

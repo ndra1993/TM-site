@@ -14,7 +14,7 @@ exit; */
 <div class="wrapper">
 	<div class="formSection">
 		<div class="sec1">
-			<a href="<?php echo site_url();?>" target="_blank" class="logo"><img src="<?php echo get_template_directory_uri();?>/images/logo.png" alt=""></a>
+			<a href="<?php echo site_url();?>" class="logo"><img src="<?php echo get_template_directory_uri();?>/images/logo.png" alt=""></a>
 			<h1 class="h1">We’d Love to hear from you</h1> </div>
 		<div class="form-wrap">
 			<div class="tabs" id="myTab">

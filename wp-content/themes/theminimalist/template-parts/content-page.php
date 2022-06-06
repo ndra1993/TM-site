@@ -4,7 +4,7 @@
 <header>
     <div class="headerContent">
         <div class="logoBox">
-            <a href="<?php echo site_url();?>" target="_blank">
+            <a href="<?php echo site_url();?>">
                 <img src="<?php bloginfo('template_directory');?>/images/logo.png" alt="">
             </a>
         </div>
