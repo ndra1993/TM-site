@@ -18,21 +18,21 @@ exit; */
 			<h1 class="h1">We’d Love to hear from you</h1> </div>
 		<div class="form-wrap">
 			<div class="tabs" id="myTab">
-				<h2 class="signup-tab h2 active"><a href="#signup-tab-content" data-toggle="tab" class="active">Scope my project</a></h2>
+				<h2 class="signup-tab h2"><a class="active" href="#signup-tab-content" data-toggle="tab">Scope my project</a></h2>
 				<h2 class="login-tab h2"><a href="#login-tab-content" data-toggle="tab">Careers</a></h2>
 				<a href="<?php echo site_url();?>" class="close">
 					<h2 class="h2">X</h2> </a>
 			</div>
 			<!--.tabs-->
 			<div class="tabs-content">
-				<div id="signup-tab-content" class="show active">
-					<form action="#" method="post">
+				<div id="signup-tab-content" class="active">
+					<form action="#" method="post" enctype="multipart/form-data">
 						 <?php echo apply_shortcodes( '[contact-form-7 id="16" title="careers"]' ); ?>
 					</form>
 				</div>
 				<!--.signup-tab-content-->
 				<div id="login-tab-content">
-					<form action="#" method="post">
+					<form action="#" method="post" enctype="multipart/form-data">
 						<?php echo apply_shortcodes('[contact-form-7 id="15" title="scope my project"]');?>
 					</form>
 				</div>
@@ -48,7 +48,20 @@ exit; */
 <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">-->
 
 <script>
-$(document).ready(function(){
+jQuery(document).ready(function ($) {
+	tab = $('.tabs h2 a');
+
+	tab.on('click', function (event) {
+		event.preventDefault();
+		tab.removeClass('active');
+		$(this).addClass('active');
+
+		tab_content = $(this).attr('href');
+		$('div[id$="tab-content"]').removeClass('active');
+		$(tab_content).addClass('active');
+	});
+});
+/*$(document).ready(function(){
     $('a[data-toggle="tab"]').on('show.bs.tab', function(e) { 
         localStorage.setItem('activeTab', $(e.target).attr('href'));
     });
@@ -57,5 +70,5 @@ $(document).ready(function(){
         $('#myTab a[href="' + activeTab + '"]').tab('show');
         $('#myTab a[href="' + activeTab + '"]').addClass('active');
     }
-});
+});*/
 </script>

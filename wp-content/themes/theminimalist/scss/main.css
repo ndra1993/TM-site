@@ -288,6 +288,7 @@ header {
 .formSection {
   max-width: 100%;
   margin: 0 auto;
+  overflow-x: hidden;
   display: flex;
   align-items: baseline;
   justify-content: space-between; }
@@ -465,10 +466,12 @@ header {
               @media screen and (max-width: 1366px) {
                 .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .file-name {
                   font-size: 18px; } }
+            .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex #upload-file {
+              width: 100%; }
             .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .upload-file {
               border: none;
               width: 90%;
-              padding: 10px 10px 0px 0px;
+              padding: 5px 5px 0px 0px;
               font-size: 24px;
               cursor: unset; }
               @media screen and (max-width: 1090px) {

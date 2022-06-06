@@ -2,6 +2,7 @@
 .formSection{
 	max-width: 100%;
 	margin: 0 auto;
+	overflow-x:hidden;
     @include display-property(flex,baseline);
 	.sec1{
 		width: 46%;
@@ -195,10 +196,11 @@
 										font-size: 18px;
 									}
 								}
+								#upload-file{width: 100%;}
 								.upload-file{
 									border: none;
 									width: 90%;
-									padding: 10px 10px 0px 0px;
+									padding: 5px 5px 0px 0px;
 									font-size: 24px;
 									cursor: unset;
 									@media screen and (max-width:1090px) {
