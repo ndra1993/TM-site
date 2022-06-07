@@ -166,7 +166,10 @@
 									margin-top: 10px;
 									font-size: 14px;
 								}
-								
+							&:focus-visible{
+								outline: none;
+    							background: transparent;
+								}
 							}
 						}
 						.filesBtn{

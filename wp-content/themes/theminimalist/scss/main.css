@@ -162,7 +162,7 @@ header {
         font-size: 13px; } }
 
 .homeBanner {
-  height: calc(100vh - 100px);
+  height: calc(100vh - 160px);
   overflow: hidden;
   margin-top: 0px; }
 
@@ -439,6 +439,9 @@ header {
                 padding: 0px;
                 margin-top: 10px;
                 font-size: 14px; } }
+            .formSection .form-wrap .tabs-content form fieldset .content .ctc select:focus-visible {
+              outline: none;
+              background: transparent; }
         .formSection .form-wrap .tabs-content form fieldset .content .filesBtn {
           width: 75%; }
           .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .file, .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .upload {
