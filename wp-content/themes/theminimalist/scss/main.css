@@ -466,7 +466,7 @@ header {
               @media screen and (max-width: 1366px) {
                 .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .file-name {
                   font-size: 18px; } }
-            .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex #upload-file {
+            .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex #upload-file, .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex #file-name {
               width: 100%; }
             .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .upload-file {
               border: none;
