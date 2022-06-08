@@ -382,8 +382,6 @@ header {
         justify-content: space-between;
         padding: 46px 44px 34px 42px;
         border-bottom: 1px dashed #000; }
-        .formSection .form-wrap .tabs-content form fieldset .content:focus-within {
-          border-bottom: 1px solid #000; }
         @media screen and (min-width: 2000px) {
           .formSection .form-wrap .tabs-content form fieldset .content {
             justify-content: normal; } }
@@ -403,7 +401,7 @@ header {
           .formSection .form-wrap .tabs-content form fieldset .content {
             padding: 25px 20px; } }
         .formSection .form-wrap .tabs-content form fieldset .content:active:after, .formSection .form-wrap .tabs-content form fieldset .content:focus:after, .formSection .form-wrap .tabs-content form fieldset .content:hover:after {
-          border: 3px solid #14CC8A;
+          border: 1px solid #14CC8A;
           position: absolute;
           content: "";
           right: 0;
@@ -545,7 +543,7 @@ header {
           border: none;
           color: #000;
           font-size: 24px;
-          font-weight: 600;
+          font-weight: 500;
           margin: 0;
           padding: 0 0px;
           width: 75%;

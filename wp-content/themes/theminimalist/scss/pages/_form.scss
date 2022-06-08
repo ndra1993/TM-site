@@ -101,7 +101,7 @@
 						padding: 46px 44px 34px 42px;
 						border-bottom:1px dashed #000;
 
-						&:focus-within{border-bottom:1px solid #000;}
+						
 				
 						@media screen and (min-width:2000px) {
 							justify-content: normal;
@@ -120,7 +120,7 @@
 							padding: 25px 20px;
 						}
 						&:active:after, &:focus:after ,&:hover:after {
-							border: 3px solid #14CC8A;
+							border: 1px solid #14CC8A;
 						    position: absolute;
 						    content: "";
 						    right: 0;
@@ -244,6 +244,7 @@
 									white-space: nowrap;
 								    overflow: hidden;
 								    text-overflow: ellipsis;
+								    
 									@media screen and (max-width:1090px) {
 										width: 75%;
 									}
@@ -284,7 +285,7 @@
 							border: none;
 							color: $black;
 							font-size: 24px;
-							font-weight: $semibold-w;
+							font-weight: 500;
 							margin: 0;
 							padding: 0 0px;
 							width: 75%;
