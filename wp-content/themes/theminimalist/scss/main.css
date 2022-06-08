@@ -162,8 +162,13 @@ header {
         font-size: 13px; } }
 
 .homeBanner {
-  height: calc(100vh - 160px);
-  margin-top: 0px; }
+  height: calc(100vh - 185px);
+  margin-top: 0px;
+  overflow-y: hidden;
+  overflow-x: hidden; }
+  @media screen and (max-width: 1370px) {
+    .homeBanner {
+      height: calc(100vh - 160px); } }
 
 .bannerContent {
   position: relative;
