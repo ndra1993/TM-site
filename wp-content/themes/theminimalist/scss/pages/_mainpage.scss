@@ -42,7 +42,7 @@ header{
 
 
 .homeBanner{
-    height: calc(100vh - 160px);overflow: hidden;margin-top: 0px;}
+    height: calc(100vh - 160px);margin-top: 0px;}
         .bannerContent{position: relative;height: 100%;}
         .bannerText{width: 60%;position:absolute;top: 10%;left: 0px;z-index: 1;transition: .5s all ease-in-out;
             @media screen and (max-width:1950px) {width: 76%;top: 3%;}
@@ -55,13 +55,13 @@ header{
             }
             
             }
-        .bannerText.textHover{width: 33%;top:20%;transition: .5s all ease-in-out;
+        .bannerText.textHover{width: 35%;top:20%;transition: .5s all ease-in-out;
                 @media screen and (max-width:1450px) {top: 15%;}
                 @media screen and (max-width:1050px) {width: 40%; top:5%;}
                 @media screen and (max-width:900px) {width: auto;}
                 h1{font-size: 64px;
                     @media screen and (max-width:1800px) {font-size: 50px;}
-                    @media screen and (max-width:1600px) {font-size: 40px;}
+                    @media screen and (max-width:1600px) {font-size: 42px;}
                     @media screen and (max-width:900px) {font-size: 30px;}
                     }
                 }
@@ -90,7 +90,7 @@ header{
                 }
             } 
             } 
-            .bannerVideo.vidHover{width: 65%;right: 0;top: 0%;transition: .5s all ease-in-out;
+            .bannerVideo.vidHover{width: 60%;right: 0;top: 0%;transition: .5s all ease-in-out;
                 @media screen and (max-width:1050px) {width: 60%;}
                 @media screen and (max-width:900px) {width: auto;}
                 }  
