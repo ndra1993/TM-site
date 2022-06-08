@@ -44,7 +44,7 @@ header{
 .homeBanner{
     height: calc(100vh - 185px);margin-top: 0px; overflow-y: hidden;
     overflow-x: hidden;
-        @media screen and (max-width:1370px) {height: calc(100vh - 160px);}
+        @media screen and (max-width:1370px) {height: calc(100vh - 125px);}
         }
         .bannerContent{position: relative;height: 100%;}
         .bannerText{width: 60%;position:absolute;top: 10%;left: 0px;z-index: 1;transition: .5s all ease-in-out;
