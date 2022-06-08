@@ -421,9 +421,11 @@ header {
               margin-top: -15px;
               width: 100%; } }
           .formSection .form-wrap .tabs-content form fieldset .content .ctc .current {
-            width: auto; }
+            width: 25%;
+            text-align: right; }
           .formSection .form-wrap .tabs-content form fieldset .content .ctc .expected {
-            width: auto; }
+            width: 25%;
+            text-align: right; }
           .formSection .form-wrap .tabs-content form fieldset .content .ctc select {
             font-family: "Poppins", sans-serif;
             border: none;
