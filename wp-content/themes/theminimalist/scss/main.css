@@ -712,11 +712,11 @@ header {
     font-weight: 800;
     color: #000;
     display: inline-block;
-    margin-top: 80px;
-    margin-bottom: 50px; }
+    margin-top: 65px;
+    margin-bottom: 40px; }
   @media screen and (max-width: 1680px) {
     .thankYou {
-      padding: 200px 162px 0px 167px; }
+      padding: 160px 162px 4px 167px; }
       .thankYou h3 {
         font-size: 16px; }
       .thankYou .h2 {
