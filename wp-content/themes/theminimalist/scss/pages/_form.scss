@@ -46,6 +46,10 @@
 			.close{
 				width: 15%;
 				border-right: 0;
+				padding: 45.5px 10px;
+				@media screen and (max-width:1090px) {
+					padding: 43.5px 10px;
+				}
 			}
 			a {
 				@include tabproperty;

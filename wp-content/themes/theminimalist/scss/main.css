@@ -327,7 +327,11 @@ header {
         width: 30%; }
       .formSection .form-wrap .tabs .close {
         width: 15%;
-        border-right: 0; }
+        border-right: 0;
+        padding: 45.5px 10px; }
+        @media screen and (max-width: 1090px) {
+          .formSection .form-wrap .tabs .close {
+            padding: 43.5px 10px; } }
       .formSection .form-wrap .tabs a {
         padding: 80px;
         text-decoration: none;
