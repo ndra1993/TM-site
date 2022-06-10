@@ -322,16 +322,31 @@ header {
       justify-content: space-between;
       text-transform: uppercase; }
       .formSection .form-wrap .tabs .signup-tab {
-        width: 56%; }
+        width: 50%; }
+        @media screen and (max-width: 425px) {
+          .formSection .form-wrap .tabs .signup-tab {
+            width: 40%; } }
+        @media screen and (max-width: 425px) {
+          .formSection .form-wrap .tabs .signup-tab a {
+            padding: 43px 15px; } }
       .formSection .form-wrap .tabs .login-tab {
         width: 30%; }
       .formSection .form-wrap .tabs .close {
-        width: 15%;
+        width: 20%;
         border-right: 0;
-        padding: 45.5px 10px; }
+        padding: 78.5px 10px; }
+        @media screen and (max-width: 1800px) {
+          .formSection .form-wrap .tabs .close {
+            padding: 65.5px 10px; } }
+        @media screen and (max-width: 1650px) {
+          .formSection .form-wrap .tabs .close {
+            padding: 45.5px 10px; } }
         @media screen and (max-width: 1090px) {
           .formSection .form-wrap .tabs .close {
-            padding: 43.5px 10px; } }
+            padding: 43.5px 10px !important; } }
+        @media screen and (max-width: 425px) {
+          .formSection .form-wrap .tabs .close {
+            width: 30%; } }
       .formSection .form-wrap .tabs a {
         padding: 80px;
         text-decoration: none;
@@ -547,7 +562,7 @@ header {
           border: none;
           color: #000;
           font-size: 24px;
-          font-weight: 500;
+          font-weight: 600;
           margin: 0;
           padding: 0 0px;
           width: 75%;
@@ -555,6 +570,10 @@ header {
           caret-color: #00FFA3;
           cursor: pointer;
           text-overflow: ellipsis; }
+          .formSection .form-wrap .tabs-content form fieldset .content input::placeholder {
+            color: #000;
+            opacity: 0.2;
+            font-weight: 500; }
           .formSection .form-wrap .tabs-content form fieldset .content input:hover {
             border: none; }
           .formSection .form-wrap .tabs-content form fieldset .content input:focus {
@@ -605,6 +624,8 @@ header {
               margin-right: 0; }
           .formSection .form-wrap .tabs-content form fieldset .content .InputGroup input[type="radio"]:checked + label {
             background-color: #00FFA3; }
+      .formSection .form-wrap .tabs-content form fieldset .content.not-empty label {
+        color: #A9A9A9; }
       .formSection .form-wrap .tabs-content form fieldset .borderBlack {
         position: relative; }
       .formSection .form-wrap .tabs-content form fieldset .borderDotted {
@@ -632,6 +653,10 @@ header {
           margin-bottom: 20px;
           cursor: pointer;
           margin-right: 15px; }
+          @media screen and (max-width: 1100px) {
+            .formSection .form-wrap .tabs-content form fieldset .checkboxContent input[type='checkbox'] {
+              width: 24px;
+              height: 25px; } }
           @media screen and (max-width: 770px) {
             .formSection .form-wrap .tabs-content form fieldset .checkboxContent input[type='checkbox'] {
               margin-right: 10px;

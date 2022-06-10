@@ -26,13 +26,13 @@ exit; */
 			<!--.tabs-->
 			<div class="tabs-content">
 				<div id="signup-tab-content" class="show active">
-					<form action="#" method="post">
+					<form action="#" method="post" enctype="multipart/form-data">>
 						 <?php echo apply_shortcodes( '[contact-form-7 id="16" title="careers"]' ); ?>
 					</form>
 				</div>
 				<!--.signup-tab-content-->
 				<div id="login-tab-content">
-					<form action="#" method="post">
+					<form action="#" method="post" enctype="multipart/form-data">>
 						<?php echo apply_shortcodes('[contact-form-7 id="15" title="scope my project"]');?>
 					</form>
 				</div>
@@ -58,4 +58,34 @@ $(document).ready(function(){
         $('#myTab a[href="' + activeTab + '"]').addClass('active');
     }
 });
+
+$(document).ready(function() {
+        $('.field').on('input', function() {
+            $(this).parent().parent().toggleClass('not-empty', this.value.trim().length > 0);
+        });
+        $(function() {
+            $('.field').focusout(function() {
+                var text_val = $(this).val();
+                $(this).parent().parent().toggleClass('not-empty', text_val !== "");
+            }).focusout();
+        });
+        $('.ctcfield').on('input', function() {
+            $(this).parent().parent().parent().toggleClass('not-empty', this.value.trim().length > 0);
+        });
+        $(function() {
+            $('.ctcfield').focusout(function() {
+                var text_val = $(this).val();
+                $(this).parent().parent().parent().toggleClass('not-empty', text_val !== "");
+            }).focusout();
+        });
+        $('.uploadfield').on('input', function() {
+            $(this).parent().parent().parent().parent().toggleClass('not-empty', this.value.trim().length > 0);
+        });
+        $(function() {
+            $('.uploadfield').focusout(function() {
+                var text_val = $(this).val();
+                $(this).parent().parent().parent().parent().toggleClass('not-empty', text_val !== "");
+            }).focusout();
+        });
+    });
 </script>

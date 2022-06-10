@@ -38,17 +38,34 @@
 			text-transform: uppercase;
 	
 			.signup-tab{
-				width: 56%;
+				width: 50%;
+				@media screen and (max-width:425px) {
+					width: 40%;
+				}
+				a{
+					@media screen and (max-width:425px) {
+					padding:43px 15px;
+				}
+				}
 			}
 			.login-tab{
 				width: 30%;
 			}
 			.close{
-				width: 15%;
+				width: 20%;
 				border-right: 0;
-				padding: 45.5px 10px;
+				padding: 78.5px 10px;
+				@media screen and (max-width:1800px) {
+					padding: 65.5px 10px;
+				}
+				@media screen and (max-width:1650px) {
+					padding: 45.5px 10px;
+				}
 				@media screen and (max-width:1090px) {
-					padding: 43.5px 10px;
+					padding: 43.5px 10px !important;
+				}
+				@media screen and (max-width:425px) {
+					width: 30%;
 				}
 			}
 			a {
@@ -289,7 +306,7 @@
 							border: none;
 							color: $black;
 							font-size: 24px;
-							font-weight: 500;
+							font-weight: 600;
 							margin: 0;
 							padding: 0 0px;
 							width: 75%;
@@ -298,6 +315,12 @@
 							cursor: pointer;
 							text-overflow: ellipsis;
 							
+							&::placeholder{
+								color: $black;
+								opacity: 0.2;
+								font-weight: 500;
+							}
+
 							&:hover {
 								border: none;
 							}
@@ -362,6 +385,10 @@
 						
 					}
 
+					.content.not-empty label {
+                        color: #A9A9A9;
+                    }
+
 					.borderBlack{
 						position:relative;
 					}
@@ -395,6 +422,10 @@
 							margin-bottom: 20px;
 							cursor: pointer;
 							margin-right: 15px;
+							@media screen and (max-width:1100px) {
+								width:24px;
+								height: 25px;
+							}
 							@media screen and (max-width:770px) {
 								margin-right: 10px;
 								width:24px;
