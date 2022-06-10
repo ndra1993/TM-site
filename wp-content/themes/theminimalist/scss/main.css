@@ -626,6 +626,8 @@ header {
             background-color: #00FFA3; }
       .formSection .form-wrap .tabs-content form fieldset .content.not-empty label {
         color: #A9A9A9; }
+      .formSection .form-wrap .tabs-content form fieldset .content .radiocheck label {
+        color: #000 !important; }
       .formSection .form-wrap .tabs-content form fieldset .borderBlack {
         position: relative; }
       .formSection .form-wrap .tabs-content form fieldset .borderDotted {

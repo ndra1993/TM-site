@@ -26,13 +26,13 @@ exit; */
 			<!--.tabs-->
 			<div class="tabs-content">
 				<div id="signup-tab-content" class="show active">
-					<form action="#" method="post" enctype="multipart/form-data">>
+					<form action="#" method="post" enctype="multipart/form-data">
 						 <?php echo apply_shortcodes( '[contact-form-7 id="16" title="careers"]' ); ?>
 					</form>
 				</div>
 				<!--.signup-tab-content-->
 				<div id="login-tab-content">
-					<form action="#" method="post" enctype="multipart/form-data">>
+					<form action="#" method="post" enctype="multipart/form-data">
 						<?php echo apply_shortcodes('[contact-form-7 id="15" title="scope my project"]');?>
 					</form>
 				</div>
@@ -86,6 +86,14 @@ $(document).ready(function() {
                 var text_val = $(this).val();
                 $(this).parent().parent().parent().parent().toggleClass('not-empty', text_val !== "");
             }).focusout();
+        });
+
+
+        $(".rd2").on("click", function() {
+            if ($(this).find('input[type="radio"]').is(':checked')) {
+                $('.radiolabel').removeClass('not-empty');
+                $('.radiolabel').addClass('not-empty');
+            }
         });
     });
 </script>
