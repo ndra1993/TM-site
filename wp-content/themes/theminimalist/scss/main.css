@@ -719,12 +719,18 @@ header {
     .formSection .sec1 {
       width: 46%; }
       .formSection .sec1 img {
-        width: 36%; }
+        width: 34%; }
     .formSection .form-wrap {
       width: 52%; } }
+  @media screen and (max-width: 1370px) {
+    .formSection .sec1 img {
+      width: 36%; } }
+  @media screen and (max-width: 1300px) {
+    .formSection .sec1 img {
+      width: 38.5%; } }
   @media screen and (max-width: 1030px) {
     .formSection .sec1 img {
-      width: 48%; } }
+      width: 47.4%; } }
   @media screen and (max-width: 900px) {
     .formSection .sec1 {
       display: none; }

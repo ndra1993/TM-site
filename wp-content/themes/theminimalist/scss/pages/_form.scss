@@ -501,16 +501,28 @@
 	@media screen and (max-width:1450px) {
 		.sec1{
 			width: 46%;
-			img{width:36%;}
+			img{width:34%;}
 		}
 		.form-wrap{
 			width: 52%;
 		}
 	}
 
+	@media screen and (max-width:1370px) {
+		.sec1{
+			img{width:36%;}
+		}
+		
+	}
+	@media screen and (max-width:1300px) {
+		.sec1{
+			img{width:38.5%;}
+		}
+		
+	}
 	@media screen and (max-width:1030px) {
 		.sec1{
-			img{width:48%;}
+			img{width:47.4%;}
 		}
 		
 	}
