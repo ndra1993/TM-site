@@ -25,23 +25,12 @@
                 <video id="video" src="<?php bloginfo('template_directory');?>/images/butterfly_nectar_feeding_moth_beak_689.mp4" controls="true" autoplay="autoplay" loop="true"muted defaultmuted playsinline /></video>
                 <div class="videoHoverBox"></div>
             </div>
-            <div class="logos">
-                <div class="logoImg">
-                    <img src="<?php bloginfo('template_directory');?>/images/coca-cola-logo.png" alt="" />
-                </div>
-                <div class="logoImg">
-                    <img src="<?php bloginfo('template_directory');?>/images/mondelez-logo.png" alt="" />
-                </div>
-                <div class="logoImg">
-                    <img src="<?php bloginfo('template_directory');?>/images/tata-logo.png" alt="" />
-                </div>
-                <div class="logoImg">
-                    <img src="<?php bloginfo('template_directory');?>/images/airtel-logo.png" alt="" />
-                </div>
-                <div class="logoImg">
-                    <img src="<?php bloginfo('template_directory');?>/images/mtv-logo.png" alt="" />
-                </div>
-            </div>
+            <div class="logo">
+				<div id="logosAnime">
+
+				</div>
+				
+			</div>
             <!-- <div class="logoSlider">
                 
             </div> -->
@@ -84,17 +73,4 @@
     </section> -->
 
 <?php get_footer(); ?>
-<script type="text/javascript">
-    $(document).ready(function () {
-        $(".videoHoverBox").hover(
-            function () {
-                $(".bannerVideo").addClass("vidHover");
-                $(".bannerText").addClass("textHover");
-            },
-            function () {
-                $(".bannerVideo").removeClass("vidHover");
-                $(".bannerText").removeClass("textHover");
-            }
-        );
-    });
-</script>
+

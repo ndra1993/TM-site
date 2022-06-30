@@ -44,10 +44,13 @@
 		</div>
 		<div class="bannerVideo">
 			<div class="videoBox">
-				<video id="video" src="<?php bloginfo('template_directory');?>/images/butterfly_nectar_feeding_moth_beak_689.mp4" controls="true" autoplay="autoplay" loop="true"muted defaultmuted playsinline /></video>
+				<video id="video" src="<?php bloginfo('template_directory');?>/images/butterfly_nectar_feeding_moth_beak_689.mp4" controls="true" autoplay="autoplay" loop="true"muted defaultmuted playsinline ></video>
 				<div class="videoHoverBox"></div>
 			</div>
-			<div class="logoSlider">
+			<div class="logo">
+				<div id="logosAnime">
+
+				</div>
 				
 			</div>
 		</div>
@@ -55,17 +58,3 @@
 </section>
 
 <?php get_footer(); ?>
-<script type="text/javascript">
-	$(document).ready(function () {
-	    $(".videoHoverBox").hover(
-	      	function () {
-	        	$(".bannerVideo").addClass("vidHover");
-	        	$(".bannerText").addClass("textHover");
-	      	},
-	      	function () {
-	        	$(".bannerVideo").removeClass("vidHover");
-	        	$(".bannerText").removeClass("textHover");
-	      	}
-	    );
-  	});
-</script>

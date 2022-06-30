@@ -11,8 +11,10 @@
 
 ?>
 
-
+<script src="<?php echo get_template_directory_uri();?>/js/plugins.js"></script>
 <script src="<?php echo get_template_directory_uri();?>/js/form.js"></script>
+<script src="<?php echo get_template_directory_uri();?>/js/custom.js"></script>
+
 <?php wp_footer(); ?>
 
 

@@ -113,7 +113,7 @@ header {
     display: flex;
     align-items: center; }
   header .homeBox p {
-    width: 200px;
+    width: 186px;
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-size: 16px;
@@ -121,7 +121,7 @@ header {
     color: #000000; }
     @media screen and (max-width: 1400px) {
       header .homeBox p {
-        width: 165px;
+        width: 140px;
         font-size: 12px; } }
     @media screen and (max-width: 1020px) {
       header .homeBox p {
@@ -129,11 +129,15 @@ header {
         align-items: none;
         justify-content: space-between; } }
   header .homeBox .qrImg {
-    margin: 0px 15px;
+    margin: 0px 37px;
     width: 130px; }
     @media screen and (max-width: 1450px) {
       header .homeBox .qrImg {
-        width: 93px; } }
+        width: 93px;
+        margin: 0px 20px 0px 30px; } }
+    @media screen and (max-width: 1282px) {
+      header .homeBox .qrImg {
+        margin: 0px 6px 0px 30px; } }
     @media screen and (max-width: 1020px) {
       header .homeBox .qrImg {
         display: none;
@@ -152,7 +156,10 @@ header {
     line-height: 24px;
     text-transform: uppercase;
     color: #000000; }
-    @media screen and (max-width: 1400px) {
+    @media screen and (max-width: 1600px) {
+      header .homeBox .connectCta {
+        padding: 64px; } }
+    @media screen and (max-width: 1450px) {
       header .homeBox .connectCta {
         font-size: 18px;
         padding: 50px; } }
@@ -207,28 +214,42 @@ header {
       font-size: 30px; } }
 
 .bannerText.textHover {
-  width: 35%;
+  width: 38%;
   top: 20%;
   transition: .5s all ease-in-out; }
-  @media screen and (max-width: 1450px) {
-    .bannerText.textHover {
-      top: 15%; } }
-  @media screen and (max-width: 1050px) {
-    .bannerText.textHover {
-      width: 40%;
-      top: 5%; } }
-  @media screen and (max-width: 900px) {
-    .bannerText.textHover {
-      width: auto; } }
   .bannerText.textHover h1 {
     font-size: 64px; }
-    @media screen and (max-width: 1800px) {
+  @media screen and (max-width: 1800px) {
+    .bannerText.textHover {
+      width: 32%; }
       .bannerText.textHover h1 {
         font-size: 50px; } }
-    @media screen and (max-width: 1600px) {
+  @media screen and (max-width: 1650px) {
+    .bannerText.textHover {
+      width: 34%; } }
+  @media screen and (max-width: 1600px) {
+    .bannerText.textHover {
+      width: 30%; }
       .bannerText.textHover h1 {
         font-size: 42px; } }
-    @media screen and (max-width: 900px) {
+  @media screen and (max-width: 1470px) {
+    .bannerText.textHover {
+      top: 15%;
+      width: 34%; } }
+  @media screen and (max-width: 1303px) {
+    .bannerText.textHover {
+      width: 38%; } }
+  @media screen and (max-width: 1170px) {
+    .bannerText.textHover {
+      top: 15%;
+      width: 42%; } }
+  @media screen and (max-width: 1050px) {
+    .bannerText.textHover {
+      top: 5%;
+      width: 45%; } }
+  @media screen and (max-width: 900px) {
+    .bannerText.textHover {
+      width: auto; }
       .bannerText.textHover h1 {
         font-size: 30px; } }
 
@@ -252,10 +273,8 @@ header {
     .bannerVideo {
       width: 45%;
       top: 10%; } }
-  @media screen and (max-width: 900px) {
-    .bannerVideo {
-      width: auto;
-      position: unset; } }
+  .bannerVideo .videoBox {
+    position: relative; }
   .bannerVideo video {
     width: 100%;
     height: auto; }
@@ -266,25 +285,45 @@ header {
     position: absolute;
     top: 0;
     z-index: 2; }
-  .bannerVideo .logos {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin: 10px auto; }
-    .bannerVideo .logos .logoImg {
-      margin: auto 10px; }
-      .bannerVideo .logos .logoImg img {
-        width: 100%;
-        text-align: center; }
+  .bannerVideo .logo {
+    width: 84%;
+    margin-left: auto; }
+  @media screen and (max-width: 1600px) {
+    .bannerVideo .logo {
+      width: 78%; } }
+  @media screen and (max-width: 900px) {
+    .bannerVideo {
+      width: auto;
+      position: unset; }
+      .bannerVideo .logo {
+        width: 100%; } }
 
 .bannerVideo.vidHover {
   width: 60%;
   right: 0;
   top: 0%;
   transition: .5s all ease-in-out; }
-  @media screen and (max-width: 1050px) {
+  @media screen and (max-width: 1800px) {
+    .bannerVideo.vidHover {
+      width: 64%; } }
+  @media screen and (max-width: 1650px) {
+    .bannerVideo.vidHover {
+      width: 61%; } }
+  @media screen and (max-width: 1600px) {
+    .bannerVideo.vidHover {
+      width: 68%; } }
+  @media screen and (max-width: 1470px) {
+    .bannerVideo.vidHover {
+      width: 62%; } }
+  @media screen and (max-width: 1303px) {
     .bannerVideo.vidHover {
       width: 60%; } }
+  @media screen and (max-width: 1170px) {
+    .bannerVideo.vidHover {
+      width: 56%; } }
+  @media screen and (max-width: 1050px) {
+    .bannerVideo.vidHover {
+      width: 55%; } }
   @media screen and (max-width: 900px) {
     .bannerVideo.vidHover {
       width: auto; } }
@@ -334,16 +373,43 @@ header {
       .formSection .form-wrap .tabs .close {
         width: 20%;
         border-right: 0;
-        padding: 78.5px 10px; }
+        padding: 71px 10px; }
+        .formSection .form-wrap .tabs .close img {
+          width: 35px;
+          height: 35px; }
+        @media screen and (max-width: 1850px) {
+          .formSection .form-wrap .tabs .close {
+            padding: 68.5px 10px; } }
         @media screen and (max-width: 1800px) {
           .formSection .form-wrap .tabs .close {
-            padding: 65.5px 10px; } }
+            padding: 60.5px 10px; }
+            .formSection .form-wrap .tabs .close img {
+              width: 30px;
+              height: 30px; } }
         @media screen and (max-width: 1650px) {
           .formSection .form-wrap .tabs .close {
-            padding: 45.5px 10px; } }
+            padding: 63.5px 10px; }
+            .formSection .form-wrap .tabs .close img {
+              width: 24px;
+              height: 24px; } }
+        @media screen and (max-width: 1600px) {
+          .formSection .form-wrap .tabs .close {
+            padding: 44px 10px; } }
         @media screen and (max-width: 1090px) {
           .formSection .form-wrap .tabs .close {
-            padding: 43.5px 10px !important; } }
+            padding: 43px 10px !important; }
+            .formSection .form-wrap .tabs .close img {
+              width: 22px;
+              height: 22px; } }
+        @media screen and (max-width: 900px) {
+          .formSection .form-wrap .tabs .close {
+            padding: 45px 10px !important; }
+            .formSection .form-wrap .tabs .close img {
+              width: 18px;
+              height: 18px; } }
+        @media screen and (max-width: 760px) {
+          .formSection .form-wrap .tabs .close {
+            padding: 44.5px 10px !important; } }
         @media screen and (max-width: 425px) {
           .formSection .form-wrap .tabs .close {
             width: 30%; } }
@@ -372,7 +438,7 @@ header {
       .formSection .form-wrap .tabs a.active:after {
         content: "";
         position: absolute;
-        border: 5px solid #00FFA3;
+        border: 3px solid #00FFA3;
         bottom: 0;
         left: 0;
         right: 0; }
@@ -401,6 +467,8 @@ header {
         justify-content: space-between;
         padding: 46px 44px 34px 42px;
         border-bottom: 1px dashed #000; }
+        .formSection .form-wrap .tabs-content form fieldset .content .last {
+          margin: 0 0em 0 0em !important; }
         @media screen and (min-width: 2000px) {
           .formSection .form-wrap .tabs-content form fieldset .content {
             justify-content: normal; } }
@@ -438,14 +506,107 @@ header {
           width: 75%;
           display: flex;
           align-items: center; }
+          .formSection .form-wrap .tabs-content form fieldset .content .ctc select.select-wrap, .formSection .form-wrap .tabs-content form fieldset .content .ctc select.select-wrap_two {
+            display: none; }
+          .formSection .form-wrap .tabs-content form fieldset .content .ctc .select-wrap, .formSection .form-wrap .tabs-content form fieldset .content .ctc .select-wrap_two {
+            z-index: 1; }
+          .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-select-wrapper, .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-select-wrapper-two {
+            position: relative;
+            display: inline-block;
+            user-select: none; }
+          .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-select-wrapper select, .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-select-wrapper-two select {
+            display: none; }
+          .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-select, .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-select_two {
+            position: relative;
+            display: inline-block;
+            margin-left: 15px; }
+          .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-select-trigger, .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-select-trigger-two {
+            position: relative;
+            display: block;
+            padding: 0px 10px;
+            cursor: pointer;
+            z-index: 2;
+            font-family: "Poppins", sans-serif;
+            border: none;
+            color: #000;
+            font-size: 16px;
+            font-weight: 500;
+            margin: 0;
+            border-radius: 0;
+            width: 120px; }
+          .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-select-trigger:after, .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-select-trigger-two:after {
+            position: absolute;
+            display: block;
+            content: '';
+            width: 6px;
+            height: 6px;
+            top: 50%;
+            right: 4px;
+            margin-top: -1px;
+            border-bottom: 3px solid #000;
+            border-right: 3px solid #000;
+            transform: rotate(45deg) translateY(-50%);
+            transition: all 0.3s ease-in-out;
+            transform-origin: 50% 0; }
+          .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-select.opened .custom-select-trigger:after, .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-select_two.opened .custom-select-trigger-two:after {
+            margin-top: 3px;
+            transform: rotate(-135deg) translateY(-50%); }
+          .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-select.opened .custom-options, .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-select_two.opened .custom-options_two {
+            opacity: 1;
+            visibility: visible;
+            pointer-events: all; }
+          .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-option, .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-option_two {
+            position: relative;
+            display: block;
+            padding: 4px 10px;
+            font-family: "Poppins", sans-serif;
+            color: #000;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 33px;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+            z-index: 1;
+            background-color: #fff; }
+            .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-option:nth-child(1), .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-option_two:nth-child(1) {
+              border: 1px solid #000;
+              border-radius: 5px 5px 0px 0px;
+              border-bottom: 0px; }
+            .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-option:nth-child(2), .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-option_two:nth-child(2) {
+              border: 1px solid #000;
+              border-radius: 0px 0px 5px 5px; }
+          .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-option:hover, .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-option_two:hover {
+            background: #00FFA3; }
+          .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-options, .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-options_two {
+            position: absolute;
+            display: block;
+            top: 100%;
+            left: 0;
+            right: 0;
+            transition: all 0.3s ease-in-out;
+            opacity: 0;
+            visibility: hidden;
+            pointer-events: none; }
+          @media screen and (max-width: 1300px) {
+            .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-select-trigger, .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-select-trigger-two {
+              padding: 0px 2px;
+              margin-bottom: 0px; } }
           @media screen and (max-width: 1090px) {
             .formSection .form-wrap .tabs-content form fieldset .content .ctc {
               margin-top: -15px;
-              width: 100%; } }
+              width: 100%; }
+              .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-select-trigger:after, .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-select-trigger-two::after {
+                right: 0px; }
+              .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-option, .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-option_two {
+                font-size: 14px; }
+              .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-select-trigger, .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-select-trigger-two {
+                font-size: 14px; } }
+          @media screen and (max-width: 700px) {
+            .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-select, .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-select_two {
+              margin-left: 0px; }
+            .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-select-trigger, .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-select-trigger-two {
+              width: 94px; } }
           .formSection .form-wrap .tabs-content form fieldset .content .ctc .current {
-            width: 25%;
-            text-align: right; }
-          .formSection .form-wrap .tabs-content form fieldset .content .ctc .expected {
             width: 25%;
             text-align: right; }
           .formSection .form-wrap .tabs-content form fieldset .content .ctc select {
@@ -457,6 +618,10 @@ header {
             margin: 0;
             padding: 0 10px;
             border-radius: 0; }
+            .formSection .form-wrap .tabs-content form fieldset .content .ctc select option {
+              background-color: #14CC8A;
+              color: #000 !important;
+              border: 1px solid #14CC8A; }
             @media screen and (max-width: 1090px) {
               .formSection .form-wrap .tabs-content form fieldset .content .ctc select {
                 padding: 0px;
@@ -467,7 +632,8 @@ header {
               background: transparent; }
         .formSection .form-wrap .tabs-content form fieldset .content .filesBtn {
           width: 75%; }
-          .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .file, .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .upload {
+          .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .file,
+          .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .upload {
             display: block;
             opacity: 0;
             height: 0; }
@@ -492,7 +658,8 @@ header {
               @media screen and (max-width: 1366px) {
                 .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .file-name {
                   font-size: 18px; } }
-            .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex #upload-file, .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex #file-name {
+            .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex #upload-file,
+            .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex #file-name {
               width: 100%; }
             .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .upload-file {
               border: none;
@@ -706,6 +873,10 @@ header {
         .formSection .form-wrap .tabs-content form fieldset .submit:hover, .formSection .form-wrap .tabs-content form fieldset .submit:focus {
           background-color: #00FFA3;
           color: #000; }
+        @media screen and (max-width: 1600px) {
+          .formSection .form-wrap .tabs-content form fieldset .submit {
+            padding: 64px;
+            font-size: 18px; } }
         @media screen and (max-width: 1280px) {
           .formSection .form-wrap .tabs-content form fieldset .submit {
             padding: 50px;
