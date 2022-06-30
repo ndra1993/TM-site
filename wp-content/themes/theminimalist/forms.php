@@ -22,18 +22,30 @@ exit; */
 				<h2 class="signup-tab h2"><a href="#signup-tab-content" data-toggle="tab">Scope my project</a></h2>
 				<h2 class="login-tab h2"><a href="#login-tab-content" data-toggle="tab">Careers</a></h2>
 				<a href="<?php echo site_url(); ?>" class="close">
+<<<<<<< Updated upstream
 					<img src="<?php echo get_template_directory_uri(); ?>/images/close.png" alt=""> </a>
+=======
+					<img src="<?php echo get_template_directory_uri(); ?>/images/close-small.png" alt=""> </a>
+>>>>>>> Stashed changes
 			</div>
 			<!--.tabs-->
 			<div class="tabs-content">
 				<div id="signup-tab-content" class="show active">
+<<<<<<< Updated upstream
 					<form action="#" method="post" enctype="multipart/form-data">
+=======
+					<form action="#" method="post">
+>>>>>>> Stashed changes
 						<?php echo apply_shortcodes('[contact-form-7 id="16" title="careers"]'); ?>
 					</form>
 				</div>
 				<!--.signup-tab-content-->
 				<div id="login-tab-content">
+<<<<<<< Updated upstream
 					<form action="#" method="post" enctype="multipart/form-data">
+=======
+					<form action="#" method="post">
+>>>>>>> Stashed changes
 						<?php echo apply_shortcodes('[contact-form-7 id="15" title="scope my project"]'); ?>
 					</form>
 				</div>
@@ -48,6 +60,7 @@ exit; */
 </section>
 
 <script>
+<<<<<<< Updated upstream
 	document.querySelectorAll(".select-wrap").forEach(function(wrap) {
 		let select = wrap.querySelector(".custom-select");
 		let classes = select.getAttribute("class"),
@@ -114,3 +127,75 @@ exit; */
 		});
 	});
 </script>
+=======
+	$(document).ready(function() {
+		$('a[data-toggle="tab"]').on('show.bs.tab', function(e) {
+			localStorage.setItem('activeTab', $(e.target).attr('href'));
+		});
+		var activeTab = localStorage.getItem('activeTab');
+		if (activeTab) {
+			$('#myTab a[href="' + activeTab + '"]').tab('show');
+			$('#myTab a[href="' + activeTab + '"]').addClass('active');
+		}
+	});
+
+
+	$(document).ready(function() {
+
+		$('.field').on('input', function() {
+			$(this).parent().parent().toggleClass('not-empty', this.value.trim().length > 0);
+		});
+
+		$(function() {
+			$('.field').focusout(function() {
+				var text_val = $(this).val();
+				$(this).parent().parent().toggleClass('not-empty', text_val !== "");
+			}).focusout();
+		});
+
+
+		$('.ctcfield').on('input', function() {
+			$(this).parent().parent().parent().toggleClass('not-empty', this.value.trim().length > 0);
+		});
+
+		$(function() {
+			$('.ctcfield').focusout(function() {
+				var text_val = $(this).val();
+				$(this).parent().parent().parent().toggleClass('not-empty', text_val !== "");
+			}).focusout();
+		});
+
+
+
+		$('.uploadfield').on('input', function() {
+			$(this).parent().parent().parent().parent().toggleClass('not-empty', this.value.trim().length > 0);
+		});
+
+		$(function() {
+			$('.uploadfield').focusout(function() {
+				var text_val = $(this).val();
+				$(this).parent().parent().parent().parent().toggleClass('not-empty', text_val !== "");
+			}).focusout();
+		});
+
+
+
+
+
+		$(".rb1").on("click", function() {
+			if ($(this).find('input[type="radio"]').is(':checked')) {
+				$('.radiolabel').removeClass('not-empty');
+				$('.radiolabel').addClass('not-empty');
+			}
+		});
+
+		$(".rb2").on("click", function() {
+			if ($(this).find('input[type="radio"]').is(':checked')) {
+				$('.radiolbl2').removeClass('not-empty');
+				$('.radiolbl2').addClass('not-empty');
+			}
+		});
+
+	});
+</script>
+>>>>>>> Stashed changes

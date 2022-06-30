@@ -744,6 +744,10 @@ header {
           color: #000;
           font-size: 24px;
           font-weight: 600;
+<<<<<<< Updated upstream
+=======
+          /* font-weight changes*/
+>>>>>>> Stashed changes
           margin: 0;
           padding: 0 0px;
           width: 75%;
@@ -806,7 +810,11 @@ header {
           .formSection .form-wrap .tabs-content form fieldset .content .InputGroup input[type="radio"]:checked + label {
             background-color: #00FFA3; }
       .formSection .form-wrap .tabs-content form fieldset .content.not-empty label {
+<<<<<<< Updated upstream
         color: #A9A9A9; }
+=======
+        color: #a9a9a9; }
+>>>>>>> Stashed changes
       .formSection .form-wrap .tabs-content form fieldset .content .radiocheck label {
         color: #000 !important; }
       .formSection .form-wrap .tabs-content form fieldset .borderBlack {

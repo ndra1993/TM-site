@@ -44,6 +44,7 @@
 			text-transform: uppercase;
 
 			.signup-tab {
+<<<<<<< Updated upstream
 				width: 50%;
 
 				@media screen and (max-width:425px) {
@@ -55,6 +56,9 @@
 						padding: 43px 15px;
 					}
 				}
+=======
+				width: 56%;
+>>>>>>> Stashed changes
 			}
 
 			.login-tab {
@@ -62,6 +66,7 @@
 			}
 
 			.close {
+<<<<<<< Updated upstream
 				width: 20%;
 				border-right: 0;
 				padding: 71px 10px;
@@ -97,6 +102,11 @@
 					padding: 44px 10px;
 
 				}
+=======
+				width: 15%;
+				border-right: 0;
+				padding: 45.5px 10px;
+>>>>>>> Stashed changes
 
 				@media screen and (max-width:1090px) {
 					padding: 43px 10px !important;
@@ -139,7 +149,11 @@
 				&:after {
 					content: "";
 					position: absolute;
+<<<<<<< Updated upstream
 					border: 3px solid #00FFA3;
+=======
+					border: 5px solid #00FFA3;
+>>>>>>> Stashed changes
 					bottom: 0;
 					left: 0;
 					right: 0;
@@ -183,9 +197,20 @@
 						padding: 46px 44px 34px 42px;
 						border-bottom: 1px dashed #000;
 
+<<<<<<< Updated upstream
 						.last {
 							margin: 0 0em 0 0em !important;
 						}
+=======
+						// change in label color
+
+						// &:focus-within label{
+						// 	color: #A9A9A9;
+						// 	transition: all .2s ease-in-out;
+						// }
+
+
+>>>>>>> Stashed changes
 
 						@media screen and (min-width:2000px) {
 							justify-content: normal;
@@ -232,11 +257,17 @@
 							}
 						}
 
+<<<<<<< Updated upstream
+=======
+
+
+>>>>>>> Stashed changes
 						.ctc {
 							width: 75%;
 							display: flex;
 							align-items: center;
 
+<<<<<<< Updated upstream
 
 							select.select-wrap, select.select-wrap_two {
 								display: none;
@@ -354,6 +385,8 @@
 
 
 
+=======
+>>>>>>> Stashed changes
 							@media screen and (max-width:1090px) {
 								margin-top: -15px;
 								width: 100%;
@@ -387,8 +420,15 @@
 								text-align: right;
 							}
 
+<<<<<<< Updated upstream
 
 
+=======
+							.expected {
+								width: 25%;
+								text-align: right;
+							}
+>>>>>>> Stashed changes
 
 							select {
 
@@ -401,6 +441,7 @@
 								padding: 0 10px;
 								border-radius: 0;
 
+<<<<<<< Updated upstream
 								option {
 									background-color: #14CC8A;
 									color: #000 !important;
@@ -409,6 +450,8 @@
 
 
 
+=======
+>>>>>>> Stashed changes
 								@media screen and (max-width:1090px) {
 									padding: 0px;
 									margin-top: 10px;
@@ -476,6 +519,7 @@
 									}
 								}
 
+<<<<<<< Updated upstream
 								.upload-file-resume {
 									border: none;
 									width: 90%;
@@ -496,6 +540,8 @@
 									}
 								}
 
+=======
+>>>>>>> Stashed changes
 								.Resume-file {
 									border: none;
 									width: 90%;
@@ -544,6 +590,10 @@
 						}
 
 
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 						label {
 							font-family: $main-font;
 							float: left;
@@ -575,6 +625,10 @@
 							color: $black;
 							font-size: 24px;
 							font-weight: 600;
+<<<<<<< Updated upstream
+=======
+							/* font-weight changes*/
+>>>>>>> Stashed changes
 							margin: 0;
 							padding: 0 0px;
 							width: 75%;
@@ -583,12 +637,21 @@
 							cursor: pointer;
 							text-overflow: ellipsis;
 
+<<<<<<< Updated upstream
+=======
+
+							// change in placeholder
+>>>>>>> Stashed changes
 							&::placeholder {
 								color: $black;
 								opacity: 0.2;
 								font-weight: 500;
 							}
 
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 							&:hover {
 								border: none;
 							}
@@ -597,6 +660,11 @@
 								outline: none;
 							}
 
+<<<<<<< Updated upstream
+=======
+
+
+>>>>>>> Stashed changes
 							@media screen and (max-width:1366px) {
 								font-size: 18px;
 								line-height: 24px;
@@ -629,6 +697,12 @@
 								height: auto;
 							}
 
+<<<<<<< Updated upstream
+=======
+							
+							
+
+>>>>>>> Stashed changes
 							input[type="radio"] {
 								visibility: hidden;
 								/* 1 */
@@ -663,6 +737,7 @@
 							}
 						}
 
+<<<<<<< Updated upstream
 					}
 
 					.content.not-empty label {
@@ -677,6 +752,21 @@
 						position: relative;
 					}
 
+=======
+					}
+
+					.content.not-empty label {
+						color: #a9a9a9;
+					}
+
+					.content .radiocheck label{color: #000 !important;}
+
+
+					.borderBlack {
+						position: relative;
+					}
+
+>>>>>>> Stashed changes
 					.borderDotted {
 						border-bottom: 1px dashed $black;
 					}
@@ -710,6 +800,7 @@
 							cursor: pointer;
 							margin-right: 15px;
 
+<<<<<<< Updated upstream
 							@media screen and (max-width:1100px) {
 								width: 35px;
 								height: 25px;
@@ -719,6 +810,11 @@
 								margin-right: 10px;
 								width: 25px;
 								height: 30px;
+=======
+							@media screen and (max-width:770px) {
+								margin-right: 10px;
+								width: 24px;
+>>>>>>> Stashed changes
 							}
 
 							@media screen and (max-width:575px) {
@@ -759,11 +855,14 @@
 							color: #000;
 						}
 
+<<<<<<< Updated upstream
 						@media screen and (max-width:1600px) {
 							padding: 64px;
 							font-size: 18px;
 						}
 
+=======
+>>>>>>> Stashed changes
 						@media screen and (max-width:1280px) {
 							padding: 50px;
 							font-size: 18px;
@@ -787,7 +886,11 @@
 			width: 46%;
 
 			img {
+<<<<<<< Updated upstream
 				width: 34%;
+=======
+				width: 36%;
+>>>>>>> Stashed changes
 			}
 		}
 
@@ -817,7 +920,11 @@
 	@media screen and (max-width:1030px) {
 		.sec1 {
 			img {
+<<<<<<< Updated upstream
 				width: 47.4%;
+=======
+				width: 48%;
+>>>>>>> Stashed changes
 			}
 		}
 
