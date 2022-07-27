@@ -11,16 +11,23 @@
 	word-wrap: normal !important;
 }
 
-.wpcf7-response-output{
+.wpcf7-response-output {
 	font-family: "Poppins", sans-serif;
-	text-align: center;
+	text-align: left;
 	/*padding: 10px 15px;*/
+}
+
+@media screen and (max-width:900px) {
+	.wpcf7-response-output {
+		text-align: center;
+	}
 }
 
 .wpcf7 form .wpcf7-response-output {
 	margin: 2em 0.5em 1em;
 	padding: 0.2em 1em;
-	border: 2px solid #00a0d2; /* Blue */
+	border: 2px solid #00a0d2;
+	/* Blue */
 }
 
 .wpcf7 form.init .wpcf7-response-output,
@@ -30,25 +37,32 @@
 }
 
 .wpcf7 form.sent .wpcf7-response-output {
-	border-color: #46b450; /* Green */
+	border-color: #46b450;
+	/* Green */
 }
 
 .wpcf7 form.failed .wpcf7-response-output,
 .wpcf7 form.aborted .wpcf7-response-output {
-	border-color: #dc3232; /* Red */
+	border-color: #dc3232;
+	/* Red */
 }
 
 .wpcf7 form.spam .wpcf7-response-output {
-	border-color: #f56e28; /* Orange */
+	border-color: #f56e28;
+	/* Orange */
 }
 
 .wpcf7 form.invalid .wpcf7-response-output,
 .wpcf7 form.unaccepted .wpcf7-response-output,
 .wpcf7 form.payment-required .wpcf7-response-output {
-	border-color: #ffb900; /* Yellow */
+	border-color: #ffb900;
+	/* Yellow */
 }
 
-.ctc .wpcf7-form-control-wrap .cars{width: auto !important;}
+.ctc .wpcf7-form-control-wrap .cars {
+	width: auto !important;
+}
+
 .wpcf7-form-control-wrap {
 	position: relative;
 	width: 75%;
@@ -57,7 +71,8 @@
 
 .wpcf7-not-valid-tip {
 	font-family: "Poppins", sans-serif;
-	color: #dc3232; /* Red */
+	color: #dc3232;
+	/* Red */
 	font-size: 16px;
 	padding-top: 0px;
 	font-weight: normal;
@@ -77,27 +92,33 @@
 
 .wpcf7-list-item {
 	display: inline-block;
-	margin: 0 2em 0 0em;
+	margin: 0 1em 0 0em;
 	font-family: "Poppins", sans-serif;
-	
+
 }
+
 #rd1 .wpcf7-list-item-label {
 	padding: 10px 10px;
-    border-radius: 5px;
-    font-weight: 500;
-    letter-spacing: -0.03em;
-    border: 1px solid;
-    white-space: nowrap;
-    display: inline-block;
-    cursor: pointer;
+	border-radius: 5px;
+	font-weight: 500;
+	letter-spacing: -0.03em;
+	border: 1px solid;
+	white-space: nowrap;
+	display: inline-block;
+	cursor: pointer;
 }
-.content .wpcf7-list-item input[type="radio"]{
+
+.content .wpcf7-list-item input[type="radio"] {
 	visibility: hidden;
-    height: 0;
-    width: 0;}
-.content .wpcf7-list-item input[type="radio"]:checked + .wpcf7-list-item-label {    
+	height: 0;
+	width: 0;
+}
+
+.content .wpcf7-list-item input[type="radio"]:checked+.wpcf7-list-item-label {
 	background: #00FFA3;
-    border: 1px solid #00FFA3 !important;}
+	border: 1px solid #00FFA3 !important;
+}
+
 /*.content .wpcf7-list-item input[type='radio']{display: none;}*/
 /*.content .wpcf7-list-item-label{
 	border: 1px solid #000000;
@@ -111,27 +132,57 @@
 	background: #00FFA3;
     border: none;}
 .wpcf7-list-item input[type='radio']{display: none;}*/
-.checkboxContent .wpcf7-list-item-label{border: none;}
+.checkboxContent .wpcf7-list-item-label {
+	border: none;
+}
 
 @media screen and (max-width:1090px) {
-.wpcf7-list-item{font-size: 13px;}
-}
-@media screen and (max-width:1860px) {
-	.radio-915 .wpcf7-list-item, .radio-552 .wpcf7-list-item{margin: 0 2em 0 0em;}
-	.wpcf7-list-item{margin: 0 0 0 2em;}
-}
-@media screen and (min-width:1900px) {
-	.radio-915 .wpcf7-list-item, .radio-552 .wpcf7-list-item{margin: 0 2em 0 0em;}
-	.wpcf7-list-item{margin: 0 0 0 3em;}
-}
-@media screen and (max-width:400px) {
-	.radio-915 .wpcf7-list-item, .radio-552 .wpcf7-list-item{margin: 0 0.5em 0 0em;}
+	.wpcf7-list-item {
+		font-size: 13px;
+	}
 }
 
-.wpcf7-list-item label{display: flex;}
+@media screen and (max-width:1860px) {
+
+	.radio-915 .wpcf7-list-item,
+	.radio-552 .wpcf7-list-item {
+		margin: 0 2em 0 0em;
+	}
+
+	.wpcf7-list-item {
+		margin: 0 2em 0 0em;
+	}
+}
+
+@media screen and (max-width:1180px) {
+
+	.radio-915 .wpcf7-list-item,
+	.radio-552 .wpcf7-list-item {
+		margin: 0 1em 0 0em;
+	}
+
+	.wpcf7-list-item {
+		margin: 0 1em 0 0em;
+	}
+}
+
+@media screen and (max-width:400px) {
+
+	.radio-915 .wpcf7-list-item,
+	.radio-552 .wpcf7-list-item {
+		margin: 0 0.5em 0 0em;
+	}
+}
+
+.wpcf7-list-item label {
+	display: flex;
+}
+
 /*.wpcf7-list-item label .checkbox{width: 15% !important;}*/
 @media screen and (max-width:770px) {
-	.wpcf7-list-item{margin: 0 4px 0 0em;}
+	.wpcf7-list-item {
+		margin: 0 4px 0 0em;
+	}
 }
 
 .wpcf7-list-item-label::before,
@@ -142,7 +193,8 @@
 .wpcf7-spinner {
 	visibility: hidden;
 	display: inline-block;
-	background-color: #23282d; /* Dark Gray 800 */
+	background-color: #23282d;
+	/* Dark Gray 800 */
 	opacity: 0.75;
 	width: 24px;
 	height: 24px;
@@ -160,7 +212,8 @@ form.submitting .wpcf7-spinner {
 .wpcf7-spinner::before {
 	content: '';
 	position: absolute;
-	background-color: #fbfbfc; /* Light Gray 100 */
+	background-color: #fbfbfc;
+	/* Light Gray 100 */
 	top: 4px;
 	left: 4px;
 	width: 6px;

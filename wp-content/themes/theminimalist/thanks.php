@@ -1,9 +1,9 @@
 <?php get_header(); /*Template Name: thanks*/ 
 ?>
 <div class="wrapper">
-    <div class="formSection">
+    <div class="formSection thanksSection">
         <div class="sec1">
-            <a href="<?php echo site_url();?>" class="logo"><img src="<?php echo get_template_directory_uri();?>/images/logo.png" alt="" /></a>
+            <a href="<?php echo site_url();?>" class="logo"><img src="<?php echo get_template_directory_uri();?>/images/tm-logo.svg" alt="" /></a>
             <h1 class="h1">We'd Love to hear from you</h1>
         </div>
 
