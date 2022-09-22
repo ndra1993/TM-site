@@ -4,12 +4,12 @@
 
 <div class="loaderScreen">
     <div class="wrapper" style="position: relative;">
-        <h2 class="loading h1" data-loading-text="Loading..."></h2>
+        <!-- <h2 class="loading h1" data-loading-text="Loading..."></h2>
         <div class="progress-bar">
             <span class="bar">
                 <span class="progress"></span>
             </span>
-        </div>
+        </div> -->
     </div>
 </div>
 
@@ -31,7 +31,7 @@
     <section class="homeBanner">
         <div class="bannerContent">
             <div class="bannerText">
-                <h1 class="h1">We aspire to be India’s most inventive company in the creative business</h1>
+                <h1 class="h1 fade-in-text">We aspire to be India’s most inventive company in the creative business</h1>
             </div>
             <div class="bannerVideo">
                 <div class="videoBox">

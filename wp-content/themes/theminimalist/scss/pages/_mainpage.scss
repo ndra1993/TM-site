@@ -45,7 +45,12 @@ header{
         }
     }
 }
-
+.fade-in-text {animation: fadeIn 9s; -webkit-animation: fadeIn 9s; -moz-animation: fadeIn 9s; -o-animation: fadeIn 9s; -ms-animation: fadeIn 9s;}
+@keyframes fadeIn {0% { opacity: 0; } 100% { opacity: 1; }}
+@-moz-keyframes fadeIn {0% { opacity: 0; } 100% { opacity: 1; }}
+@-webkit-keyframes fadeIn {0% { opacity: 0; } 100% { opacity: 1; }}
+@-o-keyframes fadeIn {0% { opacity: 0; } 100% { opacity: 1; }}
+@-ms-keyframes fadeIn {0% { opacity: 0; } 100% { opacity: 1; }}
 
 .homeBanner{
     height: calc(100vh - 270px);margin-top: 0px; overflow-y: hidden;
@@ -57,7 +62,7 @@ header{
         .bannerContent{position: relative;height: 100%;display: flex;align-items: center;
             @media screen and (max-width:1024px) {display: block;}}
         
-        .bannerText{width: 75%;position:absolute;left: 0px;z-index: 1;transition: .5s all ease-in-out;
+        .bannerText{width: 75%;position:absolute;left: 0px;z-index: 10;transition: .5s all ease-in-out;
             @media screen and (max-width:1800px) {width: 73%;}
             @media screen and (max-width:1600px) {width: 67%;}
             @media screen and (max-width:1400px) {width: 72%;}
@@ -67,9 +72,7 @@ header{
             @media screen and (max-width:768px) {h1{font-size: 74px;}}
             @media screen and (max-width:650px) {h1{font-size: 64px;}}
             @media screen and (max-width:480px) {h1{font-size: 44px;}}
-            
-            
-            }
+         }
         .bannerText.textHover{width: 34%;transition: .5s all ease-in-out;
             h1{font-size: 64px;}
                 @media screen and (max-width:1800px) {width: 30%;
@@ -180,7 +183,7 @@ header{
                 }
                 
 
-                header .logoBox img{position: relative;z-index: 9;}
+                header .logoBox img{position: relative;z-index: 1;}
                 .loaderScreen{position: fixed;width: 100%;height: 100%;background: #fff;z-index: 9;}
                 .loaderScreen .wrapper{height: 100%;}
                 .loaderLogo{width: 300px;}
