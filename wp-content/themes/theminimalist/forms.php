@@ -15,11 +15,11 @@ exit; */
 	<div class="formSection">
 		<div class="sec1">
 			<a href="<?php echo site_url();?>" class="logo"><img src="<?php bloginfo('template_directory'); ?>/images/tm-logo.svg" alt=""></a>
-			<h1 class="h1">We’d love to hear from you.</h1> </div>
+			<h1 class="h1 font135 fontW800">We’d love to hear from you.</h1> </div>
 		<div class="form-wrap">
 			<div class="tabs" id="myTab">
-				<h2 class="signup-tab h2"><a href="#signup-tab-content" data-toggle="tab">Business queries</a></h2>
-				<h2 class="login-tab h2"><a href="#login-tab-content" data-toggle="tab">Careers</a></h2>
+				<h2 class="signup-tab h2 font24 fontW800"><a href="#signup-tab-content" data-toggle="tab">Business Enquiries</a></h2>
+				<h2 class="login-tab h2 font24 fontW800"><a href="#login-tab-content" data-toggle="tab">Careers</a></h2>
 				<a href="<?php echo site_url();?>" class="close">
 					<img src="https://ixdtm.com/projects/theminimalist-site/wp-content/uploads/2022/06/close.png" alt=""> </a>
 			</div>

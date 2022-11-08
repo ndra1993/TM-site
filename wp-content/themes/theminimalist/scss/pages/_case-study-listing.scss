@@ -1,0 +1,71 @@
+
+
+
+
+
+
+
+/*USE CSS for Slider*/
+
+
+.banner-slider{
+	display: flex;
+	justify-content: space-between;
+	height: calc(100vh - 144px);
+    overflow: hidden;
+
+}
+.banner-slider .slider.slider-for {
+    width: 48%;
+}
+.banner-slider .slider.slider-nav {
+    width: 48%;
+}
+
+
+
+
+.slider-nav .slick-slide.thumbnail-image .thumbImg{
+    text-align: left;
+    margin: 0 auto;
+	border-bottom: 1px solid #000 !important;
+	padding: 50px 0px;
+	margin: 5px 0px;
+	cursor: url(../images/detail-page-cursor.svg) 0 0, auto;
+}
+
+.slider-nav .slick-slide.slick-current  .thumbImg {
+    padding: 60px 0px;
+}
+
+.slider-banner-image img,
+.slider-nav .slick-slide.thumbnail-image .thumbImg img {
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+}
+.slick-vertical .slick-slide:active,
+.slick-vertical .slick-slide:focus,
+.slick-arrow:hover,
+.slick-arrow:focus {
+    border: 0;
+    outline: 0;
+}
+
+.slider-nav .slick-slide.slick-current  h1 {
+    font-size: 54px;
+}
+
+.slider-nav .slick-slide.slick-current span {
+    color: #196DB6;
+}
+.slider-nav .slick-slide {
+    text-align: center;
+	border: 0;
+}
+
+.slick-list{height: auto !important;}
+
+
+/*End USE CSS for Slider*/
+

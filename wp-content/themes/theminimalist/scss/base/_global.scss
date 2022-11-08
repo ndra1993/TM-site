@@ -1,197 +1,274 @@
-// ----------------------------------------------------------------------
-// Primary color
-// ----------------------------------------------------------------------
-
-
-$green:#00FFA3;
-$white:#fff;
-$black:#000;
-
-
-// ----------------------------------------------------------------------
-// Fonts
-// ----------------------------------------------------------------------
-$main-font: 'Poppins', sans-serif;
-
-/* Fonts Weight */
-$regular-w:400;
-$medium-w: 500;
-$semibold-w: 600;
-$bold-w: 700;
-$extrabold-w: 800;
-
-
-
-
-
-// ----------------------------------------------------------------------
-// Typography
-// ----------------------------------------------------------------------
-
-
-.h1, .h2, .h3, .h4, .h5, .h6{
-	overflow-wrap:normal;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
 }
 
-.wrapper{
+body {
+	font-family: 'Poppins', sans-serif;
+	;
+}
+
+.fontPoppins {
+	font-family: 'Poppins', sans-serif;
+}
+
+.colorWhite {
+	color: #fff;
+}
+
+.colorBlack {
+	color: #000;
+}
+
+.fontW400 {
+	font-weight: 400;
+}
+
+.fontW500 {
+	font-weight: 500;
+}
+
+.fontW600 {
+	font-weight: 600;
+}
+
+.fontW700 {
+	font-weight: 700;
+}
+
+.fontW800 {
+	font-weight: 800;
+}
+
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p {
+	overflow-wrap: normal;
+}
+
+.wrapper {
 	padding: 0px 0px 0px 50px;
-	@media screen and (max-width:1060px){padding: 0px 0px 0px 25px;}
-	@media screen and (max-width:1024px){
-		padding: 0px;
-	 }
 }
 
-.borderBtm{
-	border-bottom: 1px dashed $black;
-}
-
-
-.h1{
-	font-family: $main-font;
+.font135 {
 	font-size: 135px;
-	font-weight: $extrabold-w;
-	margin:0px;
-    line-height: 1em;
-	letter-spacing: -0.035em;
-	
-
-    @media screen and (max-width:1800px) {
-		font-size:114px;
-	}
-	@media screen and (max-width:1600px) {
-		font-size:95px;
-	}
-
-	@media screen and (max-width:1400px) {
-		font-size:90px;
-	}
-
-	@media screen and (max-width:1280px) {
-		font-size:85px;
-	}
-
-	@media screen and (max-width:1050px) {
-		font-size:60px;
-		line-height: 1em;
-	}
-	@media screen and (max-width:768px) {
-		font-size:25px;
-	}
-	
 }
 
+.font64 {
+	font-size: 64px;
+}
 
-.h2{
-	font-family: $main-font;
+.font60 {
+	font-size: 60px;
+}
+
+.font30 {
+	font-size: 30px;
+}
+
+.font24 {
 	font-size: 24px;
-	font-weight: $extrabold-w;
-	margin:0px;
-    line-height: 1em;
-
-	@media screen and (max-width:1850px) {
-		font-size:18px;
-	}
-
-	@media screen and (max-width:1400px) {
-		font-size:18px;
-	}
-
-	@media screen and (max-width:1090px) {
-		font-size:14px;
-	}
-
-	
-	
 }
 
+.font20 {
+	font-size: 20px;
+}
 
-.h4{
-	font-family: $main-font;
+.font16 {
 	font-size: 16px;
-	font-weight: $bold-w;
-	margin:0px;
-
-	@media screen and (max-width:1600px) {
-		font-size:12px;
-	}
-	
-	
 }
 
-// ----------------------------------------------------------------------
-// CTA
-// ----------------------------------------------------------------------
-.letstalksection{
-	width:max-content;
+.font14 {
+	font-size: 14px;
+}
 
-.letstalkCta{
-    font-family: $main-font;
-	font-size: 24px;
-	font-weight: $extrabold-w;
-    color: #000;
-	border-radius: 3px;
-    background-color: $green;
-	padding: 50px;
-	text-decoration:none;
-	cursor: pointer;
-	border: none;
 
-	
-
-	@media screen and (max-width:1600px){
-		padding: 50px;
-		font-size:18px;
-	}
-
-	@media screen and (max-width:780px){
-		padding: 25px;
-		font-size: 13px;
+@media screen and (max-width:1850px) {
+	.font24 {
+		font-size: 18px;
 	}
 }
-	
+
+@media screen and (max-width:1800px) {
+	.font135 {
+		font-size: 114px;
+	}
+
+	.font64 {
+		font-size: 60px;
+	}
+
+	.font60 {
+		font-size: 55px;
+	}
+
+	.font30 {
+		font-size: 28px;
+	}
+
+	.font20 {
+		font-size: 18px;
+	}
+}
+
+@media screen and (max-width:1600px) {
+	.font135 {
+		font-size: 95px;
+	}
+
+	.font16 {
+		font-size: 12px;
+	}
+
+	.font64 {
+		font-size: 50px;
+	}
+
+	.font60 {
+		font-size: 40px;
+	}
+
+	.font30 {
+		font-size: 25px;
+	}
+
+	.font20 {
+		font-size: 16px;
+	}
+}
+
+@media screen and (max-width:1400px) {
+	.font135 {
+		font-size: 90px;
+	}
+
+	.font64 {
+		font-size: 45px;
+	}
+
+	.font60 {
+		font-size: 35px;
+	}
+
+	.font30 {
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width:1280px) {
+	.font135 {
+		font-size: 85px;
+	}
+
+	.font64 {
+		font-size: 35px;
+	}
+
+	.font60 {
+		font-size: 32px;
+	}
+}
+
+@media screen and (max-width:1090px) {
+	.wrapper {
+		padding: 0px 0px 0px 25px;
+	}
+
+	.font135 {
+		font-size: 60px;
+	}
+
+	.font64 {
+		font-size: 24px;
+	}
+
+	.font60 {
+		font-size: 30px;
+	}
+
+	.font30 {
+		font-size: 18px;
+	}
+
+	.font24 {
+		font-size: 14px;
+	}
+
+	.font20 {
+		font-size: 14px;
+	}
+
+	.font14 {
+		font-size: 12px;
+	}
+}
+
+@media screen and (max-width:1024px) {
+	.wrapper {
+		padding: 0px;
+	}
+}
+
+@media screen and (max-width:768px) {
+	.font135 {
+		font-size: 25px;
+	}
+}
+
+.h1 {
+	margin: 0px;
+	line-height: 1em;
+	letter-spacing: -0.035em;
 }
 
 
-
-
-
-
-@mixin display-property ($hidedisplay,$position){
-    display: $hidedisplay;
-    align-items: $position;
-    justify-content: space-between;
+.h2 {
+	margin: 0px;
+	line-height: 1em;
 }
 
-@mixin tabproperty{
+
+@mixin display-property ($hidedisplay, $position) {
+	display: $hidedisplay;
+	align-items: $position;
+	justify-content: space-between;
+}
+
+@mixin tabproperty {
 	padding: 80px;
 	text-decoration: none;
 	text-align: center;
-	font-weight: $extrabold-w;
-	background-color: $white;
+	font-weight: 800;
+	background-color: #fff;
 	display: block;
-	color: $black;
-	font-family: $main-font;
-	border-bottom: 1px solid $black;
-	border-right: 1px solid $black;
-	position:relative;
+	color: #000;
+	border-bottom: 1px solid #000;
+	border-right: 1px solid #000;
+	position: relative;
 
 	@media screen and (max-width:1800px) {
 		padding: 70px;
 	}
+
 	@media screen and (max-width:1600px) {
 		padding: 50px 30px;
 	}
+
 	@media screen and (max-width:1280px) {
 		padding: 50px 15px;
 	}
-	
+
 }
 
+@mixin onclicktab {}
 
-@mixin onclicktab {
-	
-}
-
-
-.slick-track{display: flex !important;}
-.slick-slide{height: inherit !important;}

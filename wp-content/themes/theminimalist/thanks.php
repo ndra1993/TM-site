@@ -4,13 +4,13 @@
     <div class="formSection thanksSection">
         <div class="sec1">
             <a href="<?php echo site_url();?>" class="logo"><img src="<?php echo get_template_directory_uri();?>/images/tm-logo.svg" alt="" /></a>
-            <h1 class="h1">We'd Love to hear from you</h1>
+            <h1 class="h1 font135 fontW800">We'd Love to hear from you</h1>
         </div>
 
         <div class="form-wrap">
 			<div class="tabs" id="myTab">
-				<h2 class="signup-tab h2"><a href="#signup-tab-content" data-toggle="tab">Scope my project</a></h2>
-				<h2 class="login-tab h2"><a href="#login-tab-content" data-toggle="tab">Careers</a></h2>
+				<h2 class="signup-tab h2 font24 fontW800"><a href="#signup-tab-content" data-toggle="tab">Scope my project</a></h2>
+				<h2 class="login-tab h2 font24 fontW800"><a href="#login-tab-content" data-toggle="tab">Careers</a></h2>
 				<a href="<?php echo site_url();?>" class="close">
 					<img src="<?php echo get_template_directory_uri();?>/images/close.png" alt=""> </a>
 			</div>
@@ -20,7 +20,7 @@
                 <div id="signup-tab-content" class="show active">
                     <div class="thankYou">
                         <img src="<?php echo get_template_directory_uri();?>/images/thanks.png" class="thanksImage" />
-                        <h2 class="h2">Thank you for getting in touch!</h2>
+                        <h2 class="h2 font24 fontW800">Thank you for getting in touch!</h2>
                         <h3>We appreciate you contacting us One of our colleagues will get back in touch with you soon!Have a great day!</h3>
                         <div>
                             <a href="<?php echo site_url();?>" target="_blank">Go to home</a>
@@ -32,7 +32,7 @@
                 <div id="login-tab-content">
                     <div class="thankYou">
                         <img src="<?php echo get_template_directory_uri();?>/images/thanks.png" class="thanksImage" />
-                        <h2 class="h2">Thank you for getting in touch!</h2>
+                        <h2 class="h2 font24 fontW800">Thank you for getting in touch!</h2>
                         <h3>We appreciate you contacting us One of our colleagues will get back in touch with you soon!Have a great day!</h3>
                         <div>
                             <a href="<?php echo site_url();?>">Go to home</a>

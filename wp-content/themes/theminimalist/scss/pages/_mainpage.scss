@@ -21,13 +21,13 @@ header{
         @media screen and (max-width:780px){margin-left: 10px;}
     }
     .homeBox{display: flex;align-items: center;}
-    .homeBox{
-        p{width:186px;font-family: "Poppins", sans-serif;font-weight: 700;font-size: 16px;line-height: 20px;color: #000000;
-        @media screen and (max-width:1400px) {width:140px; font-size: 12px;}
-        @media screen and (max-width:1020px) {
-            @include display-property(none, none);}
-            }
-            } 
+    // .homeBox{
+    //     p{width:186px;font-family: "Poppins", sans-serif;font-weight: 700;font-size: 16px;line-height: 20px;color: #000000;
+    //     @media screen and (max-width:1400px) {width:140px; font-size: 12px;}
+    //     @media screen and (max-width:1020px) {
+    //         @include display-property(none, none);}
+    //         }
+    //         } 
     .homeBox {
         .qrImg{margin: 0px 37px; width: 120px;
         @media screen and (max-width:1600px){width: 90px;}
@@ -158,6 +158,14 @@ header{
 
 
                 .clientSec{
+                    .slick-track {
+                        display: flex !important;
+                    }
+                    
+                    .slick-slide {
+                        height: inherit !important;
+                    }
+                    
                     .clientLogos{
                         display: flex;
                         align-items: center;

@@ -3,12 +3,12 @@
 
 <div class="loaderScreen">
     <div class="wrapper" style="position: relative;">
-        <!-- <h2 class="loading h1" data-loading-text="Loading..."></h2>
+        <h2 class="loading h1 font135 fontW800" data-loading-text="Loading..."></h2>
         <div class="progress-bar">
             <span class="bar">
                 <span class="progress"></span>
             </span>
-        </div> -->
+        </div>
     </div>
 </div>
 
@@ -21,8 +21,8 @@
                 </a>
             </div>
             <div class="homeBox">
-                <p>Sneak peek into our journey towards inventiveness</p>
-                <img src="<?php bloginfo('template_directory'); ?>/images/qr-code.png" alt="" class="qrImg">
+                <p>Sneak peek into our journey towards inventiveness..</p>
+               <!-- <img src="<?php bloginfo('template_directory'); ?>/images/qr-code.png" alt="" class="qrImg">-->
                 <a href="<?php echo site_url('/forms/'); ?>" class="connectCta">Let's Collaborate</a>
             </div>
         </div>
@@ -31,7 +31,7 @@
     <section class="homeBanner">
         <div class="bannerContent">
             <div class="bannerText">
-                <h1 class="h1">We aspire to be India’s most inventive company in the creative business</h1>
+                <h1 class="h1 font135 fontW800">We aspire to be India’s most inventive company in the creative business..</h1>
             </div>
             <div class="bannerVideo">
                 <div class="videoBox">
@@ -40,7 +40,7 @@
                         <source src="<?php bloginfo('template_directory'); ?>/images/main-video.mp4" type="video/mp4">
                     </video>
                     <video class="videotwo"  muted="false" loop="" autoplay playsinline>
-                        <source src="<?php bloginfo('template_directory'); ?>/images/teaser.mp4" type="video/mp4">
+                        <source src="<?php bloginfo('template_directory'); ?>/images/teaser.webm" type="video/mp4">
                     </video>
                     <!-- <div id="audio-control" class="muted">Unmute</div> -->
                     <div class="videoHoverBox" id="audio-control"></div>

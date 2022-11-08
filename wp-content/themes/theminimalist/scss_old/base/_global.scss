@@ -1,0 +1,177 @@
+// ----------------------------------------------------------------------
+// Primary color
+// ----------------------------------------------------------------------
+
+$green:#00FFA3;
+$white:#fff;
+$black:#000;
+
+
+// ----------------------------------------------------------------------
+// Fonts
+// ----------------------------------------------------------------------
+$main-font: 'Poppins', sans-serif;
+
+/* Fonts Weight */
+$regular-w:400;
+$medium-w: 500;
+$semibold-w: 600;
+$bold-w: 700;
+$extrabold-w: 800;
+
+
+
+
+
+// ----------------------------------------------------------------------
+// Typography
+// ----------------------------------------------------------------------
+
+
+.wrapper{
+	padding: 0px 0px 0px 50px;
+
+	@media screen and (max-width:780px){
+		padding: 0px;
+	 }
+}
+
+.borderBtm{
+	border-bottom: 1px dashed $black;
+}
+
+
+.h1{
+	font-family: $main-font;
+	font-size: 140px;
+	font-weight: $extrabold-w;
+	margin:0px;
+    line-height: 1em;
+
+	@media screen and (max-width:1600px) {
+		font-size:120px;
+	}
+
+	@media screen and (max-width:1400px) {
+		font-size:90px;
+	}
+
+	@media screen and (max-width:1280px) {
+		font-size:90px;
+	}
+
+	@media screen and (max-width:1050px) {
+		font-size:64px;
+	}
+	@media screen and (max-width:768px) {
+		font-size:30px;
+	}
+	
+}
+
+
+.h2{
+	font-family: $main-font;
+	font-size: 24px;
+	font-weight: $extrabold-w;
+	margin:0px;
+    line-height: 1em;
+
+	@media screen and (max-width:1850px) {
+		font-size:18px;
+	}
+
+	@media screen and (max-width:1400px) {
+		font-size:18px;
+	}
+
+	@media screen and (max-width:1090px) {
+		font-size:14px;
+	}
+
+	
+	
+}
+
+
+.h4{
+	font-family: $main-font;
+	font-size: 12px;
+	font-weight: $bold-w;
+	margin:0px;
+
+	@media screen and (max-width:1280px) {
+		font-size:12px;
+	}
+	
+	
+}
+
+// ----------------------------------------------------------------------
+// CTA
+// ----------------------------------------------------------------------
+
+
+.letstalkCta{
+    font-family: $main-font;
+	font-size: 18px;
+	font-weight: $extrabold-w;
+    color: #000;
+	border-radius: 3px;
+    background-color: $green;
+	padding: 80px;
+	text-decoration:none;
+	cursor: pointer;
+	border: none;
+
+	@media screen and (max-width:1600px){
+		padding: 50px;
+	}
+
+	@media screen and (max-width:780px){
+		padding: 42px;
+		font-size: 13px;
+	}
+
+	
+}
+
+
+
+
+
+
+@mixin display-property ($hidedisplay,$position){
+    display: $hidedisplay;
+    align-items: $position;
+    justify-content: space-between;
+}
+
+@mixin tabproperty{
+	padding: 80px;
+	text-decoration: none;
+	text-align: center;
+	font-weight: $extrabold-w;
+	background-color: $white;
+	display: block;
+	color: $black;
+	font-family: $main-font;
+	border: 1px solid $black;
+
+	@media screen and (max-width:1800px) {
+		padding: 70px;
+	}
+	@media screen and (max-width:1600px) {
+		padding: 50px 30px;
+	}
+	@media screen and (max-width:1280px) {
+		padding: 50px 15px;
+	}
+	
+}
+
+
+@mixin onclicktab {
+	background-color: $white;
+	border-bottom: 6px solid $green;
+}

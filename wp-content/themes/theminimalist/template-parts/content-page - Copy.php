@@ -14,7 +14,7 @@
             <a href="<?php echo site_url();?>" target="_blank"><img src="<?php bloginfo('template_directory');?>/images/logo.png" alt="" class="tmLogo" /></a>
             <div class="qrCode">
                 <div class="qrcodeContent">
-                    <h4 class="h4">
+                    <h4 class="font16 fontW700">
                         *This is strictly work in<br />
                         progress but here are<br />
                         some signs.
@@ -31,7 +31,7 @@
     <section class="videoSec">
         <div class="textVideo">
             <div class="textLarge">
-                <h1 class="h1">
+                <h1 class="h1 font135 fontW800">
                     We aspire to be India’s most inventive company in the creative business
                 </h1>
             </div>

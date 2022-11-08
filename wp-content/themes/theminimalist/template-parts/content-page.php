@@ -1,10 +1,34 @@
 <?php get_header(); /*Template Name: Homepage*/ ?>
+<?php session_start();
+echo $_SESSION['showloader'];
+if($_SESSION['showloader'] == ''){ $_SESSION['showloader'] = 'loaded'; }
+else{  ?>
+  <style>
+  .loaderScreen {display:none; }
+  </style>
+  <?php }?>
 
-
+<style>
+	.bannerVideo .videoBox iframe{position: absolute !important;width: 100%;height: 100%;opacity: 0;visibility: hidden;}
+	.bannerVideo .videoBox .videotwo{position:relative;transition:1s all ease-in-out;}
+/* 	.bannerVideo .videoBox .videoHoverBox{cursor: url(<?php bloginfo('template_directory'); ?>/images/banner-cursor.png),auto;} */
+	.bannerVideo .videoBox .videoHoverBoxTwo{position:absolute;top:0;width:100%;height:100%;background:transparent;z-index:2;display:none;}
+	.bannerVideo .videoBox .videoHoverBoxTwo.vidactive{display:block;}
+	.bannercursor {position: absolute;width: 140px;height: 140px;top:-140px;left: -280px;pointer-events: none;}
+	#audio-control{cursor: url(https://ixdtm.com/projects/theminimalist-site/wp-content/themes/theminimalist/images/testimonial-play.png;) 30 30, auto;}
+	#audio-controlTwo{cursor: url(https://ixdtm.com/projects/theminimalist-site/wp-content/themes/theminimalist/images/testimonial-stop.png;) 30 30, auto;}
+	.cursor {position: absolute;width: 140px;height: 140px;top:-140px;left: -280px;cursor: none;pointer-events: none;}
+	.fade-in-text {animation: fadeIn 6s; -webkit-animation: fadeIn 6s; -moz-animation: fadeIn 6s; -o-animation: fadeIn 6s; -ms-animation: fadeIn 6s;}
+@keyframes fadeIn {0% { opacity: 0; } 100% { opacity: 1; }}
+@-moz-keyframes fadeIn {0% { opacity: 0; } 100% { opacity: 1; }}
+@-webkit-keyframes fadeIn {0% { opacity: 0; } 100% { opacity: 1; }}
+@-o-keyframes fadeIn {0% { opacity: 0; } 100% { opacity: 1; }}
+@-ms-keyframes fadeIn {0% { opacity: 0; } 100% { opacity: 1; }}
+</style>
 
 <div class="loaderScreen">
     <div class="wrapper" style="position: relative;">
-        <!-- <h2 class="loading h1" data-loading-text="Loading..."></h2>
+<!--         <h2 class="loading h1 font135 fontW800" data-loading-text="Loading..."></h2>
         <div class="progress-bar">
             <span class="bar">
                 <span class="progress"></span>
@@ -22,8 +46,8 @@
                 </a>
             </div>
             <div class="homeBox">
-                <p>Sneak peek into our journey towards inventiveness</p>
-                <img src="<?php bloginfo('template_directory'); ?>/images/qr-code.png" alt="" class="qrImg">
+                <!-- <p>Sneak peek into our journey towards inventiveness</p> -->
+               <!-- <img src="<?php bloginfo('template_directory'); ?>/images/qr-code.png" alt="" class="qrImg">-->
                 <a href="<?php echo site_url('/forms/'); ?>" class="connectCta">Let's Collaborate</a>
             </div>
         </div>
@@ -31,19 +55,17 @@
     <section class="homeBanner">
         <div class="bannerContent">
             <div class="bannerText">
-                <h1 class="h1 fade-in-text">We aspire to be India’s most inventive company in the creative business</h1>
+                <h1 class="h1 fade-in-text font135 fontW800">We aspire to be India’s most inventive company in the creative business</h1>
             </div>
-            <div class="bannerVideo">
-                <div class="videoBox">
-                    <!-- <video id="video" src="<?php bloginfo('template_directory'); ?>/images/tm-video.mp4" controls="true" autoplay="autoplay" loop="true"muted defaultmuted playsinline /></video> -->
-                    <video autoplay muted id="video" class="videoOne" loop="">
-                        <source src="<?php bloginfo('template_directory'); ?>/images/main-video.mp4" type="video/mp4">
-                    </video>
-                    <video class="videotwo" muted loop="" autoplay playsinline>
+            <div class="bannerVideo" style="cursor:none;">
+                <div class="videoBox" style="cursor:none;">
+					<div class="videoDiv" id="videoFrame" style="cursor:none;"></div>
+                    <video class="videotwo" muted loop="" autoplay playsinline style="cursor:none;">
                         <source src="<?php bloginfo('template_directory'); ?>/images/teaser.mp4" type="video/mp4">
                     </video>
-                    <!-- <div id="audio-control" class="muted">Unmute</div> -->
-                    <div class="videoHoverBox" id="audio-control"></div>
+                    <div class="videoHoverBox bannercur" id="audio-control"></div>
+<!-- 					<img src="https://ixdtm.com/projects/theminimalist-site/wp-content/themes/theminimalist/images/testimonial-play.png" alt="Cursor" class="bannercursor"/> -->
+					<div class="videoHoverBoxTwo" id="audio-controlTwo"></div>
                 </div>
             </div>
         </div>
@@ -171,4 +193,3 @@
 </div>
 
 <?php get_footer(); ?>
-
