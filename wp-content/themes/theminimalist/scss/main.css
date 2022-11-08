@@ -482,38 +482,7 @@ header {
         padding: 25px;
         font-size: 13px; } }
 
-.fade-in-text {
-  animation: fadeIn 9s;
-  -webkit-animation: fadeIn 9s;
-  -moz-animation: fadeIn 9s;
-  -o-animation: fadeIn 9s;
-  -ms-animation: fadeIn 9s; }
 
-@keyframes fadeIn {
-  0% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-@-moz-keyframes fadeIn {
-  0% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-@-webkit-keyframes fadeIn {
-  0% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-@-o-keyframes fadeIn {
-  0% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-@-ms-keyframes fadeIn {
-  0% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
 .homeBanner {
   height: calc(100vh - 270px);
   margin-top: 0px;
@@ -542,7 +511,7 @@ header {
   width: 75%;
   position: absolute;
   left: 0px;
-  z-index: 10;
+  z-index: 1;
   transition: .5s all ease-in-out; }
   @media screen and (max-width: 1800px) {
     .bannerText {
@@ -717,7 +686,7 @@ header {
 
 header .logoBox img {
   position: relative;
-  z-index: 1; }
+  z-index: 9; }
 
 .loaderScreen {
   position: fixed;

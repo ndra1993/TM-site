@@ -21,8 +21,8 @@
                 </a>
             </div>
             <div class="homeBox">
-                <p>Sneak peek into our journey towards inventiveness..</p>
-               <!-- <img src="<?php bloginfo('template_directory'); ?>/images/qr-code.png" alt="" class="qrImg">-->
+                <p>Sneak peek into our journey towards inventiveness</p>
+               <img src="<?php bloginfo('template_directory'); ?>/images/qr-code.png" alt="" class="qrImg">
                 <a href="<?php echo site_url('/forms/'); ?>" class="connectCta">Let's Collaborate</a>
             </div>
         </div>
@@ -31,7 +31,7 @@
     <section class="homeBanner">
         <div class="bannerContent">
             <div class="bannerText">
-                <h1 class="h1 font135 fontW800">We aspire to be India’s most inventive company in the creative business..</h1>
+                <h1 class="h1 font135 fontW800">We aspire to be India’s most inventive company in the creative business</h1>
             </div>
             <div class="bannerVideo">
                 <div class="videoBox">
@@ -40,7 +40,7 @@
                         <source src="<?php bloginfo('template_directory'); ?>/images/main-video.mp4" type="video/mp4">
                     </video>
                     <video class="videotwo"  muted="false" loop="" autoplay playsinline>
-                        <source src="<?php bloginfo('template_directory'); ?>/images/teaser.webm" type="video/mp4">
+                        <source src="<?php bloginfo('template_directory'); ?>/images/teaser.mp4" type="video/mp4">
                     </video>
                     <!-- <div id="audio-control" class="muted">Unmute</div> -->
                     <div class="videoHoverBox" id="audio-control"></div>
@@ -59,122 +59,122 @@
 
 <div class="clientSec">
     <div class="clientLogos">
-        <img src="<?php bloginfo('template_directory'); ?>/images/logos/acko.png" alt="">
+        <img src="<?php bloginfo('template_directory'); ?>/images/logos/acko.webp" alt="">
     </div>
     <div class="clientLogos">
-        <img src="<?php bloginfo('template_directory'); ?>/images/logos/airtel.png" alt="">
+        <img src="<?php bloginfo('template_directory'); ?>/images/logos/airtel.webp" alt="">
     </div>
     <div class="clientLogos">
-        <img src="<?php bloginfo('template_directory'); ?>/images/logos/almarai.png" alt="">
+        <img src="<?php bloginfo('template_directory'); ?>/images/logos/almarai.webp" alt="">
     </div>
     <div class="clientLogos">
-        <img src="<?php bloginfo('template_directory'); ?>/images/logos/beauty.png" alt="">
+        <img src="<?php bloginfo('template_directory'); ?>/images/logos/beauty.webp" alt="">
     </div>
     <div class="clientLogos">
-        <img src="<?php bloginfo('template_directory'); ?>/images/logos/bloomberg.png" alt="">
+        <img src="<?php bloginfo('template_directory'); ?>/images/logos/bloomberg.webp" alt="">
     </div>
     <div class="clientLogos">
-        <img src="<?php bloginfo('template_directory'); ?>/images/logos/blue-star.png" alt="">
+        <img src="<?php bloginfo('template_directory'); ?>/images/logos/blue-star.webp" alt="">
     </div>
     
     <div class="clientLogos">
-        <img src="<?php bloginfo('template_directory'); ?>/images/logos/box-8.png" alt="">
+        <img src="<?php bloginfo('template_directory'); ?>/images/logos/box-8.webp" alt="">
     </div>
     <div class="clientLogos">
-        <img src="<?php bloginfo('template_directory'); ?>/images/logos/cadbury.png" alt="">
+        <img src="<?php bloginfo('template_directory'); ?>/images/logos/cadbury.webp" alt="">
     </div>
     <div class="clientLogos">
-        <img src="<?php bloginfo('template_directory'); ?>/images/logos/cipla.png" alt="">
+        <img src="<?php bloginfo('template_directory'); ?>/images/logos/cipla.webp" alt="">
     </div>
     <div class="clientLogos">
-        <img src="<?php bloginfo('template_directory'); ?>/images/logos/coca-cola.png" alt="">
+        <img src="<?php bloginfo('template_directory'); ?>/images/logos/coca-cola.webp" alt="">
     </div>
     <div class="clientLogos">
-        <img src="<?php bloginfo('template_directory'); ?>/images/logos/dineout.png" alt="">
+        <img src="<?php bloginfo('template_directory'); ?>/images/logos/dineout.webp" alt="">
     </div>
     <div class="clientLogos">
-        <img src="<?php bloginfo('template_directory'); ?>/images/logos/disney-plus.png" alt="">
+        <img src="<?php bloginfo('template_directory'); ?>/images/logos/disney-plus.webp" alt="">
     </div>
     <div class="clientLogos">
-        <img src="<?php bloginfo('template_directory'); ?>/images/logos/hcl.png" alt="">
+        <img src="<?php bloginfo('template_directory'); ?>/images/logos/hcl.webp" alt="">
     </div>
     <div class="clientLogos">
-        <img src="<?php bloginfo('template_directory'); ?>/images/logos/hdfc-bank.png" alt="">
+        <img src="<?php bloginfo('template_directory'); ?>/images/logos/hdfc-bank.webp" alt="">
     </div>
     <div class="clientLogos">
-        <img src="<?php bloginfo('template_directory'); ?>/images/logos/hexaware.png" alt="">
+        <img src="<?php bloginfo('template_directory'); ?>/images/logos/hexaware.webp" alt="">
     </div>
     <div class="clientLogos">
-        <img src="<?php bloginfo('template_directory'); ?>/images/logos/hyatt.png" alt="">
+        <img src="<?php bloginfo('template_directory'); ?>/images/logos/hyatt.webp" alt="">
     </div>
     <div class="clientLogos">
-        <img src="<?php bloginfo('template_directory'); ?>/images/logos/icici.png" alt="">
+        <img src="<?php bloginfo('template_directory'); ?>/images/logos/icici.webp" alt="">
     </div>
     <div class="clientLogos">
-        <img src="<?php bloginfo('template_directory'); ?>/images/logos/idfc.png" alt="">
+        <img src="<?php bloginfo('template_directory'); ?>/images/logos/idfc.webp" alt="">
     </div>
     <div class="clientLogos">
-        <img src="<?php bloginfo('template_directory'); ?>/images/logos/iifl.png" alt="">
+        <img src="<?php bloginfo('template_directory'); ?>/images/logos/iifl.webp" alt="">
     </div>
     <div class="clientLogos">
-        <img src="<?php bloginfo('template_directory'); ?>/images/logos/iit.png" alt="">
+        <img src="<?php bloginfo('template_directory'); ?>/images/logos/iit.webp" alt="">
     </div>
     <div class="clientLogos">
-        <img src="<?php bloginfo('template_directory'); ?>/images/logos/intermiles.png" alt="">
+        <img src="<?php bloginfo('template_directory'); ?>/images/logos/intermiles.webp" alt="">
     </div>
     <div class="clientLogos">
-        <img src="<?php bloginfo('template_directory'); ?>/images/logos/itc.png" alt="">
+        <img src="<?php bloginfo('template_directory'); ?>/images/logos/itc.webp" alt="">
     </div>
     <div class="clientLogos">
-        <img src="<?php bloginfo('template_directory'); ?>/images/logos/kotak.png" alt="">
+        <img src="<?php bloginfo('template_directory'); ?>/images/logos/kotak.webp" alt="">
     </div>
     <div class="clientLogos">
-        <img src="<?php bloginfo('template_directory'); ?>/images/logos/mahindra-lifespace.png" alt="">
+        <img src="<?php bloginfo('template_directory'); ?>/images/logos/mahindra-lifespace.webp" alt="">
     </div>
     <div class="clientLogos">
-        <img src="<?php bloginfo('template_directory'); ?>/images/logos/mahindra-logistic.png" alt="">
+        <img src="<?php bloginfo('template_directory'); ?>/images/logos/mahindra-logistic.webp" alt="">
     </div>
     <div class="clientLogos">
-        <img src="<?php bloginfo('template_directory'); ?>/images/logos/mi.png" alt="">
+        <img src="<?php bloginfo('template_directory'); ?>/images/logos/mi.webp" alt="">
     </div>
     <div class="clientLogos">
-        <img src="<?php bloginfo('template_directory'); ?>/images/logos/minute-maid.png" alt="">
+        <img src="<?php bloginfo('template_directory'); ?>/images/logos/minute-maid.webp" alt="">
     </div>
     <div class="clientLogos">
-        <img src="<?php bloginfo('template_directory'); ?>/images/logos/mondelez.png" alt="">
+        <img src="<?php bloginfo('template_directory'); ?>/images/logos/mondelez.webp" alt="">
     </div>
     <div class="clientLogos">
-        <img src="<?php bloginfo('template_directory'); ?>/images/logos/mtv.png" alt="">
+        <img src="<?php bloginfo('template_directory'); ?>/images/logos/mtv.webp" alt="">
     </div>
     <div class="clientLogos">
-        <img src="<?php bloginfo('template_directory'); ?>/images/logos/navneet.png" alt="">
+        <img src="<?php bloginfo('template_directory'); ?>/images/logos/navneet.webp" alt="">
     </div>
     <div class="clientLogos">
-        <img src="<?php bloginfo('template_directory'); ?>/images/logos/orra.png" alt="">
+        <img src="<?php bloginfo('template_directory'); ?>/images/logos/orra.webp" alt="">
     </div>
     <div class="clientLogos">
-        <img src="<?php bloginfo('template_directory'); ?>/images/logos/oyo.png" alt="">
+        <img src="<?php bloginfo('template_directory'); ?>/images/logos/oyo.webp" alt="">
     </div>
     <div class="clientLogos">
-        <img src="<?php bloginfo('template_directory'); ?>/images/logos/paytm.png" alt="">
+        <img src="<?php bloginfo('template_directory'); ?>/images/logos/paytm.webp" alt="">
     </div>
     <div class="clientLogos">
-        <img src="<?php bloginfo('template_directory'); ?>/images/logos/phoenix.png" alt="">
+        <img src="<?php bloginfo('template_directory'); ?>/images/logos/phoenix.webp" alt="">
     </div>
     <div class="clientLogos">
-        <img src="<?php bloginfo('template_directory'); ?>/images/logos/shemaroo.png" alt="">
+        <img src="<?php bloginfo('template_directory'); ?>/images/logos/shemaroo.webp" alt="">
     </div>
     <div class="clientLogos">
-        <img src="<?php bloginfo('template_directory'); ?>/images/logos/tata-aig.png" alt="">
+        <img src="<?php bloginfo('template_directory'); ?>/images/logos/tata-aig.webp" alt="">
     </div>
     <div class="clientLogos">
-        <img src="<?php bloginfo('template_directory'); ?>/images/logos/tata-capital.png" alt="">
+        <img src="<?php bloginfo('template_directory'); ?>/images/logos/tata-capital.webp" alt="">
     </div>
     <div class="clientLogos">
-        <img src="<?php bloginfo('template_directory'); ?>/images/logos/tata-cliq.png" alt="">
+        <img src="<?php bloginfo('template_directory'); ?>/images/logos/tata-cliq.webp" alt="">
     </div>
     <div class="clientLogos">
-        <img src="<?php bloginfo('template_directory'); ?>/images/logos/wipro.png" alt="">
+        <img src="<?php bloginfo('template_directory'); ?>/images/logos/wipro.webp" alt="">
     </div>
 </div>
 
