@@ -482,7 +482,6 @@ header {
         padding: 25px;
         font-size: 13px; } }
 
-
 .homeBanner {
   height: calc(100vh - 270px);
   margin-top: 0px;
@@ -1336,9 +1335,11 @@ header .logoBox img {
           @media screen and (max-width: 770px) {
             .formSection .form-wrap .tabs-content form fieldset .checkboxContent {
               width: 100%; } }
+          .formSection .form-wrap .tabs-content form fieldset .checkboxContent .wpcf7-list-item {
+            margin: 0 !important; }
           .formSection .form-wrap .tabs-content form fieldset .checkboxContent .policy {
             font-weight: 400;
-            width: 90%; }
+            width: 100%; }
           .formSection .form-wrap .tabs-content form fieldset .checkboxContent input[type='checkbox'] {
             margin: 0;
             padding: 2px 0;
