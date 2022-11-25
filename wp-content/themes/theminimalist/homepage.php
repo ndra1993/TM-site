@@ -22,7 +22,7 @@
             </div>
             <div class="homeBox">
                 <p>Sneak peek into our journey towards inventiveness</p>
-               <img src="<?php bloginfo('template_directory'); ?>/images/qr-code.png" alt="" class="qrImg">
+                <img src="<?php bloginfo('template_directory'); ?>/images/qr-code.png" alt="" class="qrImg">
                 <a href="<?php echo site_url('/forms/'); ?>" class="connectCta">Let's Collaborate</a>
             </div>
         </div>
@@ -33,25 +33,15 @@
             <div class="bannerText">
                 <h1 class="h1 font135 fontW800">We aspire to be India’s most inventive company in the creative business</h1>
             </div>
-            <div class="bannerVideo">
-                <div class="videoBox">
-                    <!-- <video id="video" src="<?php bloginfo('template_directory'); ?>/images/tm-video.mp4" controls="true" autoplay="autoplay" loop="true"muted defaultmuted playsinline /></video> -->
-                    <video autoplay muted="false" id="video" class="videoOne" loop="">
+            <div class="showreel-container" style="opacity: 1; visibility: inherit;">
+                <div class="showreel-video-block">
+                    <video autoplay="" loop="" muted="" playsinline="" cursor-class="showreel-video">
                         <source src="<?php bloginfo('template_directory'); ?>/images/main-video.mp4" type="video/mp4">
                     </video>
-                    <video class="videotwo"  muted="false" loop="" autoplay playsinline>
-                        <source src="<?php bloginfo('template_directory'); ?>/images/teaser.mp4" type="video/mp4">
-                    </video>
-                    <!-- <div id="audio-control" class="muted">Unmute</div> -->
-                    <div class="videoHoverBox" id="audio-control"></div>
-                </div>
-                <!-- <div class="logo">
-				<div id="logosAnime">
-                <img src="<?php bloginfo('template_directory'); ?>/images/logos.gif" alt="">
-				</div>
-				
-			</div> -->
 
+                    <!-- <span class="showreel-text">Showreel 2022</span> -->
+                </div>
+                <div class="showreel-bg"></div>
             </div>
         </div>
     </section>
@@ -76,7 +66,7 @@
     <div class="clientLogos">
         <img src="<?php bloginfo('template_directory'); ?>/images/logos/blue-star.webp" alt="">
     </div>
-    
+
     <div class="clientLogos">
         <img src="<?php bloginfo('template_directory'); ?>/images/logos/box-8.webp" alt="">
     </div>
@@ -179,4 +169,3 @@
 </div>
 
 <?php get_footer(); ?>
-

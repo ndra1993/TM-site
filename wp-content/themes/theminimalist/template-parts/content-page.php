@@ -82,19 +82,15 @@ if (!isset($_SESSION['showloader'])) {
             <div class="bannerText">
                 <h1 class="h1 font135 fontW800">We aspire to be India’s most inventive company in the creative business</h1>
             </div>
-            <div class="bannerVideo">
-                <div class="videoBox">
-                    <div class="videoDiv" id="videoFrame"></div>
-                    <!-- 	webm				<video muted id="video" class="videoOne" loop="">
+            <div class="showreel-container" style="opacity: 1; visibility: inherit;">
+                <div class="showreel-video-block">
+                    <video autoplay="" loop="" muted="" playsinline="" cursor-class="showreel-video">
                         <source src="<?php bloginfo('template_directory'); ?>/images/main-video.mp4" type="video/mp4">
-                    </video> -->
-                    <video class="videotwo" muted loop="" autoplay playsinline>
-                        <source src="<?php bloginfo('template_directory'); ?>/images/teaser.mp4" type="video/mp4">
                     </video>
-                    <!-- <div id="audio-control" class="muted">Unmute</div> -->
-                    <div class="videoHoverBox" id="audio-control"></div>
-                    <div class="videoHoverBoxTwo" id="audio-controlTwo"></div>
+
+                    <!-- <span class="showreel-text">Showreel 2022</span> -->
                 </div>
+                <div class="showreel-bg"></div>
             </div>
         </div>
     </section>

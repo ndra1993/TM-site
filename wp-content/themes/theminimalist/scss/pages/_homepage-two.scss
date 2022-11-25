@@ -1,0 +1,117 @@
+.showreel-container {
+  width: 40%;
+  position: absolute;
+  right: 0px;
+  height: auto;
+  margin: auto;
+  transition: 0.5s all ease-in-out;
+  cursor: url(../images/testimonial-play.png;) 30 30, auto;
+  .showreel-bg {
+    z-index: 3;
+    position: absolute;
+    top: 0;
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .showreel-video-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    video {
+      display: block;
+      /*Overriding style.css*/
+      width: 100%;
+      object-fit: fill;
+      
+    }
+
+    
+  }
+
+  &.fullscreen-video {
+    height: auto;
+    margin: auto;
+    width: 68%;
+    right: 0;
+    transition: .5s all ease-in-out;
+    cursor: url(../images/testimonial-stop.png;) 30 30, auto !important;
+
+    video {
+      width: 100%;
+    }
+
+    
+
+    @media screen and (max-width:1800px) {
+      width: 68%;
+    }
+
+    @media screen and (max-width:1600px) {
+      width: 60%;
+    }
+
+    @media screen and (max-width:1470px) {
+      width: 65%;
+    }
+
+    @media screen and (max-width:1303px) {
+      width: 64%;
+    }
+
+    @media screen and (max-width:1170px) {
+      width: 61%;
+    }
+
+    @media screen and (max-width:1050px) {
+      width: 58%;
+    }
+
+    @media screen and (max-width:1024px) {
+      width: auto;
+    }
+  }
+
+  @media screen and (max-width:1950px) {
+    width: 40%;
+  }
+
+  @media screen and (max-width:1450px) {
+    width: 45%;
+  }
+
+  @media screen and (max-width:1050px) {
+    width: 45%;
+  }
+
+  @media screen and (max-width:1024px) {
+    width: auto;
+    position: unset;
+  }
+}
+
+
+
+
+
+
+
+//   .fullscreen-video .showreel-text {
+//     opacity: 0;
+//     transition: all 0.5s ease;
+//   }
+// .showreel-text {
+//     position: absolute;
+//     z-index: 9;
+//     color: #fff;
+//     font-size: 16px;
+//     text-shadow: 1px 1px 0px #000;
+//     padding: 2px 8px;
+//     text-transform: uppercase;
+//     pointer-events: none;
+//     transition: all 1s cubic-bezier(0.86, 0, 0.07, 1);
+//   }
