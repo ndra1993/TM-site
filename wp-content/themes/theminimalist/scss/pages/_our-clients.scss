@@ -1,0 +1,12 @@
+.clientSectwo{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 108px;
+    .clientLogostwo{
+        width: 20%;
+        padding: 80px;
+        border: 1px solid #000;
+        img{height: 40px;width: 100px;}
+    }
+}

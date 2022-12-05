@@ -1934,14 +1934,19 @@ header .logoBox img {
   box-sizing: border-box; }
 
 header {
-  padding-left: 0px; }
-  @media screen and (max-width: 780px) {
-    header {
-      padding-left: 15px; } }
+  padding-left: 0px;
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  width: 100%;
+  background-color: #fff; }
   header .headerContent {
     display: flex;
     align-items: center;
     justify-content: space-between; }
+    @media screen and (max-width: 1024px) {
+      header .headerContent {
+        padding: 20px; } }
   @media screen and (max-width: 575px) {
     header .logoBox {
       width: 60%; } }
@@ -1953,95 +1958,160 @@ header {
     @media screen and (max-width: 900px) {
       header .logoBox img {
         width: 65%; } }
-  @media screen and (max-width: 1024px) {
-    header .logoBox {
-      margin-left: 25px; } }
-  @media screen and (max-width: 780px) {
-    header .logoBox {
-      margin-left: 10px; } }
   header .homeBox {
     display: flex;
     align-items: center; }
-  header .homeBox .qrImg {
-    margin: 0px 37px;
-    width: 120px; }
-    @media screen and (max-width: 1600px) {
-      header .homeBox .qrImg {
-        width: 90px; } }
-    @media screen and (max-width: 1450px) {
-      header .homeBox .qrImg {
-        width: 75px;
-        margin: 0px 30px 0px 30px; } }
-    @media screen and (max-width: 1282px) {
-      header .homeBox .qrImg {
-        margin: 0px 30px 0px 30px; } }
-    @media screen and (max-width: 1020px) {
-      header .homeBox .qrImg {
-        display: none;
-        align-items: none;
-        justify-content: space-between; } }
-  header .homeBox .connectCta {
-    padding: 30px 60px;
-    background: #00FFA3;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
-    font-family: "Poppins", sans-serif;
-    font-weight: 800;
-    font-size: 24px;
-    line-height: 24px;
-    text-transform: uppercase;
-    color: #000000; }
-    @media screen and (max-width: 1600px) {
-      header .homeBox .connectCta {
-        padding: 30px 60px; } }
-    @media screen and (max-width: 1450px) {
-      header .homeBox .connectCta {
-        font-size: 18px;
-        padding: 30px 60px; } }
-    @media screen and (max-width: 780px) {
-      header .homeBox .connectCta {
-        padding: 25px;
-        font-size: 13px; } }
-  header .homeBox .connectCtatwo {
-    padding: 30px 60px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
-    font-family: "Poppins", sans-serif;
-    font-weight: 800;
-    font-size: 24px;
-    line-height: 24px;
-    text-transform: uppercase;
-    color: #000000; }
-    @media screen and (max-width: 1600px) {
-      header .homeBox .connectCtatwo {
-        padding: 30px 60px; } }
-    @media screen and (max-width: 1450px) {
-      header .homeBox .connectCtatwo {
-        font-size: 18px;
-        padding: 30px 60px; } }
-    @media screen and (max-width: 780px) {
-      header .homeBox .connectCtatwo {
-        padding: 25px;
-        font-size: 13px; } }
+    header .homeBox .headerCta {
+      width: 40%; }
+      header .homeBox .headerCta .connectCta {
+        padding: 30px 60px;
+        background: #00FFA3;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        font-family: "Poppins", sans-serif;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #000000; }
+        @media screen and (max-width: 1600px) {
+          header .homeBox .headerCta .connectCta {
+            padding: 30px 60px; } }
+        @media screen and (max-width: 1450px) {
+          header .homeBox .headerCta .connectCta {
+            font-size: 18px;
+            padding: 30px 60px; } }
+        @media screen and (max-width: 780px) {
+          header .homeBox .headerCta .connectCta {
+            padding: 25px;
+            font-size: 13px; } }
+      header .homeBox .headerCta .connectCtatwo {
+        padding: 30px 60px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        font-family: "Poppins", sans-serif;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #000000; }
+        @media screen and (max-width: 1600px) {
+          header .homeBox .headerCta .connectCtatwo {
+            padding: 30px 60px; } }
+        @media screen and (max-width: 1450px) {
+          header .homeBox .headerCta .connectCtatwo {
+            font-size: 18px;
+            padding: 30px 60px; } }
+        @media screen and (max-width: 780px) {
+          header .homeBox .headerCta .connectCtatwo {
+            padding: 25px;
+            font-size: 13px; } }
+    header .homeBox .hamburgerIcon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      width: 20%; }
+      header .homeBox .hamburgerIcon--active .menu__button .bottom {
+        transform: translateY(-8px) translateX(0) rotate(-45deg); }
+      header .homeBox .hamburgerIcon--active .menu__button .middle {
+        opacity: 0; }
+      header .homeBox .hamburgerIcon--active .menu__button .top {
+        transform: translateY(8px) translateX(0) rotate(45deg); }
+      header .homeBox .hamburgerIcon .menu__button {
+        display: inline-block;
+        z-index: 10;
+        width: 36px;
+        top: 50%;
+        transform: translateY(-50%);
+        position: relative;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        text-align: center;
+        outline: none; }
+        @media screen and (max-width: 575px) {
+          header .homeBox .hamburgerIcon .menu__button {
+            padding: 1px 0px; } }
+        header .homeBox .hamburgerIcon .menu__button .middle {
+          top: -1px !important; }
+        header .homeBox .hamburgerIcon .menu__button .bottom {
+          top: 7px !important; }
+      header .homeBox .hamburgerIcon .legalOverlay {
+        height: 100%;
+        position: fixed;
+        right: 0;
+        top: 0;
+        width: 100%;
+        bottom: 0;
+        transform: translate(150%);
+        transition: transform 0.5s ease-in-out;
+        z-index: 9; }
+        header .homeBox .hamburgerIcon .legalOverlay.openTwo {
+          width: 100%;
+          transform: translateX(0%) !important;
+          transition: all 0.5s ease-in-out; }
+        header .homeBox .hamburgerIcon .legalOverlay .menu__list {
+          background-color: #fff;
+          clear: both;
+          width: 100%;
+          height: 100vh;
+          overflow: hidden;
+          transform: translateX(150%);
+          transition: all 0.5s ease-in-out;
+          padding-left: 20px;
+          padding-top: 0px; }
+          header .homeBox .hamburgerIcon .legalOverlay .menu__list.open {
+            height: 100vh;
+            transform: translateX(0%) !important;
+            transition: all 0.5s ease-in-out; }
+          header .homeBox .hamburgerIcon .legalOverlay .menu__list li {
+            display: block;
+            width: 100%;
+            margin-left: 0px;
+            padding: 20px 0px;
+            border-bottom: 1px solid #000; }
+            header .homeBox .hamburgerIcon .legalOverlay .menu__list li:hover, header .homeBox .hamburgerIcon .legalOverlay .menu__list li:focus, header .homeBox .hamburgerIcon .legalOverlay .menu__list li:active, header .homeBox .hamburgerIcon .legalOverlay .menu__list li:visited {
+              border-bottom: 10px solid #00FFA3; }
+              header .homeBox .hamburgerIcon .legalOverlay .menu__list li:hover a, header .homeBox .hamburgerIcon .legalOverlay .menu__list li:focus a, header .homeBox .hamburgerIcon .legalOverlay .menu__list li:active a, header .homeBox .hamburgerIcon .legalOverlay .menu__list li:visited a {
+                font-size: 80px; }
+            header .homeBox .hamburgerIcon .legalOverlay .menu__list li.menu_sub::before {
+              top: 35px;
+              right: 30px; }
+            header .homeBox .hamburgerIcon .legalOverlay .menu__list li.menu_sub:hover::before {
+              transform: none; }
+            header .homeBox .hamburgerIcon .legalOverlay .menu__list li a {
+              text-decoration: none;
+              padding: 0;
+              font-size: 32px;
+              cursor: pointer;
+              transition: all 0.3s ease;
+              color: #000;
+              font-weight: 800; }
+              header .homeBox .hamburgerIcon .legalOverlay .menu__list li a:hover, header .homeBox .hamburgerIcon .legalOverlay .menu__list li a:focus, header .homeBox .hamburgerIcon .legalOverlay .menu__list li a:active, header .homeBox .hamburgerIcon .legalOverlay .menu__list li a:visited {
+                color: #000 !important; }
+      header .homeBox .hamburgerIcon .menu__button .top,
+      header .homeBox .hamburgerIcon .menu__button .middle,
+      header .homeBox .hamburgerIcon .menu__button .bottom {
+        border: transparent;
+        height: 4px;
+        width: 100%;
+        position: absolute;
+        top: -9px;
+        left: 0;
+        transition: all .35s ease;
+        background-color: #000; }
+      @media screen and (max-width: 575px) {
+        header .homeBox .hamburgerIcon {
+          padding: 0px; } }
 
 .homeBanner {
-  height: calc(100vh - 270px);
-  margin-top: 0px;
-  overflow-y: hidden;
-  overflow-x: hidden; }
-  @media screen and (max-width: 1600px) {
-    .homeBanner {
-      height: calc(100vh - 222px); } }
-  @media screen and (max-width: 1370px) {
-    .homeBanner {
-      height: calc(100vh - 180px); } }
-  @media screen and (max-width: 1024px) {
-    .homeBanner {
-      height: auto; } }
+  height: 100vh;
+  overflow-y: hidden; }
 
 .bannerContent {
   position: relative;
@@ -2316,97 +2386,47 @@ header .logoBox img {
   top: 50%;
   transform: translatey(-50%); }
 
-.hamburgerIcon {
-  padding: 30px 60px;
+.footerLinks {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 75px;
+  border-top: 1px solid #000; }
+  .footerLinks .linksFt span {
+    padding: 0px 5px; }
+  .footerLinks .linksFt a {
+    text-decoration: none; }
+    .footerLinks .linksFt a:hover, .footerLinks .linksFt a:focus {
+      color: #000; }
+    .footerLinks .linksFt a:nth-child(1) {
+      margin-right: 0px; }
+  .footerLinks .copyRight {
+    display: flex;
+    align-items: center; }
+    .footerLinks .copyRight br {
+      display: none; }
+    .footerLinks .copyRight span {
+      margin-right: 10px; }
+  @media all and (max-width: 1024px) {
+    .footerLinks {
+      display: block; }
+      .footerLinks .copyRight {
+        margin-top: 20px; }
+        .footerLinks .copyRight br {
+          display: block; }
+      .footerLinks .linksFt a:nth-child(1) {
+        margin-right: 30px; } }
+
+.clientSectwo {
   display: flex;
   align-items: center;
-  cursor: pointer; }
-  .hamburgerIcon--active .menu__button .bottom {
-    transform: translateY(-9px) translateX(0) rotate(-45deg); }
-  .hamburgerIcon--active .menu__button .middle {
-    opacity: 0; }
-  .hamburgerIcon--active .menu__button .top {
-    transform: translateY(8px) translateX(0) rotate(45deg); }
-  .hamburgerIcon .menu__button {
-    display: inline-block;
-    z-index: 10;
-    width: 36px;
-    top: 50%;
-    transform: translateY(-50%);
-    position: relative;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    text-align: center;
-    outline: none; }
-    .hamburgerIcon .menu__button .middle {
-      top: 8px !important; }
-    .hamburgerIcon .menu__button .bottom {
-      top: 16px !important; }
-  .hamburgerIcon .legalOverlay {
-    height: 100%;
-    position: fixed;
-    right: 0;
-    top: 0;
-    width: 100%;
-    bottom: 0;
-    transform: translate(150%);
-    transition: transform 0.5s ease-in-out;
-    z-index: 9;
-    background-color: rgba(33, 33, 33, 0.7); }
-    .hamburgerIcon .legalOverlay.openTwo {
-      width: 100%;
-      transform: translateX(0%) !important;
-      transition: all 0.5s ease-in-out; }
-    .hamburgerIcon .legalOverlay .menu__list {
-      background-color: #fff;
-      clear: both;
-      width: 100%;
-      height: 100vh;
-      overflow: hidden;
-      transform: translateX(150%);
-      transition: all 0.5s ease-in-out;
-      padding-left: 20px;
-      padding-top: 0px; }
-      .hamburgerIcon .legalOverlay .menu__list.open {
-        height: 100vh;
-        transform: translateX(0%) !important;
-        transition: all 0.5s ease-in-out; }
-      .hamburgerIcon .legalOverlay .menu__list li {
-        display: block;
-        width: 100%;
-        margin-left: 0px;
-        padding: 20px 0px;
-        border-bottom: 1px solid #000; }
-        .hamburgerIcon .legalOverlay .menu__list li:hover, .hamburgerIcon .legalOverlay .menu__list li:focus, .hamburgerIcon .legalOverlay .menu__list li:active, .hamburgerIcon .legalOverlay .menu__list li:visited {
-          border-bottom: 10px solid #00FFA3; }
-          .hamburgerIcon .legalOverlay .menu__list li:hover a, .hamburgerIcon .legalOverlay .menu__list li:focus a, .hamburgerIcon .legalOverlay .menu__list li:active a, .hamburgerIcon .legalOverlay .menu__list li:visited a {
-            font-size: 80px; }
-        .hamburgerIcon .legalOverlay .menu__list li.menu_sub::before {
-          top: 35px;
-          right: 30px; }
-        .hamburgerIcon .legalOverlay .menu__list li.menu_sub:hover::before {
-          transform: none; }
-        .hamburgerIcon .legalOverlay .menu__list li a {
-          text-decoration: none;
-          padding: 0;
-          font-size: 32px;
-          cursor: pointer;
-          transition: all 0.3s ease;
-          color: #000;
-          font-weight: 800; }
-          .hamburgerIcon .legalOverlay .menu__list li a:hover, .hamburgerIcon .legalOverlay .menu__list li a:focus, .hamburgerIcon .legalOverlay .menu__list li a:active, .hamburgerIcon .legalOverlay .menu__list li a:visited {
-            color: #000 !important; }
-  .hamburgerIcon .menu__button .top,
-  .hamburgerIcon .menu__button .middle,
-  .hamburgerIcon .menu__button .bottom {
-    border: transparent;
-    height: 4px;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    transition: all .35s ease;
-    background-color: #000; }
+  flex-wrap: wrap;
+  margin-top: 108px; }
+  .clientSectwo .clientLogostwo {
+    width: 20%;
+    padding: 80px;
+    border: 1px solid #000; }
+    .clientSectwo .clientLogostwo img {
+      height: 40px;
+      width: 100px; }
 
 /*# sourceMappingURL=main.css.map */

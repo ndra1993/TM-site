@@ -2,7 +2,7 @@ $(window).on('load', function () {
   var newdata = sessionStorage.getItem('doNotShow');
 
   if (newdata != '') {
-    console.log("false");
+    // console.log("false");
     $(".loaderScreen").css("display", "none");
     $('.loaderScreen').hide();
 

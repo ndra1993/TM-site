@@ -8,15 +8,22 @@
 
 header {
   padding-left: 0px;
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
 
-  @media screen and (max-width:780px) {
-    padding-left: 15px;
-  }
+
 
   .headerContent {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    @media screen and (max-width:1024px) {
+      padding: 20px;
+    }
   }
 
   .logoBox {
@@ -36,107 +43,223 @@ header {
         width: 65%;
       }
     }
-
-    @media screen and (max-width:1024px) {
-      margin-left: 25px;
-    }
-
-    @media screen and (max-width:780px) {
-      margin-left: 10px;
-    }
   }
 
   .homeBox {
     display: flex;
     align-items: center;
-  }
 
-  // .homeBox{
-  //     p{width:186px;font-family: "Poppins", sans-serif;font-weight: 700;font-size: 16px;line-height: 20px;color: #000000;
-  //     @media screen and (max-width:1400px) {width:140px; font-size: 12px;}
-  //     @media screen and (max-width:1020px) {
-  //         @include display-property(none, none);}
-  //         }
-  //         } 
-  .homeBox {
-    .qrImg {
-      margin: 0px 37px;
-      width: 120px;
+    .headerCta {
+      width: 40%;
 
-      @media screen and (max-width:1600px) {
-        width: 90px;
+      .connectCta {
+        padding: 30px 60px;
+        background: #00FFA3;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        font-family: "Poppins", sans-serif;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #000000;
+
+        @media screen and (max-width:1600px) {
+          padding: 30px 60px;
+        }
+
+        @media screen and (max-width:1450px) {
+          font-size: 18px;
+          padding: 30px 60px;
+        }
+
+        @media screen and (max-width:780px) {
+          padding: 25px;
+          font-size: 13px;
+        }
       }
 
-      @media screen and (max-width:1450px) {
-        width: 75px;
-        margin: 0px 30px 0px 30px;
-      }
+      .connectCtatwo {
+        padding: 30px 60px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        font-family: "Poppins", sans-serif;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #000000;
 
-      @media screen and (max-width:1282px) {
-        margin: 0px 30px 0px 30px;
-      }
+        @media screen and (max-width:1600px) {
+          padding: 30px 60px;
+        }
 
-      @media screen and (max-width:1020px) {
-        @include display-property(none, none);
+        @media screen and (max-width:1450px) {
+          font-size: 18px;
+          padding: 30px 60px;
+        }
+
+        @media screen and (max-width:780px) {
+          padding: 25px;
+          font-size: 13px;
+        }
       }
     }
-  }
 
-  .homeBox {
-    .connectCta {
-      padding: 30px 60px;
-      background: #00FFA3;
-      text-align: center;
+
+
+
+    .hamburgerIcon {
       display: flex;
+      align-items: center;
       justify-content: center;
-      text-decoration: none;
-      font-family: "Poppins", sans-serif;
-      font-weight: 800;
-      font-size: 24px;
-      line-height: 24px;
-      text-transform: uppercase;
-      color: #000000;
+      cursor: pointer;
+      width: 20%;
 
-      @media screen and (max-width:1600px) {
-        padding: 30px 60px;
+      &--active .menu__button .bottom {
+        transform: translateY(-8px) translateX(0) rotate(-45deg);
       }
 
-      @media screen and (max-width:1450px) {
-        font-size: 18px;
-        padding: 30px 60px;
+      &--active .menu__button .middle {
+        opacity: 0;
       }
 
-      @media screen and (max-width:780px) {
-        padding: 25px;
-        font-size: 13px;
-      }
-    }
-
-    .connectCtatwo {
-      padding: 30px 60px;
-      text-align: center;
-      display: flex;
-      justify-content: center;
-      text-decoration: none;
-      font-family: "Poppins", sans-serif;
-      font-weight: 800;
-      font-size: 24px;
-      line-height: 24px;
-      text-transform: uppercase;
-      color: #000000;
-
-      @media screen and (max-width:1600px) {
-        padding:30px 60px;
+      &--active .menu__button .top {
+        transform: translateY(8px) translateX(0) rotate(45deg);
       }
 
-      @media screen and (max-width:1450px) {
-        font-size: 18px;
-        padding: 30px 60px;
+      .menu__button {
+        display: inline-block;
+        z-index: 10;
+        width: 36px;
+        top: 50%;
+        transform: translateY(-50%);
+        position: relative;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        text-align: center;
+        outline: none;
+
+        @media screen and (max-width:575px) {
+          padding: 1px 0px;
+        }
+
+
+
+        .middle {
+          top: -1px !important;
+        }
+
+        .bottom {
+          top: 7px !important;
+        }
       }
 
-      @media screen and (max-width:780px) {
-        padding: 25px;
-        font-size: 13px;
+      .legalOverlay {
+        height: 100%;
+        position: fixed;
+        right: 0;
+        top: 0;
+        width: 100%;
+        bottom: 0;
+        transform: translate(150%);
+        transition: transform 0.5s ease-in-out;
+        z-index: 9;
+
+        &.openTwo {
+          width: 100%;
+          transform: translateX(0%) !important;
+          transition: all 0.5s ease-in-out;
+        }
+
+        .menu__list {
+          background-color: #fff;
+          clear: both;
+          width: 100%;
+          height: 100vh;
+          overflow: hidden;
+          transform: translateX(150%);
+          transition: all 0.5s ease-in-out;
+          padding-left: 20px;
+          padding-top: 0px;
+
+          &.open {
+            height: 100vh;
+            transform: translateX(0%) !important;
+            transition: all 0.5s ease-in-out;
+          }
+
+          li {
+            display: block;
+            width: 100%;
+            margin-left: 0px;
+            padding: 20px 0px;
+            border-bottom: 1px solid #000;
+
+            &:hover,
+            &:focus,
+            &:active,
+            &:visited {
+              border-bottom: 10px solid #00FFA3;
+
+              a {
+                font-size: 80px;
+              }
+            }
+
+            &.menu_sub::before {
+              top: 35px;
+              right: 30px;
+            }
+
+            &.menu_sub:hover::before {
+              transform: none;
+            }
+
+            a {
+              text-decoration: none;
+              padding: 0;
+              font-size: 32px;
+              cursor: pointer;
+              transition: all 0.3s ease;
+              color: #000;
+              font-weight: 800;
+
+              &:hover,
+              &:focus,
+              &:active,
+              &:visited {
+                color: #000 !important;
+              }
+
+            }
+          }
+
+
+        }
+      }
+
+      .menu__button .top,
+      .menu__button .middle,
+      .menu__button .bottom {
+        border: transparent;
+        height: 4px;
+        width: 100%;
+        position: absolute;
+        top: -9px;
+        left: 0;
+        transition: all .35s ease;
+        background-color: #000;
+      }
+
+
+      @media screen and (max-width:575px) {
+        padding: 0px;
       }
     }
   }
@@ -144,22 +267,8 @@ header {
 
 
 .homeBanner {
-  height: calc(100vh - 270px);
-  margin-top: 0px;
+  height: 100vh;
   overflow-y: hidden;
-  overflow-x: hidden;
-
-  @media screen and (max-width:1600px) {
-    height: calc(100vh - 222px);
-  }
-
-  @media screen and (max-width:1370px) {
-    height: calc(100vh - 180px);
-  }
-
-  @media screen and (max-width:1024px) {
-    height: auto;
-  }
 }
 
 .bannerContent {
@@ -178,8 +287,11 @@ header {
   position: absolute;
   left: 0px;
   z-index: 1;
-  h1{ transition: .5s all ease-in-out;
+
+  h1 {
+    transition: .5s all ease-in-out;
   }
+
   @media screen and (max-width:1800px) {
     width: 73%;
   }
@@ -556,140 +668,57 @@ header .logoBox img {
 }
 
 
-.hamburgerIcon {
-  padding: 30px 60px;
+.footerLinks {
   display: flex;
-  align-items: center;
-  cursor: pointer;
+  justify-content: space-between;
+  padding: 12px 75px;
+  border-top: 1px solid #000;
 
-  &--active .menu__button .bottom {
-    transform: translateY(-9px) translateX(0) rotate(-45deg);
-  }
+  .linksFt {
+    span{padding: 0px 5px;}
+    a {
+      text-decoration: none;
 
-  &--active .menu__button .middle {
-    opacity: 0;
-  }
-
-  &--active .menu__button .top {
-    transform: translateY(8px) translateX(0) rotate(45deg);
-  }
-
-  .menu__button {
-    display: inline-block;
-    z-index: 10;
-    width: 36px;
-    top: 50%;
-    transform: translateY(-50%);
-    position: relative;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    text-align: center;
-    outline: none;
-
-    
-
-    .middle {
-      top: 8px !important;
-    }
-
-    .bottom {
-      top: 16px !important;
-    }
-  }
-
-  .legalOverlay {
-    height: 100%;
-    position: fixed;
-    right: 0;
-    top: 0;
-    width: 100%;
-    bottom: 0;
-    transform: translate(150%);
-    transition: transform 0.5s ease-in-out;
-    z-index: 9;
-    background-color: rgba(33, 33, 33, 0.7);
-
-    &.openTwo {
-      width: 100%;
-      transform: translateX(0%) !important;
-      transition: all 0.5s ease-in-out;
-    }
-
-    .menu__list {
-      background-color: #fff;
-      clear: both;
-      width: 100%;
-      height: 100vh;
-      overflow: hidden;
-      transform: translateX(150%);
-      transition: all 0.5s ease-in-out;
-      padding-left: 20px;
-      padding-top: 0px;
-
-      &.open {
-        height: 100vh;
-        transform: translateX(0%) !important;
-        transition: all 0.5s ease-in-out;
+      &:hover,
+      &:focus {
+        color: #000;
       }
 
-      li {
+      &:nth-child(1) {
+        margin-right: 0px;
+      }
+    }
+  }
+
+
+  .copyRight {
+    display: flex;
+    align-items: center;
+
+    br {
+      display: none;
+    }
+
+    span {
+      margin-right: 10px;
+    }
+  }
+
+  @media all and (max-width: 1024px) {
+    display: block;
+
+    .copyRight {
+      margin-top: 20px;
+
+      br {
         display: block;
-        width: 100%;
-        margin-left: 0px;
-        padding: 20px 0px;
-        border-bottom: 1px solid #000;
-        
-        &:hover,
-        &:focus,
-        &:active,
-        &:visited {
-          border-bottom: 10px solid #00FFA3;
-          a{ font-size: 80px;}
-        }
-
-        &.menu_sub::before {
-          top: 35px;
-          right: 30px;
-        }
-
-        &.menu_sub:hover::before {
-          transform: none;
-        }
-
-        a {
-          text-decoration: none;
-          padding: 0;
-          font-size: 32px;
-          cursor: pointer;
-          transition: all 0.3s ease;
-          color: #000;
-          font-weight: 800;
-  
-          &:hover,
-          &:focus,
-          &:active,
-          &:visited {
-            color: #000 !important;
-          }
-  
-        }
       }
-
-      
     }
-  }
 
-  .menu__button .top,
-  .menu__button .middle,
-  .menu__button .bottom {
-    border: transparent;
-    height: 4px;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    transition: all .35s ease;
-    background-color: #000;
+    .linksFt a {
+      &:nth-child(1) {
+        margin-right: 30px;
+      }
+    }
   }
 }

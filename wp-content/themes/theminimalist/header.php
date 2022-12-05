@@ -22,7 +22,7 @@
 	<title>The Minimalist</title>
 	<link href="<?php echo get_template_directory_uri(); ?>/scss/main.css" rel="stylesheet">
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/animate.css">
-	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/site.css">
+	<!-- <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/site.css"> -->
 	<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery-3.3.1.min.js"></script>
 
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
