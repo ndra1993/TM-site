@@ -1928,6 +1928,205 @@ header .logoBox img {
   height: 100%;
   object-fit: cover; }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+header {
+  padding-left: 0px; }
+  @media screen and (max-width: 780px) {
+    header {
+      padding-left: 15px; } }
+  header .headerContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+  @media screen and (max-width: 575px) {
+    header .logoBox {
+      width: 60%; } }
+  header .logoBox img {
+    height: 24px; }
+    @media screen and (max-width: 1450px) {
+      header .logoBox img {
+        width: 70%; } }
+    @media screen and (max-width: 900px) {
+      header .logoBox img {
+        width: 65%; } }
+  @media screen and (max-width: 1024px) {
+    header .logoBox {
+      margin-left: 25px; } }
+  @media screen and (max-width: 780px) {
+    header .logoBox {
+      margin-left: 10px; } }
+  header .homeBox {
+    display: flex;
+    align-items: center; }
+  header .homeBox .qrImg {
+    margin: 0px 37px;
+    width: 120px; }
+    @media screen and (max-width: 1600px) {
+      header .homeBox .qrImg {
+        width: 90px; } }
+    @media screen and (max-width: 1450px) {
+      header .homeBox .qrImg {
+        width: 75px;
+        margin: 0px 30px 0px 30px; } }
+    @media screen and (max-width: 1282px) {
+      header .homeBox .qrImg {
+        margin: 0px 30px 0px 30px; } }
+    @media screen and (max-width: 1020px) {
+      header .homeBox .qrImg {
+        display: none;
+        align-items: none;
+        justify-content: space-between; } }
+  header .homeBox .connectCta {
+    padding: 30px 60px;
+    background: #00FFA3;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #000000; }
+    @media screen and (max-width: 1600px) {
+      header .homeBox .connectCta {
+        padding: 30px 60px; } }
+    @media screen and (max-width: 1450px) {
+      header .homeBox .connectCta {
+        font-size: 18px;
+        padding: 30px 60px; } }
+    @media screen and (max-width: 780px) {
+      header .homeBox .connectCta {
+        padding: 25px;
+        font-size: 13px; } }
+  header .homeBox .connectCtatwo {
+    padding: 30px 60px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #000000; }
+    @media screen and (max-width: 1600px) {
+      header .homeBox .connectCtatwo {
+        padding: 30px 60px; } }
+    @media screen and (max-width: 1450px) {
+      header .homeBox .connectCtatwo {
+        font-size: 18px;
+        padding: 30px 60px; } }
+    @media screen and (max-width: 780px) {
+      header .homeBox .connectCtatwo {
+        padding: 25px;
+        font-size: 13px; } }
+
+.homeBanner {
+  height: calc(100vh - 270px);
+  margin-top: 0px;
+  overflow-y: hidden;
+  overflow-x: hidden; }
+  @media screen and (max-width: 1600px) {
+    .homeBanner {
+      height: calc(100vh - 222px); } }
+  @media screen and (max-width: 1370px) {
+    .homeBanner {
+      height: calc(100vh - 180px); } }
+  @media screen and (max-width: 1024px) {
+    .homeBanner {
+      height: auto; } }
+
+.bannerContent {
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center; }
+  @media screen and (max-width: 1024px) {
+    .bannerContent {
+      display: block; } }
+
+.bannerText {
+  width: 75%;
+  position: absolute;
+  left: 0px;
+  z-index: 1; }
+  .bannerText h1 {
+    transition: .5s all ease-in-out; }
+  @media screen and (max-width: 1800px) {
+    .bannerText {
+      width: 73%; } }
+  @media screen and (max-width: 1600px) {
+    .bannerText {
+      width: 67%; } }
+  @media screen and (max-width: 1400px) {
+    .bannerText {
+      width: 72%; } }
+  @media screen and (max-width: 1180px) {
+    .bannerText {
+      width: 78%; } }
+  @media screen and (max-width: 1050px) {
+    .bannerText {
+      width: 60%; } }
+  @media screen and (max-width: 1024px) {
+    .bannerText {
+      width: 95%;
+      margin: 60px 20px 50px;
+      position: unset; }
+      .bannerText h1 {
+        font-size: 94px; } }
+  @media screen and (max-width: 768px) {
+    .bannerText h1 {
+      font-size: 74px; } }
+  @media screen and (max-width: 650px) {
+    .bannerText h1 {
+      font-size: 64px; } }
+  @media screen and (max-width: 480px) {
+    .bannerText h1 {
+      font-size: 44px; } }
+
+.bannerText.textHover {
+  width: 34%;
+  transition: .5s all ease-in-out; }
+  .bannerText.textHover h1 {
+    font-size: 64px; }
+  @media screen and (max-width: 1800px) {
+    .bannerText.textHover {
+      width: 30%; }
+      .bannerText.textHover h1 {
+        font-size: 50px; } }
+  @media screen and (max-width: 1650px) {
+    .bannerText.textHover {
+      width: 34%; } }
+  @media screen and (max-width: 1600px) {
+    .bannerText.textHover {
+      width: 28%; }
+      .bannerText.textHover h1 {
+        font-size: 42px; } }
+  @media screen and (max-width: 1470px) {
+    .bannerText.textHover {
+      width: 30%; } }
+  @media screen and (max-width: 1303px) {
+    .bannerText.textHover {
+      width: 34%; } }
+  @media screen and (max-width: 1170px) {
+    .bannerText.textHover {
+      width: 37%; } }
+  @media screen and (max-width: 1050px) {
+    .bannerText.textHover {
+      width: 40%; } }
+  @media screen and (max-width: 1024px) {
+    .bannerText.textHover {
+      width: auto; }
+      .bannerText.textHover h1 {
+        font-size: 30px; } }
+
 .showreel-container {
   width: 40%;
   position: absolute;
@@ -1997,5 +2196,217 @@ header .logoBox img {
     .showreel-container {
       width: auto;
       position: unset; } }
+
+.clientSec {
+  overflow-y: hidden;
+  overflow-x: hidden;
+  margin: 20px 0px !important; }
+  .clientSec .slick-track {
+    display: flex !important; }
+  .clientSec .slick-slide {
+    height: inherit !important; }
+  .clientSec .clientLogos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 30px; }
+    .clientSec .clientLogos img {
+      width: 80%; }
+    @media screen and (max-width: 1600px) {
+      .clientSec .clientLogos {
+        margin: 0px 10px; } }
+  @media screen and (max-width: 1600px) {
+    .clientSec {
+      margin: 15px 0px !important; } }
+  @media screen and (max-width: 1024px) {
+    .clientSec {
+      margin: 30px 0px !important; } }
+
+header .logoBox img {
+  position: relative;
+  z-index: 9; }
+
+.loaderScreen {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  z-index: 9; }
+
+.loaderScreen .wrapper {
+  height: 100%; }
+
+.loaderLogo {
+  width: 300px; }
+
+.loading {
+  position: absolute;
+  text-transform: capitalize;
+  overflow: hidden;
+  top: 35%;
+  line-height: 1.3;
+  transform: translateY(-50%); }
+
+.loading:before {
+  color: #aaa;
+  content: attr(data-loading-text); }
+
+.loading:after {
+  top: 0;
+  left: 0;
+  width: 0;
+  opacity: 1;
+  color: #000;
+  overflow: hidden;
+  position: absolute;
+  content: attr(data-loading-text);
+  animation: loading 5s infinite; }
+
+@keyframes loading {
+  0% {
+    width: 0; }
+  100% {
+    width: 100%; } }
+@media screen and (max-width: 768px) {
+  .loading {
+    top: 40%;
+    margin-left: 25px; } }
+.progress-bar {
+  overflow: hidden;
+  width: 100%; }
+
+.progress-bar span {
+  display: block; }
+
+.bar {
+  background: rgba(0, 0, 0, 0.05); }
+
+.progress {
+  animation: loader 8s ease infinite;
+  background: #00FFA3;
+  color: #fff;
+  padding: 3px;
+  width: 0; }
+
+@keyframes loader {
+  0% {
+    width: 0; }
+  20% {
+    width: 10%; }
+  25% {
+    width: 24%; }
+  43% {
+    width: 41%; }
+  56% {
+    width: 50%; }
+  66% {
+    width: 52%; }
+  71% {
+    width: 60%; }
+  75% {
+    width: 76%; }
+  94% {
+    width: 86%; }
+  100% {
+    width: 100%; } }
+.progress-bar {
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translatey(-50%); }
+
+.hamburgerIcon {
+  padding: 30px 60px;
+  display: flex;
+  align-items: center;
+  cursor: pointer; }
+  .hamburgerIcon--active .menu__button .bottom {
+    transform: translateY(-9px) translateX(0) rotate(-45deg); }
+  .hamburgerIcon--active .menu__button .middle {
+    opacity: 0; }
+  .hamburgerIcon--active .menu__button .top {
+    transform: translateY(8px) translateX(0) rotate(45deg); }
+  .hamburgerIcon .menu__button {
+    display: inline-block;
+    z-index: 10;
+    width: 36px;
+    top: 50%;
+    transform: translateY(-50%);
+    position: relative;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    outline: none; }
+    .hamburgerIcon .menu__button .middle {
+      top: 8px !important; }
+    .hamburgerIcon .menu__button .bottom {
+      top: 16px !important; }
+  .hamburgerIcon .legalOverlay {
+    height: 100%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    bottom: 0;
+    transform: translate(150%);
+    transition: transform 0.5s ease-in-out;
+    z-index: 9;
+    background-color: rgba(33, 33, 33, 0.7); }
+    .hamburgerIcon .legalOverlay.openTwo {
+      width: 100%;
+      transform: translateX(0%) !important;
+      transition: all 0.5s ease-in-out; }
+    .hamburgerIcon .legalOverlay .menu__list {
+      background-color: #fff;
+      clear: both;
+      width: 100%;
+      height: 100vh;
+      overflow: hidden;
+      transform: translateX(150%);
+      transition: all 0.5s ease-in-out;
+      padding-left: 20px;
+      padding-top: 0px; }
+      .hamburgerIcon .legalOverlay .menu__list.open {
+        height: 100vh;
+        transform: translateX(0%) !important;
+        transition: all 0.5s ease-in-out; }
+      .hamburgerIcon .legalOverlay .menu__list li {
+        display: block;
+        width: 100%;
+        margin-left: 0px;
+        padding: 20px 0px;
+        border-bottom: 1px solid #000; }
+        .hamburgerIcon .legalOverlay .menu__list li:hover, .hamburgerIcon .legalOverlay .menu__list li:focus, .hamburgerIcon .legalOverlay .menu__list li:active, .hamburgerIcon .legalOverlay .menu__list li:visited {
+          border-bottom: 10px solid #00FFA3; }
+          .hamburgerIcon .legalOverlay .menu__list li:hover a, .hamburgerIcon .legalOverlay .menu__list li:focus a, .hamburgerIcon .legalOverlay .menu__list li:active a, .hamburgerIcon .legalOverlay .menu__list li:visited a {
+            font-size: 80px; }
+        .hamburgerIcon .legalOverlay .menu__list li.menu_sub::before {
+          top: 35px;
+          right: 30px; }
+        .hamburgerIcon .legalOverlay .menu__list li.menu_sub:hover::before {
+          transform: none; }
+        .hamburgerIcon .legalOverlay .menu__list li a {
+          text-decoration: none;
+          padding: 0;
+          font-size: 32px;
+          cursor: pointer;
+          transition: all 0.3s ease;
+          color: #000;
+          font-weight: 800; }
+          .hamburgerIcon .legalOverlay .menu__list li a:hover, .hamburgerIcon .legalOverlay .menu__list li a:focus, .hamburgerIcon .legalOverlay .menu__list li a:active, .hamburgerIcon .legalOverlay .menu__list li a:visited {
+            color: #000 !important; }
+  .hamburgerIcon .menu__button .top,
+  .hamburgerIcon .menu__button .middle,
+  .hamburgerIcon .menu__button .bottom {
+    border: transparent;
+    height: 4px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .35s ease;
+    background-color: #000; }
 
 /*# sourceMappingURL=main.css.map */

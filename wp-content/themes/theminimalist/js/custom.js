@@ -166,3 +166,34 @@ window.addEventListener("pageshow", function(event) {
 });
 
 /*back button and browser back js end*/
+
+
+
+
+// new header
+function menuAction(target) {
+  if (target.hasClass('opened')) {
+    target.removeClass('opened');
+  }
+  else {
+    $('.menu__list li .opened').removeClass('opened');
+    target.toggleClass('opened');
+  }
+}
+function buttonAction(target) {
+  target.toggleClass('hamburgerIcon--active');
+  $('.menu__list').toggleClass('open');
+  $('.legalOverlay').toggleClass('openTwo');
+}
+
+$(document).ready(function () {
+  $('.hamburgerIcon').on('click', function () {
+    buttonAction($(this));
+  });
+  $('.menu__list li a').on('click', function () {
+    menuAction($(this));
+  });
+})
+
+
+
