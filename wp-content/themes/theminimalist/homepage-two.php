@@ -29,6 +29,9 @@
             <div class="headerCta">
                 <a href="<?php echo site_url('/forms/'); ?>" class="connectCta">Let's Invent</a>
             </div>
+            <div>
+                
+            </div>
             <div class="hamburgerIcon">
                 <button class="menu__button"><span class="top"></span><span class="middle"></span><span class="bottom"></span></button>
                 <div class="legalOverlay">

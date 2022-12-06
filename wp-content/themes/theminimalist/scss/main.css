@@ -1472,6 +1472,7 @@ header .logoBox img {
 
 .casebgdetails {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(219.06deg, #0D1917 23.88%, #A270F2 71.41%);
+  margin-top: 96px;
   /**************************************************Media Query***************************************************/ }
   .casebgdetails .sectionOne {
     position: relative;
@@ -1964,7 +1965,7 @@ header {
     header .homeBox .headerCta {
       width: 40%; }
       header .homeBox .headerCta .connectCta {
-        padding: 30px 60px;
+        padding: 25px 60px;
         background: #00FFA3;
         text-align: center;
         display: flex;
@@ -1972,8 +1973,8 @@ header {
         text-decoration: none;
         font-family: "Poppins", sans-serif;
         font-weight: 800;
-        font-size: 24px;
-        line-height: 24px;
+        font-size: 16px;
+        line-height: 18px;
         text-transform: uppercase;
         color: #000000; }
         @media screen and (max-width: 1600px) {
@@ -1981,22 +1982,21 @@ header {
             padding: 30px 60px; } }
         @media screen and (max-width: 1450px) {
           header .homeBox .headerCta .connectCta {
-            font-size: 18px;
             padding: 30px 60px; } }
         @media screen and (max-width: 780px) {
           header .homeBox .headerCta .connectCta {
             padding: 25px;
             font-size: 13px; } }
       header .homeBox .headerCta .connectCtatwo {
-        padding: 30px 60px;
+        padding: 25px 60px;
         text-align: center;
         display: flex;
         justify-content: center;
         text-decoration: none;
         font-family: "Poppins", sans-serif;
         font-weight: 800;
-        font-size: 24px;
-        line-height: 24px;
+        font-size: 16px;
+        line-height: 18px;
         text-transform: uppercase;
         color: #000000; }
         @media screen and (max-width: 1600px) {
@@ -2004,7 +2004,6 @@ header {
             padding: 30px 60px; } }
         @media screen and (max-width: 1450px) {
           header .homeBox .headerCta .connectCtatwo {
-            font-size: 18px;
             padding: 30px 60px; } }
         @media screen and (max-width: 780px) {
           header .homeBox .headerCta .connectCtatwo {
@@ -2016,8 +2015,11 @@ header {
       justify-content: center;
       cursor: pointer;
       width: 20%; }
+      header .homeBox .hamburgerIcon--active {
+        background-color: #00FFA3;
+        padding: 48px 0px; }
       header .homeBox .hamburgerIcon--active .menu__button .bottom {
-        transform: translateY(-8px) translateX(0) rotate(-45deg); }
+        transform: translateY(-6px) translateX(0) rotate(-45deg); }
       header .homeBox .hamburgerIcon--active .menu__button .middle {
         opacity: 0; }
       header .homeBox .hamburgerIcon--active .menu__button .top {
@@ -2040,7 +2042,7 @@ header {
         header .homeBox .hamburgerIcon .menu__button .middle {
           top: -1px !important; }
         header .homeBox .hamburgerIcon .menu__button .bottom {
-          top: 7px !important; }
+          top: 6px !important; }
       header .homeBox .hamburgerIcon .legalOverlay {
         height: 100%;
         position: fixed;
@@ -2101,7 +2103,7 @@ header {
         height: 4px;
         width: 100%;
         position: absolute;
-        top: -9px;
+        top: -7px;
         left: 0;
         transition: all .35s ease;
         background-color: #000; }
@@ -2110,8 +2112,9 @@ header {
           padding: 0px; } }
 
 .homeBanner {
-  height: 100vh;
-  overflow-y: hidden; }
+  height: calc(100vh - 150px);
+  overflow-y: hidden;
+  margin-top: 96px; }
 
 .bannerContent {
   position: relative;
@@ -2162,35 +2165,26 @@ header {
       font-size: 44px; } }
 
 .bannerText.textHover {
-  width: 34%;
-  transition: .5s all ease-in-out; }
+  width: 8%;
+  transition: .5s all ease-in-out;
+  top: 5%; }
   .bannerText.textHover h1 {
-    font-size: 64px; }
+    font-size: 16px; }
   @media screen and (max-width: 1800px) {
     .bannerText.textHover {
-      width: 30%; }
-      .bannerText.textHover h1 {
-        font-size: 50px; } }
-  @media screen and (max-width: 1650px) {
-    .bannerText.textHover {
-      width: 34%; } }
+      top: 10%; } }
   @media screen and (max-width: 1600px) {
     .bannerText.textHover {
-      width: 28%; }
-      .bannerText.textHover h1 {
-        font-size: 42px; } }
-  @media screen and (max-width: 1470px) {
+      top: 14%; } }
+  @media screen and (max-width: 1400px) {
     .bannerText.textHover {
-      width: 30%; } }
-  @media screen and (max-width: 1303px) {
+      top: 17%; } }
+  @media screen and (max-width: 1280px) {
     .bannerText.textHover {
-      width: 34%; } }
-  @media screen and (max-width: 1170px) {
+      top: 20%; } }
+  @media screen and (max-width: 1190px) {
     .bannerText.textHover {
-      width: 37%; } }
-  @media screen and (max-width: 1050px) {
-    .bannerText.textHover {
-      width: 40%; } }
+      top: 23%; } }
   @media screen and (max-width: 1024px) {
     .bannerText.textHover {
       width: auto; }
@@ -2226,30 +2220,12 @@ header {
   .showreel-container.fullscreen-video {
     height: auto;
     margin: auto;
-    width: 68%;
+    width: 90%;
     right: 0;
     transition: .5s all ease-in-out;
     cursor: url(../images/testimonial-stop.png;) 30 30, auto !important; }
     .showreel-container.fullscreen-video video {
       width: 100%; }
-    @media screen and (max-width: 1800px) {
-      .showreel-container.fullscreen-video {
-        width: 68%; } }
-    @media screen and (max-width: 1600px) {
-      .showreel-container.fullscreen-video {
-        width: 60%; } }
-    @media screen and (max-width: 1470px) {
-      .showreel-container.fullscreen-video {
-        width: 65%; } }
-    @media screen and (max-width: 1303px) {
-      .showreel-container.fullscreen-video {
-        width: 64%; } }
-    @media screen and (max-width: 1170px) {
-      .showreel-container.fullscreen-video {
-        width: 61%; } }
-    @media screen and (max-width: 1050px) {
-      .showreel-container.fullscreen-video {
-        width: 58%; } }
     @media screen and (max-width: 1024px) {
       .showreel-container.fullscreen-video {
         width: auto; } }
@@ -2389,7 +2365,7 @@ header .logoBox img {
 .footerLinks {
   display: flex;
   justify-content: space-between;
-  padding: 12px 75px;
+  padding: 10px 75px;
   border-top: 1px solid #000; }
   .footerLinks .linksFt span {
     padding: 0px 5px; }
@@ -2420,13 +2396,36 @@ header .logoBox img {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  margin-top: 108px; }
+  margin-top: 96px;
+  width: 100%; }
   .clientSectwo .clientLogostwo {
-    width: 20%;
+    width: 16.6%;
     padding: 80px;
     border: 1px solid #000; }
     .clientSectwo .clientLogostwo img {
       height: 40px;
       width: 100px; }
+    .clientSectwo .clientLogostwo :nth-child(6n+1) {
+      margin-left: -1px;
+      margin-right: -1px; }
+  @media screen and (max-width: 1600px) {
+    .clientSectwo .clientLogostwo {
+      padding: 60px; } }
+  @media screen and (max-width: 1400px) {
+    .clientSectwo .clientLogostwo {
+      width: 20%;
+      padding: 50px; } }
+  @media screen and (max-width: 1200px) {
+    .clientSectwo .clientLogostwo {
+      width: 25%;
+      padding: 40px; } }
+  @media screen and (max-width: 1024px) {
+    .clientSectwo .clientLogostwo {
+      width: 33.3%;
+      padding: 20px; } }
+  @media screen and (max-width: 745px) {
+    .clientSectwo .clientLogostwo {
+      width: 50%;
+      padding: 20px; } }
 
 /*# sourceMappingURL=main.css.map */

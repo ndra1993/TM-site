@@ -53,7 +53,7 @@ header {
       width: 40%;
 
       .connectCta {
-        padding: 30px 60px;
+        padding: 25px 60px;
         background: #00FFA3;
         text-align: center;
         display: flex;
@@ -61,8 +61,8 @@ header {
         text-decoration: none;
         font-family: "Poppins", sans-serif;
         font-weight: 800;
-        font-size: 24px;
-        line-height: 24px;
+        font-size: 16px;
+        line-height: 18px;
         text-transform: uppercase;
         color: #000000;
 
@@ -71,7 +71,6 @@ header {
         }
 
         @media screen and (max-width:1450px) {
-          font-size: 18px;
           padding: 30px 60px;
         }
 
@@ -82,15 +81,15 @@ header {
       }
 
       .connectCtatwo {
-        padding: 30px 60px;
+        padding: 25px 60px;
         text-align: center;
         display: flex;
         justify-content: center;
         text-decoration: none;
         font-family: "Poppins", sans-serif;
         font-weight: 800;
-        font-size: 24px;
-        line-height: 24px;
+        font-size: 16px;
+        line-height: 18px;
         text-transform: uppercase;
         color: #000000;
 
@@ -99,7 +98,6 @@ header {
         }
 
         @media screen and (max-width:1450px) {
-          font-size: 18px;
           padding: 30px 60px;
         }
 
@@ -120,8 +118,13 @@ header {
       cursor: pointer;
       width: 20%;
 
+     &--active{
+        background-color: #00FFA3;
+        padding: 48px 0px;
+      }
+
       &--active .menu__button .bottom {
-        transform: translateY(-8px) translateX(0) rotate(-45deg);
+        transform: translateY(-6px) translateX(0) rotate(-45deg);
       }
 
       &--active .menu__button .middle {
@@ -156,7 +159,7 @@ header {
         }
 
         .bottom {
-          top: 7px !important;
+          top: 6px !important;
         }
       }
 
@@ -251,7 +254,7 @@ header {
         height: 4px;
         width: 100%;
         position: absolute;
-        top: -9px;
+        top: -7px;
         left: 0;
         transition: all .35s ease;
         background-color: #000;
@@ -267,8 +270,9 @@ header {
 
 
 .homeBanner {
-  height: 100vh;
+  height: calc(100vh - 150px);
   overflow-y: hidden;
+  margin-top: 96px;
 }
 
 .bannerContent {
@@ -342,56 +346,42 @@ header {
 }
 
 .bannerText.textHover {
-  width: 34%;
+  width: 8%;
   transition: .5s all ease-in-out;
+  top: 5%;
 
   h1 {
-    font-size: 64px;
+    font-size: 16px;
   }
+
 
   @media screen and (max-width:1800px) {
-    width: 30%;
-
-    h1 {
-      font-size: 50px;
-    }
-  }
-
-  @media screen and (max-width:1650px) {
-    width: 34%;
+   top: 10%;
   }
 
   @media screen and (max-width:1600px) {
-    width: 28%;
+    top: 14%;
+   }
+   @media screen and (max-width:1400px) {
+    top: 17%;
+   }
 
-    h1 {
-      font-size: 42px;
-    }
-  }
+   @media screen and (max-width:1280px) {
+    top: 20%;
+   }
 
-  @media screen and (max-width:1470px) {
-    width: 30%;
-  }
-
-  @media screen and (max-width:1303px) {
-    width: 34%;
-  }
-
-  @media screen and (max-width:1170px) {
-    width: 37%;
-  }
-
-  @media screen and (max-width:1050px) {
-    width: 40%;
-  }
+   @media screen and (max-width:1190px) {
+    top: 23%;
+   }
+  
 
   @media screen and (max-width:1024px) {
     width: auto;
-
     h1 {
       font-size: 30px;
     }
   }
+
 
 }
 
@@ -434,7 +424,7 @@ header {
   &.fullscreen-video {
     height: auto;
     margin: auto;
-    width: 68%;
+    width: 90%;
     right: 0;
     transition: .5s all ease-in-out;
     cursor: url(../images/testimonial-stop.png;) 30 30, auto !important;
@@ -444,30 +434,9 @@ header {
     }
 
 
+    
 
-    @media screen and (max-width:1800px) {
-      width: 68%;
-    }
 
-    @media screen and (max-width:1600px) {
-      width: 60%;
-    }
-
-    @media screen and (max-width:1470px) {
-      width: 65%;
-    }
-
-    @media screen and (max-width:1303px) {
-      width: 64%;
-    }
-
-    @media screen and (max-width:1170px) {
-      width: 61%;
-    }
-
-    @media screen and (max-width:1050px) {
-      width: 58%;
-    }
 
     @media screen and (max-width:1024px) {
       width: auto;
@@ -671,11 +640,14 @@ header .logoBox img {
 .footerLinks {
   display: flex;
   justify-content: space-between;
-  padding: 12px 75px;
+  padding: 10px 75px;
   border-top: 1px solid #000;
 
   .linksFt {
-    span{padding: 0px 5px;}
+    span {
+      padding: 0px 5px;
+    }
+
     a {
       text-decoration: none;
 

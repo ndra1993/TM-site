@@ -2,22 +2,50 @@
 ?>
 
 
-<div class="wrapper">
-    <header>
-        <div class="headerContent">
-            <div class="logoBox">
-                <a href="<?php echo site_url(); ?>">
-                    <img src="<?php bloginfo('template_directory'); ?>/images/tm-logo.svg" alt="">
-                </a>
+<header>
+    <div class="headerContent wrapper">
+        <div class="logoBox">
+            <a href="http://localhost/projects/TM-site-new/homepage-two/">
+                <img src="<?php bloginfo('template_directory'); ?>/images/tm-logo.svg" alt="">
+            </a>
+        </div>
+        <div class="homeBox">
+            <!-- <p>Sneak peek into our journey towards inventiveness</p>
+                <img src="<?php bloginfo('template_directory'); ?>/images/qr-code.png" alt="" class="qrImg"> -->
+            <div class="headerCta">
+                <a href="http://localhost/projects/TM-site-new/case-study-listing/" class="connectCtatwo">Case Studies</a>
             </div>
-            <div class="homeBox">
-                <!-- <p>Sneak peek into our journey towards inventiveness..</p> -->
-                <!-- <img src="<?php bloginfo('template_directory'); ?>/images/qr-code.png" alt="" class="qrImg">-->
-                <a href="<?php echo site_url('/forms/'); ?>" class="connectCta">Let's Collaborate</a>
+            <div class="headerCta">
+                <a href="<?php echo site_url('/forms/'); ?>" class="connectCta">Let's Invent</a>
+            </div>
+            <div>
+                
+            </div>
+            <div class="hamburgerIcon">
+                <button class="menu__button"><span class="top"></span><span class="middle"></span><span class="bottom"></span></button>
+                <div class="legalOverlay">
+                    <ul class="menu__list">
+                        <li class="menu_sub"><a href="#" class="menu__item ">Explore </a>
+                        </li>
+                        <li class="menu_sub"><a href="#" class="menu__item ">Home </a>
+                        </li>
+                        <li class="menu_sub"><a href="#" class="menu__item ">Case Studies </a>
+                        </li>
+                        <li class="menu_sub"><a href="#" class="menu__item ">Services </a>
+                        </li>
+                        <li class="menu_sub"><a href="#" class="menu__item ">Scope My Project </a>
+                        </li>
+                        <li class="menu_sub"><a href="#" class="menu__item ">Career </a>
+                        </li>
+                        <li class="menu_sub"><a href="#" class="menu__item ">Blogs </a>
+                        </li>
+
+                    </ul>
+                </div>
             </div>
         </div>
-    </header>
-</div>
+    </div>
+</header>
 
 <div class="casebgdetails">
 

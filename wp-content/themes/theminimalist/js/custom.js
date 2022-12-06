@@ -135,7 +135,7 @@ $('.slider-nav').slick({
 
 
 //Video zoom Js starts
-if ($(window).width() > 920) {
+if ($(window).width() > 1024) {
   $(".showreel-bg").click(function() {
       $(".showreel-container").toggleClass("fullscreen-video");
       $(".bannerText").toggleClass("textHover");
