@@ -203,4 +203,62 @@ $(document).ready(function () {
 })
 
 
+// wow js
+wow = new WOW({
+  animateClass: 'animated',
+  offset: 100,
+  // callback: function(box) {
+  //     console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+  // }
+});
+wow.init();
 
+// case study detail last section on hover js
+$(".relatedBox").hover(function() {
+  if ($(this).hasClass("activerelated")) {
+      $(".relatedBoxone").removeClass("activerelated");
+      $(".relatedBoxone").addClass("deactiverelated");
+      $(".relatedBoxtwo").addClass("activerelated");
+      $(".relatedBoxtwo").removeClass("deactiverelated");
+  } else {
+      $(".relatedBoxone").addClass("activerelated");
+      $(".relatedBoxone").removeClass("deactiverelated");
+      $(".relatedBoxtwo").removeClass("activerelated");
+      $(".relatedBoxtwo").addClass("deactiverelated");
+  }
+});
+
+$(".relatedBox").mouseleave(function() {
+  if ($(this).hasClass("deactiverelated")) {
+      $(".relatedBoxone").removeClass("activerelated");
+      $(".relatedBoxtwo").removeClass("activerelated");
+      $(".relatedBoxone").removeClass("deactiverelated");
+      $(".relatedBoxtwo").removeClass("deactiverelated");
+  } else {}
+});
+
+
+if ($(window).width() < 1024) {
+var btn = $('#button');
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 100) {
+    btn.addClass('show');
+  } else {
+    btn.removeClass('show');
+  }
+});
+
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '100');
+});
+}
+
+
+$(document).ready(function(){
+  $('.menu__list li').click(function(){
+    $('.menu__list li').removeClass("active");
+    $(this).addClass("active");
+});
+});

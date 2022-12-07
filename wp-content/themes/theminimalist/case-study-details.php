@@ -23,20 +23,19 @@
             <div class="hamburgerIcon">
                 <button class="menu__button"><span class="top"></span><span class="middle"></span><span class="bottom"></span></button>
                 <div class="legalOverlay">
+                    <h5 class="font32">Explore</h5>
                     <ul class="menu__list">
-                        <li class="menu_sub"><a href="#" class="menu__item ">Explore </a>
+                        <li class="menu_sub"><a href="<?php echo site_url('/homepage-two/'); ?>" class="menu__item font80">Home </a>
                         </li>
-                        <li class="menu_sub"><a href="<?php echo site_url('/homepage-two/'); ?>" class="menu__item ">Home </a>
+                        <li class="menu_sub"><a href="<?php echo site_url('/case-study-listing/'); ?>" class="menu__item font80">Case Studies </a>
                         </li>
-                        <li class="menu_sub"><a href="<?php echo site_url('/case-study-listing/'); ?>" class="menu__item ">Case Studies </a>
+                        <li class="menu_sub"><a href="#" class="menu__item font80">Services </a>
                         </li>
-                        <li class="menu_sub"><a href="#" class="menu__item ">Services </a>
+                        <li class="menu_sub"><a href="<?php echo site_url('/forms/'); ?>" class="menu__item font80">Scope My Project </a>
                         </li>
-                        <li class="menu_sub"><a href="<?php echo site_url('/forms/'); ?>" class="menu__item ">Scope My Project </a>
+                        <li class="menu_sub"><a href="<?php echo site_url('/forms/'); ?>" class="menu__item font80">Career </a>
                         </li>
-                        <li class="menu_sub"><a href="<?php echo site_url('/forms/'); ?>" class="menu__item ">Career </a>
-                        </li>
-                        <li class="menu_sub"><a href="#" class="menu__item ">Blogs </a>
+                        <li class="menu_sub"><a href="#" class="menu__item font80">Blogs </a>
                         </li>
                     </ul>
                 </div>
@@ -46,6 +45,9 @@
 </header>
 
 
+
+
+<a id="button"><img src="<?php bloginfo('template_directory'); ?>/images/back-to-top-arrow.svg"></a>
 
 <div class="casebgdetails">
 
@@ -110,15 +112,15 @@
         </div>
     </section>
     <section class="sectionSix">
-        <img src="<?php bloginfo('template_directory'); ?>/images/phone-four.png">
-    </section>
-    <section class="sectionSeven">
-        <div class="brandLogos">
-            <div class="relatedBox relatedBoxone" style="background: #ec2120;">
-                <a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/nykaa-logo.png"></a>
-            </div>
-            <div class="relatedBox relatedBoxtwo" style="background: #00C859;">
-                <a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/nykaa-logo.png"></a>
+        <div class="sectionSiximg"><img src="<?php bloginfo('template_directory'); ?>/images/phone-four.png"></div>
+        <div class="moreCasestudy">
+            <div class="brandLogos">
+                <div class="relatedBox relatedBoxone" style="background: #ec2120;">
+                    <a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/nykaa-logo.png"></a>
+                </div>
+                <div class="relatedBox relatedBoxtwo" style="background: #00C859;">
+                    <a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/nykaa-logo.png"></a>
+                </div>
             </div>
         </div>
     </section>
@@ -126,37 +128,18 @@
 
 <?php get_footer(); ?>
 
-<script>
-    wow = new WOW({
-        animateClass: 'animated',
-        offset: 100,
-        callback: function(box) {
-            console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
-        }
-    });
-    wow.init();
-
-
-    $(".relatedBox").hover(function() {
-        if ($(this).hasClass("activerelated")) {
-            $(".relatedBoxone").removeClass("activerelated");
-            $(".relatedBoxone").addClass("deactiverelated");
-            $(".relatedBoxtwo").addClass("activerelated");
-            $(".relatedBoxtwo").removeClass("deactiverelated");
-        } else {
-            $(".relatedBoxone").addClass("activerelated");
-            $(".relatedBoxone").removeClass("deactiverelated");
-            $(".relatedBoxtwo").removeClass("activerelated");
-            $(".relatedBoxtwo").addClass("deactiverelated");
-        }
-    });
-
-    $(".relatedBox").mouseleave(function() {
-        if ($(this).hasClass("deactiverelated")) {
-            $(".relatedBoxone").removeClass("activerelated");
-            $(".relatedBoxtwo").removeClass("activerelated");
-            $(".relatedBoxone").removeClass("deactiverelated");
-            $(".relatedBoxtwo").removeClass("deactiverelated");
-        } else {}
-    });
-</script>
+<footer>
+    <div class="footerLinks">
+        <div>
+            <p class="colorBlack fontW600 font14 fontPoppins copyRight">
+                <span class="font20 fontW600">&#169;</span>
+                All Rights Reserved, Minimalist Solutions Private Limited
+            </p>
+        </div>
+        <div class="linksFt">
+            <a href="#" class="fontPoppins fontW600 font14 colorBlack">Privacy Policy</a>
+            <span>|</span>
+            <a href="#" class="fontPoppins fontW600 font14 colorBlack">Terms Of Use
+            </a>
+        </div>
+</footer>

@@ -31,7 +31,7 @@ header {
     }
 
     img {
-      height: 24px;
+      width: 100%;
 
       @media screen and (max-width:1450px) {
         width: 70%;
@@ -93,7 +93,7 @@ header {
       cursor: pointer;
       width: 20%;
       padding: 48px 0px;
-      
+
       &--active .menu__button .bottom {
         transform: translateY(-6px) translateX(0) rotate(-45deg);
       }
@@ -126,7 +126,7 @@ header {
 
 
         .middle {
-          top: -1px !important;
+          top: -0.3px !important;
         }
 
         .bottom {
@@ -144,11 +144,26 @@ header {
         transform: translate(150%);
         transition: transform 0.5s ease-in-out;
         z-index: 9;
+        background-color: #fff;
 
         &.openTwo {
           width: 100%;
           transform: translateX(0%) !important;
           transition: all 0.5s ease-in-out;
+        }
+
+        h5 {
+          display: block;
+          width: 100%;
+          margin-left: 0px;
+          padding: 20px 0px 20px 20px;
+          border-bottom: 1px solid #000;
+          cursor: text;
+
+          &::before {
+            top: 35px;
+            right: 30px;
+          }
         }
 
         .menu__list {
@@ -159,31 +174,53 @@ header {
           overflow: hidden;
           transform: translateX(150%);
           transition: all 0.5s ease-in-out;
-          padding-left: 20px;
           padding-top: 0px;
 
           &.open {
-            height: 100vh;
+            height: calc(100vh - 83px);
             transform: translateX(0%) !important;
             transition: all 0.5s ease-in-out;
+            overflow-y: scroll;
+            /* ===== Scrollbar CSS ===== */
+            /* Firefox */
+            scrollbar-width: auto;
+            scrollbar-color: #00ffa3 #ffffff;
+
+            /* Chrome, Edge, and Safari */
+            &::-webkit-scrollbar {
+              width: 13px;
+            }
+
+            &::-webkit-scrollbar-track {
+              background: #ffffff;
+            }
+
+            &::-webkit-scrollbar-thumb {
+              background-color: #00ffa3;
+              border-radius: 15px;
+              border: 3px solid #ffffff;
+            }
           }
 
           li {
             display: block;
             width: 100%;
             margin-left: 0px;
-            padding: 20px 0px;
+            padding: 20px 0px 20px 20px;
             border-bottom: 1px solid #000;
 
-            &:hover,
+            &:hover{
+              border-bottom: 1px solid #00FFA3;
+            }
+
             &:focus,
             &:active,
             &:visited {
               border-bottom: 10px solid #00FFA3;
+            }
 
-              a {
-                font-size: 80px;
-              }
+            &.active{
+              border-bottom: 10px solid #00FFA3;
             }
 
             &.menu_sub::before {
@@ -196,9 +233,9 @@ header {
             }
 
             a {
+              display: block;
               text-decoration: none;
               padding: 0;
-              font-size: 32px;
               cursor: pointer;
               transition: all 0.3s ease;
               color: #000;
@@ -233,68 +270,10 @@ header {
 
       @media screen and (max-width:1600px) {
         padding: 43px 0px;
-        .legalOverlay .menu__list {
-          li {
-
-            &:hover,
-            &:focus,
-            &:active,
-            &:visited {
-              a {
-                font-size: 65px;
-              }
-            }
-          }
-        }
       }
 
       @media screen and (max-width:1450px) {
         padding: 38px 0px;
-        .legalOverlay .menu__list {
-          li {
-
-            &:hover,
-            &:focus,
-            &:active,
-            &:visited {
-              a {
-                font-size: 50px;
-              }
-            }
-          }
-        }
-      }
-
-      @media screen and (max-width:1200px) {
-        .legalOverlay .menu__list {
-          li {
-
-            &:hover,
-            &:focus,
-            &:active,
-            &:visited {
-              a {
-                font-size: 40px;
-              }
-            }
-          }
-        }
-      }
-
-      @media screen and (max-width:1024px) {
-        .legalOverlay .menu__list {
-          li {
-
-            &:hover,
-            &:focus,
-            &:active,
-            &:visited {
-              a {
-                font-size: 30px;
-              }
-            }
-          }
-        }
       }
 
       @media screen and (max-width:575px) {
@@ -693,6 +672,7 @@ header .logoBox img {
   align-items: center;
   padding: 10px 75px;
   border-top: 1px solid #000;
+  background-color: #fff;
 
   .linksFt {
     span {

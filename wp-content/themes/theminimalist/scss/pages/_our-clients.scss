@@ -1,56 +1,166 @@
-.titleBox{display: flex;align-items: center;img{margin-right: 10px;}}
-
-.clientSectwo{
+.titleBox {
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
-    margin-top: 96px;
-    width: 100%;
-    border-top: 1px solid #000;
-    margin-bottom: -1px;
-    .clientLogostwo{
-        width: 16.666%;
-        padding: 80px;
-        border-right: 1px solid #000;
-        border-bottom: 1px solid #000;
-        img{height: 40px;width: 100px;margin: 0 auto;display: flex;align-items: center;}
-        &:nth-child(6n+6){border-right: 0px;}
+
+    h3 {
+        margin-left: 25px;
     }
+
+    img {
+        height: 30px !important;
+        width: 30px !important;
+        cursor: pointer;
+        margin-top: 6px;
+    }
+
+    @media screen and (max-width:1400px) {
+        h3 {
+            margin-left: 20px;
+        }
+
+        img {
+            height: 20px !important;
+            width: 20px !important;
+        }
+    }
+
+    @media screen and (max-width:1280px) {
+        h3 {
+            margin-left: 10px;
+        }
+
+        img {
+            height: 15px !important;
+            width: 15px !important;
+        }
+    }
+}
+
+.our-Clients {
+    height: calc(100vh - 147px);
+    margin-top: 96px;
+    overflow-y: scroll;
+
+    /* ===== Scrollbar CSS ===== */
+    /* Firefox */
+    scrollbar-width: auto;
+    scrollbar-color: #00ffa3 #ffffff;
+
+    /* Chrome, Edge, and Safari */
+    &::-webkit-scrollbar {
+        width: 13px;
+    }
+
+    &::-webkit-scrollbar-track {
+        background: #ffffff;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: #00ffa3;
+        border-radius: 15px;
+        border: 3px solid #ffffff;
+    }
+
+    .clientSectwo {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        border-top: 1px solid #000;
+        margin-bottom: -1px;
+        height: 100%;
+
+        .clientLogostwo {
+            width: 16.666%;
+            padding: 80px;
+            border-right: 1px solid #000;
+            border-bottom: 1px solid #000;
+            display: flex;
+            align-items: center;
+
+            img {
+                height: 40px;
+                width: 100px;
+                margin: 0 auto;
+            }
+
+            &:nth-child(6n+6) {
+                border-right: 0px;
+            }
+        }
+    }
+
     @media screen and (max-width:1600px) {
-        .clientLogostwo{
+        height: calc(100vh - 131px);
+        margin-top: 86px;
+
+        .clientSectwo .clientLogostwo {
             padding: 60px;
         }
     }
-    @media screen and (max-width:1400px) {
-        .clientLogostwo{
+
+    @media screen and (max-width:1450px) {
+        height: calc(100vh - 121px);
+        margin-top: 76px;
+
+        .clientSectwo .clientLogostwo {
             padding: 50px;
         }
     }
+
     @media screen and (max-width:1280px) {
-        .clientLogostwo{
+        .clientSectwo .clientLogostwo {
             width: 20%;
             padding: 40px;
-            &:nth-child(6n+6){border-right: 1px solid #000;}
-            &:nth-child(5n+5){border-right: 0px;}
+
+            &:nth-child(6n+6) {
+                border-right: 1px solid #000;
+            }
+
+            &:nth-child(5n+5) {
+                border-right: 0px;
+            }
         }
     }
+
     @media screen and (max-width:768px) {
-        .clientLogostwo{
+        .clientSectwo .clientLogostwo {
             width: 33.3%;
             padding: 20px;
-            &:nth-child(6n+6){border-right: 1px solid #000;}
-            &:nth-child(5n+5){border-right: 1px solid #000;}
-            &:nth-child(3n+3){border-right: 0px;}
+
+            &:nth-child(6n+6) {
+                border-right: 1px solid #000;
+            }
+
+            &:nth-child(5n+5) {
+                border-right: 1px solid #000;
+            }
+
+            &:nth-child(3n+3) {
+                border-right: 0px;
+            }
         }
     }
+
     @media screen and (max-width:680px) {
-        .clientLogostwo{
+        .clientSectwo .clientLogostwo {
             width: 50%;
             padding: 20px;
-            &:nth-child(6n+6){border-right: 1px solid #000;}
-            &:nth-child(5n+5){border-right: 1px solid #000;}
-            &:nth-child(3n+3){border-right: 1px solid #000;}
-            &:nth-child(2n+2){border-right: 0px;}
+
+            &:nth-child(6n+6) {
+                border-right: 1px solid #000;
+            }
+
+            &:nth-child(5n+5) {
+                border-right: 1px solid #000;
+            }
+
+            &:nth-child(3n+3) {
+                border-right: 1px solid #000;
+            }
+
+            &:nth-child(2n+2) {
+                border-right: 0px;
+            }
         }
     }
 }

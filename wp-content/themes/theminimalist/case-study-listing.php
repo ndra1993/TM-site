@@ -22,20 +22,19 @@
             <div class="hamburgerIcon">
                 <button class="menu__button"><span class="top"></span><span class="middle"></span><span class="bottom"></span></button>
                 <div class="legalOverlay">
-                <ul class="menu__list">
-                        <li class="menu_sub"><a href="#" class="menu__item ">Explore </a>
+                    <h5 class="font32">Explore</h5>
+                    <ul class="menu__list">
+                        <li class="menu_sub"><a href="<?php echo site_url('/homepage-two/'); ?>" class="menu__item font80">Home </a>
                         </li>
-                        <li class="menu_sub"><a href="http://localhost/projects/TM-site-new/homepage-two/" class="menu__item ">Home </a>
+                        <li class="menu_sub"><a href="<?php echo site_url('/case-study-listing/'); ?>" class="menu__item font80">Case Studies </a>
                         </li>
-                        <li class="menu_sub"><a href="http://localhost/projects/TM-site-new/case-study-listing/" class="menu__item ">Case Studies </a>
+                        <li class="menu_sub"><a href="#" class="menu__item font80">Services </a>
                         </li>
-                        <li class="menu_sub"><a href="#" class="menu__item ">Services </a>
+                        <li class="menu_sub"><a href="<?php echo site_url('/forms/'); ?>" class="menu__item font80">Scope My Project </a>
                         </li>
-                        <li class="menu_sub"><a href="http://localhost/projects/TM-site-new/forms/" class="menu__item ">Scope My Project </a>
+                        <li class="menu_sub"><a href="<?php echo site_url('/forms/'); ?>" class="menu__item font80">Career </a>
                         </li>
-                        <li class="menu_sub"><a href="http://localhost/projects/TM-site-new/forms/" class="menu__item ">Career </a>
-                        </li>
-                        <li class="menu_sub"><a href="#" class="menu__item ">Blogs </a>
+                        <li class="menu_sub"><a href="#" class="menu__item font80">Blogs </a>
                         </li>
                     </ul>
                 </div>
