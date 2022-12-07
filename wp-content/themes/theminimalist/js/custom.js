@@ -156,14 +156,21 @@ if ($(window).width() > 1024) {
 //Video zoom Js ends
 
 /*back button and browser back js start*/
-window.addEventListener("pageshow", function(event) {
-  var historyTraversal = event.persisted || (typeof window.performance != "undefined" && window.performance.navigation.type === 2);
-  if (historyTraversal) {
-      // Handle page restore.
-      //alert('refresh');
-      window.location.reload();
+function GoBackWithRefresh(event) {
+  if ('referrer' in document) {
+    window.location = document.referrer;
+    /* OR */
+    //location.replace(document.referrer);
+  } else {
+    window.history.back();
   }
-});
+}
+
+var perfEntries = performance.getEntriesByType("navigation");
+
+if (perfEntries[0].type === "back_forward") {
+  location.reload(true);
+}
 
 /*back button and browser back js end*/
 

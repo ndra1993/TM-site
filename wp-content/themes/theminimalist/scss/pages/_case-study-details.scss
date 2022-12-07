@@ -1,6 +1,6 @@
 .page-template-case-study-details{overflow-x: hidden;}
 .casebgdetails{
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(219.06deg, #0D1917 23.88%, #A270F2 71.41%);margin-top:96px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(219.06deg, #0D1917 23.88%, #A270F2 71.41%);margin-top:86px;
     .sectionOne{position: relative;padding: 70px 0px 200px 0px;
         .mobtext{position: absolute;top: 10%;padding-left: 112px;width: 32%;
             p{text-transform: uppercase;}
@@ -95,6 +95,7 @@
     }
 
     @media screen and (max-width:1400px){
+        margin-top: 76px;
         .sectionOne{padding: 35px 0px 100px 0px;
             .mobtext{padding-left: 52px;
                 h1{margin: 10px 0px;line-height: 45px;}

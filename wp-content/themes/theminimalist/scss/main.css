@@ -1472,7 +1472,7 @@ header .logoBox img {
 
 .casebgdetails {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(219.06deg, #0D1917 23.88%, #A270F2 71.41%);
-  margin-top: 96px;
+  margin-top: 86px;
   /**************************************************Media Query***************************************************/ }
   .casebgdetails .sectionOne {
     position: relative;
@@ -1642,50 +1642,52 @@ header .logoBox img {
         line-height: 27px;
         width: 55%; } }
   @media screen and (max-width: 1400px) {
-    .casebgdetails .sectionOne {
-      padding: 35px 0px 100px 0px; }
-      .casebgdetails .sectionOne .mobtext {
-        padding-left: 52px; }
-        .casebgdetails .sectionOne .mobtext h1 {
+    .casebgdetails {
+      margin-top: 76px; }
+      .casebgdetails .sectionOne {
+        padding: 35px 0px 100px 0px; }
+        .casebgdetails .sectionOne .mobtext {
+          padding-left: 52px; }
+          .casebgdetails .sectionOne .mobtext h1 {
+            margin: 10px 0px;
+            line-height: 45px; }
+          .casebgdetails .sectionOne .mobtext h5 {
+            line-height: 25px; }
+      .casebgdetails .sectionTwo .mobtextTwo {
+        padding: 54px 0px 100px 52px; }
+        .casebgdetails .sectionTwo .mobtextTwo h1 {
           margin: 10px 0px;
-          line-height: 45px; }
-        .casebgdetails .sectionOne .mobtext h5 {
-          line-height: 25px; }
-    .casebgdetails .sectionTwo .mobtextTwo {
-      padding: 54px 0px 100px 52px; }
-      .casebgdetails .sectionTwo .mobtextTwo h1 {
-        margin: 10px 0px;
-        line-height: 45px;
-        width: 55%; }
-      .casebgdetails .sectionTwo .mobtextTwo h5 {
-        line-height: 25px;
-        width: 58%; }
-    .casebgdetails .sectionTwo .mobimgTwo {
-      width: 50%; }
-      .casebgdetails .sectionTwo .mobimgTwo img {
-        width: 77%; }
-    .casebgdetails .sectionThree {
-      padding: 80px 0px 80px 52px; }
-      .casebgdetails .sectionThree .mobtextThree h1 {
-        line-height: 45px;
-        margin: 10px 0px;
-        width: 55%; }
-      .casebgdetails .sectionThree .mobsubtextThree h5 {
-        line-height: 25px;
-        width: 58%; }
-    .casebgdetails .sectionFour {
-      padding: 20px 0px; }
-      .casebgdetails .sectionFour img {
-        width: 64%; }
-    .casebgdetails .sectionFive {
-      padding: 80px 0px 80px 52px; }
-      .casebgdetails .sectionFive .mobtextFour h1 {
-        width: 55%;
-        line-height: 45px;
-        margin: 10px 0px; }
-      .casebgdetails .sectionFive .mobsubtextFour h5 {
-        line-height: 25px;
-        width: 58%; } }
+          line-height: 45px;
+          width: 55%; }
+        .casebgdetails .sectionTwo .mobtextTwo h5 {
+          line-height: 25px;
+          width: 58%; }
+      .casebgdetails .sectionTwo .mobimgTwo {
+        width: 50%; }
+        .casebgdetails .sectionTwo .mobimgTwo img {
+          width: 77%; }
+      .casebgdetails .sectionThree {
+        padding: 80px 0px 80px 52px; }
+        .casebgdetails .sectionThree .mobtextThree h1 {
+          line-height: 45px;
+          margin: 10px 0px;
+          width: 55%; }
+        .casebgdetails .sectionThree .mobsubtextThree h5 {
+          line-height: 25px;
+          width: 58%; }
+      .casebgdetails .sectionFour {
+        padding: 20px 0px; }
+        .casebgdetails .sectionFour img {
+          width: 64%; }
+      .casebgdetails .sectionFive {
+        padding: 80px 0px 80px 52px; }
+        .casebgdetails .sectionFive .mobtextFour h1 {
+          width: 55%;
+          line-height: 45px;
+          margin: 10px 0px; }
+        .casebgdetails .sectionFive .mobsubtextFour h5 {
+          line-height: 25px;
+          width: 58%; } }
   @media screen and (max-width: 1200px) {
     .casebgdetails .sectionOne {
       padding: 35px 0px 60px 0px; }
@@ -1945,9 +1947,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between; }
-    @media screen and (max-width: 1024px) {
-      header .headerContent {
-        padding: 20px; } }
   @media screen and (max-width: 575px) {
     header .logoBox {
       width: 60%; } }
@@ -1965,7 +1964,7 @@ header {
     header .homeBox .headerCta {
       width: 40%; }
       header .homeBox .headerCta .connectCta {
-        padding: 25px 60px;
+        padding: 30px 60px;
         background: #00FFA3;
         text-align: center;
         display: flex;
@@ -1979,45 +1978,23 @@ header {
         color: #000000; }
         @media screen and (max-width: 1600px) {
           header .homeBox .headerCta .connectCta {
-            padding: 30px 60px; } }
+            padding: 25px 50px; } }
         @media screen and (max-width: 1450px) {
           header .homeBox .headerCta .connectCta {
-            padding: 30px 60px; } }
+            padding: 20px 40px; } }
         @media screen and (max-width: 780px) {
           header .homeBox .headerCta .connectCta {
-            padding: 25px;
+            padding: 20px;
             font-size: 13px; } }
       header .homeBox .headerCta .connectCtatwo {
-        padding: 25px 60px;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        text-decoration: none;
-        font-family: "Poppins", sans-serif;
-        font-weight: 800;
-        font-size: 16px;
-        line-height: 18px;
-        text-transform: uppercase;
-        color: #000000; }
-        @media screen and (max-width: 1600px) {
-          header .homeBox .headerCta .connectCtatwo {
-            padding: 30px 60px; } }
-        @media screen and (max-width: 1450px) {
-          header .homeBox .headerCta .connectCtatwo {
-            padding: 30px 60px; } }
-        @media screen and (max-width: 780px) {
-          header .homeBox .headerCta .connectCtatwo {
-            padding: 25px;
-            font-size: 13px; } }
+        background-color: transparent; }
     header .homeBox .hamburgerIcon {
       display: flex;
       align-items: center;
       justify-content: center;
       cursor: pointer;
-      width: 20%; }
-      header .homeBox .hamburgerIcon--active {
-        background-color: #00FFA3;
-        padding: 48px 0px; }
+      width: 20%;
+      padding: 48px 0px; }
       header .homeBox .hamburgerIcon--active .menu__button .bottom {
         transform: translateY(-6px) translateX(0) rotate(-45deg); }
       header .homeBox .hamburgerIcon--active .menu__button .middle {
@@ -2107,14 +2084,38 @@ header {
         left: 0;
         transition: all .35s ease;
         background-color: #000; }
+      @media screen and (max-width: 1600px) {
+        header .homeBox .hamburgerIcon {
+          padding: 43px 0px; }
+          header .homeBox .hamburgerIcon .legalOverlay .menu__list li:hover a, header .homeBox .hamburgerIcon .legalOverlay .menu__list li:focus a, header .homeBox .hamburgerIcon .legalOverlay .menu__list li:active a, header .homeBox .hamburgerIcon .legalOverlay .menu__list li:visited a {
+            font-size: 65px; } }
+      @media screen and (max-width: 1450px) {
+        header .homeBox .hamburgerIcon {
+          padding: 38px 0px; }
+          header .homeBox .hamburgerIcon .legalOverlay .menu__list li:hover a, header .homeBox .hamburgerIcon .legalOverlay .menu__list li:focus a, header .homeBox .hamburgerIcon .legalOverlay .menu__list li:active a, header .homeBox .hamburgerIcon .legalOverlay .menu__list li:visited a {
+            font-size: 50px; } }
+      @media screen and (max-width: 1200px) {
+        header .homeBox .hamburgerIcon .legalOverlay .menu__list li:hover a, header .homeBox .hamburgerIcon .legalOverlay .menu__list li:focus a, header .homeBox .hamburgerIcon .legalOverlay .menu__list li:active a, header .homeBox .hamburgerIcon .legalOverlay .menu__list li:visited a {
+          font-size: 40px; } }
+      @media screen and (max-width: 1024px) {
+        header .homeBox .hamburgerIcon .legalOverlay .menu__list li:hover a, header .homeBox .hamburgerIcon .legalOverlay .menu__list li:focus a, header .homeBox .hamburgerIcon .legalOverlay .menu__list li:active a, header .homeBox .hamburgerIcon .legalOverlay .menu__list li:visited a {
+          font-size: 30px; } }
       @media screen and (max-width: 575px) {
         header .homeBox .hamburgerIcon {
           padding: 0px; } }
 
 .homeBanner {
-  height: calc(100vh - 150px);
+  height: calc(100vh - 144px);
   overflow-y: hidden;
   margin-top: 96px; }
+  @media screen and (max-width: 1600px) {
+    .homeBanner {
+      height: calc(100vh - 131px);
+      margin-top: 86px; } }
+  @media screen and (max-width: 1400px) {
+    .homeBanner {
+      height: calc(100vh - 121px);
+      margin-top: 76px; } }
 
 .bannerContent {
   position: relative;
@@ -2211,14 +2212,16 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative; }
+    position: relative;
+    height: 100%; }
     .showreel-container .showreel-video-block video {
       display: block;
       /*Overriding style.css*/
       width: 100%;
-      object-fit: fill; }
+      object-fit: cover;
+      height: 100%; }
   .showreel-container.fullscreen-video {
-    height: auto;
+    height: 100%;
     margin: auto;
     width: 90%;
     right: 0;
@@ -2365,6 +2368,7 @@ header .logoBox img {
 .footerLinks {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 10px 75px;
   border-top: 1px solid #000; }
   .footerLinks .linksFt span {
@@ -2382,50 +2386,81 @@ header .logoBox img {
       display: none; }
     .footerLinks .copyRight span {
       margin-right: 10px; }
+  @media all and (max-width: 1600px) {
+    .footerLinks {
+      padding: 10px 60px; } }
+  @media all and (max-width: 1400px) {
+    .footerLinks {
+      padding: 10px 40px; } }
+  @media all and (max-width: 1200px) {
+    .footerLinks {
+      padding: 10px 30px; } }
   @media all and (max-width: 1024px) {
     .footerLinks {
-      display: block; }
-      .footerLinks .copyRight {
-        margin-top: 20px; }
-        .footerLinks .copyRight br {
-          display: block; }
-      .footerLinks .linksFt a:nth-child(1) {
-        margin-right: 30px; } }
+      padding: 10px 20px; } }
+
+.titleBox {
+  display: flex;
+  align-items: center; }
+  .titleBox img {
+    margin-right: 10px; }
 
 .clientSectwo {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   margin-top: 96px;
-  width: 100%; }
+  width: 100%;
+  border-top: 1px solid #000;
+  margin-bottom: -1px; }
   .clientSectwo .clientLogostwo {
-    width: 16.6%;
+    width: 16.666%;
     padding: 80px;
-    border: 1px solid #000; }
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000; }
     .clientSectwo .clientLogostwo img {
       height: 40px;
-      width: 100px; }
-    .clientSectwo .clientLogostwo :nth-child(6n+1) {
-      margin-left: -1px;
-      margin-right: -1px; }
+      width: 100px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center; }
+    .clientSectwo .clientLogostwo:nth-child(6n+6) {
+      border-right: 0px; }
   @media screen and (max-width: 1600px) {
     .clientSectwo .clientLogostwo {
       padding: 60px; } }
   @media screen and (max-width: 1400px) {
     .clientSectwo .clientLogostwo {
-      width: 20%;
       padding: 50px; } }
-  @media screen and (max-width: 1200px) {
+  @media screen and (max-width: 1280px) {
     .clientSectwo .clientLogostwo {
-      width: 25%;
-      padding: 40px; } }
-  @media screen and (max-width: 1024px) {
+      width: 20%;
+      padding: 40px; }
+      .clientSectwo .clientLogostwo:nth-child(6n+6) {
+        border-right: 1px solid #000; }
+      .clientSectwo .clientLogostwo:nth-child(5n+5) {
+        border-right: 0px; } }
+  @media screen and (max-width: 768px) {
     .clientSectwo .clientLogostwo {
       width: 33.3%;
-      padding: 20px; } }
-  @media screen and (max-width: 745px) {
+      padding: 20px; }
+      .clientSectwo .clientLogostwo:nth-child(6n+6) {
+        border-right: 1px solid #000; }
+      .clientSectwo .clientLogostwo:nth-child(5n+5) {
+        border-right: 1px solid #000; }
+      .clientSectwo .clientLogostwo:nth-child(3n+3) {
+        border-right: 0px; } }
+  @media screen and (max-width: 680px) {
     .clientSectwo .clientLogostwo {
       width: 50%;
-      padding: 20px; } }
+      padding: 20px; }
+      .clientSectwo .clientLogostwo:nth-child(6n+6) {
+        border-right: 1px solid #000; }
+      .clientSectwo .clientLogostwo:nth-child(5n+5) {
+        border-right: 1px solid #000; }
+      .clientSectwo .clientLogostwo:nth-child(3n+3) {
+        border-right: 1px solid #000; }
+      .clientSectwo .clientLogostwo:nth-child(2n+2) {
+        border-right: 0px; } }
 
 /*# sourceMappingURL=main.css.map */

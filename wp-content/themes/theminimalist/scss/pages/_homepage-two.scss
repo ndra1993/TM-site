@@ -21,9 +21,7 @@ header {
     align-items: center;
     justify-content: space-between;
 
-    @media screen and (max-width:1024px) {
-      padding: 20px;
-    }
+
   }
 
   .logoBox {
@@ -53,7 +51,7 @@ header {
       width: 40%;
 
       .connectCta {
-        padding: 25px 60px;
+        padding: 30px 60px;
         background: #00FFA3;
         text-align: center;
         display: flex;
@@ -67,44 +65,21 @@ header {
         color: #000000;
 
         @media screen and (max-width:1600px) {
-          padding: 30px 60px;
+          padding: 25px 50px;
         }
 
         @media screen and (max-width:1450px) {
-          padding: 30px 60px;
+          padding: 20px 40px;
         }
 
         @media screen and (max-width:780px) {
-          padding: 25px;
+          padding: 20px;
           font-size: 13px;
         }
       }
 
       .connectCtatwo {
-        padding: 25px 60px;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        text-decoration: none;
-        font-family: "Poppins", sans-serif;
-        font-weight: 800;
-        font-size: 16px;
-        line-height: 18px;
-        text-transform: uppercase;
-        color: #000000;
-
-        @media screen and (max-width:1600px) {
-          padding: 30px 60px;
-        }
-
-        @media screen and (max-width:1450px) {
-          padding: 30px 60px;
-        }
-
-        @media screen and (max-width:780px) {
-          padding: 25px;
-          font-size: 13px;
-        }
+        background-color: transparent;
       }
     }
 
@@ -117,12 +92,8 @@ header {
       justify-content: center;
       cursor: pointer;
       width: 20%;
-
-     &--active{
-        background-color: #00FFA3;
-        padding: 48px 0px;
-      }
-
+      padding: 48px 0px;
+      
       &--active .menu__button .bottom {
         transform: translateY(-6px) translateX(0) rotate(-45deg);
       }
@@ -260,6 +231,71 @@ header {
         background-color: #000;
       }
 
+      @media screen and (max-width:1600px) {
+        padding: 43px 0px;
+        .legalOverlay .menu__list {
+          li {
+
+            &:hover,
+            &:focus,
+            &:active,
+            &:visited {
+              a {
+                font-size: 65px;
+              }
+            }
+          }
+        }
+      }
+
+      @media screen and (max-width:1450px) {
+        padding: 38px 0px;
+        .legalOverlay .menu__list {
+          li {
+
+            &:hover,
+            &:focus,
+            &:active,
+            &:visited {
+              a {
+                font-size: 50px;
+              }
+            }
+          }
+        }
+      }
+
+      @media screen and (max-width:1200px) {
+        .legalOverlay .menu__list {
+          li {
+
+            &:hover,
+            &:focus,
+            &:active,
+            &:visited {
+              a {
+                font-size: 40px;
+              }
+            }
+          }
+        }
+      }
+
+      @media screen and (max-width:1024px) {
+        .legalOverlay .menu__list {
+          li {
+
+            &:hover,
+            &:focus,
+            &:active,
+            &:visited {
+              a {
+                font-size: 30px;
+              }
+            }
+          }
+        }
+      }
 
       @media screen and (max-width:575px) {
         padding: 0px;
@@ -270,9 +306,19 @@ header {
 
 
 .homeBanner {
-  height: calc(100vh - 150px);
+  height: calc(100vh - 144px);
   overflow-y: hidden;
   margin-top: 96px;
+
+  @media screen and (max-width:1600px) {
+    height: calc(100vh - 131px);
+    margin-top: 86px;
+  }
+
+  @media screen and (max-width:1400px) {
+    height: calc(100vh - 121px);
+    margin-top: 76px;
+  }
 }
 
 .bannerContent {
@@ -356,27 +402,29 @@ header {
 
 
   @media screen and (max-width:1800px) {
-   top: 10%;
+    top: 10%;
   }
 
   @media screen and (max-width:1600px) {
     top: 14%;
-   }
-   @media screen and (max-width:1400px) {
+  }
+
+  @media screen and (max-width:1400px) {
     top: 17%;
-   }
+  }
 
-   @media screen and (max-width:1280px) {
+  @media screen and (max-width:1280px) {
     top: 20%;
-   }
+  }
 
-   @media screen and (max-width:1190px) {
+  @media screen and (max-width:1190px) {
     top: 23%;
-   }
-  
+  }
+
 
   @media screen and (max-width:1024px) {
     width: auto;
+
     h1 {
       font-size: 30px;
     }
@@ -409,12 +457,14 @@ header {
     align-items: center;
     justify-content: center;
     position: relative;
+    height: 100%;
 
     video {
       display: block;
       /*Overriding style.css*/
       width: 100%;
-      object-fit: fill;
+      object-fit: cover;
+      height: 100%;
 
     }
 
@@ -422,7 +472,7 @@ header {
   }
 
   &.fullscreen-video {
-    height: auto;
+    height: 100%;
     margin: auto;
     width: 90%;
     right: 0;
@@ -434,7 +484,7 @@ header {
     }
 
 
-    
+
 
 
 
@@ -640,6 +690,7 @@ header .logoBox img {
 .footerLinks {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 10px 75px;
   border-top: 1px solid #000;
 
@@ -676,21 +727,19 @@ header .logoBox img {
     }
   }
 
+  @media all and (max-width: 1600px) {
+    padding: 10px 60px;
+  }
+
+  @media all and (max-width: 1400px) {
+    padding: 10px 40px;
+  }
+
+  @media all and (max-width: 1200px) {
+    padding: 10px 30px;
+  }
+
   @media all and (max-width: 1024px) {
-    display: block;
-
-    .copyRight {
-      margin-top: 20px;
-
-      br {
-        display: block;
-      }
-    }
-
-    .linksFt a {
-      &:nth-child(1) {
-        margin-right: 30px;
-      }
-    }
+    padding: 10px 20px;
   }
 }
