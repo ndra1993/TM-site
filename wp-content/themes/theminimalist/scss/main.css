@@ -6,8 +6,6 @@ html {
 
 body {
   scroll-behavior: smooth;
-  letter-spacing: 0.03em;
-  line-height: 1.4;
   margin: 0; }
 
 h1 {
@@ -2152,178 +2150,164 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between; }
-  @media screen and (max-width: 575px) {
-    header .logoBox {
-      width: 60%; } }
-  header .logoBox img {
-    width: 100%; }
-    @media screen and (max-width: 1450px) {
-      header .logoBox img {
-        width: 70%; } }
-    @media screen and (max-width: 900px) {
-      header .logoBox img {
-        width: 65%; } }
-  header .homeBox {
-    display: flex;
-    align-items: center; }
-    header .homeBox .headerCta {
-      width: 40%; }
-      header .homeBox .headerCta .connectCta {
-        padding: 30px 60px;
-        background: #00FFA3;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        text-decoration: none;
-        font-family: "Poppins", sans-serif;
-        font-weight: 800;
-        font-size: 16px;
-        line-height: 18px;
-        text-transform: uppercase;
-        color: #000000; }
-        @media screen and (max-width: 1600px) {
-          header .homeBox .headerCta .connectCta {
-            padding: 25px 50px; } }
-        @media screen and (max-width: 1450px) {
-          header .homeBox .headerCta .connectCta {
-            padding: 20px 40px; } }
-        @media screen and (max-width: 780px) {
-          header .homeBox .headerCta .connectCta {
-            padding: 20px;
-            font-size: 13px; } }
-      header .homeBox .headerCta .connectCtatwo {
-        background-color: transparent; }
-    header .homeBox .hamburgerIcon {
+    @media screen and (max-width: 575px) {
+      header .headerContent .logoBox {
+        width: 60%; } }
+    header .headerContent .logoBox img {
+      width: 100%; }
+      @media screen and (max-width: 1450px) {
+        header .headerContent .logoBox img {
+          width: 70%; } }
+      @media screen and (max-width: 900px) {
+        header .headerContent .logoBox img {
+          width: 65%; } }
+    header .headerContent .homeBox {
       display: flex;
-      align-items: center;
-      justify-content: center;
-      cursor: pointer;
-      width: 20%;
-      padding: 48px 0px; }
-      header .homeBox .hamburgerIcon--active .menu__button .bottom {
-        transform: translateY(-6px) translateX(0) rotate(-45deg); }
-      header .homeBox .hamburgerIcon--active .menu__button .middle {
-        opacity: 0; }
-      header .homeBox .hamburgerIcon--active .menu__button .top {
-        transform: translateY(8px) translateX(0) rotate(45deg); }
-      header .homeBox .hamburgerIcon .menu__button {
-        display: inline-block;
-        z-index: 10;
-        width: 36px;
-        top: 50%;
-        transform: translateY(-50%);
-        position: relative;
-        background-color: transparent;
-        border: none;
-        cursor: pointer;
-        text-align: center;
-        outline: none; }
-        @media screen and (max-width: 575px) {
-          header .homeBox .hamburgerIcon .menu__button {
-            padding: 1px 0px; } }
-        header .homeBox .hamburgerIcon .menu__button .middle {
-          top: -0.3px !important; }
-        header .homeBox .hamburgerIcon .menu__button .bottom {
-          top: 6px !important; }
-      header .homeBox .hamburgerIcon .legalOverlay {
-        height: 100%;
-        position: fixed;
-        right: 0;
-        top: 0;
-        width: 100%;
-        bottom: 0;
-        transform: translate(150%);
-        transition: transform 0.5s ease-in-out;
-        z-index: 9;
-        background-color: #fff; }
-        header .homeBox .hamburgerIcon .legalOverlay.openTwo {
-          width: 100%;
-          transform: translateX(0%) !important;
-          transition: all 0.5s ease-in-out; }
-        header .homeBox .hamburgerIcon .legalOverlay h5 {
-          display: block;
-          width: 100%;
-          margin-left: 0px;
-          padding: 20px 0px 20px 20px;
-          border-bottom: 1px solid #000;
-          cursor: text; }
-          header .homeBox .hamburgerIcon .legalOverlay h5::before {
-            top: 35px;
-            right: 30px; }
-        header .homeBox .hamburgerIcon .legalOverlay .menu__list {
-          background-color: #fff;
-          clear: both;
+      align-items: center; }
+      header .headerContent .homeBox .headerCta {
+        width: 40%; }
+        header .headerContent .homeBox .headerCta .connectCta {
+          padding: 30px 60px;
+          background: #00FFA3;
+          text-align: center;
+          display: flex;
+          justify-content: center;
+          text-decoration: none;
+          font-family: "Poppins", sans-serif;
+          font-weight: 800;
+          font-size: 16px;
+          line-height: 18px;
+          text-transform: uppercase;
+          color: #000000; }
+          @media screen and (max-width: 1600px) {
+            header .headerContent .homeBox .headerCta .connectCta {
+              padding: 25px 50px; } }
+          @media screen and (max-width: 1450px) {
+            header .headerContent .homeBox .headerCta .connectCta {
+              padding: 20px 40px; } }
+          @media screen and (max-width: 780px) {
+            header .headerContent .homeBox .headerCta .connectCta {
+              padding: 20px;
+              font-size: 13px; } }
+        header .headerContent .homeBox .headerCta .connectCtatwo {
+          background-color: transparent; }
+      header .headerContent .homeBox .hamburgerMenu {
+        width: 20%; }
+        header .headerContent .homeBox .hamburgerMenu .m-menu__checkbox {
+          display: none; }
+          header .headerContent .homeBox .hamburgerMenu .m-menu__checkbox:checked ~ .m-menu {
+            transform: translateX(0%); }
+        header .headerContent .homeBox .hamburgerMenu label.m-menu__toggle {
+          cursor: pointer;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 38px 0px; }
+          header .headerContent .homeBox .hamburgerMenu label.m-menu__toggle.crossMenuicon {
+            background-color: #00FFA3;
+            padding: 30px; }
+        header .headerContent .homeBox .hamburgerMenu .m-menu {
+          position: absolute;
+          top: 0;
+          left: 0;
           width: 100%;
           height: 100vh;
-          overflow: hidden;
-          transform: translateX(150%);
+          transform: translateX(100%);
+          z-index: 9;
           transition: all 0.5s ease-in-out;
-          padding-top: 0px; }
-          header .homeBox .hamburgerIcon .legalOverlay .menu__list.open {
-            height: calc(100vh - 83px);
-            transform: translateX(0%) !important;
-            transition: all 0.5s ease-in-out;
+          overflow: hidden;
+          background-color: #fff; }
+          header .headerContent .homeBox .hamburgerMenu .m-menu .m-menu__header {
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid #000;
+            justify-content: space-between; }
+            header .headerContent .homeBox .hamburgerMenu .m-menu .m-menu__header span {
+              padding-left: 75px; }
+          header .headerContent .homeBox .hamburgerMenu .m-menu .menu__list {
+            background-color: #fff;
+            width: 100%;
+            height: calc(100vh - 98px);
             overflow-y: scroll;
             /* ===== Scrollbar CSS ===== */
             /* Firefox */
             scrollbar-width: auto;
             scrollbar-color: #00ffa3 #ffffff;
             /* Chrome, Edge, and Safari */ }
-            header .homeBox .hamburgerIcon .legalOverlay .menu__list.open::-webkit-scrollbar {
+            header .headerContent .homeBox .hamburgerMenu .m-menu .menu__list::-webkit-scrollbar {
               width: 13px; }
-            header .homeBox .hamburgerIcon .legalOverlay .menu__list.open::-webkit-scrollbar-track {
+            header .headerContent .homeBox .hamburgerMenu .m-menu .menu__list::-webkit-scrollbar-track {
               background: #ffffff; }
-            header .homeBox .hamburgerIcon .legalOverlay .menu__list.open::-webkit-scrollbar-thumb {
+            header .headerContent .homeBox .hamburgerMenu .m-menu .menu__list::-webkit-scrollbar-thumb {
               background-color: #00ffa3;
               border-radius: 15px;
               border: 3px solid #ffffff; }
-          header .homeBox .hamburgerIcon .legalOverlay .menu__list li {
-            display: block;
-            width: 100%;
-            margin-left: 0px;
-            padding: 20px 0px 20px 20px;
-            border-bottom: 1px solid #000; }
-            header .homeBox .hamburgerIcon .legalOverlay .menu__list li:hover {
-              border-bottom: 1px solid #00FFA3; }
-            header .homeBox .hamburgerIcon .legalOverlay .menu__list li:focus, header .homeBox .hamburgerIcon .legalOverlay .menu__list li:active, header .homeBox .hamburgerIcon .legalOverlay .menu__list li:visited {
-              border-bottom: 10px solid #00FFA3; }
-            header .homeBox .hamburgerIcon .legalOverlay .menu__list li.active {
-              border-bottom: 10px solid #00FFA3; }
-            header .homeBox .hamburgerIcon .legalOverlay .menu__list li.menu_sub::before {
-              top: 35px;
-              right: 30px; }
-            header .homeBox .hamburgerIcon .legalOverlay .menu__list li.menu_sub:hover::before {
-              transform: none; }
-            header .homeBox .hamburgerIcon .legalOverlay .menu__list li a {
+            header .headerContent .homeBox .hamburgerMenu .m-menu .menu__list li {
               display: block;
-              text-decoration: none;
-              padding: 0;
-              cursor: pointer;
-              transition: all 0.3s ease;
-              color: #000;
-              font-weight: 800; }
-              header .homeBox .hamburgerIcon .legalOverlay .menu__list li a:hover, header .homeBox .hamburgerIcon .legalOverlay .menu__list li a:focus, header .homeBox .hamburgerIcon .legalOverlay .menu__list li a:active, header .homeBox .hamburgerIcon .legalOverlay .menu__list li a:visited {
-                color: #000 !important; }
-      header .homeBox .hamburgerIcon .menu__button .top,
-      header .homeBox .hamburgerIcon .menu__button .middle,
-      header .homeBox .hamburgerIcon .menu__button .bottom {
-        border: transparent;
-        height: 4px;
-        width: 100%;
-        position: absolute;
-        top: -7px;
-        left: 0;
-        transition: all .35s ease;
-        background-color: #000; }
-      @media screen and (max-width: 1600px) {
-        header .homeBox .hamburgerIcon {
-          padding: 43px 0px; } }
-      @media screen and (max-width: 1450px) {
-        header .homeBox .hamburgerIcon {
-          padding: 38px 0px; } }
-      @media screen and (max-width: 575px) {
-        header .homeBox .hamburgerIcon {
-          padding: 0px; } }
+              width: 100%;
+              margin-left: 0px;
+              padding: 42px 0px 42px 75px;
+              border-bottom: 1px solid #000; }
+              header .headerContent .homeBox .hamburgerMenu .m-menu .menu__list li:hover {
+                border-bottom: 1px solid #00FFA3; }
+              header .headerContent .homeBox .hamburgerMenu .m-menu .menu__list li:focus, header .headerContent .homeBox .hamburgerMenu .m-menu .menu__list li:active, header .headerContent .homeBox .hamburgerMenu .m-menu .menu__list li:visited {
+                border-bottom: 10px solid #00FFA3; }
+              header .headerContent .homeBox .hamburgerMenu .m-menu .menu__list li.active {
+                border-bottom: 10px solid #00FFA3; }
+              header .headerContent .homeBox .hamburgerMenu .m-menu .menu__list li.menu_sub::before {
+                top: 35px;
+                right: 30px; }
+              header .headerContent .homeBox .hamburgerMenu .m-menu .menu__list li.menu_sub:hover::before {
+                transform: none; }
+              header .headerContent .homeBox .hamburgerMenu .m-menu .menu__list li a {
+                display: block;
+                text-decoration: none;
+                padding: 0;
+                cursor: pointer;
+                transition: all 0.3s ease;
+                color: #000;
+                font-weight: 800; }
+                header .headerContent .homeBox .hamburgerMenu .m-menu .menu__list li a:hover, header .headerContent .homeBox .hamburgerMenu .m-menu .menu__list li a:focus, header .headerContent .homeBox .hamburgerMenu .m-menu .menu__list li a:active, header .headerContent .homeBox .hamburgerMenu .m-menu .menu__list li a:visited {
+                  color: #000 !important; }
+    @media screen and (max-width: 1600px) {
+      header .headerContent .homeBox .hamburgerMenu label.m-menu__toggle {
+        padding: 33px 0px; }
+        header .headerContent .homeBox .hamburgerMenu label.m-menu__toggle.crossMenuicon {
+          padding: 25px; }
+      header .headerContent .homeBox .hamburgerMenu .m-menu .menu__list {
+        height: calc(100vh - 88px); }
+        header .headerContent .homeBox .hamburgerMenu .m-menu .menu__list li {
+          padding: 32px 0px 32px 60px; }
+      header .headerContent .homeBox .hamburgerMenu .m-menu .m-menu__header span {
+        padding-left: 60px; } }
+    @media screen and (max-width: 1450px) {
+      header .headerContent .homeBox .hamburgerMenu label.m-menu__toggle {
+        padding: 28px 0px; }
+        header .headerContent .homeBox .hamburgerMenu label.m-menu__toggle.crossMenuicon {
+          padding: 20px; }
+          header .headerContent .homeBox .hamburgerMenu label.m-menu__toggle.crossMenuicon img {
+            height: 30px;
+            width: 30px; }
+      header .headerContent .homeBox .hamburgerMenu .m-menu .menu__list {
+        height: calc(100vh - 71px); }
+        header .headerContent .homeBox .hamburgerMenu .m-menu .menu__list li {
+          padding: 25px 0px 25px 45px; }
+      header .headerContent .homeBox .hamburgerMenu .m-menu .m-menu__header span {
+        padding-left: 45px; } }
+    @media screen and (max-width: 1280px) {
+      header .headerContent .homeBox .hamburgerMenu label.m-menu__toggle {
+        padding: 28px 0px; }
+        header .headerContent .homeBox .hamburgerMenu label.m-menu__toggle.crossMenuicon {
+          padding: 15px; }
+          header .headerContent .homeBox .hamburgerMenu label.m-menu__toggle.crossMenuicon img {
+            height: 25px;
+            width: 25px; }
+      header .headerContent .homeBox .hamburgerMenu .m-menu .menu__list {
+        height: calc(100vh - 56px); }
+        header .headerContent .homeBox .hamburgerMenu .m-menu .menu__list li {
+          padding: 20px 0px 20px 35px; }
+      header .headerContent .homeBox .hamburgerMenu .m-menu .m-menu__header span {
+        padding-left: 35px; } }
 
 .homeBanner {
   height: calc(100vh - 144px);
@@ -2337,6 +2321,10 @@ header {
     .homeBanner {
       height: calc(100vh - 121px);
       margin-top: 76px; } }
+  @media screen and (max-width: 1024px) {
+    .homeBanner {
+      height: auto;
+      margin-top: 50px; } }
 
 .bannerContent {
   position: relative;

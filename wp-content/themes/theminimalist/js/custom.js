@@ -177,30 +177,7 @@ if (perfEntries[0].type === "back_forward") {
 
 
 
-// new header
-function menuAction(target) {
-  if (target.hasClass('opened')) {
-    target.removeClass('opened');
-  }
-  else {
-    $('.menu__list li .opened').removeClass('opened');
-    target.toggleClass('opened');
-  }
-}
-function buttonAction(target) {
-  target.toggleClass('hamburgerIcon--active');
-  $('.menu__list').toggleClass('open');
-  $('.legalOverlay').toggleClass('openTwo');
-}
 
-$(document).ready(function () {
-  $('.hamburgerIcon').on('click', function () {
-    buttonAction($(this));
-  });
-  $('.menu__list li a').on('click', function () {
-    menuAction($(this));
-  });
-})
 
 
 // wow js
@@ -237,7 +214,7 @@ $(".relatedBox").mouseleave(function() {
   } else {}
 });
 
-
+// top btn js for mbl
 if ($(window).width() < 1024) {
 var btn = $('#button');
 
@@ -255,7 +232,7 @@ btn.on('click', function(e) {
 });
 }
 
-
+// active menu js
 $(document).ready(function(){
   $('.menu__list li').click(function(){
     $('.menu__list li').removeClass("active");
