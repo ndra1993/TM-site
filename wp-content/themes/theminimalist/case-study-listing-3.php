@@ -14,8 +14,8 @@
     justify-content: space-between;
     height: calc(100vh - 144px);
     overflow: hidden;}
-  .img-column{width: 48%;}
-  .detail-column{width: 48%;position: relative;}
+  .img-column{width: 50%;}
+  .detail-column{width: 42%;position: relative;margin: 0 85px;}
   .content-grp{display: block;}
  
 .img-holder span{
@@ -33,9 +33,9 @@
     text-align: left;
     margin: 0 auto;
     border-bottom: 1px solid #000;
-    padding: 40px 0px;
-    margin: 5px 0px;
-    cursor: url(<?php bloginfo('template_directory'); ?>/images/detail-page-cursor.svg) 0 0, auto;
+    padding:42px 99px 52px 0px;
+   
+    
 }
 .item-inner p{text-transform: uppercase;}
 span.bar{
@@ -69,8 +69,8 @@ span.bar::after{
   position: absolute;
   bottom: 10px;
   right: 0;
-  width: 25px;
-  height: 40px;
+  /*width: 25px;
+  height: 40px;*/
   cursor: pointer;
 }
 
@@ -90,6 +90,7 @@ span.bar::after{
 }
 .slick-vertical .slick-slide.content-item.slick-current .item-inner{
   border-bottom: 1px solid transparent; 
+  padding: 99px 65px 99px 0px;
 }
 .slick-vertical .slick-slide.content-item.slick-current .item-inner p{font-size: 20px;}
 .slick-vertical .slick-slide.content-item.slick-current .item-inner h1{
@@ -97,6 +98,8 @@ span.bar::after{
   font-size: 64px;
   line-height: 72px;
 }
+.slick-vertical .slick-slide.content-item.slick-current .item-inner{cursor: url(<?php bloginfo('template_directory'); ?>/images/detail-page-cursor.svg) 0 0, auto;}
+
 .detail-column .slick-list.draggable{
     height: auto !important;
 }
@@ -128,19 +131,24 @@ span.bar::after{
     cursor: pointer;
   }
   
-  .caseStudyFooter{display: flex; justify-content: space-between; padding: 14px 50px 12px;align-items: center;}
+  .caseStudyFooter{display: flex; justify-content: space-between; padding: 14px 50px 12px;/*align-items: center;*/ position: fixed; width: 100%;}
   .footerItem2 a{text-decoration: none; color: #000;padding: 0px 5px;}
   
 
 /*meadi query*/
 @media (max-width: 1400px) {
-  #filters {margin: 8px 0px 10px;}
+  #filters {margin: 5px 0px;}
+  #filters li {padding: 5px 10px;}
   .item-inner{padding: 20px 0px;}
+  .slick-vertical .slick-slide.content-item.slick-current .item-inner{
+      padding: 25px 0px 25px 0px;
+    }
   .slick-vertical .slick-slide.content-item.slick-current .item-inner h1{
-    font-size: 45px;
-    line-height: 60px;
+    font-size: 35px;
+    line-height: 40px;
   }
   .slick-vertical .slick-slide.content-item.slick-current .item-inner p{font-size: 16px;}
+  .mouseScroll{width: 20px; height: 30px;}
   .caseStudyFooter{padding: 5px 50px 5px;}
 }
 </style>
@@ -180,16 +188,16 @@ span.bar::after{
                 <div class="img-grp">
                     <div class="img-holder">
                         <span><img src="<?php bloginfo('template_directory'); ?>/images/phone.png"></span>
-                    </div><!--img-holder-->
+                    </div>
                     <div class="img-holder">
                         <span><img src="<?php bloginfo('template_directory'); ?>/images/phone-two.png"></span>
-                    </div><!--img-holder-->
+                    </div>
                     <div class="img-holder">
                         <span><img src="<?php bloginfo('template_directory'); ?>/images/phone-three.png"></span>
                     </div><!--img-holder-->
                     <div class="img-holder">
                         <span><img src="<?php bloginfo('template_directory'); ?>/images/case-study-details-1.png"></span>
-                    </div><!--img-holder-->
+                    </div>
                 </div>
             </div>
             <div class="detail-column">
@@ -223,7 +231,7 @@ span.bar::after{
                         </div>
                     </div><!--content-item-->
                 </div>
-                <img class="mouseScroll" src="<?php bloginfo('template_directory'); ?>/images/mouse-scroll.svg">">
+                <img class="mouseScroll" src="<?php bloginfo('template_directory'); ?>/images/mouse-scroll.svg">
             </div>
         </div>
     </div>
@@ -247,10 +255,15 @@ span.bar::after{
 
 
 <script type="text/javascript">
-/*const slider = $(".content-grp");
+const slider = $(".content-grp");
 slider
   .slick({
-    dots: false
+    dots: false,
+    infinite: true,
+    vertical: true,
+    asNavFor: '.img-grp',
+    infinite: true,
+    verticalSwiping: true
   });
 
 slider.on('wheel', (function(e) {
@@ -261,7 +274,7 @@ slider.on('wheel', (function(e) {
   } else {
     $(this).slick('slickPrev');
   }
-}));*/
+}));
 
 
 /*filter js*/
@@ -279,7 +292,7 @@ jQuery(document).ready(function(){
         slidesToShow:1,
         fade: true,
         arrows: false,
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 3000,
         pauseOnHover: false,
         asNavFor: '.content-grp'
@@ -290,8 +303,9 @@ jQuery(document).ready(function(){
         arrows: false,
         vertical: true,
         slidesToShow: 4,
-        focusOnSelect: true,
+        focusOnSelect: false,
         asNavFor: '.img-grp',
+        /*verticalSwiping: true,*/
         centerMode: false
 
     });

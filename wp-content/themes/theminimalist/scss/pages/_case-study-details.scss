@@ -197,14 +197,17 @@
                             margin: 0 auto;
                         }
                     }
+
+                    &.active{width: 100%;}
+                    &.activeTwo{width: 100%;}
     
-                    &.activerelated {
-                        width: 85%;
-                    }
+                    // &.activerelated {
+                    //     width: 85%;
+                    // }
     
-                    &.deactiverelated {
-                        width: 15%;
-                    }
+                    // &.deactiverelated {
+                    //     width: 15%;
+                    // }
                 }
             }
         }

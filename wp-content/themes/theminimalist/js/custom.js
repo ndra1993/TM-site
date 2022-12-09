@@ -181,6 +181,7 @@ if (perfEntries[0].type === "back_forward") {
 
 
 // wow js
+if ($(window).width() > 1024) {
 wow = new WOW({
   animateClass: 'animated',
   offset: 100,
@@ -190,32 +191,10 @@ wow = new WOW({
 });
 wow.init();
 
-// case study detail last section on hover js
-$(".relatedBox").hover(function() {
-  if ($(this).hasClass("activerelated")) {
-      $(".relatedBoxone").removeClass("activerelated");
-      $(".relatedBoxone").addClass("deactiverelated");
-      $(".relatedBoxtwo").addClass("activerelated");
-      $(".relatedBoxtwo").removeClass("deactiverelated");
-  } else {
-      $(".relatedBoxone").addClass("activerelated");
-      $(".relatedBoxone").removeClass("deactiverelated");
-      $(".relatedBoxtwo").removeClass("activerelated");
-      $(".relatedBoxtwo").addClass("deactiverelated");
-  }
-});
-
-$(".relatedBox").mouseleave(function() {
-  if ($(this).hasClass("deactiverelated")) {
-      $(".relatedBoxone").removeClass("activerelated");
-      $(".relatedBoxtwo").removeClass("activerelated");
-      $(".relatedBoxone").removeClass("deactiverelated");
-      $(".relatedBoxtwo").removeClass("deactiverelated");
-  } else {}
-});
+}
 
 // top btn js for mbl
-if ($(window).width() < 1024) {
+if ($(window).width() > 1024) {
 var btn = $('#button');
 
 $(window).scroll(function() {
@@ -237,5 +216,18 @@ $(document).ready(function(){
   $('.menu__list li').click(function(){
     $('.menu__list li').removeClass("active");
     $(this).addClass("active");
+});
+});
+
+
+$(document).ready(function(){
+  $('.relatedBoxone').hover(function(){
+    $(".relatedBoxone").toggleClass("active");
+});
+});
+
+$(document).ready(function(){
+  $('.relatedBoxtwo').hover(function(){
+    $(".relatedBoxtwo").toggleClass("activeTwo");
 });
 });

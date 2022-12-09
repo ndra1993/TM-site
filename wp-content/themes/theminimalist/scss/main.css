@@ -1770,10 +1770,10 @@ header .logoBox img {
             cursor: url(../images/mouse-cursor-pages.png) 30 30, auto; }
             .casebgdetails .sectionSix .moreCasestudy .brandLogos .relatedBox a img {
               margin: 0 auto; }
-          .casebgdetails .sectionSix .moreCasestudy .brandLogos .relatedBox.activerelated {
-            width: 85%; }
-          .casebgdetails .sectionSix .moreCasestudy .brandLogos .relatedBox.deactiverelated {
-            width: 15%; }
+          .casebgdetails .sectionSix .moreCasestudy .brandLogos .relatedBox.active {
+            width: 100%; }
+          .casebgdetails .sectionSix .moreCasestudy .brandLogos .relatedBox.activeTwo {
+            width: 100%; }
   @media screen and (max-width: 1600px) {
     .casebgdetails .sectionOne {
       padding: 50px 0px 150px 0px; }
@@ -2058,82 +2058,6 @@ header .logoBox img {
   height: auto !important; }
 
 /*End USE CSS for Slider*/
-.swiperNew {
-  display: flex;
-  justify-content: space-between;
-  align-items: center; }
-
-.swiper-list-right {
-  flex-direction: column; }
-  .swiper-list-right h1 {
-    text-align: left;
-    padding: 10px;
-    background-color: #fff !important;
-    border-bottom: 1px solid #000;
-    margin: 20px 0px; }
-
-.swiper {
-  width: 100%;
-  height: 100%; }
-
-.swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-  /* Center slide text vertically */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
-  align-items: center; }
-
-.swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover; }
-
-.swiper {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto; }
-
-.swiper-slide {
-  background-size: cover;
-  background-position: center; }
-
-.mySwiper2 {
-  width: 48%; }
-
-.mySwiper {
-  width: 48%;
-  box-sizing: border-box;
-  padding: 10px 0;
-  height: 100vh;
-  overflow-y: scroll !important; }
-
-.mySwiper .swiper-slide {
-  width: 100% !important;
-  height: 25%; }
-
-.mySwiper .swiper-slide-thumb-active {
-  opacity: 1; }
-  .mySwiper .swiper-slide-thumb-active h1 {
-    font-size: 35px; }
-
-.swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover; }
-
 * {
   margin: 0;
   padding: 0;
@@ -2228,7 +2152,7 @@ header {
             background-color: #fff;
             width: 100%;
             height: calc(100vh - 98px);
-            overflow-y: scroll;
+            overflow-y: auto;
             /* ===== Scrollbar CSS ===== */
             /* Firefox */
             scrollbar-width: auto;
@@ -2305,9 +2229,18 @@ header {
       header .headerContent .homeBox .hamburgerMenu .m-menu .menu__list {
         height: calc(100vh - 56px); }
         header .headerContent .homeBox .hamburgerMenu .m-menu .menu__list li {
-          padding: 20px 0px 20px 35px; }
+          padding: 27px 0px 27px 23px; }
       header .headerContent .homeBox .hamburgerMenu .m-menu .m-menu__header span {
-        padding-left: 35px; } }
+        padding-left: 23px; } }
+    @media screen and (max-width: 1024px) {
+      header .headerContent .homeBox .hamburgerMenu .m-menu .menu__list {
+        overflow-y: hidden;
+        height: auto; }
+      header .headerContent .homeBox .hamburgerMenu label.m-menu__toggle img {
+        height: 16px; }
+      header .headerContent .homeBox .hamburgerMenu label.m-menu__toggle.crossMenuicon img {
+        height: 21px;
+        width: 21px; } }
 
 .homeBanner {
   height: calc(100vh - 144px);
@@ -2635,7 +2568,7 @@ header .logoBox img {
 .our-Clients {
   height: calc(100vh - 147px);
   margin-top: 96px;
-  overflow-y: scroll;
+  overflow-y: auto;
   /* ===== Scrollbar CSS ===== */
   /* Firefox */
   scrollbar-width: auto;

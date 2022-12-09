@@ -132,7 +132,7 @@ header {
             background-color: #fff;
             width: 100%;
             height: calc(100vh - 98px);
-            overflow-y: scroll;
+            overflow-y: auto;
             /* ===== Scrollbar CSS ===== */
             /* Firefox */
             scrollbar-width: auto;
@@ -281,13 +281,34 @@ header {
         .m-menu {
           .menu__list {
             height: calc(100vh - 56px);
+
             li {
-              padding: 20px 0px 20px 35px;
+              padding: 27px 0px 27px 23px;
             }
           }
 
           .m-menu__header span {
-            padding-left: 35px;
+            padding-left: 23px;
+          }
+        }
+      }
+    }
+
+    @media screen and (max-width:1024px) {
+      .homeBox .hamburgerMenu {
+        .m-menu .menu__list {
+          overflow-y: hidden;
+          height: auto;
+        }
+        label.m-menu__toggle {
+          img{
+            height: 16px;
+          }
+          &.crossMenuicon {
+          img {
+              height: 21px;
+              width: 21px;
+            }
           }
         }
       }
