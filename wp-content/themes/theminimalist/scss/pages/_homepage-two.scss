@@ -330,7 +330,7 @@ header {
     margin-top: 86px;
   }
 
-  @media screen and (max-width:1400px) {
+  @media screen and (max-width:1450px) {
     height: calc(100vh - 121px);
     margin-top: 76px;
   }
@@ -412,12 +412,12 @@ header {
 }
 
 .bannerText.textHover {
-  width: 8%;
+  width: 11%;
   transition: .5s all ease-in-out;
   top: 5%;
 
   h1 {
-    font-size: 16px;
+    font-size: 20px;
   }
 
 
@@ -426,11 +426,20 @@ header {
   }
 
   @media screen and (max-width:1600px) {
+    width: 30%;
     top: 14%;
+    h1 {
+      font-size: 44px;
+    }
+  
   }
 
   @media screen and (max-width:1400px) {
     top: 17%;
+    width: 20%;
+    h1 {
+      font-size: 28px;
+    }
   }
 
   @media screen and (max-width:1280px) {
@@ -494,7 +503,7 @@ header {
   &.fullscreen-video {
     height: 100%;
     margin: auto;
-    width: 90%;
+    width: 89%;
     right: 0;
     transition: .5s all ease-in-out;
     cursor: url(../images/testimonial-stop.png;) 30 30, auto !important;
@@ -506,6 +515,13 @@ header {
 
 
 
+    @media screen and (max-width:1600px) {
+      width: 70%;
+    }
+
+    @media screen and (max-width:1400px) {
+      width: 80%;
+    }
 
 
     @media screen and (max-width:1024px) {

@@ -2250,7 +2250,7 @@ header {
     .homeBanner {
       height: calc(100vh - 131px);
       margin-top: 86px; } }
-  @media screen and (max-width: 1400px) {
+  @media screen and (max-width: 1450px) {
     .homeBanner {
       height: calc(100vh - 121px);
       margin-top: 76px; } }
@@ -2308,20 +2308,26 @@ header {
       font-size: 44px; } }
 
 .bannerText.textHover {
-  width: 8%;
+  width: 11%;
   transition: .5s all ease-in-out;
   top: 5%; }
   .bannerText.textHover h1 {
-    font-size: 16px; }
+    font-size: 20px; }
   @media screen and (max-width: 1800px) {
     .bannerText.textHover {
       top: 10%; } }
   @media screen and (max-width: 1600px) {
     .bannerText.textHover {
-      top: 14%; } }
+      width: 30%;
+      top: 14%; }
+      .bannerText.textHover h1 {
+        font-size: 44px; } }
   @media screen and (max-width: 1400px) {
     .bannerText.textHover {
-      top: 17%; } }
+      top: 17%;
+      width: 20%; }
+      .bannerText.textHover h1 {
+        font-size: 28px; } }
   @media screen and (max-width: 1280px) {
     .bannerText.textHover {
       top: 20%; } }
@@ -2365,12 +2371,18 @@ header {
   .showreel-container.fullscreen-video {
     height: 100%;
     margin: auto;
-    width: 90%;
+    width: 89%;
     right: 0;
     transition: .5s all ease-in-out;
     cursor: url(../images/testimonial-stop.png;) 30 30, auto !important; }
     .showreel-container.fullscreen-video video {
       width: 100%; }
+    @media screen and (max-width: 1600px) {
+      .showreel-container.fullscreen-video {
+        width: 70%; } }
+    @media screen and (max-width: 1400px) {
+      .showreel-container.fullscreen-video {
+        width: 80%; } }
     @media screen and (max-width: 1024px) {
       .showreel-container.fullscreen-video {
         width: auto; } }
