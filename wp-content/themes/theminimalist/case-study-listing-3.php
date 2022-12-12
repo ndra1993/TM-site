@@ -4,10 +4,10 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
 <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> -->
     
-<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous"></script> -->
 <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" />
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" /> -->
 <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> -->
 
 <style type="text/css">
@@ -23,14 +23,13 @@
   .detail-column{width: 42%;position: relative;margin: 0 85px;}
   .content-grp{display: block;}
  
-.img-holder span{
+.img-holder a{
     display: block;
-   /* box-shadow: 0 5px 10px rgb(0 0 0 / .1);*/
 }
 .img-holder img{
     max-width: 100%;
 }
-
+.content-item a{text-decoration: none; color: #000;}
 .item-inner{
     position: relative;
     overflow:hidden;
@@ -139,6 +138,7 @@ span.bar::after{
   .caseStudyFooter{display: flex; justify-content: space-between; padding: 14px 50px 12px; position: fixed; bottom: 0; width: 100%; align-items: center;}
   .footerItem2 a{text-decoration: none; color: #000;padding: 0px 5px;}
   /*mobile section css*/
+  .caseStudyDetailsSection a{text-decoration: none; color: #000;}
 .filterList{padding: 28px 24px;}
 .filterList h2{font-size: 24px; line-height: 30px;}
 .filterList ul li{list-style: none; display: inline-flex;margin: 16px 16px 0px 0px;font-size: 13px;line-height: 14px;border: 1px solid #000000;border-radius: 100px;padding: 10px 15px;}
@@ -275,49 +275,57 @@ span.bar::after{
             <div class="img-column">
                 <div class="img-grp">
                     <div class="img-holder">
-                        <span><img src="<?php bloginfo('template_directory'); ?>/images/phone.png"></span>
+                        <a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/phone.png"></a>
                     </div>
                     <div class="img-holder">
-                        <span><img src="<?php bloginfo('template_directory'); ?>/images/phone-two.png"></span>
+                        <a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/phone-two.png"></a>
                     </div>
                     <div class="img-holder">
-                        <span><img src="<?php bloginfo('template_directory'); ?>/images/phone-three.png"></span>
+                        <a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/phone-three.png"></a>
                     </div><!--img-holder-->
                     <div class="img-holder">
-                        <span><img src="<?php bloginfo('template_directory'); ?>/images/case-study-details-1.png"></span>
+                        <a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/case-study-details-1.png"></a>
                     </div>
                 </div>
             </div>
             <div class="detail-column">
                 <div class="content-grp">
                     <div class="content-item">
+                      <a href="#">
                         <div class="item-inner">
                             <span class="bar"></span>
                             <p class="font14 fontW800">One to 11</p>
                             <h1 class="font30 fontW600">Disrupting the online gaming industry</h1>
                         </div>
-                    </div><!--content-item-->
+                        </a>
+                    </div>
                     <div class="content-item">
+                      <a href="#">
                         <div class="item-inner">
                             <span class="bar"></span>
                             <p class="font14 fontW800">Tata cliq luxury</p>
                             <h1 class="font30 fontW600">Redefining experiences for india’s premier luxury lifestyle platform</h1>
                         </div>
-                    </div><!--content-item-->
+                      </a>
+                    </div>
                     <div class="content-item">
+                      <a href="#">
                         <div class="item-inner">
                             <span class="bar"></span>
                             <p class="font14 fontW800">One to 11</p>
                             <h1 class="font30 fontW600">Disrupting the online gaming industry</h1>
                         </div>
-                    </div><!--content-item-->
+                      </a>
+                    </div>
                     <div class="content-item">
+                      <a href="#">
                         <div class="item-inner">
                             <span class="bar"></span>
                             <p class="font14 fontW800">Tata cliq luxury</p>
                             <h1 class="font30 fontW600">Redefining experiences for india’s premier luxury lifestyle platform</h1>
                         </div>
-                    </div><!--content-item-->
+                      </a>
+                    </div>
                 </div>
                 <img class="mouseScroll" src="<?php bloginfo('template_directory'); ?>/images/mouse-scroll.svg">
             </div>
@@ -338,40 +346,47 @@ span.bar::after{
 
 <div class="mobileSection">
   <div class="caseStudyDetailsSection">
-    <img src="<?php bloginfo('template_directory'); ?>/images/case-study-mobile.svg">
-    <div class="description">
-      <p class="fontW800">ONE TO 11</p>
-      <h1 class="fontW800">Disrupting the online gaming industry</h1>
-    </div>
+    <a href="#">
+      <img src="<?php bloginfo('template_directory'); ?>/images/case-study-mobile.svg">
+      <div class="description">
+        <p class="fontW800">ONE TO 11</p>
+        <h1 class="fontW800">Disrupting the online gaming industry</h1>
+      </div>
+    </a>
   </div>
   <div class="caseStudyDetailsSection">
-    <img src="<?php bloginfo('template_directory'); ?>/images/case-study-mobile.svg">
-    <div class="description">
-      <p class="fontW800">TATA CLIQ LUXURY</p>
-      <h1 class="fontW800">Redefining experiences for india’s premier luxury lifestyle platform</h1>
-    </div>
+    <a href="#">
+      <img src="<?php bloginfo('template_directory'); ?>/images/case-study-mobile.svg">
+      <div class="description">
+        <p class="fontW800">TATA CLIQ LUXURY</p>
+        <h1 class="fontW800">Redefining experiences for india’s premier luxury lifestyle platform</h1>
+      </div>
+  </a>
   </div>
   <div class="caseStudyDetailsSection">
-    <img src="<?php bloginfo('template_directory'); ?>/images/case-study-mobile.svg">
-    <div class="description">
-      <p class="fontW800">ONE TO 11</p>
-      <h1 class="fontW800">Disrupting the online gaming industry</h1>
-    </div>
+    <a href="#">
+      <img src="<?php bloginfo('template_directory'); ?>/images/case-study-mobile.svg">
+      <div class="description">
+        <p class="fontW800">ONE TO 11</p>
+        <h1 class="fontW800">Disrupting the online gaming industry</h1>
+      </div>
+    </a>
   </div>
   <div class="caseStudyDetailsSection">
-    <img src="<?php bloginfo('template_directory'); ?>/images/case-study-mobile.svg">
-    <div class="description">
-      <p class="fontW800">TATA CLIQ LUXURY</p>
-      <h1 class="fontW800">Redefining experiences for india’s premier luxury lifestyle platform</h1>
-    </div>
+    <a href="#">
+      <img src="<?php bloginfo('template_directory'); ?>/images/case-study-mobile.svg">
+      <div class="description">
+        <p class="fontW800">TATA CLIQ LUXURY</p>
+        <h1 class="fontW800">Redefining experiences for india’s premier luxury lifestyle platform</h1>
+      </div>
+    </a>
   </div>
   <div class="mobileFilter">
     <div class="filterimg" data-toggle="modal" data-target="#lab-slide-bottom-popup">
       <img src="<?php bloginfo('template_directory'); ?>/images/case-study-filter.svg">
       <div class="badge fontW600">2</div>
     </div>
-  </div>
-  <div class="modal fade" id="lab-slide-bottom-popup" data-keyboard="false" data-backdrop="false">
+    <div class="modal fade" id="lab-slide-bottom-popup" data-keyboard="false" data-backdrop="false">
   <div class="lab-modal-body">
     <div class="filterSelectSection">
       <button type="button" class="close" data-dismiss="modal"><img src="<?php bloginfo('template_directory'); ?>/images/modal-close.svg"></button>
@@ -392,6 +407,8 @@ span.bar::after{
     </div>
   </div>
 </div>
+  </div>
+  
   <!-- <div class="filterSelectSection">
     <div class="filterList">
       <h2 class="fontW800">Select Filters</h2>
@@ -450,7 +467,7 @@ $(".filterLi").click(function () {
 });
 
 
-const slider = $(".content-grp");
+/*const slider = $(".content-grp");
 slider
   .slick({
     dots: false,
@@ -473,7 +490,33 @@ slider.on('wheel', (function(e) {
   } else {
     $(this).slick('slickPrev');
   }
-}));
+}));*/
+
+const $slider = $(".content-grp");
+$slider
+  .on("init", () => {
+    mouseWheel($slider);
+  })
+  .slick({
+    dots: true,
+    vertical: true,
+    infinite: true
+  });
+function mouseWheel($slider) {
+  $(window).on("wheel", { $slider: $slider }, mouseWheelHandler);
+}
+function mouseWheelHandler(event) {
+  event.preventDefault();
+  const $slider = event.data.$slider;
+  const delta = event.originalEvent.deltaY;
+  if (delta > 0) {
+    $slider.slick("slickPrev");
+  } else {
+    $slider.slick("slickNext");
+  }
+}
+
+
 
 
 jQuery(document).ready(function(){
