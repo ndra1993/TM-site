@@ -16,6 +16,7 @@ header {
   top: 0;
   width: 100%;
   background-color: #fff;
+  border-bottom: 1px solid #000;
 
   .headerContent {
     display: flex;
@@ -23,21 +24,8 @@ header {
     justify-content: space-between;
 
     .logoBox {
-
-      @media screen and (max-width:575px) {
-        width: 60%;
-      }
-
       img {
-        width: 100%;
-
-        @media screen and (max-width:1450px) {
-          width: 70%;
-        }
-
-        @media screen and (max-width:900px) {
-          width: 65%;
-        }
+        width:70%;
       }
     }
 
@@ -69,15 +57,10 @@ header {
           @media screen and (max-width:1450px) {
             padding: 20px 40px;
           }
-
-          @media screen and (max-width:780px) {
-            padding: 20px;
-            font-size: 13px;
-          }
         }
 
         .connectCtatwo {
-          background-color: transparent;
+          background-color: #fff;
         }
       }
 
@@ -202,6 +185,10 @@ header {
               }
             }
           }
+
+          .footerLinksmbl {
+            display: none;
+          }
         }
       }
     }
@@ -295,22 +282,60 @@ header {
     }
 
     @media screen and (max-width:1024px) {
+      padding: 0px 32px 0px 22px;
       .homeBox .hamburgerMenu {
+        width: 100%;
         .m-menu .menu__list {
-          overflow-y: hidden;
-          height: auto;
+          height: calc(100vh - 106px);
+
+          li {
+            &:nth-last-child(1) {
+              border-bottom: none;
+            }
+          }
         }
+
         label.m-menu__toggle {
-          img{
+          img {
             height: 16px;
           }
+
           &.crossMenuicon {
-          img {
+            img {
               height: 21px;
               width: 21px;
             }
           }
         }
+
+        .m-menu .footerLinksmbl {
+          display: flex;
+          align-items: center;
+          border-top: 1px solid #000;
+          position: fixed;
+          bottom: 0;
+          z-index: 9999;
+          width: 100%;
+
+          .Linksmblft {
+            width: 48%;
+
+            &:nth-child(1) {
+              border-right: 1px solid #000;
+            }
+
+            a {
+              display: block;
+              text-decoration: none;
+              padding: 20px 40px;
+              text-align: center;
+            }
+          }
+        }
+      }
+
+      .homeBox .headerCta {
+        display: none;
       }
     }
   }
@@ -383,8 +408,9 @@ header {
   }
 
   @media screen and (max-width:1024px) {
-    width: 95%;
-    margin: 60px 20px 50px;
+    width: 100%;
+    margin: 90px 0px 80px;
+    padding: 0px 30px 0px 22px;
     position: unset;
 
     h1 {
@@ -393,6 +419,7 @@ header {
   }
 
   @media screen and (max-width:768px) {
+    margin: 90px 0px 30px;
     h1 {
       font-size: 74px;
     }
@@ -414,36 +441,32 @@ header {
 .bannerText.textHover {
   width: 11%;
   transition: .5s all ease-in-out;
-  top: 5%;
+  top: 0%;
 
   h1 {
     font-size: 20px;
   }
 
 
-  @media screen and (max-width:1800px) {
-    top: 3%;
-  }
-
+  
   @media screen and (max-width:1600px) {
-    width: 30%;
+    width: 28%;
+
     h1 {
       font-size: 44px;
     }
-  
+
   }
 
   @media screen and (max-width:1400px) {
-   h1 {
+    h1 {
       font-size: 40px;
     }
   }
 
-  @media screen and (max-width:1280px) {
-  }
+  @media screen and (max-width:1280px) {}
 
-  @media screen and (max-width:1190px) {
-  }
+  @media screen and (max-width:1190px) {}
 
 
   @media screen and (max-width:1024px) {
@@ -498,7 +521,7 @@ header {
   &.fullscreen-video {
     height: 100%;
     margin: auto;
-    width: 89%;
+    width: 87%;
     right: 0;
     transition: .5s all ease-in-out;
     cursor: url(../images/testimonial-stop.png;) 30 30, auto !important;
@@ -514,7 +537,7 @@ header {
       width: 70%;
     }
 
-    
+
 
 
     @media screen and (max-width:1024px) {
@@ -715,6 +738,40 @@ header .logoBox img {
   transform: translatey(-50%);
 }
 
+footer {
+ 
+
+  .ftbutton{display: none;}
+
+  @media all and (max-width:1024px){
+    .ftbutton {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-top: 1px solid #000;
+    
+      .footerCta {
+        width: 50%;
+    
+        .connectCta {
+          background: #00FFA3;
+          text-align: center;
+          display: flex;
+          justify-content: center;
+          text-decoration: none;
+          font-family: "Poppins", sans-serif;
+          font-weight: 800;
+          font-size: 13px;
+          line-height: 18px;
+          text-transform: uppercase;
+          color: #000000;
+          padding: 20px 40px;
+        }
+        .connectCtatwo{background-color: #fff;}
+      }
+    }
+  }
+}
 
 .footerLinks {
   display: flex;
@@ -723,6 +780,8 @@ header .logoBox img {
   padding: 10px 75px;
   border-top: 1px solid #000;
   background-color: #fff;
+  line-height: 1.5;
+
 
   .linksFt {
     span {
@@ -770,6 +829,22 @@ header .logoBox img {
   }
 
   @media all and (max-width: 1024px) {
-    padding: 10px 20px;
+    padding: 5px 20px;
+
+    .ftPara{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+
+    .linksFt {
+      display: none;
+    }
+  }
+  @media all and (max-width: 1024px){
+    .ftPara .font14{
+      font-size: 10px;
+    }
   }
 }
+

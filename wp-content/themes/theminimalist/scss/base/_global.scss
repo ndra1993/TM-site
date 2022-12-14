@@ -238,6 +238,11 @@ p {
 .font135 {
 	font-size: 135px;
 }
+
+.font120 {
+	font-size: 120px;
+}
+
 .font80{
 	font-size: 80px;
 }
@@ -284,6 +289,10 @@ p {
 		font-size: 114px;
 	}
 
+	.font120 {
+		font-size: 100px;
+	}	
+
 	.font80{
 		font-size: 75px;
 	}
@@ -312,6 +321,11 @@ p {
 	.font135 {
 		font-size: 95px;
 	}
+
+	.font120 {
+		font-size: 80px;
+	}
+	
 	.font80{
 		font-size: 55px;
 	}
@@ -342,6 +356,10 @@ p {
 		font-size: 90px;
 	}
 
+	.font120 {
+		font-size: 70px;
+	}
+	
 	.font80{
 		font-size: 50px;
 	}
@@ -367,6 +385,11 @@ p {
 	.font135 {
 		font-size: 85px;
 	}
+
+	.font120 {
+		font-size: 55px;
+	}
+	
 	.font80{
 		font-size: 45px;
 	}
@@ -388,6 +411,11 @@ p {
 	.font135 {
 		font-size: 60px;
 	}
+
+	.font120 {
+		font-size: 35px;
+	}
+	
 
 	.font80{
 		font-size: 35px;
@@ -426,12 +454,17 @@ p {
 	.wrapper {
 		padding: 0px;
 	}
+	
 }
 
 @media screen and (max-width:768px) {
 	.font135 {
 		font-size: 25px;
 	}
+	.font120 {
+		font-size: 24px;
+	}
+	
 }
 
 .h1 {

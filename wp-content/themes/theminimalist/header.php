@@ -62,7 +62,7 @@
 				<div class="logoBox titleBox">
 					<a class="backArrow" onclick="GoBackWithRefresh();return false;"><img src="<?php bloginfo('template_directory'); ?>/images/arrow-title.svg" alt="Back Arrow"></a>
 					<h3 class="fontW800 font30 fontPoppins colorBlack">
-						
+
 						<?php echo the_title() ?>
 					</h3>
 				</div>
@@ -105,6 +105,14 @@
 							</li>
 
 						</ul>
+						<div class="footerLinksmbl">
+							<div class="Linksmblft">
+								<a href="#" class="fontPoppins fontW600 font14 colorBlack">Privacy Policy</a>
+							</div>
+							<div class="Linksmblft">
+								<a href="#" class="fontPoppins fontW600 font14 colorBlack">Terms Of Use</a>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>

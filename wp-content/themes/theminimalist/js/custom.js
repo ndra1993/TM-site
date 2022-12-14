@@ -136,20 +136,20 @@ $('.slider-nav').slick({
 
 //Video zoom Js starts
 if ($(window).width() > 1024) {
-  $(".showreel-bg").click(function() {
-      $(".showreel-container").toggleClass("fullscreen-video");
-      $(".bannerText").toggleClass("textHover");
-      if ($(".showreel-container").hasClass("fullscreen-video")) {
-          var videoInitWidth = $(".showreel-container ").outerWidth();
-          var bodyWidth = ($(window).width() - 100);
-          var videoScale = bodyWidth / videoInitWidth;
-          $(".showreel-video-block video").prop('muted', false);
-          $(".showreel-video-block video").load();
-          $("#cursor.showreel-video").attr('data-content', 'Close');
-      } else {
-          $(".showreel-video-block video").prop('muted', true);
-          $("#cursor.showreel-video").attr('data-content', 'Play');
-      }
+  $(".showreel-bg").click(function () {
+    $(".showreel-container").toggleClass("fullscreen-video");
+    $(".bannerText").toggleClass("textHover");
+    if ($(".showreel-container").hasClass("fullscreen-video")) {
+      var videoInitWidth = $(".showreel-container ").outerWidth();
+      var bodyWidth = ($(window).width() - 100);
+      var videoScale = bodyWidth / videoInitWidth;
+      $(".showreel-video-block video").prop('muted', false);
+      $(".showreel-video-block video").load();
+      $("#cursor.showreel-video").attr('data-content', 'Close');
+    } else {
+      $(".showreel-video-block video").prop('muted', true);
+      $("#cursor.showreel-video").attr('data-content', 'Play');
+    }
   });
 }
 
@@ -182,52 +182,100 @@ if (perfEntries[0].type === "back_forward") {
 
 // wow js
 if ($(window).width() > 1024) {
-wow = new WOW({
-  animateClass: 'animated',
-  offset: 100,
-  // callback: function(box) {
-  //     console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
-  // }
-});
-wow.init();
+  wow = new WOW({
+    animateClass: 'animated',
+    offset: 100,
+    // callback: function(box) {
+    //     console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+    // }
+  });
+  wow.init();
 
 }
 
 // top btn js for mbl
 if ($(window).width() > 1024) {
-var btn = $('#button');
+  var btn = $('#button');
 
-$(window).scroll(function() {
-  if ($(window).scrollTop() > 100) {
-    btn.addClass('show');
-  } else {
-    btn.removeClass('show');
-  }
-});
+  $(window).scroll(function () {
+    if ($(window).scrollTop() > 100) {
+      btn.addClass('show');
+    } else {
+      btn.removeClass('show');
+    }
+  });
 
-btn.on('click', function(e) {
-  e.preventDefault();
-  $('html, body').animate({scrollTop:0}, '100');
-});
+  btn.on('click', function (e) {
+    e.preventDefault();
+    $('html, body').animate({ scrollTop: 0 }, '100');
+  });
 }
 
 // active menu js
-$(document).ready(function(){
-  $('.menu__list li').click(function(){
+$(document).ready(function () {
+  $('.menu__list li').click(function () {
     $('.menu__list li').removeClass("active");
     $(this).addClass("active");
-});
+  });
 });
 
 
-$(document).ready(function(){
-  $('.relatedBoxone').hover(function(){
+$(document).ready(function () {
+  $('.relatedBoxone').hover(function () {
     $(".relatedBoxone").toggleClass("active");
-});
+  });
 });
 
-$(document).ready(function(){
-  $('.relatedBoxtwo').hover(function(){
+$(document).ready(function () {
+  $('.relatedBoxtwo').hover(function () {
     $(".relatedBoxtwo").toggleClass("activeTwo");
+  });
 });
+
+
+
+// service page tabs toggle js starts
+
+const buttons = document.querySelectorAll("button");
+const sections = document.querySelectorAll(".content");
+
+
+buttons.forEach((btn) => {
+  btn.addEventListener("click", () => {
+    buttons.forEach((btn) => {
+      btn.classList.remove("active");
+    });
+    btn.classList.add("active");
+    const id = btn.id;
+    sections.forEach((section) => {
+      section.classList.remove("active");
+    });
+    const req = document.getElementsByClassName(`content${id}`);
+    req[0].classList.add("active");
+  })
+})
+
+// service page tabs toggle js ends
+
+
+// service page tab shrink on scroll js starts
+
+$(function () {
+  //the shrinkHeader variable is where you tell the scroll effect to start.
+  var shrinkHeader = 1;
+  $(window).scroll(function () {
+    var scroll = getCurrentScroll();
+    if (scroll >= shrinkHeader) {
+      $('.tabs').addClass('smaller');
+      $('.content').addClass('smallertwo');
+    } else {
+      $('.tabs').removeClass('smaller');
+      $('.content').removeClass('smallertwo');
+    }
+  });
+
+  function getCurrentScroll() {
+    return window.pageYOffset || document.documentElement.scrollTop;
+  }
 });
+  // service page tab shrink on scroll js ends
