@@ -193,8 +193,10 @@ p {
 .font135 {
   font-size: 135px; }
 
+
 .font120 {
   font-size: 120px; }
+
 
 .font80 {
   font-size: 80px; }
@@ -230,8 +232,10 @@ p {
   .font135 {
     font-size: 114px; }
 
+
   .font120 {
     font-size: 100px; }
+
 
   .font80 {
     font-size: 75px; }
@@ -257,6 +261,7 @@ p {
   .font120 {
     font-size: 80px; }
 
+
   .font80 {
     font-size: 55px; }
 
@@ -278,8 +283,10 @@ p {
   .font135 {
     font-size: 90px; }
 
+
   .font120 {
     font-size: 70px; }
+
 
   .font80 {
     font-size: 50px; }
@@ -299,8 +306,10 @@ p {
   .font135 {
     font-size: 85px; }
 
+
   .font120 {
     font-size: 55px; }
+
 
   .font80 {
     font-size: 45px; }
@@ -317,8 +326,10 @@ p {
   .font135 {
     font-size: 60px; }
 
+
   .font120 {
     font-size: 35px; }
+
 
   .font80 {
     font-size: 35px; }
@@ -348,10 +359,14 @@ p {
     padding: 0px; } }
 @media screen and (max-width: 768px) {
   .font135 {
+
     font-size: 25px; }
 
   .font120 {
     font-size: 24px; } }
+
+    .font-size: 25px; } }
+
 .h1 {
   margin: 0px;
   line-height: 1em;
@@ -604,16 +619,24 @@ p {
   box-sizing: border-box; }
 
 header {
+<<<<<<< Updated upstream
   padding-left: 0px;
   position: fixed;
   z-index: 99;
   top: 0;
   width: 100%;
   background-color: #fff; }
+=======
+  padding-left: 0px; }
+  @media screen and (max-width: 780px) {
+    header {
+      padding-left: 15px; } }
+>>>>>>> Stashed changes
   header .headerContent {
     display: flex;
     align-items: center;
     justify-content: space-between; }
+<<<<<<< Updated upstream
     header .headerContent .logoBox img {
       width: 70%; }
     header .headerContent .homeBox {
@@ -811,6 +834,85 @@ header {
     .homeBanner {
       height: auto;
       margin-top: 50px; } }
+=======
+  @media screen and (max-width: 575px) {
+    header .logoBox {
+      width: 60%; } }
+  header .logoBox img {
+    height: 24px; }
+    @media screen and (max-width: 1450px) {
+      header .logoBox img {
+        width: 70%; } }
+    @media screen and (max-width: 900px) {
+      header .logoBox img {
+        width: 65%; } }
+  @media screen and (max-width: 1024px) {
+    header .logoBox {
+      margin-left: 25px; } }
+  @media screen and (max-width: 780px) {
+    header .logoBox {
+      margin-left: 10px; } }
+  header .homeBox {
+    display: flex;
+    align-items: center; }
+  header .homeBox .qrImg {
+    margin: 0px 37px;
+    width: 120px; }
+    @media screen and (max-width: 1600px) {
+      header .homeBox .qrImg {
+        width: 90px; } }
+    @media screen and (max-width: 1450px) {
+      header .homeBox .qrImg {
+        width: 75px;
+        margin: 0px 30px 0px 30px; } }
+    @media screen and (max-width: 1282px) {
+      header .homeBox .qrImg {
+        margin: 0px 30px 0px 30px; } }
+    @media screen and (max-width: 1020px) {
+      header .homeBox .qrImg {
+        display: none;
+        align-items: none;
+        justify-content: space-between; } }
+  header .homeBox .connectCta {
+    padding: 80px;
+    background: #00FFA3;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #000000; }
+    @media screen and (max-width: 1600px) {
+      header .homeBox .connectCta {
+        padding: 60px; } }
+    @media screen and (max-width: 1450px) {
+      header .homeBox .connectCta {
+        font-size: 18px;
+        padding: 40px; } }
+    @media screen and (max-width: 780px) {
+      header .homeBox .connectCta {
+        padding: 25px;
+        font-size: 13px; } }
+
+.homeBanner {
+  height: calc(100vh - 270px);
+  margin-top: 0px;
+  overflow-y: hidden;
+  overflow-x: hidden; }
+  @media screen and (max-width: 1600px) {
+    .homeBanner {
+      height: calc(100vh - 222px); } }
+  @media screen and (max-width: 1370px) {
+    .homeBanner {
+      height: calc(100vh - 180px); } }
+  @media screen and (max-width: 1024px) {
+    .homeBanner {
+      height: auto; } }
+>>>>>>> Stashed changes
 
 .bannerContent {
   position: relative;
@@ -825,9 +927,14 @@ header {
   width: 75%;
   position: absolute;
   left: 0px;
+<<<<<<< Updated upstream
   z-index: 1; }
   .bannerText h1 {
     transition: .5s all ease-in-out; }
+=======
+  z-index: 1;
+  transition: .5s all ease-in-out; }
+>>>>>>> Stashed changes
   @media screen and (max-width: 1800px) {
     .bannerText {
       width: 73%; } }
@@ -845,17 +952,27 @@ header {
       width: 60%; } }
   @media screen and (max-width: 1024px) {
     .bannerText {
+<<<<<<< Updated upstream
       width: 100%;
       margin: 90px 0px 80px;
       padding: 0px 30px 0px 22px;
+=======
+      width: 95%;
+      margin: 60px 20px 50px;
+>>>>>>> Stashed changes
       position: unset; }
       .bannerText h1 {
         font-size: 94px; } }
   @media screen and (max-width: 768px) {
+<<<<<<< Updated upstream
     .bannerText {
       margin: 90px 0px 30px; }
       .bannerText h1 {
         font-size: 74px; } }
+=======
+    .bannerText h1 {
+      font-size: 74px; } }
+>>>>>>> Stashed changes
   @media screen and (max-width: 650px) {
     .bannerText h1 {
       font-size: 64px; } }
@@ -864,6 +981,7 @@ header {
       font-size: 44px; } }
 
 .bannerText.textHover {
+<<<<<<< Updated upstream
   width: 11%;
   transition: .5s all ease-in-out;
   top: 5%; }
@@ -880,6 +998,37 @@ header {
   @media screen and (max-width: 1400px) {
     .bannerText.textHover h1 {
       font-size: 40px; } }
+=======
+  width: 34%;
+  transition: .5s all ease-in-out; }
+  .bannerText.textHover h1 {
+    font-size: 64px; }
+  @media screen and (max-width: 1800px) {
+    .bannerText.textHover {
+      width: 30%; }
+      .bannerText.textHover h1 {
+        font-size: 50px; } }
+  @media screen and (max-width: 1650px) {
+    .bannerText.textHover {
+      width: 34%; } }
+  @media screen and (max-width: 1600px) {
+    .bannerText.textHover {
+      width: 28%; }
+      .bannerText.textHover h1 {
+        font-size: 42px; } }
+  @media screen and (max-width: 1470px) {
+    .bannerText.textHover {
+      width: 30%; } }
+  @media screen and (max-width: 1303px) {
+    .bannerText.textHover {
+      width: 34%; } }
+  @media screen and (max-width: 1170px) {
+    .bannerText.textHover {
+      width: 37%; } }
+  @media screen and (max-width: 1050px) {
+    .bannerText.textHover {
+      width: 40%; } }
+>>>>>>> Stashed changes
   @media screen and (max-width: 1024px) {
     .bannerText.textHover {
       width: auto; }
@@ -906,26 +1055,59 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+<<<<<<< Updated upstream
     position: relative;
     height: 100%; }
+=======
+    position: relative; }
+>>>>>>> Stashed changes
     .showreel-container .showreel-video-block video {
       display: block;
       /*Overriding style.css*/
       width: 100%;
+<<<<<<< Updated upstream
       object-fit: cover;
       height: 100%; }
   .showreel-container.fullscreen-video {
     height: 100%;
     margin: auto;
     width: 89%;
+=======
+      object-fit: fill; }
+  .showreel-container.fullscreen-video {
+    height: auto;
+    margin: auto;
+    width: 68%;
+>>>>>>> Stashed changes
     right: 0;
     transition: .5s all ease-in-out;
     cursor: url(../images/testimonial-stop.png;) 30 30, auto !important; }
     .showreel-container.fullscreen-video video {
       width: 100%; }
+<<<<<<< Updated upstream
     @media screen and (max-width: 1600px) {
       .showreel-container.fullscreen-video {
         width: 70%; } }
+=======
+    @media screen and (max-width: 1800px) {
+      .showreel-container.fullscreen-video {
+        width: 68%; } }
+    @media screen and (max-width: 1600px) {
+      .showreel-container.fullscreen-video {
+        width: 60%; } }
+    @media screen and (max-width: 1470px) {
+      .showreel-container.fullscreen-video {
+        width: 65%; } }
+    @media screen and (max-width: 1303px) {
+      .showreel-container.fullscreen-video {
+        width: 64%; } }
+    @media screen and (max-width: 1170px) {
+      .showreel-container.fullscreen-video {
+        width: 61%; } }
+    @media screen and (max-width: 1050px) {
+      .showreel-container.fullscreen-video {
+        width: 58%; } }
+>>>>>>> Stashed changes
     @media screen and (max-width: 1024px) {
       .showreel-container.fullscreen-video {
         width: auto; } }
@@ -1062,6 +1244,7 @@ header .logoBox img {
   top: 50%;
   transform: translatey(-50%); }
 
+<<<<<<< Updated upstream
 footer .ftbutton {
   display: none; }
 @media all and (max-width: 1024px) {
@@ -1132,6 +1315,8 @@ footer .ftbutton {
     .footerLinks .ftPara .font14 {
       font-size: 10px; } }
 
+=======
+>>>>>>> Stashed changes
 .formSection {
   max-width: 100%;
   margin: 0 auto;
@@ -2203,7 +2388,7 @@ footer .ftbutton {
 
 .desktopSection {
   display: block;
-  margin-top: 97px; }
+  margin-top: 96px; }
   .desktopSection .caseStudyFilter {
     padding: 15px 0px 17px 90px;
     border-bottom: 1px solid #000; }
@@ -2235,8 +2420,7 @@ footer .ftbutton {
       .desktopSection .caseStudycontainer .caseStudycontainerRow .img-column .img-holder a {
         display: block; }
       .desktopSection .caseStudycontainer .caseStudycontainerRow .img-column .img-holder img {
-        max-width: 100%;
-        height: 100%; }
+        max-width: 100%; }
     .desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column {
       width: 42%;
       position: relative;
@@ -2312,39 +2496,35 @@ footer .ftbutton {
 @media screen and (max-width: 1600px) {
   .desktopSection {
     display: block;
-    margin-top: 87px; }
+    margin-top: 76px; }
     .desktopSection .caseStudycontainerRow {
       height: calc(100vh - 180px) !important; } }
 @media screen and (max-width: 1400px) {
-  .desktopSection {
-    margin-top: 77px; }
-    .desktopSection .caseStudyFilter {
-      padding: 5px 0px 7px 85px; }
-      .desktopSection .caseStudyFilter #filters li {
-        padding: 5px 10px; }
-    .desktopSection .caseStudycontainer .caseStudycontainerRow {
-      height: calc(100vh - 160px) !important; }
-      .desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column {
-        width: 45%;
-        margin: 0px 35px; }
-        .desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column .item-inner {
-          padding: 20px 0px !important; }
-        .desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column .slick-vertical .slick-slide.content-item.slick-current .item-inner {
-          padding: 25px 0px 25px 0px;
-          border-bottom: 5px solid #00FFA3; }
-          .desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column .slick-vertical .slick-slide.content-item.slick-current .item-inner p {
-            font-size: 16px; }
-          .desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column .slick-vertical .slick-slide.content-item.slick-current .item-inner h2 {
-            font-size: 35px;
-            line-height: 40px; }
-      .desktopSection .caseStudycontainer .caseStudycontainerRow .mouseScroll {
-        width: 20px;
-        height: 30px; } }
+  .desktopSection .caseStudyFilter {
+    padding: 5px 0px 7px 85px; }
+    .desktopSection .caseStudyFilter #filters li {
+      padding: 5px 10px; }
+  .desktopSection .caseStudycontainer .caseStudycontainerRow {
+    height: calc(100vh - 160px); }
+    .desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column {
+      width: 45%;
+      margin: 0px 35px; }
+      .desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column .item-inner {
+        padding: 20px 0px !important; }
+      .desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column .slick-vertical .slick-slide.content-item.slick-current .item-inner {
+        padding: 25px 0px 25px 0px;
+        border-bottom: 5px solid #00FFA3; }
+        .desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column .slick-vertical .slick-slide.content-item.slick-current .item-inner p {
+          font-size: 16px; }
+        .desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column .slick-vertical .slick-slide.content-item.slick-current .item-inner h2 {
+          font-size: 35px;
+          line-height: 40px; }
+    .desktopSection .caseStudycontainer .caseStudycontainerRow .mouseScroll {
+      width: 20px;
+      height: 30px; } }
 @media screen and (max-width: 1080px) {
-  .desktopSection {
-    margin-top: 73px; }
-    .desktopSection .caseStudyFilter {
-      padding: 5px 20px; } }
+  .desktopSection .caseStudyFilter {
+    padding: 5px 20px; } }
 @media screen and (max-width: 920px) {
   .desktopSection {
     display: none; }
@@ -2423,19 +2603,12 @@ footer .ftbutton {
       display: none;
       overflow: hidden;
       -webkit-overflow-scrolling: touch;
-      outline: 0;
-      transform: translateY(130%);
-      transition-timing-function: ease-in;
-      transition: 0.25s; }
+      outline: 0; }
     .mobileSection .fade.in {
       opacity: 1;
       background: rgba(0, 0, 0, 0.5);
       backdrop-filter: blur(5px);
-      z-index: 99;
-      transition: 0.25s;
-      transition-timing-function: ease-out;
-      transform: translateY(0);
-      opacity: 1; }
+      z-index: 99; }
     .mobileSection .modal-open .modal {
       overflow-x: hidden;
       overflow-y: auto; }
@@ -2463,6 +2636,7 @@ footer .ftbutton {
       transition: opacity 0.3s ease-out, bottom 0.9s ease-out; }
     .mobileSection .popup-button {
       margin-top: 70px; } }
+<<<<<<< Updated upstream
 .serviceContainer {
   margin-top: 86px; }
   .serviceContainer .tabs {
@@ -2614,6 +2788,8 @@ footer .ftbutton {
     .serviceContainer .tabs.smaller .btn {
       line-height: 24px; } }
 
+=======
+>>>>>>> Stashed changes
 * {
   margin: 0;
   padding: 0;
@@ -2625,14 +2801,32 @@ header {
   z-index: 99;
   top: 0;
   width: 100%;
+<<<<<<< Updated upstream
   background-color: #fff;
   border-bottom: 1px solid #000; }
+=======
+  background-color: #fff; }
+>>>>>>> Stashed changes
   header .headerContent {
     display: flex;
     align-items: center;
     justify-content: space-between; }
+<<<<<<< Updated upstream
     header .headerContent .logoBox img {
       width: 70%; }
+=======
+    @media screen and (max-width: 575px) {
+      header .headerContent .logoBox {
+        width: 60%; } }
+    header .headerContent .logoBox img {
+      width: 100%; }
+      @media screen and (max-width: 1450px) {
+        header .headerContent .logoBox img {
+          width: 70%; } }
+      @media screen and (max-width: 900px) {
+        header .headerContent .logoBox img {
+          width: 65%; } }
+>>>>>>> Stashed changes
     header .headerContent .homeBox {
       display: flex;
       align-items: center; }
@@ -2657,8 +2851,17 @@ header {
           @media screen and (max-width: 1450px) {
             header .headerContent .homeBox .headerCta .connectCta {
               padding: 20px 40px; } }
+<<<<<<< Updated upstream
         header .headerContent .homeBox .headerCta .connectCtatwo {
           background-color: #fff; }
+=======
+          @media screen and (max-width: 780px) {
+            header .headerContent .homeBox .headerCta .connectCta {
+              padding: 20px;
+              font-size: 13px; } }
+        header .headerContent .homeBox .headerCta .connectCtatwo {
+          background-color: transparent; }
+>>>>>>> Stashed changes
       header .headerContent .homeBox .hamburgerMenu {
         width: 20%; }
         header .headerContent .homeBox .hamburgerMenu .m-menu__checkbox {
@@ -2737,8 +2940,11 @@ header {
                 font-weight: 800; }
                 header .headerContent .homeBox .hamburgerMenu .m-menu .menu__list li a:hover, header .headerContent .homeBox .hamburgerMenu .m-menu .menu__list li a:focus, header .headerContent .homeBox .hamburgerMenu .m-menu .menu__list li a:active, header .headerContent .homeBox .hamburgerMenu .m-menu .menu__list li a:visited {
                   color: #000 !important; }
+<<<<<<< Updated upstream
           header .headerContent .homeBox .hamburgerMenu .m-menu .footerLinksmbl {
             display: none; }
+=======
+>>>>>>> Stashed changes
     @media screen and (max-width: 1600px) {
       header .headerContent .homeBox .hamburgerMenu label.m-menu__toggle {
         padding: 33px 0px; }
@@ -2779,6 +2985,7 @@ header {
       header .headerContent .homeBox .hamburgerMenu .m-menu .m-menu__header span {
         padding-left: 23px; } }
     @media screen and (max-width: 1024px) {
+<<<<<<< Updated upstream
       header .headerContent {
         padding: 0px 32px 0px 22px; }
         header .headerContent .homeBox .hamburgerMenu {
@@ -2811,6 +3018,16 @@ header {
                 text-align: center; }
         header .headerContent .homeBox .headerCta {
           display: none; } }
+=======
+      header .headerContent .homeBox .hamburgerMenu .m-menu .menu__list {
+        overflow-y: hidden;
+        height: auto; }
+      header .headerContent .homeBox .hamburgerMenu label.m-menu__toggle img {
+        height: 16px; }
+      header .headerContent .homeBox .hamburgerMenu label.m-menu__toggle.crossMenuicon img {
+        height: 21px;
+        width: 21px; } }
+>>>>>>> Stashed changes
 
 .homeBanner {
   height: calc(100vh - 144px);
@@ -2862,17 +3079,27 @@ header {
       width: 60%; } }
   @media screen and (max-width: 1024px) {
     .bannerText {
+<<<<<<< Updated upstream
       width: 100%;
       margin: 90px 0px 80px;
       padding: 0px 30px 0px 22px;
+=======
+      width: 95%;
+      margin: 60px 20px 50px;
+>>>>>>> Stashed changes
       position: unset; }
       .bannerText h1 {
         font-size: 94px; } }
   @media screen and (max-width: 768px) {
+<<<<<<< Updated upstream
     .bannerText {
       margin: 90px 0px 30px; }
       .bannerText h1 {
         font-size: 74px; } }
+=======
+    .bannerText h1 {
+      font-size: 74px; } }
+>>>>>>> Stashed changes
   @media screen and (max-width: 650px) {
     .bannerText h1 {
       font-size: 64px; } }
@@ -2883,12 +3110,24 @@ header {
 .bannerText.textHover {
   width: 11%;
   transition: .5s all ease-in-out;
+<<<<<<< Updated upstream
   top: 0%; }
   .bannerText.textHover h1 {
     font-size: 20px; }
   @media screen and (max-width: 1600px) {
     .bannerText.textHover {
       width: 28%; }
+=======
+  top: 5%; }
+  .bannerText.textHover h1 {
+    font-size: 20px; }
+  @media screen and (max-width: 1800px) {
+    .bannerText.textHover {
+      top: 3%; } }
+  @media screen and (max-width: 1600px) {
+    .bannerText.textHover {
+      width: 30%; }
+>>>>>>> Stashed changes
       .bannerText.textHover h1 {
         font-size: 44px; } }
   @media screen and (max-width: 1400px) {
@@ -2931,7 +3170,11 @@ header {
   .showreel-container.fullscreen-video {
     height: 100%;
     margin: auto;
+<<<<<<< Updated upstream
     width: 87%;
+=======
+    width: 89%;
+>>>>>>> Stashed changes
     right: 0;
     transition: .5s all ease-in-out;
     cursor: url(../images/testimonial-stop.png;) 30 30, auto !important; }
@@ -3076,6 +3319,7 @@ header .logoBox img {
   top: 50%;
   transform: translatey(-50%); }
 
+<<<<<<< Updated upstream
 footer .ftbutton {
   display: none; }
 @media all and (max-width: 1024px) {
@@ -3102,14 +3346,20 @@ footer .ftbutton {
       footer .ftbutton .footerCta .connectCtatwo {
         background-color: #fff; } }
 
+=======
+>>>>>>> Stashed changes
 .footerLinks {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 75px;
   border-top: 1px solid #000;
+<<<<<<< Updated upstream
   background-color: #fff;
   line-height: 1.5; }
+=======
+  background-color: #fff; }
+>>>>>>> Stashed changes
   .footerLinks .linksFt span {
     padding: 0px 5px; }
   .footerLinks .linksFt a {
@@ -3136,6 +3386,7 @@ footer .ftbutton {
       padding: 10px 30px; } }
   @media all and (max-width: 1024px) {
     .footerLinks {
+<<<<<<< Updated upstream
       padding: 5px 20px; }
       .footerLinks .ftPara {
         width: 100%;
@@ -3146,6 +3397,9 @@ footer .ftbutton {
   @media all and (max-width: 1024px) {
     .footerLinks .ftPara .font14 {
       font-size: 10px; } }
+=======
+      padding: 10px 20px; } }
+>>>>>>> Stashed changes
 
 .titleBox {
   display: flex;
@@ -3155,7 +3409,12 @@ footer .ftbutton {
   .titleBox img {
     height: 30px !important;
     width: 30px !important;
+<<<<<<< Updated upstream
     cursor: pointer; }
+=======
+    cursor: pointer;
+    margin-top: 6px; }
+>>>>>>> Stashed changes
   @media screen and (max-width: 1400px) {
     .titleBox h3 {
       margin-left: 20px; }
@@ -3249,6 +3508,7 @@ footer .ftbutton {
       .our-Clients .clientSectwo .clientLogostwo:nth-child(2n+2) {
         border-right: 0px; } }
 
+<<<<<<< Updated upstream
 .privacyPolicy {
   width: 50%;
   margin: 160px auto 130px; }
@@ -3313,4 +3573,6 @@ footer .ftbutton {
       .privacyPolicy p, .privacyPolicy ul li {
         font-size: 16px; } }
 
+=======
+>>>>>>> Stashed changes
 /*# sourceMappingURL=main.css.map */
