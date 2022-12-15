@@ -2319,11 +2319,11 @@ footer .ftbutton {
   .desktopSection {
     margin-top: 77px; }
     .desktopSection .caseStudyFilter {
-      padding: 5px 0px 7px 85px; }
+      padding: 7px 0px 7px 85px; }
       .desktopSection .caseStudyFilter #filters li {
         padding: 5px 10px; }
     .desktopSection .caseStudycontainer .caseStudycontainerRow {
-      height: calc(100vh - 160px) !important; }
+      height: calc(100vh - 162px) !important; }
       .desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column {
         width: 45%;
         margin: 0px 35px; }
@@ -2344,7 +2344,7 @@ footer .ftbutton {
   .desktopSection {
     margin-top: 73px; }
     .desktopSection .caseStudyFilter {
-      padding: 5px 20px; } }
+      padding: 7px 20px; } }
 @media screen and (max-width: 920px) {
   .desktopSection {
     display: none; }

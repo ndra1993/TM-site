@@ -122,7 +122,7 @@
 
 @media screen and (max-width: 1400px) {
 	.desktopSection{margin-top:77px;
-		.caseStudyFilter {padding: 5px 0px 7px 85px;
+		.caseStudyFilter {padding: 7px 0px 7px 85px;
 			#filters {
 			
 				li{padding: 5px 10px;}
@@ -130,7 +130,7 @@
 		}
 	
 		.caseStudycontainer{
-	  		.caseStudycontainerRow{height: calc(100vh - 160px) !important;
+	  		.caseStudycontainerRow{height: calc(100vh - 162px) !important;
 	  			.detail-column{width: 45%; margin: 0px 35px;
 	  			.item-inner{padding: 20px 0px !important;}
 	  			.slick-vertical{
@@ -149,7 +149,7 @@
 }
 @media screen and (max-width: 1080px) {
 	.desktopSection{margin-top:73px;
-		.caseStudyFilter {padding:5px 20px;}
+		.caseStudyFilter {padding:7px 20px;}
 	}
 }
 
