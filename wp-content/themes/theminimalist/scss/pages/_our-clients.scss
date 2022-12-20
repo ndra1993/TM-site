@@ -35,11 +35,10 @@
     }
 }
 
-.our-Clients {
-    height: calc(100vh - 147px);
-    margin-top: 96px;
+.clientsContentBox {
+    height: calc(100vh - 148px);
+    margin-top: 97px;
     overflow-y: auto;
-
     /* ===== Scrollbar CSS ===== */
     /* Firefox */
     scrollbar-width: auto;
@@ -60,106 +59,109 @@
         border: 3px solid #ffffff;
     }
 
-    .clientSectwo {
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        border-top: 1px solid #000;
-        margin-bottom: -1px;
-        height: 100%;
+    img {
+        max-width: 100%;
+    }
 
-        .clientLogostwo {
-            width: 16.666%;
-            padding: 80px;
-            border-right: 1px solid #000;
-            border-bottom: 1px solid #000;
+    .clientLayoutOne {
+        display: flex;
+        flex-flow: wrap;
+        align-items: center;
+        width: 100%;
+        position: relative;
+
+        .layoutOneBox {
+            width: 33.33%;
             display: flex;
             align-items: center;
-
-            img {
-                height: 40px;
-                width: 100px;
-                margin: 0 auto;
-            }
-
-            &:nth-child(6n+6) {
-                border-right: 0px;
-            }
+            justify-content: center;
         }
     }
 
-    @media screen and (max-width:1600px) {
-        height: calc(100vh - 131px);
-        margin-top: 86px;
+    .clientLayoutTwo {
+        display: flex;
+        flex-flow: wrap;
+        align-items: center;
+        width: 100%;
+        position: relative;
 
-        .clientSectwo .clientLogostwo {
-            padding: 60px;
+        .layoutTwoBox {
+            width: 25%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
     }
 
-    @media screen and (max-width:1450px) {
-        height: calc(100vh - 121px);
-        margin-top: 76px;
 
-        .clientSectwo .clientLogostwo {
-            padding: 50px;
+    .clientLayoutThree {
+        display: flex;
+        flex-flow: wrap;
+        align-items: center;
+        width: 100%;
+        position: relative;
+
+        &.clientLayoutThreeRev {
+            flex-flow: row-reverse;
         }
-    }
 
-    @media screen and (max-width:1280px) {
-        .clientSectwo .clientLogostwo {
-            width: 20%;
-            padding: 40px;
-
-            &:nth-child(6n+6) {
-                border-right: 1px solid #000;
-            }
-
-            &:nth-child(5n+5) {
-                border-right: 0px;
-            }
-        }
-    }
-
-    @media screen and (max-width:768px) {
-        .clientSectwo .clientLogostwo {
-            width: 33.3%;
-            padding: 20px;
-
-            &:nth-child(6n+6) {
-                border-right: 1px solid #000;
-            }
-
-            &:nth-child(5n+5) {
-                border-right: 1px solid #000;
-            }
-
-            &:nth-child(3n+3) {
-                border-right: 0px;
-            }
-        }
-    }
-
-    @media screen and (max-width:680px) {
-        .clientSectwo .clientLogostwo {
+        .layoutThreeBox {
             width: 50%;
-            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-flow: wrap;
 
-            &:nth-child(6n+6) {
-                border-right: 1px solid #000;
-            }
-
-            &:nth-child(5n+5) {
-                border-right: 1px solid #000;
-            }
-
-            &:nth-child(3n+3) {
-                border-right: 1px solid #000;
-            }
-
-            &:nth-child(2n+2) {
-                border-right: 0px;
+            .layoutThreeBoxInner {
+                width: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
             }
         }
     }
+
+    @media screen and (max-width: 1800px) {
+        height: calc(100vh - 145px);
+        margin-top: 97px;
+    }
+
+    @media screen and (max-width: 1600px) {
+        height: calc(100vh - 132px);
+        margin-top: 87px;
+    }
+
+    @media screen and (max-width: 1450px) {
+        height: calc(100vh - 122px);
+        margin-top: 77px;
+    }
+
+    @media screen and (max-width: 1024px) {
+        height: calc(100vh - 104px);
+        margin-top: 73px;
+    }
+
+    @media screen and (max-width: 768px) {
+
+        .clientLayoutOne .layoutOneBox,
+        .clientLayoutTwo .layoutTwoBox {
+            width: 50%;
+        }
+
+        .clientLayoutOne .layoutOneBox:last-child {
+            width: 100%;
+        }
+
+        .clientLayoutThree {
+            &.clientLayoutThreeRev {
+                flex-flow: column;
+
+                .layoutThreeBox {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
 }
+

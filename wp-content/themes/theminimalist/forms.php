@@ -66,7 +66,7 @@ exit; */
 			id = select.getAttribute("id"),
 			name = select.getAttribute("name");
 		let template = '<div class="' + classes + '">';
-		template += '<span class="custom-select-trigger">' + select.getAttribute("placeholder") + '</span>';
+		template += '<span class="custom-select-trigger">' + "Per Year" + '</span>';
 		template += '<div class="custom-options">';
 		select.querySelectorAll("option").forEach(function(option) {
 			template += '<span class="custom-option' + '"data-value="' + option.getAttribute("value") + '">' + option.innerText + '</span>';
@@ -103,7 +103,7 @@ exit; */
 			id = select.getAttribute("id"),
 			name = select.getAttribute("name");
 		let template = '<div class="' + classes + '">';
-		template += '<span class="custom-select-trigger-two">' + select.getAttribute("placeholder") + '</span>';
+		template += '<span class="custom-select-trigger-two">' + "Per Year" + '</span>';
 		template += '<div class="custom-options_two">';
 		select.querySelectorAll("option").forEach(function(option) {
 			template += '<span class="custom-option_two' + '"data-value="' + option.getAttribute("value") + '">' + option.innerText + '</span>';

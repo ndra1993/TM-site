@@ -50,6 +50,7 @@
 
 	<header>
 		<div class="headerContent wrapper">
+			
 
 			<?php if (is_front_page()) { ?>
 				<!-- Homepage Header -->
@@ -95,7 +96,7 @@
 							</li>
 							<li class="menu_sub"><a href="<?php echo site_url('/case-study-listing/'); ?>" class="menu__item font80">Case Studies </a>
 							</li>
-							<li class="menu_sub"><a href="#" class="menu__item font80">Services </a>
+							<li class="menu_sub"><a href="<?php echo site_url('/service/'); ?>" class="menu__item font80">Services </a>
 							</li>
 							<li class="menu_sub"><a href="<?php echo site_url('/forms/'); ?>" class="menu__item font80">Scope My Project </a>
 							</li>
@@ -107,7 +108,7 @@
 						</ul>
 						<div class="footerLinksmbl">
 							<div class="Linksmblft">
-								<a href="#" class="fontPoppins fontW600 font14 colorBlack">Privacy Policy</a>
+								<a href="<?php echo site_url('/privacy-policy/'); ?>" class="fontPoppins fontW600 font14 colorBlack">Privacy Policy</a>
 							</div>
 							<div class="Linksmblft">
 								<a href="#" class="fontPoppins fontW600 font14 colorBlack">Terms Of Use</a>

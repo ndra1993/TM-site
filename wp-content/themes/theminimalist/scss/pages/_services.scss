@@ -1,5 +1,6 @@
 .serviceContainer {
     margin-top: 86px;
+    
 
     .tabs {
         display: flex;
@@ -17,6 +18,7 @@
             border: none;
             color: rgba(0, 0, 0, 0.1);
             text-align: left;
+            letter-spacing: -0.055em;
 
             &.active {
                 color: #000;
@@ -87,11 +89,6 @@
                     top: 15%;
                     padding-left: 75px;
                     width: 22%;
-
-                    h3 {
-                        width: 60%;
-                    }
-
                     h5 {
                         padding: 20px 0px 25px 0px;
                         font-size: 16px;
@@ -102,6 +99,7 @@
                         border: 1px solid #000;
                         font-size: 12px;
                         padding: 10px 15px;
+                        text-transform: uppercase;
                     }
                 }
 
@@ -203,7 +201,7 @@
             }
 
             &.smaller .btn {
-                width: 48%;
+                width: 26%;
             }
         }
 
@@ -242,6 +240,8 @@
 
                 .btn {
                     font-size: 20px;
+                    line-height: 24px;
+                    width: 25%;
                 }
             }
 
@@ -255,11 +255,13 @@
             }
         }
     }
+    
 
-    @media screen and (max-width:490px) {
+    @media screen and (max-width:520px) {
         .tabs {
             &.smaller .btn {
                 line-height: 24px;
+                width: 48%;
             }
         }
     }
