@@ -2501,7 +2501,7 @@ footer .ftbutton {
       line-height: 125px;
       cursor: pointer;
       border: none;
-      color: rgba(0, 0, 0, 0.1);
+      color: #e3e3e3;
       text-align: left;
       letter-spacing: -0.055em; }
       .serviceContainer .tabs .btn.active {
