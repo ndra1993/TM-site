@@ -18,22 +18,18 @@
         }
 
         img {
-            height: 20px !important;
-            width: 20px !important;
+            height: 23px !important;
+            width: 18px !important;
         }
     }
 
     @media screen and (max-width:1280px) {
         h3 {
-            margin-left: 10px;
-        }
-
-        img {
-            height: 15px !important;
-            width: 15px !important;
+            margin-left: 12px;
         }
     }
 }
+
 
 .clientsContentBox {
     height: calc(100vh - 148px);

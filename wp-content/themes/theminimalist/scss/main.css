@@ -2015,7 +2015,7 @@ footer .ftbutton {
         width: 55%; } }
   @media screen and (max-width: 1400px) {
     .casebgdetails {
-      margin-top: 76px; }
+      margin-top: 77px; }
       .casebgdetails .sectionOne {
         padding: 35px 0px 100px 0px; }
         .casebgdetails .sectionOne .mobtext {
@@ -2106,71 +2106,73 @@ footer .ftbutton {
         line-height: 23px;
         width: 62%; } }
   @media screen and (max-width: 1024px) {
-    .casebgdetails .sectionOne {
-      padding: 32px 0px 20px 0px; }
-      .casebgdetails .sectionOne .mobtext {
-        position: unset;
-        width: 100%;
-        padding-left: 24px;
-        padding-right: 24px; }
-        .casebgdetails .sectionOne .mobtext h1 {
-          line-height: 36px; }
-        .casebgdetails .sectionOne .mobtext h5 {
-          line-height: 20px;
-          width: 100%; }
-      .casebgdetails .sectionOne .mobImg {
-        width: 100%;
-        margin: 40px auto 0px; }
-    .casebgdetails .sectionTwo {
-      display: block; }
-      .casebgdetails .sectionTwo .mobtextTwo {
-        width: 100%;
-        padding: 32px 24px 32px 24px; }
-        .casebgdetails .sectionTwo .mobtextTwo h1 {
-          line-height: 36px;
-          width: 100%; }
-        .casebgdetails .sectionTwo .mobtextTwo h5 {
-          line-height: 20px;
-          width: 100%; }
-      .casebgdetails .sectionTwo .mobimgTwo {
-        width: 100%;
-        margin: 60px 0px 0px; }
-        .casebgdetails .sectionTwo .mobimgTwo img {
-          width: 100%; }
-    .casebgdetails .sectionThree {
-      display: block;
-      padding: 32px 24px 24px 24px; }
-      .casebgdetails .sectionThree .mobtextThree {
-        width: 100%; }
-        .casebgdetails .sectionThree .mobtextThree h1 {
-          line-height: 36px;
-          width: 100%; }
-      .casebgdetails .sectionThree .mobsubtextThree {
-        width: 100%; }
-        .casebgdetails .sectionThree .mobsubtextThree h5 {
-          line-height: 20px;
-          width: 100%; }
-    .casebgdetails .sectionFour {
-      padding: 10px 0px; }
-      .casebgdetails .sectionFour img {
-        width: 100%; }
-      .casebgdetails .sectionFour .desktopImg {
-        display: none; }
-      .casebgdetails .sectionFour .mobileImg {
-        display: block; }
-    .casebgdetails .sectionFive {
-      padding: 32px 24px 32px 24px;
-      display: block; }
-      .casebgdetails .sectionFive .mobtextFour {
-        width: 100%; }
-        .casebgdetails .sectionFive .mobtextFour h1 {
+    .casebgdetails {
+      margin-top: 73px; }
+      .casebgdetails .sectionOne {
+        padding: 32px 0px 20px 0px; }
+        .casebgdetails .sectionOne .mobtext {
+          position: unset;
           width: 100%;
-          line-height: 36px; }
-      .casebgdetails .sectionFive .mobsubtextFour {
-        width: 100%; }
-        .casebgdetails .sectionFive .mobsubtextFour h5 {
-          line-height: 20px;
-          width: 100%; } }
+          padding-left: 24px;
+          padding-right: 24px; }
+          .casebgdetails .sectionOne .mobtext h1 {
+            line-height: 36px; }
+          .casebgdetails .sectionOne .mobtext h5 {
+            line-height: 20px;
+            width: 100%; }
+        .casebgdetails .sectionOne .mobImg {
+          width: 100%;
+          margin: 40px auto 0px; }
+      .casebgdetails .sectionTwo {
+        display: block; }
+        .casebgdetails .sectionTwo .mobtextTwo {
+          width: 100%;
+          padding: 32px 24px 32px 24px; }
+          .casebgdetails .sectionTwo .mobtextTwo h1 {
+            line-height: 36px;
+            width: 100%; }
+          .casebgdetails .sectionTwo .mobtextTwo h5 {
+            line-height: 20px;
+            width: 100%; }
+        .casebgdetails .sectionTwo .mobimgTwo {
+          width: 100%;
+          margin: 60px 0px 0px; }
+          .casebgdetails .sectionTwo .mobimgTwo img {
+            width: 100%; }
+      .casebgdetails .sectionThree {
+        display: block;
+        padding: 32px 24px 24px 24px; }
+        .casebgdetails .sectionThree .mobtextThree {
+          width: 100%; }
+          .casebgdetails .sectionThree .mobtextThree h1 {
+            line-height: 36px;
+            width: 100%; }
+        .casebgdetails .sectionThree .mobsubtextThree {
+          width: 100%; }
+          .casebgdetails .sectionThree .mobsubtextThree h5 {
+            line-height: 20px;
+            width: 100%; }
+      .casebgdetails .sectionFour {
+        padding: 10px 0px; }
+        .casebgdetails .sectionFour img {
+          width: 100%; }
+        .casebgdetails .sectionFour .desktopImg {
+          display: none; }
+        .casebgdetails .sectionFour .mobileImg {
+          display: block; }
+      .casebgdetails .sectionFive {
+        padding: 32px 24px 32px 24px;
+        display: block; }
+        .casebgdetails .sectionFive .mobtextFour {
+          width: 100%; }
+          .casebgdetails .sectionFive .mobtextFour h1 {
+            width: 100%;
+            line-height: 36px; }
+        .casebgdetails .sectionFive .mobsubtextFour {
+          width: 100%; }
+          .casebgdetails .sectionFive .mobsubtextFour h5 {
+            line-height: 20px;
+            width: 100%; } }
 
 #button {
   display: none; }
@@ -2297,7 +2299,8 @@ footer .ftbutton {
         /*width: 25px;
         height: 40px;*/ }
       .desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column .slick-list.draggable {
-        height: auto !important; }
+        height: auto !important;
+        margin: 0px 0px; }
   .desktopSection .caseStudyFooter {
     display: flex;
     justify-content: space-between;
@@ -3166,14 +3169,11 @@ footer .ftbutton {
     .titleBox h3 {
       margin-left: 20px; }
     .titleBox img {
-      height: 20px !important;
-      width: 20px !important; } }
+      height: 23px !important;
+      width: 18px !important; } }
   @media screen and (max-width: 1280px) {
     .titleBox h3 {
-      margin-left: 10px; }
-    .titleBox img {
-      height: 15px !important;
-      width: 15px !important; } }
+      margin-left: 12px; } }
 
 .clientsContentBox {
   height: calc(100vh - 148px);
@@ -3363,5 +3363,644 @@ footer .ftbutton {
         .privacyPolicypg .privacyPolicy p,
         .privacyPolicypg .privacyPolicy ul li {
           font-size: 16px; } }
+
+.formSection {
+  max-width: 100%;
+  margin: 0 auto;
+  overflow-x: hidden;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between; }
+  .formSection .sec1 {
+    width: 46%; }
+    .formSection .sec1 .logo {
+      margin-left: 0px; }
+      .formSection .sec1 .logo img {
+        height: 24px; }
+    .formSection .sec1 h1 {
+      margin-top: 200px; }
+      @media screen and (max-width: 1450px) {
+        .formSection .sec1 h1 {
+          margin-top: 90px; } }
+  .formSection .form-wrap {
+    border-left: 1px solid #000;
+    background-color: #fff;
+    width: 46%;
+    animation: 1s ease-out 0s 1 slideInFromright;
+    height: 100vh;
+    overflow-y: hidden; }
+@keyframes slideInFromright {
+  0% {
+    transform: translateX(100%); }
+  100% {
+    transform: translateX(0); } }
+    .formSection .form-wrap .tabs {
+      overflow: hidden;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      text-transform: uppercase; }
+      .formSection .form-wrap .tabs .signup-tab {
+        width: 50%; }
+        @media screen and (max-width: 425px) {
+          .formSection .form-wrap .tabs .signup-tab {
+            width: 40%; } }
+        @media screen and (max-width: 425px) {
+          .formSection .form-wrap .tabs .signup-tab a {
+            padding: 43px 24px; } }
+      .formSection .form-wrap .tabs .login-tab {
+        width: 30%; }
+      .formSection .form-wrap .tabs .close {
+        width: 20%;
+        border-right: 0;
+        padding: 71px 10px; }
+        .formSection .form-wrap .tabs .close img {
+          width: 35px;
+          height: 35px; }
+        @media screen and (max-width: 1850px) {
+          .formSection .form-wrap .tabs .close {
+            padding: 68.5px 10px; } }
+        @media screen and (max-width: 1800px) {
+          .formSection .form-wrap .tabs .close {
+            padding: 60.5px 10px; }
+            .formSection .form-wrap .tabs .close img {
+              width: 30px;
+              height: 30px; } }
+        @media screen and (max-width: 1650px) {
+          .formSection .form-wrap .tabs .close {
+            padding: 63.5px 10px; }
+            .formSection .form-wrap .tabs .close img {
+              width: 24px;
+              height: 24px; } }
+        @media screen and (max-width: 1600px) {
+          .formSection .form-wrap .tabs .close {
+            padding: 43.5px 10px; } }
+        @media screen and (max-width: 1090px) {
+          .formSection .form-wrap .tabs .close {
+            padding: 42.5px 10px !important; }
+            .formSection .form-wrap .tabs .close img {
+              width: 22px;
+              height: 22px; } }
+        @media screen and (max-width: 900px) {
+          .formSection .form-wrap .tabs .close {
+            padding: 44.5px 10px !important; }
+            .formSection .form-wrap .tabs .close img {
+              width: 18px;
+              height: 18px; } }
+        @media screen and (max-width: 760px) {
+          .formSection .form-wrap .tabs .close {
+            padding: 44.5px 10px !important; } }
+        @media screen and (max-width: 425px) {
+          .formSection .form-wrap .tabs .close {
+            width: 30%; } }
+      .formSection .form-wrap .tabs a {
+        padding: 80px;
+        text-decoration: none;
+        text-align: center;
+        font-weight: 800;
+        background-color: #fff;
+        display: block;
+        color: #000;
+        border-bottom: 1px solid #000;
+        border-right: 1px solid #000;
+        position: relative;
+        position: relative; }
+        @media screen and (max-width: 1800px) {
+          .formSection .form-wrap .tabs a {
+            padding: 70px; } }
+        @media screen and (max-width: 1600px) {
+          .formSection .form-wrap .tabs a {
+            padding: 50px 30px; } }
+        @media screen and (max-width: 1280px) {
+          .formSection .form-wrap .tabs a {
+            padding: 50px 15px; } }
+      .formSection .form-wrap .tabs a.active:after {
+        content: "";
+        position: absolute;
+        border: 3px solid #00FFA3;
+        bottom: 0;
+        left: 0;
+        right: 0; }
+    .formSection .form-wrap .tabs-content {
+      height: calc(100vh - 185px);
+      overflow-y: scroll;
+      /* ===== Scrollbar CSS ===== */
+      /* Firefox */
+      scrollbar-width: auto;
+      scrollbar-color: #00ffa3 #ffffff;
+      /* Chrome, Edge, and Safari */ }
+      @media screen and (max-width: 1800px) {
+        .formSection .form-wrap .tabs-content {
+          height: calc(100vh - 159px); } }
+      @media screen and (max-width: 1600px) {
+        .formSection .form-wrap .tabs-content {
+          height: calc(100vh - 119px); } }
+      @media screen and (max-width: 1080px) {
+        .formSection .form-wrap .tabs-content {
+          height: calc(100vh - 115px); } }
+      .formSection .form-wrap .tabs-content::-webkit-scrollbar {
+        width: 13px; }
+      .formSection .form-wrap .tabs-content::-webkit-scrollbar-track {
+        background: #ffffff; }
+      .formSection .form-wrap .tabs-content::-webkit-scrollbar-thumb {
+        background-color: #00ffa3;
+        border-radius: 15px;
+        border: 3px solid #ffffff; }
+      .formSection .form-wrap .tabs-content div[id$="tab-content"] {
+        display: none; }
+      .formSection .form-wrap .tabs-content .active {
+        display: block !important; }
+      .formSection .form-wrap .tabs-content form fieldset {
+        width: 100%;
+        height: auto;
+        border: none;
+        background: #fff;
+        padding: 0px; }
+        @media screen and (max-width: 1800px) {
+          .formSection .form-wrap .tabs-content form fieldset {
+            width: 100%; } }
+        @media screen and (max-width: 1180px) {
+          .formSection .form-wrap .tabs-content form fieldset {
+            width: 100%; } }
+        @media screen and (max-width: 1090px) {
+          .formSection .form-wrap .tabs-content form fieldset {
+            width: 100%; } }
+        .formSection .form-wrap .tabs-content form fieldset .content {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 46px 44px 34px 42px;
+          border-bottom: 1px dashed #000; }
+          .formSection .form-wrap .tabs-content form fieldset .content .last {
+            margin: 0 0em 0 0em !important; }
+          @media screen and (min-width: 2000px) {
+            .formSection .form-wrap .tabs-content form fieldset .content {
+              justify-content: normal; } }
+          @media screen and (max-width: 1800px) {
+            .formSection .form-wrap .tabs-content form fieldset .content {
+              padding: 46px 30px 34px 30px; } }
+          @media screen and (max-width: 1280px) {
+            .formSection .form-wrap .tabs-content form fieldset .content {
+              padding: 46px 20px 34px 20px; } }
+          @media screen and (max-width: 1090px) {
+            .formSection .form-wrap .tabs-content form fieldset .content {
+              display: block;
+              align-items: center;
+              justify-content: space-between;
+              padding: 25px 30px; } }
+          @media screen and (max-width: 1090px) {
+            .formSection .form-wrap .tabs-content form fieldset .content {
+              padding: 25px 20px; } }
+          .formSection .form-wrap .tabs-content form fieldset .content:active:after, .formSection .form-wrap .tabs-content form fieldset .content:focus:after, .formSection .form-wrap .tabs-content form fieldset .content:hover:after {
+            border: 1px solid #14CC8A;
+            position: absolute;
+            content: "";
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background: #fff; }
+@media screen and (max-width: 5000px) and (max-width: 1800px) {
+  .formSection .form-wrap .tabs-content form fieldset .content .mobFlex {
+    padding: 46px 30px 34px 30px; } }
+@media screen and (max-width: 5000px) and (max-width: 1090px) {
+  .formSection .form-wrap .tabs-content form fieldset .content .mobFlex {
+    display: block; } }
+
+          .formSection .form-wrap .tabs-content form fieldset .content .ctc {
+            width: 75%;
+            display: flex;
+            align-items: center; }
+            .formSection .form-wrap .tabs-content form fieldset .content .ctc select.select-wrap,
+            .formSection .form-wrap .tabs-content form fieldset .content .ctc select.select-wrap_two {
+              display: none; }
+            .formSection .form-wrap .tabs-content form fieldset .content .ctc .select-wrap,
+            .formSection .form-wrap .tabs-content form fieldset .content .ctc .select-wrap_two {
+              z-index: 1; }
+            .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-select-wrapper,
+            .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-select-wrapper-two {
+              position: relative;
+              display: inline-block;
+              user-select: none; }
+            .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-select-wrapper select,
+            .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-select-wrapper-two select {
+              display: none; }
+            .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-select,
+            .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-select_two {
+              position: relative;
+              display: inline-block;
+              margin-left: 18px; }
+            .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-select-trigger,
+            .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-select-trigger-two {
+              position: relative;
+              display: block;
+              padding: 0px 10px;
+              cursor: pointer;
+              z-index: 2;
+              border: none;
+              color: #000;
+              font-size: 16px;
+              font-weight: 500;
+              margin: 0;
+              border-radius: 0;
+              width: 120px; }
+            .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-select-trigger:after,
+            .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-select-trigger-two:after {
+              position: absolute;
+              display: block;
+              content: '';
+              width: 6px;
+              height: 6px;
+              top: 50%;
+              right: 4px;
+              margin-top: -1px;
+              border-bottom: 3px solid #000;
+              border-right: 3px solid #000;
+              transform: rotate(45deg) translateY(-50%);
+              transition: all 0.3s ease-in-out;
+              transform-origin: 50% 0; }
+            .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-select.opened .custom-select-trigger:after,
+            .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-select_two.opened .custom-select-trigger-two:after {
+              margin-top: 3px;
+              transform: rotate(-135deg) translateY(-50%); }
+            .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-select.opened .custom-options,
+            .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-select_two.opened .custom-options_two {
+              opacity: 1;
+              visibility: visible;
+              pointer-events: all; }
+            .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-option,
+            .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-option_two {
+              position: relative;
+              display: block;
+              padding: 4px 10px;
+              color: #000;
+              font-size: 16px;
+              font-weight: 500;
+              line-height: 33px;
+              cursor: pointer;
+              transition: all 0.3s ease-in-out;
+              z-index: 1;
+              background-color: #fff; }
+              .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-option:nth-child(1),
+              .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-option_two:nth-child(1) {
+                border: 1px solid #000;
+                border-radius: 5px 5px 0px 0px;
+                border-bottom: 0px; }
+              .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-option:nth-child(2),
+              .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-option_two:nth-child(2) {
+                border: 1px solid #000;
+                border-radius: 0px 0px 5px 5px; }
+            .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-option:hover,
+            .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-option_two:hover {
+              background: #00FFA3; }
+            .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-options,
+            .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-options_two {
+              position: absolute;
+              display: block;
+              top: 100%;
+              left: 0;
+              right: 0;
+              transition: all 0.3s ease-in-out;
+              opacity: 0;
+              visibility: hidden;
+              pointer-events: none; }
+            @media screen and (max-width: 1300px) {
+              .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-select-trigger,
+              .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-select-trigger-two {
+                padding: 0px 2px;
+                margin-bottom: 0px; } }
+            @media screen and (max-width: 1090px) {
+              .formSection .form-wrap .tabs-content form fieldset .content .ctc {
+                margin-top: -15px;
+                width: 100%; }
+                .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-select-trigger:after,
+                .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-select-trigger-two::after {
+                  right: 0px; }
+                .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-option,
+                .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-option_two {
+                  font-size: 14px; }
+                .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-select-trigger,
+                .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-select-trigger-two {
+                  font-size: 14px; } }
+            @media screen and (max-width: 700px) {
+              .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-select,
+              .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-select_two {
+                margin-left: 0px; }
+              .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-select-trigger,
+              .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-select-trigger-two {
+                width: 94px; } }
+            .formSection .form-wrap .tabs-content form fieldset .content .ctc .current {
+              width: 25%;
+              text-align: right; }
+            .formSection .form-wrap .tabs-content form fieldset .content .ctc select {
+              border: none;
+              color: #000;
+              font-size: 16px;
+              font-weight: 500;
+              margin: 0;
+              padding: 0 10px;
+              border-radius: 0; }
+              .formSection .form-wrap .tabs-content form fieldset .content .ctc select option {
+                background-color: #14CC8A;
+                color: #000 !important;
+                border: 1px solid #14CC8A; }
+              @media screen and (max-width: 1090px) {
+                .formSection .form-wrap .tabs-content form fieldset .content .ctc select {
+                  padding: 0px;
+                  margin-top: 10px;
+                  font-size: 14px; } }
+              .formSection .form-wrap .tabs-content form fieldset .content .ctc select:focus-visible {
+                outline: none;
+                background: transparent; }
+          .formSection .form-wrap .tabs-content form fieldset .content .filesBtn {
+            width: 75%; }
+            .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .file,
+            .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .upload {
+              display: block;
+              opacity: 0;
+              height: 0; }
+            .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex {
+              display: flex;
+              align-items: center;
+              justify-content: space-between; }
+              @media screen and (max-width: 1090px) {
+                .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex {
+                  display: block;
+                  align-items: center;
+                  justify-content: space-between; } }
+              .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .file-name {
+                border: none;
+                width: 90%;
+                padding: 10px 10px 10px 0px;
+                font-size: 24px;
+                cursor: unset; }
+                @media screen and (max-width: 1090px) {
+                  .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .file-name {
+                    width: 100%; } }
+                @media screen and (max-width: 1366px) {
+                  .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .file-name {
+                    font-size: 18px; } }
+              .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex #upload-file,
+              .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex #file-name {
+                width: 100%; }
+              .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .upload-file {
+                border: none;
+                width: 90%;
+                padding: 5px 5px 0px 0px;
+                font-size: 24px;
+                cursor: unset; }
+                @media screen and (max-width: 1090px) {
+                  .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .upload-file {
+                    width: 100%; } }
+                @media screen and (max-width: 1366px) {
+                  .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .upload-file {
+                    font-size: 18px; } }
+              .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .upload-file-resume {
+                border: none;
+                width: 90%;
+                padding: 0px 0px 0px 0px;
+                font-size: 24px;
+                cursor: unset; }
+                @media screen and (max-width: 1090px) {
+                  .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .upload-file-resume {
+                    width: 100%; } }
+                @media screen and (max-width: 1366px) {
+                  .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .upload-file-resume {
+                    font-size: 18px; } }
+                .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .upload-file-resume .upload-file {
+                  padding: 10px 10px 10px 0px; }
+              .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .Resume-file {
+                border: none;
+                width: 90%;
+                padding: 10px 10px 0px 0px;
+                font-size: 24px;
+                cursor: unset; }
+                @media screen and (max-width: 1090px) {
+                  .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .Resume-file {
+                    width: 100%; } }
+                @media screen and (max-width: 1366px) {
+                  .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .Resume-file {
+                    font-size: 18px; } }
+              @media screen and (max-width: 900px) {
+                .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .mob-file {
+                  display: block; } }
+              .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex input {
+                font-size: 16px;
+                font-weight: 600;
+                color: #000;
+                width: 25%;
+                background-color: #fff;
+                border: 1px dashed #000;
+                border-radius: 5px;
+                padding: 10px 0px;
+                cursor: pointer;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis; }
+                @media screen and (max-width: 1090px) {
+                  .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex input {
+                    width: 75%; } }
+          .formSection .form-wrap .tabs-content form fieldset .content label {
+            float: left;
+            width: 23%;
+            font-size: 16px;
+            color: #000;
+            font-weight: 500;
+            line-height: 20px; }
+            @media screen and (max-width: 1640px) {
+              .formSection .form-wrap .tabs-content form fieldset .content label {
+                width: 17%; } }
+            @media screen and (max-width: 1366px) {
+              .formSection .form-wrap .tabs-content form fieldset .content label {
+                font-size: 16px;
+                line-height: 20px; } }
+            @media screen and (max-width: 1090px) {
+              .formSection .form-wrap .tabs-content form fieldset .content label {
+                font-size: 13px;
+                width: 100%;
+                margin-bottom: 10px; } }
+          .formSection .form-wrap .tabs-content form fieldset .content label + span input::-webkit-input-placeholder {
+            opacity: 0; }
+          .formSection .form-wrap .tabs-content form fieldset .content label:focus + span input::-webkit-input-placeholder {
+            color: #000;
+            opacity: 0.2;
+            font-weight: 500; }
+          .formSection .form-wrap .tabs-content form fieldset .content input {
+            font-family: 'Poppins', sans-serif;
+            border: none;
+            color: #000;
+            font-size: 24px;
+            font-weight: 600;
+            margin: 0;
+            padding: 0 0px;
+            width: 75%;
+            vertical-align: middle;
+            caret-color: #00FFA3;
+            cursor: pointer;
+            text-overflow: ellipsis; }
+            .formSection .form-wrap .tabs-content form fieldset .content input::-webkit-input-placeholder {
+              opacity: 0; }
+            .formSection .form-wrap .tabs-content form fieldset .content input:focus::-webkit-input-placeholder {
+              color: #000;
+              opacity: 0.2;
+              font-weight: 500; }
+            .formSection .form-wrap .tabs-content form fieldset .content input:hover {
+              border: none; }
+            .formSection .form-wrap .tabs-content form fieldset .content input:focus {
+              outline: none; }
+            @media screen and (max-width: 1366px) {
+              .formSection .form-wrap .tabs-content form fieldset .content input {
+                font-size: 18px;
+                line-height: 24px; } }
+            @media screen and (max-width: 1090px) {
+              .formSection .form-wrap .tabs-content form fieldset .content input {
+                font-size: 18px;
+                width: 100%;
+                padding: 0px; } }
+            .formSection .form-wrap .tabs-content form fieldset .content input .hide-radio {
+              display: none; }
+          .formSection .form-wrap .tabs-content form fieldset .content .InputGroup {
+            display: flex;
+            width: 100%; }
+            @media screen and (max-width: 1090px) {
+              .formSection .form-wrap .tabs-content form fieldset .content .InputGroup {
+                width: 100%; } }
+            .formSection .form-wrap .tabs-content form fieldset .content .InputGroup input.radio {
+              margin: 0;
+              padding: 2px 0;
+              width: auto;
+              height: auto; }
+            .formSection .form-wrap .tabs-content form fieldset .content .InputGroup input[type="radio"] {
+              visibility: hidden;
+              /* 1 */
+              height: 0;
+              /* 2 */
+              width: 0;
+              /* 2 */ }
+            .formSection .form-wrap .tabs-content form fieldset .content .InputGroup label {
+              display: flex;
+              flex: auto;
+              vertical-align: middle;
+              align-items: center;
+              justify-content: center;
+              text-align: center;
+              cursor: pointer;
+              color: #000;
+              padding: 10px 0px;
+              border-radius: 6px;
+              border: 1px solid #000;
+              margin-right: 20px; }
+              .formSection .form-wrap .tabs-content form fieldset .content .InputGroup label:last-of-type {
+                margin-right: 0; }
+            .formSection .form-wrap .tabs-content form fieldset .content .InputGroup input[type="radio"]:checked + label {
+              background-color: #00FFA3; }
+        .formSection .form-wrap .tabs-content form fieldset .content.not-empty label {
+          color: #A9A9A9; }
+        .formSection .form-wrap .tabs-content form fieldset .content .radiocheck label {
+          color: #000 !important; }
+        .formSection .form-wrap .tabs-content form fieldset .borderBlack {
+          position: relative; }
+        .formSection .form-wrap .tabs-content form fieldset .borderDotted {
+          border-bottom: 1px dashed #000; }
+        .formSection .form-wrap .tabs-content form fieldset .checkboxContent {
+          border: none;
+          padding: 46px 30px 34px 42px; }
+          @media screen and (max-width: 1800px) {
+            .formSection .form-wrap .tabs-content form fieldset .checkboxContent {
+              padding: 46px 30px 34px 30px; } }
+          @media screen and (max-width: 1280px) {
+            .formSection .form-wrap .tabs-content form fieldset .checkboxContent {
+              padding: 46px 20px 34px 20px; } }
+          @media screen and (max-width: 1090px) {
+            .formSection .form-wrap .tabs-content form fieldset .checkboxContent {
+              display: block;
+              align-items: center;
+              justify-content: space-between;
+              padding: 25px 30px; } }
+          @media screen and (max-width: 1090px) {
+            .formSection .form-wrap .tabs-content form fieldset .checkboxContent {
+              padding: 25px 20px; } }
+          @media screen and (max-width: 770px) {
+            .formSection .form-wrap .tabs-content form fieldset .checkboxContent {
+              width: 100%; } }
+          .formSection .form-wrap .tabs-content form fieldset .checkboxContent .wpcf7-list-item {
+            margin: 0 !important; }
+          .formSection .form-wrap .tabs-content form fieldset .checkboxContent .policy {
+            font-weight: 400;
+            width: 100%; }
+          .formSection .form-wrap .tabs-content form fieldset .checkboxContent input[type='checkbox'] {
+            margin: 0;
+            padding: 2px 0;
+            width: 24px;
+            height: 24px;
+            margin-bottom: 20px;
+            cursor: pointer;
+            margin-right: 15px;
+            border-radius: 6px; }
+            @media screen and (max-width: 770px) {
+              .formSection .form-wrap .tabs-content form fieldset .checkboxContent input[type='checkbox'] {
+                margin-right: 10px; } }
+            .formSection .form-wrap .tabs-content form fieldset .checkboxContent input[type='checkbox']:checked {
+              -webkit-appearance: checkbox;
+              background-color: #00FFA3;
+              accent-color: #00FFA3; }
+        .formSection .form-wrap .tabs-content form fieldset .submit {
+          font-weight: 800;
+          font-size: 24px;
+          text-transform: uppercase;
+          text-decoration: none;
+          margin-top: 20px;
+          border: none;
+          color: rgba(0, 0, 0, 0.2);
+          padding: 80px;
+          background: #E3E3E3;
+          float: left;
+          cursor: pointer; }
+          .formSection .form-wrap .tabs-content form fieldset .submit:hover, .formSection .form-wrap .tabs-content form fieldset .submit:focus {
+            background-color: #00FFA3;
+            color: #000; }
+          @media screen and (max-width: 1600px) {
+            .formSection .form-wrap .tabs-content form fieldset .submit {
+              padding: 64px;
+              font-size: 18px; } }
+          @media screen and (max-width: 1280px) {
+            .formSection .form-wrap .tabs-content form fieldset .submit {
+              padding: 50px;
+              font-size: 18px; } }
+          @media screen and (max-width: 770px) {
+            .formSection .form-wrap .tabs-content form fieldset .submit {
+              padding: 25px 50px;
+              width: 100%;
+              text-align: center; } }
+  @media screen and (max-width: 1450px) {
+    .formSection .sec1 {
+      width: 46%; }
+      .formSection .sec1 img {
+        width: 34%; }
+    .formSection .form-wrap {
+      width: 52%; } }
+  @media screen and (max-width: 1370px) {
+    .formSection .sec1 img {
+      width: 36%; } }
+  @media screen and (max-width: 1300px) {
+    .formSection .sec1 img {
+      width: 38.5%; } }
+  @media screen and (max-width: 1024px) {
+    .formSection {
+      margin-left: 25px; }
+      .formSection .sec1 img {
+        width: 47.4%; } }
+  @media screen and (max-width: 900px) {
+    .formSection {
+      margin-left: 0px; }
+      .formSection .sec1 {
+        display: none; }
+        .formSection .sec1 img {
+          width: 50%; }
+      .formSection .form-wrap {
+        width: 100%;
+        border-left: 0px solid #000; } }
+
+.page-template-forms header {
+  display: none; }
 
 /*# sourceMappingURL=main.css.map */
