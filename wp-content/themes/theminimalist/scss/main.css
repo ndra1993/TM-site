@@ -4000,7 +4000,7 @@ footer .ftbutton {
         width: 100%;
         border-left: 0px solid #000; } }
 
-.page-template-forms header {
+.page-template-forms header, .page-template-forms-two header {
   display: none; }
 
 /*# sourceMappingURL=main.css.map */
