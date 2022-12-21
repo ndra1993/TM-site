@@ -187,7 +187,7 @@ slider
     vertical: true,
     asNavFor: '.img-grp',
     verticalSwiping: true,
-    centerMode: false,
+    centerMode: true,
     adaptiveHeight: true,
     swipeToSlide: true,
     touchThreshold: 3,
