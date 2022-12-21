@@ -173,17 +173,18 @@
 
     .sectionSix {
         position: relative;
-        .sectionSiximg img{ width: 100%;}
+        .sectionSiximg{line-height: 0px;
+         img{ width: 100%;}}
         .moreCasestudy {
             position: absolute;
-            bottom: 0;
             width: 100%;
+            bottom: 0;
             .brandLogos {
                 display: flex;
                 align-items: center;
     
                 .relatedBox {
-                    padding: 20px;
+                    padding: 30px;
                     width: 50%;
                     background: #00C859;
                     transition: 0.6s all;
@@ -195,7 +196,14 @@
     
                         img {
                             margin: 0 auto;
+                            height: 100px;
                         }
+                    }
+                    &:nth-child(1){
+                        text-align: left;
+                    }
+                    &:nth-child(2){
+                        text-align: right;
                     }
 
                     &.active{width: 100%;}
@@ -599,6 +607,22 @@
                 h5 {
                     line-height: 20px;
                     width: 100%;
+                }
+            }
+        }
+
+       .sectionSix .moreCasestudy{
+            position: static;
+            .brandLogos .relatedBox{
+                padding: 12px;
+                &:nth-child(1){
+                    text-align: center;
+                }
+                &:nth-child(2){
+                    text-align: center;
+                }
+                a img{
+                    height: 50px;
                 }
             }
         }

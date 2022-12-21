@@ -193,23 +193,7 @@ if ($(window).width() > 1024) {
 
 }
 
-// top btn js for mbl
-if ($(window).width() > 1024) {
-  var btn = $('#button');
 
-  $(window).scroll(function () {
-    if ($(window).scrollTop() > 100) {
-      btn.addClass('show');
-    } else {
-      btn.removeClass('show');
-    }
-  });
-
-  btn.on('click', function (e) {
-    e.preventDefault();
-    $('html, body').animate({ scrollTop: 0 }, '100');
-  });
-}
 
 // active menu js
 $(document).ready(function () {
@@ -219,19 +203,23 @@ $(document).ready(function () {
   });
 });
 
+// active class for case study details last section js starts
 
-$(document).ready(function () {
-  $('.relatedBoxone').hover(function () {
-    $(".relatedBoxone").toggleClass("active");
+if ($(window).width() > 1024) {
+  $(document).ready(function () {
+    $('.relatedBoxone').hover(function () {
+      $(".relatedBoxone").toggleClass("active");
+    });
   });
-});
-
-$(document).ready(function () {
-  $('.relatedBoxtwo').hover(function () {
-    $(".relatedBoxtwo").toggleClass("activeTwo");
+  
+  $(document).ready(function () {
+    $('.relatedBoxtwo').hover(function () {
+      $(".relatedBoxtwo").toggleClass("activeTwo");
+    });
   });
-});
+}
 
+// active class for case study details last section js ends
 
 
 // service page tabs toggle js starts
@@ -279,3 +267,22 @@ $(function () {
   }
 });
   // service page tab shrink on scroll js ends
+
+
+  // top btn js for mbl
+if ($(window).width() >= 1024) {
+  var btn = $('#button');
+
+  $(window).scroll(function () {
+    if ($(window).scrollTop() > 100) {
+      btn.addClass('show');
+    } else {
+      btn.removeClass('show');
+    }
+  });
+
+  btn.on('click', function (e) {
+    e.preventDefault();
+    $('html, body').animate({ scrollTop: 0 }, '100');
+  });
+}

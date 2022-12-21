@@ -1944,17 +1944,19 @@ footer .ftbutton {
         width: 60%; }
   .casebgdetails .sectionSix {
     position: relative; }
-    .casebgdetails .sectionSix .sectionSiximg img {
-      width: 100%; }
+    .casebgdetails .sectionSix .sectionSiximg {
+      line-height: 0px; }
+      .casebgdetails .sectionSix .sectionSiximg img {
+        width: 100%; }
     .casebgdetails .sectionSix .moreCasestudy {
       position: absolute;
-      bottom: 0;
-      width: 100%; }
+      width: 100%;
+      bottom: 0; }
       .casebgdetails .sectionSix .moreCasestudy .brandLogos {
         display: flex;
         align-items: center; }
         .casebgdetails .sectionSix .moreCasestudy .brandLogos .relatedBox {
-          padding: 20px;
+          padding: 30px;
           width: 50%;
           background: #00C859;
           transition: 0.6s all; }
@@ -1963,7 +1965,12 @@ footer .ftbutton {
             width: 100%;
             cursor: url(../images/mouse-cursor-pages.png) 30 30, auto; }
             .casebgdetails .sectionSix .moreCasestudy .brandLogos .relatedBox a img {
-              margin: 0 auto; }
+              margin: 0 auto;
+              height: 100px; }
+          .casebgdetails .sectionSix .moreCasestudy .brandLogos .relatedBox:nth-child(1) {
+            text-align: left; }
+          .casebgdetails .sectionSix .moreCasestudy .brandLogos .relatedBox:nth-child(2) {
+            text-align: right; }
           .casebgdetails .sectionSix .moreCasestudy .brandLogos .relatedBox.active {
             width: 100%; }
           .casebgdetails .sectionSix .moreCasestudy .brandLogos .relatedBox.activeTwo {
@@ -2172,7 +2179,17 @@ footer .ftbutton {
           width: 100%; }
           .casebgdetails .sectionFive .mobsubtextFour h5 {
             line-height: 20px;
-            width: 100%; } }
+            width: 100%; }
+      .casebgdetails .sectionSix .moreCasestudy {
+        position: static; }
+        .casebgdetails .sectionSix .moreCasestudy .brandLogos .relatedBox {
+          padding: 12px; }
+          .casebgdetails .sectionSix .moreCasestudy .brandLogos .relatedBox:nth-child(1) {
+            text-align: center; }
+          .casebgdetails .sectionSix .moreCasestudy .brandLogos .relatedBox:nth-child(2) {
+            text-align: center; }
+          .casebgdetails .sectionSix .moreCasestudy .brandLogos .relatedBox a img {
+            height: 50px; } }
 
 #button {
   display: none; }
