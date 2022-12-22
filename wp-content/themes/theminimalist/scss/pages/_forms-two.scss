@@ -279,6 +279,263 @@
 							}
 						}
 
+						.openRoles {
+							width: 75%;
+							display: flex;
+							align-items: center;
+
+
+							select.select-wrap_three {
+								display: none;
+							}
+
+							.select-wrap_three {
+
+								z-index: 1;
+
+							}
+
+							.custom-select-wrapper-three {
+								position: relative;
+								display: inline-block;
+								user-select: none;
+							}
+
+							.custom-select-wrapper-three select {
+								display: none;
+							}
+
+							.custom-select_three {
+								position: relative;
+								display: inline-block;
+								margin-left: 18px;
+							}
+
+							.custom-select-trigger-three {
+								position: relative;
+								display: block;
+								padding: 0px 10px;
+								cursor: pointer;
+								z-index: 2;
+								border: none;
+								color: #000;
+								font-size: 24px;
+								font-weight: 600;
+								line-height:24px;
+								margin: 0;
+								border-radius: 0;
+								width: 425px;
+							}
+
+							.custom-select-trigger-three:after {
+								position: absolute;
+								display: block;
+								content: '';
+								width: 6px;
+								height: 6px;
+								top: 50%;
+								right: 4px;
+								margin-top: -1px;
+								border-bottom: 3px solid #000;
+								border-right: 3px solid #000;
+								transform: rotate(45deg) translateY(-50%);
+								transition: all 0.3s ease-in-out;
+								transform-origin: 50% 0;
+							}
+
+							.custom-select_three.opened .custom-select-trigger-three:after {
+								margin-top: 3px;
+								transform: rotate(-135deg) translateY(-50%);
+							}
+
+							.custom-select_three.opened .custom-options_three {
+								opacity: 1;
+								visibility: visible;
+								pointer-events: all;
+								background: #FFFFFF;
+    							border: 1px solid #000000;
+    							margin-top:15px;
+    							padding: 24px 32px 24px 25px;
+    							z-index: 1;
+    							height: 250px;
+    							overflow-y: scroll;
+
+    							/* ===== Scrollbar CSS ===== */
+								/* Firefox */
+
+								scrollbar-width: auto;
+								scrollbar-color: #00ffa3 #ffffff;
+
+
+								/* Chrome, Edge, and Safari */
+								&::-webkit-scrollbar {
+									width: 5px;
+								}
+
+
+
+								&::-webkit-scrollbar-track {
+									background: #ffffff;
+								}
+
+								&::-webkit-scrollbar-thumb {
+									background-color: #000;
+									border-radius: 15px;
+									border: 3px solid #ffffff;
+								}
+
+							}
+
+							.custom-option_three {
+								position: relative;
+								display: block;
+								padding: 4px 10px;
+								color: #000;
+								font-size: 20px;
+								font-weight: 400;
+								line-height: 48px;
+								cursor: pointer;
+								transition: all 0.3s ease-in-out;
+								z-index: 1;
+								background-color: #fff;
+
+								&:nth-child(1) {
+									
+								}
+
+								&:nth-child(3) {
+									color:#C8C8C8;
+									pointer-events: none;
+								}
+							}
+
+							.custom-option_three:hover {
+								font-weight: 600;
+							}
+
+							.custom-options_three {
+								position: absolute;
+								display: block;
+								top: 100%;
+								left: 0;
+								right: 0;
+								transition: all 0.3s ease-in-out;
+								opacity: 0;
+								visibility: hidden;
+								pointer-events: none;
+							}
+							@media screen and (max-width:1800px) {
+
+								.custom-select-trigger-three {
+									width:400px;
+								}
+
+							}
+							@media screen and (max-width:1600px) {
+
+								.custom-select-trigger-three {
+									width:350px;
+								}
+								.custom-select_three.opened .custom-options_three {
+								    padding: 20px 25px 20px 20px !important;
+								    height: 225px;
+								}
+								.custom-option_three {line-height:40px;}
+
+							}
+							@media screen and (max-width:1400px) {
+
+								.custom-select-trigger-three {
+									width:325px;
+									font-size: 18px !important;}
+									.custom-select_three.opened .custom-options_three {
+										padding:10px 15px 10px 10px !important;
+										height:145px;
+									}
+								.custom-option_three { line-height:25px; font-size:14px;}	
+
+							}
+
+							@media screen and (max-width:1300px) {
+
+								.custom-select-trigger-three {
+									padding: 0px 2px;
+									margin-bottom: 0px;
+								}
+
+							}
+
+
+
+							@media screen and (max-width:1090px) {
+								margin-top: -15px;
+								width: 100%;
+								.openRoles .custom-select-trigger-three{margin-left:0px !important;
+									&:after {
+										right: 0px;
+									}
+								}
+								
+
+								.custom-option_three {
+									font-size: 14px;
+								}
+
+								.custom-select-trigger-three {
+									font-size: 14px;
+								}
+							}
+
+
+							@media screen and (max-width:700px) {
+
+								.custom-select_three {
+									margin-left: 0px;
+								}
+
+								.custom-select-trigger-three {
+									width: 94px;
+								}
+							}
+
+							.current {
+								width: 25%;
+								text-align: right;
+							}
+
+
+
+
+							select {
+								border: none;
+								color: #000;
+								font-size: 16px;
+								font-weight: 500;
+								margin: 0;
+								padding: 0 10px;
+								border-radius: 0;
+
+								option {
+									background-color: #14CC8A;
+									color: #000 !important;
+									border: 1px solid #14CC8A;
+								}
+
+
+
+								@media screen and (max-width:1090px) {
+									padding: 0px;
+									margin-top: 10px;
+									font-size: 14px;
+								}
+
+								&:focus-visible {
+									outline: none;
+									background: transparent;
+								}
+							}
+						}
+
 						.ctc {
 							width: 75%;
 							display: flex;

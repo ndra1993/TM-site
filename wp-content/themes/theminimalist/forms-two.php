@@ -44,7 +44,7 @@ exit; */
 				<!--.signup-tab-content-->
 				<div id="login-tab-content">
 					<form action="#" method="post" enctype="multipart/form-data">
-						<?php echo apply_shortcodes('[contact-form-7 id="15" title="scope my project"]');?>
+						<?php echo apply_shortcodes('[contact-form-7 id="75" title="Career New"]');?>
 					</form>
 				</div>
 				
@@ -123,6 +123,37 @@ exit; */
 			option.closest(".select-wrap-two").querySelector("select").value = option.getAttribute("data-value");
 			option.closest(".custom-select_two").classList.remove("opened");
 			option.closest(".custom-select_two").querySelector(".custom-select-trigger-two").innerText = option.innerText;
+		});
+	});
+</script>
+
+<script>
+	document.querySelectorAll(".select-wrap-three").forEach(function(wrap) {
+		let select = wrap.querySelector(".custom-select_three");
+		let classes = select.getAttribute("class"),
+			id = select.getAttribute("id"),
+			name = select.getAttribute("name");
+		let template = '<div class="' + classes + '">';
+		template += '<span class="custom-select-trigger-three">' + "User Experience Designer" + '</span>';
+		template += '<div class="custom-options_three">';
+		select.querySelectorAll("option").forEach(function(option) {
+			template += '<span class="custom-option_three' + '"data-value="' + option.getAttribute("value") + '">' + option.innerText + '</span>';
+		});
+		template += '</div></div>';
+		let select_wrapper = document.createElement('div');
+		select.style.display = 'none';
+		select_wrapper.innerHTML = `<div class="custom-select-wrapper-three">${template}</div>`;
+		wrap.appendChild(select_wrapper);
+	});
+
+	document.querySelector(".custom-select-trigger-three").addEventListener("click", function() {
+		document.querySelector(".custom-select-trigger-three").closest(".custom-select_three").classList.toggle("opened");
+	});
+	document.querySelectorAll(".custom-option_three").forEach((option) => {
+		option.addEventListener("click", function() {
+			option.closest(".select-wrap-three").querySelector("select").value = option.getAttribute("data-value");
+			option.closest(".custom-select_three").classList.remove("opened");
+			option.closest(".custom-select_three").querySelector(".custom-select-trigger-three").innerText = option.innerText;
 		});
 	});
 </script>
