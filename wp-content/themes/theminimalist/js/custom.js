@@ -270,7 +270,7 @@ $(function () {
 
 
   // top btn js for mbl
-if ($(window).width() >= 1024) {
+if ($(window).width() < 1024) {
   var btn = $('#button');
 
   $(window).scroll(function () {
