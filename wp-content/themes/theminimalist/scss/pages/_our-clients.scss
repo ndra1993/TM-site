@@ -33,7 +33,8 @@
 
 .clientsContentBox {
     height: calc(100vh - 148px);
-    margin-top: 97px;
+    margin-top: 96px;
+    border-top:1px solid #000;
     overflow-y: auto;
     /* ===== Scrollbar CSS ===== */
     /* Firefox */
@@ -119,17 +120,17 @@
 
     @media screen and (max-width: 1800px) {
         height: calc(100vh - 145px);
-        margin-top: 97px;
+        margin-top: 96px;
     }
 
     @media screen and (max-width: 1600px) {
         height: calc(100vh - 132px);
-        margin-top: 87px;
+        margin-top: 86px;
     }
 
     @media screen and (max-width: 1450px) {
         height: calc(100vh - 122px);
-        margin-top: 77px;
+        margin-top: 76px;
     }
 
     @media screen and (max-width: 1024px) {
@@ -152,10 +153,11 @@
             &.clientLayoutThreeRev {
                 flex-flow: column;
 
-                .layoutThreeBox {
+                
+            }
+            .layoutThreeBox {
                     width: 100%;
                 }
-            }
         }
     }
 

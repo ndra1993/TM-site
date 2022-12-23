@@ -1,6 +1,6 @@
 .privacyPolicypg {
     height: calc(100vh - 148px);
-    margin-top: 97px;
+    margin-top: 96px;
     overflow-y: auto;
     border-top:1px solid #000;
     /* ===== Scrollbar CSS ===== */
@@ -94,12 +94,12 @@
 
     @media screen and (max-width: 1800px) {
         height: calc(100vh - 145px);
-        margin-top: 97px;
+        margin-top: 96px;
     }
 
     @media screen and (max-width: 1600px) {
         height: calc(100vh - 132px);
-        margin-top: 87px;
+        margin-top: 86px;
 
         .privacyPolicy {
             width: 60%;
@@ -113,7 +113,7 @@
 
     @media screen and (max-width: 1450px) {
         height: calc(100vh - 122px);
-        margin-top: 77px;
+        margin-top: 76px;
 
         .privacyPolicy {
             width: 60%;

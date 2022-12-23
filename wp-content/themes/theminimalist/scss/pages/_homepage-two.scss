@@ -81,7 +81,7 @@ header {
           display: flex;
           align-items: center;
           justify-content: center;
-          padding: 38px 0px;
+          padding: 38.5px 0px;
 
           &.crossMenuicon {
             background-color: #00FFA3;
@@ -197,7 +197,7 @@ header {
     @media screen and (max-width:1600px) {
       .homeBox .hamburgerMenu {
         label.m-menu__toggle {
-          padding: 33px 0px;
+          padding: 33.5px 0px;
 
           &.crossMenuicon {
             padding: 25px;
@@ -223,7 +223,7 @@ header {
     @media screen and (max-width:1450px) {
       .homeBox .hamburgerMenu {
         label.m-menu__toggle {
-          padding: 28px 0px;
+          padding: 28.5px 0px;
 
           &.crossMenuicon {
             padding: 20px;
@@ -333,6 +333,7 @@ header {
             }
           }
         }
+        &:hover{background:transparent;}
       }
 
       .homeBox .headerCta {
@@ -830,6 +831,10 @@ footer {
   }
 
   @media all and (max-width: 1024px) {
+    padding: 0px 20px;
+
+  }
+  @media all and (max-width: 920px) {
     padding: 5px 20px;
 
     .ftPara{

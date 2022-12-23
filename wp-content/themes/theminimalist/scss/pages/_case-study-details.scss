@@ -4,7 +4,7 @@
 
 .casebgdetails {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(219.06deg, #0D1917 23.88%, #A270F2 71.41%);
-    margin-top: 86px;
+    margin-top: 86px; border-top: 1px solid #000;
 
     .sectionOne {
         position: relative;
@@ -316,7 +316,7 @@
     }
 
     @media screen and (max-width:1400px) {
-        margin-top: 77px;
+        margin-top: 76px;
 
         .sectionOne {
             padding: 35px 0px 100px 0px;

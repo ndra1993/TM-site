@@ -79,7 +79,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            padding: 38px 0px;
+            padding: 38.5px 0px;
   
             &.crossMenuicon {
               background-color: #00FFA3;
@@ -195,7 +195,7 @@
       @media screen and (max-width:1600px) {
         .homeBox .hamburgerMenu {
           label.m-menu__toggle {
-            padding: 33px 0px;
+            padding: 33.5px 0px;
   
             &.crossMenuicon {
               padding: 25px;
@@ -221,7 +221,7 @@
       @media screen and (max-width:1450px) {
         .homeBox .hamburgerMenu {
           label.m-menu__toggle {
-            padding: 28px 0px;
+            padding: 28.5px 0px;
   
             &.crossMenuicon {
               padding: 20px;
@@ -252,7 +252,7 @@
       @media screen and (max-width:1280px) {
         .homeBox .hamburgerMenu {
           label.m-menu__toggle {
-            padding: 28px 0px;
+            padding: 28.5px 0px;
   
             &.crossMenuicon {
               padding: 15px;
@@ -832,15 +832,7 @@
     @media all and (max-width: 1024px) {
       padding: 10px 20px;
   
-      .ftPara{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-      }
-  
-      .linksFt {
-        display: none;
-      }
+      
     }
     @media all and (max-width: 1024px){
       .ftPara .font14{
