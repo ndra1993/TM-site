@@ -24,23 +24,23 @@
             <div class="img-column">
                 <div class="img-grp">
                     <div class="img-holder">
-                        <a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/phone.png"></a>
+                        <a href="https://ixdtm.com/projects/theminimalist-site/case-study-details/"><img src="<?php bloginfo('template_directory'); ?>/images/phone.png"></a>
                     </div>
                     <div class="img-holder">
-                        <a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/phone-two.png"></a>
+                        <a href="https://ixdtm.com/projects/theminimalist-site/case-study-details/"><img src="<?php bloginfo('template_directory'); ?>/images/phone-two.png"></a>
                     </div>
                     <div class="img-holder">
-                        <a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/phone-three.png"></a>
+                        <a href="https://ixdtm.com/projects/theminimalist-site/case-study-details/"><img src="<?php bloginfo('template_directory'); ?>/images/phone-three.png"></a>
                     </div><!--img-holder-->
                     <div class="img-holder">
-                        <a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/case-study-details-1.png"></a>
+                        <a href="https://ixdtm.com/projects/theminimalist-site/case-study-details/"><img src="<?php bloginfo('template_directory'); ?>/images/case-study-details-1.png"></a>
                     </div>
                 </div>
             </div>
             <div class="detail-column">
                 <div class="content-grp">
                     <div class="content-item">
-                      <a href="#">
+                      <a href="https://ixdtm.com/projects/theminimalist-site/case-study-details/">
                         <div class="item-inner">
                             <span class="bar"></span>
                             <p class="font14 fontW800">One to 11</p>
@@ -49,7 +49,7 @@
                         </a>
                     </div>
                     <div class="content-item">
-                      <a href="#">
+                      <a href="https://ixdtm.com/projects/theminimalist-site/case-study-details/">
                         <div class="item-inner">
                             <span class="bar"></span>
                             <p class="font14 fontW800">Tata cliq luxury</p>
@@ -58,7 +58,7 @@
                       </a>
                     </div>
                     <div class="content-item">
-                      <a href="#">
+                      <a href="https://ixdtm.com/projects/theminimalist-site/case-study-details/">
                         <div class="item-inner">
                             <span class="bar"></span>
                             <p class="font14 fontW800">One to 11</p>
@@ -67,7 +67,7 @@
                       </a>
                     </div>
                     <div class="content-item">
-                      <a href="#">
+                      <a href="https://ixdtm.com/projects/theminimalist-site/case-study-details/">
                         <div class="item-inner">
                             <span class="bar"></span>
                             <p class="font14 fontW800">Tata cliq luxury</p>

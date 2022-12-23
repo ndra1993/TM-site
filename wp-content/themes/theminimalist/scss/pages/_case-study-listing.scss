@@ -115,7 +115,7 @@
 /* media quary */
 @media screen and (max-width: 1600px) {
 	.desktopSection{display: block;margin-top:86px;
-		.caseStudycontainerRow{height: calc(100vh - 180px) !important;
+		.caseStudycontainerRow{height: calc(100vh - 195px) !important;
 		}
 	}
 }
@@ -130,7 +130,7 @@
 		}
 	
 		.caseStudycontainer{
-	  		.caseStudycontainerRow{height: calc(100vh - 162px) !important;
+	  		.caseStudycontainerRow{height: calc(100vh - 161px) !important;
 	  			.detail-column{width: 45%; margin: 0px 35px;
 	  			.item-inner{padding: 20px 0px !important;}
 	  			.slick-vertical{
@@ -150,6 +150,9 @@
 @media screen and (max-width: 1080px) {
 	.desktopSection{margin-top:73px;
 		.caseStudyFilter {padding:7px 20px;}
+		.caseStudycontainer{
+	  		.caseStudycontainerRow{height: calc(100vh - 145px) !important;}
+	  		}
 	}
 }
 
