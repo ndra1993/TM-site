@@ -1,4 +1,4 @@
-// Mainpage scss//
+ // Mainpage scss//
 
 * {
   margin: 0;
@@ -16,7 +16,7 @@ header {
   top: 0;
   width: 100%;
   background-color: #fff;
-  border-bottom: 1px solid #000;
+  border-bottom:0px solid #000;
 
   .headerContent {
     display: flex;
@@ -38,7 +38,7 @@ header {
 
         .connectCta {
           padding: 30px 60px;
-          background: #00FFA3;
+          
           text-align: center;
           display: flex;
           justify-content: center;
@@ -49,7 +49,7 @@ header {
           line-height: 18px;
           text-transform: uppercase;
           color: #000000;
-
+          &:hover{background-color: #00FFA3;}
           @media screen and (max-width:1600px) {
             padding: 25px 50px;
           }
@@ -63,10 +63,11 @@ header {
           background-color: #fff;
         }
       }
+      .headerActive.active{background-color: #00FFA3 !important;}
 
       .hamburgerMenu {
         width: 20%;
-
+        &:hover{background-color: #00FFA3;}
         .m-menu__checkbox {
           display: none;
 

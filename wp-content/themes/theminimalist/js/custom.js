@@ -286,3 +286,36 @@ if ($(window).width() < 1024) {
     $('html, body').animate({ scrollTop: 0 }, '100');
   });
 }
+
+//pankaj new js start//
+//case study details js //
+$.fn.isInViewport = function () {
+  var elementTop = $(this).offset().top;
+  var elementBottom = elementTop + $(this).outerHeight();
+
+  var viewportTop = $(window).scrollTop();
+  var viewportBottom = viewportTop + $(window).height();
+
+  return elementBottom > viewportTop && elementTop < viewportBottom;
+};
+$(window).on('resize scroll', function() {
+  if($('.sectionSix').length){
+    if ($('.sectionSix').isInViewport()) {
+      setTimeout(() => {
+        $('.moreCasestudy').addClass('circleAnimShow');
+      }, 1500);
+    }else{
+      $('.moreCasestudy').removeClass('circleAnimShow');
+    }
+  }
+});
+
+//header menu active state js//
+$('.headerActive').hover(
+  function(){ 
+    $(".headerActive.active").addClass('inactive').removeClass('active');
+  },
+  function(){ 
+    $(".headerActive.inactive").addClass('active').removeClass('inactive'); 
+  }
+);

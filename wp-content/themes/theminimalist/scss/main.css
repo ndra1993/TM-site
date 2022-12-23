@@ -623,7 +623,6 @@ header {
         width: 40%; }
         header .headerContent .homeBox .headerCta .connectCta {
           padding: 30px 60px;
-          background: #00FFA3;
           text-align: center;
           display: flex;
           justify-content: center;
@@ -1943,7 +1942,8 @@ footer .ftbutton {
         line-height: 30px;
         width: 60%; }
   .casebgdetails .sectionSix {
-    position: relative; }
+    position: relative;
+    overflow: hidden; }
     .casebgdetails .sectionSix .sectionSiximg {
       line-height: 0px; }
       .casebgdetails .sectionSix .sectionSiximg img {
@@ -1951,7 +1951,7 @@ footer .ftbutton {
     .casebgdetails .sectionSix .moreCasestudy {
       position: absolute;
       width: 100%;
-      bottom: 0; }
+      bottom: -100%; }
       .casebgdetails .sectionSix .moreCasestudy .brandLogos {
         display: flex;
         align-items: center; }
@@ -1975,6 +1975,10 @@ footer .ftbutton {
             width: 100%; }
           .casebgdetails .sectionSix .moreCasestudy .brandLogos .relatedBox.activeTwo {
             width: 100%; }
+    .casebgdetails .sectionSix .circleAnimShow {
+      position: absolute;
+      bottom: 0%;
+      transition: all 1s ease-in-out; }
   @media screen and (max-width: 1600px) {
     .casebgdetails .sectionOne {
       padding: 50px 0px 150px 0px; }
@@ -2221,11 +2225,13 @@ footer .ftbutton {
         visibility: visible; } }
 
 .mobileSection {
-  display: none; }
+  display: none;
+  border-top: 1px solid #000; }
 
 .desktopSection {
   display: block;
-  margin-top: 97px; }
+  margin-top: 97px;
+  border-top: 1px solid #000; }
   .desktopSection .caseStudyFilter {
     padding: 15px 0px 17px 90px;
     border-bottom: 1px solid #000; }
@@ -2487,7 +2493,8 @@ footer .ftbutton {
     .mobileSection .popup-button {
       margin-top: 70px; } }
 .serviceContainer {
-  margin-top: 86px; }
+  margin-top: 86px;
+  border-top: 1px solid #000; }
   .serviceContainer .tabs {
     display: flex;
     align-items: center;
@@ -2582,14 +2589,16 @@ footer .ftbutton {
       padding-left: 55px;
       width: 34%; } }
   @media screen and (max-width: 1400px) {
-    .serviceContainer .tabs {
-      padding: 60px 0px 70px 45px; }
-      .serviceContainer .tabs .btn {
-        line-height: 76px; }
-      .serviceContainer .tabs.smaller {
-        padding: 24px 0px 24px 45px; }
-    .serviceContainer .sections .content .sectionOne .mobImg img {
-      left: 8%; } }
+    .serviceContainer {
+      margin-top: 76px; }
+      .serviceContainer .tabs {
+        padding: 60px 0px 70px 45px; }
+        .serviceContainer .tabs .btn {
+          line-height: 76px; }
+        .serviceContainer .tabs.smaller {
+          padding: 24px 0px 24px 45px; }
+      .serviceContainer .sections .content .sectionOne .mobImg img {
+        left: 8%; } }
   @media screen and (max-width: 1280px) {
     .serviceContainer .tabs {
       padding: 40px 0px 50px 35px; }
@@ -2652,7 +2661,7 @@ header {
   top: 0;
   width: 100%;
   background-color: #fff;
-  border-bottom: 1px solid #000; }
+  border-bottom: 0px solid #000; }
   header .headerContent {
     display: flex;
     align-items: center;
@@ -2666,7 +2675,6 @@ header {
         width: 40%; }
         header .headerContent .homeBox .headerCta .connectCta {
           padding: 30px 60px;
-          background: #00FFA3;
           text-align: center;
           display: flex;
           justify-content: center;
@@ -2677,6 +2685,8 @@ header {
           line-height: 18px;
           text-transform: uppercase;
           color: #000000; }
+          header .headerContent .homeBox .headerCta .connectCta:hover {
+            background-color: #00FFA3; }
           @media screen and (max-width: 1600px) {
             header .headerContent .homeBox .headerCta .connectCta {
               padding: 25px 50px; } }
@@ -2685,8 +2695,12 @@ header {
               padding: 20px 40px; } }
         header .headerContent .homeBox .headerCta .connectCtatwo {
           background-color: #fff; }
+      header .headerContent .homeBox .headerActive.active {
+        background-color: #00FFA3 !important; }
       header .headerContent .homeBox .hamburgerMenu {
         width: 20%; }
+        header .headerContent .homeBox .hamburgerMenu:hover {
+          background-color: #00FFA3; }
         header .headerContent .homeBox .hamburgerMenu .m-menu__checkbox {
           display: none; }
           header .headerContent .homeBox .hamburgerMenu .m-menu__checkbox:checked ~ .m-menu {
@@ -3283,6 +3297,7 @@ footer .ftbutton {
   height: calc(100vh - 148px);
   margin-top: 97px;
   overflow-y: auto;
+  border-top: 1px solid #000;
   /* ===== Scrollbar CSS ===== */
   /* Firefox */
   scrollbar-width: auto;

@@ -31,7 +31,7 @@ exit; */
 			<div class="tabs" id="myTab">
 				<h2 class="signup-tab h2 font24 fontW800"><a href="#signup-tab-content" data-toggle="tab">Business Enquiries</a></h2>
 				<h2 class="login-tab h2 font24 fontW800"><a href="#login-tab-content" data-toggle="tab">Careers</a></h2>
-				<a href="http://localhost/projects/TM-site-new/homepage-two/" class="close">
+				<a href="http://localhost/TM-site-new/homepage-two/" class="close">
 					<img src="https://ixdtm.com/projects/theminimalist-site/wp-content/uploads/2022/06/close.png" alt=""> </a>
 			</div>
 			<!--.tabs-->

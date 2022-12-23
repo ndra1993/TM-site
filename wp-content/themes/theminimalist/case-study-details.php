@@ -27,8 +27,8 @@
     </section>
     <section>
         <div class="sectionTwo">
-            <div class="mobtextTwo">
-                <div class="wow slideInLeft" data-wow-duration="1s">
+            <div class="mobtextTwo wow slideInLeft" data-wow-duration="1s">
+                <div class="">
                     <p class="font20 fontW800 colorBlack">insight</p>
                     <h1 class="font60 fontW800 colorBlack">A new experience reflecting the brand’s vision and values</h1>
                     <h5 class="font20 colorBlack fontW500">They aim to Create the biggest Gaming ecosystem in the world with games suiting to every gamers. They have plans to include NFT based Role playing Games with a New Play To Earn model across the platform.</h5>
@@ -86,6 +86,8 @@
         </div>
     </section>
 </div>
+
+
 
 <?php get_footer(); ?>
 

@@ -70,13 +70,13 @@
 			<?php } ?>
 
 			<div class="homeBox">
-				<div class="headerCta">
-					<a href="<?php echo site_url('/case-study-listing/'); ?>" class=" connectCta connectCtatwo">Case Studies</a>
+				<div class="headerCta headerActive">
+					<a href="<?php echo site_url('/case-study-listing/'); ?>" class="connectCta connectCtatwo">Case Studies</a>
 				</div>
-				<div class="headerCta">
+				<div class="headerCta headerActive active">
 					<a href="<?php echo site_url('/forms/'); ?>" class="connectCta">Let's Invent</a>
 				</div>
-				<div class="hamburgerMenu">
+				<div class="hamburgerMenu headerActive">
 					<input type="checkbox" id="menu" name="menu" class="m-menu__checkbox">
 					<label class="m-menu__toggle" for="menu">
 						<img src="<?php bloginfo('template_directory'); ?>/images/hamburger-icon.svg">
