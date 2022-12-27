@@ -3247,7 +3247,8 @@ footer .ftbutton {
     flex-flow: wrap;
     align-items: center;
     width: 100%;
-    position: relative; }
+    position: relative;
+    margin-top: -1px; }
     .clientsContentBox .clientLayoutTwo .layoutTwoBox {
       width: 25%;
       display: flex;
