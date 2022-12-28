@@ -179,6 +179,27 @@ exit; */
 			option.closest(".custom-select_three").querySelector(".custom-select-trigger-three").innerText = option.innerText;
 		});
 	});
+
+
+
+	/*back button and browser back js start*/
+function GoBackWithRefresh(event) {
+  if ('referrer' in document) {
+    window.location = document.referrer;
+    /* OR */
+    //location.replace(document.referrer);
+  } else {
+    window.history.back();
+  }
+}
+
+var perfEntries = performance.getEntriesByType("navigation");
+
+if (perfEntries[0].type === "back_forward") {
+  location.reload(true);
+}
+
+/*back button and browser back js end*/
 </script>
 <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">-->
 
