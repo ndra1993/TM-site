@@ -14,6 +14,7 @@
 
     .tabs-content {
         overflow-y: unset !important;
+        @media screen and (max-width:900px){height: calc(100vh - 0px) !important;}
     }
     .thanksClose{display:none;
         @media screen and (max-width:900px){display:block; position:absolute; top:0; right:0;padding: 16px; background: #000;}

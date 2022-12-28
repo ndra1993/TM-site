@@ -16,7 +16,7 @@ exit; */
 	.adderssBox:before{content:'';position:absolute;top:-12px;left:0;width:70px;height:2px;background:#000;}
 	.addressHeading{font-family: "Poppins", sans-serif;font-size:20px;font-weight:700;color:#000; line-height: 24px;}
 	.addressData{font-family: "Poppins", sans-serif;font-size:16px;font-weight:400;color:#000;line-height: 30px;}
-	.stickyForm{}
+	.stickyForm{position: fixed;top: 72px;z-index: 11;width: 100%;}
 	@media screen and (max-width: 1450px) {
 		.addressHeading{font-size: 18px;line-height: 20px;}
 		.addressData{font-size: 14px; line-height: 25px;}
@@ -102,9 +102,9 @@ exit; */
   $(window).scroll(function () {
     var scroll = getCurrentScroll();
     if (scroll >= shrinkHeader) {
-      $('.form-wrap').addClass('stickyForm');
+      $('.tabs').addClass('stickyForm');
     } else {
-      $('.form-wrap').removeClass('stickyForm');
+      $('.tabs').removeClass('stickyForm');
     }
   });
 
@@ -146,6 +146,37 @@ exit; */
 			option.closest(".select-wrap-two").querySelector("select").value = option.getAttribute("data-value");
 			option.closest(".custom-select_two").classList.remove("opened");
 			option.closest(".custom-select_two").querySelector(".custom-select-trigger-two").innerText = option.innerText;
+		});
+	});
+</script>
+
+<script>
+	document.querySelectorAll(".select-wrap-three").forEach(function(wrap) {
+		let select = wrap.querySelector(".custom-select_three");
+		let classes = select.getAttribute("class"),
+			id = select.getAttribute("id"),
+			name = select.getAttribute("name");
+		let template = '<div class="' + classes + '">';
+		template += '<span class="custom-select-trigger-three">' + "User Experience Designer" + '</span>';
+		template += '<div class="custom-options_three">';
+		select.querySelectorAll("option").forEach(function(option) {
+			template += '<span class="custom-option_three' + '"data-value="' + option.getAttribute("value") + '">' + option.innerText + '</span>';
+		});
+		template += '</div></div>';
+		let select_wrapper = document.createElement('div');
+		select.style.display = 'none';
+		select_wrapper.innerHTML = `<div class="custom-select-wrapper-three">${template}</div>`;
+		wrap.appendChild(select_wrapper);
+	});
+
+	document.querySelector(".custom-select-trigger-three").addEventListener("click", function() {
+		document.querySelector(".custom-select-trigger-three").closest(".custom-select_three").classList.toggle("opened");
+	});
+	document.querySelectorAll(".custom-option_three").forEach((option) => {
+		option.addEventListener("click", function() {
+			option.closest(".select-wrap-three").querySelector("select").value = option.getAttribute("data-value");
+			option.closest(".custom-select_three").classList.remove("opened");
+			option.closest(".custom-select_three").querySelector(".custom-select-trigger-three").innerText = option.innerText;
 		});
 	});
 </script>
