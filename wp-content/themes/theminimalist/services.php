@@ -1,5 +1,11 @@
 <?php get_header(); /*Template Name: Service */ ?>
 
+
+<style type="text/css">
+  .header-up {
+    top: -76px;
+}
+</style>
 <section class="serviceContainer">
   <div class="tabs">
     <button class="btn btn1 active font120 fontW800" id="1">Marketing <br>Solutions</button>

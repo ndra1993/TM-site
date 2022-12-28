@@ -254,11 +254,15 @@ $(function () {
   $(window).scroll(function () {
     var scroll = getCurrentScroll();
     if (scroll >= shrinkHeader) {
+      $('header').addClass('header-up');
       $('.tabs').addClass('smaller');
       $('.content').addClass('smallertwo');
+      
     } else {
+      $('header').removeClass('header-up');
       $('.tabs').removeClass('smaller');
       $('.content').removeClass('smallertwo');
+
     }
   });
 

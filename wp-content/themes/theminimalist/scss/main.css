@@ -1144,11 +1144,17 @@ footer .ftbutton {
       margin-left: 0px; }
       .formSection .sec1 .logo img {
         height: 24px; }
+        @media screen and (max-width: 900px) {
+          .formSection .sec1 .logo img {
+            display: none; } }
     .formSection .sec1 h1 {
-      margin-top: 200px; }
+      margin-top: 150px; }
       @media screen and (max-width: 1450px) {
         .formSection .sec1 h1 {
           margin-top: 90px; } }
+      @media screen and (max-width: 900px) {
+        .formSection .sec1 h1 {
+          display: none; } }
   .formSection .form-wrap {
     border-left: 1px solid #000;
     background-color: #fff;
@@ -1171,16 +1177,22 @@ footer .ftbutton {
         width: 50%; }
         @media screen and (max-width: 425px) {
           .formSection .form-wrap .tabs .signup-tab {
-            width: 40%; } }
+            width: 50% !important; } }
         @media screen and (max-width: 425px) {
           .formSection .form-wrap .tabs .signup-tab a {
             padding: 43px 24px; } }
+        @media screen and (max-width: 375px) {
+          .formSection .form-wrap .tabs .signup-tab a {
+            padding: 43px 24px !important; } }
       .formSection .form-wrap .tabs .login-tab {
         width: 30%; }
+        @media screen and (max-width: 900px) {
+          .formSection .form-wrap .tabs .login-tab {
+            width: 50% !important; } }
       .formSection .form-wrap .tabs .close {
         width: 20%;
         border-right: 0;
-        padding: 73px 10px; }
+        padding: 72.5px 10px; }
         .formSection .form-wrap .tabs .close img {
           width: 35px;
           height: 35px; }
@@ -1210,7 +1222,8 @@ footer .ftbutton {
               height: 22px; } }
         @media screen and (max-width: 900px) {
           .formSection .form-wrap .tabs .close {
-            padding: 46px 10px !important; }
+            padding: 46px 10px !important;
+            display: none; }
             .formSection .form-wrap .tabs .close img {
               width: 18px;
               height: 18px; } }
@@ -1239,6 +1252,12 @@ footer .ftbutton {
           .formSection .form-wrap .tabs a {
             padding: 50px 30px; } }
         @media screen and (max-width: 1280px) {
+          .formSection .form-wrap .tabs a {
+            padding: 50px 15px; } }
+        @media screen and (max-width: 900px) {
+          .formSection .form-wrap .tabs a {
+            border-top: 1px solid #000; } }
+        @media screen and (max-width: 425px) {
           .formSection .form-wrap .tabs a {
             padding: 50px 15px; } }
       .formSection .form-wrap .tabs a.active:after {
@@ -1758,17 +1777,24 @@ footer .ftbutton {
         width: 47.4%; } }
   @media screen and (max-width: 900px) {
     .formSection {
-      margin-left: 0px; }
+      margin-left: 0px;
+      margin-top: 72px;
+      display: block; }
       .formSection .sec1 {
-        display: none; }
+        display: block;
+        width: 100%;
+        padding: 0px 39px 10px 28px; }
         .formSection .sec1 img {
           width: 50%; }
       .formSection .form-wrap {
         width: 100%;
         border-left: 0px solid #000; } }
 
-.page-template-forms header {
+.page-template-forms header, .page-template-forms-two header {
   display: none; }
+  @media screen and (max-width: 900px) {
+    .page-template-forms header, .page-template-forms-two header {
+      display: block; } }
 
 .thanksSection .form-wrap {
   height: unset;
@@ -1831,6 +1857,9 @@ footer .ftbutton {
       .thankYou a {
         margin-top: 60px;
         margin-bottom: 0px; } }
+
+.page-template-thanks header {
+  display: none; }
 
 .page-template-case-study-details {
   overflow-x: hidden; }
@@ -2497,7 +2526,8 @@ footer .ftbutton {
       margin-top: 70px; } }
 .serviceContainer {
   margin-top: 86px;
-  border-top: 1px solid #000; }
+  border-top: 1px solid #000;
+  overflow: hidden; }
   .serviceContainer .tabs {
     display: flex;
     align-items: center;
@@ -2519,7 +2549,7 @@ footer .ftbutton {
     .serviceContainer .tabs.smaller {
       position: fixed;
       width: 100%;
-      z-index: 999;
+      z-index: 1;
       top: 0;
       background: #fff;
       padding: 24px 0px 24px 75px;
@@ -3417,7 +3447,7 @@ footer .ftbutton {
       .formSection .sec1 .logo img {
         height: 24px; }
     .formSection .sec1 h1 {
-      margin-top: 200px; }
+      margin-top: 150px; }
       @media screen and (max-width: 1450px) {
         .formSection .sec1 h1 {
           margin-top: 90px; } }
@@ -3446,13 +3476,13 @@ footer .ftbutton {
             width: 40%; } }
         @media screen and (max-width: 425px) {
           .formSection .form-wrap .tabs .signup-tab a {
-            padding: 43px 24px; } }
+            padding: 50px 24px; } }
       .formSection .form-wrap .tabs .login-tab {
         width: 30%; }
       .formSection .form-wrap .tabs .close {
         width: 20%;
         border-right: 0;
-        padding: 73px 10px; }
+        padding: 72.5px 10px; }
         .formSection .form-wrap .tabs .close img {
           width: 35px;
           height: 35px; }
@@ -3511,6 +3541,12 @@ footer .ftbutton {
           .formSection .form-wrap .tabs a {
             padding: 50px 30px; } }
         @media screen and (max-width: 1280px) {
+          .formSection .form-wrap .tabs a {
+            padding: 50px 15px; } }
+        @media screen and (max-width: 900px) {
+          .formSection .form-wrap .tabs a {
+            border-top: 1px solid #000; } }
+        @media screen and (max-width: 425px) {
           .formSection .form-wrap .tabs a {
             padding: 50px 15px; } }
       .formSection .form-wrap .tabs a.active:after {
@@ -4195,9 +4231,13 @@ footer .ftbutton {
         width: 47.4%; } }
   @media screen and (max-width: 900px) {
     .formSection {
-      margin-left: 0px; }
+      margin-left: 0px;
+      margin-top: 72px;
+      display: block; }
       .formSection .sec1 {
-        display: none; }
+        display: block;
+        width: 100%;
+        padding: 0px 39px 10px 28px; }
         .formSection .sec1 img {
           width: 50%; }
       .formSection .form-wrap {
@@ -4206,5 +4246,8 @@ footer .ftbutton {
 
 .page-template-forms header, .page-template-forms-two header {
   display: none; }
+  @media screen and (max-width: 900px) {
+    .page-template-forms header, .page-template-forms-two header {
+      display: block; } }
 
 /*# sourceMappingURL=main.css.map */
