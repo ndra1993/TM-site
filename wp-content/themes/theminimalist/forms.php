@@ -102,9 +102,9 @@ exit; */
   $(window).scroll(function () {
     var scroll = getCurrentScroll();
     if (scroll >= shrinkHeader) {
-      $('.formSection').addClass('stickyForm');
+      $('.form-wrap').addClass('stickyForm');
     } else {
-      $('.formSection').removeClass('stickyForm');
+      $('.form-wrap').removeClass('stickyForm');
     }
   });
 
