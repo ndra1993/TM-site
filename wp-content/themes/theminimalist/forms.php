@@ -16,6 +16,7 @@ exit; */
 	.adderssBox:before{content:'';position:absolute;top:-12px;left:0;width:70px;height:2px;background:#000;}
 	.addressHeading{font-family: "Poppins", sans-serif;font-size:20px;font-weight:700;color:#000; line-height: 24px;}
 	.addressData{font-family: "Poppins", sans-serif;font-size:16px;font-weight:400;color:#000;line-height: 30px;}
+	.stickyForm{}
 	@media screen and (max-width: 1450px) {
 		.addressHeading{font-size: 18px;line-height: 20px;}
 		.addressData{font-size: 14px; line-height: 25px;}
@@ -93,6 +94,24 @@ exit; */
 		});
 	});
 	
+
+
+	$(function () {
+  //the shrinkHeader variable is where you tell the scroll effect to start.
+  var shrinkHeader = 1;
+  $(window).scroll(function () {
+    var scroll = getCurrentScroll();
+    if (scroll >= shrinkHeader) {
+      $('.formSection').addClass('stickyForm');
+    } else {
+      $('.formSection').removeClass('stickyForm');
+    }
+  });
+
+  function getCurrentScroll() {
+    return window.pageYOffset || document.documentElement.scrollTop;
+  }
+});
 </script>
 
 

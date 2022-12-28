@@ -58,6 +58,9 @@
             </div>
             <!--.tabs-content-->
         </div>
+        <a href="https://ixdtm.com/projects/theminimalist-site/" class="thanksClose">
+            <img src="https://ixdtm.com/projects/theminimalist-site/wp-content/uploads/2022/12/thanks-close.png" alt=""> 
+        </a>
     </div>
 </div>
 

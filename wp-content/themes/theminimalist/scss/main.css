@@ -1796,11 +1796,34 @@ footer .ftbutton {
     .page-template-forms header, .page-template-forms-two header {
       display: block; } }
 
+@media screen and (max-width: 900px) {
+  .thanksSection {
+    position: relative;
+    margin-top: 0px !important; } }
+@media screen and (max-width: 900px) {
+  .thanksSection .sec1 {
+    display: none !important; } }
 .thanksSection .form-wrap {
   height: unset;
   overflow-y: unset; }
+  @media screen and (max-width: 900px) {
+    .thanksSection .form-wrap .tabs {
+      display: none !important; } }
 .thanksSection .tabs-content {
   overflow-y: unset !important; }
+.thanksSection .thanksClose {
+  display: none; }
+  @media screen and (max-width: 900px) {
+    .thanksSection .thanksClose {
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding: 16px;
+      background: #000; } }
+  @media screen and (max-width: 375px) {
+    .thanksSection .thanksClose {
+      padding: 10px; } }
 
 .thankYou {
   background-color: #00FFA3;
@@ -1857,6 +1880,9 @@ footer .ftbutton {
       .thankYou a {
         margin-top: 60px;
         margin-bottom: 0px; } }
+  @media screen and (max-width: 900px) {
+    .thankYou {
+      height: 100vh; } }
 
 .page-template-thanks header {
   display: none; }
@@ -2526,8 +2552,7 @@ footer .ftbutton {
       margin-top: 70px; } }
 .serviceContainer {
   margin-top: 86px;
-  border-top: 1px solid #000;
-  overflow: hidden; }
+  border-top: 1px solid #000; }
   .serviceContainer .tabs {
     display: flex;
     align-items: center;

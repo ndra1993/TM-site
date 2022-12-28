@@ -1,11 +1,24 @@
 .thanksSection {
+    @media screen and (max-width:900px) {position:relative; margin-top:0px !important;}
+    .sec1{
+        @media screen and (max-width:900px) {display:none !important;}
+    }
     .form-wrap {
         height: unset;
         overflow-y: unset;
+        .tabs{
+            @media screen and (max-width:900px) {display:none !important;}
+        }
+        
     }
 
     .tabs-content {
         overflow-y: unset !important;
+    }
+    .thanksClose{display:none;
+        @media screen and (max-width:900px){display:block; position:absolute; top:0; right:0;padding: 16px; background: #000;}
+    
+        @media screen and (max-width:375px) {padding: 10px;}
     }
 }
 
@@ -90,6 +103,7 @@
             margin-bottom: 0px;
         }
     }
+    @media screen and (max-width:900px) { height:100vh;}
 }
 
 

@@ -3,7 +3,13 @@
 
 <style type="text/css">
   .header-up {
+    top: -86px;
+}
+.addTop{top:0 !important;}
+@media screen and (max-width:1400px) {
+  .header-up {
     top: -76px;
+  }
 }
 </style>
 <section class="serviceContainer">
@@ -140,7 +146,15 @@
 </section>
 
 
-
+<script>
+  $('#menu').click(function(){
+    if($(this).is(":checked")) {
+        $('header').addClass("addTop");
+    } else {
+        $('header').removeClass("addTop");
+    }
+});
+</script>
 
 <?php get_footer(); ?>
 
