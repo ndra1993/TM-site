@@ -352,7 +352,7 @@
 								border-bottom: 3px solid #000;
 								border-right: 3px solid #000;
 								transform: rotate(45deg) translateY(-50%);
-								transition: all 0.3s ease-in-out;
+								
 								transform-origin: 50% 0;
 							}
 
@@ -372,6 +372,7 @@
     							z-index: 1;
     							height: 250px;
     							overflow-y: scroll;
+    							transition: all 0.3s ease-in-out;
 
     							/* ===== Scrollbar CSS ===== */
 								/* Firefox */
@@ -408,7 +409,7 @@
 								font-weight: 400;
 								line-height: 48px;
 								cursor: pointer;
-								transition: all 0.3s ease-in-out;
+								
 								z-index: 1;
 								background-color: #fff;
 
@@ -432,7 +433,7 @@
 								top: 100%;
 								left: 0;
 								right: 0;
-								transition: all 0.3s ease-in-out;
+								
 								opacity: 0;
 								visibility: hidden;
 								pointer-events: none;
@@ -1217,8 +1218,8 @@
 }
 
 // template class
-.page-template-forms, .page-template-forms-two{
-	header{display: none;
-	@media screen and (max-width:900px) {display: block;}
-	}
-}
+//.page-template-forms, .page-template-forms-two{
+	//header{display: none;
+	//@media screen and (max-width:900px) {display: block;}
+	//}
+//}

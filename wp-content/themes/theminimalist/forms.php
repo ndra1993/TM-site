@@ -16,11 +16,18 @@ exit; */
 	.adderssBox:before{content:'';position:absolute;top:-12px;left:0;width:70px;height:2px;background:#000;}
 	.addressHeading{font-family: "Poppins", sans-serif;font-size:20px;font-weight:700;color:#000; line-height: 24px;}
 	.addressData{font-family: "Poppins", sans-serif;font-size:16px;font-weight:400;color:#000;line-height: 30px;}
-	.stickyForm{position: fixed;top: 72px;z-index: 11;width: 100%;}
+	
 	@media screen and (max-width: 1450px) {
 		.addressHeading{font-size: 18px;line-height: 20px;}
 		.addressData{font-size: 14px; line-height: 25px;}
 	}
+	@media screen and (max-width: 900px) {
+		.formSection{
+			height: calc(100vh - 0px);
+	    	z-index: 999;
+	    	position: absolute;
+	    	}
+		}
 </style>
 <div class="wrapper">
 	<div class="formSection">
@@ -96,22 +103,7 @@ exit; */
 	
 
 
-	$(function () {
-  //the shrinkHeader variable is where you tell the scroll effect to start.
-  var shrinkHeader = 1;
-  $(window).scroll(function () {
-    var scroll = getCurrentScroll();
-    if (scroll >= shrinkHeader) {
-      $('.tabs').addClass('stickyForm');
-    } else {
-      $('.tabs').removeClass('stickyForm');
-    }
-  });
-
-  function getCurrentScroll() {
-    return window.pageYOffset || document.documentElement.scrollTop;
-  }
-});
+	
 </script>
 
 
@@ -182,24 +174,6 @@ exit; */
 
 
 
-	/*back button and browser back js start*/
-function GoBackWithRefresh(event) {
-  if ('referrer' in document) {
-    window.location = document.referrer;
-    /* OR */
-    //location.replace(document.referrer);
-  } else {
-    window.history.back();
-  }
-}
-
-var perfEntries = performance.getEntriesByType("navigation");
-
-if (perfEntries[0].type === "back_forward") {
-  location.reload(true);
-}
-
-/*back button and browser back js end*/
 </script>
 <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">-->
 
