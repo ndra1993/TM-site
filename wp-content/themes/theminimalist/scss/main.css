@@ -1399,6 +1399,7 @@ footer .ftbutton {
               border-bottom: 3px solid #000;
               border-right: 3px solid #000;
               transform: rotate(45deg) translateY(-50%);
+              transition: all 0.3s ease-in-out;
               transform-origin: 50% 0; }
             .formSection .form-wrap .tabs-content form fieldset .content .openRoles .custom-select_three.opened .custom-select-trigger-three:after {
               margin-top: 3px;
@@ -1414,7 +1415,6 @@ footer .ftbutton {
               z-index: 1;
               height: 250px;
               overflow-y: scroll;
-              transition: all 0.3s ease-in-out;
               /* ===== Scrollbar CSS ===== */
               /* Firefox */
               scrollbar-width: auto;
@@ -1437,6 +1437,7 @@ footer .ftbutton {
               font-weight: 400;
               line-height: 48px;
               cursor: pointer;
+              transition: all 0.3s ease-in-out;
               z-index: 1;
               background-color: #fff; }
               .formSection .form-wrap .tabs-content form fieldset .content .openRoles .custom-option_three:nth-child(3) {
@@ -1954,8 +1955,13 @@ footer .ftbutton {
           width: 50%; }
       .formSection .form-wrap {
         width: 100%;
-        height: 100%;
         border-left: 0px solid #000; } }
+
+.page-template-forms header, .page-template-forms-two header {
+  display: none; }
+  @media screen and (max-width: 900px) {
+    .page-template-forms header, .page-template-forms-two header {
+      display: block; } }
 
 @media screen and (max-width: 900px) {
   .thanksSection {
@@ -3077,7 +3083,7 @@ header {
           display: none; } }
 
 .homeBanner {
-  height: calc(100vh - 144px);
+  height: calc(100vh - 140px);
   overflow-y: hidden;
   margin-top: 96px; }
   @media screen and (max-width: 1600px) {
@@ -3621,5 +3627,903 @@ footer .ftbutton {
         .privacyPolicypg .privacyPolicy p,
         .privacyPolicypg .privacyPolicy ul li {
           font-size: 16px; } }
+
+.page-template-easy-eat {
+  overflow-x: hidden; }
+
+.easyEatSection {
+  background: linear-gradient(303.79deg, #E62B5A 9.75%, #EA3525 107.27%);
+  margin-top: 86px;
+  border-top: 1px solid #000;
+  /**************************************************Media Query***************************************************/ }
+  .easyEatSection .sectionOne {
+    position: relative;
+    padding: 70px 0px 200px 0px; }
+    .easyEatSection .sectionOne .mobtext {
+      position: absolute;
+      top: 10%;
+      padding-left: 112px;
+      width: 32%; }
+      .easyEatSection .sectionOne .mobtext p {
+        text-transform: uppercase; }
+      .easyEatSection .sectionOne .mobtext h1 {
+        line-height: 70px;
+        margin: 35px 0px; }
+      .easyEatSection .sectionOne .mobtext h5 {
+        line-height: 30px;
+        color: rgba(255, 255, 255, 0.5);
+        width: 73%; }
+    .easyEatSection .sectionOne .mobImg img {
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      width: 60%; }
+  .easyEatSection .sectionTwo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .easyEatSection .sectionTwo .mobimgTwo {
+      width: 48%; }
+      .easyEatSection .sectionTwo .mobimgTwo img {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center; }
+    .easyEatSection .sectionTwo .mobtextTwo {
+      padding: 94px 0px 295px 112px;
+      background: #fff;
+      width: 48%; }
+      .easyEatSection .sectionTwo .mobtextTwo p {
+        text-transform: uppercase; }
+      .easyEatSection .sectionTwo .mobtextTwo h1 {
+        line-height: 70px;
+        margin: 5px 0px 35px 0px;
+        width: 60%; }
+      .easyEatSection .sectionTwo .mobtextTwo h5 {
+        line-height: 30px;
+        width: 60%; }
+  .easyEatSection .sectionEasyThree {
+    position: relative; }
+    .easyEatSection .sectionEasyThree img {
+      max-width: 100%; }
+    .easyEatSection .sectionEasyThree .sectionThree {
+      position: absolute;
+      top: 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 350px 0px 0px 112px; }
+      .easyEatSection .sectionEasyThree .sectionThree .mobtextThree {
+        width: 48%; }
+        .easyEatSection .sectionEasyThree .sectionThree .mobtextThree p {
+          text-transform: uppercase; }
+        .easyEatSection .sectionEasyThree .sectionThree .mobtextThree h1 {
+          line-height: 70px;
+          margin: 5px 0px 35px 0px;
+          width: 100%; }
+      .easyEatSection .sectionEasyThree .sectionThree .mobsubtextThree {
+        width: 45%; }
+        .easyEatSection .sectionEasyThree .sectionThree .mobsubtextThree h5 {
+          line-height: 30px !important;
+          width: 60% !important;
+          color: rgba(255, 255, 255, 0.5); }
+  .easyEatSection .sectionFour {
+    padding: 50px 0px;
+    transform: translatey(0px);
+    animation: float 2s ease-in-out infinite; }
+@keyframes float {
+  0% {
+    transform: translatey(0px); }
+  50% {
+    transform: translatey(-20px); }
+  100% {
+    transform: translatey(0px); } }
+    .easyEatSection .sectionFour img {
+      display: flex;
+      align-items: center;
+      margin: auto;
+      width: 80%; }
+    .easyEatSection .sectionFour .mobileImg {
+      display: none; }
+  .easyEatSection .sectionFive {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 130px 0px 130px 112px; }
+    .easyEatSection .sectionFive .mobtextFour {
+      width: 48%; }
+      .easyEatSection .sectionFive .mobtextFour p {
+        text-transform: uppercase; }
+      .easyEatSection .sectionFive .mobtextFour h1 {
+        line-height: 70px;
+        margin: 5px 0px 35px 0px;
+        width: 60%; }
+    .easyEatSection .sectionFive .mobsubtextFour {
+      width: 45%; }
+      .easyEatSection .sectionFive .mobsubtextFour h5 {
+        line-height: 30px;
+        width: 60%; }
+  .easyEatSection .sectionSix {
+    position: relative;
+    overflow: hidden; }
+    .easyEatSection .sectionSix .sectionSiximg {
+      line-height: 0px; }
+      .easyEatSection .sectionSix .sectionSiximg img {
+        width: 100%; }
+    .easyEatSection .sectionSix .moreCasestudy {
+      position: absolute;
+      width: 100%;
+      bottom: -100%; }
+      .easyEatSection .sectionSix .moreCasestudy .brandLogos {
+        display: flex;
+        align-items: center; }
+        .easyEatSection .sectionSix .moreCasestudy .brandLogos .relatedBox {
+          padding: 30px;
+          width: 50%;
+          background: #00C859;
+          transition: 0.6s all; }
+          .easyEatSection .sectionSix .moreCasestudy .brandLogos .relatedBox a {
+            display: block;
+            width: 100%;
+            cursor: url(../images/mouse-cursor-pages.png) 30 30, auto; }
+            .easyEatSection .sectionSix .moreCasestudy .brandLogos .relatedBox a img {
+              margin: 0 auto;
+              height: 100px; }
+          .easyEatSection .sectionSix .moreCasestudy .brandLogos .relatedBox:nth-child(1) {
+            text-align: left; }
+          .easyEatSection .sectionSix .moreCasestudy .brandLogos .relatedBox:nth-child(2) {
+            text-align: right; }
+          .easyEatSection .sectionSix .moreCasestudy .brandLogos .relatedBox.active {
+            width: 100%; }
+          .easyEatSection .sectionSix .moreCasestudy .brandLogos .relatedBox.activeTwo {
+            width: 100%; }
+    .easyEatSection .sectionSix .circleAnimShow {
+      position: absolute;
+      bottom: 0%;
+      transition: all 1s ease-in-out; }
+  @media screen and (max-width: 1600px) {
+    .easyEatSection .sectionOne {
+      padding: 50px 0px 150px 0px; }
+      .easyEatSection .sectionOne .mobtext {
+        padding-left: 82px; }
+        .easyEatSection .sectionOne .mobtext h1 {
+          margin: 20px 0px;
+          line-height: 50px; }
+        .easyEatSection .sectionOne .mobtext h5 {
+          line-height: 27px; }
+    .easyEatSection .sectionTwo .mobtextTwo {
+      padding: 74px 0px 200px 82px; }
+      .easyEatSection .sectionTwo .mobtextTwo h1 {
+        margin: 5px 0px 20px 0px;
+        line-height: 50px;
+        width: 55%; }
+      .easyEatSection .sectionTwo .mobtextTwo h5 {
+        line-height: 27px;
+        width: 55%; }
+    .easyEatSection .sectionTwo .mobimgTwo {
+      width: 50%; }
+      .easyEatSection .sectionTwo .mobimgTwo img {
+        width: 80%; }
+    .easyEatSection .sectionEasyThree .sectionThree {
+      padding: 100px 0px 100px 82px !important; }
+      .easyEatSection .sectionEasyThree .sectionThree .mobtextThree h1 {
+        line-height: 50px !important;
+        margin: 5px 0px 20px 0px !important;
+        width: 95% !important; }
+      .easyEatSection .sectionEasyThree .sectionThree .mobsubtextThree h5 {
+        line-height: 27px !important;
+        width: 55% !important; }
+    .easyEatSection .sectionFour {
+      padding: 30px 0px; }
+      .easyEatSection .sectionFour img {
+        width: 68%; }
+    .easyEatSection .sectionFive {
+      padding: 100px 0px 100px 82px; }
+      .easyEatSection .sectionFive .mobtextFour h1 {
+        width: 55%;
+        line-height: 50px;
+        margin: 5px 0px 20px 0px; }
+      .easyEatSection .sectionFive .mobsubtextFour h5 {
+        line-height: 27px;
+        width: 55%; } }
+  @media screen and (max-width: 1400px) {
+    .easyEatSection {
+      margin-top: 76px; }
+      .easyEatSection .sectionOne {
+        padding: 35px 0px 100px 0px; }
+        .easyEatSection .sectionOne .mobtext {
+          padding-left: 52px; }
+          .easyEatSection .sectionOne .mobtext h1 {
+            margin: 10px 0px;
+            line-height: 45px; }
+          .easyEatSection .sectionOne .mobtext h5 {
+            line-height: 25px; }
+      .easyEatSection .sectionTwo .mobtextTwo {
+        padding: 54px 0px 100px 52px; }
+        .easyEatSection .sectionTwo .mobtextTwo h1 {
+          margin: 5px 0px 10px 0px;
+          line-height: 45px;
+          width: 55%; }
+        .easyEatSection .sectionTwo .mobtextTwo h5 {
+          line-height: 25px;
+          width: 58%; }
+      .easyEatSection .sectionTwo .mobimgTwo {
+        width: 50%; }
+        .easyEatSection .sectionTwo .mobimgTwo img {
+          width: 77%; }
+      .easyEatSection .sectionEasyThree .sectionThree {
+        padding: 80px 0px 80px 52px !important; }
+        .easyEatSection .sectionEasyThree .sectionThree .mobtextThree h1 {
+          line-height: 45px !important;
+          margin: 5px 0px 10px 0px !important;
+          width: 85% !important; }
+        .easyEatSection .sectionEasyThree .sectionThree .mobsubtextThree h5 {
+          line-height: 25px !important;
+          width: 58% !important; }
+      .easyEatSection .sectionFour {
+        padding: 20px 0px; }
+        .easyEatSection .sectionFour img {
+          width: 64%; }
+      .easyEatSection .sectionFive {
+        padding: 80px 0px 80px 52px; }
+        .easyEatSection .sectionFive .mobtextFour h1 {
+          width: 55%;
+          line-height: 45px;
+          margin: 5px 0px 10px 0px; }
+        .easyEatSection .sectionFive .mobsubtextFour h5 {
+          line-height: 25px;
+          width: 58%; } }
+  @media screen and (max-width: 1200px) {
+    .easyEatSection .sectionOne {
+      padding: 35px 0px 60px 0px; }
+      .easyEatSection .sectionOne .mobtext {
+        padding-left: 32px; }
+        .easyEatSection .sectionOne .mobtext h1 {
+          margin: 10px 0px;
+          line-height: 40px; }
+        .easyEatSection .sectionOne .mobtext h5 {
+          line-height: 23px; }
+    .easyEatSection .sectionTwo .mobtextTwo {
+      padding: 34px 0px 60px 32px; }
+      .easyEatSection .sectionTwo .mobtextTwo h1 {
+        margin: 5px 0px 10px 0px;
+        line-height: 40px;
+        width: 60%; }
+      .easyEatSection .sectionTwo .mobtextTwo h5 {
+        line-height: 23px;
+        width: 62%; }
+    .easyEatSection .sectionTwo .mobimgTwo {
+      width: 50%; }
+      .easyEatSection .sectionTwo .mobimgTwo img {
+        width: 77%; }
+    .easyEatSection .sectionEasyThree .sectionThree {
+      padding: 50px 0px 60px 32px !important; }
+      .easyEatSection .sectionEasyThree .sectionThree .mobtextThree h1 {
+        line-height: 40px !important;
+        margin: 5px 0px 10px 0px !important;
+        width: 60% !important; }
+      .easyEatSection .sectionEasyThree .sectionThree .mobsubtextThree h5 {
+        line-height: 23px !important;
+        width: 62% !important; }
+    .easyEatSection .sectionFour {
+      padding: 20px 0px; }
+      .easyEatSection .sectionFour img {
+        width: 64%; }
+    .easyEatSection .sectionFive {
+      padding: 50px 0px 60px 32px; }
+      .easyEatSection .sectionFive .mobtextFour h1 {
+        width: 60%;
+        line-height: 40px;
+        margin: 5px 0px 10px 0px; }
+      .easyEatSection .sectionFive .mobsubtextFour h5 {
+        line-height: 23px;
+        width: 62%; } }
+  @media screen and (max-width: 1024px) {
+    .easyEatSection {
+      margin-top: 73px; }
+      .easyEatSection .sectionOne {
+        padding: 32px 0px 20px 0px; }
+        .easyEatSection .sectionOne .mobtext {
+          position: unset;
+          width: 100%;
+          padding-left: 24px;
+          padding-right: 24px; }
+          .easyEatSection .sectionOne .mobtext h1 {
+            line-height: 36px; }
+          .easyEatSection .sectionOne .mobtext h5 {
+            line-height: 20px;
+            width: 100%; }
+        .easyEatSection .sectionOne .mobImg {
+          width: 100%;
+          margin: 40px auto 0px; }
+      .easyEatSection .sectionTwo {
+        display: block; }
+        .easyEatSection .sectionTwo .mobtextTwo {
+          width: 100%;
+          padding: 32px 24px 32px 24px; }
+          .easyEatSection .sectionTwo .mobtextTwo h1 {
+            line-height: 36px;
+            width: 100%; }
+          .easyEatSection .sectionTwo .mobtextTwo h5 {
+            line-height: 20px;
+            width: 100%; }
+        .easyEatSection .sectionTwo .mobimgTwo {
+          width: 100%;
+          margin: 60px 0px 0px; }
+          .easyEatSection .sectionTwo .mobimgTwo img {
+            width: 100%; }
+      .easyEatSection .sectionEasyThree {
+        position: unset; }
+        .easyEatSection .sectionEasyThree .sectionThree {
+          position: unset;
+          display: block !important;
+          padding: 32px 24px 24px 24px !important; }
+          .easyEatSection .sectionEasyThree .sectionThree .mobtextThree {
+            width: 100% !important; }
+            .easyEatSection .sectionEasyThree .sectionThree .mobtextThree h1 {
+              line-height: 36px !important;
+              width: 100% !important; }
+          .easyEatSection .sectionEasyThree .sectionThree .mobsubtextThree {
+            width: 100% !important; }
+            .easyEatSection .sectionEasyThree .sectionThree .mobsubtextThree h5 {
+              line-height: 20px !important;
+              width: 100% !important; }
+      .easyEatSection .sectionFour {
+        padding: 10px 0px; }
+        .easyEatSection .sectionFour img {
+          width: 100%; }
+        .easyEatSection .sectionFour .desktopImg {
+          display: none; }
+        .easyEatSection .sectionFour .mobileImg {
+          display: block; }
+      .easyEatSection .sectionFive {
+        padding: 32px 24px 32px 24px;
+        display: block; }
+        .easyEatSection .sectionFive .mobtextFour {
+          width: 100%; }
+          .easyEatSection .sectionFive .mobtextFour h1 {
+            width: 100%;
+            line-height: 36px; }
+        .easyEatSection .sectionFive .mobsubtextFour {
+          width: 100%; }
+          .easyEatSection .sectionFive .mobsubtextFour h5 {
+            line-height: 20px;
+            width: 100%; }
+      .easyEatSection .sectionSix .moreCasestudy {
+        position: static; }
+        .easyEatSection .sectionSix .moreCasestudy .brandLogos .relatedBox {
+          padding: 12px; }
+          .easyEatSection .sectionSix .moreCasestudy .brandLogos .relatedBox:nth-child(1) {
+            text-align: center; }
+          .easyEatSection .sectionSix .moreCasestudy .brandLogos .relatedBox:nth-child(2) {
+            text-align: center; }
+          .easyEatSection .sectionSix .moreCasestudy .brandLogos .relatedBox a img {
+            height: 50px; } }
+
+#button {
+  display: none; }
+  @media screen and (max-width: 1024px) {
+    #button {
+      display: flex;
+      align-items: center;
+      background-color: #fff;
+      width: 48px;
+      height: 48px;
+      text-align: center;
+      border-radius: 50%;
+      position: fixed;
+      bottom: 20px;
+      right: 24px;
+      transition: background-color .3s, opacity .5s, visibility .5s;
+      opacity: 0;
+      visibility: hidden;
+      z-index: 1000;
+      cursor: pointer; }
+      #button img {
+        margin: 0 auto; }
+      #button:hover {
+        background-color: #fff; }
+      #button:active {
+        background-color: #555; }
+      #button.show {
+        opacity: 1;
+        visibility: visible; } }
+
+.page-template-udaan-lmr {
+  overflow-x: hidden; }
+
+.udaanLmrSection {
+  background: url(http://localhost/TM-site-new/wp-content/themes/theminimalist/images/udaan-lmr-bg.png);
+  margin-top: 86px;
+  border-top: 1px solid #000;
+  /**************************************************Media Query***************************************************/ }
+  .udaanLmrSection .sectionOne {
+    background: #ffffffb3;
+    position: relative;
+    padding: 70px 0px 200px 0px; }
+    .udaanLmrSection .sectionOne .mobtext {
+      position: absolute;
+      top: 10%;
+      padding-left: 112px;
+      width: 32%; }
+      .udaanLmrSection .sectionOne .mobtext p {
+        text-transform: uppercase; }
+      .udaanLmrSection .sectionOne .mobtext h1 {
+        line-height: 70px;
+        margin: 35px 0px; }
+      .udaanLmrSection .sectionOne .mobtext h5 {
+        line-height: 30px;
+        color: rgba(255, 255, 255, 0.5);
+        width: 73%; }
+    .udaanLmrSection .sectionOne .mobImg img {
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      max-width: 100%; }
+  .udaanLmrSection .sectionTwo {
+    background: #ffffffcc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .udaanLmrSection .sectionTwo .mobimgTwo {
+      width: 48%; }
+      .udaanLmrSection .sectionTwo .mobimgTwo img {
+        max-width: 100%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center; }
+    .udaanLmrSection .sectionTwo .mobtextTwo {
+      padding: 94px 0px 295px 112px;
+      background: #1453C3;
+      width: 48%; }
+      .udaanLmrSection .sectionTwo .mobtextTwo p {
+        text-transform: uppercase; }
+      .udaanLmrSection .sectionTwo .mobtextTwo h1 {
+        line-height: 70px;
+        margin: 5px 0px 35px 0px;
+        width: 60%; }
+      .udaanLmrSection .sectionTwo .mobtextTwo h5 {
+        line-height: 30px;
+        width: 60%; }
+  .udaanLmrSection .sectionEasyThree img {
+    max-width: 100%; }
+  .udaanLmrSection .sectionEasyThree .sectionThree {
+    background: #ffffffcc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 144px 0px 0px 112px; }
+    .udaanLmrSection .sectionEasyThree .sectionThree .mobtextThree {
+      width: 48%; }
+      .udaanLmrSection .sectionEasyThree .sectionThree .mobtextThree p {
+        text-transform: uppercase; }
+      .udaanLmrSection .sectionEasyThree .sectionThree .mobtextThree h1 {
+        line-height: 70px;
+        margin: 5px 0px 35px 0px;
+        width: 100%; }
+    .udaanLmrSection .sectionEasyThree .sectionThree .mobsubtextThree {
+      width: 45%; }
+      .udaanLmrSection .sectionEasyThree .sectionThree .mobsubtextThree h5 {
+        line-height: 30px !important;
+        width: 60% !important; }
+  .udaanLmrSection .sectionEasyThree .sectionFourMap {
+    background: #ffffffcc;
+    text-align: center;
+    padding: 50px 0px;
+    transform: translatey(0px);
+    animation: float 2s ease-in-out infinite; }
+    .udaanLmrSection .sectionEasyThree .sectionFourMap img {
+      display: flex;
+      align-items: center;
+      margin: auto;
+      max-width: 100%; }
+  .udaanLmrSection .sectionFourCat {
+    background: #E6F0FF; }
+    .udaanLmrSection .sectionFourCat .sectionFour {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 144px 0px 104px 112px; }
+      .udaanLmrSection .sectionFourCat .sectionFour .mobtextThree {
+        width: 48%; }
+        .udaanLmrSection .sectionFourCat .sectionFour .mobtextThree p {
+          text-transform: uppercase; }
+        .udaanLmrSection .sectionFourCat .sectionFour .mobtextThree h1 {
+          line-height: 70px;
+          margin: 5px 0px 35px 0px;
+          width: 65%; }
+      .udaanLmrSection .sectionFourCat .sectionFour .mobsubtextThree {
+        width: 45%; }
+        .udaanLmrSection .sectionFourCat .sectionFour .mobsubtextThree h5 {
+          line-height: 30px !important;
+          width: 60% !important; }
+    .udaanLmrSection .sectionFourCat .sectionFourMap {
+      text-align: center; }
+      .udaanLmrSection .sectionFourCat .sectionFourMap h2 {
+        margin-bottom: 15px; }
+      .udaanLmrSection .sectionFourCat .sectionFourMap img {
+        padding-top: 160px; }
+    .udaanLmrSection .sectionFourCat .startToEnd {
+      padding-top: 160px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      text-align: center; }
+      .udaanLmrSection .sectionFourCat .startToEnd .startToEndTitle {
+        width: 30%; }
+        .udaanLmrSection .sectionFourCat .startToEnd .startToEndTitle h2 {
+          margin-bottom: 15px; }
+        .udaanLmrSection .sectionFourCat .startToEnd .startToEndTitle img {
+          max-width: 100%; }
+    .udaanLmrSection .sectionFourCat .startToEndSecond {
+      padding-top: 160px;
+      display: flex;
+      align-items: center;
+      text-align: center; }
+      .udaanLmrSection .sectionFourCat .startToEndSecond .startToEndTitle {
+        width: 33.33%; }
+        .udaanLmrSection .sectionFourCat .startToEndSecond .startToEndTitle img {
+          max-width: 100%; }
+  .udaanLmrSection .sectionFive {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 130px 0px 130px 112px; }
+    .udaanLmrSection .sectionFive .mobtextFour {
+      width: 48%; }
+      .udaanLmrSection .sectionFive .mobtextFour p {
+        text-transform: uppercase; }
+      .udaanLmrSection .sectionFive .mobtextFour h1 {
+        line-height: 70px;
+        margin: 5px 0px 35px 0px;
+        width: 100%; }
+    .udaanLmrSection .sectionFive .mobsubtextFour {
+      width: 45%; }
+      .udaanLmrSection .sectionFive .mobsubtextFour h5 {
+        line-height: 30px;
+        width: 60%; }
+  .udaanLmrSection .sectionSix {
+    position: relative;
+    overflow: hidden; }
+    .udaanLmrSection .sectionSix .sectionSiximg {
+      line-height: 0px; }
+      .udaanLmrSection .sectionSix .sectionSiximg img {
+        width: 100%; }
+    .udaanLmrSection .sectionSix .moreCasestudy {
+      position: absolute;
+      width: 100%;
+      bottom: -100%; }
+      .udaanLmrSection .sectionSix .moreCasestudy .brandLogos {
+        display: flex;
+        align-items: center; }
+        .udaanLmrSection .sectionSix .moreCasestudy .brandLogos .relatedBox {
+          padding: 30px;
+          width: 50%;
+          background: #00C859;
+          transition: 0.6s all; }
+          .udaanLmrSection .sectionSix .moreCasestudy .brandLogos .relatedBox a {
+            display: block;
+            width: 100%;
+            cursor: url(../images/mouse-cursor-pages.png) 30 30, auto; }
+            .udaanLmrSection .sectionSix .moreCasestudy .brandLogos .relatedBox a img {
+              margin: 0 auto;
+              height: 100px; }
+          .udaanLmrSection .sectionSix .moreCasestudy .brandLogos .relatedBox:nth-child(1) {
+            text-align: left; }
+          .udaanLmrSection .sectionSix .moreCasestudy .brandLogos .relatedBox:nth-child(2) {
+            text-align: right; }
+          .udaanLmrSection .sectionSix .moreCasestudy .brandLogos .relatedBox.active {
+            width: 100%; }
+          .udaanLmrSection .sectionSix .moreCasestudy .brandLogos .relatedBox.activeTwo {
+            width: 100%; }
+    .udaanLmrSection .sectionSix .circleAnimShow {
+      position: absolute;
+      bottom: 0%;
+      transition: all 1s ease-in-out; }
+  @media screen and (max-width: 1600px) {
+    .udaanLmrSection .sectionOne {
+      padding: 50px 0px 150px 0px; }
+      .udaanLmrSection .sectionOne .mobtext {
+        padding-left: 82px; }
+        .udaanLmrSection .sectionOne .mobtext h1 {
+          margin: 20px 0px;
+          line-height: 50px; }
+        .udaanLmrSection .sectionOne .mobtext h5 {
+          line-height: 27px; }
+      .udaanLmrSection .sectionOne .mobImg img {
+        width: 50%; }
+    .udaanLmrSection .sectionTwo .mobtextTwo {
+      padding: 74px 0px 200px 82px; }
+      .udaanLmrSection .sectionTwo .mobtextTwo h1 {
+        margin: 5px 0px 20px 0px;
+        line-height: 50px;
+        width: 55%; }
+      .udaanLmrSection .sectionTwo .mobtextTwo h5 {
+        line-height: 27px;
+        width: 55%; }
+    .udaanLmrSection .sectionTwo .mobimgTwo {
+      width: 50%; }
+      .udaanLmrSection .sectionTwo .mobimgTwo img {
+        width: 80%; }
+    .udaanLmrSection .sectionEasyThree .sectionThree {
+      padding: 100px 0px 100px 82px !important; }
+      .udaanLmrSection .sectionEasyThree .sectionThree .mobtextThree h1 {
+        line-height: 50px !important;
+        margin: 5px 0px 20px 0px !important;
+        width: 55% !important; }
+      .udaanLmrSection .sectionEasyThree .sectionThree .mobsubtextThree h5 {
+        line-height: 27px !important;
+        width: 55% !important; }
+    .udaanLmrSection .sectionEasyThree .sectionFourMap img {
+      width: 60%; }
+    .udaanLmrSection .sectionFourCat .sectionFour {
+      padding: 100px 0px 100px 82px; }
+      .udaanLmrSection .sectionFourCat .sectionFour .mobtextThree h1 {
+        line-height: 50px !important;
+        margin: 5px 0px 20px 0px !important;
+        width: 55% !important; }
+      .udaanLmrSection .sectionFourCat .sectionFour .mobsubtextThree h5 {
+        line-height: 27px !important;
+        width: 55% !important; }
+      .udaanLmrSection .sectionFourCat .sectionFour img {
+        width: 68%; }
+    .udaanLmrSection .sectionFourCat .sectionFourMap img {
+      width: 60%;
+      padding-top: 60px; }
+    .udaanLmrSection .sectionFive {
+      padding: 100px 0px 100px 82px; }
+      .udaanLmrSection .sectionFive .mobtextFour h1 {
+        width: 55%;
+        line-height: 50px;
+        margin: 5px 0px 20px 0px; }
+      .udaanLmrSection .sectionFive .mobsubtextFour h5 {
+        line-height: 27px;
+        width: 55%; } }
+  @media screen and (max-width: 1400px) {
+    .udaanLmrSection {
+      margin-top: 76px; }
+      .udaanLmrSection .sectionOne {
+        padding: 35px 0px 100px 0px; }
+        .udaanLmrSection .sectionOne .mobtext {
+          padding-left: 52px; }
+          .udaanLmrSection .sectionOne .mobtext h1 {
+            margin: 10px 0px;
+            line-height: 45px; }
+          .udaanLmrSection .sectionOne .mobtext h5 {
+            line-height: 25px; }
+        .udaanLmrSection .sectionOne .mobImg img {
+          width: 50%; }
+      .udaanLmrSection .sectionTwo .mobtextTwo {
+        padding: 54px 0px 100px 52px; }
+        .udaanLmrSection .sectionTwo .mobtextTwo h1 {
+          margin: 5px 0px 10px 0px;
+          line-height: 45px;
+          width: 55%; }
+        .udaanLmrSection .sectionTwo .mobtextTwo h5 {
+          line-height: 25px;
+          width: 58%; }
+      .udaanLmrSection .sectionTwo .mobimgTwo {
+        width: 50%; }
+        .udaanLmrSection .sectionTwo .mobimgTwo img {
+          width: 65%; }
+      .udaanLmrSection .sectionEasyThree .sectionThree {
+        padding: 80px 0px 80px 52px !important; }
+        .udaanLmrSection .sectionEasyThree .sectionThree .mobtextThree h1 {
+          line-height: 45px !important;
+          margin: 5px 0px 10px 0px !important;
+          width: 80% !important; }
+        .udaanLmrSection .sectionEasyThree .sectionThree .mobsubtextThree h5 {
+          line-height: 25px !important;
+          width: 58% !important; }
+      .udaanLmrSection .sectionEasyThree .sectionFourMap h2 {
+        margin-bottom: 10px; }
+      .udaanLmrSection .sectionFourCat .sectionFour {
+        padding: 80px 0px 80px 52px; }
+        .udaanLmrSection .sectionFourCat .sectionFour .mobtextFour h1 {
+          width: 55%;
+          line-height: 45px;
+          margin: 5px 0px 10px 0px; }
+        .udaanLmrSection .sectionFourCat .sectionFour .mobsubtextFour h5 {
+          line-height: 25px;
+          width: 58%; }
+        .udaanLmrSection .sectionFourCat .sectionFour img {
+          width: 64%; }
+      .udaanLmrSection .sectionFive {
+        padding: 80px 0px 80px 52px; }
+        .udaanLmrSection .sectionFive .mobtextFour h1 {
+          width: 55%;
+          line-height: 45px;
+          margin: 5px 0px 10px 0px; }
+        .udaanLmrSection .sectionFive .mobsubtextFour h5 {
+          line-height: 25px;
+          width: 58%; } }
+  @media screen and (max-width: 1200px) {
+    .udaanLmrSection .sectionOne {
+      padding: 35px 0px 60px 0px; }
+      .udaanLmrSection .sectionOne .mobtext {
+        padding-left: 32px; }
+        .udaanLmrSection .sectionOne .mobtext h1 {
+          margin: 10px 0px;
+          line-height: 40px; }
+        .udaanLmrSection .sectionOne .mobtext h5 {
+          line-height: 23px; }
+    .udaanLmrSection .sectionTwo .mobtextTwo {
+      padding: 34px 0px 60px 32px; }
+      .udaanLmrSection .sectionTwo .mobtextTwo h1 {
+        margin: 5px 0px 10px 0px;
+        line-height: 40px;
+        width: 60%; }
+      .udaanLmrSection .sectionTwo .mobtextTwo h5 {
+        line-height: 23px;
+        width: 62%; }
+    .udaanLmrSection .sectionTwo .mobimgTwo {
+      width: 50%; }
+      .udaanLmrSection .sectionTwo .mobimgTwo img {
+        width: 77%; }
+    .udaanLmrSection .sectionEasyThree .sectionThree {
+      padding: 50px 0px 60px 32px !important; }
+      .udaanLmrSection .sectionEasyThree .sectionThree .mobtextThree h1 {
+        line-height: 40px !important;
+        margin: 5px 0px 10px 0px !important;
+        width: 60% !important; }
+      .udaanLmrSection .sectionEasyThree .sectionThree .mobsubtextThree h5 {
+        line-height: 23px !important;
+        width: 62% !important; }
+    .udaanLmrSection .sectionFour {
+      padding: 20px 0px; }
+      .udaanLmrSection .sectionFour img {
+        width: 64%; }
+    .udaanLmrSection .sectionFive {
+      padding: 50px 0px 60px 32px; }
+      .udaanLmrSection .sectionFive .mobtextFour h1 {
+        width: 60%;
+        line-height: 40px;
+        margin: 5px 0px 10px 0px; }
+      .udaanLmrSection .sectionFive .mobsubtextFour h5 {
+        line-height: 23px;
+        width: 62%; } }
+  @media screen and (max-width: 1024px) {
+    .udaanLmrSection {
+      margin-top: 73px; }
+      .udaanLmrSection .sectionOne {
+        padding: 32px 0px 20px 0px; }
+        .udaanLmrSection .sectionOne .mobtext {
+          position: unset;
+          width: 100%;
+          padding-left: 24px;
+          padding-right: 24px; }
+          .udaanLmrSection .sectionOne .mobtext h1 {
+            line-height: 36px; }
+          .udaanLmrSection .sectionOne .mobtext h5 {
+            line-height: 20px;
+            width: 100%; }
+        .udaanLmrSection .sectionOne .mobImg img {
+          width: 100%;
+          margin: 40px auto 0px; }
+      .udaanLmrSection .sectionTwo {
+        display: block; }
+        .udaanLmrSection .sectionTwo .mobtextTwo {
+          width: 100%;
+          padding: 32px 24px 32px 24px; }
+          .udaanLmrSection .sectionTwo .mobtextTwo h1 {
+            line-height: 36px;
+            width: 100%; }
+          .udaanLmrSection .sectionTwo .mobtextTwo h5 {
+            line-height: 20px;
+            width: 100%; }
+        .udaanLmrSection .sectionTwo .mobimgTwo {
+          width: 100%;
+          margin: 60px 0px 0px; }
+          .udaanLmrSection .sectionTwo .mobimgTwo img {
+            width: 100%; }
+      .udaanLmrSection .sectionEasyThree .sectionThree {
+        position: unset;
+        display: block !important;
+        padding: 32px 24px 24px 24px !important; }
+        .udaanLmrSection .sectionEasyThree .sectionThree .mobtextThree {
+          width: 100% !important; }
+          .udaanLmrSection .sectionEasyThree .sectionThree .mobtextThree h1 {
+            line-height: 36px !important;
+            width: 100% !important; }
+        .udaanLmrSection .sectionEasyThree .sectionThree .mobsubtextThree {
+          width: 100% !important; }
+          .udaanLmrSection .sectionEasyThree .sectionThree .mobsubtextThree h5 {
+            line-height: 20px !important;
+            width: 100% !important; }
+      .udaanLmrSection .sectionEasyThree .sectionFourMap img {
+        width: 100%; }
+      .udaanLmrSection .sectionFourCat {
+        padding-bottom: 25px; }
+        .udaanLmrSection .sectionFourCat .sectionFour {
+          padding: 32px 24px 24px 24px;
+          display: block; }
+          .udaanLmrSection .sectionFourCat .sectionFour img {
+            width: 100%; }
+          .udaanLmrSection .sectionFourCat .sectionFour .mobtextThree {
+            width: 100%; }
+            .udaanLmrSection .sectionFourCat .sectionFour .mobtextThree h1 {
+              width: 100% !important;
+              line-height: 36px !important; }
+          .udaanLmrSection .sectionFourCat .sectionFour .mobsubtextThree {
+            width: 100%; }
+            .udaanLmrSection .sectionFourCat .sectionFour .mobsubtextThree h5 {
+              line-height: 20px !important;
+              width: 100% !important; }
+        .udaanLmrSection .sectionFourCat .sectionFourMap img {
+          width: 100%; }
+        .udaanLmrSection .sectionFourCat .startToEnd {
+          display: block;
+          padding-top: 60px; }
+          .udaanLmrSection .sectionFourCat .startToEnd .startToEndTitle {
+            width: 100%;
+            margin-bottom: 50px; }
+            .udaanLmrSection .sectionFourCat .startToEnd .startToEndTitle img {
+              width: 100%; }
+            .udaanLmrSection .sectionFourCat .startToEnd .startToEndTitle h2 {
+              margin-bottom: 5px; }
+        .udaanLmrSection .sectionFourCat .startToEndSecond {
+          display: block;
+          padding-top: 60px; }
+          .udaanLmrSection .sectionFourCat .startToEndSecond .startToEndTitle {
+            width: 100%;
+            margin-bottom: 50px; }
+            .udaanLmrSection .sectionFourCat .startToEndSecond .startToEndTitle img {
+              width: 100%; }
+            .udaanLmrSection .sectionFourCat .startToEndSecond .startToEndTitle h2 {
+              margin-bottom: 5px; }
+      .udaanLmrSection .sectionFive {
+        padding: 32px 24px 32px 24px;
+        display: block; }
+        .udaanLmrSection .sectionFive .mobtextFour {
+          width: 100%; }
+          .udaanLmrSection .sectionFive .mobtextFour h1 {
+            width: 100%;
+            line-height: 36px; }
+        .udaanLmrSection .sectionFive .mobsubtextFour {
+          width: 100%; }
+          .udaanLmrSection .sectionFive .mobsubtextFour h5 {
+            line-height: 20px;
+            width: 100%; }
+      .udaanLmrSection .sectionSix .moreCasestudy {
+        position: static; }
+        .udaanLmrSection .sectionSix .moreCasestudy .brandLogos .relatedBox {
+          padding: 12px; }
+          .udaanLmrSection .sectionSix .moreCasestudy .brandLogos .relatedBox:nth-child(1) {
+            text-align: center; }
+          .udaanLmrSection .sectionSix .moreCasestudy .brandLogos .relatedBox:nth-child(2) {
+            text-align: center; }
+          .udaanLmrSection .sectionSix .moreCasestudy .brandLogos .relatedBox a img {
+            height: 50px; } }
+
+#button {
+  display: none; }
+  @media screen and (max-width: 1024px) {
+    #button {
+      display: flex;
+      align-items: center;
+      background-color: #fff;
+      width: 48px;
+      height: 48px;
+      text-align: center;
+      border-radius: 50%;
+      position: fixed;
+      bottom: 20px;
+      right: 24px;
+      transition: background-color .3s, opacity .5s, visibility .5s;
+      opacity: 0;
+      visibility: hidden;
+      z-index: 1000;
+      cursor: pointer; }
+      #button img {
+        margin: 0 auto; }
+      #button:hover {
+        background-color: #fff; }
+      #button:active {
+        background-color: #555; }
+      #button.show {
+        opacity: 1;
+        visibility: visible; } }
 
 /*# sourceMappingURL=main.css.map */

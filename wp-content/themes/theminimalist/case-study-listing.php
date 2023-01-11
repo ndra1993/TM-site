@@ -159,27 +159,27 @@
 jQuery(document).ready(function($) {
   
   setTimeout(function() {
-    $('#lab-slide-bottom-popup').modal('show');
+    jQuery('#lab-slide-bottom-popup').modal('show');
   }, 5000); 
 
-  $(document).ready(function() {
-    $('.lab-slide-up').find('a').attr('data-toggle', 'modal');
-    $('.lab-slide-up').find('a').attr('data-target', '#lab-slide-bottom-popup');
+  jQuery(document).ready(function() {
+    jQuery('.lab-slide-up').find('a').attr('data-toggle', 'modal');
+    jQuery('.lab-slide-up').find('a').attr('data-target', '#lab-slide-bottom-popup');
   });
 
 });
 
 
 /*filter js*/
-  $(document).ready(function() {
-$(".filterLi").click(function () {
-    $(".filterLi").removeClass("active");
-    $(this).addClass("active");        
+  jQuery(document).ready(function() {
+jQuery(".filterLi").click(function () {
+    jQuery(".filterLi").removeClass("active");
+    jQuery(this).addClass("active");        
 });
 });
 
 
-const slider = $(".content-grp");
+const slider = jQuery(".content-grp");
 slider
   .slick({
     dots: false,
@@ -197,39 +197,15 @@ slider.on('wheel', (function(e) {
   e.preventDefault();
 
   if (e.originalEvent.deltaY < 0) {
-    $(this).slick('slickNext');
+    jQuery(this).slick('slickNext');
   } else {
-    $(this).slick('slickPrev');
+    jQuery(this).slick('slickPrev');
   }
 }));
 
 jQuery(document).ready(function(){
-   
-   /* $('.img-grp').slick({
-        infinite: true,
-        slidesToShow:1,
-        fade: true,
-        arrows: false,
-        autoplay: false,
-        autoplaySpeed: 3000,
-        pauseOnHover: false,
-        asNavFor: '.content-grp'
-    });*/
-
-   /* $('.content-grp').slick({
-        infinite: true,
-        arrows: false,
-        vertical: true,
-        slidesToShow: 4,
-        focusOnSelect: false,
-        asNavFor: '.img-grp',
-        verticalSwiping: true,
-        centerMode: false
-
-    });*/
-
-  $('.img-grp').slick(
-{
+  jQuery('.img-grp').slick(
+  {
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
@@ -239,20 +215,7 @@ jQuery(document).ready(function(){
     useTransform: true,
     speed: 400,
 });
-
-/*$('.content-grp').slick(
-{
-    slidesToShow: 9,
-    slidesToScroll: 1,
-    asNavFor: '.img-grp',
-    dots: false,
-    arrows: false,
-    centerMode: true,
-    focusOnSelect: true,
-    vertical: true
-});*/
-
 });
 
- $('.content-grp .slick-slide').eq(0).addClass('slick-active');
+ jQuery('.content-grp .slick-slide').eq(0).addClass('slick-active');
 </script>

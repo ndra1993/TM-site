@@ -52,21 +52,32 @@
 		<div class="headerContent wrapper">
 			
 
-			<?php if (is_front_page()) { ?>
+			<?php  $urlm = get_permalink();
+			 if (is_front_page()) { ?>
 				<!-- Homepage Header -->
 				<div class="logoBox">
 					<a href="<?php echo site_url('/homepage-two/'); ?>">
 						<img src="<?php bloginfo('template_directory'); ?>/images/tm-logo.svg" alt="">
 					</a>
 				</div>
-			<?php } else { ?>
-				<div class="logoBox titleBox">
-					<a class="backArrow" onclick="GoBackWithRefresh();return false;"><img src="<?php bloginfo('template_directory'); ?>/images/arrow-title.svg" alt="Back Arrow"></a>
-					<h3 class="fontW800 font30 fontPoppins colorBlack">
-
-						<?php echo the_title() ?>
-					</h3>
+			<?php }
+			
+			else if($urlm == 'https://ixdtm.com/projects/theminimalist-site/forms/') { ?>
+				<!-- Form Page Header -->
+				<div class="logoBox">
+					<a href="<?php echo site_url('/homepage-two/'); ?>">
+						<img src="<?php bloginfo('template_directory'); ?>/images/tm-logo.svg" alt="">
+					</a>
 				</div>
+			<?php }  else{ ?>
+			<div class="logoBox titleBox">
+				<a class="backArrow" onclick="GoBackWithRefresh();return false;"><img src="<?php bloginfo('template_directory'); ?>/images/arrow-title.svg" alt="Back Arrow"></a>
+				<h3 class="fontW800 font30 fontPoppins colorBlack">
+
+					<?php echo the_title() ?>
+				</h3>
+			</div>
+
 			<?php } ?>
 
 			<div class="homeBox">

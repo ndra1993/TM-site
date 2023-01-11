@@ -12,23 +12,24 @@ if(mail($receiver, $subject, $body, $sender)){
 exit; */
 ?>
 <style>
-	.adderssBox{width: 330px;margin-top:110px;position:relative;}
+	.adderssBox{width: 300px;margin-top:110px;position:relative;}
 	.adderssBox:before{content:'';position:absolute;top:-12px;left:0;width:70px;height:2px;background:#000;}
 	.addressHeading{font-family: "Poppins", sans-serif;font-size:20px;font-weight:700;color:#000; line-height: 24px;}
 	.addressData{font-family: "Poppins", sans-serif;font-size:16px;font-weight:400;color:#000;line-height: 30px;}
 	
 	@media screen and (max-width: 1450px) {
+		.adderssBox{margin-top:85px;}
 		.addressHeading{font-size: 18px;line-height: 20px;}
 		.addressData{font-size: 14px; line-height: 25px;}
 	}
-	@media screen and (max-width: 900px) {
-		.formSection{
-			height: calc(100vh - 0px);
-	    	z-index: 999;
-	    	position: absolute;
-	    	}
-		}
+	
+	@media screen and (max-width:900px) {
+	.formSticky{position: sticky;z-index: 1;top: 0;}
+    .header-up {top: -72px;}
+    .addTop{top:0 !important;}
+}
 </style>
+
 <div class="wrapper">
 	<div class="formSection">
 		<div class="sec1">
@@ -103,7 +104,35 @@ exit; */
 	
 
 
+
+
+$(function () {
+  //the shrinkHeader variable is where you tell the scroll effect to start.
+  var shrinkHeader = 1;
+  $(window).scroll(function () {
+    var scroll = getCurrentScroll();
+    if (scroll >= shrinkHeader) {
+      $('.page-template-forms header').addClass('header-up');
+      $('.formSection').addClass('formSticky');
+    } else {
+      $('.page-template-forms header').removeClass('header-up');
+      $('.formSection').removeClass('formSticky');
+     }
+  });
+
+  function getCurrentScroll() {
+    return window.pageYOffset || document.documentElement.scrollTop;
+  }
+});
 	
+
+$('#menu').click(function(){
+    if($(this).is(":checked")) {
+        $('.page-template-forms header').addClass("addTop");
+    } else {
+        $('.page-template-forms header').removeClass("addTop");
+    }
+});	
 </script>
 
 
