@@ -3083,7 +3083,7 @@ header {
           display: none; } }
 
 .homeBanner {
-  height: calc(100vh - 140px);
+  height: calc(100vh - 148px);
   overflow-y: hidden;
   margin-top: 96px; }
   @media screen and (max-width: 1600px) {
@@ -4054,7 +4054,7 @@ footer .ftbutton {
         margin: 35px 0px; }
       .udaanLmrSection .sectionOne .mobtext h5 {
         line-height: 30px;
-        color: rgba(255, 255, 255, 0.5);
+        color: #00000080;
         width: 73%; }
     .udaanLmrSection .sectionOne .mobImg img {
       margin: 0 auto;
@@ -4106,13 +4106,16 @@ footer .ftbutton {
       width: 45%; }
       .udaanLmrSection .sectionEasyThree .sectionThree .mobsubtextThree h5 {
         line-height: 30px !important;
-        width: 60% !important; }
+        width: 60% !important;
+        color: #00000080; }
   .udaanLmrSection .sectionEasyThree .sectionFourMap {
     background: #ffffffcc;
     text-align: center;
     padding: 50px 0px;
     transform: translatey(0px);
     animation: float 2s ease-in-out infinite; }
+    .udaanLmrSection .sectionEasyThree .sectionFourMap p {
+      color: #00000080; }
     .udaanLmrSection .sectionEasyThree .sectionFourMap img {
       display: flex;
       align-items: center;
@@ -4137,9 +4140,12 @@ footer .ftbutton {
         width: 45%; }
         .udaanLmrSection .sectionFourCat .sectionFour .mobsubtextThree h5 {
           line-height: 30px !important;
-          width: 60% !important; }
+          width: 60% !important;
+          color: #00000080; }
     .udaanLmrSection .sectionFourCat .sectionFourMap {
       text-align: center; }
+      .udaanLmrSection .sectionFourCat .sectionFourMap p {
+        color: #00000080; }
       .udaanLmrSection .sectionFourCat .sectionFourMap h2 {
         margin-bottom: 15px; }
       .udaanLmrSection .sectionFourCat .sectionFourMap img {
@@ -4152,6 +4158,8 @@ footer .ftbutton {
       text-align: center; }
       .udaanLmrSection .sectionFourCat .startToEnd .startToEndTitle {
         width: 30%; }
+        .udaanLmrSection .sectionFourCat .startToEnd .startToEndTitle p {
+          color: #00000080; }
         .udaanLmrSection .sectionFourCat .startToEnd .startToEndTitle h2 {
           margin-bottom: 15px; }
         .udaanLmrSection .sectionFourCat .startToEnd .startToEndTitle img {
@@ -4163,6 +4171,8 @@ footer .ftbutton {
       text-align: center; }
       .udaanLmrSection .sectionFourCat .startToEndSecond .startToEndTitle {
         width: 33.33%; }
+        .udaanLmrSection .sectionFourCat .startToEndSecond .startToEndTitle h2 {
+          margin-bottom: 15px; }
         .udaanLmrSection .sectionFourCat .startToEndSecond .startToEndTitle img {
           max-width: 100%; }
   .udaanLmrSection .sectionFive {
@@ -4330,6 +4340,12 @@ footer .ftbutton {
           width: 58%; }
         .udaanLmrSection .sectionFourCat .sectionFour img {
           width: 64%; }
+      .udaanLmrSection .sectionFourCat .sectionFourMap h2 {
+        margin-bottom: 10px; }
+      .udaanLmrSection .sectionFourCat .startToEnd .startToEndTitle h2 {
+        margin-bottom: 10px; }
+      .udaanLmrSection .sectionFourCat .startToEndSecond .startToEndTitle h2 {
+        margin-bottom: 10px; }
       .udaanLmrSection .sectionFive {
         padding: 80px 0px 80px 52px; }
         .udaanLmrSection .sectionFive .mobtextFour h1 {
@@ -4496,6 +4512,996 @@ footer .ftbutton {
             text-align: center; }
           .udaanLmrSection .sectionSix .moreCasestudy .brandLogos .relatedBox a img {
             height: 50px; } }
+
+#button {
+  display: none; }
+  @media screen and (max-width: 1024px) {
+    #button {
+      display: flex;
+      align-items: center;
+      background-color: #fff;
+      width: 48px;
+      height: 48px;
+      text-align: center;
+      border-radius: 50%;
+      position: fixed;
+      bottom: 20px;
+      right: 24px;
+      transition: background-color .3s, opacity .5s, visibility .5s;
+      opacity: 0;
+      visibility: hidden;
+      z-index: 1000;
+      cursor: pointer; }
+      #button img {
+        margin: 0 auto; }
+      #button:hover {
+        background-color: #fff; }
+      #button:active {
+        background-color: #555; }
+      #button.show {
+        opacity: 1;
+        visibility: visible; } }
+
+.page-template-dozee {
+  overflow-x: hidden; }
+
+.dozeebgdetails {
+  background: #0243A3;
+  margin-top: 86px;
+  border-top: 1px solid #000;
+  /**************************************************Media Query***************************************************/ }
+  .dozeebgdetails section {
+    padding: 0;
+    margin: 0;
+    line-height: 0; }
+  .dozeebgdetails .sectionOne {
+    position: relative;
+    padding: 70px 0px 200px 0px; }
+    .dozeebgdetails .sectionOne .mobtext {
+      position: absolute;
+      top: 10%;
+      padding-left: 112px;
+      width: 32%; }
+      .dozeebgdetails .sectionOne .mobtext p {
+        text-transform: uppercase; }
+      .dozeebgdetails .sectionOne .mobtext h1 {
+        line-height: 70px;
+        margin: 35px 0px; }
+      .dozeebgdetails .sectionOne .mobtext h5 {
+        line-height: 30px;
+        color: rgba(255, 255, 255, 0.5);
+        width: 73%; }
+    .dozeebgdetails .sectionOne .mobImg img {
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      width: 60%; }
+  .dozeebgdetails .sectionTwo {
+    display: flex;
+    justify-content: space-between; }
+    .dozeebgdetails .sectionTwo .mobimgTwo {
+      width: 52%; }
+      .dozeebgdetails .sectionTwo .mobimgTwo img {
+        max-width: 100%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        height: 100%; }
+    .dozeebgdetails .sectionTwo .mobtextTwo {
+      padding: 94px 0px 295px 112px;
+      background: #fff;
+      width: 48%; }
+      .dozeebgdetails .sectionTwo .mobtextTwo p {
+        text-transform: uppercase; }
+      .dozeebgdetails .sectionTwo .mobtextTwo h1 {
+        line-height: 70px;
+        margin: 5px 0px 35px 0px;
+        width: 60%; }
+      .dozeebgdetails .sectionTwo .mobtextTwo h5 {
+        line-height: 30px;
+        width: 60%; }
+  .dozeebgdetails .sectionThree {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 130px 0px 130px 112px; }
+    .dozeebgdetails .sectionThree .mobtextThree {
+      width: 48%; }
+      .dozeebgdetails .sectionThree .mobtextThree p {
+        text-transform: uppercase; }
+      .dozeebgdetails .sectionThree .mobtextThree h1 {
+        line-height: 70px;
+        margin: 5px 0px 35px 0px;
+        width: 60%; }
+    .dozeebgdetails .sectionThree .mobsubtextThree {
+      width: 45%; }
+      .dozeebgdetails .sectionThree .mobsubtextThree h5 {
+        line-height: 30px;
+        width: 60%;
+        color: rgba(255, 255, 255, 0.5); }
+  .dozeebgdetails .sectionFour {
+    padding: 50px 0px;
+    transform: translatey(0px);
+    animation: float 2s ease-in-out infinite; }
+@keyframes float {
+  0% {
+    transform: translatey(0px); }
+  50% {
+    transform: translatey(-20px); }
+  100% {
+    transform: translatey(0px); } }
+    .dozeebgdetails .sectionFour img {
+      display: flex;
+      align-items: center;
+      margin: auto;
+      max-width: 100%; }
+    .dozeebgdetails .sectionFour .mobileImg {
+      display: none; }
+  .dozeebgdetails .sectionFive {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 130px 0px 130px 112px; }
+    .dozeebgdetails .sectionFive img {
+      max-width: 100%; }
+    .dozeebgdetails .sectionFive .mobtextFour {
+      width: 48%; }
+      .dozeebgdetails .sectionFive .mobtextFour p {
+        text-transform: uppercase; }
+      .dozeebgdetails .sectionFive .mobtextFour h1 {
+        line-height: 70px;
+        margin: 5px 0px 35px 0px;
+        width: 60%; }
+    .dozeebgdetails .sectionFive .mobsubtextFour {
+      width: 45%; }
+      .dozeebgdetails .sectionFive .mobsubtextFour h5 {
+        line-height: 30px;
+        width: 60%; }
+  .dozeebgdetails .sectionFiveBanner {
+    max-width: 100%; }
+  .dozeebgdetails .sectionFiveSecond {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 0px; }
+    .dozeebgdetails .sectionFiveSecond .mobtextFour {
+      width: 48%; }
+    .dozeebgdetails .sectionFiveSecond img {
+      max-width: 100%; }
+    .dozeebgdetails .sectionFiveSecond .mobsubtextFour {
+      width: 45%; }
+      .dozeebgdetails .sectionFiveSecond .mobsubtextFour p {
+        text-transform: uppercase; }
+      .dozeebgdetails .sectionFiveSecond .mobsubtextFour h1 {
+        line-height: 70px;
+        margin: 5px 0px 35px 0px;
+        width: 60%; }
+      .dozeebgdetails .sectionFiveSecond .mobsubtextFour h5 {
+        line-height: 30px;
+        width: 60%; }
+  .dozeebgdetails .sectionSix {
+    position: relative;
+    overflow: hidden; }
+    .dozeebgdetails .sectionSix .sectionSiximg {
+      line-height: 0px; }
+      .dozeebgdetails .sectionSix .sectionSiximg img {
+        width: 100%; }
+    .dozeebgdetails .sectionSix .moreCasestudy {
+      position: absolute;
+      width: 100%;
+      bottom: -100%; }
+      .dozeebgdetails .sectionSix .moreCasestudy .brandLogos {
+        display: flex;
+        align-items: center; }
+        .dozeebgdetails .sectionSix .moreCasestudy .brandLogos .relatedBox {
+          padding: 30px;
+          width: 50%;
+          background: #00C859;
+          transition: 0.6s all; }
+          .dozeebgdetails .sectionSix .moreCasestudy .brandLogos .relatedBox a {
+            display: block;
+            width: 100%;
+            cursor: url(../images/mouse-cursor-pages.png) 30 30, auto; }
+            .dozeebgdetails .sectionSix .moreCasestudy .brandLogos .relatedBox a img {
+              margin: 0 auto;
+              height: 100px; }
+          .dozeebgdetails .sectionSix .moreCasestudy .brandLogos .relatedBox:nth-child(1) {
+            text-align: left; }
+          .dozeebgdetails .sectionSix .moreCasestudy .brandLogos .relatedBox:nth-child(2) {
+            text-align: right; }
+          .dozeebgdetails .sectionSix .moreCasestudy .brandLogos .relatedBox.active {
+            width: 100%; }
+          .dozeebgdetails .sectionSix .moreCasestudy .brandLogos .relatedBox.activeTwo {
+            width: 100%; }
+    .dozeebgdetails .sectionSix .circleAnimShow {
+      position: absolute;
+      bottom: 0%;
+      transition: all 1s ease-in-out; }
+  .dozeebgdetails .sectionSeven .sectionSevenBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px 20px 112px; }
+    .dozeebgdetails .sectionSeven .sectionSevenBox img {
+      max-width: 100%; }
+  .dozeebgdetails .sectionSeven .sectionSevenBoxOne {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 112px 20px 112px; }
+    .dozeebgdetails .sectionSeven .sectionSevenBoxOne img {
+      max-width: 100%; }
+  .dozeebgdetails .sectionSeven .sectionSevenBoxTwo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px 20px 112px; }
+    .dozeebgdetails .sectionSeven .sectionSevenBoxTwo:nth-child(even) {
+      padding: 20px 112px 20px 0px; }
+    .dozeebgdetails .sectionSeven .sectionSevenBoxTwo img {
+      max-width: 100%; }
+    .dozeebgdetails .sectionSeven .sectionSevenBoxTwo .sectionSevenBoxText {
+      width: 30%; }
+      .dozeebgdetails .sectionSeven .sectionSevenBoxTwo .sectionSevenBoxText h3 {
+        line-height: 36px;
+        margin-bottom: 12px; }
+      .dozeebgdetails .sectionSeven .sectionSevenBoxTwo .sectionSevenBoxText p {
+        line-height: 24px;
+        color: #ffffff80; }
+  .dozeebgdetails .sectionEight {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 140px 140px 70px 140px; }
+    .dozeebgdetails .sectionEight img {
+      max-width: 100%; }
+    .dozeebgdetails .sectionEight .mobImg {
+      width: 33%; }
+  @media screen and (max-width: 1600px) {
+    .dozeebgdetails .sectionOne {
+      padding: 50px 0px 150px 0px; }
+      .dozeebgdetails .sectionOne .mobtext {
+        padding-left: 82px; }
+        .dozeebgdetails .sectionOne .mobtext h1 {
+          margin: 20px 0px;
+          line-height: 50px; }
+        .dozeebgdetails .sectionOne .mobtext h5 {
+          line-height: 27px; }
+    .dozeebgdetails .sectionTwo .mobtextTwo {
+      padding: 74px 0px 200px 82px; }
+      .dozeebgdetails .sectionTwo .mobtextTwo h1 {
+        margin: 5px 0px 20px 0px;
+        line-height: 50px;
+        width: 55%; }
+      .dozeebgdetails .sectionTwo .mobtextTwo h5 {
+        line-height: 27px;
+        width: 55%; }
+    .dozeebgdetails .sectionTwo .mobimgTwo {
+      width: 52%; }
+      .dozeebgdetails .sectionTwo .mobimgTwo img {
+        width: 100%; }
+    .dozeebgdetails .sectionThree {
+      padding: 100px 0px 100px 82px; }
+      .dozeebgdetails .sectionThree .mobtextThree h1 {
+        line-height: 50px;
+        margin: 5px 0px 20px 0px;
+        width: 55%; }
+      .dozeebgdetails .sectionThree .mobsubtextThree h5 {
+        line-height: 27px;
+        width: 55%; }
+    .dozeebgdetails .sectionFour {
+      padding: 30px 0px; }
+      .dozeebgdetails .sectionFour img {
+        width: 100%; }
+    .dozeebgdetails .sectionFive {
+      padding: 100px 0px 100px 82px; }
+      .dozeebgdetails .sectionFive .mobtextFour h1 {
+        width: 55%;
+        line-height: 50px;
+        margin: 5px 0px 20px 0px; }
+      .dozeebgdetails .sectionFive .mobsubtextFour h5 {
+        line-height: 27px;
+        width: 55%; }
+    .dozeebgdetails .sectionFiveSecond .mobtextFour img {
+      max-width: 100%; }
+    .dozeebgdetails .sectionFiveSecond .mobsubtextFour h1 {
+      width: 55%;
+      line-height: 50px;
+      margin: 5px 0px 20px 0px; }
+    .dozeebgdetails .sectionFiveSecond .mobsubtextFour h5 {
+      line-height: 27px;
+      width: 55%; }
+    .dozeebgdetails .sectionSeven .sectionSevenBox {
+      padding: 20px 0px 20px 100px; }
+    .dozeebgdetails .sectionSeven .sectionSevenBoxOne {
+      padding: 20px 112px 20px 100px; }
+    .dozeebgdetails .sectionSeven .sectionSevenBoxTwo {
+      padding: 20px 0px 20px 100px; }
+      .dozeebgdetails .sectionSeven .sectionSevenBoxTwo:nth-child(even) {
+        padding: 20px 100px 20px 0px; }
+      .dozeebgdetails .sectionSeven .sectionSevenBoxTwo .sectionSevenBoxText {
+        width: 30%; }
+        .dozeebgdetails .sectionSeven .sectionSevenBoxTwo .sectionSevenBoxText h3 {
+          line-height: 30px; }
+        .dozeebgdetails .sectionSeven .sectionSevenBoxTwo .sectionSevenBoxText p {
+          line-height: 20px; }
+    .dozeebgdetails .sectionEight {
+      padding: 100px 100px 60px 100px; } }
+  @media screen and (max-width: 1400px) {
+    .dozeebgdetails {
+      margin-top: 76px; }
+      .dozeebgdetails .sectionOne {
+        padding: 35px 0px 100px 0px; }
+        .dozeebgdetails .sectionOne .mobtext {
+          padding-left: 52px; }
+          .dozeebgdetails .sectionOne .mobtext h1 {
+            margin: 10px 0px;
+            line-height: 45px; }
+          .dozeebgdetails .sectionOne .mobtext h5 {
+            line-height: 25px; }
+      .dozeebgdetails .sectionTwo .mobtextTwo {
+        padding: 54px 0px 100px 52px; }
+        .dozeebgdetails .sectionTwo .mobtextTwo h1 {
+          margin: 5px 0px 10px 0px;
+          line-height: 45px;
+          width: 55%; }
+        .dozeebgdetails .sectionTwo .mobtextTwo h5 {
+          line-height: 25px;
+          width: 58%; }
+      .dozeebgdetails .sectionTwo .mobimgTwo {
+        width: 52%; }
+        .dozeebgdetails .sectionTwo .mobimgTwo img {
+          width: 100%; }
+      .dozeebgdetails .sectionThree {
+        padding: 80px 0px 80px 52px; }
+        .dozeebgdetails .sectionThree .mobtextThree h1 {
+          line-height: 45px;
+          margin: 5px 0px 10px 0px;
+          width: 55%; }
+        .dozeebgdetails .sectionThree .mobsubtextThree h5 {
+          line-height: 25px;
+          width: 58%; }
+      .dozeebgdetails .sectionFour {
+        padding: 20px 0px; }
+        .dozeebgdetails .sectionFour img {
+          width: 100%; }
+      .dozeebgdetails .sectionFive {
+        padding: 80px 0px 80px 52px; }
+        .dozeebgdetails .sectionFive .mobtextFour h1 {
+          width: 55%;
+          line-height: 45px;
+          margin: 5px 0px 10px 0px; }
+        .dozeebgdetails .sectionFive .mobsubtextFour h5 {
+          line-height: 25px;
+          width: 58%; }
+      .dozeebgdetails .sectionSeven .sectionSevenBox {
+        padding: 20px 0px 20px 50px; }
+      .dozeebgdetails .sectionSeven .sectionSevenBoxOne {
+        padding: 20px 0px 20px 50px; }
+      .dozeebgdetails .sectionSeven .sectionSevenBoxTwo {
+        padding: 20px 0px 20px 50px; }
+        .dozeebgdetails .sectionSeven .sectionSevenBoxTwo:nth-child(even) {
+          padding: 20px 50px 20px 0px; }
+        .dozeebgdetails .sectionSeven .sectionSevenBoxTwo .sectionSevenBoxText {
+          width: 35%; }
+      .dozeebgdetails .sectionEight {
+        padding: 50px 50px 30px 50px; } }
+  @media screen and (max-width: 1200px) {
+    .dozeebgdetails .sectionOne {
+      padding: 35px 0px 60px 0px; }
+      .dozeebgdetails .sectionOne .mobtext {
+        padding-left: 32px; }
+        .dozeebgdetails .sectionOne .mobtext h1 {
+          margin: 10px 0px;
+          line-height: 40px; }
+        .dozeebgdetails .sectionOne .mobtext h5 {
+          line-height: 23px; }
+    .dozeebgdetails .sectionTwo .mobtextTwo {
+      padding: 34px 0px 60px 32px; }
+      .dozeebgdetails .sectionTwo .mobtextTwo h1 {
+        margin: 5px 0px 10px 0px;
+        line-height: 40px;
+        width: 60%; }
+      .dozeebgdetails .sectionTwo .mobtextTwo h5 {
+        line-height: 23px;
+        width: 62%; }
+    .dozeebgdetails .sectionTwo .mobimgTwo {
+      width: 50%; }
+      .dozeebgdetails .sectionTwo .mobimgTwo img {
+        width: 77%; }
+    .dozeebgdetails .sectionThree {
+      padding: 50px 0px 60px 32px; }
+      .dozeebgdetails .sectionThree .mobtextThree h1 {
+        line-height: 40px;
+        margin: 5px 0px 10px 0px;
+        width: 60%; }
+      .dozeebgdetails .sectionThree .mobsubtextThree h5 {
+        line-height: 23px;
+        width: 62%; }
+    .dozeebgdetails .sectionFour {
+      padding: 20px 0px; }
+      .dozeebgdetails .sectionFour img {
+        width: 64%; }
+    .dozeebgdetails .sectionFive {
+      padding: 50px 0px 60px 32px; }
+      .dozeebgdetails .sectionFive .mobtextFour h1 {
+        width: 60%;
+        line-height: 40px;
+        margin: 5px 0px 10px 0px; }
+      .dozeebgdetails .sectionFive .mobsubtextFour h5 {
+        line-height: 23px;
+        width: 62%; } }
+  @media screen and (max-width: 1024px) {
+    .dozeebgdetails {
+      margin-top: 73px; }
+      .dozeebgdetails .sectionOne {
+        padding: 32px 0px 20px 0px; }
+        .dozeebgdetails .sectionOne .mobtext {
+          position: unset;
+          width: 100%;
+          padding-left: 24px;
+          padding-right: 24px; }
+          .dozeebgdetails .sectionOne .mobtext h1 {
+            line-height: 36px; }
+          .dozeebgdetails .sectionOne .mobtext h5 {
+            line-height: 20px;
+            width: 100%; }
+        .dozeebgdetails .sectionOne .mobImg {
+          width: 100%;
+          margin: 40px auto 0px; }
+      .dozeebgdetails .sectionTwo {
+        display: block; }
+        .dozeebgdetails .sectionTwo .mobtextTwo {
+          width: 100%;
+          padding: 32px 24px 32px 24px; }
+          .dozeebgdetails .sectionTwo .mobtextTwo h1 {
+            line-height: 36px;
+            width: 100%; }
+          .dozeebgdetails .sectionTwo .mobtextTwo h5 {
+            line-height: 20px;
+            width: 100%; }
+        .dozeebgdetails .sectionTwo .mobimgTwo {
+          width: 100%;
+          margin: 60px 0px 0px; }
+          .dozeebgdetails .sectionTwo .mobimgTwo img {
+            width: 100%; }
+      .dozeebgdetails .sectionThree {
+        display: block;
+        padding: 32px 24px 24px 24px; }
+        .dozeebgdetails .sectionThree .mobtextThree {
+          width: 100%; }
+          .dozeebgdetails .sectionThree .mobtextThree h1 {
+            line-height: 36px;
+            width: 100%; }
+        .dozeebgdetails .sectionThree .mobsubtextThree {
+          width: 100%; }
+          .dozeebgdetails .sectionThree .mobsubtextThree h5 {
+            line-height: 20px;
+            width: 100%; }
+      .dozeebgdetails .sectionFour {
+        padding: 10px 0px; }
+        .dozeebgdetails .sectionFour img {
+          width: 100%; }
+        .dozeebgdetails .sectionFour .desktopImg {
+          display: none; }
+        .dozeebgdetails .sectionFour .mobileImg {
+          display: block; }
+      .dozeebgdetails .sectionFive {
+        padding: 32px 24px 32px 24px;
+        display: block; }
+        .dozeebgdetails .sectionFive .mobtextFour {
+          width: 100%; }
+          .dozeebgdetails .sectionFive .mobtextFour h1 {
+            width: 100%;
+            line-height: 36px; }
+        .dozeebgdetails .sectionFive .mobsubtextFour {
+          width: 100%; }
+          .dozeebgdetails .sectionFive .mobsubtextFour h5 {
+            line-height: 20px;
+            width: 100%; }
+      .dozeebgdetails .sectionFiveSecond {
+        display: block; }
+        .dozeebgdetails .sectionFiveSecond .mobtextFour {
+          width: 100%; }
+          .dozeebgdetails .sectionFiveSecond .mobtextFour img {
+            width: 100%; }
+        .dozeebgdetails .sectionFiveSecond .mobsubtextFour {
+          padding: 32px 24px 32px 24px;
+          width: 100%; }
+          .dozeebgdetails .sectionFiveSecond .mobsubtextFour h1 {
+            width: 100%;
+            line-height: 36px;
+            margin: 5px 0px 10px 0px; }
+          .dozeebgdetails .sectionFiveSecond .mobsubtextFour h5 {
+            line-height: 20px;
+            width: 100%; }
+      .dozeebgdetails .sectionSix .moreCasestudy {
+        position: static; }
+        .dozeebgdetails .sectionSix .moreCasestudy .brandLogos .relatedBox {
+          padding: 12px; }
+          .dozeebgdetails .sectionSix .moreCasestudy .brandLogos .relatedBox:nth-child(1) {
+            text-align: center; }
+          .dozeebgdetails .sectionSix .moreCasestudy .brandLogos .relatedBox:nth-child(2) {
+            text-align: center; }
+          .dozeebgdetails .sectionSix .moreCasestudy .brandLogos .relatedBox a img {
+            height: 50px; }
+      .dozeebgdetails .sectionSeven .sectionSevenBox {
+        padding: 10px 0px 10px 24px; }
+      .dozeebgdetails .sectionSeven .sectionSevenBoxOne {
+        padding: 10px 0px 20px 24px; }
+      .dozeebgdetails .sectionSeven .sectionSevenBoxTwo {
+        display: block;
+        padding: 10px 24px 10px 24px; }
+        .dozeebgdetails .sectionSeven .sectionSevenBoxTwo:nth-child(even) {
+          padding: 10px 24px 10px 24px; }
+        .dozeebgdetails .sectionSeven .sectionSevenBoxTwo .sectionSevenBoxText {
+          width: 100%; }
+          .dozeebgdetails .sectionSeven .sectionSevenBoxTwo .sectionSevenBoxText h3 {
+            line-height: 24px;
+            margin-bottom: 10px; }
+        .dozeebgdetails .sectionSeven .sectionSevenBoxTwo .sectionSevenBoxImg {
+          width: 100%; }
+      .dozeebgdetails .sectionEight {
+        display: block;
+        padding: 32px 24px 20px 24px; }
+        .dozeebgdetails .sectionEight .mobImg {
+          width: 100%; }
+          .dozeebgdetails .sectionEight .mobImg img {
+            width: 100%; } }
+
+#button {
+  display: none; }
+  @media screen and (max-width: 1024px) {
+    #button {
+      display: flex;
+      align-items: center;
+      background-color: #fff;
+      width: 48px;
+      height: 48px;
+      text-align: center;
+      border-radius: 50%;
+      position: fixed;
+      bottom: 20px;
+      right: 24px;
+      transition: background-color .3s, opacity .5s, visibility .5s;
+      opacity: 0;
+      visibility: hidden;
+      z-index: 1000;
+      cursor: pointer; }
+      #button img {
+        margin: 0 auto; }
+      #button:hover {
+        background-color: #fff; }
+      #button:active {
+        background-color: #555; }
+      #button.show {
+        opacity: 1;
+        visibility: visible; } }
+
+.page-template-airtel {
+  overflow-x: hidden; }
+
+.airtelbgdetails {
+  background: #2A2A2A;
+  margin-top: 86px;
+  border-top: 1px solid #000;
+  /**************************************************Media Query***************************************************/ }
+  .airtelbgdetails section {
+    line-height: 0; }
+  .airtelbgdetails .sectionOne {
+    position: relative;
+    padding: 0px; }
+    .airtelbgdetails .sectionOne img {
+      max-width: 100%; }
+    .airtelbgdetails .sectionOne .mobtext {
+      position: absolute;
+      top: 10%;
+      padding-left: 112px;
+      width: 32%; }
+      .airtelbgdetails .sectionOne .mobtext p {
+        text-transform: uppercase; }
+      .airtelbgdetails .sectionOne .mobtext h1 {
+        line-height: 70px;
+        margin: 35px 0px; }
+      .airtelbgdetails .sectionOne .mobtext h5 {
+        line-height: 30px;
+        color: rgba(255, 255, 255, 0.5);
+        width: 73%; }
+    .airtelbgdetails .sectionOne .mobImg img {
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      width: 60%; }
+  .airtelbgdetails .sectionTwo {
+    display: flex;
+    justify-content: space-between; }
+    .airtelbgdetails .sectionTwo .mobimgTwo {
+      width: 50%; }
+      .airtelbgdetails .sectionTwo .mobimgTwo img {
+        max-width: 100%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center; }
+    .airtelbgdetails .sectionTwo .mobtextTwo {
+      padding: 94px 0px 295px 112px;
+      background: #fff;
+      width: 50%; }
+      .airtelbgdetails .sectionTwo .mobtextTwo p {
+        text-transform: uppercase; }
+      .airtelbgdetails .sectionTwo .mobtextTwo h1 {
+        line-height: 70px;
+        margin: 5px 0px 35px 0px;
+        width: 60%; }
+      .airtelbgdetails .sectionTwo .mobtextTwo h5 {
+        line-height: 30px;
+        width: 60%; }
+  .airtelbgdetails .sectionThree {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 130px 0px 130px 112px; }
+    .airtelbgdetails .sectionThree .mobtextThree {
+      width: 48%; }
+      .airtelbgdetails .sectionThree .mobtextThree p {
+        text-transform: uppercase; }
+      .airtelbgdetails .sectionThree .mobtextThree h1 {
+        line-height: 70px;
+        margin: 5px 0px 35px 0px;
+        width: 80%; }
+    .airtelbgdetails .sectionThree .mobsubtextThree {
+      width: 45%; }
+      .airtelbgdetails .sectionThree .mobsubtextThree h5 {
+        line-height: 30px;
+        width: 60%;
+        color: rgba(255, 255, 255, 0.5); }
+  .airtelbgdetails .sectionFour {
+    padding: 50px 160px 0px 112px; }
+    .airtelbgdetails .sectionFour .sectionFourBox {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 125px; }
+      .airtelbgdetails .sectionFour .sectionFourBox img {
+        max-width: 100%; }
+      .airtelbgdetails .sectionFour .sectionFourBox .sectionFourBoxText {
+        width: 25%; }
+        .airtelbgdetails .sectionFour .sectionFourBox .sectionFourBoxText h3 {
+          line-height: 36px;
+          margin-bottom: 12px; }
+        .airtelbgdetails .sectionFour .sectionFourBox .sectionFourBoxText p {
+          line-height: 24px;
+          color: #ffffff80; }
+  .airtelbgdetails .sectionSeven {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 140px 120px 70px 100px; }
+    .airtelbgdetails .sectionSeven img {
+      max-width: 100%; }
+    .airtelbgdetails .sectionSeven .mobImg {
+      width: 33%; }
+  .airtelbgdetails .sectionFive {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 130px 0px 130px 112px; }
+    .airtelbgdetails .sectionFive .mobtextFour {
+      width: 48%; }
+      .airtelbgdetails .sectionFive .mobtextFour p {
+        text-transform: uppercase; }
+      .airtelbgdetails .sectionFive .mobtextFour h1 {
+        line-height: 70px;
+        margin: 5px 0px 35px 0px;
+        width: 80%; }
+    .airtelbgdetails .sectionFive .mobsubtextFour {
+      width: 50%; }
+      .airtelbgdetails .sectionFive .mobsubtextFour h1 {
+        line-height: 70px;
+        margin: 5px 0px 9px 0px;
+        color: #ED2024; }
+      .airtelbgdetails .sectionFive .mobsubtextFour h5 {
+        line-height: 34px;
+        width: 85%; }
+  .airtelbgdetails .sectionSix {
+    position: relative;
+    overflow: hidden; }
+    .airtelbgdetails .sectionSix .sectionSiximg {
+      line-height: 0px; }
+      .airtelbgdetails .sectionSix .sectionSiximg img {
+        width: 100%; }
+    .airtelbgdetails .sectionSix .moreCasestudy {
+      position: absolute;
+      width: 100%;
+      bottom: -100%; }
+      .airtelbgdetails .sectionSix .moreCasestudy .brandLogos {
+        display: flex;
+        align-items: center; }
+        .airtelbgdetails .sectionSix .moreCasestudy .brandLogos .relatedBox {
+          padding: 30px;
+          width: 50%;
+          background: #00C859;
+          transition: 0.6s all; }
+          .airtelbgdetails .sectionSix .moreCasestudy .brandLogos .relatedBox a {
+            display: block;
+            width: 100%;
+            cursor: url(../images/mouse-cursor-pages.png) 30 30, auto; }
+            .airtelbgdetails .sectionSix .moreCasestudy .brandLogos .relatedBox a img {
+              margin: 0 auto;
+              height: 100px; }
+          .airtelbgdetails .sectionSix .moreCasestudy .brandLogos .relatedBox:nth-child(1) {
+            text-align: left; }
+          .airtelbgdetails .sectionSix .moreCasestudy .brandLogos .relatedBox:nth-child(2) {
+            text-align: right; }
+          .airtelbgdetails .sectionSix .moreCasestudy .brandLogos .relatedBox.active {
+            width: 100%; }
+          .airtelbgdetails .sectionSix .moreCasestudy .brandLogos .relatedBox.activeTwo {
+            width: 100%; }
+    .airtelbgdetails .sectionSix .circleAnimShow {
+      position: absolute;
+      bottom: 0%;
+      transition: all 1s ease-in-out; }
+  @media screen and (max-width: 1600px) {
+    .airtelbgdetails .sectionOne .mobtext {
+      padding-left: 82px; }
+      .airtelbgdetails .sectionOne .mobtext h1 {
+        margin: 20px 0px;
+        line-height: 50px; }
+      .airtelbgdetails .sectionOne .mobtext h5 {
+        line-height: 27px; }
+    .airtelbgdetails .sectionTwo .mobtextTwo {
+      padding: 74px 0px 200px 82px; }
+      .airtelbgdetails .sectionTwo .mobtextTwo h1 {
+        margin: 5px 0px 20px 0px;
+        line-height: 50px;
+        width: 55%; }
+      .airtelbgdetails .sectionTwo .mobtextTwo h5 {
+        line-height: 27px;
+        width: 55%; }
+    .airtelbgdetails .sectionTwo .mobimgTwo {
+      width: 50%; }
+      .airtelbgdetails .sectionTwo .mobimgTwo img {
+        width: 100%; }
+    .airtelbgdetails .sectionThree {
+      padding: 100px 0px 100px 82px; }
+      .airtelbgdetails .sectionThree .mobtextThree h1 {
+        line-height: 50px;
+        margin: 5px 0px 20px 0px;
+        width: 55%; }
+      .airtelbgdetails .sectionThree .mobsubtextThree h5 {
+        line-height: 27px;
+        width: 55%; }
+    .airtelbgdetails .sectionFour {
+      padding: 50px 130px 0px 82px; }
+      .airtelbgdetails .sectionFour .sectionFourBox {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 125px; }
+        .airtelbgdetails .sectionFour .sectionFourBox .sectionFourBoxText {
+          width: 25%; }
+          .airtelbgdetails .sectionFour .sectionFourBox .sectionFourBoxText h3 {
+            line-height: 36px;
+            margin-bottom: 12px; }
+          .airtelbgdetails .sectionFour .sectionFourBox .sectionFourBoxText p {
+            line-height: 24px;
+            color: #ffffff80; }
+        .airtelbgdetails .sectionFour .sectionFourBox .sectionFourBoxImg {
+          width: 70%; }
+    .airtelbgdetails .sectionSeven {
+      padding: 125px 100px 70px 100px; }
+      .airtelbgdetails .sectionSeven img {
+        max-width: 100%; }
+      .airtelbgdetails .sectionSeven .mobImg {
+        width: 30%;
+        margin-bottom: 50px; }
+    .airtelbgdetails .sectionFive {
+      padding: 100px 0px 100px 82px; }
+      .airtelbgdetails .sectionFive .mobtextFour h1 {
+        width: 55%;
+        line-height: 50px;
+        margin: 5px 0px 20px 0px; }
+      .airtelbgdetails .sectionFive .mobsubtextFour h5 {
+        line-height: 27px;
+        width: 55%; } }
+  @media screen and (max-width: 1400px) {
+    .airtelbgdetails {
+      margin-top: 76px; }
+      .airtelbgdetails .sectionOne {
+        padding: 0px; }
+        .airtelbgdetails .sectionOne .mobtext {
+          padding-left: 52px; }
+          .airtelbgdetails .sectionOne .mobtext h1 {
+            margin: 10px 0px;
+            line-height: 45px; }
+          .airtelbgdetails .sectionOne .mobtext h5 {
+            line-height: 25px; }
+      .airtelbgdetails .sectionTwo .mobtextTwo {
+        padding: 54px 0px 100px 52px; }
+        .airtelbgdetails .sectionTwo .mobtextTwo h1 {
+          margin: 5px 0px 10px 0px;
+          line-height: 45px;
+          width: 55%; }
+        .airtelbgdetails .sectionTwo .mobtextTwo h5 {
+          line-height: 25px;
+          width: 58%; }
+      .airtelbgdetails .sectionTwo .mobimgTwo {
+        width: 50%; }
+        .airtelbgdetails .sectionTwo .mobimgTwo img {
+          width: 100%; }
+      .airtelbgdetails .sectionThree {
+        padding: 80px 0px 80px 52px; }
+        .airtelbgdetails .sectionThree .mobtextThree h1 {
+          line-height: 45px;
+          margin: 5px 0px 10px 0px;
+          width: 55%; }
+        .airtelbgdetails .sectionThree .mobsubtextThree h5 {
+          line-height: 25px;
+          width: 58%; }
+      .airtelbgdetails .sectionFour {
+        padding: 80px 50px 0px 52px; }
+        .airtelbgdetails .sectionFour .sectionFourBox {
+          margin-bottom: 100px; }
+      .airtelbgdetails .sectionSeven {
+        padding: 50px 50px 50px 52px; }
+      .airtelbgdetails .sectionFive {
+        padding: 80px 0px 80px 52px; }
+        .airtelbgdetails .sectionFive .mobtextFour h1 {
+          width: 55%;
+          line-height: 45px;
+          margin: 5px 0px 10px 0px; }
+        .airtelbgdetails .sectionFive .mobsubtextFour h5 {
+          line-height: 25px;
+          width: 58%; } }
+  @media screen and (max-width: 1200px) {
+    .airtelbgdetails .sectionOne {
+      padding: 0px; }
+      .airtelbgdetails .sectionOne .mobtext {
+        padding-left: 32px; }
+        .airtelbgdetails .sectionOne .mobtext h1 {
+          margin: 10px 0px;
+          line-height: 40px; }
+        .airtelbgdetails .sectionOne .mobtext h5 {
+          line-height: 23px; }
+    .airtelbgdetails .sectionTwo .mobtextTwo {
+      padding: 34px 0px 60px 32px; }
+      .airtelbgdetails .sectionTwo .mobtextTwo h1 {
+        margin: 5px 0px 10px 0px;
+        line-height: 40px;
+        width: 60%; }
+      .airtelbgdetails .sectionTwo .mobtextTwo h5 {
+        line-height: 23px;
+        width: 62%; }
+    .airtelbgdetails .sectionTwo .mobimgTwo {
+      width: 50%; }
+      .airtelbgdetails .sectionTwo .mobimgTwo img {
+        width: 77%; }
+    .airtelbgdetails .sectionThree {
+      padding: 50px 0px 60px 32px; }
+      .airtelbgdetails .sectionThree .mobtextThree h1 {
+        line-height: 40px;
+        margin: 5px 0px 10px 0px;
+        width: 60%; }
+      .airtelbgdetails .sectionThree .mobsubtextThree h5 {
+        line-height: 23px;
+        width: 62%; }
+    .airtelbgdetails .sectionFour {
+      padding: 20px 0px; }
+      .airtelbgdetails .sectionFour img {
+        width: 64%; }
+    .airtelbgdetails .sectionFive {
+      padding: 50px 0px 60px 32px; }
+      .airtelbgdetails .sectionFive .mobtextFour h1 {
+        width: 60%;
+        line-height: 40px;
+        margin: 5px 0px 10px 0px; }
+      .airtelbgdetails .sectionFive .mobsubtextFour h5 {
+        line-height: 23px;
+        width: 62%; } }
+  @media screen and (max-width: 1024px) {
+    .airtelbgdetails {
+      margin-top: 73px; }
+      .airtelbgdetails .sectionOne {
+        position: relative;
+        padding: 0px; }
+        .airtelbgdetails .sectionOne .mobtext {
+          position: absolute;
+          width: 100%;
+          padding-left: 24px;
+          padding-right: 24px; }
+          .airtelbgdetails .sectionOne .mobtext h1 {
+            line-height: 36px; }
+          .airtelbgdetails .sectionOne .mobtext h5 {
+            line-height: 20px;
+            width: 100%; }
+        .airtelbgdetails .sectionOne .mobImg {
+          width: 100%;
+          margin: 40px auto 0px; }
+      .airtelbgdetails .sectionTwo {
+        display: block; }
+        .airtelbgdetails .sectionTwo .mobtextTwo {
+          width: 100%;
+          padding: 32px 24px 32px 24px; }
+          .airtelbgdetails .sectionTwo .mobtextTwo h1 {
+            line-height: 36px;
+            width: 100%; }
+          .airtelbgdetails .sectionTwo .mobtextTwo h5 {
+            line-height: 20px;
+            width: 100%; }
+        .airtelbgdetails .sectionTwo .mobimgTwo {
+          width: 100%; }
+          .airtelbgdetails .sectionTwo .mobimgTwo img {
+            width: 100%; }
+      .airtelbgdetails .sectionThree {
+        display: block;
+        padding: 32px 24px 24px 24px; }
+        .airtelbgdetails .sectionThree .mobtextThree {
+          width: 100%; }
+          .airtelbgdetails .sectionThree .mobtextThree h1 {
+            line-height: 36px;
+            width: 100%; }
+        .airtelbgdetails .sectionThree .mobsubtextThree {
+          width: 100%; }
+          .airtelbgdetails .sectionThree .mobsubtextThree h5 {
+            line-height: 20px;
+            width: 100%; }
+      .airtelbgdetails .sectionFour {
+        padding: 32px 24px 24px 24px; }
+        .airtelbgdetails .sectionFour .sectionFourBox {
+          display: block;
+          margin-bottom: 50px; }
+          .airtelbgdetails .sectionFour .sectionFourBox img {
+            width: 100%; }
+          .airtelbgdetails .sectionFour .sectionFourBox .sectionFourBoxText {
+            width: 100%; }
+            .airtelbgdetails .sectionFour .sectionFourBox .sectionFourBoxText h3 {
+              line-height: 24px;
+              margin-bottom: 5px; }
+            .airtelbgdetails .sectionFour .sectionFourBox .sectionFourBoxText p {
+              line-height: 20px; }
+          .airtelbgdetails .sectionFour .sectionFourBox .sectionFourBoxImg {
+            width: 100%; }
+      .airtelbgdetails .sectionSeven {
+        display: block;
+        padding: 0px 24px 24px 24px; }
+        .airtelbgdetails .sectionSeven .mobImg {
+          width: 100%;
+          margin-bottom: 30px; }
+          .airtelbgdetails .sectionSeven .mobImg img {
+            width: 100%; }
+      .airtelbgdetails .sectionFive {
+        padding: 32px 24px 32px 24px;
+        display: block; }
+        .airtelbgdetails .sectionFive .mobtextFour {
+          width: 100%; }
+          .airtelbgdetails .sectionFive .mobtextFour h1 {
+            width: 100%;
+            line-height: 36px; }
+        .airtelbgdetails .sectionFive .mobsubtextFour {
+          width: 100%; }
+          .airtelbgdetails .sectionFive .mobsubtextFour h1 {
+            width: 100%;
+            line-height: 36px; }
+          .airtelbgdetails .sectionFive .mobsubtextFour h5 {
+            line-height: 20px;
+            width: 100%; }
+      .airtelbgdetails .sectionSix .moreCasestudy {
+        position: static; }
+        .airtelbgdetails .sectionSix .moreCasestudy .brandLogos .relatedBox {
+          padding: 12px; }
+          .airtelbgdetails .sectionSix .moreCasestudy .brandLogos .relatedBox:nth-child(1) {
+            text-align: center; }
+          .airtelbgdetails .sectionSix .moreCasestudy .brandLogos .relatedBox:nth-child(2) {
+            text-align: center; }
+          .airtelbgdetails .sectionSix .moreCasestudy .brandLogos .relatedBox a img {
+            height: 50px; } }
+  @media screen and (max-width: 350px) {
+    .airtelbgdetails .sectionOne .mobtext h1 {
+      line-height: 30px; }
+    .airtelbgdetails .sectionOne .mobtext h5 {
+      line-height: 16px; } }
 
 #button {
   display: none; }

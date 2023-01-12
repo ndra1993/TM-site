@@ -28,7 +28,7 @@
 
             h5 {
                 line-height: 30px;
-                color: rgba(255, 255, 255, 0.5, );
+                color: #00000080;
                 width: 73%;
             }
         }
@@ -108,6 +108,7 @@
                 h5 {
                     line-height: 30px !important;
                     width: 60% !important;
+                    color:#00000080;
                    
                 }
             }
@@ -118,7 +119,7 @@
             padding: 50px 0px;
             transform: translatey(0px);
             animation: float 2s ease-in-out infinite;
-
+            p{color:#00000080;}
             img {
                 display: flex;
                 align-items: center;
@@ -156,12 +157,14 @@
                 h5 {
                     line-height: 30px !important;
                     width: 60% !important;
+                    color:#00000080;
                    
                 }
             }
         }
         .sectionFourMap{
             text-align:center;
+            p{color:#00000080;}
             h2{margin-bottom:15px;}
             img{padding-top:160px;}
         }
@@ -172,6 +175,7 @@
             justify-content: space-between;
             text-align:center;
             .startToEndTitle{width:30%;
+                p{color:#00000080;}
                 h2{margin-bottom:15px;}
                 img{max-width:100%;}
             }
@@ -182,6 +186,7 @@
             align-items: center;
             text-align:center;
             .startToEndTitle{width:33.33%;
+                h2{margin-bottom:15px;}
                 img{max-width:100%;}
             }
         }
@@ -482,6 +487,17 @@
 
                 img {
                     width: 64%;
+                }
+            }
+            .sectionFourMap h2 {margin-bottom:10px;}
+            .startToEnd {
+                .startToEndTitle{
+                    h2{margin-bottom:10px;}
+                }
+            }
+            .startToEndSecond {
+                .startToEndTitle{
+                    h2{margin-bottom:10px;}
                 }
             }
         }

@@ -83,7 +83,7 @@
         <div class="startToEnd">
             <div class="startToEndTitle">
                 <img src="<?php bloginfo('template_directory'); ?>/images/udaan-start.png">
-                <p class="font20 fontW800">Multi-route select</p>
+                <h4 class="font20 fontW800">Multi-route select</h4>
             </div>
             <div class="startToEndTitle">
                 <h2 class="font32 fontW800">Real-time stats</h2>
@@ -91,7 +91,7 @@
             </div>
             <div class="startToEndTitle">
                 <img src="<?php bloginfo('template_directory'); ?>/images/udaan-end.png">
-                <p class="font20 fontW800">Single route select</p>
+                <h4 class="font20 fontW800">Single route select</h4>
             </div>
         </div>
         <div class="startToEndSecond">
@@ -120,7 +120,7 @@
         </div>
     </section>
     <section class="sectionSix">
-        <div class="sectionSiximg"><img src="<?php bloginfo('template_directory'); ?>/images/easy-eat-footer.png"></div>
+        <div class="sectionSiximg"><img src="<?php bloginfo('template_directory'); ?>/images/udaan-mlr-footer.png"></div>
         <div class="moreCasestudy">
             <div class="brandLogos">
                 <div class="relatedBox relatedBoxone" style="background: #ec2120;">
