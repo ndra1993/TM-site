@@ -856,26 +856,44 @@ footer {
 
 /* loader css */
  .expand{
-    -webkit-animation: 1s ease 0s normal forwards 1 fadein;
-    animation: 1s ease 0s normal forwards 1 fadein;
+    -webkit-animation: 2s ease 0s normal forwards 1 fadein;
+    animation: 2s ease 0s normal forwards 1 fadein;
+
+
 }
 
 .expandnew{
-    -webkit-animation: 2s ease 0s normal forwards 1 fadein;
-    animation: 2s ease 0s normal forwards 1 fadein;
+    -webkit-animation: 1.5s ease 0s normal forwards 1 fadeinDown;
+    animation: 1.5s ease 0s normal forwards 1 fadeinDown;
 }
 .expandnewOne{
-    -webkit-animation: 3s ease 0s normal forwards 1 fadein;
-    animation: 3s ease 0s normal forwards 1 fadein;
+    -webkit-animation: 3s ease 0s normal forwards 1 fadeinDown;
+    animation: 3s ease 0s normal forwards 1 fadeinDown;
 }
 
 @keyframes fadein{
+    0% { opacity:0; }
+    25% { opacity:0.2; }
+    50% { opacity:0.5; }
+    75% { opacity:0.8; }
+    100% { opacity:1; }
+}
+
+@-webkit-keyframes fadein{
+    0% { opacity:0; }
+    25% { opacity:0.2; }
+    50% { opacity:0.5; }
+    75% { opacity:0.8; }
+    100% { opacity:1; }
+}
+
+@keyframes fadeinDown{
     0% { opacity:0; }
     66% { opacity:0; }
     100% { opacity:1; }
 }
 
-@-webkit-keyframes fadein{
+@-webkit-keyframes fadeinDown{
     0% { opacity:0; }
     66% { opacity:0; }
     100% { opacity:1; }
