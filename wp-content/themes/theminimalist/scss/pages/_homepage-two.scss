@@ -863,8 +863,8 @@ footer {
 }
 
 .expandnew{
-    -webkit-animation: 1.5s ease 0s normal forwards 1 fadeinDown;
-    animation: 1.5s ease 0s normal forwards 1 fadeinDown;
+    -webkit-animation: 1s ease 0s normal forwards 1 fadeinDown;
+    animation: 1s ease 0s normal forwards 1 fadeinDown;
 }
 .expandnewOne{
     -webkit-animation: 3s ease 0s normal forwards 1 fadeinDown;
@@ -873,17 +873,13 @@ footer {
 
 @keyframes fadein{
     0% { opacity:0; }
-    25% { opacity:0.2; }
-    50% { opacity:0.5; }
-    75% { opacity:0.8; }
+    66% { opacity:0.5; }
     100% { opacity:1; }
 }
 
 @-webkit-keyframes fadein{
     0% { opacity:0; }
-    25% { opacity:0.2; }
-    50% { opacity:0.5; }
-    75% { opacity:0.8; }
+    66% { opacity:0.5; }
     100% { opacity:1; }
 }
 
