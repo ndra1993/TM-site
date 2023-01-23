@@ -1,4 +1,5 @@
 <?php get_header(); /*Template Name: case studies listing three*/
+$homepage_id = get_option( 'page_on_front' );
 ?>  
 
 <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script> -->
@@ -23,58 +24,84 @@
         <div class="caseStudycontainerRow">
             <div class="img-column">
                 <div class="img-grp">
+
+<?php 
+$groupID = 'case_study';
+    $custom_query_args = array('post_type' => 'casestudy','posts_per_page' => 9,'order' => 'DESC','post_status' => 'publish');
+                        $custom_query_args['paged'] = get_query_var( 'paged' ) ? get_query_var( 'paged' ) : 1;
+$custom_query = new WP_Query( $custom_query_args );
+                    $count = $custom_query->found_posts;
+             
+                     while ($custom_query->have_posts()) : $custom_query->the_post(); ?>
+                            <?php 
+                                $terms = get_the_terms( $post->ID, 'casestudy_categories' );
+                                
+                                if ( $terms && ! is_wp_error( $terms ) ) :
+                                $links = array();
+                                foreach ( $terms as $term ) {
+                                $links[] = $term->slug;
+                                
+                                }
+                                $tax_links = join( " ", str_replace(' ', '-', $links));
+                                $tax = strtolower($tax_links);
+                                else :
+                                $tax = '';
+                                endif;
+                            ?>
+
                     <div class="img-holder">
-                        <a href="https://ixdtm.com/projects/theminimalist-site/case-study-details/"><img src="<?php bloginfo('template_directory'); ?>/images/phone.png"></a>
+                        <a href="https://ixdtm.com/projects/theminimalist-site/case-study-details/"><img src="<?php echo wp_get_attachment_url( get_post_thumbnail_id(get_the_ID()) ) ?>"></a>
                     </div>
-                    <div class="img-holder">
-                        <a href="https://ixdtm.com/projects/theminimalist-site/case-study-details/"><img src="<?php bloginfo('template_directory'); ?>/images/phone-two.png"></a>
-                    </div>
-                    <div class="img-holder">
-                        <a href="https://ixdtm.com/projects/theminimalist-site/case-study-details/"><img src="<?php bloginfo('template_directory'); ?>/images/phone-three.png"></a>
-                    </div><!--img-holder-->
-                    <div class="img-holder">
-                        <a href="https://ixdtm.com/projects/theminimalist-site/case-study-details/"><img src="<?php bloginfo('template_directory'); ?>/images/case-study-details-1.png"></a>
-                    </div>
+               
+                     <?php endwhile; ?>
                 </div>
             </div>
             <div class="detail-column">
                 <div class="content-grp">
-                    <div class="content-item">
-                      <a href="https://ixdtm.com/projects/theminimalist-site/case-study-details/">
+
+<?php 
+$groupID = 'case_study';
+    $custom_query_args = array('post_type' => 'casestudy','posts_per_page' => 9,'order' => 'DESC','post_status' => 'publish');
+                        $custom_query_args['paged'] = get_query_var( 'paged' ) ? get_query_var( 'paged' ) : 1;
+$custom_query = new WP_Query( $custom_query_args );
+                    $count = $custom_query->found_posts;
+              
+                     while ($custom_query->have_posts()) : $custom_query->the_post(); ?>
+                            <?php 
+                                $terms = get_the_terms( $post->ID, 'casestudy_categories' );
+                                if ( $terms && ! is_wp_error( $terms ) ) :
+                                $links = array();
+                                foreach ( $terms as $term ) {
+                                $links[] = $term->slug;
+                                $catname = $term->name;
+                                }
+                                $tax_links = join( " ", str_replace(' ', '-', $links));
+                                $tax = strtolower($tax_links);
+                                else :
+                                $tax = '';
+                                endif;
+                            ?>
+                          <!-- style="background-color: <?php echo get_field('listing_background_color'); ?>;"-->
+
+      <div class="content-item">
+                      <a href="<?php the_permalink();?>">
                         <div class="item-inner">
                             <span class="bar"></span>
-                            <p class="font14 fontW800">One to 11</p>
-                            <h2 class="font30 fontW600">Disrupting the online gaming industry</h2>
+                            <p class="font14 fontW800">
+
+                              <?php //echo $catname;
+                               the_title(); ?></p>
+                            <h2 class="font30 fontW600"><?php the_content(); ?>
+
+                           </h2>
                         </div>
                         </a>
                     </div>
-                    <div class="content-item">
-                      <a href="https://ixdtm.com/projects/theminimalist-site/case-study-details/">
-                        <div class="item-inner">
-                            <span class="bar"></span>
-                            <p class="font14 fontW800">Tata cliq luxury</p>
-                            <h2 class="font30 fontW600">Redefining experiences for india’s premier luxury lifestyle platform</h2>
-                        </div>
-                      </a>
-                    </div>
-                    <div class="content-item">
-                      <a href="https://ixdtm.com/projects/theminimalist-site/case-study-details/">
-                        <div class="item-inner">
-                            <span class="bar"></span>
-                            <p class="font14 fontW800">One to 11</p>
-                            <h2 class="font30 fontW600">Disrupting the online gaming industry</h2>
-                        </div>
-                      </a>
-                    </div>
-                    <div class="content-item">
-                      <a href="https://ixdtm.com/projects/theminimalist-site/case-study-details/">
-                        <div class="item-inner">
-                            <span class="bar"></span>
-                            <p class="font14 fontW800">Tata cliq luxury</p>
-                            <h2 class="font30 fontW600">Redefining experiences for india’s premier luxury lifestyle platform</h2>
-                        </div>
-                      </a>
-                    </div>
+
+                        <?php endwhile; ?>
+                 
+
+
                 </div>
                 <img class="mouseScroll" src="<?php bloginfo('template_directory'); ?>/images/mouse-scroll.svg">
             </div>
@@ -85,42 +112,50 @@
 </div>
 
 <div class="mobileSection">
+
+ 
+<?php 
+$groupID = 'case_study';
+    $custom_query_args = array('post_type' => 'casestudy','posts_per_page' => 9,'order' => 'DESC','post_status' => 'publish');
+                        $custom_query_args['paged'] = get_query_var( 'paged' ) ? get_query_var( 'paged' ) : 1;
+$custom_query = new WP_Query( $custom_query_args );
+                    $count = $custom_query->found_posts;
+          
+                     while ($custom_query->have_posts()) : $custom_query->the_post(); ?>
+                            <?php 
+                                $terms = get_the_terms( $post->ID, 'casestudy_categories' );
+                                if ( $terms && ! is_wp_error( $terms ) ) :
+                                $links = array();
+                                foreach ( $terms as $term ) {
+                                $links[] = $term->slug;
+                                }
+                                $tax_links = join( " ", str_replace(' ', '-', $links));
+                                $tax = strtolower($tax_links);
+                                else :
+                                $tax = '';
+                                endif;
+                            ?>
+
+
   <div class="caseStudyDetailsSection">
     <a href="#">
-      <img src="<?php bloginfo('template_directory'); ?>/images/case-study-mobile.svg">
+       <?php echo the_post_thumbnail( 'medium' ); ?>
+     <!-- <img src="<?php echo wp_get_attachment_url( get_post_thumbnail_id(get_the_ID()) ) ?>">-->
       <div class="description">
-        <p class="fontW800">ONE TO 11</p>
-        <h2 class="fontW800">Disrupting the online gaming industry</h2>
+        <p class="fontW800"><?php the_title(); ?></p>
+        <h2 class="fontW800"><?php $text = str_replace('<p>','', the_content());
+echo $text = str_replace('</p>','',$text); ?></h2>
       </div>
     </a>
   </div>
-  <div class="caseStudyDetailsSection">
-    <a href="#">
-      <img src="<?php bloginfo('template_directory'); ?>/images/case-study-mobile.svg">
-      <div class="description">
-        <p class="fontW800">TATA CLIQ LUXURY</p>
-        <h2 class="fontW800">Redefining experiences for india’s premier luxury lifestyle platform</h2>
-      </div>
-  </a>
-  </div>
-  <div class="caseStudyDetailsSection">
-    <a href="#">
-      <img src="<?php bloginfo('template_directory'); ?>/images/case-study-mobile.svg">
-      <div class="description">
-        <p class="fontW800">ONE TO 11</p>
-        <h2 class="fontW800">Disrupting the online gaming industry</h2>
-      </div>
-    </a>
-  </div>
-  <div class="caseStudyDetailsSection">
-    <a href="#">
-      <img src="<?php bloginfo('template_directory'); ?>/images/case-study-mobile.svg">
-      <div class="description">
-        <p class="fontW800">TATA CLIQ LUXURY</p>
-        <h2 class="fontW800">Redefining experiences for india’s premier luxury lifestyle platform</h2>
-      </div>
-    </a>
-  </div>
+  <?php endwhile; ?>
+
+
+
+
+
+
+
   <div class="mobileFilter">
     <div class="filterimg" data-toggle="modal" data-target="#lab-slide-bottom-popup">
       <img src="<?php bloginfo('template_directory'); ?>/images/case-study-filter.svg">
@@ -159,22 +194,22 @@
 jQuery(document).ready(function($) {
   
   setTimeout(function() {
-    jQuery('#lab-slide-bottom-popup').modal('show');
+    $('#lab-slide-bottom-popup').modal('show');
   }, 5000); 
 
-  jQuery(document).ready(function() {
-    jQuery('.lab-slide-up').find('a').attr('data-toggle', 'modal');
-    jQuery('.lab-slide-up').find('a').attr('data-target', '#lab-slide-bottom-popup');
+  $(document).ready(function() {
+    $('.lab-slide-up').find('a').attr('data-toggle', 'modal');
+    $('.lab-slide-up').find('a').attr('data-target', '#lab-slide-bottom-popup');
   });
 
 });
 
 
 /*filter js*/
-  jQuery(document).ready(function() {
-jQuery(".filterLi").click(function () {
-    jQuery(".filterLi").removeClass("active");
-    jQuery(this).addClass("active");        
+  $(document).ready(function() {
+$(".filterLi").click(function () {
+    $(".filterLi").removeClass("active");
+    $(this).addClass("active");        
 });
 });
 
@@ -217,5 +252,5 @@ jQuery(document).ready(function(){
 });
 });
 
- jQuery('.content-grp .slick-slide').eq(0).addClass('slick-active');
+ $('.content-grp .slick-slide').eq(0).addClass('slick-active');
 </script>

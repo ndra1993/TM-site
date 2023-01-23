@@ -15,7 +15,7 @@
     <section>
         <div class="sectionOne">
             <div class="mobtext wow slideInLeft">
-                <p class="font20 fontW800 colorBlack">Easy Eat</p>
+                <p class="font20 fontW800 colorBlack">Udaan</p>
                 <h1 class="font60 fontW800 colorBlack">Simplified Last Mile Routing Module</h1>
                 <h5 class="font20 colorWhite fontW500">Easy Eat is a food ordering application based in Malaysia catering to people who are usually Chinese, Malay & Indian.</h5>
             </div>

@@ -204,3 +204,194 @@ document.addEventListener( 'wpcf7mailsent', function( event ) {
 </script>
 <?php
 }
+
+//rks
+// Custom Post Case Study
+register_post_type( 'casestudy', array('labels' => array('name' => __( 'Case Study' ),
+	  	'singular_name' => __( 'Case Study' )),
+	 	'public' => true,
+	 	'has_archive' => true,
+	 	'menu_icon' => 'dashicons-format-image',
+	 	'type' => 'select',
+		'supports'=> array( 'title', 'thumbnail', 'page-attributes', 'editor'),
+	)
+);
+
+
+// create custom taxnomies
+add_action( 'init', 'create_custom_taxonomy');
+function create_custom_taxonomy() {
+	$labels = array(
+    	'name'              => __( 'Casestudy Categories'),
+	    'singular_name'     => __( 'Casestudy'),
+	    'search_items'      => __( 'Search CasestudyCategories'),
+	    'all_items'         => __( 'All Casestudy Categories'),
+	    'parent_item'       => __( 'Parent Casestudy Categories'),
+	    'edit_item'         => __( 'Edit Casestudy Categories'),
+	    'update_item'       => __( 'Update Casestudy Categories'),
+	    'add_new_item'      => __( 'Add New Casestudy Categories'),
+	    'new_item_name'     => __( 'New casestudy Categories Name'),
+	    'menu_name'         => __( 'Casestudy Categories'),
+  	);
+
+  	register_taxonomy('casestudy_categories',array('casestudy'), array(
+  		'hierarchical'  => true,
+		'show_admin_column' => true,
+    	'labels'        => $labels,
+    	'show_ui'       => true,
+    	'query_var'     => true,
+    	'rewrite'       => array( 'slug' => 'casestudy_categories' ),
+  	));
+
+	// create custom taxnomies of Hall of Fame
+	
+
+
+}
+
+
+// Script for getting academy posts
+add_action('wp_ajax_my_ajax_filter_academy', 'my_ajax_filter_academy_callback');
+add_action('wp_ajax_nopriv_my_ajax_filter_academy', 'my_ajax_filter_academy_callback');
+function my_ajax_filter_academy_callback() {
+    
+    $academy_search 	= sanitize_text_field($_POST['academy_search']);
+    $academy 			= sanitize_text_field($_POST['academy']);
+    $paged 				= sanitize_text_field($_POST['paged']);
+	$cur_page 			= $paged;
+	$paged -= 1;
+	$per_page 	= 9;
+	$previous_btn = true;
+	$next_btn = true;
+	$start = $paged * $per_page;
+
+
+    if($academy != ''){
+    	$tax_query[] = array(
+            'taxonomy' => 'casestudy_categories',
+            'field' => 'slug',
+            'terms' => $academy
+        );
+    }
+    if(empty($academy)){
+    	$args = array(
+	        'post_type' => 'casestudy',
+	        'post_status' => 'publish',
+	        'posts_per_page' => $per_page, 
+	        'offset' => $start,
+	        's' => $academy_search
+	    );
+	    $all_postb = new WP_Query( array( 'post_type' => 'casestudy', 's' => $academy_search, 'post_status' => 'publish', 'posts_per_page' => -1) );
+    }else{
+    	$args = array(
+	        'post_type' => 'casestudy',
+	        'post_status' => 'publish',
+	        'posts_per_page' => $per_page, 
+	        'offset' => $start,
+	        's' => $academy_search,
+	        'tax_query' => $tax_query
+	    );
+	    $all_postb = new WP_Query( array( 'post_type' =>'casestudy', 's' => $academy_search, 'post_status' => 'publish', 'posts_per_page' => -1, 'tax_query' => $tax_query) );
+    }
+    
+	while ( $all_postb->have_posts() ){ 
+		$all_postb->the_post();
+	}
+	
+    $academy_query = new WP_Query( $args );
+    if ( $academy_query->have_posts() ) {
+		?>
+		<div class="grid" id="librarCardHolder">
+			<?php
+			while ( $academy_query->have_posts() ) { 
+				$academy_query->the_post();
+				?>
+				<div class="work-one grid-item">
+					<a href="<?php the_permalink();?>">
+						<div class="fliterBg" style="background-color: <?php echo get_field('listing_background_color'); ?>;">
+							<div class="image-container">
+								<img src="<?php echo wp_get_attachment_url( get_post_thumbnail_id(get_the_ID()) ) ?>" class="speaker_new">
+							</div>
+							<div class="des">
+								<img src="<?php bloginfo('template_directory'); ?>/images/play_icon_new.png" class="play_icon_new">
+							</div>
+						</div>
+						<div class="label-text">
+							<p class="font24 fontW500 colorGrey"><?php the_title(); ?></p>
+							<span class="font16 fontW400 colorLightGrey"><?php echo get_field('course_duration'); ?></span>
+						</div>
+					</a>
+				</div>
+				<?php
+			}
+
+			$no_of_paginations = ceil($all_postb->post_count / $per_page);
+			if ($cur_page >= 4) {
+				$start_loop = $cur_page - 1;
+				if ($no_of_paginations > $cur_page + 1)
+					$end_loop = $cur_page + 1;
+				else if ($cur_page <= $no_of_paginations && $cur_page > $no_of_paginations - 6) {
+					$start_loop = $no_of_paginations - 6;
+					$end_loop = $no_of_paginations;
+				} else {
+					$end_loop = $no_of_paginations;
+				}
+			} else {
+				$start_loop = 1;
+				if ($no_of_paginations > 4)
+					$end_loop = 4;
+				else
+					$end_loop = $no_of_paginations;
+			}
+			?>
+		</div>
+		<?php
+		// Pagination Buttons
+		if($no_of_paginations != 1){    
+		$pag_container = "
+		<div class='academy-pagination-link' id='pagination'>
+			<ul>";
+				if ($previous_btn && $cur_page > 1) {
+					$pre = $cur_page - 1;
+					if($pre > 1){
+						$pag_container .= "<li p='1' class='active'><a href='javascript:void(0)'><<</a></li>";
+					}
+					$pag_container .= "<li p='$pre' class='active'><a href='javascript:void(0)'><</a></li>";
+					
+				} else if ($previous_btn) {
+					if($pre == 1){
+						
+						$pag_container .= "<li p='$pre' class='active'><a href='javascript:void(0)'><</a></li>";
+					}
+				}
+				for ($i = $start_loop; $i <= $end_loop; $i++) {
+				if ($cur_page == $i)
+					$pag_container .= "<li p='$i' class = 'selected' ><a href='javascript:void(0)'>{$i}</a></li>";
+				else
+					$pag_container .= "<li p='$i' class='active'><a href='javascript:void(0)'>{$i}</a></li>";
+				}
+				if ($next_btn && $cur_page < $no_of_paginations) {
+					$nex = $cur_page + 1;
+					$pag_container .= "<li p='$nex' class='active'><a href='javascript:void(0)'>></a></li>";
+					if($pre < ($no_of_paginations-2)){
+						$pag_container .= "<li p='$no_of_paginations' class='active'><a href='javascript:void(0)'>>></a></li>";
+					}
+
+				} else if ($»_btn) {
+					$pag_container .= "<li class='inactive'><a href='javascript:void(0)'>></a></li>";
+				}
+					$pag_container = $pag_container . "
+			</ul>
+		</div>";
+			echo '<div class = "pagination-nav">' . $pag_container . '</div>';
+		}
+    	wp_reset_query();
+    }else{
+    	?>
+    	<!-- Search Text Error -->
+    	<div class="no_contet"><h3 class="font36 fontW500 colorGrey">Uh, oh! There are no results matching your search.</h3></div>
+    	<?php
+    }
+    wp_die();
+}
+//rks

@@ -2,7 +2,16 @@ $(window).on('load', function(){
   setTimeout(function(){
       $('.loaderScreen').fadeOut();
       // $(".bodyHolder").fadeIn("slow");
-  }, 1000);
+  }, 500);
+  $(document).ready(function () {
+    $('.logoBox').addClass('expandnew');
+    $('.homeBox').addClass('expandnewOne');
+    $('.bannerText').addClass('expand');
+    $('.showreel-container').addClass('expandnewOne');
+});
+ 
+      
+
 });
 /*$(document).ready(function() {
     $(window).load(function() {
