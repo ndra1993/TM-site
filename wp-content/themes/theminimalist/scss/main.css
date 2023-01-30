@@ -6044,4 +6044,267 @@ footer .ftbutton {
         opacity: 1;
         visibility: visible; } }
 
+.blogs {
+  margin-top: 96px;
+  /**************************************************Media Query***************************************************/ }
+  .blogs .blogBanner {
+    position: relative;
+    padding: 0px 150px;
+    margin-bottom: 95px; }
+    .blogs .blogBanner .blogBannerImg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      width: 100%;
+      background: linear-gradient(107.89deg, #9733EE -25.36%, #482C77 100%);
+      height: 80%; }
+      .blogs .blogBanner .blogBannerImg img {
+        position: absolute;
+        right: 0;
+        top: 18%;
+        width: 55%; }
+    .blogs .blogBanner .blogBannerContent {
+      padding-top: 125px;
+      position: relative;
+      z-index: 1; }
+      .blogs .blogBanner .blogBannerContent .bolgFeatured {
+        display: flex;
+        background: #F8F8F8;
+        box-shadow: 10px 10px 20px rgba(199, 199, 199, 0.39);
+        border-radius: 40px; }
+        .blogs .blogBanner .blogBannerContent .bolgFeatured .blogFeaturedImg {
+          width: 60%; }
+        .blogs .blogBanner .blogBannerContent .bolgFeatured .blogFeaturedContent {
+          width: 40%;
+          padding: 45px 50px; }
+          .blogs .blogBanner .blogBannerContent .bolgFeatured .blogFeaturedContent h4 {
+            text-transform: uppercase;
+            margin-bottom: 16px;
+            line-height: 112.47%; }
+          .blogs .blogBanner .blogBannerContent .bolgFeatured .blogFeaturedContent h2 {
+            margin-bottom: 24px;
+            line-height: 102.47%; }
+          .blogs .blogBanner .blogBannerContent .bolgFeatured .blogFeaturedContent .para {
+            line-height: 140%;
+            letter-spacing: 0.02em;
+            margin-bottom: 72px; }
+          .blogs .blogBanner .blogBannerContent .bolgFeatured .blogFeaturedContent .blogCtaBox {
+            display: flex;
+            align-items: center;
+            justify-content: space-between; }
+            .blogs .blogBanner .blogBannerContent .bolgFeatured .blogFeaturedContent .blogCtaBox .ctaBtn {
+              padding: 16px 30px;
+              background: linear-gradient(308.48deg, rgba(255, 255, 255, 0.53) 2.36%, rgba(255, 255, 255, 0) 61.95%), #F8F8F8;
+              box-shadow: -8px -8px 20px #FFFFFF, 5px 5px 20px rgba(134, 50, 212, 0.25);
+              border-radius: 40px;
+              text-decoration: none; }
+              .blogs .blogBanner .blogBannerContent .bolgFeatured .blogFeaturedContent .blogCtaBox .ctaBtn:hover {
+                background: linear-gradient(110.93deg, #9732EE -9.7%, #6527AB 100%);
+                color: #fff; }
+            .blogs .blogBanner .blogBannerContent .bolgFeatured .blogFeaturedContent .blogCtaBox .blogDate {
+              display: flex; }
+              .blogs .blogBanner .blogBannerContent .bolgFeatured .blogFeaturedContent .blogCtaBox .blogDate p {
+                margin-left: 9px; }
+  .blogs .filterBlogSection {
+    padding: 0px 150px;
+    margin-bottom: 50px; }
+    .blogs .filterBlogSection .filtersBlog {
+      overflow: hidden; }
+      .blogs .filterBlogSection .filtersBlog #filters {
+        margin-bottom: 50px;
+        padding: 0;
+        list-style: none;
+        overflow: hidden; }
+        .blogs .filterBlogSection .filtersBlog #filters li {
+          list-style: none;
+          display: inline-block;
+          cursor: pointer;
+          position: relative;
+          margin-right: 20px; }
+          .blogs .filterBlogSection .filtersBlog #filters li span {
+            display: block;
+            padding: 16px 30px;
+            text-decoration: none;
+            cursor: pointer;
+            text-transform: capitalize;
+            transition: all ease-in-out 0.25s;
+            border: 1px solid #834BC2;
+            border-radius: 40px; }
+            .blogs .filterBlogSection .filtersBlog #filters li span.active {
+              color: #fff;
+              background: linear-gradient(110.93deg, #9732EE -9.7%, #6527AB 100%);
+              border-radius: 36px; }
+      .blogs .filterBlogSection .filtersBlog h2 {
+        margin-bottom: 40px; }
+      .blogs .filterBlogSection .filtersBlog .blogFilter {
+        display: grid;
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+        grid-template-columns: repeat(3, 1fr); }
+        .blogs .filterBlogSection .filtersBlog .blogFilter .blogFilterBox {
+          display: none; }
+          .blogs .filterBlogSection .filtersBlog .blogFilter .blogFilterBox .inside {
+            position: relative; }
+            .blogs .filterBlogSection .filtersBlog .blogFilter .blogFilterBox .inside img {
+              max-width: 100%;
+              border-radius: 30px; }
+            .blogs .filterBlogSection .filtersBlog .blogFilter .blogFilterBox .inside .details {
+              position: absolute;
+              padding: 0px 35px;
+              bottom: 20px; }
+  @media screen and (max-width: 1600px) {
+    .blogs {
+      margin-top: 86px; }
+      .blogs .blogBanner {
+        padding: 0px 100px;
+        margin-bottom: 80px; }
+        .blogs .blogBanner .blogBannerContent {
+          padding-top: 100px; }
+          .blogs .blogBanner .blogBannerContent .bolgFeatured .blogFeaturedContent {
+            padding: 35px 40px; }
+            .blogs .blogBanner .blogBannerContent .bolgFeatured .blogFeaturedContent h2 {
+              margin-bottom: 20px; }
+            .blogs .blogBanner .blogBannerContent .bolgFeatured .blogFeaturedContent .para {
+              margin-bottom: 55px; }
+      .blogs .filterBlogSection {
+        padding: 0px 100px; }
+        .blogs .filterBlogSection .filtersBlog #filters {
+          margin-bottom: 40px; }
+        .blogs .filterBlogSection .filtersBlog h2 {
+          margin-bottom: 30px; }
+        .blogs .filterBlogSection .filtersBlog .blogFilter .blogFilterBox .inside .details {
+          padding: 0px 25px;
+          bottom: 15px; } }
+  @media screen and (max-width: 1400px) {
+    .blogs {
+      margin-top: 76px; }
+      .blogs .blogBanner {
+        padding: 0px 50px;
+        margin-bottom: 50px; }
+        .blogs .blogBanner .blogBannerContent .bolgFeatured .blogFeaturedContent {
+          padding: 25px 30px; }
+          .blogs .blogBanner .blogBannerContent .bolgFeatured .blogFeaturedContent h4 {
+            margin-bottom: 10px; }
+          .blogs .blogBanner .blogBannerContent .bolgFeatured .blogFeaturedContent h2 {
+            margin-bottom: 10px; }
+          .blogs .blogBanner .blogBannerContent .bolgFeatured .blogFeaturedContent .para {
+            margin-bottom: 45px; }
+          .blogs .blogBanner .blogBannerContent .bolgFeatured .blogFeaturedContent .blogCtaBox ctaBtn {
+            padding: 12px 20px; }
+      .blogs .filterBlogSection {
+        padding: 0px 50px;
+        margin-bottom: 25px; }
+        .blogs .filterBlogSection .filtersBlog #filters {
+          margin-bottom: 25px; }
+          .blogs .filterBlogSection .filtersBlog #filters li {
+            margin-right: 15px; }
+            .blogs .filterBlogSection .filtersBlog #filters li span {
+              padding: 12px 25px; }
+        .blogs .filterBlogSection .filtersBlog h2 {
+          margin-bottom: 20px; }
+        .blogs .filterBlogSection .filtersBlog .blogFilter {
+          grid-column-gap: 20px;
+          grid-row-gap: 20px; }
+          .blogs .filterBlogSection .filtersBlog .blogFilter .blogFilterBox .inside .details {
+            padding: 0px 20px;
+            bottom: 15px; } }
+  @media screen and (max-width: 1024px) {
+    .blogs {
+      margin-top: 72px; }
+      .blogs .blogBanner {
+        padding: 0px 25px;
+        margin-bottom: 50px; }
+        .blogs .blogBanner .blogBannerContent {
+          padding-top: 25px; }
+          .blogs .blogBanner .blogBannerContent .bolgFeatured {
+            display: block; }
+            .blogs .blogBanner .blogBannerContent .bolgFeatured .blogFeaturedImg {
+              width: 100%; }
+            .blogs .blogBanner .blogBannerContent .bolgFeatured .blogFeaturedContent {
+              width: 100%;
+              padding: 20px 20px; }
+              .blogs .blogBanner .blogBannerContent .bolgFeatured .blogFeaturedContent h4 {
+                margin-bottom: 10px; }
+              .blogs .blogBanner .blogBannerContent .bolgFeatured .blogFeaturedContent h2 {
+                margin-bottom: 10px; }
+              .blogs .blogBanner .blogBannerContent .bolgFeatured .blogFeaturedContent .para {
+                margin-bottom: 45px; }
+              .blogs .blogBanner .blogBannerContent .bolgFeatured .blogFeaturedContent .blogCtaBox .ctaBtn {
+                padding: 12px 20px; }
+      .blogs .filterBlogSection {
+        padding: 0px 25px;
+        margin-bottom: 15px; }
+        .blogs .filterBlogSection .filtersBlog #filters {
+          margin-bottom: 15px; }
+          .blogs .filterBlogSection .filtersBlog #filters li {
+            margin-right: 15px;
+            margin-bottom: 10px; }
+            .blogs .filterBlogSection .filtersBlog #filters li span {
+              padding: 10px 20px; }
+        .blogs .filterBlogSection .filtersBlog h2 {
+          margin-bottom: 20px; }
+        .blogs .filterBlogSection .filtersBlog .blogFilter {
+          grid-column-gap: 15px;
+          grid-row-gap: 15px;
+          grid-template-columns: repeat(2, 1fr); }
+          .blogs .filterBlogSection .filtersBlog .blogFilter .blogFilterBox .inside .details {
+            padding: 0px 20px;
+            bottom: 15px; } }
+  @media screen and (max-width: 770px) {
+    .blogs .blogBanner .blogBannerContent {
+      padding-top: 30px; }
+      .blogs .blogBanner .blogBannerContent .bolgFeatured .blogFeaturedContent h4 {
+        margin-bottom: 30px; }
+      .blogs .blogBanner .blogBannerContent .bolgFeatured .blogFeaturedContent h2 {
+        margin-bottom: 8px; }
+      .blogs .blogBanner .blogBannerContent .bolgFeatured .blogFeaturedContent .blogCtaBox .ctaBtn {
+        padding: 10px 15px; }
+    .blogs .filterBlogSection {
+      padding: 0px 25px;
+      margin-bottom: 15px; }
+      .blogs .filterBlogSection .filtersBlog #filters {
+        margin-bottom: 25px; }
+      .blogs .filterBlogSection .filtersBlog h2 {
+        margin-bottom: 20px; }
+      .blogs .filterBlogSection .filtersBlog .blogFilter {
+        grid-column-gap: 15px;
+        grid-row-gap: 15px;
+        grid-template-columns: repeat(1, 1fr); }
+        .blogs .filterBlogSection .filtersBlog .blogFilter .blogFilterBox .inside img {
+          width: 100%;
+          border-radius: 15px; }
+        .blogs .filterBlogSection .filtersBlog .blogFilter .blogFilterBox .inside .details {
+          padding: 0px 20px;
+          bottom: 20px; } }
+
+#button {
+  display: none; }
+  @media screen and (max-width: 1024px) {
+    #button {
+      display: flex;
+      align-items: center;
+      background-color: #fff;
+      width: 48px;
+      height: 48px;
+      text-align: center;
+      border-radius: 50%;
+      position: fixed;
+      bottom: 20px;
+      right: 24px;
+      transition: background-color .3s, opacity .5s, visibility .5s;
+      opacity: 0;
+      visibility: hidden;
+      z-index: 1000;
+      cursor: pointer; }
+      #button img {
+        margin: 0 auto; }
+      #button:hover {
+        background-color: #fff; }
+      #button:active {
+        background-color: #555; }
+      #button.show {
+        opacity: 1;
+        visibility: visible; } }
+
 /*# sourceMappingURL=main.css.map */

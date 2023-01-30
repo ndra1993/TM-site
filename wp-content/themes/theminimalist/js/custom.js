@@ -1,14 +1,14 @@
 $(window).on('load', function(){
-  //setTimeout(function(){
-      //$('.loaderScreen').fadeOut();
+  setTimeout(function(){
+      $('.loaderScreen').fadeOut();
       // $(".bodyHolder").fadeIn("slow");
- // }, 500);
-  $(document).ready(function () {
+  }, 500);
+  /*$(document).ready(function () {
     $('.logoBox').addClass('expandnew');
     $('.homeBox').addClass('expandnewOne');
     $('.bannerText').addClass('expand');
     $('.showreel-container').addClass('expandnewOne');
-});
+});*/
  
       
 
