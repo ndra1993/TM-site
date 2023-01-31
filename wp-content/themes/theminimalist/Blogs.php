@@ -8,7 +8,7 @@
 
     <section class="blogBanner">
         <div class="blogBannerImg">
-            <img src="<?php bloginfo('template_directory'); ?>/images/blogs-bg.png">
+            <!-- <img src="<?php bloginfo('template_directory'); ?>/images/blogs-bg.png"> -->
         </div>
         <div class="blogBannerContent">
             <h1 class="font60 fontW600 colorBlack">Blogs</h1>
@@ -35,14 +35,16 @@
 
     <section class="filterBlogSection">
         <div class="filtersBlog">
-            <ul id="filters" class="clearfix">
-              <li><span class="filter active font20 fontW600 colorGrey" data-filter=".Finance, .Insurance, .Economics, .Global, .Healthcare">All</span></li>
-              <li><span class="font20 fontW600 colorGrey filter" data-filter=".Finance">Finance</span></li>
-              <li><span class="font20 fontW600 colorGrey filter" data-filter=".Insurance">Insurance</span></li>
-              <li><span class="font20 fontW600 colorGrey filter" data-filter=".Economics">Economics</span></li>
-              <li><span class="font20 fontW600 colorGrey filter" data-filter=".Global">Global</span></li>
-              <li><span class="font20 fontW600 colorGrey filter" data-filter=".Healthcare">Healthcare</span></li>
+            <div id="filters" >
+                <ul class="clearfix">
+                  <li><span class="filter active font20 fontW600 colorGrey" data-filter=".Finance, .Insurance, .Economics, .Global, .Healthcare">All</span></li>
+                  <li><span class="font20 fontW600 colorGrey filter" data-filter=".Finance">Finance</span></li>
+                  <li><span class="font20 fontW600 colorGrey filter" data-filter=".Insurance">Insurance</span></li>
+                  <li><span class="font20 fontW600 colorGrey filter" data-filter=".Economics">Economics</span></li>
+                  <li><span class="font20 fontW600 colorGrey filter" data-filter=".Global">Global</span></li>
+                  <li><span class="font20 fontW600 colorGrey filter" data-filter=".Healthcare">Healthcare</span></li>
                 </ul>
+            </div>
             <h2 class="font60 fontW600 colorBlack">Latest blogs</h2>
             <div class="blogFilter" id="gallery">
                 <a class="blogFilterBox Economics" href="#" data-cat="Economics">

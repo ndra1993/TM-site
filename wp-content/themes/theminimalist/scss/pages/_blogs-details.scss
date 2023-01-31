@@ -5,7 +5,7 @@
     .bannerSection{
         position:relative;
         margin-bottom:60px;
-        img{max-width:100%;}
+        img{width:100%;}
         .bannerDetails{
             position:absolute;
             bottom:65px;
@@ -15,8 +15,8 @@
         }
     }
     .blogDetailsSection{
-        padding:0px 150px;display:flex; justify-content:space-between;
-        .detailsBox{width:75%; padding-right:125px;
+        padding:0px 100px 0px 150px; display:flex; justify-content:space-between;
+        .detailsBox{width:70%; padding-right:125px;
             .breadcrumb{margin-bottom:60px;
                 li{list-style:none;display: inline;
                     a{text-decoration:none;color: #949494;}
@@ -31,10 +31,10 @@
             }
             .blogContentBox{
                 h2{font-size:40px;margin-bottom:20px;}
-                p{line-height:48px;}
+                p{line-height:40px;}
                 img{
                     max-width:100%;
-                    padding:50px 0px;
+                    padding:30px 0px;
                     border-radius:90px;
                 }
                 .sharePost{padding-top:80px;display:flex;align-items:center;
@@ -46,22 +46,79 @@
             }
         }
         .detailsBoxAuthor{
-            width:25%;
+            width:30%;
             .authorBox{
                 display:flex;
                 border-left: 4px solid #6527AB;
                 align-items:center;
+                .authorImg{
+                    img{max-width:100%;}
+                }
+                .authorDesc{margin-left:20px;
+                    .authorDate{display:flex; margin-top: 12px;
+                        img{max-width:100%; margin-right: 5px;}
+                    }
+                }
+            }
+            .quickLinks{
+                padding:40px;
+                background: #F8F8F8;
+                box-shadow: -8px -8px 20px #FFFFFF, 8px 8px 20px rgba(134, 50, 212, 0.29);
+                border-radius: 40px;
+                margin-top:130px;
+                .quickLinksBox{border-bottom: 1px solid #CBCBCB;
+                    h4{padding:24px 0px 32px 0px;}
+                    p{padding-bottom:24px;}
+                }
             }
         }
         
+    }
+
+    .relatedBlogs{padding:150px;
+        h2{font-size:40px; margin-bottom:40px;}
+        .relatedBlogsSection{
+            display:flex;
+            justify-content:space-between;
+            .relatedBlogsBox{position:relative; width:32%; border-radius: 40px; overflow: auto;
+                img{width:100%;}
+                .details{position:absolute;bottom:20px; padding:20px 35px;}
+            }
+
+        }
     }
 
 
     
 
     /**************************************************Media Query***************************************************/
+    @media screen and (max-width:1800px) {
+        .bannerSection .bannerDetails{
+            padding-left: 130px;
+        }
+        .blogDetailsSection{
+            padding:0px 90px 0px 130px;
+        }
+    }
     @media screen and (max-width:1600px) {
         margin-top:86px;
+        .bannerSection .bannerDetails{
+            padding-left: 100px;
+        }
+        .blogDetailsSection{
+            padding:0px 60px 0px 100px;
+            .detailsBox{padding-right:100px;
+                .userBox{margin-bottom:25px;}
+                .blogContentBox {
+                    h2{font-size:35px;margin-bottom:15px;}
+                    p{line-height:35px;}
+                    img{padding:25px 0px;}
+                    .sharePost{padding-top:60px;}
+                    }
+                }
+
+        }
+        .relatedBlogs{padding:100px;}
        
     }
     @media screen and (max-width:1400px) {

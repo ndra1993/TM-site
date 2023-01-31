@@ -54,7 +54,7 @@
                             &:hover{background: #00FFA3; color:#fff;}
                         }
                         .blogDate{
-                            display:flex;
+                            display:flex;align-items: center;
                             p{margin-left:9px;}
                         }
                     }
@@ -67,7 +67,7 @@
     .filterBlogSection{
         padding:0px 150px;
         margin-bottom: 50px;
-        .filtersBlog{overflow: hidden;
+        .filtersBlog{
             #filters {
                 margin-bottom: 50px;
                 padding: 0;
@@ -170,7 +170,7 @@
                         h2{margin-bottom:10px;}
                         .para{margin-bottom:45px;}
                         .blogCtaBox{
-                            ctaBtn{padding: 12px 20px;}
+                            .ctaBtn{padding: 12px 20px; font-size:16px;}
                         } 
                     }
                 }
@@ -248,16 +248,20 @@
                         h4{margin-bottom:30px;}
                         h2{margin-bottom:8px;}
                         .blogCtaBox{
-                            .ctaBtn{padding: 10px 15px;}
+                            .ctaBtn{padding: 10px 15px; text-align:center;}
                         } 
                     }
                 }
             }
         }
-        .filterBlogSection{padding:0px 25px;margin-bottom: 15px;
+        .filterBlogSection{padding:0px 25px;margin-bottom: 15px; padding-top:20px;
             .filtersBlog{
-                #filters{margin-bottom: 25px;display: flex;overflow: scroll;
+                #filters{
+                    
+                ul{
+                    margin-bottom: 25px;display: flex;overflow: scroll;
                     li{margin-bottom: 15px;}
+                    }
                 }
                 h2{margin-bottom:20px;}
                 .blogFilter{
@@ -272,6 +276,23 @@
                 } 
             }
         
+    }
+
+    @media screen and (max-width:575px) {
+        .blogBanner .blogBannerContent .bolgFeatured .blogFeaturedContent .blogCtaBox .blogDate p{font-size:12px;}
+        .filterBlogSection{padding:0px 25px;margin-bottom: 15px; padding-top:20px;
+            .filtersBlog{
+                #filters{
+                    overflow: auto;
+                    margin-left: -15px;
+                    margin-right: -15px;
+                ul{
+                    margin-bottom: 25px;display: flex;overflow: scroll;
+                    li{margin-bottom: 15px;}
+                    }
+                }
+            }
+        }
     }
 }
 

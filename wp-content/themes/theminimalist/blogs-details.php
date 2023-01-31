@@ -15,11 +15,11 @@
     </section>
     <section class="blogDetailsSection">
         <div class="detailsBox">
-            <ul class="breadcrumb">
+            <!-- <ul class="breadcrumb">
                 <li class="font24 fontW500 colorGrey"><a href="#">Home / </a></li>
                 <li class="font24 fontW500 colorGrey"><a href="#">News and Media / </a></li>
                 <li class="font24 fontW500 colorGrey">Warburg Pincus</li>
-            </ul>
+            </ul> -->
             <div class="userBox">
                 <div class="img">
                     <img src="<?php bloginfo('template_directory'); ?>/images/blog-author.png">
@@ -46,6 +46,9 @@
                         <a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/blog-slack.png"></a>
                     </div>
                 </div>
+                <div class="tags">
+                    <p class="font24 fontW700 colorBlack">Tagged <span class="fontW500 colorGrey">: Economics, Wealth</span></p>
+                </div>
             </div>
         </div>
         <div class="detailsBoxAuthor">
@@ -55,12 +58,53 @@
                 </div>
                 <div class="authorDesc">
                     <p class="font32 fontW500 colorBlack">By Amy Shen </p>
-                    <p><img src="<?php bloginfo('template_directory'); ?>/images/calendor.png">12th  December, 2022</p>
+                    <div class="authorDate">
+                        <img src="<?php bloginfo('template_directory'); ?>/images/calendor.png">
+                        <p class="font24 fontW500 colorGrey"> 12th  December, 2022 </p>
+                    </div>
+                </div>
+            </div>
+            <div class="quickLinks">
+                <h3 class="font32 fontW700 colorBlack">Quick links</h3>
+                <div class="quickLinksBox">
+                    <h4 class="font24 fontW600 colorBlack">SEA-Internet Economy & Digital Financial Services Data</h4>
+                    <p class="font16 fontW500 colorGrey">12th December, 2022</p>
+                </div>
+                <div class="quickLinksBox">
+                    <h4 class="font24 fontW600 colorBlack">SEA-Internet Economy & Digital Financial Services Data</h4>
+                    <p class="font16 fontW500 colorGrey">12th December, 2022</p>
+                </div>
+                <div class="quickLinksBox">
+                    <h4 class="font24 fontW600 colorBlack">SEA-Internet Economy & Digital Financial Services Data</h4>
+                    <p class="font16 fontW500 colorGrey">12th December, 2022</p>
                 </div>
             </div>
         </div>
+
     </section>
-   
+   <section class="relatedBlogs">
+       <h2 class="fontW600 colorBlack">Related Blogs</h2>
+       <div class="relatedBlogsSection">
+            <a href="#" class="relatedBlogsBox">
+                <img src="<?php bloginfo('template_directory'); ?>/images/blog-filter-img.png" class="">
+                <div class="details">
+                    <p class="font20 fontW600 colorWhite">Lorem ipsum dolor sit amet consectetur. Eros integer egestas venenatis...</p>
+                </div>
+            </a>
+            <a href="#" class="relatedBlogsBox">
+                <img src="<?php bloginfo('template_directory'); ?>/images/blog-filter-img.png" class="">
+                <div class="details">
+                    <p class="font20 fontW600 colorWhite">Lorem ipsum dolor sit amet consectetur. Eros integer egestas venenatis...</p>
+                </div>
+            </a>
+            <a href="#" class="relatedBlogsBox">
+                <img src="<?php bloginfo('template_directory'); ?>/images/blog-filter-img.png" class="">
+                <div class="details">
+                    <p class="font20 fontW600 colorWhite">Lorem ipsum dolor sit amet consectetur. Eros integer egestas venenatis...</p>
+                </div>
+            </a>
+        </div>
+   </section>
 </div>
 
 

@@ -6110,70 +6110,69 @@ footer .ftbutton {
                 background: #00FFA3;
                 color: #fff; }
             .blogs .blogBanner .blogBannerContent .bolgFeatured .blogFeaturedContent .blogCtaBox .blogDate {
-              display: flex; }
+              display: flex;
+              align-items: center; }
               .blogs .blogBanner .blogBannerContent .bolgFeatured .blogFeaturedContent .blogCtaBox .blogDate p {
                 margin-left: 9px; }
   .blogs .filterBlogSection {
     padding: 0px 150px;
     margin-bottom: 50px; }
-    .blogs .filterBlogSection .filtersBlog {
+    .blogs .filterBlogSection .filtersBlog #filters {
+      margin-bottom: 50px;
+      padding: 0;
+      list-style: none;
       overflow: hidden; }
-      .blogs .filterBlogSection .filtersBlog #filters {
-        margin-bottom: 50px;
-        padding: 0;
+      .blogs .filterBlogSection .filtersBlog #filters li {
         list-style: none;
-        overflow: hidden; }
-        .blogs .filterBlogSection .filtersBlog #filters li {
-          list-style: none;
-          display: inline-block;
+        display: inline-block;
+        cursor: pointer;
+        position: relative;
+        margin-right: 20px; }
+        .blogs .filterBlogSection .filtersBlog #filters li span {
+          display: block;
+          padding: 16px 30px;
+          text-decoration: none;
           cursor: pointer;
-          position: relative;
-          margin-right: 20px; }
-          .blogs .filterBlogSection .filtersBlog #filters li span {
-            display: block;
-            padding: 16px 30px;
-            text-decoration: none;
-            cursor: pointer;
-            text-transform: capitalize;
-            border: 1px solid #00FFA3;
-            border-radius: 40px; }
-            .blogs .filterBlogSection .filtersBlog #filters li span.active {
-              color: #fff;
-              background: #00FFA3;
-              border-radius: 36px; }
-      .blogs .filterBlogSection .filtersBlog h2 {
-        margin-bottom: 40px; }
-      .blogs .filterBlogSection .filtersBlog .blogFilter {
-        display: grid;
-        grid-column-gap: 30px;
-        grid-row-gap: 30px;
-        grid-template-columns: repeat(3, 1fr); }
-        .blogs .filterBlogSection .filtersBlog .blogFilter .blogFilterBox {
-          display: none; }
-          .blogs .filterBlogSection .filtersBlog .blogFilter .blogFilterBox .inside {
-            position: relative; }
-            .blogs .filterBlogSection .filtersBlog .blogFilter .blogFilterBox .inside img {
-              width: 100%;
-              border-radius: 30px; }
-            .blogs .filterBlogSection .filtersBlog .blogFilter .blogFilterBox .inside .details {
-              position: absolute;
-              padding: 0px 35px;
-              bottom: 20px; }
-      .blogs .filterBlogSection .filtersBlog .paginationBlog {
-        margin-top: 30px; }
-        .blogs .filterBlogSection .filtersBlog .paginationBlog ul {
-          display: flex;
-          justify-content: center; }
-          .blogs .filterBlogSection .filtersBlog .paginationBlog ul li {
-            padding: 6px 12px;
-            border-radius: 5px;
-            cursor: pointer;
-            margin-right: 10px;
-            list-style: none;
-            border: 1px solid #00FFA3;
-            background-color: #fff; }
-          .blogs .filterBlogSection .filtersBlog .paginationBlog ul li.active {
-            background-color: #00FFA3; }
+          text-transform: capitalize;
+          border: 1px solid #00FFA3;
+          border-radius: 40px; }
+          .blogs .filterBlogSection .filtersBlog #filters li span.active {
+            color: #fff;
+            background: #00FFA3;
+            border-radius: 36px; }
+    .blogs .filterBlogSection .filtersBlog h2 {
+      margin-bottom: 40px; }
+    .blogs .filterBlogSection .filtersBlog .blogFilter {
+      display: grid;
+      grid-column-gap: 30px;
+      grid-row-gap: 30px;
+      grid-template-columns: repeat(3, 1fr); }
+      .blogs .filterBlogSection .filtersBlog .blogFilter .blogFilterBox {
+        display: none; }
+        .blogs .filterBlogSection .filtersBlog .blogFilter .blogFilterBox .inside {
+          position: relative; }
+          .blogs .filterBlogSection .filtersBlog .blogFilter .blogFilterBox .inside img {
+            width: 100%;
+            border-radius: 30px; }
+          .blogs .filterBlogSection .filtersBlog .blogFilter .blogFilterBox .inside .details {
+            position: absolute;
+            padding: 0px 35px;
+            bottom: 20px; }
+    .blogs .filterBlogSection .filtersBlog .paginationBlog {
+      margin-top: 30px; }
+      .blogs .filterBlogSection .filtersBlog .paginationBlog ul {
+        display: flex;
+        justify-content: center; }
+        .blogs .filterBlogSection .filtersBlog .paginationBlog ul li {
+          padding: 6px 12px;
+          border-radius: 5px;
+          cursor: pointer;
+          margin-right: 10px;
+          list-style: none;
+          border: 1px solid #00FFA3;
+          background-color: #fff; }
+        .blogs .filterBlogSection .filtersBlog .paginationBlog ul li.active {
+          background-color: #00FFA3; }
   @media screen and (max-width: 1800px) {
     .blogs .blogBanner {
       margin-bottom: 80px; } }
@@ -6214,8 +6213,9 @@ footer .ftbutton {
             margin-bottom: 10px; }
           .blogs .blogBanner .blogBannerContent .bolgFeatured .blogFeaturedContent .para {
             margin-bottom: 45px; }
-          .blogs .blogBanner .blogBannerContent .bolgFeatured .blogFeaturedContent .blogCtaBox ctaBtn {
-            padding: 12px 20px; }
+          .blogs .blogBanner .blogBannerContent .bolgFeatured .blogFeaturedContent .blogCtaBox .ctaBtn {
+            padding: 12px 20px;
+            font-size: 16px; }
       .blogs .filterBlogSection {
         padding: 0px 50px;
         margin-bottom: 25px; }
@@ -6287,15 +6287,17 @@ footer .ftbutton {
       .blogs .blogBanner .blogBannerContent .bolgFeatured .blogFeaturedContent h2 {
         margin-bottom: 8px; }
       .blogs .blogBanner .blogBannerContent .bolgFeatured .blogFeaturedContent .blogCtaBox .ctaBtn {
-        padding: 10px 15px; }
+        padding: 10px 15px;
+        text-align: center; }
     .blogs .filterBlogSection {
       padding: 0px 25px;
-      margin-bottom: 15px; }
-      .blogs .filterBlogSection .filtersBlog #filters {
+      margin-bottom: 15px;
+      padding-top: 20px; }
+      .blogs .filterBlogSection .filtersBlog #filters ul {
         margin-bottom: 25px;
         display: flex;
         overflow: scroll; }
-        .blogs .filterBlogSection .filtersBlog #filters li {
+        .blogs .filterBlogSection .filtersBlog #filters ul li {
           margin-bottom: 15px; }
       .blogs .filterBlogSection .filtersBlog h2 {
         margin-bottom: 20px; }
@@ -6309,6 +6311,23 @@ footer .ftbutton {
         .blogs .filterBlogSection .filtersBlog .blogFilter .blogFilterBox .inside .details {
           padding: 0px 20px;
           bottom: 20px; } }
+  @media screen and (max-width: 575px) {
+    .blogs .blogBanner .blogBannerContent .bolgFeatured .blogFeaturedContent .blogCtaBox .blogDate p {
+      font-size: 12px; }
+    .blogs .filterBlogSection {
+      padding: 0px 25px;
+      margin-bottom: 15px;
+      padding-top: 20px; }
+      .blogs .filterBlogSection .filtersBlog #filters {
+        overflow: auto;
+        margin-left: -15px;
+        margin-right: -15px; }
+        .blogs .filterBlogSection .filtersBlog #filters ul {
+          margin-bottom: 25px;
+          display: flex;
+          overflow: scroll; }
+          .blogs .filterBlogSection .filtersBlog #filters ul li {
+            margin-bottom: 15px; } }
 
 #button {
   display: none; }
@@ -6346,7 +6365,7 @@ footer .ftbutton {
     position: relative;
     margin-bottom: 60px; }
     .blogsDetails .bannerSection img {
-      max-width: 100%; }
+      width: 100%; }
     .blogsDetails .bannerSection .bannerDetails {
       position: absolute;
       bottom: 65px;
@@ -6354,11 +6373,11 @@ footer .ftbutton {
       width: 75%;
       text-shadow: 4px 4px 14px rgba(0, 0, 0, 0.35); }
   .blogsDetails .blogDetailsSection {
-    padding: 0px 150px;
+    padding: 0px 100px 0px 150px;
     display: flex;
     justify-content: space-between; }
     .blogsDetails .blogDetailsSection .detailsBox {
-      width: 75%;
+      width: 70%;
       padding-right: 125px; }
       .blogsDetails .blogDetailsSection .detailsBox .breadcrumb {
         margin-bottom: 60px; }
@@ -6379,10 +6398,10 @@ footer .ftbutton {
         font-size: 40px;
         margin-bottom: 20px; }
       .blogsDetails .blogDetailsSection .detailsBox .blogContentBox p {
-        line-height: 48px; }
+        line-height: 40px; }
       .blogsDetails .blogDetailsSection .detailsBox .blogContentBox img {
         max-width: 100%;
-        padding: 50px 0px;
+        padding: 30px 0px;
         border-radius: 90px; }
       .blogsDetails .blogDetailsSection .detailsBox .blogContentBox .sharePost {
         padding-top: 80px;
@@ -6400,14 +6419,79 @@ footer .ftbutton {
             box-shadow: 2px 2px 4px rgba(199, 199, 199, 0.45);
             margin-right: 16px; }
     .blogsDetails .blogDetailsSection .detailsBoxAuthor {
-      width: 25%; }
+      width: 30%; }
       .blogsDetails .blogDetailsSection .detailsBoxAuthor .authorBox {
         display: flex;
         border-left: 4px solid #6527AB;
         align-items: center; }
+        .blogsDetails .blogDetailsSection .detailsBoxAuthor .authorBox .authorImg img {
+          max-width: 100%; }
+        .blogsDetails .blogDetailsSection .detailsBoxAuthor .authorBox .authorDesc {
+          margin-left: 20px; }
+          .blogsDetails .blogDetailsSection .detailsBoxAuthor .authorBox .authorDesc .authorDate {
+            display: flex;
+            margin-top: 12px; }
+            .blogsDetails .blogDetailsSection .detailsBoxAuthor .authorBox .authorDesc .authorDate img {
+              max-width: 100%;
+              margin-right: 5px; }
+      .blogsDetails .blogDetailsSection .detailsBoxAuthor .quickLinks {
+        padding: 40px;
+        background: #F8F8F8;
+        box-shadow: -8px -8px 20px #FFFFFF, 8px 8px 20px rgba(134, 50, 212, 0.29);
+        border-radius: 40px;
+        margin-top: 130px; }
+        .blogsDetails .blogDetailsSection .detailsBoxAuthor .quickLinks .quickLinksBox {
+          border-bottom: 1px solid #CBCBCB; }
+          .blogsDetails .blogDetailsSection .detailsBoxAuthor .quickLinks .quickLinksBox h4 {
+            padding: 24px 0px 32px 0px; }
+          .blogsDetails .blogDetailsSection .detailsBoxAuthor .quickLinks .quickLinksBox p {
+            padding-bottom: 24px; }
+  .blogsDetails .relatedBlogs {
+    padding: 150px; }
+    .blogsDetails .relatedBlogs h2 {
+      font-size: 40px;
+      margin-bottom: 40px; }
+    .blogsDetails .relatedBlogs .relatedBlogsSection {
+      display: flex;
+      justify-content: space-between; }
+      .blogsDetails .relatedBlogs .relatedBlogsSection .relatedBlogsBox {
+        position: relative;
+        width: 32%;
+        border-radius: 40px;
+        overflow: auto; }
+        .blogsDetails .relatedBlogs .relatedBlogsSection .relatedBlogsBox img {
+          width: 100%; }
+        .blogsDetails .relatedBlogs .relatedBlogsSection .relatedBlogsBox .details {
+          position: absolute;
+          bottom: 20px;
+          padding: 20px 35px; }
+  @media screen and (max-width: 1800px) {
+    .blogsDetails .bannerSection .bannerDetails {
+      padding-left: 130px; }
+    .blogsDetails .blogDetailsSection {
+      padding: 0px 90px 0px 130px; } }
   @media screen and (max-width: 1600px) {
     .blogsDetails {
-      margin-top: 86px; } }
+      margin-top: 86px; }
+      .blogsDetails .bannerSection .bannerDetails {
+        padding-left: 100px; }
+      .blogsDetails .blogDetailsSection {
+        padding: 0px 60px 0px 100px; }
+        .blogsDetails .blogDetailsSection .detailsBox {
+          padding-right: 100px; }
+          .blogsDetails .blogDetailsSection .detailsBox .userBox {
+            margin-bottom: 25px; }
+          .blogsDetails .blogDetailsSection .detailsBox .blogContentBox h2 {
+            font-size: 35px;
+            margin-bottom: 15px; }
+          .blogsDetails .blogDetailsSection .detailsBox .blogContentBox p {
+            line-height: 35px; }
+          .blogsDetails .blogDetailsSection .detailsBox .blogContentBox img {
+            padding: 25px 0px; }
+          .blogsDetails .blogDetailsSection .detailsBox .blogContentBox .sharePost {
+            padding-top: 60px; }
+      .blogsDetails .relatedBlogs {
+        padding: 100px; } }
   @media screen and (max-width: 1400px) {
     .blogsDetails {
       margin-top: 76px; } }
