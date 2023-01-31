@@ -49,7 +49,15 @@
             </div>
         </div>
         <div class="detailsBoxAuthor">
-            
+            <div class="authorBox">
+                <div class="authorImg">
+                    <img src="<?php bloginfo('template_directory'); ?>/images/amy.png">
+                </div>
+                <div class="authorDesc">
+                    <p class="font32 fontW500 colorBlack">By Amy Shen </p>
+                    <p><img src="<?php bloginfo('template_directory'); ?>/images/calendor.png">12th  December, 2022</p>
+                </div>
+            </div>
         </div>
     </section>
    

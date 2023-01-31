@@ -15,8 +15,8 @@
         }
     }
     .blogDetailsSection{
-        padding:0px 150px;
-        .detailsBox{width:75%;
+        padding:0px 150px;display:flex; justify-content:space-between;
+        .detailsBox{width:75%; padding-right:125px;
             .breadcrumb{margin-bottom:60px;
                 li{list-style:none;display: inline;
                     a{text-decoration:none;color: #949494;}
@@ -45,8 +45,13 @@
                 }
             }
         }
-        detailsBoxAuthor{
+        .detailsBoxAuthor{
             width:25%;
+            .authorBox{
+                display:flex;
+                border-left: 4px solid #6527AB;
+                align-items:center;
+            }
         }
         
     }

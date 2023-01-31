@@ -31,7 +31,7 @@
                 box-shadow: 10px 10px 20px rgba(199, 199, 199, 0.39);
                 border-radius: 40px;
                 .blogFeaturedImg{width:60%;
-                    img{max-width:100%;}
+                    img{width:100%; height:100%;}
                 }
                 .blogFeaturedContent{
                     width:40%;
@@ -50,6 +50,7 @@
                             box-shadow: -8px -8px 20px #FFFFFF, 5px 5px 20px rgba(134, 50, 212, 0.25);
                             border-radius: 40px;
                             text-decoration:none;
+                            font-size:18px;
                             &:hover{background: #00FFA3; color:#fff;}
                         }
                         .blogDate{
@@ -106,7 +107,7 @@
                 .blogFilterBox{display:none;
                     .inside {
                         position: relative;
-                        img{max-width:100%;border-radius: 30px;}
+                        img{width:100%;border-radius: 30px;}
                         .details{position:absolute;
                             padding:0px 35px;
                             bottom:20px;
@@ -114,7 +115,13 @@
                     }
                 }
             }
-       
+            .paginationBlog{margin-top:30px;
+                ul{display:flex; justify-content:center; 
+                    li{padding:6px 12px;border-radius:5px; cursor:pointer;margin-right:10px;list-style:none;border:1px solid #00FFA3;background-color:#fff;
+                    }
+                    li.active{background-color:#00FFA3;}
+                }
+            }
         }
     }
     
@@ -200,7 +207,7 @@
             .blogBannerContent{padding-top: 25px;
                 .bolgFeatured {display:block;
                     .blogFeaturedImg{width:100%;
-                        img{border-top-right-radius: 40px;}
+                        img{border-top-right-radius: 40px;border-top-left-radius: 40px;}
                         }
                     .blogFeaturedContent{
                         width:100%;
@@ -209,7 +216,7 @@
                         h2{margin-bottom:10px;}
                         .para{margin-bottom:45px;}
                         .blogCtaBox{
-                            .ctaBtn{padding: 12px 20px;}
+                            .ctaBtn{padding: 12px 20px; font-size:14px;}
                         } 
                     }
                 }
@@ -249,7 +256,9 @@
         }
         .filterBlogSection{padding:0px 25px;margin-bottom: 15px;
             .filtersBlog{
-                #filters{margin-bottom: 25px;}
+                #filters{margin-bottom: 25px;display: flex;overflow: scroll;
+                    li{margin-bottom: 15px;}
+                }
                 h2{margin-bottom:20px;}
                 .blogFilter{
                     grid-column-gap: 15px;

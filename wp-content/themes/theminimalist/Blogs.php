@@ -11,7 +11,7 @@
             <img src="<?php bloginfo('template_directory'); ?>/images/blogs-bg.png">
         </div>
         <div class="blogBannerContent">
-            <h1 class="font60 fontW600 colorWhite">Blogs</h1>
+            <h1 class="font60 fontW600 colorBlack">Blogs</h1>
             <div class="bolgFeatured">
                 <div class="blogFeaturedImg">
                     <img src="<?php bloginfo('template_directory'); ?>/images/blog-featured.png">
@@ -21,7 +21,7 @@
                     <h2 class="font60 fontW600 colorBlack">Lorem ipsum dolor sit amet consectetur </h2>
                     <p class="para font16 fontW500 colorBlack">Lorem ipsum dolor sit amet consectetur. Eros integer egestas venenatis nam molestie. Risus at volutpat consectetur interdum lacus vestibulum urna. Nunc elit ut massa auctor sed pellentesque. Purus nisl dui scelerisque in. Lacus molestie faucibus vestibulum et. Sollicitudin leo lacinia sapien sit at. Viverra at nunc donec at congue mauris platea...</p>
                     <div class="blogCtaBox">
-                        <a href="#" class="font16 fontW600 colorBlack ctaBtn">Read More</a>
+                        <a href="#" class="fontW600 colorBlack ctaBtn">Read More</a>
                         <div class="blogDate">
                             <img src="<?php bloginfo('template_directory'); ?>/images/calendor.png">
                             <p class="font20 fontW500 colorGrey">12th  December, 2022</p>
@@ -126,6 +126,14 @@
                   </div>
                 </a>
                   
+            </div>
+
+            <div class="paginationBlog">
+                <ul>
+                    <li class="active colorGrey font20 fontW500">1</li>
+                    <li class="colorGrey font20 fontW500">2</li>
+                    <li class="colorGrey font20 fontW500">></li>
+                </ul>
             </div>
             
         </div>
