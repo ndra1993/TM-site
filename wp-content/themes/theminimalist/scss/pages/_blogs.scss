@@ -12,7 +12,7 @@
             left: 0;
             right:0;
             width: 100%;
-            background: linear-gradient(107.89deg, #9733EE -25.36%, #482C77 100%);
+            background: #00FFA3;
             height: 80%;
             img{
                 position: absolute;
@@ -30,7 +30,9 @@
                 background: #F8F8F8;
                 box-shadow: 10px 10px 20px rgba(199, 199, 199, 0.39);
                 border-radius: 40px;
-                .blogFeaturedImg{width:60%;}
+                .blogFeaturedImg{width:60%;
+                    img{max-width:100%;}
+                }
                 .blogFeaturedContent{
                     width:40%;
                     padding:45px 50px;
@@ -48,7 +50,7 @@
                             box-shadow: -8px -8px 20px #FFFFFF, 5px 5px 20px rgba(134, 50, 212, 0.25);
                             border-radius: 40px;
                             text-decoration:none;
-                            &:hover{background: linear-gradient(110.93deg, #9732EE -9.7%, #6527AB 100%); color:#fff;}
+                            &:hover{background: #00FFA3; color:#fff;}
                         }
                         .blogDate{
                             display:flex;
@@ -82,12 +84,12 @@
                         text-decoration: none;
                         cursor: pointer;
                         text-transform: capitalize;
-                        transition: all ease-in-out 0.25s;
-                        border: 1px solid #834BC2;
+                        
+                        border: 1px solid #00FFA3;
                         border-radius: 40px;
                         &.active {
                             color: #fff;
-                            background: linear-gradient(110.93deg, #9732EE -9.7%, #6527AB 100%);
+                            background: #00FFA3;
                             border-radius: 36px;
                         }
                     }
@@ -120,11 +122,16 @@
     
 
     /**************************************************Media Query***************************************************/
+    @media screen and (max-width:1800px) {
+        .blogBanner{
+            margin-bottom: 80px;
+        }
+    }
     @media screen and (max-width:1600px) {
         margin-top:86px;
         .blogBanner{
             padding:0px 100px;
-            margin-bottom: 80px;
+            margin-bottom: 65px;
             .blogBannerContent{padding-top: 100px;
                 .bolgFeatured {
                     .blogFeaturedContent{
@@ -192,7 +199,9 @@
             margin-bottom: 50px;
             .blogBannerContent{padding-top: 25px;
                 .bolgFeatured {display:block;
-                    .blogFeaturedImg{width:100%;}
+                    .blogFeaturedImg{width:100%;
+                        img{border-top-right-radius: 40px;}
+                        }
                     .blogFeaturedContent{
                         width:100%;
                         padding: 20px 20px;

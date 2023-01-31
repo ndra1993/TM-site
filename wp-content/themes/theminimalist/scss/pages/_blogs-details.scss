@@ -1,0 +1,120 @@
+
+
+.blogsDetails {
+    margin-top:96px;
+    .bannerSection{
+        position:relative;
+        margin-bottom:60px;
+        img{max-width:100%;}
+        .bannerDetails{
+            position:absolute;
+            bottom:65px;
+            padding-left: 150px;
+            width: 75%;
+            text-shadow: 4px 4px 14px rgba(0, 0, 0, 0.35);
+        }
+    }
+    .blogDetailsSection{
+        padding:0px 150px;
+        .detailsBox{width:75%;
+            .breadcrumb{margin-bottom:60px;
+                li{list-style:none;display: inline;
+                    a{text-decoration:none;color: #949494;}
+                }
+            }
+            .userBox{
+                display:flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 38px;
+                .desc{margin-left:29px;}
+            }
+            .blogContentBox{
+                h2{font-size:40px;margin-bottom:20px;}
+                p{line-height:48px;}
+                img{
+                    max-width:100%;
+                    padding:50px 0px;
+                    border-radius:90px;
+                }
+                .sharePost{padding-top:80px;display:flex;align-items:center;
+                    p{margin-left:12px; margin-right:32px;}
+                    .shareIcon{display:flex;align-items:center;
+                        img{padding:8px;background: #F8F8F8;box-shadow: 2px 2px 4px rgba(199, 199, 199, 0.45); margin-right:16px;}
+                    }
+                }
+            }
+        }
+        detailsBoxAuthor{
+            width:25%;
+        }
+        
+    }
+
+
+    
+
+    /**************************************************Media Query***************************************************/
+    @media screen and (max-width:1600px) {
+        margin-top:86px;
+       
+    }
+    @media screen and (max-width:1400px) {
+        margin-top:76px;
+        
+
+    }
+
+    @media screen and (max-width:1200px) {
+        
+    }
+
+    @media screen and (max-width:1024px) {
+        margin-top:72px;
+        
+        
+    }
+    @media screen and (max-width:770px) {
+        
+    }
+}
+
+#button {
+    display: none;
+
+    @media screen and (max-width:1024px) {
+        display: flex;
+        align-items: center;
+        background-color: #fff;
+        width: 48px;
+        height: 48px;
+        text-align: center;
+        border-radius: 50%;
+        position: fixed;
+        bottom: 20px;
+        right: 24px;
+        transition: background-color .3s,
+        opacity .5s, visibility .5s;
+        opacity: 0;
+        visibility: hidden;
+        z-index: 1000;
+        cursor: pointer;
+
+        img {
+            margin: 0 auto;
+        }
+
+        &:hover {
+            background-color: #fff;
+        }
+
+        &:active {
+            background-color: #555;
+        }
+
+        &.show {
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+}

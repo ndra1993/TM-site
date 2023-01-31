@@ -6057,7 +6057,7 @@ footer .ftbutton {
       left: 0;
       right: 0;
       width: 100%;
-      background: linear-gradient(107.89deg, #9733EE -25.36%, #482C77 100%);
+      background: #00FFA3;
       height: 80%; }
       .blogs .blogBanner .blogBannerImg img {
         position: absolute;
@@ -6075,6 +6075,8 @@ footer .ftbutton {
         border-radius: 40px; }
         .blogs .blogBanner .blogBannerContent .bolgFeatured .blogFeaturedImg {
           width: 60%; }
+          .blogs .blogBanner .blogBannerContent .bolgFeatured .blogFeaturedImg img {
+            max-width: 100%; }
         .blogs .blogBanner .blogBannerContent .bolgFeatured .blogFeaturedContent {
           width: 40%;
           padding: 45px 50px; }
@@ -6100,7 +6102,7 @@ footer .ftbutton {
               border-radius: 40px;
               text-decoration: none; }
               .blogs .blogBanner .blogBannerContent .bolgFeatured .blogFeaturedContent .blogCtaBox .ctaBtn:hover {
-                background: linear-gradient(110.93deg, #9732EE -9.7%, #6527AB 100%);
+                background: #00FFA3;
                 color: #fff; }
             .blogs .blogBanner .blogBannerContent .bolgFeatured .blogFeaturedContent .blogCtaBox .blogDate {
               display: flex; }
@@ -6128,12 +6130,11 @@ footer .ftbutton {
             text-decoration: none;
             cursor: pointer;
             text-transform: capitalize;
-            transition: all ease-in-out 0.25s;
-            border: 1px solid #834BC2;
+            border: 1px solid #00FFA3;
             border-radius: 40px; }
             .blogs .filterBlogSection .filtersBlog #filters li span.active {
               color: #fff;
-              background: linear-gradient(110.93deg, #9732EE -9.7%, #6527AB 100%);
+              background: #00FFA3;
               border-radius: 36px; }
       .blogs .filterBlogSection .filtersBlog h2 {
         margin-bottom: 40px; }
@@ -6153,12 +6154,15 @@ footer .ftbutton {
               position: absolute;
               padding: 0px 35px;
               bottom: 20px; }
+  @media screen and (max-width: 1800px) {
+    .blogs .blogBanner {
+      margin-bottom: 80px; } }
   @media screen and (max-width: 1600px) {
     .blogs {
       margin-top: 86px; }
       .blogs .blogBanner {
         padding: 0px 100px;
-        margin-bottom: 80px; }
+        margin-bottom: 65px; }
         .blogs .blogBanner .blogBannerContent {
           padding-top: 100px; }
           .blogs .blogBanner .blogBannerContent .bolgFeatured .blogFeaturedContent {
@@ -6221,6 +6225,8 @@ footer .ftbutton {
             display: block; }
             .blogs .blogBanner .blogBannerContent .bolgFeatured .blogFeaturedImg {
               width: 100%; }
+              .blogs .blogBanner .blogBannerContent .bolgFeatured .blogFeaturedImg img {
+                border-top-right-radius: 40px; }
             .blogs .blogBanner .blogBannerContent .bolgFeatured .blogFeaturedContent {
               width: 100%;
               padding: 20px 20px; }
@@ -6277,6 +6283,104 @@ footer .ftbutton {
         .blogs .filterBlogSection .filtersBlog .blogFilter .blogFilterBox .inside .details {
           padding: 0px 20px;
           bottom: 20px; } }
+
+#button {
+  display: none; }
+  @media screen and (max-width: 1024px) {
+    #button {
+      display: flex;
+      align-items: center;
+      background-color: #fff;
+      width: 48px;
+      height: 48px;
+      text-align: center;
+      border-radius: 50%;
+      position: fixed;
+      bottom: 20px;
+      right: 24px;
+      transition: background-color .3s, opacity .5s, visibility .5s;
+      opacity: 0;
+      visibility: hidden;
+      z-index: 1000;
+      cursor: pointer; }
+      #button img {
+        margin: 0 auto; }
+      #button:hover {
+        background-color: #fff; }
+      #button:active {
+        background-color: #555; }
+      #button.show {
+        opacity: 1;
+        visibility: visible; } }
+
+.blogsDetails {
+  margin-top: 96px;
+  /**************************************************Media Query***************************************************/ }
+  .blogsDetails .bannerSection {
+    position: relative;
+    margin-bottom: 60px; }
+    .blogsDetails .bannerSection img {
+      max-width: 100%; }
+    .blogsDetails .bannerSection .bannerDetails {
+      position: absolute;
+      bottom: 65px;
+      padding-left: 150px;
+      width: 75%;
+      text-shadow: 4px 4px 14px rgba(0, 0, 0, 0.35); }
+  .blogsDetails .blogDetailsSection {
+    padding: 0px 150px; }
+    .blogsDetails .blogDetailsSection .detailsBox {
+      width: 75%; }
+      .blogsDetails .blogDetailsSection .detailsBox .breadcrumb {
+        margin-bottom: 60px; }
+        .blogsDetails .blogDetailsSection .detailsBox .breadcrumb li {
+          list-style: none;
+          display: inline; }
+          .blogsDetails .blogDetailsSection .detailsBox .breadcrumb li a {
+            text-decoration: none;
+            color: #949494; }
+      .blogsDetails .blogDetailsSection .detailsBox .userBox {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 38px; }
+        .blogsDetails .blogDetailsSection .detailsBox .userBox .desc {
+          margin-left: 29px; }
+      .blogsDetails .blogDetailsSection .detailsBox .blogContentBox h2 {
+        font-size: 40px;
+        margin-bottom: 20px; }
+      .blogsDetails .blogDetailsSection .detailsBox .blogContentBox p {
+        line-height: 48px; }
+      .blogsDetails .blogDetailsSection .detailsBox .blogContentBox img {
+        max-width: 100%;
+        padding: 50px 0px;
+        border-radius: 90px; }
+      .blogsDetails .blogDetailsSection .detailsBox .blogContentBox .sharePost {
+        padding-top: 80px;
+        display: flex;
+        align-items: center; }
+        .blogsDetails .blogDetailsSection .detailsBox .blogContentBox .sharePost p {
+          margin-left: 12px;
+          margin-right: 32px; }
+        .blogsDetails .blogDetailsSection .detailsBox .blogContentBox .sharePost .shareIcon {
+          display: flex;
+          align-items: center; }
+          .blogsDetails .blogDetailsSection .detailsBox .blogContentBox .sharePost .shareIcon img {
+            padding: 8px;
+            background: #F8F8F8;
+            box-shadow: 2px 2px 4px rgba(199, 199, 199, 0.45);
+            margin-right: 16px; }
+    .blogsDetails .blogDetailsSection detailsBoxAuthor {
+      width: 25%; }
+  @media screen and (max-width: 1600px) {
+    .blogsDetails {
+      margin-top: 86px; } }
+  @media screen and (max-width: 1400px) {
+    .blogsDetails {
+      margin-top: 76px; } }
+  @media screen and (max-width: 1024px) {
+    .blogsDetails {
+      margin-top: 72px; } }
 
 #button {
   display: none; }
