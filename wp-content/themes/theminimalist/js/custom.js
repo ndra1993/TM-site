@@ -1,8 +1,12 @@
 $(window).on('load', function(){
   setTimeout(function(){
       $('.loaderScreen').fadeOut();
+      $('.logoBox').addClass('expandnew');
+    $('.homeBox').addClass('expandnewOne');
+    $('.bannerText').addClass('expand');
+    $('.showreel-container').addClass('expandnewOne');
       // $(".bodyHolder").fadeIn("slow");
-  }, 500);
+  }, 100);
   /*$(document).ready(function () {
     $('.logoBox').addClass('expandnew');
     $('.homeBox').addClass('expandnewOne');

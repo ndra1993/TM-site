@@ -37,17 +37,19 @@
                 <p class="font20 fontW500">
                     Lorem ipsum dolor sit amet consectetur. Eros integer egestas venenatis nam molestie. Risus at volutpat consectetur interdum lacus vestibulum urna. Nunc elit ut massa auctor sed pellentesque. Purus nisl dui scelerisque in. Lacus molestie faucibus vestibulum et. Sollicitudin leo lacinia sapien sit at. Viverra at nunc donec at congue mauris platea. Facilisis diam posuere interdum diam. Odio quis tristique nisl sed vitae turpis adipiscing semper. A arcu facilisis pellentesque augue faucibus. Diam condimentum bibendum in interdum consectetur adipiscing dolor scelerisque. Arcu dui mi sed facilisi. Auctor magnis eu rhoncus urna ac diam consectetur imperdiet ac. Vulputate velit morbi sit nec faucibus. Purus tristique duis tristique sodales et. A proin ac at tristique diam. Duis cursus sapien suspendisse erat amet vulputate mauris. Vitae id justo pretium nunc nulla. Lorem dolor a tristique luctus sit ut. Risus facilisis donec ullamcorper viverra. Rhoncus at praesent diam nisl curabitur. Eu eget arcu duis molestie elit id. Sit quis rutrum tortor orci adipiscing aliquam lorem. Mauris eu nibh vitae id et massa. Cras odio parturient velit malesuada quam. Donec et venenatis ipsum vitae erat id eget at sed. Pulvinar ullamcorper interdum et ultrices. Orci rhoncus sit libero sagittis faucibus adipiscing id rhoncus. Mollis accumsan ut orci neque posuere nec eget malesuada. Pretium ut aliquet condimentum suspendisse. Consequat eget mi pharetra hac interdum pellentesque aenean at morbi. Accumsan in egestas consequat morbi. Fames dolor nunc egestas et lacus rutrum integer sem aliquam. Ut adipiscing nulla praesent id elementum. Nullam in nunc sed id. Interdum in vel ut aliquam scelerisque imperdiet. Et libero ut massa id cursus enim. Bibendum facilisis donec auctor lacus justo malesuada. Egestas vestibulum sed tristique odio imperdiet pellentesque.
                 </p>
-                <div class="sharePost">
-                    <img src="<?php bloginfo('template_directory'); ?>/images/blog-share.png"><p class="font32 fontW600 colorBlack">Share this post</p>
-                    <div class="shareIcon">
-                        <a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/blog-fb.png"></a>
-                        <a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/blog-twitter.png"></a>
-                        <a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/blog-linkdin.png"></a>
-                        <a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/blog-slack.png"></a>
+                <div class="sharePostSectionDesktop">
+                    <div class="sharePost">
+                        <img src="<?php bloginfo('template_directory'); ?>/images/blog-share.png"><p class="font32 fontW600 colorBlack">Share this post</p>
+                        <div class="shareIcon">
+                            <a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/blog-fb.png"></a>
+                            <a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/blog-twitter.png"></a>
+                            <a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/blog-linkdin.png"></a>
+                            <a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/blog-slack.png"></a>
+                        </div>
                     </div>
-                </div>
-                <div class="tags">
-                    <p class="font24 fontW700 colorBlack">Tagged <span class="fontW500 colorGrey">: Economics, Wealth</span></p>
+                    <div class="tags">
+                        <p class="font24 fontW700 colorBlack">Tagged <span class="fontW500 colorGrey">: Economics, Wealth</span></p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -62,6 +64,20 @@
                         <img src="<?php bloginfo('template_directory'); ?>/images/calendor.png">
                         <p class="font24 fontW500 colorGrey"> 12th  December, 2022 </p>
                     </div>
+                </div>
+            </div>
+            <div class="sharePostSectionMobile">
+                <div class="sharePost">
+                    <p class="font32 fontW600 colorBlack"><img src="<?php bloginfo('template_directory'); ?>/images/blog-share.png">Share this post</p>
+                    <div class="shareIcon">
+                        <a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/blog-fb.png"></a>
+                        <a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/blog-twitter.png"></a>
+                        <a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/blog-linkdin.png"></a>
+                        <a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/blog-slack.png"></a>
+                    </div>
+                </div>
+                <div class="tags">
+                    <p class="font24 fontW700 colorBlack">Tagged <span class="fontW500 colorGrey">: Economics, Wealth</span></p>
                 </div>
             </div>
             <div class="quickLinks">
@@ -84,8 +100,43 @@
     </section>
    <section class="relatedBlogs">
        <h2 class="fontW600 colorBlack">Related Blogs</h2>
+
        <div class="relatedBlogsSection">
-            <a href="#" class="relatedBlogsBox">
+            
+                <div class="relatedBlogsBox">
+                    <a href="#">
+                        <img src="<?php bloginfo('template_directory'); ?>/images/blog-filter-img.png" class="">
+                        <div class="details">
+                            <p class="font20 fontW600 colorWhite">Lorem ipsum dolor sit amet consectetur. Eros integer egestas venenatis...</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="relatedBlogsBox">
+                    <a href="#">
+                        <img src="<?php bloginfo('template_directory'); ?>/images/blog-filter-img.png" class="">
+                        <div class="details">
+                            <p class="font20 fontW600 colorWhite">Lorem ipsum dolor sit amet consectetur. Eros integer egestas venenatis...</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="relatedBlogsBox">
+                    <a href="#">
+                        <img src="<?php bloginfo('template_directory'); ?>/images/blog-filter-img.png" class="">
+                        <div class="details">
+                            <p class="font20 fontW600 colorWhite">Lorem ipsum dolor sit amet consectetur. Eros integer egestas venenatis...</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="relatedBlogsBox">
+                    <a href="#">
+                        <img src="<?php bloginfo('template_directory'); ?>/images/blog-filter-img.png" class="">
+                        <div class="details">
+                            <p class="font20 fontW600 colorWhite">Lorem ipsum dolor sit amet consectetur. Eros integer egestas venenatis...</p>
+                        </div>
+                    </a>
+                </div>
+            
+            <!-- <a href="#" class="relatedBlogsBox">
                 <img src="<?php bloginfo('template_directory'); ?>/images/blog-filter-img.png" class="">
                 <div class="details">
                     <p class="font20 fontW600 colorWhite">Lorem ipsum dolor sit amet consectetur. Eros integer egestas venenatis...</p>
@@ -102,7 +153,7 @@
                 <div class="details">
                     <p class="font20 fontW600 colorWhite">Lorem ipsum dolor sit amet consectetur. Eros integer egestas venenatis...</p>
                 </div>
-            </a>
+            </a> -->
         </div>
    </section>
 </div>
@@ -111,3 +162,27 @@
 
 <?php get_footer(); ?>
 
+<script>
+    
+jQuery('.relatedBlogsSection').slick({
+  arrows: true,
+  infinite: true,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  autoplay: false,
+  autoplaySpeed: 2000,
+  responsive: [
+    {
+      breakpoint: 920,
+      settings: {
+        arrows: true,
+        slidesToShow: 1
+      }
+    }
+    ]
+});
+
+
+
+
+</script>

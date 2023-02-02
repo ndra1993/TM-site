@@ -3265,8 +3265,24 @@ header .logoBox img {
   height: 100%;
   background: #fff;
   z-index: 99;
-  top: 0; }
+  top: 0;
+  -webkit-animation: 0s ease 0s normal forwards 1 loadera;
+  animation: 0s ease 0s normal forwards 1 loadera; }
 
+@keyframes loadera {
+  0% {
+    opacity: 0; }
+  66% {
+    opacity: 0.5; }
+  100% {
+    opacity: 1; } }
+@-webkit-keyframes loadera {
+  0% {
+    opacity: 0; }
+  66% {
+    opacity: 0.5; }
+  100% {
+    opacity: 1; } }
 .loaderScreen .wrapper {
   height: 100%; }
 
@@ -3427,8 +3443,8 @@ footer .ftbutton {
   animation: 2s ease 0s normal forwards 1 fadein; }
 
 .expandnew {
-  -webkit-animation: 1s ease 0s normal forwards 1 fadeinDown;
-  animation: 1s ease 0s normal forwards 1 fadeinDown; }
+  -webkit-animation: 1.5s ease 0s normal forwards 1 fadeinDown;
+  animation: 1.5s ease 0s normal forwards 1 fadeinDown; }
 
 .expandnewOne {
   -webkit-animation: 3s ease 0s normal forwards 1 fadeinDown;
@@ -6403,21 +6419,27 @@ footer .ftbutton {
         max-width: 100%;
         padding: 30px 0px;
         border-radius: 90px; }
-      .blogsDetails .blogDetailsSection .detailsBox .blogContentBox .sharePost {
+      .blogsDetails .blogDetailsSection .detailsBox .blogContentBox .sharePostSectionDesktop .sharePost {
         padding-top: 80px;
         display: flex;
         align-items: center; }
-        .blogsDetails .blogDetailsSection .detailsBox .blogContentBox .sharePost p {
+        .blogsDetails .blogDetailsSection .detailsBox .blogContentBox .sharePostSectionDesktop .sharePost p {
           margin-left: 12px;
           margin-right: 32px; }
-        .blogsDetails .blogDetailsSection .detailsBox .blogContentBox .sharePost .shareIcon {
+        .blogsDetails .blogDetailsSection .detailsBox .blogContentBox .sharePostSectionDesktop .sharePost .shareIcon {
           display: flex;
           align-items: center; }
-          .blogsDetails .blogDetailsSection .detailsBox .blogContentBox .sharePost .shareIcon img {
-            padding: 8px;
+          .blogsDetails .blogDetailsSection .detailsBox .blogContentBox .sharePostSectionDesktop .sharePost .shareIcon a {
+            padding: 0px;
+            border-radius: 50%;
             background: #F8F8F8;
             box-shadow: 2px 2px 4px rgba(199, 199, 199, 0.45);
             margin-right: 16px; }
+            .blogsDetails .blogDetailsSection .detailsBox .blogContentBox .sharePostSectionDesktop .sharePost .shareIcon a img {
+              padding: 8px;
+              border-radius: 0px;
+              align-items: center;
+              display: flex; }
     .blogsDetails .blogDetailsSection .detailsBoxAuthor {
       width: 30%; }
       .blogsDetails .blogDetailsSection .detailsBoxAuthor .authorBox {
@@ -6430,10 +6452,13 @@ footer .ftbutton {
           margin-left: 20px; }
           .blogsDetails .blogDetailsSection .detailsBoxAuthor .authorBox .authorDesc .authorDate {
             display: flex;
-            margin-top: 12px; }
+            margin-top: 12px;
+            align-items: center; }
             .blogsDetails .blogDetailsSection .detailsBoxAuthor .authorBox .authorDesc .authorDate img {
               max-width: 100%;
               margin-right: 5px; }
+      .blogsDetails .blogDetailsSection .detailsBoxAuthor .sharePostSectionMobile {
+        display: none; }
       .blogsDetails .blogDetailsSection .detailsBoxAuthor .quickLinks {
         padding: 40px;
         background: #F8F8F8;
@@ -6446,6 +6471,8 @@ footer .ftbutton {
             padding: 24px 0px 32px 0px; }
           .blogsDetails .blogDetailsSection .detailsBoxAuthor .quickLinks .quickLinksBox p {
             padding-bottom: 24px; }
+          .blogsDetails .blogDetailsSection .detailsBoxAuthor .quickLinks .quickLinksBox:last-child {
+            border-bottom: 0px solid #CBCBCB; }
   .blogsDetails .relatedBlogs {
     padding: 150px; }
     .blogsDetails .relatedBlogs h2 {
@@ -6456,7 +6483,7 @@ footer .ftbutton {
       justify-content: space-between; }
       .blogsDetails .relatedBlogs .relatedBlogsSection .relatedBlogsBox {
         position: relative;
-        width: 32%;
+        margin-right: 30px;
         border-radius: 40px;
         overflow: auto; }
         .blogsDetails .relatedBlogs .relatedBlogsSection .relatedBlogsBox img {
@@ -6490,14 +6517,145 @@ footer .ftbutton {
             padding: 25px 0px; }
           .blogsDetails .blogDetailsSection .detailsBox .blogContentBox .sharePost {
             padding-top: 60px; }
+        .blogsDetails .blogDetailsSection .detailsBoxAuthor .quickLinks {
+          padding: 35px;
+          margin-top: 120px; }
+          .blogsDetails .blogDetailsSection .detailsBoxAuthor .quickLinks .quickLinksBox h4 {
+            padding: 20px 0px 28px 0px; }
       .blogsDetails .relatedBlogs {
-        padding: 100px; } }
+        padding: 100px; }
+        .blogsDetails .relatedBlogs .relatedBlogsSection .relatedBlogsBox {
+          margin-right: 20px; } }
   @media screen and (max-width: 1400px) {
     .blogsDetails {
-      margin-top: 76px; } }
+      margin-top: 76px; }
+      .blogsDetails .bannerSection {
+        margin-bottom: 50px; }
+        .blogsDetails .bannerSection .bannerDetails {
+          padding-left: 50px; }
+      .blogsDetails .blogDetailsSection {
+        padding: 0px 25px 0px 50px; }
+        .blogsDetails .blogDetailsSection .detailsBox {
+          padding-right: 50px; }
+          .blogsDetails .blogDetailsSection .detailsBox .userBox {
+            margin-bottom: 20px; }
+          .blogsDetails .blogDetailsSection .detailsBox .blogContentBox h2 {
+            font-size: 30px;
+            margin-bottom: 10px; }
+          .blogsDetails .blogDetailsSection .detailsBox .blogContentBox p {
+            line-height: 25px; }
+          .blogsDetails .blogDetailsSection .detailsBox .blogContentBox img {
+            padding: 20px 0px; }
+          .blogsDetails .blogDetailsSection .detailsBox .blogContentBox .sharePost {
+            padding-top: 45px; }
+        .blogsDetails .blogDetailsSection .detailsBoxAuthor .authorBox .authorImg {
+          width: 30%; }
+        .blogsDetails .blogDetailsSection .detailsBoxAuthor .quickLinks {
+          padding: 30px;
+          margin-top: 100px; }
+          .blogsDetails .blogDetailsSection .detailsBoxAuthor .quickLinks .quickLinksBox h4 {
+            padding: 15px 0px 20px 0px; }
+      .blogsDetails .relatedBlogs {
+        padding: 60px 50px; }
+        .blogsDetails .relatedBlogs h2 {
+          font-size: 32px;
+          margin-bottom: 25px; }
+        .blogsDetails .relatedBlogs .relatedBlogsSection .relatedBlogsBox {
+          margin-right: 10px; }
+          .blogsDetails .relatedBlogs .relatedBlogsSection .relatedBlogsBox .details {
+            bottom: 5px;
+            padding: 15px 25px; } }
   @media screen and (max-width: 1024px) {
     .blogsDetails {
       margin-top: 72px; } }
+  @media screen and (max-width: 920px) {
+    .blogsDetails .bannerSection {
+      margin-bottom: 22px; }
+      .blogsDetails .bannerSection .bannerDetails {
+        padding-left: 20px; }
+    .blogsDetails .blogDetailsSection {
+      padding: 0px 20px 0px 20px;
+      display: block; }
+      .blogsDetails .blogDetailsSection .detailsBox {
+        padding-right: 0px;
+        width: 100%; }
+        .blogsDetails .blogDetailsSection .detailsBox .userBox {
+          margin-bottom: 24px;
+          display: block; }
+          .blogsDetails .blogDetailsSection .detailsBox .userBox .img {
+            margin-bottom: 13px; }
+          .blogsDetails .blogDetailsSection .detailsBox .userBox .desc {
+            margin-left: 0px;
+            line-height: 21px; }
+        .blogsDetails .blogDetailsSection .detailsBox .blogContentBox h2 {
+          font-size: 16px;
+          margin-bottom: 10px; }
+        .blogsDetails .blogDetailsSection .detailsBox .blogContentBox p {
+          line-height: 20px; }
+        .blogsDetails .blogDetailsSection .detailsBox .blogContentBox img {
+          padding: 30px 0px; }
+        .blogsDetails .blogDetailsSection .detailsBox .blogContentBox .sharePostSectionDesktop {
+          display: none; }
+          .blogsDetails .blogDetailsSection .detailsBox .blogContentBox .sharePostSectionDesktop .sharePost {
+            padding-top: 45px; }
+      .blogsDetails .blogDetailsSection .detailsBoxAuthor {
+        width: 100%;
+        margin-top: 30px; }
+        .blogsDetails .blogDetailsSection .detailsBoxAuthor .authorBox {
+          display: block;
+          border-left: 0px solid #6527AB; }
+          .blogsDetails .blogDetailsSection .detailsBoxAuthor .authorBox .authorImg {
+            width: 100%;
+            border-left: 4px solid #6527AB;
+            margin-bottom: 25px; }
+          .blogsDetails .blogDetailsSection .detailsBoxAuthor .authorBox .authorDesc {
+            width: 100%;
+            margin-left: 0px; }
+        .blogsDetails .blogDetailsSection .detailsBoxAuthor .sharePostSectionMobile {
+          display: block; }
+          .blogsDetails .blogDetailsSection .detailsBoxAuthor .sharePostSectionMobile .sharePost {
+            padding-top: 60px;
+            display: block;
+            margin-bottom: 38px; }
+            .blogsDetails .blogDetailsSection .detailsBoxAuthor .sharePostSectionMobile .sharePost p {
+              display: flex;
+              align-items: center;
+              margin-bottom: 16px; }
+              .blogsDetails .blogDetailsSection .detailsBoxAuthor .sharePostSectionMobile .sharePost p img {
+                margin-right: 10px; }
+            .blogsDetails .blogDetailsSection .detailsBoxAuthor .sharePostSectionMobile .sharePost .shareIcon {
+              display: flex;
+              align-items: center; }
+              .blogsDetails .blogDetailsSection .detailsBoxAuthor .sharePostSectionMobile .sharePost .shareIcon a {
+                padding: 0px;
+                border-radius: 50%;
+                background: #F8F8F8;
+                box-shadow: 2px 2px 4px rgba(199, 199, 199, 0.45);
+                margin-right: 16px; }
+                .blogsDetails .blogDetailsSection .detailsBoxAuthor .sharePostSectionMobile .sharePost .shareIcon a img {
+                  padding: 8px;
+                  border-radius: 0px;
+                  align-items: center;
+                  display: flex; }
+        .blogsDetails .blogDetailsSection .detailsBoxAuthor .quickLinks {
+          padding: 30px;
+          margin-top: 80px; }
+          .blogsDetails .blogDetailsSection .detailsBoxAuthor .quickLinks .quickLinksBox {
+            padding: 16px 0px; }
+            .blogsDetails .blogDetailsSection .detailsBoxAuthor .quickLinks .quickLinksBox h4 {
+              padding-bottom: 16px; }
+            .blogsDetails .blogDetailsSection .detailsBoxAuthor .quickLinks .quickLinksBox p {
+              padding-bottom: 0px; }
+    .blogsDetails .relatedBlogs {
+      padding: 80px 20px; }
+      .blogsDetails .relatedBlogs h2 {
+        font-size: 32px;
+        margin-bottom: 40px; }
+      .blogsDetails .relatedBlogs .relatedBlogsSection {
+        overflow: hidden; }
+        .blogsDetails .relatedBlogs .relatedBlogsSection .relatedBlogsBox .details {
+          bottom: 5px;
+          padding: 15px 25px; } }
 
 #button {
   display: none; }

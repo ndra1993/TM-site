@@ -4,14 +4,14 @@
 
 
 <div class="loaderScreen">
-    <div class="wrapper" style="position: relative;">
+    <!-- <div class="wrapper" style="position: relative;">
         <h2 class="loading h1 font135 fontW800" data-loading-text="Loading..."></h2>
         <div class="progress-bar">
             <span class="bar">
                 <span class="progress"></span>
             </span>
         </div>
-    </div>
+    </div> -->
 </div>
 
 

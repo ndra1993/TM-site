@@ -500,37 +500,38 @@
 </section>
 
 
+
+
+<?php get_footer(); ?>
+
 <script>
-  $('#menu').click(function(){
-    if($(this).is(":checked")) {
-        $('header').addClass("addTop");
+  jQuery('#menu').click(function(){
+    if(jQuery(this).is(":checked")) {
+        jQuery('header').addClass("addTop");
     } else {
-        $('header').removeClass("addTop");
+        jQuery('header').removeClass("addTop");
     }
 });
 
 
 
-$('.serviceSlider').slick({ 
-    autoplay: true,
+jQuery('.serviceSlider').slick({ 
+    autoplay: false,
     autoplaySpeed: 1000,
     arrows: false,
     slidesToShow: 1,
     slidesToScroll: 1,
      cssEase: 'linear',
- prevArrow: $('.prev'),
- nextArrow: $('.next'),
+ prevArrow: jQuery('.prev'),
+ nextArrow: jQuery('.next'),
  dots: true
   });
-/*$('.serviceSlider').mouseover(function() {
-  $(this).slick('play')
+jQuery('.serviceSlider').mouseover(function() {
+  jQuery(this).slick('play')
 });
-$('.serviceSlider').mouseout(function() {
-  $(this).slick('pause')
-});*/
+jQuery('.serviceSlider').mouseout(function() {
+  jQuery(this).slick('pause')
+});
 
 
 </script>
-
-<?php get_footer(); ?>
-
