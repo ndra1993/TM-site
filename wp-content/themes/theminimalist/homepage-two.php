@@ -42,3 +42,21 @@
 
 <?php get_footer(); ?>
 
+<script>
+    $(window).on('load', function(){
+      setTimeout(function(){
+          $('.loaderScreen').fadeOut();
+          $('.logoBox').addClass('expandnew');
+        $('.homeBox').addClass('expandnewOne');
+        $('.bannerText').addClass('expand');
+        $('.showreel-container').addClass('expandnewOne');
+          // $(".bodyHolder").fadeIn("slow");
+      }, 100);
+      /*$(document).ready(function () {
+        $('.logoBox').addClass('expandnew');
+        $('.homeBox').addClass('expandnewOne');
+        $('.bannerText').addClass('expand');
+        $('.showreel-container').addClass('expandnewOne');
+    });*/
+});
+</script>

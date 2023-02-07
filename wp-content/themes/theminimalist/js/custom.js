@@ -1,4 +1,4 @@
-$(window).on('load', function(){
+/*$(window).on('load', function(){
   setTimeout(function(){
       $('.loaderScreen').fadeOut();
       $('.logoBox').addClass('expandnew');
@@ -7,16 +7,16 @@ $(window).on('load', function(){
     $('.showreel-container').addClass('expandnewOne');
       // $(".bodyHolder").fadeIn("slow");
   }, 100);
-  /*$(document).ready(function () {
+  $(document).ready(function () {
     $('.logoBox').addClass('expandnew');
     $('.homeBox').addClass('expandnewOne');
     $('.bannerText').addClass('expand');
     $('.showreel-container').addClass('expandnewOne');
-});*/
+});
  
       
 
-});
+});*/
 /*$(document).ready(function() {
     $(window).load(function() {
      

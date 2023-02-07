@@ -26,10 +26,10 @@ function tm_website_setup() {
 		* If you're building a theme based on TM-Website, use a find and replace
 		* to change 'tm-website' to the name of your theme in all the template files.
 		*/
-	load_theme_textdomain( 'tm-website', get_template_directory() . '/languages' );
+		load_theme_textdomain( 'tm-website', get_template_directory() . '/languages' );
 
 	// Add default posts and comments RSS feed links to head.
-	add_theme_support( 'automatic-feed-links' );
+		add_theme_support( 'automatic-feed-links' );
 
 	/*
 		* Let WordPress manage the document title.
@@ -37,53 +37,53 @@ function tm_website_setup() {
 		* hard-coded <title> tag in the document head, and expect WordPress to
 		* provide it for us.
 		*/
-	add_theme_support( 'title-tag' );
+		add_theme_support( 'title-tag' );
 
 	/*
 		* Enable support for Post Thumbnails on posts and pages.
 		*
 		* @link https://developer.wordpress.org/themes/functionality/featured-images-post-thumbnails/
 		*/
-	add_theme_support( 'post-thumbnails' );
+		add_theme_support( 'post-thumbnails' );
 
 	// This theme uses wp_nav_menu() in one location.
-	register_nav_menus(
-		array(
-			'menu-1' => esc_html__( 'Primary', 'tm-website' ),
-		)
-	);
+		register_nav_menus(
+			array(
+				'menu-1' => esc_html__( 'Primary', 'tm-website' ),
+			)
+		);
 
 	/*
 		* Switch default core markup for search form, comment form, and comments
 		* to output valid HTML5.
 		*/
-	add_theme_support(
-		'html5',
-		array(
-			'search-form',
-			'comment-form',
-			'comment-list',
-			'gallery',
-			'caption',
-			'style',
-			'script',
-		)
-	);
+		add_theme_support(
+			'html5',
+			array(
+				'search-form',
+				'comment-form',
+				'comment-list',
+				'gallery',
+				'caption',
+				'style',
+				'script',
+			)
+		);
 
 	// Set up the WordPress core custom background feature.
-	add_theme_support(
-		'custom-background',
-		apply_filters(
-			'tm_website_custom_background_args',
-			array(
-				'default-color' => 'ffffff',
-				'default-image' => '',
+		add_theme_support(
+			'custom-background',
+			apply_filters(
+				'tm_website_custom_background_args',
+				array(
+					'default-color' => 'ffffff',
+					'default-image' => '',
+				)
 			)
-		)
-	);
+		);
 
 	// Add theme support for selective refresh for widgets.
-	add_theme_support( 'customize-selective-refresh-widgets' );
+		add_theme_support( 'customize-selective-refresh-widgets' );
 
 	/**
 	 * Add support for core custom logo.
@@ -194,27 +194,29 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 
 //This function prints the JavaScript to the footer
 add_action( 'wp_footer', 'redirect_cf7' );
- 
+
 function redirect_cf7() {
-?>
-<script type="text/javascript">
-document.addEventListener( 'wpcf7mailsent', function( event ) {
-       location = 'http://localhost/wp-tm-site/thank-you/';
-}, false );
-</script>
-<?php
+	?>
+	<script type="text/javascript">
+		document.addEventListener( 'wpcf7mailsent', function( event ) {
+			location = 'http://localhost/wp-tm-site/thank-you/';
+		}, false );
+	</script>
+	<?php
 }
+
+
 
 //rks
 // Custom Post Case Study
 register_post_type( 'casestudy', array('labels' => array('name' => __( 'Case Study' ),
-	  	'singular_name' => __( 'Case Study' )),
-	 	'public' => true,
-	 	'has_archive' => true,
-	 	'menu_icon' => 'dashicons-format-image',
-	 	'type' => 'select',
-		'supports'=> array( 'title', 'thumbnail', 'page-attributes', 'editor'),
-	)
+	'singular_name' => __( 'Case Study' )),
+'public' => true,
+'has_archive' => true,
+'menu_icon' => 'dashicons-format-image',
+'type' => 'select',
+'supports'=> array( 'title', 'thumbnail', 'page-attributes', 'editor'),
+)
 );
 
 
@@ -222,26 +224,26 @@ register_post_type( 'casestudy', array('labels' => array('name' => __( 'Case Stu
 add_action( 'init', 'create_custom_taxonomy');
 function create_custom_taxonomy() {
 	$labels = array(
-    	'name'              => __( 'Casestudy Categories'),
-	    'singular_name'     => __( 'Casestudy'),
-	    'search_items'      => __( 'Search CasestudyCategories'),
-	    'all_items'         => __( 'All Casestudy Categories'),
-	    'parent_item'       => __( 'Parent Casestudy Categories'),
-	    'edit_item'         => __( 'Edit Casestudy Categories'),
-	    'update_item'       => __( 'Update Casestudy Categories'),
-	    'add_new_item'      => __( 'Add New Casestudy Categories'),
-	    'new_item_name'     => __( 'New casestudy Categories Name'),
-	    'menu_name'         => __( 'Casestudy Categories'),
-  	);
+		'name'              => __( 'Casestudy Categories'),
+		'singular_name'     => __( 'Casestudy'),
+		'search_items'      => __( 'Search CasestudyCategories'),
+		'all_items'         => __( 'All Casestudy Categories'),
+		'parent_item'       => __( 'Parent Casestudy Categories'),
+		'edit_item'         => __( 'Edit Casestudy Categories'),
+		'update_item'       => __( 'Update Casestudy Categories'),
+		'add_new_item'      => __( 'Add New Casestudy Categories'),
+		'new_item_name'     => __( 'New casestudy Categories Name'),
+		'menu_name'         => __( 'Casestudy Categories'),
+	);
 
-  	register_taxonomy('casestudy_categories',array('casestudy'), array(
-  		'hierarchical'  => true,
+	register_taxonomy('casestudy_categories',array('casestudy'), array(
+		'hierarchical'  => true,
 		'show_admin_column' => true,
-    	'labels'        => $labels,
-    	'show_ui'       => true,
-    	'query_var'     => true,
-    	'rewrite'       => array( 'slug' => 'casestudy_categories' ),
-  	));
+		'labels'        => $labels,
+		'show_ui'       => true,
+		'query_var'     => true,
+		'rewrite'       => array( 'slug' => 'casestudy_categories' ),
+	));
 
 	// create custom taxnomies of Hall of Fame
 	
@@ -254,10 +256,10 @@ function create_custom_taxonomy() {
 add_action('wp_ajax_my_ajax_filter_academy', 'my_ajax_filter_academy_callback');
 add_action('wp_ajax_nopriv_my_ajax_filter_academy', 'my_ajax_filter_academy_callback');
 function my_ajax_filter_academy_callback() {
-    
-    $academy_search 	= sanitize_text_field($_POST['academy_search']);
-    $academy 			= sanitize_text_field($_POST['academy']);
-    $paged 				= sanitize_text_field($_POST['paged']);
+
+	$academy_search 	= sanitize_text_field($_POST['academy_search']);
+	$academy 			= sanitize_text_field($_POST['academy']);
+	$paged 				= sanitize_text_field($_POST['paged']);
 	$cur_page 			= $paged;
 	$paged -= 1;
 	$per_page 	= 9;
@@ -266,40 +268,40 @@ function my_ajax_filter_academy_callback() {
 	$start = $paged * $per_page;
 
 
-    if($academy != ''){
-    	$tax_query[] = array(
-            'taxonomy' => 'casestudy_categories',
-            'field' => 'slug',
-            'terms' => $academy
-        );
-    }
-    if(empty($academy)){
-    	$args = array(
-	        'post_type' => 'casestudy',
-	        'post_status' => 'publish',
-	        'posts_per_page' => $per_page, 
-	        'offset' => $start,
-	        's' => $academy_search
-	    );
-	    $all_postb = new WP_Query( array( 'post_type' => 'casestudy', 's' => $academy_search, 'post_status' => 'publish', 'posts_per_page' => -1) );
-    }else{
-    	$args = array(
-	        'post_type' => 'casestudy',
-	        'post_status' => 'publish',
-	        'posts_per_page' => $per_page, 
-	        'offset' => $start,
-	        's' => $academy_search,
-	        'tax_query' => $tax_query
-	    );
-	    $all_postb = new WP_Query( array( 'post_type' =>'casestudy', 's' => $academy_search, 'post_status' => 'publish', 'posts_per_page' => -1, 'tax_query' => $tax_query) );
-    }
-    
+	if($academy != ''){
+		$tax_query[] = array(
+			'taxonomy' => 'casestudy_categories',
+			'field' => 'slug',
+			'terms' => $academy
+		);
+	}
+	if(empty($academy)){
+		$args = array(
+			'post_type' => 'casestudy',
+			'post_status' => 'publish',
+			'posts_per_page' => $per_page, 
+			'offset' => $start,
+			's' => $academy_search
+		);
+		$all_postb = new WP_Query( array( 'post_type' => 'casestudy', 's' => $academy_search, 'post_status' => 'publish', 'posts_per_page' => -1) );
+	}else{
+		$args = array(
+			'post_type' => 'casestudy',
+			'post_status' => 'publish',
+			'posts_per_page' => $per_page, 
+			'offset' => $start,
+			's' => $academy_search,
+			'tax_query' => $tax_query
+		);
+		$all_postb = new WP_Query( array( 'post_type' =>'casestudy', 's' => $academy_search, 'post_status' => 'publish', 'posts_per_page' => -1, 'tax_query' => $tax_query) );
+	}
+
 	while ( $all_postb->have_posts() ){ 
 		$all_postb->the_post();
 	}
 	
-    $academy_query = new WP_Query( $args );
-    if ( $academy_query->have_posts() ) {
+	$academy_query = new WP_Query( $args );
+	if ( $academy_query->have_posts() ) {
 		?>
 		<div class="grid" id="librarCardHolder">
 			<?php
@@ -348,50 +350,159 @@ function my_ajax_filter_academy_callback() {
 		<?php
 		// Pagination Buttons
 		if($no_of_paginations != 1){    
-		$pag_container = "
-		<div class='academy-pagination-link' id='pagination'>
+			$pag_container = "
+			<div class='academy-pagination-link' id='pagination'>
 			<ul>";
-				if ($previous_btn && $cur_page > 1) {
-					$pre = $cur_page - 1;
-					if($pre > 1){
-						$pag_container .= "<li p='1' class='active'><a href='javascript:void(0)'><<</a></li>";
-					}
-					$pag_container .= "<li p='$pre' class='active'><a href='javascript:void(0)'><</a></li>";
-					
-				} else if ($previous_btn) {
-					if($pre == 1){
-						
-						$pag_container .= "<li p='$pre' class='active'><a href='javascript:void(0)'><</a></li>";
-					}
+			if ($previous_btn && $cur_page > 1) {
+				$pre = $cur_page - 1;
+				if($pre > 1){
+					$pag_container .= "<li p='1' class='active'><a href='javascript:void(0)'><<</a></li>";
 				}
-				for ($i = $start_loop; $i <= $end_loop; $i++) {
+				$pag_container .= "<li p='$pre' class='active'><a href='javascript:void(0)'><</a></li>";
+
+			} else if ($previous_btn) {
+				if($pre == 1){
+
+					$pag_container .= "<li p='$pre' class='active'><a href='javascript:void(0)'><</a></li>";
+				}
+			}
+			for ($i = $start_loop; $i <= $end_loop; $i++) {
 				if ($cur_page == $i)
 					$pag_container .= "<li p='$i' class = 'selected' ><a href='javascript:void(0)'>{$i}</a></li>";
 				else
 					$pag_container .= "<li p='$i' class='active'><a href='javascript:void(0)'>{$i}</a></li>";
+			}
+			if ($next_btn && $cur_page < $no_of_paginations) {
+				$nex = $cur_page + 1;
+				$pag_container .= "<li p='$nex' class='active'><a href='javascript:void(0)'>></a></li>";
+				if($pre < ($no_of_paginations-2)){
+					$pag_container .= "<li p='$no_of_paginations' class='active'><a href='javascript:void(0)'>>></a></li>";
 				}
-				if ($next_btn && $cur_page < $no_of_paginations) {
-					$nex = $cur_page + 1;
-					$pag_container .= "<li p='$nex' class='active'><a href='javascript:void(0)'>></a></li>";
-					if($pre < ($no_of_paginations-2)){
-						$pag_container .= "<li p='$no_of_paginations' class='active'><a href='javascript:void(0)'>>></a></li>";
-					}
 
-				} else if ($»_btn) {
-					$pag_container .= "<li class='inactive'><a href='javascript:void(0)'>></a></li>";
-				}
-					$pag_container = $pag_container . "
+			} else if ($»_btn) {
+				$pag_container .= "<li class='inactive'><a href='javascript:void(0)'>></a></li>";
+			}
+			$pag_container = $pag_container . "
 			</ul>
-		</div>";
+			</div>";
 			echo '<div class = "pagination-nav">' . $pag_container . '</div>';
 		}
-    	wp_reset_query();
-    }else{
-    	?>
-    	<!-- Search Text Error -->
-    	<div class="no_contet"><h3 class="font36 fontW500 colorGrey">Uh, oh! There are no results matching your search.</h3></div>
-    	<?php
-    }
-    wp_die();
+		wp_reset_query();
+	}else{
+		?>
+		<!-- Search Text Error -->
+		<div class="no_contet"><h3 class="font36 fontW500 colorGrey">Uh, oh! There are no results matching your search.</h3></div>
+		<?php
+	}
+	wp_die();
 }
+
+
+add_action("wp_ajax_productFilter", "my_post");
+
+
+function my_post(){
+	$data = $_POST['slug_data'];
+		// $custom_query =[];
+
+	// global $wpdb;
+	// $query  = "SELECT * from wp_posts WHERE post_type='casestudy' AND 'posts_per_page'=4 AND 'order'='DESC' AND 'post_status'='publish' AND 
+	// 'name' IN (implode(',',$data)) ";
+	// echo $wpdb->query($query);
+	// die;
+
+	//  echo $wpdb->last_query;
+	//  die;
+
+	// $groupID = 'case_study';
+	// SELECT * from wp_posts WHERE post_type='casestudy' AND 'posts_per_page'=4 AND 'order'='DESC' AND 'post_status'='publish' AND 
+	// 'name' IN (implode(',',data))
+	// $custom_query_args = array('post_type' => 'casestudy','posts_per_page' => 4,'order' => 'DESC','post_status' => 'publish');
+	// echo $wpdb->last_query;
+	// die;
+
+	// $custom_query_args['meta_query']=array(
+	// 	array(
+	// 		'key' => 'app_trailer-type',
+	// 		'value' => $job_tailor,
+	// 		'compare' => 'LIKE'
+	// 	)
+	// );
+	
+	// $mainArray = ['relation' => 'AND']; 
+	// if(count($data) > 0){
+	// 	for ($i=0; $i < count($data); $i++) { 
+	// 		array_push($mainArray,['relation' => 'OR','key'=>'name','value'=> [$data[$i]],'compare' => 'IN']);
+	// 	}
+	// }
+	// $custom_query_args['meta_query'] = $mainArray; 
+	// // echo  json_encode($custom_query_args['meta_query'] ); die; 
+	// $custom_query_args['paged'] = get_query_var( 'paged' ) ? get_query_var( 'paged' ) : 1;
+	// $custom_query = new WP_Query( $custom_query_args );
+
+	
+
+	if ($_POST['slug_data'] =='branding') {
+		$groupID = 'case_study';
+		$custom_query_args = array('name'=>$data,'post_type' => 'casestudy','posts_per_page' => 4,'order' => 'DESC','post_status' => 'publish');
+		$custom_query_args['paged'] = get_query_var( 'paged' ) ? get_query_var( 'paged' ) : 1;
+		$custom_query = new WP_Query( $custom_query_args );
+	}elseif($_POST['slug_data']  =='experience-design'){
+      $groupID = 'case_study';
+		$custom_query_args = array('name'=>$data,'post_type' => 'casestudy','posts_per_page' => 4,'order' => 'DESC','post_status' => 'publish');
+		$custom_query_args['paged'] = get_query_var( 'paged' ) ? get_query_var( 'paged' ) : 1;
+		$custom_query = new WP_Query( $custom_query_args );
+
+	}elseif($_POST['slug_data']  =='marketing-solutions'){
+     $groupID = 'case_study';
+		$custom_query_args = array('name'=>$data,'post_type' => 'casestudy','posts_per_page' => 4,'order' => 'DESC','post_status' => 'publish');
+		$custom_query_args['paged'] = get_query_var( 'paged' ) ? get_query_var( 'paged' ) : 1;
+		$custom_query = new WP_Query( $custom_query_args );
+	}elseif($_POST['slug_data']  =='strategy-and-consulting'){
+		     $groupID = 'case_study';
+		$custom_query_args = array('name'=>$data,'post_type' => 'casestudy','posts_per_page' => 4,'order' => 'DESC','post_status' => 'publish');
+		$custom_query_args['paged'] = get_query_var( 'paged' ) ? get_query_var( 'paged' ) : 1;
+		$custom_query = new WP_Query( $custom_query_args );	
+	}elseif($_POST['slug_data'] =='technology'){
+		     $groupID = 'case_study';
+		$custom_query_args = array('name'=>$data,'post_type' => 'casestudy','posts_per_page' => 4,'order' => 'DESC','post_status' => 'publish');
+		$custom_query_args['paged'] = get_query_var( 'paged' ) ? get_query_var( 'paged' ) : 1;
+		$custom_query = new WP_Query( $custom_query_args );
+	}elseif($_POST['slug_data'] =='video-production'){
+		     $groupID = 'case_study';
+		$custom_query_args = array('name'=>$data,'post_type' => 'casestudy','posts_per_page' => 4,'order' => 'DESC','post_status' => 'publish');
+		$custom_query_args['paged'] = get_query_var( 'paged' ) ? get_query_var( 'paged' ) : 1;
+		$custom_query = new WP_Query( $custom_query_args );
+	}else{
+		     $groupID = 'case_study';
+		$custom_query_args = array('post_type' => 'casestudy','posts_per_page' => 4,'order' => 'DESC','post_status' => 'publish');
+		$custom_query_args['paged'] = get_query_var( 'paged' ) ? get_query_var( 'paged' ) : 1;
+		$custom_query = new WP_Query( $custom_query_args->the_post());
+	}
+
+	
+$my_posts = get_posts($custom_query_args);
+ 
+
+
+
+
+echo json_encode($my_posts);
+  
+
+
+	
+
+}
+
+
+
+
 //rks
+
+
+
+
+
+
+
