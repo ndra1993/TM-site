@@ -27,10 +27,11 @@
                 }
             }
         }
-        .blogsDetailsTwo{width:65%;
+        .blogsDetailsTwo{width:65%;height: calc(100vh);overflow-x: auto;
             p{line-height:30px;}
             img{padding:50px 0px; max-width: 100%;}
             h4{margin-bottom:35px;}
+            &::-webkit-scrollbar {display: none;}
         }
         .authorBoxMobile{display:none;}
     }
@@ -154,7 +155,7 @@
             h2{margin-bottom: 20px; line-height: 40px;}
             .authorBoxDesktop{display:none;}
         }
-        .blogsDetailsTwo{width:100%;margin-bottom: 30px;
+        .blogsDetailsTwo{width:100%;margin-bottom: 30px;height: auto;overflow-x: auto;
             img{padding:10px 0px; max-width: 100%;}
             h4{margin-bottom:10px;}
         }
