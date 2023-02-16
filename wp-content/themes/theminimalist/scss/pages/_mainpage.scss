@@ -31,6 +31,8 @@
       .homeBox {
         display: flex;
         align-items: center;
+        justify-content: end;
+        width: 25%;
   
         .headerCta {
           width: 40%;
@@ -753,7 +755,7 @@
         border-top: 1px solid #000;
       
         .footerCta {
-          width: 50%;
+          width: 100%;
       
           .connectCta {
             background: #00FFA3;

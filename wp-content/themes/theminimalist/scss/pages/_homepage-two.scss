@@ -32,6 +32,8 @@ header {
     .homeBox {
       display: flex;
       align-items: center;
+      justify-content: end;
+      width: 25%;
 
       .headerCta {
         width: 40%;
@@ -283,58 +285,61 @@ header {
     }
 
     @media screen and (max-width:1024px) {
-      padding: 0px 32px 0px 22px;
-      .homeBox .hamburgerMenu {
-        width: 100%;
-        .m-menu .menu__list {
-          height: calc(100vh - 106px);
-
-          li {
-            &:nth-last-child(1) {
-              border-bottom: none;
-            }
-          }
-        }
-
-        label.m-menu__toggle {
-          img {
-            height: 16px;
-          }
-
-          &.crossMenuicon {
-            img {
-              height: 21px;
-              width: 21px;
-            }
-          }
-        }
-
-        .m-menu .footerLinksmbl {
-          display: flex;
-          align-items: center;
-          border-top: 1px solid #000;
-          position: fixed;
-          bottom: 0;
-          z-index: 9999;
+      padding: 0px 20px 0px 22px;
+      .homeBox{width:auto;
+        .hamburgerMenu {
           width: 100%;
+          .m-menu .menu__list {
+            height: calc(100vh - 106px);
 
-          .Linksmblft {
-            width: 48%;
-
-            &:nth-child(1) {
-              border-right: 1px solid #000;
-            }
-
-            a {
-              display: block;
-              text-decoration: none;
-              padding: 20px 40px;
-              text-align: center;
+            li {
+              &:nth-last-child(1) {
+                border-bottom: none;
+              }
             }
           }
+
+          label.m-menu__toggle {
+            img {
+              height: 16px;
+            }
+
+            &.crossMenuicon {
+              img {
+                height: 21px;
+                width: 21px;
+              }
+            }
+          }
+
+          .m-menu .footerLinksmbl {
+            display: flex;
+            align-items: center;
+            border-top: 1px solid #000;
+            position: fixed;
+            bottom: 0;
+            z-index: 9999;
+            width: 100%;
+
+            .Linksmblft {
+              width: 48%;
+
+              &:nth-child(1) {
+                border-right: 1px solid #000;
+              }
+
+              a {
+                display: block;
+                text-decoration: none;
+                padding: 20px 40px;
+                text-align: center;
+              }
+            }
+          }
+          &:hover{background:transparent;}
         }
-        &:hover{background:transparent;}
-      }
+      } 
+      
 
       .homeBox .headerCta {
         display: none;
@@ -771,7 +776,7 @@ footer {
       border-top: 1px solid #000;
     
       .footerCta {
-        width: 50%;
+        width: 100%;
     
         .connectCta {
           background: #00FFA3;
@@ -873,19 +878,19 @@ footer {
 
 /* loader css */
  .expand{
-    -webkit-animation: 2s ease 0s normal forwards 1 fadein;
-    animation: 2s ease 0s normal forwards 1 fadein;
+    -webkit-animation: 1.5s ease 0s normal forwards 1 fadein;
+    animation: 1.5s ease 0s normal forwards 1 fadein;
 
 
 }
 
 .expandnew{
-    -webkit-animation: 1.5s ease 0s normal forwards 1 fadeinDown;
-    animation: 1.5s ease 0s normal forwards 1 fadeinDown;
+    -webkit-animation: 1s ease 0s normal forwards 1 fadeinDown;
+    animation: 1s ease 0s normal forwards 1 fadeinDown;
 }
 .expandnewOne{
-    -webkit-animation: 3s ease 0s normal forwards 1 fadeinDown;
-    animation: 3s ease 0s normal forwards 1 fadeinDown;
+    -webkit-animation: 2s ease 0s normal forwards 1 fadeinDown;
+    animation: 2s ease 0s normal forwards 1 fadeinDown;
 }
 
 @keyframes fadein{

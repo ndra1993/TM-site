@@ -1,20 +1,26 @@
-
+.page-template-Blogs {
+    header{border-bottom: 1px solid #000;}
+}
 
 .blogs {
-    margin-top:96px;
-    .blogListing{padding:58px 107px 100px 90px;
+    margin-top:96px;min-height: calc(100vh - 150px);padding:0px 100px;padding-top: 58px;
+    .blogListing{padding-bottom:50px;border-bottom:0px solid #000;
         .blogListingBox{
             display:flex;padding: 50px 0px;border-bottom: 1px solid #000000; text-decoration:none;
-            .blogListingImg{margin-right: 88px;}
+            .blogListingImg{margin-right: 88px; width:50%;
+                img{max-width:100%;}
+            }
             &:first-child{padding-top:0px;}
             &:last-child{padding-bottom:0px;border-bottom: 0px solid #000000;}
-            .blogListingContent{
+            .blogListingContent{width:50%;
                 h4{text-transform: uppercase;}
                 h2{padding:35px 0px;line-height: 50px;}
-                .authorBox{display:flex; align-items:center;
-                    .authorBoxImg{margin-right: 20px;}
+                .authorBox{display:flex; align-items:center;flex-flow: wrap;
+                    .authorBoxImg{margin-right: 23px; width:70px; height:70px; border-radius:50%; overflow:hidden;
+                        img{max-width:100%;}
+                        }
                     .authorBoxContent{
-                        h3{margin-bottom: 15px;}
+                        h3{margin-bottom: 15px; display:none;}
                         .blogDate{display:flex;align-items: center;
                             img{margin-right:10px;}
                         }
@@ -33,8 +39,8 @@
         
     }
     @media screen and (max-width:1600px) {
-        margin-top:86px;
-        .blogListing{padding:35px 90px 45px 90px;
+        margin-top:86px;padding:0px 80px;padding-top: 40px;min-height: calc(100vh - 132px);
+        .blogListing{padding-bottom:35px;
             .blogListingBox{
                 display:flex;padding: 50px 0px;
                 .blogListingImg{margin-right: 70px;}
@@ -54,8 +60,8 @@
         } 
     }
     @media screen and (max-width:1400px) {
-        margin-top:76px;
-        .blogListing{padding:25px 80px 35px 80px;
+        margin-top:76px;padding:0px 80px;padding-top: 35px;min-height: calc(100vh - 122px);
+        .blogListing{padding-bottom:30px;
             .blogListingBox{
                 display:flex;padding: 25px 0px;
                 .blogListingImg{margin-right: 50px;}
@@ -82,11 +88,11 @@
     }
 
     @media screen and (max-width:1024px) {
-        margin-top:72px;
-        .blogListing{padding:0px 32px 20px 22px;
+        margin-top:72px;padding:0px 50px;padding-top: 30px;
+        .blogListing{padding-bottom:40px;
             .blogListingBox{
                 .blogListingImg{margin-right: 40px;width: 50%;
-                    img{max-width: 100%;}
+                    img{max-width: 100%; height:100%;}
                 }
                 .blogListingContent{
                     width: 50%;
@@ -95,13 +101,14 @@
         }
     }
     @media screen and (max-width:920px) {
-        .blogListing{padding:0px 32px 0px 22px;
+        min-height: calc(100vh - 100px);
+        .blogListing{
             .blogListingBox{
                 display:block;padding: 25px 0px;
                 .blogListingImg{margin-right: 0px;margin-bottom: 25px; width:100%;
                     img{width:100%;}
                 }
-                &:last-child{padding-bottom:25px;}
+                &:last-child{padding-bottom:0px;}
                 .blogListingContent{width:100%;
                    h2{padding:20px 0px;line-height: 32px;}
                     .authorBox{
@@ -116,6 +123,11 @@
                 }
             }
         }
+    }
+
+    @media screen and (max-width:770px) {
+        padding:0px 20px;
+        .blogListing{padding:20px 0px 20px 0px;}
     }
 
     @media screen and (max-width:575px) {

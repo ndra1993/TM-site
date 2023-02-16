@@ -109,9 +109,9 @@
 							</li>
 							<li class="menu_sub"><a href="<?php echo site_url('/service/'); ?>" class="menu__item font80">Services </a>
 							</li>
-							<li class="menu_sub"><a href="<?php echo site_url('/forms/'); ?>" class="menu__item font80">Scope My Project </a>
+							<li class="menu_sub"><a href="<?php echo site_url('/forms/#signup-tab-content'); ?>" class="menu__item font80">Scope My Project </a>
 							</li>
-							<li class="menu_sub"><a href="<?php echo site_url('/forms/'); ?>" class="menu__item font80">Career </a>
+							<li class="menu_sub"><a href="<?php echo site_url('/forms/#login-tab-content'); ?>" class="menu__item font80">Career </a>
 							</li>
 							<li class="menu_sub"><a href="#" class="menu__item font80">Blogs </a>
 							</li>

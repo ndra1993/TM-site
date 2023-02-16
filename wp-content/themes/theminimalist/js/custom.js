@@ -237,6 +237,8 @@ $(document).ready(function () {
   });
 });
 
+
+
 // active class for case study details last section js starts
 
 if ($(window).width() > 1024) {
@@ -357,3 +359,31 @@ $('.headerActive').hover(
     $(".headerActive.inactive").addClass('active').removeClass('inactive'); 
   }
 );
+
+/*blog details mobile slider start*/
+jQuery(document).ready(function() {
+    jQuery(".relatedBlogsSlider").slick({
+      arrows: false,
+      dots: true,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      autoplay: false,
+      speed: 900,
+      autoplaySpeed: 700,
+      responsive: [
+        {
+          breakpoint: 920,
+          settings: {
+            slidesToShow: 2
+          }
+        },
+        {
+          breakpoint: 575,
+          settings: {
+            slidesToShow: 1
+          }
+        }
+      ]
+    });
+});
+/*blog details mobile slider end*/

@@ -11,7 +11,7 @@ body {
 
 h1 {
     font-size: 2em;
-    margin: .67em 0
+    
 }
 
 hr {
@@ -554,7 +554,11 @@ p {
 		padding: 43px 15px;
 	}
 	@media screen and (max-width:375px) {
-		padding: 50px 15px !important;
+		padding: 43px 12px !important;
+	}
+	@media screen and (max-width:320px) {
+		font-size:12px;
+		padding: 30px 10px !important;
 	}
 
 }
