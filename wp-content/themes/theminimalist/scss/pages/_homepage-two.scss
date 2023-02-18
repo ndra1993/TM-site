@@ -429,6 +429,7 @@ header {
     margin: 90px 0px 30px;
     h1 {
       font-size: 74px;
+      line-height:1.2em;
     }
   }
 
@@ -504,6 +505,9 @@ header {
     height: 100%;
     width: 100%;
     overflow: hidden;
+    @media screen and (max-width:920px) {
+      display:none;
+    }
   }
 
   .showreel-video-block {

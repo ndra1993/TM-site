@@ -1,12 +1,5 @@
-<?php get_header(); /*Template Name: case studies details*/
+<?php get_header(); /*Template Name: meesho*/
 ?>
-
-
-
-
-
-
-
 
 <a id="button"><img src="<?php bloginfo('template_directory'); ?>/images/back-to-top-arrow.svg"></a>
 
@@ -15,13 +8,12 @@
     <section>
         <div class="sectionOne">
             <div class="mobtext wow slideInLeft">
-                <p class="font20 fontW800 colorWhite">One to 11</p>
-                <h1 class="font60 fontW800 colorWhite">Disrupting The Online Gaming Industry</h1>
-                <h5 class="font20 colorWhite fontW500">India's first fastest growing Social Networking Fantasy Mobile gaming with over 2.2 million users on the
-                    platform.</h5>
+                <p class="font20 fontW800 colorWhite">meesho</p>
+                <h1 class="font60 fontW800 colorWhite">Contactless remote patient monitoring</h1>
+                <h5 class="font20 colorWhite fontW500">Dozee is the pioneer in contactless remote patient monitoring and early warning system powered by cutting edge AI and trusted by over 300+ hospitals.</h5>
             </div>
             <div class="wow fadeInUp mobImg" data-wow-duration="4s">
-                <img src="<?php bloginfo('template_directory'); ?>/images/phone.png">
+                <img src="<?php bloginfo('template_directory'); ?>/images/meesho-bg.png">
             </div>
         </div>
     </section>
@@ -31,11 +23,11 @@
                 <div class="">
                     <p class="font20 fontW800 colorBlack">insight</p>
                     <h1 class="font60 fontW800 colorBlack">A new experience reflecting the brand’s vision and values</h1>
-                    <h5 class="font20 colorBlack fontW500">They aim to Create the biggest Gaming ecosystem in the world with games suiting to every gamers. They have plans to include NFT based Role playing Games with a New Play To Earn model across the platform.</h5>
+                    <h5 class="font20 colorBlack fontW500">Dozee is the pioneer in contactless remote patient monitoring and early warning system powered by cutting edge AI and trusted by 300+ hospitals.</h5>
                 </div>
             </div>
             <div class="mobimgTwo wow slideInRight" data-wow-duration="1s">
-                <img src="<?php bloginfo('template_directory'); ?>/images/phone-two.png">
+                <img src="<?php bloginfo('template_directory'); ?>/images/meesho-insights.png">
             </div>
         </div>
     </section>
@@ -43,7 +35,7 @@
         <div class="sectionThree">
             <div class="mobtextThree wow slideInLeft" data-wow-duration="1s">
                 <p class="font20 fontW800 colorWhite">solutions</p>
-                <h1 class="font60 fontW800 colorWhite">Unique experience designed around Gamers life</h1>
+                <h1 class="font60 fontW800 colorWhite">Collaterals & stationary that is in line with the design language</h1>
             </div>
             <div class="mobsubtextThree wow slideInRight" data-wow-duration="1s">
                 <h5 class="font20 colorWhite fontW500">A responsive website that aims to educate users about the NFT market and crypto-currencies. An infographic design with educative content is easier to understand.</h5>

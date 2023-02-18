@@ -5,8 +5,8 @@
 .blogsDetails {
     margin-top:96px;padding:84px 90px 90px 90px;
     img{max-width:100%;}
-    .blogsDetailsSection{display:flex; margin-bottom:50px;height: calc(100vh - 200px);
-        .blogsDetailsOne{width:35%; margin-right:40px;
+    .blogsDetailsSection{display:flex; margin-bottom:50px;position:relative;
+        .blogsDetailsOne{width:35%; margin-right:40px; position:sticky; top:20%; height:650px;
             h1{margin-bottom:50px;line-height: 70px;}
             .authorBoxDesktop{
                 .authorBox{display:flex; align-items:center;padding-bottom:50px;border-bottom: 1px solid #000000;flex-flow: wrap;
@@ -53,7 +53,7 @@
                 }
             }
         }
-        .blogsDetailsTwo{width:65%;overflow-x: hidden;overflow-y: scroll; height: calc(100vh - 185px);
+        .blogsDetailsTwo{width:65%; overflow-x: hidden;
             p{line-height:30px;}
             a{color:#000;}
             img{padding-bottom:50px; max-width: 100%;}
@@ -73,31 +73,131 @@
             h4{font-size:26px; margin-bottom:40px; font-weight:800;}
             h5{font-size:22px; margin-bottom:40px; font-weight:800;}
             p{font-size:18px;line-height: 30px; font-weight:500;margin-bottom:20px;}
+
+            .blogModal{margin-top:20px;
+                .link{text-decoration-color: #00FFA3;text-decoration-thickness: 3px;display: flex;align-items: center;width: fit-content;
+                    img{transform: rotate(180deg);margin-left: 10px;width: 20px;    padding-bottom: 0px;
+                        @media screen and (max-width:1440px) {
+                            width: 15px; padding:0px;
+                        }
+                    }
+                    .link{
+                        cursor:help;text-decoration:none;
+                        &:hover{background-color: #0085a6; color: #fff; text-decoration:none;}
+                    }
+                    
+                }
+                [data-ml-modal] {
+                    position:fixed;
+                    top:0;
+                    bottom:0;
+                    left:0;
+                    right:0;
+                    overflow-x:hidden;
+                    overflow-y:hidden;
+                    -webkit-overflow-scrolling:touch;
+                    z-index:999;
+                    width:0;
+                    height:0;
+                    opacity:0;
+                    &:target{
+                        width:auto;
+                        height:auto;
+                        opacity:1;
+                        -webkit-transition:  opacity 1s ease;
+                        transition: opacity 1s ease;
+                        .modal-overlay {
+                            position:fixed;
+                            top:0;
+                            bottom:0;
+                            left:0;
+                            right:0;
+                            cursor:pointer;
+                            background-color:#000;
+                            background-color:rgba(0, 0, 0, 0.7);
+                            z-index:1;
+                        }
+                    }
+                    .modal-dialog {
+                        background:#fff;
+                        border-radius:10px;
+                        box-shadow:0 11px 15px -7px rgba(0, 0, 0, 0.2), 0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 9px 46px 8px rgba(0, 0, 0, 0.12);
+                        position:relative;
+                        width: 90%;
+                        max-width:660px;
+                        margin:10% auto;
+                        overflow-x:hidden;
+                        overflow-y:auto;
+                        z-index:2;
+                        h3 {
+                            border-bottom:1px solid #000;
+                            margin:0;
+                            padding:0.8em 56px .8em 27px; 
+                            margin-bottom: 0px !important;
+                        }
+                        @media screen and (max-width:1400px) {
+                            margin:5% auto;
+                        }
+                    }
+                    .modal-dialog-lg {max-width:900px !important;}
+                    .modal-content {background:#fff; margin:30px;overflow-x: hidden;overflow-y: scroll;max-height: 400px;
+                        li{
+                            margin-bottom:15px;
+                            @media screen and (max-width:1366px) {
+                                margin-bottom:12px;
+                            }
+                            @media screen and (max-width:770px) {
+                                margin-bottom:10px;
+                            }
+                        }
+                        /* ===== Scrollbar CSS ===== */
+                        /* Firefox */
+
+                        scrollbar-width: auto;
+                        scrollbar-color: #00ffa3 #ffffff;
+
+
+                        /* Chrome, Edge, and Safari */
+                        &::-webkit-scrollbar {
+                            width: 13px;
+                            
+                        }
+
+
+
+                        &::-webkit-scrollbar-track {
+                            background: #ffffff;
+                        }
+
+                        &::-webkit-scrollbar-thumb {
+                            background-color: #00ffa3;
+                            border-radius: 15px;
+                            border: 3px solid #ffffff;
+                        }
+                    }
+                    .modal-close {
+                        position:absolute;
+                        top:20px;
+                        right:20px;
+                        color:#000;
+                        background-color:transparent;
+                        border-radius:50%;
+                        height:40px;
+                        width:40px;
+                        font-size:40px;
+                        font-weight:500;
+                        line-height:40px;
+                        text-align:center;
+                        -webkit-transition: all .3s ease-in-out;
+                        transition: all .3s ease-in-out;
+                        text-decoration:none;
+                        
+                    }
+                }
+
+            }
             
-            /* ===== Scrollbar CSS ===== */
-            /* Firefox */
-
-            scrollbar-width: auto;
-            scrollbar-color: #00ffa3 #ffffff;
-
-
-            /* Chrome, Edge, and Safari */
-            &::-webkit-scrollbar {
-                width: 13px;
-                
-            }
-
-
-
-            &::-webkit-scrollbar-track {
-                background: #ffffff;
-            }
-
-            &::-webkit-scrollbar-thumb {
-                background-color: #00ffa3;
-                border-radius: 15px;
-                border: 3px solid #ffffff;
-            }
+            
         }
         .authorBoxMobile{display:none;}
     }
@@ -169,7 +269,7 @@
     }
     @media screen and (max-width:1400px) {
         margin-top:76px;padding:40px 80px 35px 80px;
-        .blogsDetailsSection{margin-bottom:20px;height: calc(100vh - 150px);
+        .blogsDetailsSection{margin-bottom:20px;
             .blogsDetailsOne{margin-right:30px;
                 h1{margin-bottom:40px;line-height: 45px;}
                 .authorBoxDesktop{
@@ -282,7 +382,7 @@
     @media screen and (max-width:920px) {
         padding:20px 22px 0px 22px;
         .blogsDetailsSection{display:block; margin-bottom: 70px;height: auto;
-            .blogsDetailsOne{width:100%; margin-right:40px;
+            .blogsDetailsOne{width:100%; margin-right:40px;position: unset; height: auto;
                 h1{margin-bottom: 20px; line-height: 40px;}
                 .authorBoxDesktop{display:none;}
             }

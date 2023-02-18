@@ -1,16 +1,16 @@
-.page-template-airtel {
+.page-template-case-study-details {
     overflow-x: hidden;
     header{border-bottom: 1px solid #000;}
 }
 
-.airtelbgdetails {
-    background: #2A2A2A;
+.casebgdetails {
+    background: linear-gradient(158.47deg, #070707 4.94%, #101010 53.55%, #070707 58.48%, #020202 65.02%, #131313 77.34%);
     margin-top: 86px;
-    section{line-height:0;}
+
     .sectionOne {
         position: relative;
-        padding: 0px;
-        img{max-width:100%;}
+        padding: 70px 0px 200px 0px;
+
         .mobtext {
             position: absolute;
             top: 10%;
@@ -44,13 +44,13 @@
     .sectionTwo {
         display: flex;
         justify-content: space-between;
-        
+        align-items: center;
 
         .mobimgTwo {
-            width: 50%;
+            width: 48%;
 
             img {
-                max-width: 100%;
+                width: 90%;
                 margin: 0 auto;
                 display: flex;
                 align-items: center;
@@ -60,7 +60,7 @@
         .mobtextTwo {
             padding: 94px 0px 295px 112px;
             background: #fff;
-            width: 50%;
+            width: 48%;
 
             p {
                 text-transform: uppercase;
@@ -95,7 +95,7 @@
             h1 {
                 line-height: 70px;
                 margin: 5px 0px 35px 0px;
-                width: 80%
+                width: 60%
             }
         }
 
@@ -111,29 +111,34 @@
     }
 
     .sectionFour {
-        padding: 50px 160px 0px 112px;
-        .sectionFourBox{
-            display:flex;
-            justify-content:space-between;
-            align-items:center;
-            margin-bottom:125px;
-            img{max-width:100%;}
-            .sectionFourBoxText{
-                width:25%;
-                h3{line-height:36px;margin-bottom:12px;}
-                p{line-height:24px; color:#ffffff80;}
-            }
-            
-        }
-    }
+        padding: 50px 0px;
+        transform: translatey(0px);
+        animation: float 2s ease-in-out infinite;
 
-    .sectionSeven{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        padding: 140px 120px 70px 100px;
-        img{max-width:100%;}
-        .mobImg{width:33%;}
+        @keyframes float {
+            0% {
+                transform: translatey(0px);
+            }
+
+            50% {
+                transform: translatey(-20px);
+            }
+
+            100% {
+                transform: translatey(0px);
+            }
+        }
+
+        img {
+            display: flex;
+            align-items: center;
+            margin: auto;
+            width: 80%;
+        }
+
+        .mobileImg {
+            display: none;
+        }
     }
 
     .sectionFive {
@@ -153,20 +158,16 @@
             h1 {
                 line-height: 70px;
                 margin: 5px 0px 35px 0px;
-                width: 80%
+                width: 60%
             }
         }
 
         .mobsubtextFour {
-            width: 50%;
-            h1 {
-                line-height: 70px;
-                margin: 5px 0px 9px 0px;
-                color:#ED2024;
-            }
+            width: 45%;
+
             h5 {
-                line-height: 34px;
-                width: 85%;
+                line-height: 30px;
+                width: 60%;
             }
         }
     }
@@ -228,7 +229,7 @@
     /**************************************************Media Query***************************************************/
     @media screen and (max-width:1600px) {
         .sectionOne {
-            
+            padding: 50px 0px 150px 0px;
 
             .mobtext {
                 padding-left: 82px;
@@ -264,7 +265,7 @@
                 width: 50%;
 
                 img {
-                    width: 100%;
+                    width: 80%;
                 }
             }
 
@@ -290,26 +291,11 @@
         }
 
         .sectionFour {
-            padding: 50px 130px 0px 82px;
-            .sectionFourBox{
-                display:flex;
-                justify-content:space-between;
-                align-items:center;
-                margin-bottom:125px;
-                .sectionFourBoxText{
-                    width:25%;
-                    h3{line-height:36px;margin-bottom:12px;}
-                    p{line-height:24px; color:#ffffff80;}
-                }
-                .sectionFourBoxImg{width:70%;}
-                
-            }
-        }
+            padding: 30px 0px;
 
-        .sectionSeven{
-            padding: 125px 100px 70px 100px;
-            img{max-width:100%;}
-            .mobImg{width: 30%; margin-bottom: 50px;}
+            img {
+                width: 68%;
+            }
         }
 
         .sectionFive {
@@ -334,7 +320,7 @@
         margin-top: 76px;
 
         .sectionOne {
-            padding:0px;
+            padding: 35px 0px 100px 0px;
 
             .mobtext {
                 padding-left: 52px;
@@ -370,7 +356,7 @@
                 width: 50%;
 
                 img {
-                    width: 100%;
+                    width: 77%;
                 }
             }
 
@@ -396,14 +382,11 @@
         }
 
         .sectionFour {
-            padding: 80px 50px 0px 52px;
-            .sectionFourBox{
-                margin-bottom:100px;
+            padding: 20px 0px;
+
+            img {
+                width: 64%;
             }
-        }
-        .sectionSeven{
-            padding: 50px 50px 50px 52px;
-            
         }
 
         .sectionFive {
@@ -426,7 +409,7 @@
 
     @media screen and (max-width:1200px) {
         .sectionOne {
-            padding:0px;
+            padding: 35px 0px 60px 0px;
 
             .mobtext {
                 padding-left: 32px;
@@ -516,11 +499,10 @@
     @media screen and (max-width:1024px) {
         margin-top: 73px;
         .sectionOne {
-            position:relative;
-            padding: 0px;
+            padding: 32px 0px 20px 0px;
 
             .mobtext {
-                position: absolute;
+                position: unset;
                 width: 100%;
                 padding-left: 24px;
                 padding-right: 24px;
@@ -561,7 +543,7 @@
 
             .mobimgTwo {
                 width: 100%;
-                
+                margin: 60px 0px 0px;
 
                 img {
                     width: 100%;
@@ -594,24 +576,18 @@
         }
 
         .sectionFour {
-            padding: 32px 24px 24px 24px;
-            .sectionFourBox{
-                display: block;
-                margin-bottom:50px;
-                img{width:100%;}
-                .sectionFourBoxText{width:100%;
-                    h3{line-height: 24px;margin-bottom: 5px;}
-                    p{line-height: 20px;}
-                }
-                .sectionFourBoxImg{width:100%;}
-            }
-        }
+            padding: 10px 0px;
 
-        .sectionSeven{
-            display:block;
-            padding: 0px 24px 24px 24px;
-            .mobImg{width:100%; margin-bottom:30px;
-                img{width:100%;}
+            img {
+                width: 100%;
+            }
+
+            .desktopImg {
+                display: none;
+            }
+
+            .mobileImg {
+                display: block;
             }
         }
 
@@ -630,10 +606,7 @@
 
             .mobsubtextFour {
                 width: 100%;
-                 h1 {
-                    width: 100%;
-                    line-height: 36px;
-                }
+
                 h5 {
                     line-height: 20px;
                     width: 100%;
@@ -657,22 +630,6 @@
             }
         }
         
-    }
-
-    @media screen and (max-width:350px) {
-        .sectionOne {
-            .mobtext {
-                h1 {
-                    line-height: 30px;
-                }
-
-                h5 {
-                    line-height: 16px;
-                   
-                }
-            }
-
-        }
     }
 }
 

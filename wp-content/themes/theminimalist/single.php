@@ -95,7 +95,51 @@ get_header();
             </div>
         </div>
         <div class="blogsDetailsTwo">
-			<?php the_content(); ?>
+            <div class="blogContentBox">
+			   <?php the_content(); ?>
+            </div>
+            <div class="blogModal">
+                <h4><a href="#modal-10" class="link">References <img src="<?php bloginfo('template_directory'); ?>/images/arrow-title.svg"></a></h4>
+                <div data-ml-modal id="modal-10">
+                    <a href="#!" class="modal-overlay"></a>
+                    <div class="modal-dialog modal-dialog-lg">
+                        <a href="#!" class="modal-close">&times;</a>
+                        <h3>Reference Links</h3>
+                        <div class="modal-content newspaper">
+                            <ul>
+                                <li><a href="https://www.investopedia.com/terms/c/central-bank-digital-currency-cbdc.asp" target="_blank">https://www.investopedia.com/terms/c/central-bank-digital-currency-cbdc.asp</a></li>
+                                <li><a href="https://blog.digitalasset.com/developers/what-is-a-central-bank-digital-currency-and-why-should-people-prefer-cbdc-over-bank-accounts" target="_blank">https://blog.digitalasset.com/developers/what-is-a-central-bank-digital-currency-and-why-should-people-prefer-cbdc-over-bank-accounts</a></li>
+                                <li><a href="https://medium.com/@shyamshankar/centralized-ledgers-vs-distributed-ledgers-layman-understanding-52449264ae23" target="_blank">https://medium.com/@shyamshankar/centralized-ledgers-vs-distributed-ledgers-layman-understanding-52449264ae23</a></li>
+                                <li><a href="https://www.investopedia.com/terms/c/central-bank-digital-currency-cbdc.asp#toc-goals-of-central-bank-digital-currencies" target="_blank">https://www.investopedia.com/terms/c/central-bank-digital-currency-cbdc.asp#toc-goals-of-central-bank-digital-currencies</a></li>
+                                <li><a href="https://www.ledger.com/academy/blockchain/what-is-blockchain" target="_blank">https://www.ledger.com/academy/blockchain/what-is-blockchain</a></li>
+                                <li><a href="https://www.icba.org/newsroom/blogs/main-street-matters/2021/06/03/digital-dollar-digest-what-central-bank-digital-currency-architecture-means-for-community-banks" target="_blank">https://www.icba.org/newsroom/blogs/main-street-matters/2021/06/03/digital-dollar-digest-what-central-bank-digital-currency-architecture-means-for-community-banks</a></li>
+                                <li><a href="https://www.forbesindia.com/article/crypto-made-easy/indias-central-bank-plans-graded-implementation-of-cbdc/76955/1#:~:text=Indian%20CBDC%20or%20digital%20rupee,in%20the%20current%20financial%20year." target="_blank">https://www.forbesindia.com/article/crypto-made-easy/indias-central-bank-plans-graded-implementation-of-cbdc/76955/1#:~:text=Indian%20CBDC%20or%20digital%20rupee,in%20the%20current%20financial%20year.</a></li>
+                                <li><a href="https://www.frost.com/frost-perspectives/cryptocurrencies-and-digitalized-global-economy/" target="_blank">https://www.frost.com/frost-perspectives/cryptocurrencies-and-digitalized-global-economy/</a></li>
+                                <li><a href="https://www.dbs.com.sg/personal/articles/nav/investing/understanding-cbdcs" target="_blank">https://www.dbs.com.sg/personal/articles/nav/investing/understanding-cbdcs</a></li>
+                                <li><a href="https://www.businesstoday.in/latest/economy/story/cbdc-vs-upi-what-differences-did-rbi-governor-shaktikanta-das-note-about-erupee-355564-2022-12-07" target="_blank">https://www.businesstoday.in/latest/economy/story/cbdc-vs-upi-what-differences-did-rbi-governor-shaktikanta-das-note-about-erupee-355564-2022-12-07</a></li>
+                                <li><a href="https://www.paragonbank.co.uk/blog/central-bank-digital-currency-pros-and-cons" target="_blank">https://www.paragonbank.co.uk/blog/central-bank-digital-currency-pros-and-cons</a></li>
+                                <li><a href="https://www.weforum.org/agenda/2021/11/4-key-threats-central-bank-digital-currencies/" target="_blank">https://www.weforum.org/agenda/2021/11/4-key-threats-central-bank-digital-currencies/</a></li>
+                                <li><a href="https://www.bis.org/publ/othp42_user_needs.pdf" target="_blank">https://www.bis.org/publ/othp42_user_needs.pdf</a></li>
+                                <li><a href="https://www.db.com/news/detail/20210714-digital-yuan-what-is-it-and-how-does-it-work" target="_blank">https://www.db.com/news/detail/20210714-digital-yuan-what-is-it-and-how-does-it-work</a></li>
+                                <li><a href="https://enaira.gov.ng/assets/download/eNaira_Design_Paper.pdf" target="_blank">https://enaira.gov.ng/assets/download/eNaira_Design_Paper.pdf</a></li>
+                                <li><a href="https://www.financialexpress.com/opinion/use-cases-for-a-cbdc-a-central-bank-digital-currency-can-be-a-key-element-in-direct-transfer-of-govt-benefits/2338105/" target="_blank">https://www.financialexpress.com/opinion/use-cases-for-a-cbdc-a-central-bank-digital-currency-can-be-a-key-element-in-direct-transfer-of-govt-benefits/2338105/</a></li>
+                                <li><a href="https://vegavid.com/blog/use-case-of-cbdc/" target="_blank">https://vegavid.com/blog/use-case-of-cbdc/</a></li>
+                                <li><a href="http://www.pbc.gov.cn/en/3688110/3688172/4157443/4293696/2021071614584691871.pdf" target="_blank">http://www.pbc.gov.cn/en/3688110/3688172/4157443/4293696/2021071614584691871.pdf</a></li>
+                                <li><a href="https://rbidocs.rbi.org.in/rdocs/PublicationReport/Pdfs/CONCEPTNOTEACB531172E0B4DFC9A6E506C2C24FFB6.PDF" target="_blank">https://rbidocs.rbi.org.in/rdocs/PublicationReport/Pdfs/CONCEPTNOTEACB531172E0B4DFC9A6E506C2C24FFB6.PDF</a></li>
+                                <li><a href="https://openknowledge.worldbank.org/bitstream/handle/10986/29053/WP-PUBLIC-Distributed-Ledger-Technology-and-Blockchain-Fintech-Notes.pdf?sequence=5&isAllowed=y" target="_blank">https://openknowledge.worldbank.org/bitstream/handle/10986/29053/WP-PUBLIC-Distributed-Ledger-Technology-and-Blockchain-Fintech-Notes.pdf?sequence=5&isAllowed=y</a></li>
+                                <li><a href="https://www.irjet.net/archives/V4/i3/IRJET-V4I3711.pdf" target="_blank">https://www.irjet.net/archives/V4/i3/IRJET-V4I3711.pdf</a></li>
+                                <li><a href="https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=19417" target="_blank">https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=19417</a></li>
+                                <li><a href="https://www.hdfcbank.com/personal/resources/learning-centre/save/types-of-bank-accounts" target="_blank">https://www.hdfcbank.com/personal/resources/learning-centre/save/types-of-bank-accounts</a></li>
+                                <li><a href="https://academic.oup.com/rfs/article/34/6/2689/5912024" target="_blank">https://academic.oup.com/rfs/article/34/6/2689/5912024</a></li>
+                                <li><a href="https://www.researchgate.net/profile/Venkata-Mrudula-Bhimavarapu/publication/353016519_Unified_Payment_Interface_UPI_A_Digital_Innovation_and_Its_Impact_on_Financial_Inclusion_and_Economic_Development/links/60e454fea6fdccb7450ba296/Unified-Payment-Interface-UPI-A-Digital-Innovation-and-Its-Impact-on-Financial-Inclusion-and-Economic-Development.pdf" target="_blank">https://www.researchgate.net/profile/Venkata-Mrudula-Bhimavarapu/publication/353016519_Unified_Payment_Interface_UPI_A_Digital_Innovation_and_Its_Impact_on_Financial_Inclusion_and_Economic_Development/links/60e454fea6fdccb7450ba296/Unified-Payment-Interface-UPI-A-Digital-Innovation-and-Its-Impact-on-Financial-Inclusion-and-Economic-Development.pdf</a></li>
+                                <li><a href="https://rbi.org.in/Scripts/PublicationReportDetails.aspx?UrlPage=&ID=1218#:~:text=CBDC%20can%20be%20classified%20into,access%20to%20select%20financial%20institutions" target="_blank">https://rbi.org.in/Scripts/PublicationReportDetails.aspx?UrlPage=&ID=1218#:~:text=CBDC%20can%20be%20classified%20into,access%20to%20select%20financial%20institutions</a></li>
+                                <li><a href="https://static.pib.gov.in/WriteReadData/specificdocs/documents/2022/dec/doc2022121139201.pdf" target="_blank">https://static.pib.gov.in/WriteReadData/specificdocs/documents/2022/dec/doc2022121139201.pdf</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
         </div>
         <div class="authorBoxMobile">
             <div class="authorBox">
@@ -174,7 +218,7 @@ get_header();
         </div>
     </div>
     
-    <div class="relatedBlogs">
+    <!-- <div class="relatedBlogs">
         <?php if( have_rows('related_blogs_section') ): ?>
             <?php while( have_rows('related_blogs_section') ): the_row(); ?>
                 <h3 class="fontW800 font20 fontPoppins colorBlack"><?php echo get_sub_field('related_blogs_heading'); ?></h3>
@@ -227,7 +271,7 @@ get_header();
                 </div>
             <?php endwhile; ?>
         <?php endif; ?>
-    </div>
+    </div> -->
     
 </div>
 

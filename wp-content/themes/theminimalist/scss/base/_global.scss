@@ -525,7 +525,7 @@ p {
 }
 
 @mixin tabproperty {
-	padding: 80px;
+	padding: 50px 80px;
 	text-decoration: none;
 	text-align: center;
 	font-weight: 800;
@@ -537,24 +537,26 @@ p {
 	position: relative;
 
 	@media screen and (max-width:1800px) {
-		padding: 70px;
+		padding: 50px 60px;
 	}
 
 	@media screen and (max-width:1600px) {
-		padding: 50px 30px;
+		padding: 45px 30px;
 	}
-
+	@media screen and (max-width:1366px) {
+		padding: 35px 25px;
+	}
 	@media screen and (max-width:1280px) {
-		padding: 50px 15px;
+		padding: 35px 15px;
 	}
 	@media screen and (max-width:900px) {
 		border-top: 1px solid #000;
 	}
 	@media screen and (max-width:425px) {
-		padding: 43px 15px;
+		padding: 30px 10px;
 	}
 	@media screen and (max-width:375px) {
-		padding: 43px 12px !important;
+		padding: 30px 10px !important;
 	}
 	@media screen and (max-width:320px) {
 		font-size:12px;

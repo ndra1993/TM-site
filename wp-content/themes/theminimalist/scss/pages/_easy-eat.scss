@@ -1,10 +1,11 @@
 .page-template-easy-eat {
     overflow-x: hidden;
+    header{border-bottom: 1px solid #000;}
 }
 
 .easyEatSection {
     background: linear-gradient(303.79deg, #E62B5A 9.75%, #EA3525 107.27%);
-    margin-top: 86px; border-top: 1px solid #000;
+    margin-top: 86px;
 
     .sectionOne {
         position: relative;
