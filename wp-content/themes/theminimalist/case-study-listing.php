@@ -5,7 +5,16 @@ $homepage_id = get_option( 'page_on_front' );
 <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script> -->
     
 <!-- <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> -->
-
+<style type="text/css">
+  .draggable
+{
+  padding: 0px 0px 0px !important;
+  margin: 9px;
+}
+  /*.desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column {
+      margin: -100px 85px;
+  }*/
+</style>
 <body>
 <div class="desktopSection">
   <div class="caseStudyFilter">

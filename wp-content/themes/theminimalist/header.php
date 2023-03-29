@@ -46,46 +46,58 @@
 	<?php wp_body_open(); ?>
 
 
-
+	
 
 	<header>
-		<div class="headerContent wrapper">
+		<div class="headerContent">
 			
 
-			<?php  $urlm = get_permalink();
-			 if (is_front_page()) { ?>
+			<?php if (is_front_page()) { ?>
 				<!-- Homepage Header -->
 				<div class="logoBox">
 					<a href="<?php echo site_url('/homepage-two/'); ?>">
 						<img src="<?php bloginfo('template_directory'); ?>/images/tm-logo.svg" alt="">
 					</a>
 				</div>
-			<?php }
-			
-			else if($urlm == 'https://ixdtm.com/projects/theminimalist-site/forms/') { ?>
+			<?php } elseif (is_page('enquiries-careers')) { ?>
 				<!-- Form Page Header -->
 				<div class="logoBox">
-					<a href="<?php echo site_url('/homepage-two/'); ?>">
+					<a href="<?php echo site_url(''); ?>">
 						<img src="<?php bloginfo('template_directory'); ?>/images/tm-logo.svg" alt="">
 					</a>
 				</div>
-			<?php }  else{ ?>
+			<?php } elseif (is_page ('blogs')||is_page('case-study-listing')||is_page('case-study-details')||is_page('privacy-policy')||is_page('our-clients')) { ?>
+				<div class="logoBox titleBox">
+					<a class="backArrow" onclick="GoBackWithRefresh();return false;"><img src="<?php bloginfo('template_directory'); ?>/images/arrow-title.svg" alt="Back Arrow"></a>
+					<h3 class="fontW800 font30 fontPoppins colorBlack" style="text-transform:capitalize;"><?php the_title(); ?></h3>
+				</div>
+			<?php } else{ ?>
 			<div class="logoBox titleBox">
 				<a class="backArrow" onclick="GoBackWithRefresh();return false;"><img src="<?php bloginfo('template_directory'); ?>/images/arrow-title.svg" alt="Back Arrow"></a>
-				<h3 class="fontW800 font30 fontPoppins colorBlack">
-
-					<?php echo the_title() ?>
+				<h3 class="fontW800 font30 fontPoppins colorBlack" style="text-transform:capitalize;">
+					<?php
+                            $terms = get_the_category( $post->ID, 'categories' );
+                            $links = array();
+                            foreach ( $terms as $term ) {
+                                $links[] = $term->slug;
+                            }
+                            
+                            
+                             $tax_links = str_replace('-', ' ', $links[0]);
+//                             echo $links[0];
+                           echo $tax_links;
+                        ?>
 				</h3>
 			</div>
 
 			<?php } ?>
 
 			<div class="homeBox">
-				<div class="headerCta headerActive">
+<!-- 				<div class="headerCta headerActive">
 					<a href="<?php echo site_url('/case-study-listing/'); ?>" class="connectCta connectCtatwo">Case Studies</a>
-				</div>
+				</div> -->
 				<div class="headerCta headerActive active">
-					<a href="<?php echo site_url('/forms/'); ?>" class="connectCta">Let's Invent</a>
+					<a href="<?php echo site_url('/enquiries-careers/'); ?>" class="connectCta">Let's Invent</a>
 				</div>
 				<div class="hamburgerMenu headerActive">
 					<input type="checkbox" id="menu" name="menu" class="m-menu__checkbox">
@@ -96,37 +108,39 @@
 
 					<div class="m-menu">
 						<div class="m-menu__header">
-							<span class="font32 fontW800">Explore</span>
+							<a class="homeIcon" href="<?php echo site_url('/homepage-two/'); ?>"><img src="<?php bloginfo('template_directory'); ?>/images/home-icon.png"></a>
 							<label class="m-menu__toggle crossMenuicon" for="menu">
 								<img src="<?php bloginfo('template_directory'); ?>/images/cross-icon.svg">
 							</label>
 
 						</div>
 						<ul class="menu__list">
-							<li class="menu_sub"><a href="<?php echo site_url('/homepage-two/'); ?>" class="menu__item font80">Home </a>
+							<li class="menu_sub"><a href="<?php echo site_url('/case-study-listing/'); ?>" class="menu__item font64">Case Studies </a>
 							</li>
-							<li class="menu_sub"><a href="<?php echo site_url('/case-study-listing/'); ?>" class="menu__item font80">Case Studies </a>
+							<li class="menu_sub"><a href="<?php echo site_url('/service/'); ?>" class="menu__item font64">Services </a>
+							</li> 
+							<li class="menu_sub"><a href="<?php echo site_url('/enquiries-careers/?signup-tab-content'); ?>" class="menu__item font64">Scope My Project </a>
 							</li>
-							<li class="menu_sub"><a href="<?php echo site_url('/service/'); ?>" class="menu__item font80">Services </a>
+							<li class="menu_sub"><a href="<?php echo site_url('/enquiries-careers/?login-tab-content'); ?>" class="menu__item font64">Careers </a>
 							</li>
-							<li class="menu_sub"><a href="<?php echo site_url('/forms/#signup-tab-content'); ?>" class="menu__item font80">Scope My Project </a>
+							<li class="menu_sub"><a href="<?php echo site_url('/homepage-two/'); ?>" class="menu__item font64">Culture </a>
 							</li>
-							<li class="menu_sub"><a href="<?php echo site_url('/forms/#login-tab-content'); ?>" class="menu__item font80">Career </a>
-							</li>
-							<li class="menu_sub"><a href="#" class="menu__item font80">Blogs </a>
+							<li class="menu_sub"><a href="<?php echo site_url('/blogs/'); ?>" class="menu__item font64">Blogs </a>
 							</li>
 
 						</ul>
-						<div class="footerLinksmbl">
+<!-- 						<div class="footerLinksmbl">
 							<div class="Linksmblft">
 								<a href="<?php echo site_url('/privacy-policy/'); ?>" class="fontPoppins fontW600 font14 colorBlack">Privacy Policy</a>
 							</div>
 							<div class="Linksmblft">
 								<a href="#" class="fontPoppins fontW600 font14 colorBlack">Terms Of Use</a>
 							</div>
-						</div>
+						</div> -->
 					</div>
 				</div>
 			</div>
 		</div>
 	</header>
+
+	

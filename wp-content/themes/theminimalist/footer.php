@@ -16,11 +16,11 @@
     <?php if (is_front_page()) { ?>
 		<!-- Homepage Header -->
 	<div class="ftbutton">
-        <div class="footerCta">
+        <!-- <div class="footerCta">
             <a href="<?php echo site_url('/case-study-listing/'); ?>" class=" connectCta connectCtatwo">Case Studies</a>
-        </div>
+        </div> -->
         <div class="footerCta">
-            <a href="<?php echo site_url('/forms/'); ?>" class="connectCta">Let's Invent</a>
+            <a href="<?php echo site_url('/enquiries-careers/'); ?>" class="connectCta">Let's Invent</a>
         </div>
     </div>
     <div class="footerLinks">

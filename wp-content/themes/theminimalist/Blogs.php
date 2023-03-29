@@ -14,6 +14,7 @@
             $title = strtolower(the_title('', '', false));
               //print_r($custom_query->query);
         ?>
+
         <?php
             $terms = get_the_category( $post->ID, 'categories' );
             if ( $terms && ! is_wp_error( $terms ) ) :
@@ -32,41 +33,43 @@
                     <img src="<?php echo wp_get_attachment_url( get_post_thumbnail_id($post->ID) ) ?>">
                 </div>
                 <div class="blogListingContent">
-                    <h4 class="font20 fontW800 colorBlack fontPoppins">
-                        <?php
-                            $terms = get_the_category( $post->ID, 'categories' );
-                            $links = array();
-                            foreach ( $terms as $term ) {
-                                $links[] = $term->slug;
-                            }
-                            echo $links[0];
-                        ?>
-                    </h4>
-                    <h2 class="font40 fontW800 colorBlack fontPoppins"><?php the_title(); ?></h2>
-                    <div class="authorBox">
+                    <div class="categoryDate">
+                        <h4 class="font20 fontW800 colorBlack fontPoppins">
+                            <?php
+                                $category_detail=get_the_category($post->ID);//$post->ID
+                                foreach($category_detail as $cd){
+                                $nm = $cd->cat_name; echo ' ';
+                                }
+                                echo $category_detail[0]->name;                
+                            
+                                $terms = get_the_category( $post->ID, 'categories' );
+                                $links = array();
+                                foreach ( $terms as $term ) {
+                                    $links[] = $term->slug;
+                                    $linksname[] = $term->name;
+                                }
+                                //print_r($linksname);
+                                //echo $linksname[0];
+                            ?>
+                        </h4>
+                        <img class="slash" src="<?php bloginfo('template_directory'); ?>/images/slash.svg">
                         <?php if( have_rows('author_details') ): ?>
-                            <?php while( have_rows('author_details') ): the_row(); ?>
-                                <div class="authorBoxImg">
-                                    <?php $authorimage = get_sub_field('author_image');
-                                    if( !empty( $authorimage ) ): ?>
-                                        <img src="<?php echo esc_url($authorimage['url']); ?>" loading="lazy" alt="<?php echo esc_attr($authorimage['alt']); ?>" />
-                                    <?php endif; ?>
-                                </div>
-                                <div class="authorBoxContent">
-                                    <h3 class="font20 fontW800 colorBlack fontPoppins"><?php echo get_sub_field('author_name'); ?></h3>
-                                    <div class="blogDate">
-                                        <img src="<?php bloginfo('template_directory'); ?>/images/blog-calendor-new.png">
-                                        <?php $value = get_sub_field( "post_date" );
-                                        if ( $value ) {?>    
-                                            <p class="font16 fontW500 fontPoppins colorBlack"><?php echo get_sub_field('post_date'); ?></p>
-                                        <?php } else { ?>
-                                            <p class="font16 fontW500 fontPoppins colorBlack"><?php echo get_the_date(); ?></p>
-                                        <?php } ?>
-                                    </div>
-                                </div>
-                            <?php endwhile; ?>
+                        <?php while( have_rows('author_details') ): the_row(); ?>
+                        <div class="blogDate">
+                            <img src="<?php bloginfo('template_directory'); ?>/images/blog-calendor.svg">
+                            <?php $value = get_sub_field( "post_date" );
+                            if ( $value ) {?>    
+                                <p class="font16 fontW500 fontPoppins colorBlack"><?php echo get_sub_field('post_date'); ?></p>
+                            <?php } else { ?>
+                                <p class="font16 fontW500 fontPoppins colorBlack"><?php echo get_the_date(); ?></p>
+                            <?php } ?>
+                        </div>
+                        <?php endwhile; ?>
                         <?php endif; ?>
                     </div>
+                    <h2 class="font40 fontW800 colorBlack fontPoppins"><?php the_title(); ?></h2>
+                        <?php $content = wp_strip_all_tags(get_field('blog_intro_box')); echo '<p class="font20 fontW500 fontPoppins colorBlack">' .substr($content, 0, 250) . '...</p>';
+                        ?>
                 </div>
             </a>
         <?php endwhile; ?>

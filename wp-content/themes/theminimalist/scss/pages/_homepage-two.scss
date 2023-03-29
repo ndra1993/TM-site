@@ -6,6 +6,17 @@
   box-sizing: border-box;
 }
 
+.page-template-homepage-two {
+    header {
+       .headerContent {
+          .logoBox {padding-left: 50px;width:25.6%;
+            @media screen and (max-width:1024px) {
+              padding-left: 0px; width:auto;
+            }
+          }
+       } 
+    }
+}
 
 
 
@@ -27,6 +38,7 @@ header {
       img {
         width:70%;
       }
+      
     }
 
     .homeBox {
@@ -51,7 +63,7 @@ header {
           line-height: 18px;
           text-transform: uppercase;
           color: #000000;
-          &:hover{background-color: #00FFA3;}
+          &:hover{background-color: #00FFA3; transition: 1s all ease-in-out;}
           @media screen and (max-width:1600px) {
             padding: 25px 50px;
           }
@@ -69,7 +81,7 @@ header {
 
       .hamburgerMenu {
         width: 20%;
-        &:hover{background-color: #00FFA3;}
+        &:hover{background-color: #00FFA3;transition: 1s all ease-in-out;}
         .m-menu__checkbox {
           display: none;
 
@@ -109,7 +121,7 @@ header {
             border-bottom: 1px solid #000;
             justify-content: space-between;
 
-            span {
+            .homeIcon {
               padding-left: 75px;
             }
           }
@@ -145,7 +157,6 @@ header {
               margin-left: 0px;
               padding: 42px 0px 42px 75px;
               border-bottom: 1px solid #000;
-
               &:hover {
                 border-bottom: 1px solid #00FFA3;
               }
@@ -215,7 +226,7 @@ header {
             }
           }
 
-          .m-menu__header span {
+          .m-menu__header .homeIcon {
             padding-left: 60px;
           }
         }
@@ -246,7 +257,7 @@ header {
             }
           }
 
-          .m-menu__header span {
+          .m-menu__header .homeIcon {
             padding-left: 45px;
           }
         }
@@ -889,10 +900,12 @@ footer {
 }
 
 .expandnew{
+    -moz-animation:1s ease 0s normal forwards 1 fadeinDown;
     -webkit-animation: 1s ease 0s normal forwards 1 fadeinDown;
     animation: 1s ease 0s normal forwards 1 fadeinDown;
 }
 .expandnewOne{
+    -moz-animation: 2s ease 0s normal forwards 1 fadeinDown;
     -webkit-animation: 2s ease 0s normal forwards 1 fadeinDown;
     animation: 2s ease 0s normal forwards 1 fadeinDown;
 }
@@ -908,6 +921,11 @@ footer {
     66% { opacity:0.5; }
     100% { opacity:1; }
 }
+@-moz-keyframes fadein{
+    0% { opacity:0; }
+    66% { opacity:0.5; }
+    100% { opacity:1; }
+}
 
 @keyframes fadeinDown{
     0% { opacity:0; }
@@ -916,6 +934,11 @@ footer {
 }
 
 @-webkit-keyframes fadeinDown{
+    0% { opacity:0; }
+    66% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes fadeinDown{
     0% { opacity:0; }
     66% { opacity:0; }
     100% { opacity:1; }

@@ -3,10 +3,11 @@
 }
 
 .casebgdetails {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(219.06deg, #0D1917 23.88%, #A270F2 71.41%);
-    margin-top: 86px; border-top: 1px solid #000;
 
+    margin-top: 86px; border-top: 1px solid #000;
+    .animFloat{animation: float 3s ease-in-out infinite;}
     .sectionOne {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(219.06deg, #0D1917 23.88%, #A270F2 71.41%);
         position: relative;
         padding: 70px 0px 200px 0px;
 
@@ -32,7 +33,7 @@
             }
         }
 
-        .mobImg img {
+        .mobImg {
             margin: 0 auto;
             display: flex;
             align-items: center;
@@ -41,25 +42,20 @@
     }
 
     .sectionTwo {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(219.06deg, #0D1917 23.88%, #A270F2 71.41%);
         display: flex;
-        justify-content: space-between;
-        align-items: center;
-
         .mobimgTwo {
-            width: 48%;
-
+            width: 50%;
             img {
-                width: 90%;
-                margin: 0 auto;
-                display: flex;
-                align-items: center;
+                height: 100%;
+                max-width: 100%;
             }
         }
 
         .mobtextTwo {
             padding: 94px 0px 295px 112px;
             background: #fff;
-            width: 48%;
+            width: 50%;
 
             p {
                 text-transform: uppercase;
@@ -79,13 +75,14 @@
     }
 
     .sectionThree {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(311.06deg, #0D1917 40.88%, #A270F2 100%);
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 130px 0px 130px 112px;
 
         .mobtextThree {
-            width: 48%;
+            width: 50%;
 
             p {
                 text-transform: uppercase;
@@ -110,24 +107,8 @@
     }
 
     .sectionFour {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(219.06deg, #0D1917 23.88%, #A270F2 71.41%);
         padding: 50px 0px;
-        transform: translatey(0px);
-        animation: float 2s ease-in-out infinite;
-
-        @keyframes float {
-            0% {
-                transform: translatey(0px);
-            }
-
-            50% {
-                transform: translatey(-20px);
-            }
-
-            100% {
-                transform: translatey(0px);
-            }
-        }
-
         img {
             display: flex;
             align-items: center;
@@ -141,6 +122,7 @@
     }
 
     .sectionFive {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(219.06deg, #0D1917 23.88%, #A270F2 71.41%);
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -148,7 +130,7 @@
         padding: 130px 0px 130px 112px;
 
         .mobtextFour {
-            width: 48%;
+            width: 50%;
 
             p {
                 text-transform: uppercase;
@@ -264,7 +246,7 @@
                 width: 50%;
 
                 img {
-                    width: 80%;
+                   
                 }
             }
 
@@ -355,7 +337,7 @@
                 width: 50%;
 
                 img {
-                    width: 77%;
+                    
                 }
             }
 
@@ -444,7 +426,7 @@
                 width: 50%;
 
                 img {
-                    width: 77%;
+                    
                 }
             }
 
@@ -542,7 +524,8 @@
 
             .mobimgTwo {
                 width: 100%;
-                margin: 60px 0px 0px;
+                margin:0px;
+                line-height: 0;
 
                 img {
                     width: 100%;
@@ -582,7 +565,7 @@
             }
 
             .desktopImg {
-                display: none;
+                display: block;
             }
 
             .mobileImg {

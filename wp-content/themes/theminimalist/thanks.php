@@ -1,9 +1,8 @@
 <?php get_header(); /*Template Name: thanks*/ 
 ?>
-
+<meta http-equiv="Refresh" content="0; url='<?php echo site_url('/enquiries-careers/'); ?>'" />
 <style>
-    .adderssBox{width: 330px;margin-top:110px;position:relative;}
-    .adderssBox:before{content:'';position:absolute;top:-12px;left:0;width:70px;height:2px;background:#000;}
+    
     .addressHeading{font-family: "Poppins", sans-serif;font-size:20px;font-weight:700;color:#000; line-height: 24px;}
     .addressData{font-family: "Poppins", sans-serif;font-size:16px;font-weight:400;color:#000;line-height: 30px;}
     @media screen and (max-width: 1450px) {
@@ -14,9 +13,10 @@
 <div class="wrapper">
     <div class="formSection thanksSection">
         <div class="sec1">
-            <a href="https://ixdtm.com/projects/theminimalist-site/" class="logo"><img src="<?php bloginfo('template_directory'); ?>/images/tm-logo.svg" alt=""></a>
+            <a href="<?php echo site_url('/homepage-two/'); ?>" class="logo"><img src="<?php bloginfo('template_directory'); ?>/images/tm-logo.svg" alt=""></a>
             <h1 class="h1 font135 fontW800">We’d love to hear from you.</h1>
             <div class="adderssBox">
+                <img src="<?php bloginfo('template_directory'); ?>/images/location.gif" alt="">
                 <h4 class="addressHeading">Minimalist Solutions Pvt Ltd</h4>
                 <p class="addressData">Redbrick Offices Limited, HDIL Kaledonia, Opp D’Mart, 1st Floor, A wing, Sahar Road, Andheri (East), Mumbai 400069.</p>
             </div>
@@ -26,8 +26,8 @@
 			<div class="tabs" id="myTab">
                 <h2 class="signup-tab h2 font24 fontW800"><a href="#signup-tab-content" data-toggle="tab">Business Enquiries</a></h2>
                 <h2 class="login-tab h2 font24 fontW800"><a href="#login-tab-content" data-toggle="tab">Careers</a></h2>
-                <a href="https://ixdtm.com/projects/theminimalist-site/" class="close">
-                    <img src="https://ixdtm.com/projects/theminimalist-site/wp-content/uploads/2022/06/close.png" alt=""> </a>
+                <a href="<?php echo site_url('/homepage-two/'); ?>" class="close">
+                    <img src="<?php bloginfo('template_directory'); ?>/images/close.png" alt=""> </a>
             </div>
             <!--.tabs-->
 
@@ -38,7 +38,7 @@
                         <h2 class="h2 font24 fontW800">Thank you for getting in touch!</h2>
                         <h3>We appreciate you contacting us One of our colleagues will get back in touch with you soon!Have a great day!</h3>
                         <div>
-                            <a href="<?php echo site_url();?>" target="_blank">Go to home</a>
+                            <a href="<?php echo site_url();?>">Go to home</a>
                         </div>
                     </div>
                 </div>
@@ -58,13 +58,14 @@
             </div>
             <!--.tabs-content-->
         </div>
-        <a href="https://ixdtm.com/projects/theminimalist-site/" class="thanksClose">
-            <img src="https://ixdtm.com/projects/theminimalist-site/wp-content/uploads/2022/12/thanks-close.png" alt=""> 
+        <a href="<?php echo site_url('/enquiries-careers/'); ?>" id="thanksClose" class="thanksClose">
+            <img src="<?php bloginfo('template_directory'); ?>/images/thanks-close.png" alt=""> 
         </a>
     </div>
 </div>
 
 <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">-->
+
 
 <script>
 $(document).ready(function(){

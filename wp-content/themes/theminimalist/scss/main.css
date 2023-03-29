@@ -1163,11 +1163,59 @@ footer .ftbutton {
   max-width: 100%;
   margin: 0 auto;
   overflow-x: hidden;
+  position: relative;
   display: flex;
   align-items: baseline;
   justify-content: space-between; }
   .formSection .sec1 {
-    width: 46%; }
+    width: 46%;
+    animation: 1s ease-in all; }
+    .formSection .sec1 .adderssBox {
+      width: 300px;
+      margin-top: 100px;
+      position: absolute;
+      bottom: 50px; }
+      @media screen and (max-width: 1800px) {
+        .formSection .sec1 .adderssBox {
+          margin-top: 75px; } }
+      @media screen and (max-width: 1450px) {
+        .formSection .sec1 .adderssBox {
+          margin-top: 50px; } }
+      @media screen and (max-width: 1024px) {
+        .formSection .sec1 .adderssBox {
+          bottom: 25px; } }
+      @media screen and (max-width: 900px) {
+        .formSection .sec1 .adderssBox {
+          position: unset; } }
+      .formSection .sec1 .adderssBox img {
+        margin-bottom: 13px; }
+        @media screen and (max-width: 1450px) {
+          .formSection .sec1 .adderssBox img {
+            width: 15%;
+            margin-bottom: 10px; } }
+      .formSection .sec1 .adderssBox .addressHeading {
+        font-family: "Poppins", sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        color: #000;
+        line-height: 24px; }
+        @media screen and (max-width: 1450px) {
+          .formSection .sec1 .adderssBox .addressHeading {
+            font-size: 18px;
+            line-height: 20px; } }
+      .formSection .sec1 .adderssBox .addressData {
+        font-family: "Poppins", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: #000;
+        line-height: 30px; }
+        @media screen and (max-width: 1450px) {
+          .formSection .sec1 .adderssBox .addressData {
+            font-size: 14px;
+            line-height: 25px; } }
+        @media screen and (max-width: 1450px) {
+          .formSection .sec1 .adderssBox .addressData {
+            line-height: 20px; } }
     .formSection .sec1 .logo {
       margin-left: 0px; }
       .formSection .sec1 .logo img {
@@ -1176,10 +1224,13 @@ footer .ftbutton {
           .formSection .sec1 .logo img {
             display: none; } }
     .formSection .sec1 h1 {
-      margin-top: 150px; }
-      @media screen and (max-width: 1450px) {
+      margin: 190px 0px; }
+      @media screen and (max-width: 1600px) {
         .formSection .sec1 h1 {
-          margin-top: 90px; } }
+          margin: 120px 0px; } }
+      @media screen and (max-width: 1400px) {
+        .formSection .sec1 h1 {
+          margin: 60px 0px; } }
       @media screen and (max-width: 900px) {
         .formSection .sec1 h1 {
           display: none; } }
@@ -1187,7 +1238,7 @@ footer .ftbutton {
     border-left: 1px solid #000;
     background-color: #fff;
     width: 46%;
-    animation: 1s ease-out 0s 1 slideInFromright;
+    animation: 1.5s ease-in-out 0s 1 slideInFromright;
     height: 100vh;
     overflow-y: hidden; }
 @keyframes slideInFromright {
@@ -1224,6 +1275,9 @@ footer .ftbutton {
         @media screen and (max-width: 900px) {
           .formSection .form-wrap .tabs .login-tab {
             width: 50% !important; } }
+        @media screen and (max-width: 900px) {
+          .formSection .form-wrap .tabs .login-tab a {
+            border-right: 0px solid; } }
       .formSection .form-wrap .tabs .close {
         width: 20%;
         border-right: 0;
@@ -1240,7 +1294,7 @@ footer .ftbutton {
             height: 15px; } }
         @media screen and (max-width: 1600px) {
           .formSection .form-wrap .tabs .close {
-            padding: 46px 10px; } }
+            padding: 45.5px 10px; } }
         @media screen and (max-width: 1400px) {
           .formSection .form-wrap .tabs .close {
             padding: 45px 10px; } }
@@ -1297,12 +1351,12 @@ footer .ftbutton {
             padding: 30px 10px; } }
         @media screen and (max-width: 375px) {
           .formSection .form-wrap .tabs a {
-            padding: 30px 10px !important; } }
+            padding: 30px 5px !important; } }
         @media screen and (max-width: 320px) {
           .formSection .form-wrap .tabs a {
             font-size: 12px;
-            padding: 30px 10px !important; } }
-      .formSection .form-wrap .tabs a.active:after {
+            padding: 30px 5px !important; } }
+      .formSection .form-wrap .tabs .h2.active a:after {
         content: "";
         position: absolute;
         border-bottom: 6px solid #00FFA3;
@@ -1338,9 +1392,15 @@ footer .ftbutton {
         border-radius: 15px;
         border: 3px solid #ffffff; }
       .formSection .form-wrap .tabs-content div[id$="tab-content"] {
-        display: none; }
-      .formSection .form-wrap .tabs-content .active {
-        display: block !important; }
+        display: block; }
+      .formSection .form-wrap .tabs-content #signup-tab-content.active {
+        display: block; }
+        .formSection .form-wrap .tabs-content #signup-tab-content.active .thankYou {
+          display: none; }
+      .formSection .form-wrap .tabs-content #login-tab-content.active {
+        display: block; }
+        .formSection .form-wrap .tabs-content #login-tab-content.active .thankYou {
+          display: none; }
       .formSection .form-wrap .tabs-content form fieldset {
         width: 100%;
         height: auto;
@@ -1357,12 +1417,12 @@ footer .ftbutton {
           .formSection .form-wrap .tabs-content form fieldset {
             width: 100%; } }
         .formSection .form-wrap .tabs-content form fieldset .contentEnq {
-          padding: 46px 44px 34px 42px;
+          padding: 35px 44px 35px 42px;
           border-bottom: 1px dashed #000; }
           .formSection .form-wrap .tabs-content form fieldset .contentEnq .wpcf7-form-control-wrap input {
             width: 100%;
             font-family: 'Poppins', sans-serif;
-            font-size: 20px;
+            font-size: 24px;
             font-weight: 600;
             color: #000;
             opacity: 1;
@@ -1374,32 +1434,72 @@ footer .ftbutton {
             cursor: pointer;
             text-overflow: ellipsis; }
             .formSection .form-wrap .tabs-content form fieldset .contentEnq .wpcf7-form-control-wrap input::placeholder {
-              color: #00000033;
+              color: #000000;
               font-family: 'Poppins', sans-serif;
               font-size: 20px;
               font-weight: 600; }
+              @media screen and (max-width: 1600px) {
+                .formSection .form-wrap .tabs-content form fieldset .contentEnq .wpcf7-form-control-wrap input::placeholder {
+                  font-size: 16px;
+                  line-height: 24px; } }
               @media screen and (max-width: 1366px) {
                 .formSection .form-wrap .tabs-content form fieldset .contentEnq .wpcf7-form-control-wrap input::placeholder {
                   font-size: 16px;
                   line-height: 24px; } }
               @media screen and (max-width: 1090px) {
                 .formSection .form-wrap .tabs-content form fieldset .contentEnq .wpcf7-form-control-wrap input::placeholder {
-                  font-size: 16px;
+                  font-size: 14px;
                   width: 100%;
                   padding: 0px; } }
             .formSection .form-wrap .tabs-content form fieldset .contentEnq .wpcf7-form-control-wrap input:hover {
               border: none; }
             .formSection .form-wrap .tabs-content form fieldset .contentEnq .wpcf7-form-control-wrap input:focus {
               outline: none; }
+              .formSection .form-wrap .tabs-content form fieldset .contentEnq .wpcf7-form-control-wrap input:focus::placeholder {
+                color: #00000033; }
+            @media screen and (max-width: 1600px) {
+              .formSection .form-wrap .tabs-content form fieldset .contentEnq .wpcf7-form-control-wrap input {
+                font-size: 20px;
+                line-height: 24px; } }
             @media screen and (max-width: 1366px) {
               .formSection .form-wrap .tabs-content form fieldset .contentEnq .wpcf7-form-control-wrap input {
-                font-size: 16px;
+                font-size: 20px;
                 line-height: 24px; } }
             @media screen and (max-width: 1090px) {
               .formSection .form-wrap .tabs-content form fieldset .contentEnq .wpcf7-form-control-wrap input {
                 font-size: 16px;
                 width: 100%;
                 padding: 0px; } }
+          .formSection .form-wrap .tabs-content form fieldset .contentEnq .wpcf7-not-valid-tip {
+            position: absolute;
+            bottom: 0;
+            text-align: center;
+            margin: 0 auto;
+            right: 0;
+            left: 0;
+            color: #FF0000;
+            background: #ff00001a;
+            padding: 6px 0px;
+            font-size: 16px;
+            border-bottom: 1px solid #FF0000; }
+            .formSection .form-wrap .tabs-content form fieldset .contentEnq .wpcf7-not-valid-tip:hover {
+              border-bottom: 2px solid #FF0000;
+              position: absolute;
+              content: "";
+              right: 0;
+              bottom: 0;
+              left: 0;
+              z-index: 11; }
+            @media screen and (max-width: 1450px) {
+              .formSection .form-wrap .tabs-content form fieldset .contentEnq .wpcf7-not-valid-tip {
+                padding: 3px 0px;
+                font-size: 14px; } }
+            @media screen and (max-width: 1400px) {
+              .formSection .form-wrap .tabs-content form fieldset .contentEnq .wpcf7-not-valid-tip {
+                font-size: 14px; } }
+            @media screen and (max-width: 900px) {
+              .formSection .form-wrap .tabs-content form fieldset .contentEnq .wpcf7-not-valid-tip {
+                font-size: 14px !important; } }
           .formSection .form-wrap .tabs-content form fieldset .contentEnq .last {
             margin: 0 0em 0 0em !important; }
           @media screen and (min-width: 2000px) {
@@ -1407,10 +1507,10 @@ footer .ftbutton {
               justify-content: normal; } }
           @media screen and (max-width: 1800px) {
             .formSection .form-wrap .tabs-content form fieldset .contentEnq {
-              padding: 46px 30px 34px 30px; } }
+              padding: 35px 30px 35px 30px; } }
           @media screen and (max-width: 1280px) {
             .formSection .form-wrap .tabs-content form fieldset .contentEnq {
-              padding: 46px 20px 34px 20px; } }
+              padding: 35px 20px 35px 20px; } }
           @media screen and (max-width: 1090px) {
             .formSection .form-wrap .tabs-content form fieldset .contentEnq {
               display: block;
@@ -1419,7 +1519,7 @@ footer .ftbutton {
               padding: 25px 30px; } }
           @media screen and (max-width: 1090px) {
             .formSection .form-wrap .tabs-content form fieldset .contentEnq {
-              padding: 25px 20px; } }
+              padding: 22px 30px 30px; } }
           .formSection .form-wrap .tabs-content form fieldset .contentEnq:active:after, .formSection .form-wrap .tabs-content form fieldset .contentEnq:focus:after, .formSection .form-wrap .tabs-content form fieldset .contentEnq:hover:after {
             border: 1px solid #14CC8A;
             position: absolute;
@@ -1428,19 +1528,90 @@ footer .ftbutton {
             bottom: 0;
             left: 0;
             background: #fff; }
+        @media screen and (min-width: 2000px) {
+          .formSection .form-wrap .tabs-content form fieldset #sel1 p .wpcf7-form-control-wrap {
+            width: 77%; } }
         .formSection .form-wrap .tabs-content form fieldset .content {
           display: flex;
           align-items: center;
           justify-content: space-between;
-          padding: 46px 44px 34px 42px;
+          padding: 35px 44px 35px 42px;
           border-bottom: 1px dashed #000; }
-          .formSection .form-wrap .tabs-content form fieldset .content p {
+          .formSection .form-wrap .tabs-content form fieldset .content .wpcf7-not-valid-tip {
+            margin-top: 5px;
+            position: absolute;
+            bottom: 0;
+            text-align: center;
+            margin: 0 auto;
+            right: 0;
+            left: 0;
+            color: #FF0000;
+            background: #ff00001a;
+            padding: 6px 0px;
+            font-size: 16px;
+            border-bottom: 1px solid #FF0000; }
+            .formSection .form-wrap .tabs-content form fieldset .content .wpcf7-not-valid-tip:hover {
+              border-bottom: 2px solid #FF0000;
+              position: absolute;
+              content: "";
+              right: 0;
+              bottom: 0;
+              left: 0;
+              z-index: 11; }
+            @media screen and (max-width: 1450px) {
+              .formSection .form-wrap .tabs-content form fieldset .content .wpcf7-not-valid-tip {
+                padding: 3px 0px;
+                font-size: 14px; } }
+            @media screen and (max-width: 1400px) {
+              .formSection .form-wrap .tabs-content form fieldset .content .wpcf7-not-valid-tip {
+                font-size: 14px; } }
+            @media screen and (max-width: 900px) {
+              .formSection .form-wrap .tabs-content form fieldset .content .wpcf7-not-valid-tip {
+                font-size: 14px; } }
+          .formSection .form-wrap .tabs-content form fieldset .content .contentForm {
             display: flex;
             align-items: center;
             justify-content: space-between; }
+            .formSection .form-wrap .tabs-content form fieldset .content .contentForm p {
+              display: contents; }
+              .formSection .form-wrap .tabs-content form fieldset .content .contentForm p .mid {
+                width: 20%; }
+                @media screen and (max-width: 1640px) {
+                  .formSection .form-wrap .tabs-content form fieldset .content .contentForm p .mid {
+                    width: 17%; } }
+                @media screen and (max-width: 1090px) {
+                  .formSection .form-wrap .tabs-content form fieldset .content .contentForm p .mid {
+                    width: 100%; } }
+              .formSection .form-wrap .tabs-content form fieldset .content .contentForm p .wpcf7-form-control-wrap {
+                width: 75%; }
+                @media screen and (max-width: 1600px) {
+                  .formSection .form-wrap .tabs-content form fieldset .content .contentForm p .wpcf7-form-control-wrap {
+                    width: 75%; } }
+            @media screen and (max-width: 1090px) {
+              .formSection .form-wrap .tabs-content form fieldset .content .contentForm {
+                display: block; } }
+          .formSection .form-wrap .tabs-content form fieldset .content p {
+            display: contents; }
+            @media screen and (min-width: 2000px) {
+              .formSection .form-wrap .tabs-content form fieldset .content p {
+                display: contents; } }
             @media screen and (max-width: 1024px) {
               .formSection .form-wrap .tabs-content form fieldset .content p {
                 display: block; } }
+          .formSection .form-wrap .tabs-content form fieldset .content .wpcf7-form-control-wrap label {
+            margin-bottom: 0px !important; }
+            .formSection .form-wrap .tabs-content form fieldset .content .wpcf7-form-control-wrap label .wpcf7-list-item-label {
+              padding: 10px 10px;
+              border-radius: 5px;
+              font-weight: 500;
+              letter-spacing: -0.03em;
+              border: 1px solid;
+              white-space: nowrap;
+              display: inline-block;
+              cursor: pointer; }
+          .formSection .form-wrap .tabs-content form fieldset .content .wpcf7-form-control-wrap .disabled {
+            color: #00000033 !important;
+            cursor: not-allowed !important; }
           .formSection .form-wrap .tabs-content form fieldset .content .last {
             margin: 0 0em 0 0em !important; }
           @media screen and (min-width: 2000px) {
@@ -1448,10 +1619,10 @@ footer .ftbutton {
               justify-content: normal; } }
           @media screen and (max-width: 1800px) {
             .formSection .form-wrap .tabs-content form fieldset .content {
-              padding: 46px 30px 34px 30px; } }
+              padding: 35px 30px 35px 30px; } }
           @media screen and (max-width: 1280px) {
             .formSection .form-wrap .tabs-content form fieldset .content {
-              padding: 46px 20px 34px 20px; } }
+              padding: 35px 20px 35px 20px; } }
           @media screen and (max-width: 1090px) {
             .formSection .form-wrap .tabs-content form fieldset .content {
               display: block;
@@ -1460,7 +1631,7 @@ footer .ftbutton {
               padding: 25px 30px; } }
           @media screen and (max-width: 1090px) {
             .formSection .form-wrap .tabs-content form fieldset .content {
-              padding: 25px 20px; } }
+              padding: 22px 30px 30px; } }
           .formSection .form-wrap .tabs-content form fieldset .content:active:after, .formSection .form-wrap .tabs-content form fieldset .content:focus:after, .formSection .form-wrap .tabs-content form fieldset .content:hover:after {
             border: 1px solid #14CC8A;
             position: absolute;
@@ -1480,6 +1651,13 @@ footer .ftbutton {
             width: 75%;
             display: flex;
             align-items: center; }
+            @media screen and (min-width: 2000px) {
+              .formSection .form-wrap .tabs-content form fieldset .content .openRoles {
+                margin-left: 70px;
+                width: 100%; } }
+            @media screen and (max-width: 1600px) {
+              .formSection .form-wrap .tabs-content form fieldset .content .openRoles {
+                width: 75%; } }
             .formSection .form-wrap .tabs-content form fieldset .content .openRoles select.select-wrap_three {
               display: none; }
             .formSection .form-wrap .tabs-content form fieldset .content .openRoles .select-wrap_three {
@@ -1492,12 +1670,21 @@ footer .ftbutton {
               display: none; }
             .formSection .form-wrap .tabs-content form fieldset .content .openRoles .custom-select_three {
               position: relative;
-              display: inline-block;
-              margin-left: 18px; }
+              display: inline-block; }
               @media screen and (max-width: 900px) {
                 .formSection .form-wrap .tabs-content form fieldset .content .openRoles .custom-select_three {
                   margin-left: 0px;
                   margin-top: 0px; } }
+            .formSection .form-wrap .tabs-content form fieldset .content .openRoles .custom-select_three option {
+              background-color: #fff;
+              color: #000 !important;
+              border: 1px solid #000000;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 35px; }
+              .formSection .form-wrap .tabs-content form fieldset .content .openRoles .custom-select_three option:hover {
+                font-weight: 600;
+                background-color: #fff; }
             .formSection .form-wrap .tabs-content form fieldset .content .openRoles .custom-select-trigger-three {
               position: relative;
               display: block;
@@ -1536,38 +1723,49 @@ footer .ftbutton {
               background: #FFFFFF;
               border: 1px solid #000000;
               margin-top: 15px;
-              padding: 24px 32px 24px 25px;
+              padding: 20px 32px 24px 25px;
               z-index: 1;
-              height: 250px;
+              height: 250px; }
+              @media screen and (max-width: 1600px) {
+                .formSection .form-wrap .tabs-content form fieldset .content .openRoles .custom-select_three.opened .custom-options_three {
+                  margin-top: 10px; } }
+              @media screen and (max-width: 1400px) {
+                .formSection .form-wrap .tabs-content form fieldset .content .openRoles .custom-select_three.opened .custom-options_three {
+                  margin-top: 5px; } }
+            .formSection .form-wrap .tabs-content form fieldset .content .openRoles .custom-select_three.opened .custom-options_three .custom-options_box {
+              height: 210px;
               overflow-y: scroll;
               /* ===== Scrollbar CSS ===== */
               /* Firefox */
               scrollbar-width: auto;
               scrollbar-color: #00ffa3 #ffffff;
               /* Chrome, Edge, and Safari */ }
-              .formSection .form-wrap .tabs-content form fieldset .content .openRoles .custom-select_three.opened .custom-options_three::-webkit-scrollbar {
+              @media screen and (max-width: 1600px) {
+                .formSection .form-wrap .tabs-content form fieldset .content .openRoles .custom-select_three.opened .custom-options_three .custom-options_box {
+                  height: 190px; } }
+              @media screen and (max-width: 1400px) {
+                .formSection .form-wrap .tabs-content form fieldset .content .openRoles .custom-select_three.opened .custom-options_three .custom-options_box {
+                  height: 125px; } }
+              .formSection .form-wrap .tabs-content form fieldset .content .openRoles .custom-select_three.opened .custom-options_three .custom-options_box::-webkit-scrollbar {
                 width: 5px; }
-              .formSection .form-wrap .tabs-content form fieldset .content .openRoles .custom-select_three.opened .custom-options_three::-webkit-scrollbar-track {
+              .formSection .form-wrap .tabs-content form fieldset .content .openRoles .custom-select_three.opened .custom-options_three .custom-options_box::-webkit-scrollbar-track {
                 background: #ffffff; }
-              .formSection .form-wrap .tabs-content form fieldset .content .openRoles .custom-select_three.opened .custom-options_three::-webkit-scrollbar-thumb {
+              .formSection .form-wrap .tabs-content form fieldset .content .openRoles .custom-select_three.opened .custom-options_three .custom-options_box::-webkit-scrollbar-thumb {
                 background-color: #000;
                 border-radius: 15px;
-                border: 3px solid #ffffff; }
+                border: 3px solid #000; }
             .formSection .form-wrap .tabs-content form fieldset .content .openRoles .custom-option_three {
               position: relative;
               display: block;
               padding: 4px 10px;
               color: #000;
-              font-size: 20px;
+              font-size: 24px;
               font-weight: 400;
               line-height: 48px;
               cursor: pointer;
               transition: all 0.3s ease-in-out;
               z-index: 1;
               background-color: #fff; }
-              .formSection .form-wrap .tabs-content form fieldset .content .openRoles .custom-option_three:nth-child(3) {
-                color: #C8C8C8;
-                pointer-events: none; }
             .formSection .form-wrap .tabs-content form fieldset .content .openRoles .custom-option_three:hover {
               font-weight: 600; }
             .formSection .form-wrap .tabs-content form fieldset .content .openRoles .custom-options_three {
@@ -1584,22 +1782,24 @@ footer .ftbutton {
                 width: 400px; } }
             @media screen and (max-width: 1600px) {
               .formSection .form-wrap .tabs-content form fieldset .content .openRoles .custom-select-trigger-three {
-                width: 350px; }
+                width: 350px;
+                font-size: 20px; }
               .formSection .form-wrap .tabs-content form fieldset .content .openRoles .custom-select_three.opened .custom-options_three {
-                padding: 20px 25px 20px 20px !important;
+                padding: 15px 25px 20px 20px !important;
                 height: 225px; }
               .formSection .form-wrap .tabs-content form fieldset .content .openRoles .custom-option_three {
-                line-height: 40px; } }
+                line-height: 40px;
+                font-size: 20px; } }
             @media screen and (max-width: 1400px) {
               .formSection .form-wrap .tabs-content form fieldset .content .openRoles .custom-select-trigger-three {
                 width: 325px;
-                font-size: 18px !important; }
+                font-size: 20px !important; }
               .formSection .form-wrap .tabs-content form fieldset .content .openRoles .custom-select_three.opened .custom-options_three {
-                padding: 10px 15px 10px 10px !important;
+                padding: 5px 15px 10px 10px !important;
                 height: 145px; }
               .formSection .form-wrap .tabs-content form fieldset .content .openRoles .custom-option_three {
                 line-height: 25px;
-                font-size: 14px; } }
+                font-size: 16px; } }
             @media screen and (max-width: 1300px) {
               .formSection .form-wrap .tabs-content form fieldset .content .openRoles .custom-select-trigger-three {
                 padding: 0px 2px;
@@ -1609,13 +1809,14 @@ footer .ftbutton {
                 margin-top: -15px;
                 width: 100%; }
                 .formSection .form-wrap .tabs-content form fieldset .content .openRoles .openRoles .custom-select-trigger-three {
-                  margin-left: 0px !important; }
+                  margin-left: 0px !important;
+                  font-size: 16px; }
                   .formSection .form-wrap .tabs-content form fieldset .content .openRoles .openRoles .custom-select-trigger-three:after {
                     right: 0px; }
                 .formSection .form-wrap .tabs-content form fieldset .content .openRoles .custom-option_three {
                   font-size: 14px; }
                 .formSection .form-wrap .tabs-content form fieldset .content .openRoles .custom-select-trigger-three {
-                  font-size: 14px; } }
+                  font-size: 16px !important; } }
             @media screen and (max-width: 700px) {
               .formSection .form-wrap .tabs-content form fieldset .content .openRoles .custom-select_three {
                 margin-left: 0px; }
@@ -1632,10 +1833,6 @@ footer .ftbutton {
               margin: 0;
               padding: 0 10px;
               border-radius: 0; }
-              .formSection .form-wrap .tabs-content form fieldset .content .openRoles select option {
-                background-color: #14CC8A;
-                color: #000 !important;
-                border: 1px solid #14CC8A; }
               @media screen and (max-width: 1090px) {
                 .formSection .form-wrap .tabs-content form fieldset .content .openRoles select {
                   padding: 0px;
@@ -1676,11 +1873,19 @@ footer .ftbutton {
               z-index: 2;
               border: none;
               color: #000;
-              font-size: 16px;
-              font-weight: 500;
+              font-size: 20px;
+              font-weight: 600;
               margin: 0;
               border-radius: 0;
               width: 120px; }
+              @media screen and (max-width: 1600px) {
+                .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-select-trigger,
+                .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-select-trigger-two {
+                  font-size: 16px; } }
+              @media screen and (max-width: 1090px) {
+                .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-select-trigger,
+                .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-select-trigger-two {
+                  font-size: 14px; } }
             .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-select-trigger:after,
             .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-select-trigger-two:after {
               position: absolute;
@@ -1749,7 +1954,8 @@ footer .ftbutton {
             @media screen and (max-width: 1090px) {
               .formSection .form-wrap .tabs-content form fieldset .content .ctc {
                 margin-top: -15px;
-                width: 100%; }
+                width: 100%;
+                justify-content: space-between; }
                 .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-select-trigger:after,
                 .formSection .form-wrap .tabs-content form fieldset .content .ctc .custom-select-trigger-two::after {
                   right: 0px; }
@@ -1791,6 +1997,9 @@ footer .ftbutton {
                 background: transparent; }
           .formSection .form-wrap .tabs-content form fieldset .content .filesBtn {
             width: 75%; }
+            @media screen and (max-width: 575px) {
+              .formSection .form-wrap .tabs-content form fieldset .content .filesBtn {
+                width: 100%; } }
             .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .file,
             .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .upload {
               display: block;
@@ -1809,41 +2018,43 @@ footer .ftbutton {
                 border: none;
                 width: 90%;
                 padding: 10px 10px 10px 0px;
-                font-size: 24px;
+                font-size: 20px;
                 cursor: unset; }
                 @media screen and (max-width: 1090px) {
                   .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .file-name {
                     width: 100%; } }
                 @media screen and (max-width: 1366px) {
                   .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .file-name {
-                    font-size: 18px; } }
+                    font-size: 16px; } }
               .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex #upload-file,
               .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex #file-name {
                 width: 100%; }
               .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .upload-file {
                 border: none;
                 width: 90%;
-                padding: 5px 5px 0px 0px;
+                padding: 10px 10px 10px 0px;
                 font-size: 24px;
                 cursor: unset; }
+                @media screen and (max-width: 1600px) {
+                  .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .upload-file {
+                    font-size: 20px; } }
                 @media screen and (max-width: 1090px) {
                   .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .upload-file {
-                    width: 100%; } }
-                @media screen and (max-width: 1366px) {
-                  .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .upload-file {
-                    font-size: 18px; } }
+                    width: 100%;
+                    font-size: 16px; } }
               .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .upload-file-resume {
                 border: none;
                 width: 90%;
                 padding: 0px 0px 0px 0px;
                 font-size: 24px;
                 cursor: unset; }
+                @media screen and (max-width: 1600px) {
+                  .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .upload-file-resume {
+                    font-size: 20px; } }
                 @media screen and (max-width: 1090px) {
                   .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .upload-file-resume {
-                    width: 100%; } }
-                @media screen and (max-width: 1366px) {
-                  .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .upload-file-resume {
-                    font-size: 18px; } }
+                    width: 100%;
+                    font-size: 16px; } }
                 .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .upload-file-resume .upload-file {
                   padding: 10px 10px 10px 0px; }
               .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .Resume-file {
@@ -1852,12 +2063,13 @@ footer .ftbutton {
                 padding: 10px 10px 0px 0px;
                 font-size: 24px;
                 cursor: unset; }
+                @media screen and (max-width: 1600px) {
+                  .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .Resume-file {
+                    font-size: 20px; } }
                 @media screen and (max-width: 1090px) {
                   .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .Resume-file {
-                    width: 100%; } }
-                @media screen and (max-width: 1366px) {
-                  .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .Resume-file {
-                    font-size: 18px; } }
+                    width: 100%;
+                    font-size: 16px; } }
               @media screen and (max-width: 900px) {
                 .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .mob-file {
                   display: block; } }
@@ -1876,27 +2088,63 @@ footer .ftbutton {
                 text-overflow: ellipsis; }
                 @media screen and (max-width: 1090px) {
                   .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex input {
-                    width: 75%; } }
+                    width: 50%; } }
+              .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .extButton {
+                position: relative;
+                margin-bottom: 20px; }
+                @media screen and (max-width: 1450px) {
+                  .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .extButton {
+                    margin-bottom: 15px; } }
+                @media screen and (max-width: 1050px) {
+                  .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .extButton {
+                    margin-bottom: 5px; } }
+              .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .ext {
+                position: absolute;
+                bottom: 35px;
+                right: 85px;
+                font-size: 14px;
+                width: auto;
+                font-weight: 400; }
+                @media screen and (max-width: 1920px) {
+                  .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .ext {
+                    right: 45px; } }
+                @media screen and (max-width: 1800px) {
+                  .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .ext {
+                    right: 30px; } }
+                @media screen and (max-width: 1600px) {
+                  .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .ext {
+                    right: 30px;
+                    font-size: 12px; } }
+                @media screen and (max-width: 1450px) {
+                  .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .ext {
+                    bottom: 30px; } }
+                @media screen and (max-width: 1400px) {
+                  .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .ext {
+                    right: 30px;
+                    bottom: 30px; } }
+                @media screen and (max-width: 1024px) {
+                  .formSection .form-wrap .tabs-content form fieldset .content .filesBtn .d-flex .ext {
+                    position: unset; } }
+            .formSection .form-wrap .tabs-content form fieldset .content .filesBtn p .wpcf7-form-control-wrap {
+              position: unset !important; }
           .formSection .form-wrap .tabs-content form fieldset .content label {
             float: left;
             width: 23%;
-            font-size: 16px;
+            font-size: 20px;
             color: #000;
-            font-weight: 500;
+            font-weight: 600;
             line-height: 20px; }
-            @media screen and (min-width: 2000px) {
-              .formSection .form-wrap .tabs-content form fieldset .content label {
-                width: 13%; } }
             @media screen and (max-width: 1640px) {
               .formSection .form-wrap .tabs-content form fieldset .content label {
-                width: 17%; } }
+                width: 17%;
+                font-size: 16px; } }
             @media screen and (max-width: 1366px) {
               .formSection .form-wrap .tabs-content form fieldset .content label {
                 font-size: 16px;
                 line-height: 20px; } }
             @media screen and (max-width: 1090px) {
               .formSection .form-wrap .tabs-content form fieldset .content label {
-                font-size: 13px;
+                font-size: 14px;
                 width: 100%;
                 margin-bottom: 10px; } }
           .formSection .form-wrap .tabs-content form fieldset .content label + span input::-webkit-input-placeholder {
@@ -1908,33 +2156,58 @@ footer .ftbutton {
           .formSection .form-wrap .tabs-content form fieldset .content input {
             font-family: 'Poppins', sans-serif;
             border: none;
-            color: #000;
+            color: #000000;
             font-size: 24px;
             font-weight: 600;
             margin: 0;
             padding: 0 0px;
-            width: 75%;
+            width: 100%;
             vertical-align: middle;
             caret-color: #00FFA3;
             cursor: pointer;
             text-overflow: ellipsis; }
-            .formSection .form-wrap .tabs-content form fieldset .content input::-webkit-input-placeholder {
-              opacity: 0; }
-            .formSection .form-wrap .tabs-content form fieldset .content input:focus::-webkit-input-placeholder {
-              color: #000;
-              opacity: 0.2;
-              font-weight: 500; }
+            .formSection .form-wrap .tabs-content form fieldset .content input::placeholder {
+              color: #000000;
+              font-family: 'Poppins', sans-serif;
+              font-size: 20px;
+              font-weight: 600; }
+              @media screen and (max-width: 1600px) {
+                .formSection .form-wrap .tabs-content form fieldset .content input::placeholder {
+                  font-size: 16px;
+                  line-height: 24px; } }
+              @media screen and (max-width: 1366px) {
+                .formSection .form-wrap .tabs-content form fieldset .content input::placeholder {
+                  font-size: 16px;
+                  line-height: 24px; } }
+              @media screen and (max-width: 1090px) {
+                .formSection .form-wrap .tabs-content form fieldset .content input::placeholder {
+                  font-size: 14px;
+                  width: 100%;
+                  padding: 0px; } }
+            @media screen and (max-width: 1600px) {
+              .formSection .form-wrap .tabs-content form fieldset .content input {
+                font-size: 20px;
+                line-height: 24px; } }
+            @media screen and (max-width: 1366px) {
+              .formSection .form-wrap .tabs-content form fieldset .content input {
+                font-size: 20px;
+                line-height: 24px; } }
+            @media screen and (max-width: 1090px) {
+              .formSection .form-wrap .tabs-content form fieldset .content input {
+                font-size: 16px; } }
             .formSection .form-wrap .tabs-content form fieldset .content input:hover {
               border: none; }
             .formSection .form-wrap .tabs-content form fieldset .content input:focus {
               outline: none; }
+              .formSection .form-wrap .tabs-content form fieldset .content input:focus::placeholder {
+                color: #00000033; }
             @media screen and (max-width: 1366px) {
               .formSection .form-wrap .tabs-content form fieldset .content input {
-                font-size: 18px;
+                font-size: 20px;
                 line-height: 24px; } }
             @media screen and (max-width: 1090px) {
               .formSection .form-wrap .tabs-content form fieldset .content input {
-                font-size: 18px;
+                font-size: 16px;
                 width: 100%;
                 padding: 0px; } }
             .formSection .form-wrap .tabs-content form fieldset .content input .hide-radio {
@@ -1974,8 +2247,36 @@ footer .ftbutton {
                 margin-right: 0; }
             .formSection .form-wrap .tabs-content form fieldset .content .InputGroup input[type="radio"]:checked + label {
               background-color: #00FFA3; }
-        .formSection .form-wrap .tabs-content form fieldset .content.not-empty label {
-          color: #A9A9A9; }
+        .formSection .form-wrap .tabs-content form fieldset .wpcf7-not-valid-tip {
+          position: absolute;
+          bottom: 0;
+          text-align: center;
+          margin: 0 auto;
+          right: 0;
+          left: 0;
+          color: #FF0000;
+          background: #ff00001a;
+          padding: 6px 0px;
+          font-size: 16px;
+          border-bottom: 1px solid #FF0000; }
+          .formSection .form-wrap .tabs-content form fieldset .wpcf7-not-valid-tip:hover {
+            border-bottom: 2px solid #FF0000;
+            position: absolute;
+            content: "";
+            right: 0;
+            bottom: 0;
+            left: 0;
+            z-index: 11; }
+          @media screen and (max-width: 1450px) {
+            .formSection .form-wrap .tabs-content form fieldset .wpcf7-not-valid-tip {
+              padding: 3px 0px;
+              font-size: 14px; } }
+          @media screen and (max-width: 1400px) {
+            .formSection .form-wrap .tabs-content form fieldset .wpcf7-not-valid-tip {
+              font-size: 14px; } }
+          @media screen and (max-width: 900px) {
+            .formSection .form-wrap .tabs-content form fieldset .wpcf7-not-valid-tip {
+              font-size: 14px !important; } }
         .formSection .form-wrap .tabs-content form fieldset .content .radiocheck label {
           color: #000 !important; }
         .formSection .form-wrap .tabs-content form fieldset .borderBlack {
@@ -1983,8 +2284,32 @@ footer .ftbutton {
         .formSection .form-wrap .tabs-content form fieldset .borderDotted {
           border-bottom: 1px dashed #000; }
         .formSection .form-wrap .tabs-content form fieldset .checkboxContent {
+          display: flex;
           border: none;
+          position: relative;
           padding: 46px 30px 34px 42px; }
+          .formSection .form-wrap .tabs-content form fieldset .checkboxContent .wpcf7-not-valid-tip {
+            position: absolute;
+            bottom: 0;
+            text-align: center;
+            margin: 0 auto;
+            right: 0;
+            left: 0;
+            color: #FF0000;
+            background: #ff00001a;
+            padding: 6px 0px;
+            font-size: 16px;
+            border-bottom: 0px solid #FF0000; }
+            @media screen and (max-width: 1450px) {
+              .formSection .form-wrap .tabs-content form fieldset .checkboxContent .wpcf7-not-valid-tip {
+                padding: 3px 0px;
+                font-size: 14px; } }
+            @media screen and (max-width: 1400px) {
+              .formSection .form-wrap .tabs-content form fieldset .checkboxContent .wpcf7-not-valid-tip {
+                font-size: 14px; } }
+            @media screen and (max-width: 900px) {
+              .formSection .form-wrap .tabs-content form fieldset .checkboxContent .wpcf7-not-valid-tip {
+                font-size: 14px !important; } }
           @media screen and (max-width: 1800px) {
             .formSection .form-wrap .tabs-content form fieldset .checkboxContent {
               padding: 46px 30px 34px 30px; } }
@@ -1993,21 +2318,22 @@ footer .ftbutton {
               padding: 46px 20px 34px 20px; } }
           @media screen and (max-width: 1090px) {
             .formSection .form-wrap .tabs-content form fieldset .checkboxContent {
-              display: block;
-              align-items: center;
-              justify-content: space-between;
-              padding: 25px 30px; } }
+              padding: 25px 30px;
+              align-items: unset; } }
           @media screen and (max-width: 1090px) {
             .formSection .form-wrap .tabs-content form fieldset .checkboxContent {
               padding: 25px 20px; } }
           @media screen and (max-width: 770px) {
             .formSection .form-wrap .tabs-content form fieldset .checkboxContent {
-              width: 100%; } }
+              width: 100%;
+              margin-bottom: 85px; } }
           .formSection .form-wrap .tabs-content form fieldset .checkboxContent .wpcf7-list-item {
-            margin: 0 !important; }
+            margin-bottom: 10px !important; }
           .formSection .form-wrap .tabs-content form fieldset .checkboxContent .policy {
             font-weight: 400;
             width: 100%; }
+            .formSection .form-wrap .tabs-content form fieldset .checkboxContent .policy a {
+              color: #000; }
           .formSection .form-wrap .tabs-content form fieldset .checkboxContent input[type='checkbox'] {
             margin: 0;
             padding: 2px 0;
@@ -2036,9 +2362,6 @@ footer .ftbutton {
           background: #E3E3E3;
           float: left;
           cursor: pointer; }
-          .formSection .form-wrap .tabs-content form fieldset .submit:hover, .formSection .form-wrap .tabs-content form fieldset .submit:focus {
-            background-color: #00FFA3;
-            color: #000; }
           @media screen and (max-width: 1600px) {
             .formSection .form-wrap .tabs-content form fieldset .submit {
               padding: 64px;
@@ -2051,7 +2374,17 @@ footer .ftbutton {
             .formSection .form-wrap .tabs-content form fieldset .submit {
               padding: 25px 50px;
               width: 100%;
-              text-align: center; } }
+              text-align: center;
+              position: absolute;
+              bottom: 0;
+              z-index: 11; } }
+      .formSection .form-wrap .tabs-content form .wpcf7-response-output {
+        text-align: center;
+        color: #FF0000;
+        background: #ff00001a; }
+        @media screen and (max-width: 900px) {
+          .formSection .form-wrap .tabs-content form .wpcf7-response-output {
+            font-size: 14px !important; } }
   @media screen and (max-width: 1450px) {
     .formSection .sec1 {
       width: 46%; }
@@ -2078,12 +2411,19 @@ footer .ftbutton {
       .formSection .sec1 {
         display: block;
         width: 100%;
-        padding: 0px 39px 10px 28px; }
+        padding: 0px 39px 28px 28px; }
         .formSection .sec1 img {
           width: 50%; }
       .formSection .form-wrap {
         width: 100%;
-        border-left: 0px solid #000; } }
+        position: relative;
+        border-left: 0px solid #000;
+        animation: 1s ease-out 0s 1 slideInFromTop; }
+    @keyframes slideInFromTop {
+      0% {
+        transform: translateY(-100%); }
+      100% {
+        transform: translateY(0); } } }
 
 .page-template-forms header, .page-template-forms-two header {
   display: none; }
@@ -2091,42 +2431,55 @@ footer .ftbutton {
     .page-template-forms header, .page-template-forms-two header {
       display: block; } }
 
-@media screen and (max-width: 900px) {
-  .thanksSection {
-    position: relative;
-    margin-top: 0px !important; } }
-@media screen and (max-width: 900px) {
+.thanksSection {
+  align-items: unset; }
+  @media screen and (max-width: 900px) {
+    .thanksSection {
+      position: relative;
+      margin-top: 0px !important; } }
   .thanksSection .sec1 {
-    display: none !important; } }
-.thanksSection .form-wrap {
-  height: unset;
-  overflow-y: unset; }
-  @media screen and (max-width: 900px) {
+    padding-top: 100px; }
+    @media screen and (max-width: 1800px) {
+      .thanksSection .sec1 {
+        padding-top: 80px; } }
+    @media screen and (max-width: 1600px) {
+      .thanksSection .sec1 {
+        padding-top: 50px; } }
+    @media screen and (max-width: 1400px) {
+      .thanksSection .sec1 {
+        padding-top: 25px; } }
+    @media screen and (max-width: 900px) {
+      .thanksSection .sec1 {
+        display: none !important; } }
+  .thanksSection .form-wrap {
+    height: 100vh;
+    overflow-y: unset;
+    background-color: #00FFA3; }
     .thanksSection .form-wrap .tabs {
-      display: none !important; } }
-.thanksSection .tabs-content {
-  overflow-y: unset !important; }
-  @media screen and (max-width: 900px) {
-    .thanksSection .tabs-content {
-      height: calc(100vh - 0px) !important; } }
-.thanksSection .thanksClose {
-  display: none; }
-  @media screen and (max-width: 900px) {
-    .thanksSection .thanksClose {
-      display: block;
-      position: absolute;
-      top: 0;
-      right: 0;
-      padding: 16px;
-      background: #000; } }
-  @media screen and (max-width: 375px) {
-    .thanksSection .thanksClose {
-      padding: 10px; } }
+      display: none !important; }
+  .thanksSection .tabs-content {
+    overflow-y: unset !important;
+    height: 100vh; }
+    @media screen and (max-width: 900px) {
+      .thanksSection .tabs-content {
+        height: calc(100vh - 0px) !important; } }
+  .thanksSection .thanksClose {
+    padding: 30px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #000; }
+    @media screen and (max-width: 900px) {
+      .thanksSection .thanksClose {
+        padding: 16px; } }
+    @media screen and (max-width: 375px) {
+      .thanksSection .thanksClose {
+        padding: 10px; } }
 
 .thankYou {
   background-color: #00FFA3;
-  padding: 200px 217px 0px 217px;
-  height: calc(100vh - 125px); }
+  padding: 325px 217px 0px 217px;
+  height: 100vh; }
   .thankYou .thanksImage {
     display: block;
     width: auto;
@@ -2138,10 +2491,14 @@ footer .ftbutton {
     font-size: 18px;
     font-weight: 400; }
   .thankYou h2,
-  .thankYou h3,
   .thankYou div {
     text-align: center;
-    margin-top: 20px; }
+    margin-top: 30px;
+    line-height: 36px; }
+  .thankYou h3 {
+    text-align: center;
+    margin-top: 20px;
+    line-height: 24px; }
   .thankYou a {
     font-size: 18px;
     font-weight: 800;
@@ -2149,12 +2506,9 @@ footer .ftbutton {
     display: inline-block;
     margin-top: 65px;
     margin-bottom: 40px; }
-  @media screen and (max-width: 1600px) {
-    .thankYou {
-      height: calc(100vh - 112px); } }
   @media screen and (max-width: 1680px) {
     .thankYou {
-      padding: 160px 162px 4px 167px; }
+      padding: 225px 162px 4px 167px; }
       .thankYou h3 {
         font-size: 16px; }
       .thankYou .h2 {
@@ -2162,17 +2516,16 @@ footer .ftbutton {
         line-height: 30px; } }
   @media screen and (max-width: 1400px) {
     .thankYou {
-      height: calc(100vh - 90px); }
+      padding: 190px 162px 4px 167px; }
       .thankYou h3 {
         font-size: 14px; }
       .thankYou .h2 {
         font-size: 24px; } }
   @media screen and (max-width: 1280px) {
     .thankYou {
-      height: calc(100vh - 90px); } }
+      height: 100vh; } }
   @media screen and (max-width: 1090px) {
     .thankYou {
-      height: calc(100vh - 85px);
       padding: 100px 80px; }
       .thankYou a {
         margin-top: 60px;
@@ -2188,11 +2541,13 @@ footer .ftbutton {
   overflow-x: hidden; }
 
 .casebgdetails {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(219.06deg, #0D1917 23.88%, #A270F2 71.41%);
   margin-top: 86px;
   border-top: 1px solid #000;
   /**************************************************Media Query***************************************************/ }
+  .casebgdetails .animFloat {
+    animation: float 3s ease-in-out infinite; }
   .casebgdetails .sectionOne {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(219.06deg, #0D1917 23.88%, #A270F2 71.41%);
     position: relative;
     padding: 70px 0px 200px 0px; }
     .casebgdetails .sectionOne .mobtext {
@@ -2209,26 +2564,23 @@ footer .ftbutton {
         line-height: 30px;
         color: rgba(255, 255, 255, 0.5);
         width: 73%; }
-    .casebgdetails .sectionOne .mobImg img {
+    .casebgdetails .sectionOne .mobImg {
       margin: 0 auto;
       display: flex;
       align-items: center;
       width: 60%; }
   .casebgdetails .sectionTwo {
-    display: flex;
-    justify-content: space-between;
-    align-items: center; }
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(219.06deg, #0D1917 23.88%, #A270F2 71.41%);
+    display: flex; }
     .casebgdetails .sectionTwo .mobimgTwo {
-      width: 48%; }
+      width: 50%; }
       .casebgdetails .sectionTwo .mobimgTwo img {
-        width: 90%;
-        margin: 0 auto;
-        display: flex;
-        align-items: center; }
+        height: 100%;
+        max-width: 100%; }
     .casebgdetails .sectionTwo .mobtextTwo {
       padding: 94px 0px 295px 112px;
       background: #fff;
-      width: 48%; }
+      width: 50%; }
       .casebgdetails .sectionTwo .mobtextTwo p {
         text-transform: uppercase; }
       .casebgdetails .sectionTwo .mobtextTwo h1 {
@@ -2239,12 +2591,13 @@ footer .ftbutton {
         line-height: 30px;
         width: 60%; }
   .casebgdetails .sectionThree {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(311.06deg, #0D1917 40.88%, #A270F2 100%);
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 130px 0px 130px 112px; }
     .casebgdetails .sectionThree .mobtextThree {
-      width: 48%; }
+      width: 50%; }
       .casebgdetails .sectionThree .mobtextThree p {
         text-transform: uppercase; }
       .casebgdetails .sectionThree .mobtextThree h1 {
@@ -2258,16 +2611,8 @@ footer .ftbutton {
         width: 60%;
         color: rgba(255, 255, 255, 0.5); }
   .casebgdetails .sectionFour {
-    padding: 50px 0px;
-    transform: translatey(0px);
-    animation: float 2s ease-in-out infinite; }
-@keyframes float {
-  0% {
-    transform: translatey(0px); }
-  50% {
-    transform: translatey(-20px); }
-  100% {
-    transform: translatey(0px); } }
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(219.06deg, #0D1917 23.88%, #A270F2 71.41%);
+    padding: 50px 0px; }
     .casebgdetails .sectionFour img {
       display: flex;
       align-items: center;
@@ -2276,13 +2621,14 @@ footer .ftbutton {
     .casebgdetails .sectionFour .mobileImg {
       display: none; }
   .casebgdetails .sectionFive {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(219.06deg, #0D1917 23.88%, #A270F2 71.41%);
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: #fff;
     padding: 130px 0px 130px 112px; }
     .casebgdetails .sectionFive .mobtextFour {
-      width: 48%; }
+      width: 50%; }
       .casebgdetails .sectionFive .mobtextFour p {
         text-transform: uppercase; }
       .casebgdetails .sectionFive .mobtextFour h1 {
@@ -2353,8 +2699,6 @@ footer .ftbutton {
         width: 55%; }
     .casebgdetails .sectionTwo .mobimgTwo {
       width: 50%; }
-      .casebgdetails .sectionTwo .mobimgTwo img {
-        width: 80%; }
     .casebgdetails .sectionThree {
       padding: 100px 0px 100px 82px; }
       .casebgdetails .sectionThree .mobtextThree h1 {
@@ -2400,8 +2744,6 @@ footer .ftbutton {
           width: 58%; }
       .casebgdetails .sectionTwo .mobimgTwo {
         width: 50%; }
-        .casebgdetails .sectionTwo .mobimgTwo img {
-          width: 77%; }
       .casebgdetails .sectionThree {
         padding: 80px 0px 80px 52px; }
         .casebgdetails .sectionThree .mobtextThree h1 {
@@ -2445,8 +2787,6 @@ footer .ftbutton {
         width: 62%; }
     .casebgdetails .sectionTwo .mobimgTwo {
       width: 50%; }
-      .casebgdetails .sectionTwo .mobimgTwo img {
-        width: 77%; }
     .casebgdetails .sectionThree {
       padding: 50px 0px 60px 32px; }
       .casebgdetails .sectionThree .mobtextThree h1 {
@@ -2500,7 +2840,8 @@ footer .ftbutton {
             width: 100%; }
         .casebgdetails .sectionTwo .mobimgTwo {
           width: 100%;
-          margin: 60px 0px 0px; }
+          margin: 0px;
+          line-height: 0; }
           .casebgdetails .sectionTwo .mobimgTwo img {
             width: 100%; }
       .casebgdetails .sectionThree {
@@ -2521,7 +2862,7 @@ footer .ftbutton {
         .casebgdetails .sectionFour img {
           width: 100%; }
         .casebgdetails .sectionFour .desktopImg {
-          display: none; }
+          display: block; }
         .casebgdetails .sectionFour .mobileImg {
           display: block; }
       .casebgdetails .sectionFive {
@@ -3009,6 +3350,14 @@ footer .ftbutton {
   padding: 0;
   box-sizing: border-box; }
 
+.page-template-homepage-two header .headerContent .logoBox {
+  padding-left: 50px;
+  width: 25.6%; }
+  @media screen and (max-width: 1024px) {
+    .page-template-homepage-two header .headerContent .logoBox {
+      padding-left: 0px;
+      width: auto; } }
+
 header {
   padding-left: 0px;
   position: fixed;
@@ -3043,7 +3392,8 @@ header {
           text-transform: uppercase;
           color: #000000; }
           header .headerContent .homeBox .headerCta .connectCta:hover {
-            background-color: #00FFA3; }
+            background-color: #00FFA3;
+            transition: 1s all ease-in-out; }
           @media screen and (max-width: 1600px) {
             header .headerContent .homeBox .headerCta .connectCta {
               padding: 25px 50px; } }
@@ -3057,7 +3407,8 @@ header {
       header .headerContent .homeBox .hamburgerMenu {
         width: 20%; }
         header .headerContent .homeBox .hamburgerMenu:hover {
-          background-color: #00FFA3; }
+          background-color: #00FFA3;
+          transition: 1s all ease-in-out; }
         header .headerContent .homeBox .hamburgerMenu .m-menu__checkbox {
           display: none; }
           header .headerContent .homeBox .hamburgerMenu .m-menu__checkbox:checked ~ .m-menu {
@@ -3087,7 +3438,7 @@ header {
             align-items: center;
             border-bottom: 1px solid #000;
             justify-content: space-between; }
-            header .headerContent .homeBox .hamburgerMenu .m-menu .m-menu__header span {
+            header .headerContent .homeBox .hamburgerMenu .m-menu .m-menu__header .homeIcon {
               padding-left: 75px; }
           header .headerContent .homeBox .hamburgerMenu .m-menu .menu__list {
             background-color: #fff;
@@ -3145,7 +3496,7 @@ header {
         height: calc(100vh - 88px); }
         header .headerContent .homeBox .hamburgerMenu .m-menu .menu__list li {
           padding: 32px 0px 32px 60px; }
-      header .headerContent .homeBox .hamburgerMenu .m-menu .m-menu__header span {
+      header .headerContent .homeBox .hamburgerMenu .m-menu .m-menu__header .homeIcon {
         padding-left: 60px; } }
     @media screen and (max-width: 1450px) {
       header .headerContent .homeBox .hamburgerMenu label.m-menu__toggle {
@@ -3159,7 +3510,7 @@ header {
         height: calc(100vh - 71px); }
         header .headerContent .homeBox .hamburgerMenu .m-menu .menu__list li {
           padding: 25px 0px 25px 45px; }
-      header .headerContent .homeBox .hamburgerMenu .m-menu .m-menu__header span {
+      header .headerContent .homeBox .hamburgerMenu .m-menu .m-menu__header .homeIcon {
         padding-left: 45px; } }
     @media screen and (max-width: 1280px) {
       header .headerContent .homeBox .hamburgerMenu label.m-menu__toggle {
@@ -3575,10 +3926,12 @@ footer .ftbutton {
   animation: 1.5s ease 0s normal forwards 1 fadein; }
 
 .expandnew {
+  -moz-animation: 1s ease 0s normal forwards 1 fadeinDown;
   -webkit-animation: 1s ease 0s normal forwards 1 fadeinDown;
   animation: 1s ease 0s normal forwards 1 fadeinDown; }
 
 .expandnewOne {
+  -moz-animation: 2s ease 0s normal forwards 1 fadeinDown;
   -webkit-animation: 2s ease 0s normal forwards 1 fadeinDown;
   animation: 2s ease 0s normal forwards 1 fadeinDown; }
 
@@ -3590,6 +3943,13 @@ footer .ftbutton {
   100% {
     opacity: 1; } }
 @-webkit-keyframes fadein {
+  0% {
+    opacity: 0; }
+  66% {
+    opacity: 0.5; }
+  100% {
+    opacity: 1; } }
+@-moz-keyframes fadein {
   0% {
     opacity: 0; }
   66% {
@@ -3610,12 +3970,21 @@ footer .ftbutton {
     opacity: 0; }
   100% {
     opacity: 1; } }
+@-moz-keyframes fadeinDown {
+  0% {
+    opacity: 0; }
+  66% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
 .titleBox {
   display: flex;
-  align-items: center; }
+  align-items: center;
+  justify-content: space-between; }
   .titleBox .backArrow {
     padding: 5px 15px;
-    cursor: pointer; }
+    cursor: pointer;
+    width: 20%; }
   .titleBox h3 {
     margin-left: 0px; }
   .titleBox img {
@@ -3624,102 +3993,331 @@ footer .ftbutton {
     cursor: pointer; }
   @media screen and (max-width: 1400px) {
     .titleBox h3 {
-      margin-left: 0px; }
-    .titleBox img {
-      height: 23px !important;
-      width: 18px !important; } }
+      margin-left: 0px; } }
   @media screen and (max-width: 1280px) {
     .titleBox h3 {
       margin-left: 0px; } }
 
-.clientsContentBox {
-  height: calc(100vh - 148px);
-  margin-top: 96px;
-  border-top: 1px solid #000;
-  overflow-y: auto;
-  /* ===== Scrollbar CSS ===== */
-  /* Firefox */
-  scrollbar-width: auto;
-  scrollbar-color: #00ffa3 #ffffff;
-  /* Chrome, Edge, and Safari */ }
-  .clientsContentBox::-webkit-scrollbar {
-    width: 13px; }
-  .clientsContentBox::-webkit-scrollbar-track {
-    background: #ffffff; }
-  .clientsContentBox::-webkit-scrollbar-thumb {
-    background-color: #00ffa3;
-    border-radius: 15px;
-    border: 3px solid #ffffff; }
-  .clientsContentBox img {
-    max-width: 100%; }
-  .clientsContentBox .clientLayoutOne {
+.page-template-our-clients header {
+  border-bottom: 1px solid #000; }
+
+.ourClients {
+  margin-top: 96px; }
+  .ourClients .clientsContentBox {
+    padding: 95px 90px; }
+    .ourClients .clientsContentBox .clientSlider {
+      margin-bottom: 0px !important; }
+      .ourClients .clientsContentBox .clientSlider .clientSliderSection {
+        margin-left: 98px; }
+        .ourClients .clientsContentBox .clientSlider .clientSliderSection .clientContent h2 {
+          position: relative;
+          margin-bottom: 45px;
+          line-height: 100px;
+          letter-spacing: -0.055em;
+          width: 80%;
+          font-size: 90px; }
+          .ourClients .clientsContentBox .clientSlider .clientSliderSection .clientContent h2 .quoteOne {
+            position: absolute;
+            top: 0;
+            left: -98px; }
+          .ourClients .clientsContentBox .clientSlider .clientSliderSection .clientContent h2 .quoteTwo {
+            position: absolute;
+            bottom: 0;
+            right: 0px; }
+        .ourClients .clientsContentBox .clientSlider .clientSliderSection .authorBox {
+          display: flex;
+          align-items: center; }
+          .ourClients .clientsContentBox .clientSlider .clientSliderSection .authorBox .authorImg {
+            margin-right: 30px; }
+          .ourClients .clientsContentBox .clientSlider .clientSliderSection .authorBox .authorDesc h4 {
+            margin-bottom: 15px; }
+      .ourClients .clientsContentBox .clientSlider .slick-dots {
+        position: absolute;
+        bottom: 50px;
+        right: 0px;
+        left: unset;
+        text-align: right; }
+        .ourClients .clientsContentBox .clientSlider .slick-dots li {
+          width: 8px;
+          height: 8px;
+          margin: 0px 10px; }
+          .ourClients .clientsContentBox .clientSlider .slick-dots li button:before {
+            content: " ";
+            border-radius: 10px;
+            width: 8px;
+            height: 8px;
+            background: #000;
+            opacity: 1; }
+        .ourClients .clientsContentBox .clientSlider .slick-dots li.slick-active {
+          margin-right: 40px; }
+        .ourClients .clientsContentBox .clientSlider .slick-dots li.slick-active button:before {
+          opacity: 1;
+          color: black;
+          width: 50px;
+          border-radius: 10px;
+          transition: .9s all ease-in-out; }
+  .ourClients .brandsSection {
+    border-top: 1px solid #000000;
     display: flex;
-    flex-flow: wrap;
-    align-items: center;
-    width: 100%;
     position: relative; }
-    .clientsContentBox .clientLayoutOne .layoutOneBox {
-      width: 33.33%;
-      display: flex;
-      align-items: center;
-      justify-content: center; }
-  .clientsContentBox .clientLayoutTwo {
-    display: flex;
-    flex-flow: wrap;
-    align-items: center;
-    width: 100%;
-    position: relative;
-    margin-top: -1px; }
-    .clientsContentBox .clientLayoutTwo .layoutTwoBox {
-      width: 25%;
-      display: flex;
-      align-items: center;
-      justify-content: center; }
-  .clientsContentBox .clientLayoutThree {
-    display: flex;
-    flex-flow: wrap;
-    align-items: center;
-    width: 100%;
-    position: relative; }
-    .clientsContentBox .clientLayoutThree.clientLayoutThreeRev {
-      flex-flow: row-reverse; }
-    .clientsContentBox .clientLayoutThree .layoutThreeBox {
+    .ourClients .brandsSection .brandDetails {
       width: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-flow: wrap; }
-      .clientsContentBox .clientLayoutThree .layoutThreeBox .layoutThreeBoxInner {
-        width: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center; }
-  @media screen and (max-width: 1800px) {
-    .clientsContentBox {
-      height: calc(100vh - 145px);
-      margin-top: 96px; } }
+      height: 100%;
+      position: sticky;
+      top: 96px;
+      padding: 150px 100px 150px 90px; }
+      .ourClients .brandsSection .brandDetails .brandDetailsBox {
+        display: none; }
+        .ourClients .brandsSection .brandDetails .brandDetailsBox .brandLogo {
+          margin-bottom: 130px; }
+    .ourClients .brandsSection .brandIcons {
+      width: 50%;
+      border-left: 1px solid #000000; }
+      .ourClients .brandsSection .brandIcons .brandIconsInfo {
+        padding: 40px 0px 40px 70px;
+        border-bottom: 1px solid #000000;
+        cursor: pointer; }
+        .ourClients .brandsSection .brandIcons .brandIconsInfo h4 {
+          margin-bottom: 4px;
+          line-height: 40px; }
+        .ourClients .brandsSection .brandIcons .brandIconsInfo p {
+          line-height: 30px; }
+        .ourClients .brandsSection .brandIcons .brandIconsInfo:hover {
+          border-bottom: 2px solid #01FFA3; }
+        .ourClients .brandsSection .brandIcons .brandIconsInfo:last-child {
+          border-bottom: 0px solid #000000; }
+        .ourClients .brandsSection .brandIcons .brandIconsInfo:last-child:hover {
+          border-bottom: 2px solid #01FFA3; }
+  .ourClients .brandsSectionMobile {
+    display: none; }
   @media screen and (max-width: 1600px) {
-    .clientsContentBox {
-      height: calc(100vh - 132px);
-      margin-top: 86px; } }
+    .ourClients .clientsContentBox {
+      padding: 75px 65px; }
+      .ourClients .clientsContentBox .clientSlider .clientSliderSection .clientContent h2 {
+        font-size: 75px;
+        width: 90%;
+        line-height: 90px;
+        margin-bottom: 35px; }
+      .ourClients .clientsContentBox .clientSlider .clientSliderSection .authorBox .authorImg {
+        margin-right: 25px; }
+        .ourClients .clientsContentBox .clientSlider .clientSliderSection .authorBox .authorImg img {
+          width: 100px; }
+      .ourClients .clientsContentBox .clientSlider .clientSliderSection .authorBox .authorDesc h4 {
+        margin-bottom: 10px; }
+      .ourClients .clientsContentBox .clientSlider .clientSliderSection .slick-dots {
+        bottom: 40px; }
+    .ourClients .brandsSection .brandDetails {
+      top: 96px;
+      padding: 100px 75px 100px 80px; }
+      .ourClients .brandsSection .brandDetails .brandDetailsBox {
+        display: none; }
+        .ourClients .brandsSection .brandDetails .brandDetailsBox .brandLogo {
+          margin-bottom: 100px; }
+    .ourClients .brandsSection .brandIcons .brandIconsInfo {
+      padding: 30px 0px 30px 60px; }
+      .ourClients .brandsSection .brandIcons .brandIconsInfo h4 {
+        margin-bottom: 4px;
+        line-height: 35px; }
+      .ourClients .brandsSection .brandIcons .brandIconsInfo p {
+        line-height: 25px; } }
   @media screen and (max-width: 1450px) {
-    .clientsContentBox {
-      height: calc(100vh - 122px);
-      margin-top: 76px; } }
+    .ourClients .clientsContentBox {
+      padding: 55px 50px; }
+      .ourClients .clientsContentBox .clientSlider .clientSliderSection .clientContent h2 {
+        font-size: 60px;
+        line-height: 70px; }
+        .ourClients .clientsContentBox .clientSlider .clientSliderSection .clientContent h2 .quoteOne {
+          width: 60px; }
+        .ourClients .clientsContentBox .clientSlider .clientSliderSection .clientContent h2 .quoteTwo {
+          width: 60px; }
+      .ourClients .clientsContentBox .clientSlider .clientSliderSection .authorBox .authorImg {
+        margin-right: 20px; }
+        .ourClients .clientsContentBox .clientSlider .clientSliderSection .authorBox .authorImg img {
+          width: 80px; }
+      .ourClients .clientsContentBox .clientSlider .clientSliderSection .authorBox .authorDesc h4 {
+        margin-bottom: 7px; }
+      .ourClients .clientsContentBox .clientSlider .clientSliderSection .slick-dots {
+        bottom: 30px; }
+    .ourClients .brandsSection .brandDetails {
+      width: 50%;
+      height: 100%;
+      position: sticky;
+      top: 96px;
+      padding: 100px 75px 100px 80px; }
+      .ourClients .brandsSection .brandDetails .brandDetailsBox {
+        display: none; }
+        .ourClients .brandsSection .brandDetails .brandDetailsBox .brandLogo {
+          margin-bottom: 100px; }
+    .ourClients .brandsSection .brandIcons .brandIconsInfo {
+      padding: 30px 0px 30px 60px; }
+      .ourClients .brandsSection .brandIcons .brandIconsInfo h4 {
+        margin-bottom: 4px;
+        line-height: 35px; }
+      .ourClients .brandsSection .brandIcons .brandIconsInfo p {
+        line-height: 25px; } }
   @media screen and (max-width: 1024px) {
-    .clientsContentBox {
-      height: calc(100vh - 104px);
-      margin-top: 73px; } }
-  @media screen and (max-width: 768px) {
-    .clientsContentBox .clientLayoutOne .layoutOneBox,
-    .clientsContentBox .clientLayoutTwo .layoutTwoBox {
-      width: 50%; }
-    .clientsContentBox .clientLayoutOne .layoutOneBox:last-child {
-      width: 100%; }
-    .clientsContentBox .clientLayoutThree.clientLayoutThreeRev {
-      flex-flow: column; }
-    .clientsContentBox .clientLayoutThree .layoutThreeBox {
-      width: 100%; } }
+    .ourClients .clientsContentBox {
+      padding: 40px 35px; }
+      .ourClients .clientsContentBox .clientSlider .clientSliderSection .clientContent h2 {
+        font-size: 45px;
+        line-height: 55px; }
+      .ourClients .clientsContentBox .clientSlider .clientSliderSection .authorBox .authorImg {
+        margin-right: 15px; }
+        .ourClients .clientsContentBox .clientSlider .clientSliderSection .authorBox .authorImg img {
+          width: 60px; }
+      .ourClients .clientsContentBox .clientSlider .clientSliderSection .authorBox .authorDesc h4 {
+        margin-bottom: 5px; }
+      .ourClients .clientsContentBox .clientSlider .clientSliderSection .slick-dots {
+        bottom: 20px; } }
+  @media screen and (max-width: 920px) {
+    .ourClients {
+      margin-top: 73px; }
+      .ourClients .clientsContentBox {
+        padding: 30px 25px 40px; }
+        .ourClients .clientsContentBox .clientSlider {
+          margin-bottom: 10px !important; }
+          .ourClients .clientsContentBox .clientSlider .clientSliderSection {
+            margin-left: 35px; }
+            .ourClients .clientsContentBox .clientSlider .clientSliderSection .clientContent h2 {
+              position: relative;
+              margin-bottom: 27px;
+              line-height: 30px;
+              letter-spacing: -0.055em;
+              width: 95%;
+              font-size: 24px; }
+              .ourClients .clientsContentBox .clientSlider .clientSliderSection .clientContent h2 .quoteOne {
+                position: absolute;
+                top: 0;
+                left: -35px;
+                width: 23px; }
+              .ourClients .clientsContentBox .clientSlider .clientSliderSection .clientContent h2 .quoteTwo {
+                position: absolute;
+                bottom: 0;
+                right: 0px;
+                width: 23px; }
+            .ourClients .clientsContentBox .clientSlider .clientSliderSection .authorBox {
+              display: flex;
+              align-items: center;
+              margin-bottom: 34px; }
+              .ourClients .clientsContentBox .clientSlider .clientSliderSection .authorBox .authorImg {
+                margin-right: 13px; }
+                .ourClients .clientsContentBox .clientSlider .clientSliderSection .authorBox .authorImg img {
+                  width: 40px; }
+              .ourClients .clientsContentBox .clientSlider .clientSliderSection .authorBox .authorDesc h4 {
+                margin-bottom: 8px; }
+          .ourClients .clientsContentBox .clientSlider .slick-dots {
+            position: absolute;
+            bottom: -15px;
+            right: -23px;
+            left: unset;
+            text-align: left; }
+            .ourClients .clientsContentBox .clientSlider .slick-dots li {
+              width: 8px;
+              height: 8px;
+              margin: 0px 10px; }
+              .ourClients .clientsContentBox .clientSlider .slick-dots li button:before {
+                content: " ";
+                border-radius: 10px;
+                width: 8px;
+                height: 8px;
+                background: #000;
+                opacity: 1; }
+            .ourClients .clientsContentBox .clientSlider .slick-dots li.slick-active {
+              margin-right: 40px; }
+            .ourClients .clientsContentBox .clientSlider .slick-dots li.slick-active button:before {
+              opacity: 1;
+              color: black;
+              width: 50px;
+              border-radius: 10px;
+              transition: .9s all ease-in-out; }
+      .ourClients .brandsSection {
+        display: none; }
+      .ourClients .brandsSectionMobile {
+        display: block; }
+        .ourClients .brandsSectionMobile .accordion {
+          width: 100%;
+          height: 105px;
+          margin: 0 auto;
+          overflow: hidden;
+          transition: height 0.3s ease;
+          border-top: 1px solid #000000;
+          padding: 25px 25px 30px 25px; }
+          .ourClients .brandsSectionMobile .accordion .accordion_tab {
+            cursor: pointer;
+            user-select: none;
+            position: relative; }
+            .ourClients .brandsSectionMobile .accordion .accordion_tab h4 {
+              font-size: 16px;
+              letter-spacing: -0.055em;
+              line-height: 20px; }
+            .ourClients .brandsSectionMobile .accordion .accordion_tab .accordion_arrow {
+              position: absolute;
+              top: 50%;
+              transform: translateY(-50%);
+              right: 20px;
+              transition: all 0.3s ease; }
+              .ourClients .brandsSectionMobile .accordion .accordion_tab .accordion_arrow img {
+                width: 100%;
+                height: 100%; }
+            .ourClients .brandsSectionMobile .accordion .accordion_tab .hideText {
+              font-size: 16px;
+              line-height: 24px;
+              letter-spacing: 0.03em;
+              margin-top: 10px; }
+          .ourClients .brandsSectionMobile .accordion .accordion_tab.active .accordion_arrow {
+            transform: translateY(-50%) rotate(180deg); }
+          .ourClients .brandsSectionMobile .accordion .accordion_tab.active .hideText {
+            display: none;
+            transition: ease-in-out all 1s; }
+          .ourClients .brandsSectionMobile .accordion .accordion_content {
+            padding-top: 30px;
+            transition: ease-in-out all 1s; }
+            .ourClients .brandsSectionMobile .accordion .accordion_content img {
+              width: 215px;
+              margin-bottom: 35px; }
+            .ourClients .brandsSectionMobile .accordion .accordion_content .accordion_item p {
+              font-size: 16px;
+              line-height: 24px;
+              letter-spacing: 0.03em; }
+        .ourClients .brandsSectionMobile .accordion.active {
+          height: 100%; } }
+  @media screen and (max-width: 575px) {
+    .ourClients .brandsSectionMobile .accordion {
+      padding: 15px 25px 15px 25px; }
+      .ourClients .brandsSectionMobile .accordion .accordion_tab h4 {
+        font-size: 16px;
+        letter-spacing: -0.055em;
+        line-height: 20px; }
+      .ourClients .brandsSectionMobile .accordion .accordion_tab .accordion_arrow {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 0px;
+        transition: all 0.3s ease; }
+        .ourClients .brandsSectionMobile .accordion .accordion_tab .accordion_arrow img {
+          width: 100%;
+          height: 100%; }
+      .ourClients .brandsSectionMobile .accordion .accordion_tab .hideText {
+        font-size: 16px;
+        line-height: 20px;
+        margin-top: 5px;
+        width: 90%; }
+      .ourClients .brandsSectionMobile .accordion .accordion_tab.active .accordion_arrow {
+        transform: translateY(-50%) rotate(180deg); }
+      .ourClients .brandsSectionMobile .accordion .accordion_tab.active .hideText {
+        display: none;
+        transition: ease-in-out all 1s; }
+      .ourClients .brandsSectionMobile .accordion .accordion_content {
+        padding-top: 30px;
+        transition: ease-in-out all 1s; }
+        .ourClients .brandsSectionMobile .accordion .accordion_content img {
+          width: 215px;
+          margin-bottom: 35px; }
+        .ourClients .brandsSectionMobile .accordion .accordion_content .accordion_item {
+          width: 90%; }
+          .ourClients .brandsSectionMobile .accordion .accordion_content .accordion_item p {
+            font-size: 14px;
+            line-height: 18px; } }
 
 .privacyPolicypg {
   height: calc(100vh - 148px);
@@ -3744,9 +4342,9 @@ footer .ftbutton {
     margin: 63px auto 130px; }
     .privacyPolicypg .privacyPolicy .privacyBoxone p:nth-child(1) {
       margin-top: 0px; }
-    .privacyPolicypg .privacyPolicy .privacyBoxtwo {
+    .privacyPolicypg .privacyPolicy .privacyBoxtwo, .privacyPolicypg .privacyPolicy .privacyBoxone {
       margin-top: 115px; }
-      .privacyPolicypg .privacyPolicy .privacyBoxtwo h3 {
+      .privacyPolicypg .privacyPolicy .privacyBoxtwo h3, .privacyPolicypg .privacyPolicy .privacyBoxone h3 {
         font-size: 36px;
         font-weight: 800;
         font-family: 'Poppins', sans-serif;
@@ -3773,9 +4371,9 @@ footer .ftbutton {
     @media screen and (max-width: 1200px) {
       .privacyPolicypg .privacyPolicy {
         margin: 100px auto 60px; }
-        .privacyPolicypg .privacyPolicy .privacyBoxtwo {
+        .privacyPolicypg .privacyPolicy .privacyBoxtwo, .privacyPolicypg .privacyPolicy .privacyBoxone {
           margin-top: 50px; }
-          .privacyPolicypg .privacyPolicy .privacyBoxtwo h3 {
+          .privacyPolicypg .privacyPolicy .privacyBoxtwo h3, .privacyPolicypg .privacyPolicy .privacyBoxone h3 {
             font-size: 30px; } }
   @media screen and (max-width: 1800px) {
     .privacyPolicypg {
@@ -3788,7 +4386,7 @@ footer .ftbutton {
       .privacyPolicypg .privacyPolicy {
         width: 60%;
         margin: 63px auto 100px; }
-        .privacyPolicypg .privacyPolicy .privacyBoxtwo {
+        .privacyPolicypg .privacyPolicy .privacyBoxtwo, .privacyPolicypg .privacyPolicy .privacyBoxone {
           margin-top: 90px; } }
   @media screen and (max-width: 1450px) {
     .privacyPolicypg {
@@ -3797,16 +4395,16 @@ footer .ftbutton {
       .privacyPolicypg .privacyPolicy {
         width: 60%;
         margin: 60px auto 80px; }
-        .privacyPolicypg .privacyPolicy .privacyBoxtwo {
+        .privacyPolicypg .privacyPolicy .privacyBoxtwo, .privacyPolicypg .privacyPolicy .privacyBoxone {
           margin-top: 70px; }
         .privacyPolicypg .privacyPolicy p {
           margin-top: 25px; } }
   @media screen and (max-width: 1200px) {
     .privacyPolicypg .privacyPolicy {
       margin: 40px auto 60px; }
-      .privacyPolicypg .privacyPolicy .privacyBoxtwo {
+      .privacyPolicypg .privacyPolicy .privacyBoxtwo, .privacyPolicypg .privacyPolicy .privacyBoxone {
         margin-top: 50px; }
-        .privacyPolicypg .privacyPolicy .privacyBoxtwo h3 {
+        .privacyPolicypg .privacyPolicy .privacyBoxtwo h3, .privacyPolicypg .privacyPolicy .privacyBoxone h3 {
           font-size: 30px; } }
   @media screen and (max-width: 1024px) {
     .privacyPolicypg {
@@ -3816,9 +4414,9 @@ footer .ftbutton {
         margin: 40px auto 20px;
         width: 100%;
         padding: 0px 24px; }
-        .privacyPolicypg .privacyPolicy .privacyBoxtwo {
+        .privacyPolicypg .privacyPolicy .privacyBoxtwo, .privacyPolicypg .privacyPolicy .privacyBoxone {
           margin-top: 30px; }
-          .privacyPolicypg .privacyPolicy .privacyBoxtwo h3 {
+          .privacyPolicypg .privacyPolicy .privacyBoxtwo h3, .privacyPolicypg .privacyPolicy .privacyBoxone h3 {
             font-size: 24px; }
         .privacyPolicypg .privacyPolicy p,
         .privacyPolicypg .privacyPolicy ul li {
@@ -6231,32 +6829,26 @@ footer .ftbutton {
         padding-bottom: 0px;
         border-bottom: 0px solid #000000; }
       .blogs .blogListing .blogListingBox .blogListingContent {
-        width: 60%; }
-        .blogs .blogListing .blogListingBox .blogListingContent h4 {
-          text-transform: uppercase; }
-        .blogs .blogListing .blogListingBox .blogListingContent h2 {
-          padding: 35px 0px;
-          line-height: 50px; }
-        .blogs .blogListing .blogListingBox .blogListingContent .authorBox {
+        width: 60%;
+        padding-right: 90px; }
+        .blogs .blogListing .blogListingBox .blogListingContent .categoryDate {
           display: flex;
-          align-items: center;
-          flex-flow: wrap; }
-          .blogs .blogListing .blogListingBox .blogListingContent .authorBox .authorBoxImg {
-            margin-right: 23px;
-            width: 70px;
-            height: 70px;
-            border-radius: 50%;
-            overflow: hidden; }
-            .blogs .blogListing .blogListingBox .blogListingContent .authorBox .authorBoxImg img {
-              max-width: 100%; }
-          .blogs .blogListing .blogListingBox .blogListingContent .authorBox .authorBoxContent h3 {
-            margin-bottom: 15px;
-            display: none; }
-          .blogs .blogListing .blogListingBox .blogListingContent .authorBox .authorBoxContent .blogDate {
+          align-items: center; }
+          .blogs .blogListing .blogListingBox .blogListingContent .categoryDate h4 {
+            text-transform: uppercase; }
+          .blogs .blogListing .blogListingBox .blogListingContent .categoryDate .slash {
+            margin: 0px 24px; }
+          .blogs .blogListing .blogListingBox .blogListingContent .categoryDate .blogDate {
             display: flex;
             align-items: center; }
-            .blogs .blogListing .blogListingBox .blogListingContent .authorBox .authorBoxContent .blogDate img {
+            .blogs .blogListing .blogListingBox .blogListingContent .categoryDate .blogDate img {
               margin-right: 10px; }
+        .blogs .blogListing .blogListingBox .blogListingContent h2 {
+          padding-top: 35px;
+          padding-bottom: 22px;
+          line-height: 50px; }
+        .blogs .blogListing .blogListingBox .blogListingContent p {
+          line-height: 30px; }
   @media screen and (max-width: 1600px) {
     .blogs {
       margin-top: 86px;
@@ -6270,18 +6862,21 @@ footer .ftbutton {
           padding: 50px 0px; }
           .blogs .blogListing .blogListingBox .blogListingImg {
             width: calc(40% - 70px); }
-          .blogs .blogListing .blogListingBox .blogListingContent h2 {
-            padding: 30px 0px;
-            line-height: 50px; }
-          .blogs .blogListing .blogListingBox .blogListingContent .authorBox .authorBoxImg {
-            margin-right: 20px; }
-          .blogs .blogListing .blogListingBox .blogListingContent .authorBox .authorBoxContent h3 {
-            margin-bottom: 15px; }
-          .blogs .blogListing .blogListingBox .blogListingContent .authorBox .authorBoxContent .blogDate {
-            display: flex;
-            align-items: center; }
-            .blogs .blogListing .blogListingBox .blogListingContent .authorBox .authorBoxContent .blogDate img {
-              margin-right: 10px; } }
+          .blogs .blogListing .blogListingBox .blogListingContent {
+            padding-right: 70px; }
+            .blogs .blogListing .blogListingBox .blogListingContent .categoryDate .slash {
+              margin: 0px 20px; }
+            .blogs .blogListing .blogListingBox .blogListingContent .categoryDate .blogDate {
+              display: flex;
+              align-items: center; }
+              .blogs .blogListing .blogListingBox .blogListingContent .categoryDate .blogDate img {
+                margin-right: 10px; }
+            .blogs .blogListing .blogListingBox .blogListingContent h2 {
+              padding-top: 30px;
+              padding-bottom: 20px;
+              line-height: 50px; }
+            .blogs .blogListing .blogListingBox .blogListingContent p {
+              line-height: 25px; } }
   @media screen and (max-width: 1400px) {
     .blogs {
       margin-top: 76px;
@@ -6295,18 +6890,21 @@ footer .ftbutton {
           padding: 25px 0px; }
           .blogs .blogListing .blogListingBox .blogListingImg {
             width: calc(40% - 50px); }
-          .blogs .blogListing .blogListingBox .blogListingContent h2 {
-            padding: 25px 0px;
-            line-height: 40px; }
-          .blogs .blogListing .blogListingBox .blogListingContent .authorBox .authorBoxImg {
-            margin-right: 15px; }
-          .blogs .blogListing .blogListingBox .blogListingContent .authorBox .authorBoxContent h3 {
-            margin-bottom: 10px; }
-          .blogs .blogListing .blogListingBox .blogListingContent .authorBox .authorBoxContent .blogDate {
-            display: flex;
-            align-items: center; }
-            .blogs .blogListing .blogListingBox .blogListingContent .authorBox .authorBoxContent .blogDate img {
-              margin-right: 10px; } }
+          .blogs .blogListing .blogListingBox .blogListingContent {
+            padding-right: 50px; }
+            .blogs .blogListing .blogListingBox .blogListingContent .categoryDate .slash {
+              margin: 0px 15px; }
+            .blogs .blogListing .blogListingBox .blogListingContent .categoryDate .blogDate {
+              display: flex;
+              align-items: center; }
+              .blogs .blogListing .blogListingBox .blogListingContent .categoryDate .blogDate img {
+                margin-right: 10px; }
+            .blogs .blogListing .blogListingBox .blogListingContent h2 {
+              padding-top: 20px;
+              padding-bottom: 15px;
+              line-height: 40px; }
+            .blogs .blogListing .blogListingBox .blogListingContent p {
+              line-height: 22px; } }
   @media screen and (max-width: 1024px) {
     .blogs {
       margin-top: 72px;
@@ -6320,6 +6918,7 @@ footer .ftbutton {
             max-width: 100%;
             height: 100%; }
         .blogs .blogListing .blogListingBox .blogListingContent {
+          padding-right: 30px;
           width: 55%; } }
   @media screen and (max-width: 920px) {
     .blogs {
@@ -6336,21 +6935,27 @@ footer .ftbutton {
         .blogs .blogListing .blogListingBox:last-child {
           padding-bottom: 0px; }
         .blogs .blogListing .blogListingBox .blogListingContent {
-          width: 100%; }
+          width: 100%;
+          padding-right: 5px; }
+          .blogs .blogListing .blogListingBox .blogListingContent .categoryDate .slash {
+            margin: 0px 10px; }
+          .blogs .blogListing .blogListingBox .blogListingContent .categoryDate .blogDate img {
+            margin-right: 7px; }
           .blogs .blogListing .blogListingBox .blogListingContent h2 {
-            padding: 20px 0px;
-            line-height: 32px; }
-          .blogs .blogListing .blogListingBox .blogListingContent .authorBox .authorBoxImg {
-            margin-right: 15px; }
-          .blogs .blogListing .blogListingBox .blogListingContent .authorBox .authorBoxContent h3 {
-            margin-bottom: 10px; }
-          .blogs .blogListing .blogListingBox .blogListingContent .authorBox .authorBoxContent .blogDate img {
-            margin-right: 7px; } }
+            padding-top: 20px;
+            padding-bottom: 12px;
+            line-height: 32px; } }
   @media screen and (max-width: 770px) {
     .blogs {
       padding: 0px 20px; }
       .blogs .blogListing {
         padding: 20px 0px 20px 0px; } }
+  @media screen and (max-width: 380px) {
+    .blogs .blogListing .blogListingBox .blogListingContent .categoryDate h4 {
+      white-space: nowrap;
+      width: 40%;
+      overflow: hidden;
+      text-overflow: ellipsis; } }
 
 #button {
   display: none; }
@@ -6396,42 +7001,27 @@ footer .ftbutton {
     position: relative; }
     .blogsDetails .blogsDetailsSection .blogsDetailsOne {
       width: 35%;
-      margin-right: 40px;
+      margin-right: 100px;
       position: sticky;
       top: 20%;
       height: 650px; }
+      .blogsDetails .blogsDetailsSection .blogsDetailsOne .blogDate {
+        display: flex;
+        align-items: center;
+        margin-bottom: 25px; }
+        .blogsDetails .blogsDetailsSection .blogsDetailsOne .blogDate img {
+          margin-right: 10px; }
       .blogsDetails .blogsDetailsSection .blogsDetailsOne h1 {
         margin-bottom: 50px;
         line-height: 70px; }
-      .blogsDetails .blogsDetailsSection .blogsDetailsOne .authorBoxDesktop .authorBox {
-        display: flex;
-        align-items: center;
-        padding-bottom: 50px;
-        border-bottom: 1px solid #000000;
-        flex-flow: wrap; }
-        .blogsDetails .blogsDetailsSection .blogsDetailsOne .authorBoxDesktop .authorBox .authorBoxImg {
-          margin-right: 23px;
-          width: 70px;
-          height: 70px;
-          border-radius: 50%;
-          overflow: hidden; }
-          .blogsDetails .blogsDetailsSection .blogsDetailsOne .authorBoxDesktop .authorBox .authorBoxImg img {
-            max-width: 100%; }
-        .blogsDetails .blogsDetailsSection .blogsDetailsOne .authorBoxDesktop .authorBox .authorBoxContent h3 {
-          margin-bottom: 15px;
-          display: none; }
-        .blogsDetails .blogsDetailsSection .blogsDetailsOne .authorBoxDesktop .authorBox .authorBoxContent .blogDate {
-          display: flex;
-          align-items: center; }
-          .blogsDetails .blogsDetailsSection .blogsDetailsOne .authorBoxDesktop .authorBox .authorBoxContent .blogDate img {
-            margin-right: 10px; }
       .blogsDetails .blogsDetailsSection .blogsDetailsOne .authorBoxDesktop .shareIcons {
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 50px 0px;
         margin-bottom: 30px;
-        border-bottom: 1px solid #000000; }
+        border-bottom: 1px solid #000000;
+        border-top: 1px solid #000000; }
         .blogsDetails .blogsDetailsSection .blogsDetailsOne .authorBoxDesktop .shareIcons h4 {
           text-transform: uppercase; }
         .blogsDetails .blogsDetailsSection .blogsDetailsOne .authorBoxDesktop .shareIcons .icons {
@@ -6440,15 +7030,15 @@ footer .ftbutton {
           .blogsDetails .blogsDetailsSection .blogsDetailsOne .authorBoxDesktop .shareIcons .icons .iconsImg {
             margin-right: 15px; }
             .blogsDetails .blogsDetailsSection .blogsDetailsOne .authorBoxDesktop .shareIcons .icons .iconsImg .fb:hover circle {
-              fill: #1877F2; }
+              fill: #3b5998; }
             .blogsDetails .blogsDetailsSection .blogsDetailsOne .authorBoxDesktop .shareIcons .icons .iconsImg .fb:hover path {
               fill: #fff; }
             .blogsDetails .blogsDetailsSection .blogsDetailsOne .authorBoxDesktop .shareIcons .icons .iconsImg .twitter:hover circle {
-              fill: #1D9BF0; }
+              fill: #00acee; }
             .blogsDetails .blogsDetailsSection .blogsDetailsOne .authorBoxDesktop .shareIcons .icons .iconsImg .twitter:hover path {
               fill: #fff; }
             .blogsDetails .blogsDetailsSection .blogsDetailsOne .authorBoxDesktop .shareIcons .icons .iconsImg .linkdin:hover circle {
-              fill: #0C64C5; }
+              fill: #0072b1; }
             .blogsDetails .blogsDetailsSection .blogsDetailsOne .authorBoxDesktop .shareIcons .icons .iconsImg .linkdin:hover path {
               fill: #fff; }
             .blogsDetails .blogsDetailsSection .blogsDetailsOne .authorBoxDesktop .shareIcons .icons .iconsImg .slack:hover circle {
@@ -6471,66 +7061,84 @@ footer .ftbutton {
             margin: 0px 15px; }
     .blogsDetails .blogsDetailsSection .blogsDetailsTwo {
       width: 65%;
-      overflow-x: hidden; }
+      overflow-x: unset; }
       .blogsDetails .blogsDetailsSection .blogsDetailsTwo p {
         line-height: 30px; }
+        .blogsDetails .blogsDetailsSection .blogsDetailsTwo p strong {
+          font-weight: 600; }
       .blogsDetails .blogsDetailsSection .blogsDetailsTwo a {
-        color: #000; }
+        color: #000;
+        word-break: break-all; }
       .blogsDetails .blogsDetailsSection .blogsDetailsTwo img {
         padding-bottom: 50px;
         max-width: 100%; }
-      .blogsDetails .blogsDetailsSection .blogsDetailsTwo h5 {
-        margin-bottom: 35px;
-        text-transform: uppercase; }
       .blogsDetails .blogsDetailsSection .blogsDetailsTwo ul {
         padding: 10px 0px;
-        padding-left: 20px !important; }
+        padding-left: 30px !important;
+        margin-bottom: 20px; }
         .blogsDetails .blogsDetailsSection .blogsDetailsTwo ul li {
-          font-weight: 500;
+          font-weight: 300;
           font-size: 18px;
           line-height: 30px;
           list-style-type: disc; }
+          .blogsDetails .blogsDetailsSection .blogsDetailsTwo ul li strong {
+            font-weight: 600; }
           .blogsDetails .blogsDetailsSection .blogsDetailsTwo ul li a {
-            color: #000; }
+            color: #000;
+            word-break: break-all; }
       .blogsDetails .blogsDetailsSection .blogsDetailsTwo ol {
         padding: 10px 0px;
         padding-left: 20px !important; }
         .blogsDetails .blogsDetailsSection .blogsDetailsTwo ol li {
-          font-weight: 500;
+          font-weight: 300;
           font-size: 18px;
           line-height: 30px;
           list-style-type: disc; }
+          .blogsDetails .blogsDetailsSection .blogsDetailsTwo ol li strong {
+            font-weight: 600; }
           .blogsDetails .blogsDetailsSection .blogsDetailsTwo ol li a {
-            color: #000; }
+            color: #000;
+            word-break: break-all; }
       .blogsDetails .blogsDetailsSection .blogsDetailsTwo h2 {
         font-size: 40px;
-        margin-bottom: 40px;
-        font-weight: 800; }
+        margin-bottom: 30px;
+        font-weight: 700; }
       .blogsDetails .blogsDetailsSection .blogsDetailsTwo h3 {
         font-size: 32px;
-        margin-bottom: 40px;
-        font-weight: 800; }
+        margin-bottom: 25px;
+        font-weight: 700; }
       .blogsDetails .blogsDetailsSection .blogsDetailsTwo h4 {
-        font-size: 26px;
-        margin-bottom: 40px;
-        font-weight: 800; }
+        font-size: 20px;
+        margin-bottom: 20px;
+        font-weight: 700; }
       .blogsDetails .blogsDetailsSection .blogsDetailsTwo h5 {
-        font-size: 22px;
-        margin-bottom: 40px;
-        font-weight: 800; }
+        font-size: 16px;
+        margin-bottom: 15px;
+        font-weight: 700; }
       .blogsDetails .blogsDetailsSection .blogsDetailsTwo p {
-        font-size: 18px;
+        font-size: 20px;
         line-height: 30px;
-        font-weight: 500;
-        margin-bottom: 20px; }
+        font-weight: 300;
+        margin-bottom: 60px; }
+      .blogsDetails .blogsDetailsSection .blogsDetailsTwo .divider {
+        border-top: 1px solid transparent;
+        border-bottom: 1px solid transparent;
+        margin-bottom: 25px; }
       .blogsDetails .blogsDetailsSection .blogsDetailsTwo .blogModal {
-        margin-top: 20px; }
+        margin: 20px 0px; }
         .blogsDetails .blogsDetailsSection .blogsDetailsTwo .blogModal .link {
-          text-decoration-color: #00FFA3;
-          text-decoration-thickness: 3px;
-          display: flex;
-          align-items: center;
-          width: fit-content; }
+          text-decoration: none;
+          padding: 10px 15px;
+          border: 1px solid #000000;
+          font-size: 12px;
+          line-height: 18px;
+          text-transform: uppercase; }
+          @media screen and (max-width: 1400px) {
+            .blogsDetails .blogsDetailsSection .blogsDetailsTwo .blogModal .link {
+              padding: 5px 10px; } }
+          @media screen and (max-width: 920px) {
+            .blogsDetails .blogsDetailsSection .blogsDetailsTwo .blogModal .link {
+              font-size: 10px; } }
           .blogsDetails .blogsDetailsSection .blogsDetailsTwo .blogModal .link img {
             transform: rotate(180deg);
             margin-left: 10px;
@@ -6578,44 +7186,136 @@ footer .ftbutton {
               z-index: 1; }
           .blogsDetails .blogsDetailsSection .blogsDetailsTwo .blogModal [data-ml-modal] .modal-dialog {
             background: #fff;
-            border-radius: 10px;
-            box-shadow: 0 11px 15px -7px rgba(0, 0, 0, 0.2), 0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 9px 46px 8px rgba(0, 0, 0, 0.12);
+            border: 1px solid #000000;
             position: relative;
             width: 90%;
-            max-width: 660px;
+            max-width: 1250px;
             margin: 10% auto;
             overflow-x: hidden;
             overflow-y: auto;
             z-index: 2; }
-            .blogsDetails .blogsDetailsSection .blogsDetailsTwo .blogModal [data-ml-modal] .modal-dialog h3 {
-              border-bottom: 1px solid #000;
-              margin: 0;
-              padding: 0.8em 56px .8em 27px;
-              margin-bottom: 0px !important; }
+            @media screen and (max-width: 1400px) {
+              .blogsDetails .blogsDetailsSection .blogsDetailsTwo .blogModal [data-ml-modal] .modal-dialog {
+                max-width: 950px; } }
+            .blogsDetails .blogsDetailsSection .blogsDetailsTwo .blogModal [data-ml-modal] .modal-dialog .modalHeader {
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              border-bottom: 1px solid #000; }
+              .blogsDetails .blogsDetailsSection .blogsDetailsTwo .blogModal [data-ml-modal] .modal-dialog .modalHeader .modaltitle {
+                padding: 57px 77px;
+                line-height: 70px;
+                letter-spacing: -0.03em; }
+                @media screen and (max-width: 1600px) {
+                  .blogsDetails .blogsDetailsSection .blogsDetailsTwo .blogModal [data-ml-modal] .modal-dialog .modalHeader .modaltitle {
+                    padding: 30px 50px;
+                    line-height: 50px; } }
+                @media screen and (max-width: 1400px) {
+                  .blogsDetails .blogsDetailsSection .blogsDetailsTwo .blogModal [data-ml-modal] .modal-dialog .modalHeader .modaltitle {
+                    padding: 25px 35px;
+                    line-height: 35px; } }
+                @media screen and (max-width: 920px) {
+                  .blogsDetails .blogsDetailsSection .blogsDetailsTwo .blogModal [data-ml-modal] .modal-dialog .modalHeader .modaltitle {
+                    padding: 15px 20px;
+                    font-size: 25px;
+                    line-height: 25px; } }
+                @media screen and (max-width: 430px) {
+                  .blogsDetails .blogsDetailsSection .blogsDetailsTwo .blogModal [data-ml-modal] .modal-dialog .modalHeader .modaltitle {
+                    padding: 10px 15px;
+                    font-size: 20px; } }
+              .blogsDetails .blogsDetailsSection .blogsDetailsTwo .blogModal [data-ml-modal] .modal-dialog .modalHeader .modal-close {
+                -webkit-transition: all .3s ease-in-out;
+                transition: all .3s ease-in-out;
+                text-decoration: none;
+                padding: 70px 95px;
+                border-left: 1px solid #000000;
+                text-align: center;
+                line-height: 0px; }
+                @media screen and (max-width: 1600px) {
+                  .blogsDetails .blogsDetailsSection .blogsDetailsTwo .blogModal [data-ml-modal] .modal-dialog .modalHeader .modal-close {
+                    padding: 40px 70px; } }
+                @media screen and (max-width: 1400px) {
+                  .blogsDetails .blogsDetailsSection .blogsDetailsTwo .blogModal [data-ml-modal] .modal-dialog .modalHeader .modal-close {
+                    padding: 35px 50px; } }
+                @media screen and (max-width: 920px) {
+                  .blogsDetails .blogsDetailsSection .blogsDetailsTwo .blogModal [data-ml-modal] .modal-dialog .modalHeader .modal-close {
+                    padding: 25px 30px; } }
+                @media screen and (max-width: 430px) {
+                  .blogsDetails .blogsDetailsSection .blogsDetailsTwo .blogModal [data-ml-modal] .modal-dialog .modalHeader .modal-close {
+                    padding: 15px; } }
+                .blogsDetails .blogsDetailsSection .blogsDetailsTwo .blogModal [data-ml-modal] .modal-dialog .modalHeader .modal-close img {
+                  padding: 0px; }
+                  @media screen and (max-width: 1600px) {
+                    .blogsDetails .blogsDetailsSection .blogsDetailsTwo .blogModal [data-ml-modal] .modal-dialog .modalHeader .modal-close img {
+                      width: 75%; } }
+                  @media screen and (max-width: 1400px) {
+                    .blogsDetails .blogsDetailsSection .blogsDetailsTwo .blogModal [data-ml-modal] .modal-dialog .modalHeader .modal-close img {
+                      width: 70%; } }
+                  @media screen and (max-width: 920px) {
+                    .blogsDetails .blogsDetailsSection .blogsDetailsTwo .blogModal [data-ml-modal] .modal-dialog .modalHeader .modal-close img {
+                      width: 50%; } }
+            @media screen and (max-width: 1600px) {
+              .blogsDetails .blogsDetailsSection .blogsDetailsTwo .blogModal [data-ml-modal] .modal-dialog {
+                margin: 8% auto; } }
             @media screen and (max-width: 1400px) {
               .blogsDetails .blogsDetailsSection .blogsDetailsTwo .blogModal [data-ml-modal] .modal-dialog {
                 margin: 5% auto; } }
-          .blogsDetails .blogsDetailsSection .blogsDetailsTwo .blogModal [data-ml-modal] .modal-dialog-lg {
-            max-width: 900px !important; }
+            @media screen and (max-width: 1024px) {
+              .blogsDetails .blogsDetailsSection .blogsDetailsTwo .blogModal [data-ml-modal] .modal-dialog {
+                margin: 3% auto; } }
+            @media screen and (max-width: 920px) {
+              .blogsDetails .blogsDetailsSection .blogsDetailsTwo .blogModal [data-ml-modal] .modal-dialog {
+                margin: 25% auto; } }
           .blogsDetails .blogsDetailsSection .blogsDetailsTwo .blogModal [data-ml-modal] .modal-content {
             background: #fff;
-            margin: 30px;
+            margin: 68px 73px 86px 77px;
             overflow-x: hidden;
             overflow-y: scroll;
             max-height: 400px;
+            padding-right: 15px;
             /* ===== Scrollbar CSS ===== */
             /* Firefox */
             scrollbar-width: auto;
             scrollbar-color: #00ffa3 #ffffff;
             /* Chrome, Edge, and Safari */ }
-            .blogsDetails .blogsDetailsSection .blogsDetailsTwo .blogModal [data-ml-modal] .modal-content li {
-              margin-bottom: 15px; }
-              @media screen and (max-width: 1366px) {
-                .blogsDetails .blogsDetailsSection .blogsDetailsTwo .blogModal [data-ml-modal] .modal-content li {
-                  margin-bottom: 12px; } }
-              @media screen and (max-width: 770px) {
-                .blogsDetails .blogsDetailsSection .blogsDetailsTwo .blogModal [data-ml-modal] .modal-content li {
-                  margin-bottom: 10px; } }
+            @media screen and (max-width: 1600px) {
+              .blogsDetails .blogsDetailsSection .blogsDetailsTwo .blogModal [data-ml-modal] .modal-content {
+                margin: 50px 50px 50px 50px;
+                max-height: 375px; } }
+            @media screen and (max-width: 1400px) {
+              .blogsDetails .blogsDetailsSection .blogsDetailsTwo .blogModal [data-ml-modal] .modal-content {
+                margin: 30px 40px 45px 35px;
+                max-height: 350px; } }
+            @media screen and (max-width: 1024px) {
+              .blogsDetails .blogsDetailsSection .blogsDetailsTwo .blogModal [data-ml-modal] .modal-content {
+                max-height: 300px; } }
+            @media screen and (max-width: 920px) {
+              .blogsDetails .blogsDetailsSection .blogsDetailsTwo .blogModal [data-ml-modal] .modal-content {
+                margin: 30px 25px 30px 20px; } }
+            @media screen and (max-width: 430px) {
+              .blogsDetails .blogsDetailsSection .blogsDetailsTwo .blogModal [data-ml-modal] .modal-content {
+                margin: 20px 15px; } }
+            .blogsDetails .blogsDetailsSection .blogsDetailsTwo .blogModal [data-ml-modal] .modal-content ul {
+              padding: 0px;
+              margin: 0px; }
+              .blogsDetails .blogsDetailsSection .blogsDetailsTwo .blogModal [data-ml-modal] .modal-content ul li {
+                list-style-type: auto;
+                line-height: 40px;
+                letter-spacing: 0.03em;
+                margin-bottom: 12px; }
+                @media screen and (max-width: 1600px) {
+                  .blogsDetails .blogsDetailsSection .blogsDetailsTwo .blogModal [data-ml-modal] .modal-content ul li {
+                    line-height: 32px; } }
+                @media screen and (max-width: 1400px) {
+                  .blogsDetails .blogsDetailsSection .blogsDetailsTwo .blogModal [data-ml-modal] .modal-content ul li {
+                    line-height: 25px;
+                    margin-bottom: 10px; } }
+                @media screen and (max-width: 920px) {
+                  .blogsDetails .blogsDetailsSection .blogsDetailsTwo .blogModal [data-ml-modal] .modal-content ul li {
+                    line-height: 20px;
+                    margin-bottom: 6px; } }
+                .blogsDetails .blogsDetailsSection .blogsDetailsTwo .blogModal [data-ml-modal] .modal-content ul li a {
+                  text-decoration: none; }
             .blogsDetails .blogsDetailsSection .blogsDetailsTwo .blogModal [data-ml-modal] .modal-content::-webkit-scrollbar {
               width: 13px; }
             .blogsDetails .blogsDetailsSection .blogsDetailsTwo .blogModal [data-ml-modal] .modal-content::-webkit-scrollbar-track {
@@ -6624,22 +7324,6 @@ footer .ftbutton {
               background-color: #00ffa3;
               border-radius: 15px;
               border: 3px solid #ffffff; }
-          .blogsDetails .blogsDetailsSection .blogsDetailsTwo .blogModal [data-ml-modal] .modal-close {
-            position: absolute;
-            top: 20px;
-            right: 20px;
-            color: #000;
-            background-color: transparent;
-            border-radius: 50%;
-            height: 40px;
-            width: 40px;
-            font-size: 40px;
-            font-weight: 500;
-            line-height: 40px;
-            text-align: center;
-            -webkit-transition: all .3s ease-in-out;
-            transition: all .3s ease-in-out;
-            text-decoration: none; }
     .blogsDetails .blogsDetailsSection .authorBoxMobile {
       display: none; }
   .blogsDetails .relatedBlogs h3 {
@@ -6683,29 +7367,38 @@ footer .ftbutton {
     .blogsDetails {
       margin-top: 86px;
       padding: 60px 90px 45px 90px; }
-      .blogsDetails .blogsDetailsSection .blogsDetailsOne h1 {
-        margin-bottom: 40px;
-        line-height: 60px; }
-      .blogsDetails .blogsDetailsSection .blogsDetailsOne .authorBoxDesktop .authorBox {
-        padding-bottom: 40px; }
-      .blogsDetails .blogsDetailsSection .blogsDetailsOne .authorBoxDesktop .shareIcons {
-        padding: 40px 0px;
-        margin-bottom: 30px; }
+      .blogsDetails .blogsDetailsSection .blogsDetailsOne {
+        margin-right: 80px; }
+        .blogsDetails .blogsDetailsSection .blogsDetailsOne h1 {
+          margin-bottom: 40px;
+          line-height: 60px; }
+        .blogsDetails .blogsDetailsSection .blogsDetailsOne .authorBoxDesktop .shareIcons {
+          padding: 40px 0px;
+          margin-bottom: 30px; }
       .blogsDetails .blogsDetailsSection .blogsDetailsTwo {
         width: 65%; }
         .blogsDetails .blogsDetailsSection .blogsDetailsTwo img {
           padding-bottom: 40px; }
         .blogsDetails .blogsDetailsSection .blogsDetailsTwo h2 {
-          font-size: 38px; }
+          font-size: 35px;
+          margin-bottom: 25px; }
         .blogsDetails .blogsDetailsSection .blogsDetailsTwo h3 {
-          font-size: 30px; }
+          font-size: 26px;
+          margin-bottom: 22px; }
         .blogsDetails .blogsDetailsSection .blogsDetailsTwo h4 {
-          font-size: 24px; }
+          font-size: 18px;
+          margin-bottom: 18px; }
         .blogsDetails .blogsDetailsSection .blogsDetailsTwo h5 {
-          font-size: 20px; }
+          font-size: 14px;
+          margin-bottom: 15px; }
         .blogsDetails .blogsDetailsSection .blogsDetailsTwo p {
           font-size: 18px;
-          line-height: 30px; }
+          line-height: 30px;
+          margin-bottom: 50px; }
+        .blogsDetails .blogsDetailsSection .blogsDetailsTwo .divider {
+          border-top: 1px solid transparent;
+          border-bottom: 1px solid transparent;
+          margin-bottom: 22px; }
       .blogsDetails .relatedBlogs .relatedBlogsSection .relatedBlogsBox a .details .detailsBox p {
         line-height: 25px; } }
   @media screen and (max-width: 1400px) {
@@ -6715,18 +7408,14 @@ footer .ftbutton {
       .blogsDetails .blogsDetailsSection {
         margin-bottom: 20px; }
         .blogsDetails .blogsDetailsSection .blogsDetailsOne {
-          margin-right: 30px; }
+          margin-right: 60px; }
+          .blogsDetails .blogsDetailsSection .blogsDetailsOne .blogDate {
+            margin-bottom: 20px; }
+            .blogsDetails .blogsDetailsSection .blogsDetailsOne .blogDate img {
+              margin-right: 7px; }
           .blogsDetails .blogsDetailsSection .blogsDetailsOne h1 {
             margin-bottom: 40px;
             line-height: 45px; }
-          .blogsDetails .blogsDetailsSection .blogsDetailsOne .authorBoxDesktop .authorBox {
-            padding-bottom: 30px; }
-            .blogsDetails .blogsDetailsSection .blogsDetailsOne .authorBoxDesktop .authorBox .authorBoxImg {
-              margin-right: 15px; }
-            .blogsDetails .blogsDetailsSection .blogsDetailsOne .authorBoxDesktop .authorBox .authorBoxContent h3 {
-              margin-bottom: 10px; }
-            .blogsDetails .blogsDetailsSection .blogsDetailsOne .authorBoxDesktop .authorBox .authorBoxContent .blogDate img {
-              margin-right: 7px; }
           .blogsDetails .blogsDetailsSection .blogsDetailsOne .authorBoxDesktop .shareIcons {
             display: flex;
             justify-content: space-between;
@@ -6747,41 +7436,44 @@ footer .ftbutton {
           .blogsDetails .blogsDetailsSection .blogsDetailsTwo img {
             padding-bottom: 30px; }
           .blogsDetails .blogsDetailsSection .blogsDetailsTwo ul, .blogsDetails .blogsDetailsSection .blogsDetailsTwo ol {
-            padding: 10px 0px; }
+            padding: 10px 0px;
+            margin-bottom: 15px; }
             .blogsDetails .blogsDetailsSection .blogsDetailsTwo ul li, .blogsDetails .blogsDetailsSection .blogsDetailsTwo ol li {
-              font-weight: 500;
               font-size: 16px; }
-          .blogsDetails .blogsDetailsSection .blogsDetailsTwo ul li {
-            font-weight: 500;
-            font-size: 16px;
-            line-height: 25px; }
-            .blogsDetails .blogsDetailsSection .blogsDetailsTwo ul li a {
-              color: #000;
-              word-break: break-all; }
+          .blogsDetails .blogsDetailsSection .blogsDetailsTwo ul {
+            margin-bottom: 15px; }
+            .blogsDetails .blogsDetailsSection .blogsDetailsTwo ul li {
+              font-size: 16px;
+              line-height: 25px; }
+              .blogsDetails .blogsDetailsSection .blogsDetailsTwo ul li a {
+                color: #000;
+                word-break: break-all; }
           .blogsDetails .blogsDetailsSection .blogsDetailsTwo ol {
             padding: 10px 0px; }
             .blogsDetails .blogsDetailsSection .blogsDetailsTwo ol li {
-              font-weight: 500;
+              font-weight: 300;
               font-size: 16px;
               line-height: 25px; }
               .blogsDetails .blogsDetailsSection .blogsDetailsTwo ol li a {
                 text-decoration: none;
                 color: #000; }
           .blogsDetails .blogsDetailsSection .blogsDetailsTwo h2 {
-            font-size: 36px;
-            margin-bottom: 20px; }
+            font-size: 25px;
+            margin-bottom: 22px; }
           .blogsDetails .blogsDetailsSection .blogsDetailsTwo h3 {
-            font-size: 26px;
-            margin-bottom: 20px; }
-          .blogsDetails .blogsDetailsSection .blogsDetailsTwo h4 {
-            font-size: 22px;
-            margin-bottom: 20px; }
-          .blogsDetails .blogsDetailsSection .blogsDetailsTwo h5 {
             font-size: 20px;
             margin-bottom: 20px; }
+          .blogsDetails .blogsDetailsSection .blogsDetailsTwo h4 {
+            font-size: 16px;
+            margin-bottom: 10px; }
+          .blogsDetails .blogsDetailsSection .blogsDetailsTwo h5 {
+            font-size: 14px; }
           .blogsDetails .blogsDetailsSection .blogsDetailsTwo p {
             font-size: 16px;
-            line-height: 22px; }
+            line-height: 22px;
+            margin-bottom: 40px; }
+          .blogsDetails .blogsDetailsSection .blogsDetailsTwo .divider {
+            margin-bottom: 18px; }
       .blogsDetails .relatedBlogs h3 {
         margin-bottom: 25px; }
       .blogsDetails .relatedBlogs .relatedBlogsSection .relatedBlogsBox {
@@ -6797,31 +7489,33 @@ footer .ftbutton {
       margin-top: 72px;
       padding: 30px 22px 20px 22px; }
       .blogsDetails .blogsDetailsSection {
-        margin-bottom: 50px;
-        height: calc(100vh - 120px); }
+        margin-bottom: 50px; }
         .blogsDetails .blogsDetailsSection .blogsDetailsOne {
-          margin-right: 25px; }
+          margin-right: 40px; }
+          .blogsDetails .blogsDetailsSection .blogsDetailsOne .blogDate {
+            margin-bottom: 15px; }
           .blogsDetails .blogsDetailsSection .blogsDetailsOne h1 {
             margin-bottom: 35px;
             line-height: 37px; }
-          .blogsDetails .blogsDetailsSection .blogsDetailsOne .authorBoxDesktop .authorBox {
-            padding-bottom: 20px; }
           .blogsDetails .blogsDetailsSection .blogsDetailsOne .authorBoxDesktop .shareIcons {
             align-items: center;
             padding: 25px 0px;
             margin-bottom: 25px; }
           .blogsDetails .blogsDetailsSection .blogsDetailsOne .authorBoxDesktop .blogTags p span {
             margin-left: 10px; }
-        .blogsDetails .blogsDetailsSection .blogsDetailsTwo img {
-          padding-bottom: 20px; }
-        .blogsDetails .blogsDetailsSection .blogsDetailsTwo h2 {
-          font-size: 32px; }
-        .blogsDetails .blogsDetailsSection .blogsDetailsTwo h3 {
-          font-size: 25px; }
-        .blogsDetails .blogsDetailsSection .blogsDetailsTwo h4 {
-          font-size: 20px; }
-        .blogsDetails .blogsDetailsSection .blogsDetailsTwo h5 {
-          font-size: 21px; }
+        .blogsDetails .blogsDetailsSection .blogsDetailsTwo {
+          overflow-x: hidden; }
+          .blogsDetails .blogsDetailsSection .blogsDetailsTwo img {
+            padding-bottom: 20px; }
+          .blogsDetails .blogsDetailsSection .blogsDetailsTwo h2 {
+            font-size: 22px;
+            margin-bottom: 15px; }
+          .blogsDetails .blogsDetailsSection .blogsDetailsTwo h3 {
+            margin-bottom: 12px; }
+          .blogsDetails .blogsDetailsSection .blogsDetailsTwo p {
+            margin-bottom: 30px; }
+          .blogsDetails .blogsDetailsSection .blogsDetailsTwo .divider {
+            margin-bottom: 15px; }
       .blogsDetails .relatedBlogs .relatedBlogsSection .relatedBlogsBox a .details {
         padding: 0px 25px 20px 25px; }
         .blogsDetails .relatedBlogs .relatedBlogsSection .relatedBlogsBox a .details h4 {
@@ -6837,9 +7531,11 @@ footer .ftbutton {
         height: auto; }
         .blogsDetails .blogsDetailsSection .blogsDetailsOne {
           width: 100%;
-          margin-right: 40px;
+          margin-right: 0px;
           position: unset;
           height: auto; }
+          .blogsDetails .blogsDetailsSection .blogsDetailsOne .blogDate {
+            margin-bottom: 10px; }
           .blogsDetails .blogsDetailsSection .blogsDetailsOne h1 {
             margin-bottom: 20px;
             line-height: 40px; }
@@ -6850,7 +7546,7 @@ footer .ftbutton {
           margin-bottom: 30px;
           height: auto;
           overflow-x: hidden;
-          overflow-y: auto; }
+          overflow-y: hidden; }
           .blogsDetails .blogsDetailsSection .blogsDetailsTwo img {
             padding: 10px 0px;
             max-width: 100%; }
@@ -6858,31 +7554,13 @@ footer .ftbutton {
             margin-bottom: 10px; }
         .blogsDetails .blogsDetailsSection .authorBoxMobile {
           display: block; }
-          .blogsDetails .blogsDetailsSection .authorBoxMobile .authorBox {
-            display: flex;
-            padding-bottom: 10px;
-            align-items: center;
-            border-bottom: 1px solid #000000;
-            overflow: hidden; }
-            .blogsDetails .blogsDetailsSection .authorBoxMobile .authorBox .authorBoxImg {
-              margin-right: 15px;
-              width: 60px;
-              height: 60px;
-              border-radius: 50%; }
-            .blogsDetails .blogsDetailsSection .authorBoxMobile .authorBox .authorBoxContent h3 {
-              margin-bottom: 10px;
-              display: none; }
-            .blogsDetails .blogsDetailsSection .authorBoxMobile .authorBox .authorBoxContent .blogDate {
-              display: flex;
-              align-items: center; }
-              .blogsDetails .blogsDetailsSection .authorBoxMobile .authorBox .authorBoxContent .blogDate img {
-                margin-right: 7px; }
           .blogsDetails .blogsDetailsSection .authorBoxMobile .shareIcons {
             display: flex;
             justify-content: flex-start;
             padding: 20px 0px;
             margin-bottom: 20px;
             border-bottom: 1px solid #000000;
+            border-top: 1px solid #000000;
             align-items: center; }
             .blogsDetails .blogsDetailsSection .authorBoxMobile .shareIcons .icons {
               display: flex;
@@ -6961,400 +7639,6 @@ footer .ftbutton {
         margin: 0px; }
         .blogsDetails .relatedBlogsMobile .relatedBlogsSlider .relatedBlogsSliderBox .details {
           padding: 0px 10px 10px 10px; } }
-
-#button {
-  display: none; }
-  @media screen and (max-width: 1024px) {
-    #button {
-      display: flex;
-      align-items: center;
-      background-color: #fff;
-      width: 48px;
-      height: 48px;
-      text-align: center;
-      border-radius: 50%;
-      position: fixed;
-      bottom: 20px;
-      right: 24px;
-      transition: background-color .3s, opacity .5s, visibility .5s;
-      opacity: 0;
-      visibility: hidden;
-      z-index: 1000;
-      cursor: pointer; }
-      #button img {
-        margin: 0 auto; }
-      #button:hover {
-        background-color: #fff; }
-      #button:active {
-        background-color: #555; }
-      #button.show {
-        opacity: 1;
-        visibility: visible; } }
-
-.page-template-case-study-details {
-  overflow-x: hidden; }
-  .page-template-case-study-details header {
-    border-bottom: 1px solid #000; }
-
-.casebgdetails {
-  background: linear-gradient(158.47deg, #070707 4.94%, #101010 53.55%, #070707 58.48%, #020202 65.02%, #131313 77.34%);
-  margin-top: 86px;
-  /**************************************************Media Query***************************************************/ }
-  .casebgdetails .sectionOne {
-    position: relative;
-    padding: 70px 0px 200px 0px; }
-    .casebgdetails .sectionOne .mobtext {
-      position: absolute;
-      top: 10%;
-      padding-left: 112px;
-      width: 32%; }
-      .casebgdetails .sectionOne .mobtext p {
-        text-transform: uppercase; }
-      .casebgdetails .sectionOne .mobtext h1 {
-        line-height: 70px;
-        margin: 35px 0px; }
-      .casebgdetails .sectionOne .mobtext h5 {
-        line-height: 30px;
-        color: rgba(255, 255, 255, 0.5);
-        width: 73%; }
-    .casebgdetails .sectionOne .mobImg img {
-      margin: 0 auto;
-      display: flex;
-      align-items: center;
-      width: 60%; }
-  .casebgdetails .sectionTwo {
-    display: flex;
-    justify-content: space-between;
-    align-items: center; }
-    .casebgdetails .sectionTwo .mobimgTwo {
-      width: 48%; }
-      .casebgdetails .sectionTwo .mobimgTwo img {
-        width: 90%;
-        margin: 0 auto;
-        display: flex;
-        align-items: center; }
-    .casebgdetails .sectionTwo .mobtextTwo {
-      padding: 94px 0px 295px 112px;
-      background: #fff;
-      width: 48%; }
-      .casebgdetails .sectionTwo .mobtextTwo p {
-        text-transform: uppercase; }
-      .casebgdetails .sectionTwo .mobtextTwo h1 {
-        line-height: 70px;
-        margin: 5px 0px 35px 0px;
-        width: 60%; }
-      .casebgdetails .sectionTwo .mobtextTwo h5 {
-        line-height: 30px;
-        width: 60%; }
-  .casebgdetails .sectionThree {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 130px 0px 130px 112px; }
-    .casebgdetails .sectionThree .mobtextThree {
-      width: 48%; }
-      .casebgdetails .sectionThree .mobtextThree p {
-        text-transform: uppercase; }
-      .casebgdetails .sectionThree .mobtextThree h1 {
-        line-height: 70px;
-        margin: 5px 0px 35px 0px;
-        width: 60%; }
-    .casebgdetails .sectionThree .mobsubtextThree {
-      width: 45%; }
-      .casebgdetails .sectionThree .mobsubtextThree h5 {
-        line-height: 30px;
-        width: 60%;
-        color: rgba(255, 255, 255, 0.5); }
-  .casebgdetails .sectionFour {
-    padding: 50px 0px;
-    transform: translatey(0px);
-    animation: float 2s ease-in-out infinite; }
-@keyframes float {
-  0% {
-    transform: translatey(0px); }
-  50% {
-    transform: translatey(-20px); }
-  100% {
-    transform: translatey(0px); } }
-    .casebgdetails .sectionFour img {
-      display: flex;
-      align-items: center;
-      margin: auto;
-      width: 80%; }
-    .casebgdetails .sectionFour .mobileImg {
-      display: none; }
-  .casebgdetails .sectionFive {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: #fff;
-    padding: 130px 0px 130px 112px; }
-    .casebgdetails .sectionFive .mobtextFour {
-      width: 48%; }
-      .casebgdetails .sectionFive .mobtextFour p {
-        text-transform: uppercase; }
-      .casebgdetails .sectionFive .mobtextFour h1 {
-        line-height: 70px;
-        margin: 5px 0px 35px 0px;
-        width: 60%; }
-    .casebgdetails .sectionFive .mobsubtextFour {
-      width: 45%; }
-      .casebgdetails .sectionFive .mobsubtextFour h5 {
-        line-height: 30px;
-        width: 60%; }
-  .casebgdetails .sectionSix {
-    position: relative;
-    overflow: hidden; }
-    .casebgdetails .sectionSix .sectionSiximg {
-      line-height: 0px; }
-      .casebgdetails .sectionSix .sectionSiximg img {
-        width: 100%; }
-    .casebgdetails .sectionSix .moreCasestudy {
-      position: absolute;
-      width: 100%;
-      bottom: -100%; }
-      .casebgdetails .sectionSix .moreCasestudy .brandLogos {
-        display: flex;
-        align-items: center; }
-        .casebgdetails .sectionSix .moreCasestudy .brandLogos .relatedBox {
-          padding: 30px;
-          width: 50%;
-          background: #00C859;
-          transition: 0.6s all; }
-          .casebgdetails .sectionSix .moreCasestudy .brandLogos .relatedBox a {
-            display: block;
-            width: 100%;
-            cursor: url(../images/mouse-cursor-pages.png) 30 30, auto; }
-            .casebgdetails .sectionSix .moreCasestudy .brandLogos .relatedBox a img {
-              margin: 0 auto;
-              height: 100px; }
-          .casebgdetails .sectionSix .moreCasestudy .brandLogos .relatedBox:nth-child(1) {
-            text-align: left; }
-          .casebgdetails .sectionSix .moreCasestudy .brandLogos .relatedBox:nth-child(2) {
-            text-align: right; }
-          .casebgdetails .sectionSix .moreCasestudy .brandLogos .relatedBox.active {
-            width: 100%; }
-          .casebgdetails .sectionSix .moreCasestudy .brandLogos .relatedBox.activeTwo {
-            width: 100%; }
-    .casebgdetails .sectionSix .circleAnimShow {
-      position: absolute;
-      bottom: 0%;
-      transition: all 1s ease-in-out; }
-  @media screen and (max-width: 1600px) {
-    .casebgdetails .sectionOne {
-      padding: 50px 0px 150px 0px; }
-      .casebgdetails .sectionOne .mobtext {
-        padding-left: 82px; }
-        .casebgdetails .sectionOne .mobtext h1 {
-          margin: 20px 0px;
-          line-height: 50px; }
-        .casebgdetails .sectionOne .mobtext h5 {
-          line-height: 27px; }
-    .casebgdetails .sectionTwo .mobtextTwo {
-      padding: 74px 0px 200px 82px; }
-      .casebgdetails .sectionTwo .mobtextTwo h1 {
-        margin: 5px 0px 20px 0px;
-        line-height: 50px;
-        width: 55%; }
-      .casebgdetails .sectionTwo .mobtextTwo h5 {
-        line-height: 27px;
-        width: 55%; }
-    .casebgdetails .sectionTwo .mobimgTwo {
-      width: 50%; }
-      .casebgdetails .sectionTwo .mobimgTwo img {
-        width: 80%; }
-    .casebgdetails .sectionThree {
-      padding: 100px 0px 100px 82px; }
-      .casebgdetails .sectionThree .mobtextThree h1 {
-        line-height: 50px;
-        margin: 5px 0px 20px 0px;
-        width: 55%; }
-      .casebgdetails .sectionThree .mobsubtextThree h5 {
-        line-height: 27px;
-        width: 55%; }
-    .casebgdetails .sectionFour {
-      padding: 30px 0px; }
-      .casebgdetails .sectionFour img {
-        width: 68%; }
-    .casebgdetails .sectionFive {
-      padding: 100px 0px 100px 82px; }
-      .casebgdetails .sectionFive .mobtextFour h1 {
-        width: 55%;
-        line-height: 50px;
-        margin: 5px 0px 20px 0px; }
-      .casebgdetails .sectionFive .mobsubtextFour h5 {
-        line-height: 27px;
-        width: 55%; } }
-  @media screen and (max-width: 1400px) {
-    .casebgdetails {
-      margin-top: 76px; }
-      .casebgdetails .sectionOne {
-        padding: 35px 0px 100px 0px; }
-        .casebgdetails .sectionOne .mobtext {
-          padding-left: 52px; }
-          .casebgdetails .sectionOne .mobtext h1 {
-            margin: 10px 0px;
-            line-height: 45px; }
-          .casebgdetails .sectionOne .mobtext h5 {
-            line-height: 25px; }
-      .casebgdetails .sectionTwo .mobtextTwo {
-        padding: 54px 0px 100px 52px; }
-        .casebgdetails .sectionTwo .mobtextTwo h1 {
-          margin: 5px 0px 10px 0px;
-          line-height: 45px;
-          width: 55%; }
-        .casebgdetails .sectionTwo .mobtextTwo h5 {
-          line-height: 25px;
-          width: 58%; }
-      .casebgdetails .sectionTwo .mobimgTwo {
-        width: 50%; }
-        .casebgdetails .sectionTwo .mobimgTwo img {
-          width: 77%; }
-      .casebgdetails .sectionThree {
-        padding: 80px 0px 80px 52px; }
-        .casebgdetails .sectionThree .mobtextThree h1 {
-          line-height: 45px;
-          margin: 5px 0px 10px 0px;
-          width: 55%; }
-        .casebgdetails .sectionThree .mobsubtextThree h5 {
-          line-height: 25px;
-          width: 58%; }
-      .casebgdetails .sectionFour {
-        padding: 20px 0px; }
-        .casebgdetails .sectionFour img {
-          width: 64%; }
-      .casebgdetails .sectionFive {
-        padding: 80px 0px 80px 52px; }
-        .casebgdetails .sectionFive .mobtextFour h1 {
-          width: 55%;
-          line-height: 45px;
-          margin: 5px 0px 10px 0px; }
-        .casebgdetails .sectionFive .mobsubtextFour h5 {
-          line-height: 25px;
-          width: 58%; } }
-  @media screen and (max-width: 1200px) {
-    .casebgdetails .sectionOne {
-      padding: 35px 0px 60px 0px; }
-      .casebgdetails .sectionOne .mobtext {
-        padding-left: 32px; }
-        .casebgdetails .sectionOne .mobtext h1 {
-          margin: 10px 0px;
-          line-height: 40px; }
-        .casebgdetails .sectionOne .mobtext h5 {
-          line-height: 23px; }
-    .casebgdetails .sectionTwo .mobtextTwo {
-      padding: 34px 0px 60px 32px; }
-      .casebgdetails .sectionTwo .mobtextTwo h1 {
-        margin: 5px 0px 10px 0px;
-        line-height: 40px;
-        width: 60%; }
-      .casebgdetails .sectionTwo .mobtextTwo h5 {
-        line-height: 23px;
-        width: 62%; }
-    .casebgdetails .sectionTwo .mobimgTwo {
-      width: 50%; }
-      .casebgdetails .sectionTwo .mobimgTwo img {
-        width: 77%; }
-    .casebgdetails .sectionThree {
-      padding: 50px 0px 60px 32px; }
-      .casebgdetails .sectionThree .mobtextThree h1 {
-        line-height: 40px;
-        margin: 5px 0px 10px 0px;
-        width: 60%; }
-      .casebgdetails .sectionThree .mobsubtextThree h5 {
-        line-height: 23px;
-        width: 62%; }
-    .casebgdetails .sectionFour {
-      padding: 20px 0px; }
-      .casebgdetails .sectionFour img {
-        width: 64%; }
-    .casebgdetails .sectionFive {
-      padding: 50px 0px 60px 32px; }
-      .casebgdetails .sectionFive .mobtextFour h1 {
-        width: 60%;
-        line-height: 40px;
-        margin: 5px 0px 10px 0px; }
-      .casebgdetails .sectionFive .mobsubtextFour h5 {
-        line-height: 23px;
-        width: 62%; } }
-  @media screen and (max-width: 1024px) {
-    .casebgdetails {
-      margin-top: 73px; }
-      .casebgdetails .sectionOne {
-        padding: 32px 0px 20px 0px; }
-        .casebgdetails .sectionOne .mobtext {
-          position: unset;
-          width: 100%;
-          padding-left: 24px;
-          padding-right: 24px; }
-          .casebgdetails .sectionOne .mobtext h1 {
-            line-height: 36px; }
-          .casebgdetails .sectionOne .mobtext h5 {
-            line-height: 20px;
-            width: 100%; }
-        .casebgdetails .sectionOne .mobImg {
-          width: 100%;
-          margin: 40px auto 0px; }
-      .casebgdetails .sectionTwo {
-        display: block; }
-        .casebgdetails .sectionTwo .mobtextTwo {
-          width: 100%;
-          padding: 32px 24px 32px 24px; }
-          .casebgdetails .sectionTwo .mobtextTwo h1 {
-            line-height: 36px;
-            width: 100%; }
-          .casebgdetails .sectionTwo .mobtextTwo h5 {
-            line-height: 20px;
-            width: 100%; }
-        .casebgdetails .sectionTwo .mobimgTwo {
-          width: 100%;
-          margin: 60px 0px 0px; }
-          .casebgdetails .sectionTwo .mobimgTwo img {
-            width: 100%; }
-      .casebgdetails .sectionThree {
-        display: block;
-        padding: 32px 24px 24px 24px; }
-        .casebgdetails .sectionThree .mobtextThree {
-          width: 100%; }
-          .casebgdetails .sectionThree .mobtextThree h1 {
-            line-height: 36px;
-            width: 100%; }
-        .casebgdetails .sectionThree .mobsubtextThree {
-          width: 100%; }
-          .casebgdetails .sectionThree .mobsubtextThree h5 {
-            line-height: 20px;
-            width: 100%; }
-      .casebgdetails .sectionFour {
-        padding: 10px 0px; }
-        .casebgdetails .sectionFour img {
-          width: 100%; }
-        .casebgdetails .sectionFour .desktopImg {
-          display: none; }
-        .casebgdetails .sectionFour .mobileImg {
-          display: block; }
-      .casebgdetails .sectionFive {
-        padding: 32px 24px 32px 24px;
-        display: block; }
-        .casebgdetails .sectionFive .mobtextFour {
-          width: 100%; }
-          .casebgdetails .sectionFive .mobtextFour h1 {
-            width: 100%;
-            line-height: 36px; }
-        .casebgdetails .sectionFive .mobsubtextFour {
-          width: 100%; }
-          .casebgdetails .sectionFive .mobsubtextFour h5 {
-            line-height: 20px;
-            width: 100%; }
-      .casebgdetails .sectionSix .moreCasestudy {
-        position: static; }
-        .casebgdetails .sectionSix .moreCasestudy .brandLogos .relatedBox {
-          padding: 12px; }
-          .casebgdetails .sectionSix .moreCasestudy .brandLogos .relatedBox:nth-child(1) {
-            text-align: center; }
-          .casebgdetails .sectionSix .moreCasestudy .brandLogos .relatedBox:nth-child(2) {
-            text-align: center; }
-          .casebgdetails .sectionSix .moreCasestudy .brandLogos .relatedBox a img {
-            height: 50px; } }
 
 #button {
   display: none; }

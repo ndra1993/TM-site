@@ -6,34 +6,26 @@
     margin-top:96px;padding:84px 90px 90px 90px;
     img{max-width:100%;}
     .blogsDetailsSection{display:flex; margin-bottom:50px;position:relative;
-        .blogsDetailsOne{width:35%; margin-right:40px; position:sticky; top:20%; height:650px;
+        .blogsDetailsOne{width:35%; margin-right:100px; position:sticky; top:20%; height:650px;
+            .blogDate{display:flex;align-items: center;margin-bottom:25px;
+                img{margin-right:10px;}
+            }
             h1{margin-bottom:50px;line-height: 70px;}
             .authorBoxDesktop{
-                .authorBox{display:flex; align-items:center;padding-bottom:50px;border-bottom: 1px solid #000000;flex-flow: wrap;
-                    .authorBoxImg{margin-right: 23px; width:70px; height:70px; border-radius:50%;overflow:hidden;
-                        img{max-width:100%;}
-                        }
-                    .authorBoxContent{
-                        h3{margin-bottom: 15px; display:none;}
-                        .blogDate{display:flex;align-items: center;
-                            img{margin-right:10px;}
-                        }
-                    }
-                }
-                .shareIcons{display:flex; justify-content:space-between;align-items: center;padding: 50px 0px; margin-bottom:30px;border-bottom: 1px solid #000000;
+                .shareIcons{display:flex; justify-content:space-between;align-items: center;padding: 50px 0px; margin-bottom:30px;border-bottom: 1px solid #000000;border-top: 1px solid #000000;
                     h4{text-transform: uppercase;}
                     .icons{display:flex;align-items: center;
                             .iconsImg{margin-right: 15px;
                                 .fb{
-                                    &:hover circle{fill:#1877F2;}
+                                    &:hover circle{fill:#3b5998;}
                                     &:hover path{fill:#fff;}
                                 }
                                 .twitter{
-                                    &:hover circle{fill:#1D9BF0;}
+                                    &:hover circle{fill:#00acee;}
                                     &:hover path{fill:#fff;}
                                 }
                                 .linkdin{
-                                    &:hover circle{fill:#0C64C5;}
+                                    &:hover circle{fill:#0072b1;}
                                     &:hover path{fill:#fff;} 
                                 }
                                 .slack{
@@ -53,29 +45,39 @@
                 }
             }
         }
-        .blogsDetailsTwo{width:65%; overflow-x: hidden;
-            p{line-height:30px;}
-            a{color:#000;}
+        .blogsDetailsTwo{width:65%; overflow-x: unset;
+            p{line-height:30px;
+                strong{font-weight:600;}
+                }
+            a{color:#000;word-break: break-all;}
             img{padding-bottom:50px; max-width: 100%;}
-            h5{margin-bottom:35px;text-transform: uppercase;}
-            ul{padding:10px 0px; padding-left:20px !important;
-                li{font-weight:500;font-size:18px;line-height: 30px;list-style-type:disc;
-                    a{color:#000;}
+            ul{padding:10px 0px; padding-left:30px !important;margin-bottom:20px;
+                li{font-weight:300;font-size:18px;line-height: 30px;list-style-type:disc;
+                    strong{font-weight:600;}
+                    a{color:#000; word-break: break-all;}
                 }
             } 
             ol{padding:10px 0px; padding-left:20px !important;
-                li{font-weight:500;font-size:18px;line-height: 30px;list-style-type:disc;
-                    a{color:#000;}
+                li{font-weight:300;font-size:18px;line-height: 30px;list-style-type:disc;
+                    strong{font-weight:600;}
+                    a{color:#000;word-break: break-all;}
                 }
             }
-            h2{font-size:40px; margin-bottom:40px; font-weight:800;}
-            h3{font-size:32px; margin-bottom:40px; font-weight:800;}
-            h4{font-size:26px; margin-bottom:40px; font-weight:800;}
-            h5{font-size:22px; margin-bottom:40px; font-weight:800;}
-            p{font-size:18px;line-height: 30px; font-weight:500;margin-bottom:20px;}
+            h2{font-size:40px; margin-bottom:30px; font-weight:700;}
+            h3{font-size:32px; margin-bottom:25px; font-weight:700;}
+            h4{font-size:20px; margin-bottom:20px; font-weight:700;}
+            h5{font-size:16px; margin-bottom:15px; font-weight:700;}
+            p{font-size:20px;line-height: 30px; font-weight:300;margin-bottom:60px;}
+            .divider {border-top: 1px solid transparent;border-bottom: 1px solid transparent;margin-bottom: 25px;}
 
-            .blogModal{margin-top:20px;
-                .link{text-decoration-color: #00FFA3;text-decoration-thickness: 3px;display: flex;align-items: center;width: fit-content;
+            .blogModal{margin:20px 0px;;
+                .link{text-decoration: none;padding:10px 15px;border: 1px solid #000000; font-size:12px; line-height:18px; text-transform:uppercase;
+                    @media screen and (max-width:1400px) {
+                        padding:5px 10px;
+                    }
+                    @media screen and (max-width:920px) {
+                        font-size:10px;
+                    }
                     img{transform: rotate(180deg);margin-left: 10px;width: 20px;    padding-bottom: 0px;
                         @media screen and (max-width:1440px) {
                             width: 15px; padding:0px;
@@ -120,34 +122,127 @@
                     }
                     .modal-dialog {
                         background:#fff;
-                        border-radius:10px;
-                        box-shadow:0 11px 15px -7px rgba(0, 0, 0, 0.2), 0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 9px 46px 8px rgba(0, 0, 0, 0.12);
+                        border: 1px solid #000000;
                         position:relative;
                         width: 90%;
-                        max-width:660px;
+                        max-width:1250px;
                         margin:10% auto;
                         overflow-x:hidden;
                         overflow-y:auto;
                         z-index:2;
-                        h3 {
+                        @media screen and (max-width:1400px) {
+                            max-width:950px;
+                        }
+                        .modalHeader{
+                            display:flex;
+                            align-items:center;
+                            justify-content:space-between;
                             border-bottom:1px solid #000;
-                            margin:0;
-                            padding:0.8em 56px .8em 27px; 
-                            margin-bottom: 0px !important;
+                            .modaltitle{
+                                padding:57px 77px;
+                                line-height:70px;
+                                letter-spacing: -0.03em;
+                                @media screen and (max-width:1600px) {
+                                    padding:30px 50px;
+                                    line-height:50px;
+                                }
+                                @media screen and (max-width:1400px) {
+                                    padding:25px 35px;
+                                    line-height:35px;
+                                }
+                                @media screen and (max-width:920px) {
+                                    padding:15px 20px;
+                                    font-size:25px;
+                                    line-height:25px;
+                                }
+                                @media screen and (max-width:430px) {
+                                    padding:10px 15px;
+                                    font-size: 20px;
+                                }
+                            }
+                            .modal-close {
+                                -webkit-transition: all .3s ease-in-out;
+                                transition: all .3s ease-in-out;
+                                text-decoration:none;
+                                padding: 70px 95px;
+                                border-left: 1px solid #000000;
+                                text-align:center;
+                                line-height:0px;
+                                @media screen and (max-width:1600px) {
+                                    padding: 40px 70px;
+                                }
+                                @media screen and (max-width:1400px) {
+                                    padding: 35px 50px;
+                                }
+                                @media screen and (max-width:920px) {
+                                    padding: 25px 30px;
+                                }
+                                @media screen and (max-width:430px) {
+                                    padding: 15px;
+                                }
+                                img{padding:0px;
+                                    @media screen and (max-width:1600px) {
+                                        width:75%;
+                                    }
+                                    @media screen and (max-width:1400px) {
+                                        width:70%;
+                                    }
+                                    @media screen and (max-width:920px) {
+                                        width:50%;
+                                    }  
+                                }
+                            }
+                        }
+                        @media screen and (max-width:1600px) {
+                            margin:8% auto;
                         }
                         @media screen and (max-width:1400px) {
                             margin:5% auto;
                         }
+                        @media screen and (max-width:1024px) {
+                            margin:3% auto;
+                        }
+                        @media screen and (max-width:920px) {
+                            margin:25% auto;
+                        }
                     }
-                    .modal-dialog-lg {max-width:900px !important;}
-                    .modal-content {background:#fff; margin:30px;overflow-x: hidden;overflow-y: scroll;max-height: 400px;
-                        li{
-                            margin-bottom:15px;
-                            @media screen and (max-width:1366px) {
+                    
+                    .modal-content {background:#fff; margin:68px 73px 86px 77px;overflow-x: hidden;overflow-y: scroll;max-height: 400px;padding-right:15px;
+                        @media screen and (max-width:1600px) {
+                            margin:50px 50px 50px 50px;
+                            max-height: 375px;
+                        }
+                        @media screen and (max-width:1400px) {
+                            margin:30px 40px 45px 35px;
+                            max-height: 350px;
+                        }
+                        @media screen and (max-width:1024px) {
+                            max-height: 300px;
+                        }
+                        @media screen and (max-width:920px) {
+                            margin:30px 25px 30px 20px;
+                        }
+                        @media screen and (max-width:430px) {
+                            margin:20px 15px;
+                        }
+                        ul{padding:0px; margin:0px;
+                            li{
+                                list-style-type: auto;
+                                line-height: 40px;
+                                letter-spacing: 0.03em;
                                 margin-bottom:12px;
-                            }
-                            @media screen and (max-width:770px) {
-                                margin-bottom:10px;
+                                @media screen and (max-width:1600px) {
+                                    line-height: 32px;
+                                }
+                                @media screen and (max-width:1400px) {
+                                    line-height: 25px;
+                                    margin-bottom:10px;
+                                }
+                                @media screen and (max-width:920px) {
+                                    line-height: 20px;
+                                    margin-bottom:6px;
+                                }
+                                a{text-decoration:none;}
                             }
                         }
                         /* ===== Scrollbar CSS ===== */
@@ -175,24 +270,7 @@
                             border: 3px solid #ffffff;
                         }
                     }
-                    .modal-close {
-                        position:absolute;
-                        top:20px;
-                        right:20px;
-                        color:#000;
-                        background-color:transparent;
-                        border-radius:50%;
-                        height:40px;
-                        width:40px;
-                        font-size:40px;
-                        font-weight:500;
-                        line-height:40px;
-                        text-align:center;
-                        -webkit-transition: all .3s ease-in-out;
-                        transition: all .3s ease-in-out;
-                        text-decoration:none;
-                        
-                    }
+                    
                 }
 
             }
@@ -235,23 +313,22 @@
     @media screen and (max-width:1600px) {
         margin-top:86px; padding:60px 90px 45px 90px;
         .blogsDetailsSection{
-            .blogsDetailsOne{
+            .blogsDetailsOne{margin-right:80px;
                 h1{margin-bottom:40px;line-height: 60px;}
                 .authorBoxDesktop{
-                    .authorBox{padding-bottom:40px;
-                    }
                     .shareIcons{padding: 40px 0px; margin-bottom:30px;}
                 }
             }
             .blogsDetailsTwo{width:65%;
                 img{padding-bottom:40px;}
 
-                h2{font-size:38px;}
-                h3{font-size:30px;}
-                h4{font-size:24px;}
-                h5{font-size:20px;}
-                p{font-size:18px;line-height: 30px;}
-            }
+                h2{font-size:35px; margin-bottom:25px;}
+                h3{font-size:26px; margin-bottom:22px;}
+                h4{font-size:18px; margin-bottom:18px;}
+                h5{font-size:14px; margin-bottom:15px;}
+                p{font-size:18px;line-height: 30px; margin-bottom:50px;}
+                .divider {border-top: 1px solid transparent;border-bottom: 1px solid transparent;margin-bottom: 22px;}
+                }
         }
         .relatedBlogs{
             .relatedBlogsSection{
@@ -270,18 +347,12 @@
     @media screen and (max-width:1400px) {
         margin-top:76px;padding:40px 80px 35px 80px;
         .blogsDetailsSection{margin-bottom:20px;
-            .blogsDetailsOne{margin-right:30px;
+            .blogsDetailsOne{margin-right:60px;
+                .blogDate{margin-bottom: 20px;
+                    img{margin-right:7px;}
+                }
                 h1{margin-bottom:40px;line-height: 45px;}
                 .authorBoxDesktop{
-                    .authorBox{padding-bottom:30px;
-                        .authorBoxImg{margin-right: 15px;}
-                        .authorBoxContent{
-                            h3{margin-bottom: 10px;}
-                            .blogDate{
-                                img{margin-right:7px;}
-                            }
-                        }
-                    }
                     .shareIcons{display:flex; justify-content:space-between;padding: 25px 0px; margin-bottom:25px;border-bottom: 1px solid #000000;
                         .icons{display:flex;align-items: center;
                             .iconsImg{margin-right: 15px;}
@@ -296,24 +367,25 @@
             }
             .blogsDetailsTwo{width:65%;
                 img{padding-bottom:30px;}
-                ul, ol{padding:10px 0px;
-                    li{font-weight:500;font-size:16px;}
+                ul, ol{padding:10px 0px; margin-bottom:15px;
+                    li{font-size:16px;}
                 }
-                ul{
-                    li{font-weight:500;font-size:16px;line-height: 25px;
+                ul{margin-bottom:15px;
+                    li{font-size:16px;line-height: 25px;
                         a{color:#000;word-break: break-all;}
                     }
                 } 
                 ol{padding:10px 0px;
-                    li{font-weight:500;font-size:16px;line-height: 25px;
+                    li{font-weight:300;font-size:16px;line-height: 25px;
                         a{text-decoration:none; color:#000;}
                     }
                 }
-                h2{font-size:36px; margin-bottom:20px;}
-                h3{font-size:26px; margin-bottom:20px;}
-                h4{font-size:22px; margin-bottom:20px;}
-                h5{font-size:20px; margin-bottom:20px;}
-                p{font-size:16px; line-height: 22px;}
+                h2{font-size:25px; margin-bottom:22px;}
+                h3{font-size:20px; margin-bottom:20px;}
+                h4{font-size:16px; margin-bottom:10px;}
+                h5{font-size:14px;}
+                p{font-size:16px; line-height: 22px; margin-bottom: 40px;}
+                .divider{margin-bottom:18px;}
             }
         }
 
@@ -343,11 +415,11 @@
 
     @media screen and (max-width:1024px) {
         margin-top:72px;padding:30px 22px 20px 22px;
-        .blogsDetailsSection{margin-bottom:50px;height: calc(100vh - 120px);
-            .blogsDetailsOne{margin-right: 25px;
+        .blogsDetailsSection{margin-bottom:50px;
+            .blogsDetailsOne{margin-right: 40px;
+                .blogDate{margin-bottom: 15px;}
                 h1{margin-bottom: 35px;line-height: 37px;}
                 .authorBoxDesktop{
-                    .authorBox {padding-bottom: 20px;}
                     .shareIcons{align-items: center;padding: 25px 0px;margin-bottom: 25px;}
                     .blogTags {
                         p{
@@ -356,12 +428,13 @@
                     }
                 }
             }
-            .blogsDetailsTwo {
+            .blogsDetailsTwo {overflow-x: hidden;
                 img{padding-bottom:20px;}
-                h2{font-size:32px;}
-                h3{font-size:25px;}
-                h4{font-size:20px;}
-                h5{font-size:21px;}
+                h2{font-size: 22px; margin-bottom: 15px;}
+                h3{margin-bottom: 12px;}
+                p{margin-bottom: 30px;}
+                .divider{margin-bottom:15px;}
+               
                 
             }
         }
@@ -382,26 +455,18 @@
     @media screen and (max-width:920px) {
         padding:20px 22px 0px 22px;
         .blogsDetailsSection{display:block; margin-bottom: 70px;height: auto;
-            .blogsDetailsOne{width:100%; margin-right:40px;position: unset; height: auto;
-                h1{margin-bottom: 20px; line-height: 40px;}
+            .blogsDetailsOne{width:100%; margin-right:0px;position: unset; height: auto;
+                .blogDate{margin-bottom: 10px;}
+                 h1{margin-bottom: 20px; line-height: 40px;}
                 .authorBoxDesktop{display:none;}
             }
             .blogsDetailsTwo{width:100%;margin-bottom: 30px;height: auto;overflow-x: hidden;
-    overflow-y: auto;
+    overflow-y: hidden;
                 img{padding:10px 0px; max-width: 100%;}
                 h4{margin-bottom:10px;}
             }
             .authorBoxMobile{display:block;
-                .authorBox{display:flex;padding-bottom:10px;align-items:center;border-bottom: 1px solid #000000;overflow: hidden;
-                    .authorBoxImg{margin-right: 15px;width:60px; height:60px; border-radius:50%;}
-                    .authorBoxContent{
-                        h3{margin-bottom:10px;display: none;}
-                        .blogDate{display:flex; align-items:center;
-                            img{margin-right:7px;}
-                        }
-                    }
-                }
-                .shareIcons{display:flex; justify-content:flex-start;padding: 20px 0px; margin-bottom:20px;border-bottom: 1px solid #000000; align-items:center;
+                .shareIcons{display:flex; justify-content:flex-start;padding: 20px 0px; margin-bottom:20px;border-bottom: 1px solid #000000;border-top: 1px solid #000000; align-items:center;
                     .icons{display:flex;align-items: center;margin-left: 20px;
                         .iconsImg{margin-right: 10px;}
                     }  

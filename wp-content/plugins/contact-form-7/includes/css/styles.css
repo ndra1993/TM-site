@@ -92,12 +92,12 @@
 
 .wpcf7-list-item {
 	display: inline-block;
-	margin: 0 1em 0 0em;
+	margin: 0 7px 0 0px;
 	font-family: "Poppins", sans-serif;
 
 }
 
-#rd1 .wpcf7-list-item-label {
+/*#rd1 .wpcf7-list-item-label {
 	padding: 10px 10px;
 	border-radius: 5px;
 	font-weight: 500;
@@ -106,7 +106,7 @@
 	white-space: nowrap;
 	display: inline-block;
 	cursor: pointer;
-}
+}*/
 
 .content .wpcf7-list-item input[type="radio"] {
 	visibility: hidden;
@@ -116,7 +116,7 @@
 
 .content .wpcf7-list-item input[type="radio"]:checked+.wpcf7-list-item-label {
 	background: #00FFA3;
-	border: 1px solid #00FFA3 !important;
+	/*border: 1px solid #00FFA3 !important;*/
 }
 
 /*.content .wpcf7-list-item input[type='radio']{display: none;}*/
@@ -142,15 +142,15 @@
 	}
 }
 
-@media screen and (max-width:1860px) {
+@media screen and (max-width:1600px) {
 
 	.radio-915 .wpcf7-list-item,
 	.radio-552 .wpcf7-list-item {
-		margin: 0 2em 0 0em;
+		margin: 0 3px 0 0px;
 	}
 
 	.wpcf7-list-item {
-		margin: 0 2em 0 0em;
+		margin: 0 3px 0 0px;
 	}
 }
 
@@ -181,7 +181,7 @@
 /*.wpcf7-list-item label .checkbox{width: 15% !important;}*/
 @media screen and (max-width:770px) {
 	.wpcf7-list-item {
-		margin: 0 4px 0 0em;
+		margin: 0 0px 0 0em;
 	}
 }
 
