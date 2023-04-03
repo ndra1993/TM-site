@@ -16,8 +16,8 @@
         <div class="sectionOne">
             <div class="mobtext wow slideInLeft">
                 <p class="font20 fontW800 colorWhite">ALMARAI</p>
-                <h1 class="font60 fontW800 colorWhite">The largest vertically integrated dairy company in the Middle East</h1>
-                <h5 class="font20 colorWhite fontW500">Almarai operates in all 6 GCC countries. Having such a large base of customers, reducing their route-to-market cost was crucial to Almara</h5>
+                <h1 class="font60 fontW800 colorWhite">Delivering a seamless Order Management System to Almarai</h1>
+                <h5 class="font20 colorWhite fontW500">Almarai is a Saudi-based multinational company that specialises in food and beverage manufacturing and distribution. It’s operational in all six GCC (Gulf Cooperation Council) countries.</h5>
             </div>
             <div class="wow fadeInUp mobImg" data-wow-duration="4s">
                 <img src="<?php bloginfo('template_directory'); ?>/images/sec-one-img.png">
@@ -28,9 +28,9 @@
         <div class="sectionTwo">
             <div class="mobtextTwo wow slideInLeft" data-wow-duration="1s">
                 <div class="">
-                    <p class="font20 fontW800 colorBlack">insight</p>
-                    <h1 class="font60 fontW800 colorBlack">A new experience reflecting the brand’s vision and values</h1>
-                    <h5 class="font20 colorBlack fontW500">Almarai was still primitive when it came to handling their order management system. All communication, ordering and tracking happened only through the delivery agents for the customers. This increased the dependency on the delivery agents, lacked standardization and reduced transparency between Almarai and their customers</h5>
+                    <p class="font20 fontW800 colorBlack">Objective</p>
+                    <h1 class="font60 fontW800 colorBlack">Growing the pie by reducing dependency on delivery agents</h1>
+                    <h5 class="font20 colorBlack fontW500">To reduce route-to-market costs and reach a larger customer base, Almarai had to lessen its dependence on delivery agents. This required creating a channel that would streamline communication, ordering, and tracking to increase transparency between Almarai and its customers.</h5>
                 </div>
             </div>
             <div class="mobimgTwo wow slideInRight" data-wow-duration="1s">
@@ -41,8 +41,8 @@
     <section>
         <div class="sectionThree">
             <div class="mobtextThree wow slideInLeft" data-wow-duration="1s">
-                <p class="font20 fontW800 colorWhite">solutions</p>
-                <h1 class="font60 fontW800 colorWhite">Mobile app and website for customers to place and track orders</h1>
+                <p class="font20 fontW800 colorWhite">Solution</p>
+                <h1 class="font60 fontW800 colorWhite">Serving customers through an easy, bilingual interface</h1>
             </div>
             <div class="mobsubtextThree wow slideInRight" data-wow-duration="1s">
                 <h5 class="font20 colorWhite fontW500">A mobile-first approach was taken and later made responsive for desktops. The brand guidelines were followed and the interactions were kept simple for the less tech savvy audience</h5>
@@ -60,12 +60,12 @@
         <div class="sectionSeven">
             <div class="sectionSevenBoxTwo">
                 <div class="sectionSevenBoxImg">
-                    <img src="<?php bloginfo('template_directory'); ?>/images/sec-four-img.png">
+                    <img src="<?php bloginfo('template_directory'); ?>/images/sec-four-2-img.png">
                     <img src="<?php bloginfo('template_directory'); ?>/images/sec-four-img.png">
                 </div>
                 <div class="sectionSevenBoxText">
                     <h3 class="fontW800 colorWhite font32">Bilingual Design</h3>
-                    <p class="fontW500 font16">The screens were designed in English & Arabic, providing a comprehensive and impactful user experience.</p>
+                    <p class="fontW500 font16">The screens were designed in English and Arabic, providing a comprehensive and impactful user experience.</p>
                 </div>
                 
             </div>
@@ -85,11 +85,11 @@
     <section>
         <div class="sectionFive">
             <div class="mobtextFour wow slideInLeft" data-wow-duration="1s">
-                <p class="font20 fontW800 colorBlack">impact</p>
-                <h1 class="font60 fontW800 colorBlack">Digital transformation for their ordering and tracking system </h1>
+                <p class="font20 fontW800 colorBlack">Impact </p>
+                <h1 class="font60 fontW800 colorBlack">A digital-transformation based recipe for success </h1>
             </div>
             <div class="mobsubtextFour wow slideInRight" data-wow-duration="1s">
-                <h5 class="font20 colorBlack fontW500">This increased the dependency on the delivery agents, lacked standardization and reduced transparency between Almarai and their customers was solved by the digital transformation for their ordering and tracking system through an ecommerce platform. Usage of app also provide Almarai with easy access to data and increase sales by upselling through the platform</h5>
+                <h5 class="font20 colorBlack fontW500">The adoption of a design-centric digital transformation empowered Almarai with efficient ordering and tracking systems that operate seamlessly through its platform. This has resulted in easy access to valuable data and increased sales figures through effective upselling opportunities.</h5>
             </div>
         </div>
     </section>
