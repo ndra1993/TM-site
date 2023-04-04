@@ -339,8 +339,8 @@ $.fn.isInViewport = function () {
   return elementBottom > viewportTop && elementTop < viewportBottom;
 };
 $(window).on('resize scroll', function() {
-  if($('.sectionSix').length){
-    if ($('.sectionSix').isInViewport()) {
+  if($('.bottomimgLogos').length){
+    if ($('.bottomimgLogos').isInViewport()) {
       setTimeout(() => {
         $('.moreCasestudy').addClass('circleAnimShow');
       }, 1500);

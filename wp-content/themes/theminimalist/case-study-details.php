@@ -24,8 +24,8 @@ $homepage_id = get_option( 'page_on_front' );
                     platform.</h5>
             </div>
             <div class="mobImg">
-                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-     viewBox="0 0 1178 1105" style="enable-background:new 0 0 1178 1105;" xml:space="preserve">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            viewBox="0 0 1178 1105" style="enable-background:new 0 0 1178 1105;" xml:space="preserve">
                 <g id="Layer_1" class="animFloat">
                     
                         <image style="overflow:visible;" width="211" height="297" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANMAAAEpCAYAAAAJeRcSAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA
