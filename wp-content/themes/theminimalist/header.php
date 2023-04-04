@@ -75,7 +75,7 @@
 			<div class="logoBox titleBox">
 				<a class="backArrow" onclick="GoBackWithRefresh();return false;"><img src="<?php bloginfo('template_directory'); ?>/images/arrow-title.svg" alt="Back Arrow"></a>
 				<h3 class="fontW800 font30 fontPoppins colorBlack" style="text-transform:capitalize;">
-					<?php
+					<!-- <?php
                             $terms = get_the_category( $post->ID, 'categories' );
                             $links = array();
                             foreach ( $terms as $term ) {
@@ -86,7 +86,7 @@
                              $tax_links = str_replace('-', ' ', $links[0]);
 //                             echo $links[0];
                            echo $tax_links;
-                        ?>
+                        ?> -->
 				</h3>
 			</div>
 

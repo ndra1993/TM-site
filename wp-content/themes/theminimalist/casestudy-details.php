@@ -1,32 +1,23 @@
-<?php
-/**
- * The template for displaying all single posts
- *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
- *
- * @package TM-Website
- */
-
-get_header();
-$homepage_id = get_option( 'page_on_front' );
+<?php get_header(); /*Template Name: case study details*/
+$homepage_id = get_option('page_on_front');
 
 ?>
 <a id="button"><img src="<?php bloginfo('template_directory'); ?>/images/back-to-top-arrow.svg"></a>
 
-<div class="casebgdetails">
-
-    <section>
-        <div class="sectionOne">
+<div class="csdetailBg">
+    <!-- Banner Section -->
+    <section class="bannerSection">
+        <div class="sectionOne" style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(219.06deg, #0D1917 23.88%, #A270F2 71.41%);">
             <div class="mobtext wow slideInLeft">
                 <p class="font20 fontW800 colorWhite">One to 11</p>
-                <h1 class="font60 fontW800 colorWhite">Levelling up the web experience for OneTo11</h1>
-                <h5 class="font20 colorWhite fontW500">One to 11 is India's first and fastest-growing decentralised social networking, online betting and fantasy Play-to-Earn gaming platform on the blockchain - with over 2.2 million users!</h5>
+                <h1 class="font60 fontW800 colorWhite">Disrupting The Online Gaming Industry</h1>
+                <h5 class="font20 colorWhite fontW500">India's first fastest growing Social Networking Fantasy Mobile gaming with over 2.2 million users on the
+                    platform.</h5>
             </div>
             <div class="mobImg">
-            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-            viewBox="0 0 1178 1105" style="enable-background:new 0 0 1178 1105;" xml:space="preserve">
-                <g id="Layer_1" class="animFloat">
-                    
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1178 1105" style="enable-background:new 0 0 1178 1105;" xml:space="preserve">
+                    <g id="Layer_1" class="animFloat">
+
                         <image style="overflow:visible;" width="211" height="297" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANMAAAEpCAYAAAAJeRcSAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA
                 AXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAHvnSURBVHgB7b0JoGVXVSb87XPu+OZXQyqVmQyE
                 EAgkBBkMTYIoghhbf0P7qwzthDYtDkgjaEuJraLI7wgqtooiomBDi4KMJsxTBjLPSVVqrnrzu/M9
@@ -586,10 +577,10 @@ $homepage_id = get_option( 'page_on_front' );
                 K6200korrbTSSiuttNJKK6200korrbTSSiuttNJKK6200korrbTSSiuttNJKK6200korrbTSSiut
                 tNJKK6200korrbTSSiuttNJKK6200korrbTSSiuttNJKK6200korrbTSSiuttNJKK6200r4V+/8B
                 t5BqPoxQbNUAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 967 27)">
-                    </image>
-                </g>
-                <g id="Layer_5">
-                    
+                        </image>
+                    </g>
+                    <g id="Layer_5">
+
                         <image style="overflow:visible;enable-background:new    ;" width="707" height="1067" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAsMAAAQrCAYAAABpS6GXAAAACXBIWXMAAAsSAAALEgHS3X78AAAg
                 AElEQVR4nOy9C9Ql11UeuPepuvf+r/77Jakl2XpgbBmb2NhgwEkYYwOzSBZhhkyAiQMMLCZhCMnY
                 kDWzhkkMY5wJkxUmwTATWASGAQJkwHYwNgZLGD9kbEuW0Pvdre6WWv1SP/73/997q+rsWeecvffZ
@@ -5761,10 +5752,10 @@ $homepage_id = get_option( 'page_on_front' );
                 IBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAg
                 EAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQ
                 nP0AgP8PxJNqH3woExAAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 278 27)">
-                    </image>
-                </g>
-                <g id="Layer_4" class="animFloat">
-                    
+                        </image>
+                    </g>
+                    <g id="Layer_4" class="animFloat">
+
                         <image style="overflow:visible;enable-background:new    ;" width="431" height="431" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAa8AAAGvCAYAAADsa1oBAAAACXBIWXMAAAsSAAALEgHS3X78AAAg
                 AElEQVR4nOy9C9Bs2VUe9q19Tnf/r/uae+epkUbz0AihEZKQAAsJEMiAwULFU8ZQFQpiCIoN5YIk
                 TpVBEkoIsYlVgJwYKAMKSAkgxCNCCEEZAUmcMi+H90MylpCQmMd9/q/uPmfvldp7r7X37r5Xg4L1
@@ -6582,10 +6573,10 @@ $homepage_id = get_option( 'page_on_front' );
                 KBQKhUKhUCgUCoVCoVAoFAqFQqFQKBQKhUKhUCgUCoVCoVAoFAqFQqFQKBQKhUKhUCgUCoVCoVAo
                 FAqFQqFQKBQKhUKhUCgUCoVCoVAoFAqFQqFQKBQKhUKhUCgUCoVCoVAoFAqFQqFQKBQKhUKhUCgU
                 CoVCoVAoFAqFQqFQKBQKhUKhUCgUCoVi2wMA/n/12zBWWFoFQwAAAABJRU5ErkJggg==" transform="matrix(1 0 0 1 12 603)">
-                    </image>
-                </g>
-                <g id="Layer_3" class="animFloat">
-                    
+                        </image>
+                    </g>
+                    <g id="Layer_3" class="animFloat">
+
                         <image style="overflow:visible;enable-background:new    ;" width="345" height="345" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAVkAAAFZCAYAAAAy8lzbAAAACXBIWXMAAAsSAAALEgHS3X78AAAg
                 AElEQVR4nOy9CbhtV1Um+s/V7n6f/ja5NzctIQ0kIYROKI2igpbyBOnxE8RXUvpKn773Wc8qn4Vd
                 ic3TVyBVoiAoIBCwaNSyoZeYAElIQpeQkD65aW5z2t2sZs75vjHmnGutfc65SXg2ldw7/3wne9/d
@@ -7368,10 +7359,10 @@ $homepage_id = get_option( 'page_on_front' );
                 ioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqK
                 ioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiopTCgD+f+UlTuA6TMpJAAAA
                 AElFTkSuQmCC" transform="matrix(1 0 0 1 851 603)">
-                    </image>
-                </g>
-                <g id="Layer_2" class="animFloat">
-                    
+                        </image>
+                    </g>
+                    <g id="Layer_2" class="animFloat">
+
                         <image style="overflow:visible;enable-background:new    ;" width="524" height="278" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgwAAAEWCAYAAAAKI89vAAAACXBIWXMAAAsSAAALEgHS3X78AAAg
                 AElEQVR4nOy9e6xtx3kf9s3ar/O455x7eS/flCiRkmXZtEjZLtDQFhDl0TapDUKOHyqMNg2QNI1l
                 wzBaoEVlyY4tpXGRpi1Q9J826H8pChSxldpJnTixazWyJT8k2pRkiSIpkiJF3gfvOfe89tl7rzXF
@@ -9512,19 +9503,20 @@ $homepage_id = get_option( 'page_on_front' );
                 DSkNv4rBBhtssMEG+zlYH59jD8AIAAS9IeDxQHDSGfD1OOMlKKxnxXpT7PUNNthggw022GDvIrPA
                 Qa+s7x9+zvtBGU8Iegn2ERR120BiHGywwQYbbLDBBhtssMEGG2ywwQb7uRsR/Q/xP0cd+m+tBgAA
                 AABJRU5ErkJggg==" transform="matrix(1 0 0 1 327 220)">
-                    </image>
-                </g>
+                        </image>
+                    </g>
                 </svg>
             </div>
         </div>
     </section>
-    <section>
-        <div class="sectionTwo">
+    <!-- lefttext-rightimg -->
+    <section class="lefttext-rightImg">
+        <div class="sectionTwo" style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(219.06deg, #0D1917 23.88%, #A270F2 71.41%);">
             <div class="mobtextTwo wow slideInLeft" data-wow-duration="1s">
-                <div class="">
-                    <p class="font20 fontW800 colorBlack">OBJECTIVE</p>
-                    <h1 class="font60 fontW800 colorBlack">Building an engaging educational realm for online gamers</h1>
-                    <h5 class="font20 colorBlack fontW500">To <b>communicate</b> the various aspects of the services provided, to <b>educate</b> users in the potential of online gaming, to <b>promote</b> the Play-to-Earn concept and expand the metaverse and GameFi user base in tier-2 and tier-3 cities.</h5>
+                <div class="innerContent">
+                    <p class="font20 fontW800 colorBlack">insight</p>
+                    <h1 class="font60 fontW800 colorBlack">A new experience reflecting the brand’s vision and values</h1>
+                    <h5 class="font20 colorBlack fontW500">They aim to Create the biggest Gaming ecosystem in the world with games suiting to every gamers. They have plans to include NFT based Role playing Games with a New Play To Earn model across the platform.</h5>
                 </div>
             </div>
             <div class="mobimgTwo wow slideInRight" data-wow-duration="1s">
@@ -9532,26 +9524,30 @@ $homepage_id = get_option( 'page_on_front' );
             </div>
         </div>
     </section>
-    <section>
-        <div class="sectionThree">
+    <!-- leftheading-rightText -->
+    <section class="leftheading-rightText">
+        <div class="sectionThree" style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(311.06deg, #0D1917 40.88%, #A270F2 100%);">
             <div class="mobtextThree wow slideInLeft" data-wow-duration="1s">
-                <p class="font20 fontW800 colorWhite">solutions</p>
-                <h1 class="font60 fontW800 colorWhite">Simplifying the user quest with a futuristic design approach</h1>
+                <div class="innerContianer">
+                    <p class="font20 fontW800 colorWhite">solutions</p>
+                    <h1 class="font60 fontW800 colorWhite">Unique experience designed around Gamers life</h1>
+                </div>
             </div>
             <div class="mobsubtextThree wow slideInRight" data-wow-duration="1s">
-                <h5 class="font20 colorWhite fontW500">To create an intuitive, interactive, and impactful ecosystem for gamers, we provided a seamless website experience.</h5>
-                <h5 class="font20 colorWhite fontW500">It focused on educating new users through simple and straightforward infographics, in addition to redesigning a smooth user journey.</h5>
+                <div class="innerContianertwo">
+                    <h5 class="font20 colorWhite fontW500">A responsive website that aims to educate users about the NFT market and crypto-currencies. An infographic design with educative content is easier to understand.</h5>
+                </div>
             </div>
         </div>
     </section>
-    <section>
-        <div class="sectionFour">
+    <!-- fullscreenbigimg -->
+    <section class="fullscreenBigimg">
+        <div class="sectionFour" style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(219.06deg, #0D1917 23.88%, #A270F2 71.41%);">
             <div class="desktopImg">
-                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-     viewBox="0 0 1920 1208" style="enable-background:new 0 0 1920 1208;" xml:space="preserve">
-<g id="Layer_1" class="animFloat">
-    
-        <image style="overflow:visible;" width="367" height="367" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAW8AAAFvCAYAAACFPEoUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1920 1208" style="enable-background:new 0 0 1920 1208;" xml:space="preserve">
+                    <g id="Layer_1" class="animFloat">
+
+                        <image style="overflow:visible;" width="367" height="367" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAW8AAAFvCAYAAACFPEoUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA
 AXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAALteSURBVHgB7P1prGXZlR6Irb33OXd4Q8yRkREZ
 OTCZJKsyq4pFZVWrWV1SZ7UFGXJLPRgKAob8QzYaRaAB2d0G7L/58q9/GA0LEEDChqtsAQYy/MsS
 VIasBqPcUpclV9ZERhSTzExGThEZc7zpTufsvbymvc8NthpNMiNyiNyLvHnvu/fcc869L963v/Ot
@@ -10395,11 +10391,11 @@ broq98/zV3UMUK67URn3ex+uJ6/vtw92D5v5B8fNk3R0HdYCG+CPcX0sz6z0j9lsc45O3k4Av5la
 CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPxW
 3wNdneO7HHrJ3wAAAABJRU5ErkJggg==" transform="matrix(1 0 0 1 1483 4)">
-    </image>
-</g>
-<g id="Layer_5">
-    
-        <image style="overflow:visible;enable-background:new    ;" width="1622" height="1120" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABlYAAARgCAYAAACbj2sXAAAACXBIWXMAAAsSAAALEgHS3X78AAAg
+                        </image>
+                    </g>
+                    <g id="Layer_5">
+
+                        <image style="overflow:visible;enable-background:new    ;" width="1622" height="1120" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABlYAAARgCAYAAACbj2sXAAAACXBIWXMAAAsSAAALEgHS3X78AAAg
 AElEQVR4nOzdCbwsZ13n/29VdZ8+59yb3JubPdzsCWSHGJIIioQAKsgaQDZ3GQUH/c8MIOjoqMgg
 8x/HYRxnHH2N4+7MqKAoiiIou4RVVNCQkI0ASe5+71l6qWVeVV3V/dTTT3X3Ofece3r5vG86fU53
 dXX1cnp5vvX7PQIAAAAAAAAAAMB4PO4nAJgNtUaD13QAAAAAAGZM2GolPKbAZGEQDgBmBMEKAAAA
@@ -26793,11 +26789,11 @@ Bf+IAwAAAAAAfISeS3jDeiYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABH
 MrN/A/d9ECIt+zc9AAAAAElFTkSuQmCC" transform="matrix(1 0 0 1 148 88)">
-    </image>
-</g>
-<g id="Layer_4" class="animFloat">
-    
-        <image style="overflow:visible;enable-background:new    ;" width="396" height="396" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAYwAAAGMCAYAAADJOZVKAAAACXBIWXMAAAsSAAALEgHS3X78AAAg
+                        </image>
+                    </g>
+                    <g id="Layer_4" class="animFloat">
+
+                        <image style="overflow:visible;enable-background:new    ;" width="396" height="396" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAYwAAAGMCAYAAADJOZVKAAAACXBIWXMAAAsSAAALEgHS3X78AAAg
 AElEQVR4nOy9CdS111Uetvd533vvN/yj9FuWZNkQDxhhYXkAAypmMHUDhBXbBSwwBgIhOKYYsgKr
 lNhmig1hahcFAg2UGkgogRZC20VdIDWsZDkJJYCxYnCEbVmTNeufvune9z2765yz9z77vPd+sjxL
 1n7sX3d+p/vd/Zy9nz2Aw+FwOBwOh8PhcDgcDofD4XA4HA6Hw+FwOBwOh8PhcDgcDofD4XA4HA6H
@@ -27818,11 +27814,11 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgvAcA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAADgPIAx9v8BlJ0hMcphwfYAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 1373 586)">
-    </image>
-</g>
-<g id="Layer_3" class="animFloat">
-    
-        <image style="overflow:visible;enable-background:new    ;" width="199" height="199" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMcAAADHCAYAAACtBUfGAAAACXBIWXMAAAsSAAALEgHS3X78AAAg
+                        </image>
+                    </g>
+                    <g id="Layer_3" class="animFloat">
+
+                        <image style="overflow:visible;enable-background:new    ;" width="199" height="199" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMcAAADHCAYAAACtBUfGAAAACXBIWXMAAAsSAAALEgHS3X78AAAg
 AElEQVR4nO29CZhlWVUm+u99zrlDRNyInGsuKKZqoApKlEF5yiAtg4qvUHg2avu01cahUdHmQSMK
 Ag7IZCuvhQ9FaQesUrtsH9jdqAx2K2qJ2lJQQElNWZVzZAw37nTO3ut9e1h773MiEmvIzIjIPCu/
 m3c699wb965/r/WvaaOVVlpppZVWWmmllVZaaaWVVlpppZVWWmmllVZaaaWVVlpppZVWWmmllVZa
@@ -28185,11 +28181,11 @@ y0FMIHYM0OdA+lZAfJxQ/c+lzv4jf/GpV+7Y3Vp3urTg2AXyxOtfOyfyQ/NClY+GEAOQMvuKTEBV
 TqQVZHE7YbKylO+btmBopZVWWmmllVZaaaWVVlpppZVWWmmllVZaaaWVVlpppZVWWmmllVZaaaWV
 VlpppZVWWmmllVZaaaWVVlpppZVWWmmllVZaaaWVVlpppZVWWmmllVZaaaWVVlpppZVWWmmllVZa
 aaWVVlpppZULRAD8/8LDB7K5bO/sAAAAAElFTkSuQmCC" transform="matrix(1 0 0 1 782 64)">
-    </image>
-</g>
-<g id="Layer_2" class="wow slideInLeft" data-wow-duration="1s">
-    
-        <image style="overflow:visible;enable-background:new    ;" width="438" height="603" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAbYAAAJbCAYAAACIO7GxAAAACXBIWXMAAAsSAAALEgHS3X78AAAg
+                        </image>
+                    </g>
+                    <g id="Layer_2" class="wow slideInLeft" data-wow-duration="1s">
+
+                        <image style="overflow:visible;enable-background:new    ;" width="438" height="603" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAbYAAAJbCAYAAACIO7GxAAAACXBIWXMAAAsSAAALEgHS3X78AAAg
 AElEQVR4nOy9B5Qc13km+lXqMN2TZ4DBYAAMAkEQiQATQDABJE1RtgIlriRKslaUpXWQg+T3tOG8
 5/OOZMvW8XqtYNmyHEWtJMtUpGitxAxATCBIgAABIg7CDDA5T+eu9M69Fbqquqq7B5jBdAP3wyl0
 V7p1q6rnfvfPYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBg
@@ -31290,28 +31286,54 @@ UlJaVYlYM8O4seOPXcOb0Hj6OJRUPH7DPYjpHuk+m+6jvv+k2OBpQ00uLTe9Fz+tfJq6X1vi3q18
 fqTKUiuktIOQHm+rKLayla1s5XMQDdcec1tpt6Renp55LE6zCeCit/ssaFPtUtXXkv6PMRfaJrfa
 TQrx01zX2H/ddM6b7t9WtrKVrWzlc5DP2qiPgRZ+2qvZtE96vJuuMVVum+JInyZWlMap0uv7aWJS
 m/7Pm+JeW9nKVrayla1sZStb2cpWtrKVrWxlK19BIaL/D3YC/OfXvxv/AAAAAElFTkSuQmCC" transform="matrix(1 0 0 1 123 307)">
-    </image>
-</g>
-</svg>
-            </div>
-            <!-- <div class="mobileImg">
-                <img src="<?php bloginfo('template_directory'); ?>/images/computer-img-responsive.png">
-                <img src="<?php bloginfo('template_directory'); ?>/images/mbl-responsive.png">
-            </div> -->
-        </div>
-    </section>
-    <section>
-        <div class="sectionFive">
-            <div class="mobtextFour wow slideInLeft" data-wow-duration="1s">
-                <p class="font20 fontW800 colorBlack">impact</p>
-                <h1 class="font60 fontW800 colorBlack">Created a camping spot for new & existing users</h1>
-            </div>
-            <div class="mobsubtextFour wow slideInRight" data-wow-duration="1s">
-                <h5 class="font20 colorBlack fontW500">Delivered a cohesive and well-structured website with relevant information and an intuitive design. The ‘Futuristic’ design attracted new users and kept existing users more engaged on the platform.</h5>
+                        </image>
+                    </g>
+                </svg>
             </div>
         </div>
     </section>
-    <section class="sectionSix">
+    <!-- leftHeading-righttext -->
+    <section class="leftheading-rightText">
+        <div class="sectionThree" style="background:#fff">
+            <div class="mobtextThree wow slideInLeft" data-wow-duration="1s">
+                <div class="innerContianer">
+                    <p class="font20 fontW800 colorBlack">solutions</p>
+                    <h1 class="font60 fontW800 colorBlack">Unique experience designed around Gamers life</h1>
+                </div>
+            </div>
+            <div class="mobsubtextThree wow slideInRight" data-wow-duration="1s">
+                <div class="innerContianertwo">
+                    <h5 class="font20 colorBlack fontW500">A responsive website that aims to educate users about the NFT market and crypto-currencies. An infographic design with educative content is easier to understand.</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- leftimg-righttext -->
+    <!-- <section class="leftimg-rightText">
+        <div class="innerDiv" style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(219.06deg, #0D1917 23.88%, #A270F2 71.41%);">
+            <div class="mobimgTwo wow slideInLeft" data-wow-duration="1s">
+                <img src="<?php bloginfo('template_directory'); ?>/images/phone-two.png">
+            </div>
+            <div class="mobtextTwo wow slideInRight" data-wow-duration="1s">
+                <div class="innerContent">
+                    <h1 class="font60 fontW700 colorWhite">Bilingual Design</h1>
+                    <h5 class="font24 colorWhite fontW400">The screens were designed in English & Arabic, providing a comprehensive and impactful user experience.</h5>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- image full screen with heading -->
+    <!-- <section class="fullimgwithHeading">
+        <div class="headingSec">
+            <h4 class="font36 colorBlack fontW800">Concised vehicle cards</h4>
+            <p class="font20 fontW500">Indication of all vehicle parameters</p>
+        </div>
+        <div class="imgDiv">
+            <img src="<?php bloginfo('template_directory'); ?>/images/phone-two.png">
+        </div>
+    </section> -->
+    <!-- bottom logo section-->
+    <section class="bottomimgLogos">
         <div class="sectionSiximg"><img src="<?php bloginfo('template_directory'); ?>/images/phone-four.png"></div>
         <div class="moreCasestudy">
             <div class="brandLogos">
@@ -31329,4 +31351,3 @@ m/7Pm+JeW9nKVrayla1sZStb2cpWtrKVrWxlK19BIaL/D3YC/OfXvxv/AAAAAElFTkSuQmCC" transf
 
 
 <?php get_footer(); ?>
-

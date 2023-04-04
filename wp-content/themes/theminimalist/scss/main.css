@@ -210,6 +210,9 @@ p {
 .font40 {
   font-size: 40px; }
 
+.font36 {
+  font-size: 36px; }
+
 .font32 {
   font-size: 32px; }
 
@@ -280,6 +283,9 @@ p {
   .font40 {
     font-size: 32px; }
 
+  .font36 {
+    font-size: 34px; }
+
   .font30 {
     font-size: 25px; }
 
@@ -307,6 +313,9 @@ p {
   .font40 {
     font-size: 30px; }
 
+  .font36 {
+    font-size: 32px; }
+
   .font32 {
     font-size: 25px; }
 
@@ -329,7 +338,10 @@ p {
     font-size: 35px; }
 
   .font60 {
-    font-size: 32px; } }
+    font-size: 32px; }
+
+  .font36 {
+    font-size: 30px; } }
 @media screen and (max-width: 1090px) {
   .wrapper {
     padding: 0px 0px 0px 25px; }
@@ -348,6 +360,9 @@ p {
 
   .font60 {
     font-size: 30px; }
+
+  .font36 {
+    font-size: 28px; }
 
   .font32 {
     font-size: 20px; }
@@ -375,6 +390,9 @@ p {
 
   .font40 {
     font-size: 22px; }
+
+  .font36 {
+    font-size: 26px; }
 
   .font24 {
     font-size: 16px; } }
@@ -7694,5 +7712,386 @@ footer .ftbutton {
       #button.show {
         opacity: 1;
         visibility: visible; } }
+
+.almaraiBg {
+  background: linear-gradient(127.67deg, #51BB79 18.41%, #00ACEF 47.2%); }
+
+.csdetailBg {
+  margin-top: 96px;
+  /**************************************************Media Query*********************************************/ }
+  .csdetailBg .animFloat {
+    animation: float 3s ease-in-out infinite; }
+  .csdetailBg .bannerSection .sectionOne {
+    position: relative;
+    padding: 50px 0px 200px 0px; }
+    .csdetailBg .bannerSection .sectionOne .mobtext {
+      position: absolute;
+      top: 10%;
+      padding-left: 112px;
+      width: 32%; }
+      .csdetailBg .bannerSection .sectionOne .mobtext p {
+        text-transform: uppercase; }
+      .csdetailBg .bannerSection .sectionOne .mobtext h1 {
+        line-height: 70px;
+        margin: 35px 0px; }
+      .csdetailBg .bannerSection .sectionOne .mobtext h5 {
+        line-height: 30px;
+        color: rgba(255, 255, 255, 0.5);
+        width: 73%; }
+    .csdetailBg .bannerSection .sectionOne .mobImg {
+      margin: 0 auto 0 24%;
+      width: 60%; }
+  .csdetailBg .lefttext-rightImg .sectionTwo {
+    display: flex; }
+    .csdetailBg .lefttext-rightImg .sectionTwo .mobimgTwo {
+      width: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 50px; }
+      .csdetailBg .lefttext-rightImg .sectionTwo .mobimgTwo img {
+        max-width: 100%;
+        margin: 0 auto; }
+    .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo {
+      padding: 94px 0px 94px 112px;
+      background: #fff;
+      width: 50%; }
+      .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent {
+        width: 50%; }
+        .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent p {
+          text-transform: uppercase; }
+        .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent h1 {
+          line-height: 70px;
+          margin: 5px 0px 35px 0px; }
+        .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent h5 {
+          line-height: 30px; }
+  .csdetailBg .leftheading-rightText .sectionThree {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 130px 0px 130px 112px; }
+    .csdetailBg .leftheading-rightText .sectionThree .mobtextThree {
+      width: 50%; }
+      .csdetailBg .leftheading-rightText .sectionThree .mobtextThree .innerContianer {
+        width: 60%; }
+        .csdetailBg .leftheading-rightText .sectionThree .mobtextThree .innerContianer p {
+          text-transform: uppercase; }
+        .csdetailBg .leftheading-rightText .sectionThree .mobtextThree .innerContianer h1 {
+          line-height: 70px;
+          margin: 5px 0px 35px 0px; }
+    .csdetailBg .leftheading-rightText .sectionThree .mobsubtextThree {
+      width: 45%; }
+      .csdetailBg .leftheading-rightText .sectionThree .mobsubtextThree .innerContianertwo {
+        width: 60%; }
+        .csdetailBg .leftheading-rightText .sectionThree .mobsubtextThree .innerContianertwo h5 {
+          line-height: 30px; }
+  .csdetailBg .fullscreenBigimg .sectionFour {
+    padding: 50px 0px; }
+    .csdetailBg .fullscreenBigimg .sectionFour img {
+      display: flex;
+      align-items: center;
+      margin: auto;
+      width: 80%; }
+    .csdetailBg .fullscreenBigimg .sectionFour .mobileImg {
+      display: none; }
+  .csdetailBg .leftimg-rightText .innerDiv {
+    display: flex;
+    align-items: center;
+    padding: 100px 0px; }
+    .csdetailBg .leftimg-rightText .innerDiv .mobimgTwo {
+      width: 55%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 50px; }
+      .csdetailBg .leftimg-rightText .innerDiv .mobimgTwo img {
+        max-width: 100%;
+        margin: 0 auto; }
+    .csdetailBg .leftimg-rightText .innerDiv .mobtextTwo {
+      width: 45%; }
+      .csdetailBg .leftimg-rightText .innerDiv .mobtextTwo .innerContent {
+        width: 80%; }
+        .csdetailBg .leftimg-rightText .innerDiv .mobtextTwo .innerContent h1 {
+          line-height: 70px;
+          margin: 5px 0px 35px 0px; }
+        .csdetailBg .leftimg-rightText .innerDiv .mobtextTwo .innerContent h5 {
+          line-height: 36px; }
+  .csdetailBg .fullimgwithHeading {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center; }
+    .csdetailBg .fullimgwithHeading .headingSec h4 {
+      margin-bottom: 15px;
+      line-height: 42px; }
+    .csdetailBg .fullimgwithHeading .headingSec p {
+      color: rgba(0, 0, 0, 0.5);
+      line-height: 30px; }
+    .csdetailBg .fullimgwithHeading .imgDiv {
+      margin-top: 78px; }
+  .csdetailBg .bottomimgLogos {
+    position: relative;
+    overflow: hidden; }
+    .csdetailBg .bottomimgLogos .sectionSiximg {
+      line-height: 0px; }
+      .csdetailBg .bottomimgLogos .sectionSiximg img {
+        width: 100%; }
+    .csdetailBg .bottomimgLogos .moreCasestudy {
+      position: absolute;
+      width: 100%;
+      bottom: -100%; }
+      .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos {
+        display: flex;
+        align-items: center; }
+        .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox {
+          padding: 30px;
+          width: 50%;
+          background: #00C859;
+          transition: 0.6s all; }
+          .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox a {
+            display: block;
+            width: 100%;
+            cursor: url(../images/mouse-cursor-pages.png) 30 30, auto; }
+            .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox a img {
+              margin: 0 auto;
+              height: 100px; }
+          .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox:nth-child(1) {
+            text-align: left; }
+          .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox:nth-child(2) {
+            text-align: right; }
+          .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox.active {
+            width: 100%; }
+          .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox.activeTwo {
+            width: 100%; }
+    .csdetailBg .bottomimgLogos .circleAnimShow {
+      position: absolute;
+      bottom: 0%;
+      transition: all 1s ease-in-out; }
+  @media screen and (max-width: 1600px) {
+    .csdetailBg {
+      margin-top: 86px; }
+      .csdetailBg .bannerSection .sectionOne {
+        padding: 40px 0px 150px 0px; }
+        .csdetailBg .bannerSection .sectionOne .mobtext {
+          padding-left: 82px; }
+          .csdetailBg .bannerSection .sectionOne .mobtext h1 {
+            margin: 20px 0px;
+            line-height: 50px; }
+          .csdetailBg .bannerSection .sectionOne .mobtext h5 {
+            line-height: 27px; }
+        .csdetailBg .bannerSection .sectionOne .mobImg {
+          margin: 0 auto 0 22%; }
+      .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo {
+        padding: 74px 0px 74px 82px; }
+        .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent h1 {
+          margin: 5px 0px 20px 0px;
+          line-height: 50px; }
+        .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent h5 {
+          line-height: 27px; }
+      .csdetailBg .lefttext-rightImg .sectionTwo .mobimgTwo {
+        width: 50%;
+        padding: 45px; }
+      .csdetailBg .leftheading-rightText .sectionThree {
+        padding: 100px 0px 100px 82px; }
+        .csdetailBg .leftheading-rightText .sectionThree .mobtextThree .innerContianer h1 {
+          line-height: 50px;
+          margin: 5px 0px 20px 0px; }
+        .csdetailBg .leftheading-rightText .sectionThree .mobsubtextThree .innerContianertwo h5 {
+          line-height: 27px; }
+      .csdetailBg .fullscreenBigimg .sectionFour {
+        padding: 30px 0px; }
+        .csdetailBg .fullscreenBigimg .sectionFour img {
+          width: 68%; }
+      .csdetailBg .leftimg-rightText .innerDiv {
+        padding: 80px 0px; }
+        .csdetailBg .leftimg-rightText .innerDiv .mobimgTwo {
+          width: 55%;
+          padding: 45px; }
+        .csdetailBg .leftimg-rightText .innerDiv .mobtextTwo {
+          width: 45%; }
+          .csdetailBg .leftimg-rightText .innerDiv .mobtextTwo .innerContent {
+            width: 70%; }
+            .csdetailBg .leftimg-rightText .innerDiv .mobtextTwo .innerContent h1 {
+              line-height: 60px;
+              margin: 5px 0px 30px 0px; }
+            .csdetailBg .leftimg-rightText .innerDiv .mobtextTwo .innerContent h5 {
+              line-height: 30px; } }
+  @media screen and (max-width: 1450px) {
+    .csdetailBg {
+      margin-top: 76px; }
+      .csdetailBg .bannerSection .sectionOne {
+        padding: 30px 0px 100px 0px; }
+        .csdetailBg .bannerSection .sectionOne .mobtext {
+          padding-left: 52px; }
+          .csdetailBg .bannerSection .sectionOne .mobtext h1 {
+            margin: 10px 0px;
+            line-height: 45px; }
+          .csdetailBg .bannerSection .sectionOne .mobtext h5 {
+            line-height: 25px; }
+        .csdetailBg .bannerSection .sectionOne .mobImg {
+          margin: 0 auto 0 20%; }
+      .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo {
+        padding: 54px 0px 54px 52px; }
+        .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent {
+          width: 65%; }
+          .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent h1 {
+            margin: 5px 0px 10px 0px;
+            line-height: 45px; }
+          .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent h5 {
+            line-height: 25px; }
+      .csdetailBg .lefttext-rightImg .sectionTwo .mobimgTwo {
+        width: 50%;
+        padding: 35px; }
+      .csdetailBg .leftheading-rightText .sectionThree {
+        padding: 80px 0px 80px 52px; }
+        .csdetailBg .leftheading-rightText .sectionThree .mobtextThree .innerContianer {
+          width: 65%; }
+          .csdetailBg .leftheading-rightText .sectionThree .mobtextThree .innerContianer h1 {
+            line-height: 45px;
+            margin: 5px 0px 10px 0px; }
+        .csdetailBg .leftheading-rightText .sectionThree .mobsubtextThree .innerContianertwo {
+          width: 58%; }
+          .csdetailBg .leftheading-rightText .sectionThree .mobsubtextThree .innerContianertwo h5 {
+            line-height: 25px; }
+      .csdetailBg .fullscreenBigimg .sectionFour {
+        padding: 20px 0px; }
+        .csdetailBg .fullscreenBigimg .sectionFour img {
+          width: 64%; }
+      .csdetailBg .leftimg-rightText .innerDiv {
+        padding: 60px 0px; }
+        .csdetailBg .leftimg-rightText .innerDiv .mobimgTwo {
+          width: 50%;
+          padding: 40px; }
+        .csdetailBg .leftimg-rightText .innerDiv .mobtextTwo {
+          width: 50%; }
+          .csdetailBg .leftimg-rightText .innerDiv .mobtextTwo .innerContent {
+            width: 80%; }
+            .csdetailBg .leftimg-rightText .innerDiv .mobtextTwo .innerContent h1 {
+              line-height: 50px;
+              margin: 5px 0px 25px 0px; }
+            .csdetailBg .leftimg-rightText .innerDiv .mobtextTwo .innerContent h5 {
+              line-height: 28px; } }
+  @media screen and (max-width: 1200px) {
+    .csdetailBg .bannerSection .sectionOne {
+      padding: 35px 0px 60px 0px; }
+      .csdetailBg .bannerSection .sectionOne .mobtext {
+        padding-left: 32px; }
+        .csdetailBg .bannerSection .sectionOne .mobtext h1 {
+          margin: 10px 0px;
+          line-height: 40px; }
+        .csdetailBg .bannerSection .sectionOne .mobtext h5 {
+          line-height: 23px; }
+    .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo {
+      padding: 34px 0px 34px 32px; }
+      .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent {
+        width: 70%; }
+        .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent h1 {
+          margin: 5px 0px 10px 0px;
+          line-height: 40px; }
+        .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent h5 {
+          line-height: 23px; }
+    .csdetailBg .lefttext-rightImg .sectionTwo .mobimgTwo {
+      width: 50%;
+      padding: 30px; }
+    .csdetailBg .leftheading-rightText .sectionThree {
+      padding: 50px 0px 60px 32px; }
+      .csdetailBg .leftheading-rightText .sectionThree .mobtextThree .innerContianer {
+        width: 70%; }
+        .csdetailBg .leftheading-rightText .sectionThree .mobtextThree .innerContianer h1 {
+          line-height: 40px;
+          margin: 5px 0px 10px 0px; }
+      .csdetailBg .leftheading-rightText .sectionThree .mobsubtextThree .innerContianertwo {
+        width: 62%; }
+        .csdetailBg .leftheading-rightText .sectionThree .mobsubtextThree .innerContianertwo h5 {
+          line-height: 23px; }
+    .csdetailBg .fullscreenBigimg .sectionFour {
+      padding: 20px 0px; }
+      .csdetailBg .fullscreenBigimg .sectionFour img {
+        width: 64%; } }
+  @media screen and (max-width: 1024px) {
+    .csdetailBg {
+      margin-top: 72px; }
+      .csdetailBg .bannerSection .sectionOne {
+        padding: 32px 0px 20px 0px; }
+        .csdetailBg .bannerSection .sectionOne .mobtext {
+          position: unset;
+          width: 100%;
+          padding-left: 24px;
+          padding-right: 24px; }
+          .csdetailBg .bannerSection .sectionOne .mobtext h1 {
+            line-height: 36px; }
+          .csdetailBg .bannerSection .sectionOne .mobtext h5 {
+            line-height: 20px;
+            width: 100%; }
+        .csdetailBg .bannerSection .sectionOne .mobImg {
+          width: 100%;
+          margin: 40px auto 0px; }
+      .csdetailBg .lefttext-rightImg .sectionTwo {
+        display: block; }
+        .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo {
+          width: 100%;
+          padding: 32px 24px 32px 24px; }
+          .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent {
+            width: 100%; }
+            .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent h1 {
+              line-height: 36px; }
+            .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent h5 {
+              line-height: 20px; }
+        .csdetailBg .lefttext-rightImg .sectionTwo .mobimgTwo {
+          width: 100%;
+          margin: 0px;
+          line-height: 0;
+          padding: 0; }
+          .csdetailBg .lefttext-rightImg .sectionTwo .mobimgTwo img {
+            width: 100%; }
+      .csdetailBg .leftheading-rightText .sectionThree {
+        display: block;
+        padding: 32px 24px 24px 24px; }
+        .csdetailBg .leftheading-rightText .sectionThree .mobtextThree {
+          width: 100%; }
+          .csdetailBg .leftheading-rightText .sectionThree .mobtextThree .innerContianer {
+            width: 100%; }
+            .csdetailBg .leftheading-rightText .sectionThree .mobtextThree .innerContianer h1 {
+              line-height: 36px; }
+        .csdetailBg .leftheading-rightText .sectionThree .mobsubtextThree {
+          width: 100%; }
+          .csdetailBg .leftheading-rightText .sectionThree .mobsubtextThree .innerContianertwo {
+            width: 100%; }
+            .csdetailBg .leftheading-rightText .sectionThree .mobsubtextThree .innerContianertwo h5 {
+              line-height: 20px; }
+      .csdetailBg .fullscreenBigimg .sectionFour {
+        padding: 10px 0px; }
+        .csdetailBg .fullscreenBigimg .sectionFour img {
+          width: 100%; }
+        .csdetailBg .fullscreenBigimg .sectionFour .desktopImg {
+          display: block; }
+        .csdetailBg .fullscreenBigimg .sectionFour .mobileImg {
+          display: block; }
+      .csdetailBg .bottomimgLogos .moreCasestudy {
+        position: static; }
+        .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox {
+          padding: 12px; }
+          .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox:nth-child(1) {
+            text-align: center; }
+          .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox:nth-child(2) {
+            text-align: center; }
+          .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox a img {
+            height: 50px; }
+      .csdetailBg .leftimg-rightText .innerDiv {
+        padding: 30px 0px;
+        display: block; }
+        .csdetailBg .leftimg-rightText .innerDiv .mobimgTwo {
+          width: 100%;
+          padding: 0px; }
+        .csdetailBg .leftimg-rightText .innerDiv .mobtextTwo {
+          width: 100%;
+          margin-top: 20px;
+          padding: 0px 24px; }
+          .csdetailBg .leftimg-rightText .innerDiv .mobtextTwo .innerContent {
+            width: 100%; }
+            .csdetailBg .leftimg-rightText .innerDiv .mobtextTwo .innerContent h1 {
+              line-height: 36px;
+              margin: 5px 0px 10px 0px; }
+            .csdetailBg .leftimg-rightText .innerDiv .mobtextTwo .innerContent h5 {
+              line-height: 20px; } }
 
 /*# sourceMappingURL=main.css.map */
