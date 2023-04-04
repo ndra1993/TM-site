@@ -159,16 +159,9 @@
     }
 
     .sectionEight{
-        line-height:0;
         background: #FDE3D7;
         padding: 0px 100px 0px 100px;
-        display:flex;
-        justify-content:space-between;
-        flex-wrap:wrap;
-        .sectionEightBox{width:30%;
-            &:nth-child(2){padding-top:120px;}
-            &:nth-child(5){padding-top:210px;}
-        }
+        img{max-width:100%;}
     }
 
     .sectionFive {
@@ -660,13 +653,7 @@
             }
         }
         .sectionEight{
-            display:block;
             padding: 0px 24px 0px 24px;
-            .sectionEightBox{width:100%;margin-bottom: 50px;
-                &:nth-child(2){padding-top:50px;}
-                &:nth-child(5){padding-top:50px;}
-                img{width:100%;}
-            }
         }
 
         .sectionFive {

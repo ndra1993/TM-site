@@ -19,9 +19,8 @@ $homepage_id = get_option( 'page_on_front' );
         <div class="sectionOne">
             <div class="mobtext wow slideInLeft">
                 <p class="font20 fontW800 colorWhite">One to 11</p>
-                <h1 class="font60 fontW800 colorWhite">Disrupting The Online Gaming Industry</h1>
-                <h5 class="font20 colorWhite fontW500">India's first fastest growing Social Networking Fantasy Mobile gaming with over 2.2 million users on the
-                    platform.</h5>
+                <h1 class="font60 fontW800 colorWhite">Levelling up the web experience for OneTo11</h1>
+                <h5 class="font20 colorWhite fontW500">One to 11 is India's first and fastest-growing decentralised social networking, online betting and fantasy Play-to-Earn gaming platform on the blockchain - with over 2.2 million users!</h5>
             </div>
             <div class="mobImg">
                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -9523,9 +9522,9 @@ $homepage_id = get_option( 'page_on_front' );
         <div class="sectionTwo">
             <div class="mobtextTwo wow slideInLeft" data-wow-duration="1s">
                 <div class="">
-                    <p class="font20 fontW800 colorBlack">insight</p>
-                    <h1 class="font60 fontW800 colorBlack">A new experience reflecting the brand’s vision and values</h1>
-                    <h5 class="font20 colorBlack fontW500">They aim to Create the biggest Gaming ecosystem in the world with games suiting to every gamers. They have plans to include NFT based Role playing Games with a New Play To Earn model across the platform.</h5>
+                    <p class="font20 fontW800 colorBlack">OBJECTIVE</p>
+                    <h1 class="font60 fontW800 colorBlack">Building an engaging educational realm for online gamers</h1>
+                    <h5 class="font20 colorBlack fontW500">To <b>communicate</b> the various aspects of the services provided, to <b>educate</b> users in the potential of online gaming, to <b>promote</b> the Play-to-Earn concept and expand the metaverse and GameFi user base in tier-2 and tier-3 cities.</h5>
                 </div>
             </div>
             <div class="mobimgTwo wow slideInRight" data-wow-duration="1s">
@@ -9537,10 +9536,11 @@ $homepage_id = get_option( 'page_on_front' );
         <div class="sectionThree">
             <div class="mobtextThree wow slideInLeft" data-wow-duration="1s">
                 <p class="font20 fontW800 colorWhite">solutions</p>
-                <h1 class="font60 fontW800 colorWhite">Unique experience designed around Gamers life</h1>
+                <h1 class="font60 fontW800 colorWhite">Simplifying the user quest with a futuristic design approach</h1>
             </div>
             <div class="mobsubtextThree wow slideInRight" data-wow-duration="1s">
-                <h5 class="font20 colorWhite fontW500">A responsive website that aims to educate users about the NFT market and crypto-currencies. An infographic design with educative content is easier to understand.</h5>
+                <h5 class="font20 colorWhite fontW500">To create an intuitive, interactive, and impactful ecosystem for gamers, we provided a seamless website experience.</h5>
+                <h5 class="font20 colorWhite fontW500">It focused on educating new users through simple and straightforward infographics, in addition to redesigning a smooth user journey.</h5>
             </div>
         </div>
     </section>
@@ -31304,10 +31304,10 @@ m/7Pm+JeW9nKVrayla1sZStb2cpWtrKVrWxlK19BIaL/D3YC/OfXvxv/AAAAAElFTkSuQmCC" transf
         <div class="sectionFive">
             <div class="mobtextFour wow slideInLeft" data-wow-duration="1s">
                 <p class="font20 fontW800 colorBlack">impact</p>
-                <h1 class="font60 fontW800 colorBlack">An immersive Web3 experience for the market tiers</h1>
+                <h1 class="font60 fontW800 colorBlack">Created a camping spot for new & existing users</h1>
             </div>
             <div class="mobsubtextFour wow slideInRight" data-wow-duration="1s">
-                <h5 class="font20 colorBlack fontW500">The user demographic on this platform are from Tier 2 and Tier 3 cities who do not know much about WEB3 & it’s implications. They wanted an Informative website to educate their users and help them embark on the journey together with Oneto11.</h5>
+                <h5 class="font20 colorBlack fontW500">Delivered a cohesive and well-structured website with relevant information and an intuitive design. The ‘Futuristic’ design attracted new users and kept existing users more engaged on the platform.</h5>
             </div>
         </div>
     </section>

@@ -13,5 +13,14 @@
             <?php endwhile; ?>
                     <?php endif; ?>
         </div>
-        <img src="<?php echo get_sub_field('imagedata'); ?>">
+
+        <?php
+$value = get_sub_field('imagedata');
+if ( $value ) {?>
+         <img src="<?php echo get_sub_field('imagedata'); ?>">
+      <?php } else { ?>
+     <?php echo get_sub_field('svg_link_image');?>   
+     <?php } ?>
+     
+    
     </section>

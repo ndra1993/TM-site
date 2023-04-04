@@ -387,3 +387,32 @@ jQuery(document).ready(function() {
     });
 });
 /*blog details mobile slider end*/
+
+/*our cliets js*/
+jQuery('.clientSlider').slick({ 
+    autoplay: true,
+    autoplaySpeed: 1000,
+    arrows: false,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    cssEase: 'linear',
+  dots: true
+  });
+
+  $(".accordion_tab").click(function(){
+    $(".accordion_tab").each(function(){
+      $(this).parent().removeClass("active");
+      $(this).removeClass("active");
+    });
+    $(this).parent().addClass("active");
+    $(this).addClass("active");
+});
+
+  $(document).ready(function(){
+  $('.brandIconsInfo').mouseover(function() {
+      myvar = this.id;
+      $("div.brandDetailsBox").hide();
+      $('#div'+myvar).show();
+  });
+});
+/*our cliets js end*/

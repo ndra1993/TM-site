@@ -101,24 +101,7 @@
     </section>
 
     <section class="sectionEight">
-        <div class="sectionEightBox">
-            <img src="<?php bloginfo('template_directory'); ?>/images/tagged-5.png">
-        </div>
-        <div class="sectionEightBox">
-            <img src="<?php bloginfo('template_directory'); ?>/images/tagged-6.png">
-        </div>
-        <div class="sectionEightBox">
-            <img src="<?php bloginfo('template_directory'); ?>/images/tagged-7.png">
-        </div>
-        <div class="sectionEightBox">
-            <img src="<?php bloginfo('template_directory'); ?>/images/tagged-8.png">
-        </div>
-        <div class="sectionEightBox">
-            <img src="<?php bloginfo('template_directory'); ?>/images/tagged-9.png">
-        </div>
-        <div class="sectionEightBox">
-            <img src="<?php bloginfo('template_directory'); ?>/images/tagged-10.png">
-        </div>
+        <img src="<?php bloginfo('template_directory'); ?>/images/tagged-img6.png">
     </section>
     <section>
         <div class="sectionFive">

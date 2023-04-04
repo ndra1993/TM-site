@@ -6,7 +6,8 @@
 		<div class="clientSlider">
 			<div class="clientSliderSection">
 				<div class="clientContent">
-					<h2 class="fontW800 fontPoppins"><img class="quoteOne" src="<?php bloginfo('template_directory'); ?>/images/quotes.png" alt="">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. <img class="quoteTwo" src="<?php bloginfo('template_directory'); ?>/images/quotes-1.png" alt=""></h2>
+					<h2 class="fontW800 fontPoppins"><span class="beforeQuote"><img src="<?php bloginfo('template_directory'); ?>/images/quotes.png" alt=""></span> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. <span class="afterQuote"><img src="<?php bloginfo('template_directory'); ?>/images/quotes-1.png" alt=""></span> </h2>
+
 				</div>
 				<div class="authorBox">
 					<div class="authorImg">
@@ -20,7 +21,8 @@
 			</div>
 			<div class="clientSliderSection">
 				<div class="clientContent">
-					<h2 class="fontW800 fontPoppins"><img class="quoteOne" src="<?php bloginfo('template_directory'); ?>/images/quotes.png" alt="">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. <img class="quoteTwo" src="<?php bloginfo('template_directory'); ?>/images/quotes-1.png" alt=""></h2>
+					<h2 class="fontW800 fontPoppins"><span class="beforeQuote"><img src="<?php bloginfo('template_directory'); ?>/images/quotes.png" alt=""></span> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. <span class="afterQuote"><img src="<?php bloginfo('template_directory'); ?>/images/quotes-1.png" alt=""></span> </h2>
+
 				</div>
 				<div class="authorBox">
 					<div class="authorImg">
@@ -34,7 +36,8 @@
 			</div>
 			<div class="clientSliderSection">
 				<div class="clientContent">
-					<h2 class="fontW800 fontPoppins"><img class="quoteOne" src="<?php bloginfo('template_directory'); ?>/images/quotes.png" alt="">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. <img class="quoteTwo" src="<?php bloginfo('template_directory'); ?>/images/quotes-1.png" alt=""></h2>
+					<h2 class="fontW800 fontPoppins"><span class="beforeQuote"><img src="<?php bloginfo('template_directory'); ?>/images/quotes.png" alt=""></span> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. <span class="afterQuote"><img src="<?php bloginfo('template_directory'); ?>/images/quotes-1.png" alt=""></span> </h2>
+
 				</div>
 				<div class="authorBox">
 					<div class="authorImg">
@@ -46,6 +49,34 @@
 					</div>
 				</div>
 			</div>
+			<!-- <div class="clientSliderSection">
+				<div class="clientContent">
+					<h2 class="fontW800 fontPoppins">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </h2>
+				</div>
+				<div class="authorBox">
+					<div class="authorImg">
+						<img src="<?php bloginfo('template_directory'); ?>/images/client-author.png" alt="">
+					</div>
+					<div class="authorDesc">
+						<h4 class="font24 fontW800 fontPoppins colorBlack">James Quincey</h4>
+						<p class="font16 fontW500 fontPoppins colorBlack">Chief Executive Officer of Coca-Cola</p>
+					</div>
+				</div>
+			</div>
+			<div class="clientSliderSection">
+				<div class="clientContent">
+					<h2 class="fontW800 fontPoppins">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </h2>
+				</div>
+				<div class="authorBox">
+					<div class="authorImg">
+						<img src="<?php bloginfo('template_directory'); ?>/images/client-author.png" alt="">
+					</div>
+					<div class="authorDesc">
+						<h4 class="font24 fontW800 fontPoppins colorBlack">James Quincey</h4>
+						<p class="font16 fontW500 fontPoppins colorBlack">Chief Executive Officer of Coca-Cola</p>
+					</div>
+				</div>
+			</div> -->
 		</div>
 	</div>
 	<div class="brandsSection">
@@ -62,7 +93,7 @@
 			</div>
 			<div class="brandDetailsBox" id="divtwo">
 				<div class="brandLogo">
-					<img src="<?php bloginfo('template_directory'); ?>/images/global.svg" alt="">
+					<img src="<?php bloginfo('template_directory'); ?>/images/global.png" alt="">
 				</div>
 				<div class="brandLogoDesc">
 					<p class="font20 fontW500 fontPoppins colorBlack">The user demographic  on this platform are from Tier 2 and Tier 3 cities who do not know much about WEB3 & it’s implications. They wanted an Informative website to educate their users and help them embark on the journey together with Oneto11.
@@ -321,7 +352,7 @@
 			</div>
 			<div class="brandDetailsBox" id="divtwentyeight">
 				<div class="brandLogo">
-					<img src="<?php bloginfo('template_directory'); ?>/images/giveindia.png" alt="">
+					<img src="<?php bloginfo('template_directory'); ?>/images/unknown-logo.png" alt="">
 				</div>
 				<div class="brandLogoDesc">
 					<p class="font20 fontW500 fontPoppins colorBlack">
@@ -331,7 +362,7 @@
 			</div>
 			<div class="brandDetailsBox" id="divtwentynine">
 				<div class="brandLogo">
-					<img src="<?php bloginfo('template_directory'); ?>/images/almarai.png" alt="">
+					<img src="<?php bloginfo('template_directory'); ?>/images/optimum-nutrition.png" alt="">
 				</div>
 				<div class="brandLogoDesc">
 					<p class="font20 fontW500 fontPoppins colorBlack">
@@ -341,8 +372,78 @@
 			</div>
 			<div class="brandDetailsBox" id="divthirty">
 				<div class="brandLogo">
-					<img src="<?php bloginfo('template_directory'); ?>/images/almarai.png" alt="">
+					<img src="<?php bloginfo('template_directory'); ?>/images/icici-prudential-life-insurance.png" alt="">
+				</div>	
+				<div class="brandLogoDesc">
+					<p class="font20 fontW500 fontPoppins colorBlack">
+						The user demographic  on this platform are from Tier 2 and Tier 3 cities who do not know much about WEB3 & it’s implications. They wanted an Informative website to educate their users and help them embark on the journey together with Oneto11.
+					</p>
 				</div>
+			</div>
+			<div class="brandDetailsBox" id="divthirtyone">
+				<div class="brandLogo">
+					<img src="<?php bloginfo('template_directory'); ?>/images/wtw.png" alt="">
+				</div>	
+				<div class="brandLogoDesc">
+					<p class="font20 fontW500 fontPoppins colorBlack">
+						The user demographic  on this platform are from Tier 2 and Tier 3 cities who do not know much about WEB3 & it’s implications. They wanted an Informative website to educate their users and help them embark on the journey together with Oneto11.
+					</p>
+				</div>
+			</div>
+			<div class="brandDetailsBox" id="divthirtytwo">
+				<div class="brandLogo">
+					<img src="<?php bloginfo('template_directory'); ?>/images/canara-robeco.png" alt="">
+				</div>	
+				<div class="brandLogoDesc">
+					<p class="font20 fontW500 fontPoppins colorBlack">
+						The user demographic  on this platform are from Tier 2 and Tier 3 cities who do not know much about WEB3 & it’s implications. They wanted an Informative website to educate their users and help them embark on the journey together with Oneto11.
+					</p>
+				</div>
+			</div>
+			<div class="brandDetailsBox" id="divthirtythree">
+				<div class="brandLogo">
+					<img src="<?php bloginfo('template_directory'); ?>/images/wockhardt-hospital.png" alt="">
+				</div>	
+				<div class="brandLogoDesc">
+					<p class="font20 fontW500 fontPoppins colorBlack">
+						The user demographic  on this platform are from Tier 2 and Tier 3 cities who do not know much about WEB3 & it’s implications. They wanted an Informative website to educate their users and help them embark on the journey together with Oneto11.
+					</p>
+				</div>
+			</div>
+			<div class="brandDetailsBox" id="divthirtyfour">
+				<div class="brandLogo">
+					<img src="<?php bloginfo('template_directory'); ?>/images/dineout.png" alt="">
+				</div>	
+				<div class="brandLogoDesc">
+					<p class="font20 fontW500 fontPoppins colorBlack">
+						The user demographic  on this platform are from Tier 2 and Tier 3 cities who do not know much about WEB3 & it’s implications. They wanted an Informative website to educate their users and help them embark on the journey together with Oneto11.
+					</p>
+				</div>
+			</div>
+			<div class="brandDetailsBox" id="divthirtyfive">
+				<div class="brandLogo">
+					<img src="<?php bloginfo('template_directory'); ?>/images/mi.png" alt="">
+				</div>	
+				<div class="brandLogoDesc">
+					<p class="font20 fontW500 fontPoppins colorBlack">
+						The user demographic  on this platform are from Tier 2 and Tier 3 cities who do not know much about WEB3 & it’s implications. They wanted an Informative website to educate their users and help them embark on the journey together with Oneto11.
+					</p>
+				</div>
+			</div>
+			<div class="brandDetailsBox" id="divthirtysix">
+				<div class="brandLogo">
+					<img src="<?php bloginfo('template_directory'); ?>/images/hyatt.png" alt="">
+				</div>	
+				<div class="brandLogoDesc">
+					<p class="font20 fontW500 fontPoppins colorBlack">
+						The user demographic  on this platform are from Tier 2 and Tier 3 cities who do not know much about WEB3 & it’s implications. They wanted an Informative website to educate their users and help them embark on the journey together with Oneto11.
+					</p>
+				</div>
+			</div>
+			<div class="brandDetailsBox" id="divthirtyseven">
+				<div class="brandLogo">
+					<img src="<?php bloginfo('template_directory'); ?>/images/moengage.png" alt="">
+				</div>	
 				<div class="brandLogoDesc">
 					<p class="font20 fontW500 fontPoppins colorBlack">
 						The user demographic  on this platform are from Tier 2 and Tier 3 cities who do not know much about WEB3 & it’s implications. They wanted an Informative website to educate their users and help them embark on the journey together with Oneto11.
@@ -460,15 +561,43 @@
 				<p class="font20 font400 fontPoppins colorBlack">Website / Branding / Social media</p>
 			</div>
 			<div class="brandIconsInfo" id="twentyeight">
-				<h4 class="font30 fontW800 fontPoppins">Give India</h4>
-				<p class="font20 font400 fontPoppins colorBlack">Website / Branding / Social media</p>
-			</div>
-			<div class="brandIconsInfo" id="seventeen">
-				<h4 class="font30 fontW800 fontPoppins">Orra</h4>
+				<h4 class="font30 fontW800 fontPoppins">IIT Bombay</h4>
 				<p class="font20 font400 fontPoppins colorBlack">Website / Branding / Social media</p>
 			</div>
 			<div class="brandIconsInfo" id="twentynine">
-				<h4 class="font30 fontW800 fontPoppins">Orra</h4>
+				<h4 class="font30 fontW800 fontPoppins">Optimum Nutrition</h4>
+				<p class="font20 font400 fontPoppins colorBlack">Website / Branding / Social media</p>
+			</div>
+			<div class="brandIconsInfo" id="thirty">
+				<h4 class="font30 fontW800 fontPoppins">ICICI Prudential Life Insurance</h4>
+				<p class="font20 font400 fontPoppins colorBlack">Website / Branding / Social media</p>
+			</div>
+			<div class="brandIconsInfo" id="thirtyone">
+				<h4 class="font30 fontW800 fontPoppins">WTW</h4>
+				<p class="font20 font400 fontPoppins colorBlack">Website / Branding / Social media</p>
+			</div>
+			<div class="brandIconsInfo" id="thirtytwo">
+				<h4 class="font30 fontW800 fontPoppins">Canara Robeco</h4>
+				<p class="font20 font400 fontPoppins colorBlack">Website / Branding / Social media</p>
+			</div>
+			<div class="brandIconsInfo" id="thirtythree">
+				<h4 class="font30 fontW800 fontPoppins">Wockhardt Hospital</h4>
+				<p class="font20 font400 fontPoppins colorBlack">Website / Branding / Social media</p>
+			</div>
+			<div class="brandIconsInfo" id="thirtyfour">
+				<h4 class="font30 fontW800 fontPoppins">Dineout</h4>
+				<p class="font20 font400 fontPoppins colorBlack">Website / Branding / Social media</p>
+			</div>
+			<div class="brandIconsInfo" id="thirtyfive">
+				<h4 class="font30 fontW800 fontPoppins">Mi</h4>
+				<p class="font20 font400 fontPoppins colorBlack">Website / Branding / Social media</p>
+			</div>
+			<div class="brandIconsInfo" id="thirtysix">
+				<h4 class="font30 fontW800 fontPoppins">Hyatt</h4>
+				<p class="font20 font400 fontPoppins colorBlack">Website / Branding / Social media</p>
+			</div>
+			<div class="brandIconsInfo" id="thirtyseven">
+				<h4 class="font30 fontW800 fontPoppins">Moengage</h4>
 				<p class="font20 font400 fontPoppins colorBlack">Website / Branding / Social media</p>
 			</div>
 		</div>
@@ -491,14 +620,14 @@
 		</div>
 		<div class="accordion">
 		    <div class="accordion_tab">
-		        <h4 class="fontW800 fontPoppins colorBlack">Coca Cola</h4>
+		        <h4 class="fontW800 fontPoppins colorBlack">Global Indian International School</h4>
 		        <div class="accordion_arrow">
 		        	<img src="<?php bloginfo('template_directory');?>/images/clients_drop.png" alt="">
 		      	</div>
 		      	<p class="hideText fontW500 fontPoppins colorBlack">The user demographic  on this platform are from</p>
 		    </div>
 		    <div class="accordion_content">
-		      	<img src="<?php bloginfo('template_directory'); ?>/images/Coca-Cola_logo.png" alt="">
+		      	<img src="<?php bloginfo('template_directory'); ?>/images/global.png" alt="">
 		      <div class="accordion_item">
 		        <p class="fontW500 fontPoppins colorBlack">The user demographic  on this platform are from Tier 2 and Tier 3 cities who do not know much about WEB3 & it’s implications. They wanted an Informative website to educate their users and help them embark on the journey together with Oneto11.</p>
 		      </div>
@@ -506,14 +635,524 @@
 		</div>
   		<div class="accordion">
 		    <div class="accordion_tab">
-		        <h4 class="fontW800 fontPoppins colorBlack">Coca Cola</h4>
+		        <h4 class="fontW800 fontPoppins colorBlack">Tata Capital</h4>
 		        <div class="accordion_arrow">
 		        	<img src="<?php bloginfo('template_directory'); ?>/images/clients_drop.png" alt="">
 		      	</div>
 		      	<p class="hideText fontW500 fontPoppins colorBlack">The user demographic  on this platform are from</p>
 		    </div>
 		    <div class="accordion_content">
-		      	<img src="<?php bloginfo('template_directory'); ?>/images/Coca-Cola_logo.png" alt="">
+		      	<img src="<?php bloginfo('template_directory'); ?>/images/tata-capital.png" alt="">
+		      <div class="accordion_item">
+		        <p class="fontW500 fontPoppins colorBlack">The user demographic  on this platform are from Tier 2 and Tier 3 cities who do not know much about WEB3 & it’s implications. They wanted an Informative website to educate their users and help them embark on the journey together with Oneto11.</p>
+		      </div>
+		    </div>
+		</div>
+		<div class="accordion">
+		    <div class="accordion_tab">
+		        <h4 class="fontW800 fontPoppins colorBlack">Hindustan Times</h4>
+		        <div class="accordion_arrow">
+		        	<img src="<?php bloginfo('template_directory'); ?>/images/clients_drop.png" alt="">
+		      	</div>
+		      	<p class="hideText fontW500 fontPoppins colorBlack">The user demographic  on this platform are from</p>
+		    </div>
+		    <div class="accordion_content">
+		      	<img src="<?php bloginfo('template_directory'); ?>/images/hindustan-times.png" alt="">
+		      <div class="accordion_item">
+		        <p class="fontW500 fontPoppins colorBlack">The user demographic  on this platform are from Tier 2 and Tier 3 cities who do not know much about WEB3 & it’s implications. They wanted an Informative website to educate their users and help them embark on the journey together with Oneto11.</p>
+		      </div>
+		    </div>
+		</div>
+		<div class="accordion">
+		    <div class="accordion_tab">
+		        <h4 class="fontW800 fontPoppins colorBlack">Five Piasa</h4>
+		        <div class="accordion_arrow">
+		        	<img src="<?php bloginfo('template_directory'); ?>/images/clients_drop.png" alt="">
+		      	</div>
+		      	<p class="hideText fontW500 fontPoppins colorBlack">The user demographic  on this platform are from</p>
+		    </div>
+		    <div class="accordion_content">
+		      	<img src="<?php bloginfo('template_directory'); ?>/images/5-paisa.png" alt="">
+		      <div class="accordion_item">
+		        <p class="fontW500 fontPoppins colorBlack">The user demographic  on this platform are from Tier 2 and Tier 3 cities who do not know much about WEB3 & it’s implications. They wanted an Informative website to educate their users and help them embark on the journey together with Oneto11.</p>
+		      </div>
+		    </div>
+		</div>
+		<div class="accordion">
+		    <div class="accordion_tab">
+		        <h4 class="fontW800 fontPoppins colorBlack">Tata Aig</h4>
+		        <div class="accordion_arrow">
+		        	<img src="<?php bloginfo('template_directory'); ?>/images/clients_drop.png" alt="">
+		      	</div>
+		      	<p class="hideText fontW500 fontPoppins colorBlack">The user demographic  on this platform are from</p>
+		    </div>
+		    <div class="accordion_content">
+		      	<img src="<?php bloginfo('template_directory'); ?>/images/tata-aig.png" alt="">
+		      <div class="accordion_item">
+		        <p class="fontW500 fontPoppins colorBlack">The user demographic  on this platform are from Tier 2 and Tier 3 cities who do not know much about WEB3 & it’s implications. They wanted an Informative website to educate their users and help them embark on the journey together with Oneto11.</p>
+		      </div>
+		    </div>
+		</div>
+		<div class="accordion">
+		    <div class="accordion_tab">
+		        <h4 class="fontW800 fontPoppins colorBlack">Matrix</h4>
+		        <div class="accordion_arrow">
+		        	<img src="<?php bloginfo('template_directory'); ?>/images/clients_drop.png" alt="">
+		      	</div>
+		      	<p class="hideText fontW500 fontPoppins colorBlack">The user demographic  on this platform are from</p>
+		    </div>
+		    <div class="accordion_content">
+		      	<img src="<?php bloginfo('template_directory'); ?>/images/matrix.png" alt="">
+		      <div class="accordion_item">
+		        <p class="fontW500 fontPoppins colorBlack">The user demographic  on this platform are from Tier 2 and Tier 3 cities who do not know much about WEB3 & it’s implications. They wanted an Informative website to educate their users and help them embark on the journey together with Oneto11.</p>
+		      </div>
+		    </div>
+		</div>
+		<div class="accordion">
+		    <div class="accordion_tab">
+		        <h4 class="fontW800 fontPoppins colorBlack">Huhtamaki</h4>
+		        <div class="accordion_arrow">
+		        	<img src="<?php bloginfo('template_directory'); ?>/images/clients_drop.png" alt="">
+		      	</div>
+		      	<p class="hideText fontW500 fontPoppins colorBlack">The user demographic  on this platform are from</p>
+		    </div>
+		    <div class="accordion_content">
+		      	<img src="<?php bloginfo('template_directory'); ?>/images/huhtamaki.png" alt="">
+		      <div class="accordion_item">
+		        <p class="fontW500 fontPoppins colorBlack">The user demographic  on this platform are from Tier 2 and Tier 3 cities who do not know much about WEB3 & it’s implications. They wanted an Informative website to educate their users and help them embark on the journey together with Oneto11.</p>
+		      </div>
+		    </div>
+		</div>
+		<div class="accordion">
+		    <div class="accordion_tab">
+		        <h4 class="fontW800 fontPoppins colorBlack">Almarai</h4>
+		        <div class="accordion_arrow">
+		        	<img src="<?php bloginfo('template_directory'); ?>/images/clients_drop.png" alt="">
+		      	</div>
+		      	<p class="hideText fontW500 fontPoppins colorBlack">The user demographic  on this platform are from</p>
+		    </div>
+		    <div class="accordion_content">
+		      	<img src="<?php bloginfo('template_directory'); ?>/images/almarai.png" alt="">
+		      <div class="accordion_item">
+		        <p class="fontW500 fontPoppins colorBlack">The user demographic  on this platform are from Tier 2 and Tier 3 cities who do not know much about WEB3 & it’s implications. They wanted an Informative website to educate their users and help them embark on the journey together with Oneto11.</p>
+		      </div>
+		    </div>
+		</div>
+		<div class="accordion">
+		    <div class="accordion_tab">
+		        <h4 class="fontW800 fontPoppins colorBlack">Fractal</h4>
+		        <div class="accordion_arrow">
+		        	<img src="<?php bloginfo('template_directory'); ?>/images/clients_drop.png" alt="">
+		      	</div>
+		      	<p class="hideText fontW500 fontPoppins colorBlack">The user demographic  on this platform are from</p>
+		    </div>
+		    <div class="accordion_content">
+		      	<img src="<?php bloginfo('template_directory'); ?>/images/fractal.png" alt="">
+		      <div class="accordion_item">
+		        <p class="fontW500 fontPoppins colorBlack">The user demographic  on this platform are from Tier 2 and Tier 3 cities who do not know much about WEB3 & it’s implications. They wanted an Informative website to educate their users and help them embark on the journey together with Oneto11.</p>
+		      </div>
+		    </div>
+		</div>
+		<div class="accordion">
+		    <div class="accordion_tab">
+		        <h4 class="fontW800 fontPoppins colorBlack">Mercer</h4>
+		        <div class="accordion_arrow">
+		        	<img src="<?php bloginfo('template_directory'); ?>/images/clients_drop.png" alt="">
+		      	</div>
+		      	<p class="hideText fontW500 fontPoppins colorBlack">The user demographic  on this platform are from</p>
+		    </div>
+		    <div class="accordion_content">
+		      	<img src="<?php bloginfo('template_directory'); ?>/images/mercer.png" alt="">
+		      <div class="accordion_item">
+		        <p class="fontW500 fontPoppins colorBlack">The user demographic  on this platform are from Tier 2 and Tier 3 cities who do not know much about WEB3 & it’s implications. They wanted an Informative website to educate their users and help them embark on the journey together with Oneto11.</p>
+		      </div>
+		    </div>
+		</div>
+		<div class="accordion">
+		    <div class="accordion_tab">
+		        <h4 class="fontW800 fontPoppins colorBlack">Abbott</h4>
+		        <div class="accordion_arrow">
+		        	<img src="<?php bloginfo('template_directory'); ?>/images/clients_drop.png" alt="">
+		      	</div>
+		      	<p class="hideText fontW500 fontPoppins colorBlack">The user demographic  on this platform are from</p>
+		    </div>
+		    <div class="accordion_content">
+		      	<img src="<?php bloginfo('template_directory'); ?>/images/abbott.png" alt="">
+		      <div class="accordion_item">
+		        <p class="fontW500 fontPoppins colorBlack">The user demographic  on this platform are from Tier 2 and Tier 3 cities who do not know much about WEB3 & it’s implications. They wanted an Informative website to educate their users and help them embark on the journey together with Oneto11.</p>
+		      </div>
+		    </div>
+		</div>
+		<div class="accordion">
+		    <div class="accordion_tab">
+		        <h4 class="fontW800 fontPoppins colorBlack">Saint Gobain</h4>
+		        <div class="accordion_arrow">
+		        	<img src="<?php bloginfo('template_directory'); ?>/images/clients_drop.png" alt="">
+		      	</div>
+		      	<p class="hideText fontW500 fontPoppins colorBlack">The user demographic  on this platform are from</p>
+		    </div>
+		    <div class="accordion_content">
+		      	<img src="<?php bloginfo('template_directory'); ?>/images/saint-gobain.png" alt="">
+		      <div class="accordion_item">
+		        <p class="fontW500 fontPoppins colorBlack">The user demographic  on this platform are from Tier 2 and Tier 3 cities who do not know much about WEB3 & it’s implications. They wanted an Informative website to educate their users and help them embark on the journey together with Oneto11.</p>
+		      </div>
+		    </div>
+		</div>
+		<div class="accordion">
+		    <div class="accordion_tab">
+		        <h4 class="fontW800 fontPoppins colorBlack">No Broker</h4>
+		        <div class="accordion_arrow">
+		        	<img src="<?php bloginfo('template_directory'); ?>/images/clients_drop.png" alt="">
+		      	</div>
+		      	<p class="hideText fontW500 fontPoppins colorBlack">The user demographic  on this platform are from</p>
+		    </div>
+		    <div class="accordion_content">
+		      	<img src="<?php bloginfo('template_directory'); ?>/images/no-broker.png" alt="">
+		      <div class="accordion_item">
+		        <p class="fontW500 fontPoppins colorBlack">The user demographic  on this platform are from Tier 2 and Tier 3 cities who do not know much about WEB3 & it’s implications. They wanted an Informative website to educate their users and help them embark on the journey together with Oneto11.</p>
+		      </div>
+		    </div>
+		</div>
+		<div class="accordion">
+		    <div class="accordion_tab">
+		        <h4 class="fontW800 fontPoppins colorBlack">Religare</h4>
+		        <div class="accordion_arrow">
+		        	<img src="<?php bloginfo('template_directory'); ?>/images/clients_drop.png" alt="">
+		      	</div>
+		      	<p class="hideText fontW500 fontPoppins colorBlack">The user demographic  on this platform are from</p>
+		    </div>
+		    <div class="accordion_content">
+		      	<img src="<?php bloginfo('template_directory'); ?>/images/religare.png" alt="">
+		      <div class="accordion_item">
+		        <p class="fontW500 fontPoppins colorBlack">The user demographic  on this platform are from Tier 2 and Tier 3 cities who do not know much about WEB3 & it’s implications. They wanted an Informative website to educate their users and help them embark on the journey together with Oneto11.</p>
+		      </div>
+		    </div>
+		</div>
+		<div class="accordion">
+		    <div class="accordion_tab">
+		        <h4 class="fontW800 fontPoppins colorBlack">Mahindra Lifespaces</h4>
+		        <div class="accordion_arrow">
+		        	<img src="<?php bloginfo('template_directory'); ?>/images/clients_drop.png" alt="">
+		      	</div>
+		      	<p class="hideText fontW500 fontPoppins colorBlack">The user demographic  on this platform are from</p>
+		    </div>
+		    <div class="accordion_content">
+		      	<img src="<?php bloginfo('template_directory'); ?>/images/mahindra-lifespaces.png" alt="">
+		      <div class="accordion_item">
+		        <p class="fontW500 fontPoppins colorBlack">The user demographic  on this platform are from Tier 2 and Tier 3 cities who do not know much about WEB3 & it’s implications. They wanted an Informative website to educate their users and help them embark on the journey together with Oneto11.</p>
+		      </div>
+		    </div>
+		</div>
+		<div class="accordion">
+		    <div class="accordion_tab">
+		        <h4 class="fontW800 fontPoppins colorBlack">Orra</h4>
+		        <div class="accordion_arrow">
+		        	<img src="<?php bloginfo('template_directory'); ?>/images/clients_drop.png" alt="">
+		      	</div>
+		      	<p class="hideText fontW500 fontPoppins colorBlack">The user demographic  on this platform are from</p>
+		    </div>
+		    <div class="accordion_content">
+		      	<img src="<?php bloginfo('template_directory'); ?>/images/orra.png" alt="">
+		      <div class="accordion_item">
+		        <p class="fontW500 fontPoppins colorBlack">The user demographic  on this platform are from Tier 2 and Tier 3 cities who do not know much about WEB3 & it’s implications. They wanted an Informative website to educate their users and help them embark on the journey together with Oneto11.</p>
+		      </div>
+		    </div>
+		</div>
+		<div class="accordion">
+		    <div class="accordion_tab">
+		        <h4 class="fontW800 fontPoppins colorBlack">Practo</h4>
+		        <div class="accordion_arrow">
+		        	<img src="<?php bloginfo('template_directory'); ?>/images/clients_drop.png" alt="">
+		      	</div>
+		      	<p class="hideText fontW500 fontPoppins colorBlack">The user demographic  on this platform are from</p>
+		    </div>
+		    <div class="accordion_content">
+		      	<img src="<?php bloginfo('template_directory'); ?>/images/practo.png" alt="">
+		      <div class="accordion_item">
+		        <p class="fontW500 fontPoppins colorBlack">The user demographic  on this platform are from Tier 2 and Tier 3 cities who do not know much about WEB3 & it’s implications. They wanted an Informative website to educate their users and help them embark on the journey together with Oneto11.</p>
+		      </div>
+		    </div>
+		</div>
+		<div class="accordion">
+		    <div class="accordion_tab">
+		        <h4 class="fontW800 fontPoppins colorBlack">Mahindra Logistics</h4>
+		        <div class="accordion_arrow">
+		        	<img src="<?php bloginfo('template_directory'); ?>/images/clients_drop.png" alt="">
+		      	</div>
+		      	<p class="hideText fontW500 fontPoppins colorBlack">The user demographic  on this platform are from</p>
+		    </div>
+		    <div class="accordion_content">
+		      	<img src="<?php bloginfo('template_directory'); ?>/images/mahindra-logistics.png" alt="">
+		      <div class="accordion_item">
+		        <p class="fontW500 fontPoppins colorBlack">The user demographic  on this platform are from Tier 2 and Tier 3 cities who do not know much about WEB3 & it’s implications. They wanted an Informative website to educate their users and help them embark on the journey together with Oneto11.</p>
+		      </div>
+		    </div>
+		</div>
+		<div class="accordion">
+		    <div class="accordion_tab">
+		        <h4 class="fontW800 fontPoppins colorBlack">PharmEasy</h4>
+		        <div class="accordion_arrow">
+		        	<img src="<?php bloginfo('template_directory'); ?>/images/clients_drop.png" alt="">
+		      	</div>
+		      	<p class="hideText fontW500 fontPoppins colorBlack">The user demographic  on this platform are from</p>
+		    </div>
+		    <div class="accordion_content">
+		      	<img src="<?php bloginfo('template_directory'); ?>/images/pharmeasy.png" alt="">
+		      <div class="accordion_item">
+		        <p class="fontW500 fontPoppins colorBlack">The user demographic  on this platform are from Tier 2 and Tier 3 cities who do not know much about WEB3 & it’s implications. They wanted an Informative website to educate their users and help them embark on the journey together with Oneto11.</p>
+		      </div>
+		    </div>
+		</div>
+		<div class="accordion">
+		    <div class="accordion_tab">
+		        <h4 class="fontW800 fontPoppins colorBlack">The Indian Express</h4>
+		        <div class="accordion_arrow">
+		        	<img src="<?php bloginfo('template_directory'); ?>/images/clients_drop.png" alt="">
+		      	</div>
+		      	<p class="hideText fontW500 fontPoppins colorBlack">The user demographic  on this platform are from</p>
+		    </div>
+		    <div class="accordion_content">
+		      	<img src="<?php bloginfo('template_directory'); ?>/images/the-indian-express.png" alt="">
+		      <div class="accordion_item">
+		        <p class="fontW500 fontPoppins colorBlack">The user demographic  on this platform are from Tier 2 and Tier 3 cities who do not know much about WEB3 & it’s implications. They wanted an Informative website to educate their users and help them embark on the journey together with Oneto11.</p>
+		      </div>
+		    </div>
+		</div>
+		<div class="accordion">
+		    <div class="accordion_tab">
+		        <h4 class="fontW800 fontPoppins colorBlack">Canva</h4>
+		        <div class="accordion_arrow">
+		        	<img src="<?php bloginfo('template_directory'); ?>/images/clients_drop.png" alt="">
+		      	</div>
+		      	<p class="hideText fontW500 fontPoppins colorBlack">The user demographic  on this platform are from</p>
+		    </div>
+		    <div class="accordion_content">
+		      	<img src="<?php bloginfo('template_directory'); ?>/images/canva.png" alt="">
+		      <div class="accordion_item">
+		        <p class="fontW500 fontPoppins colorBlack">The user demographic  on this platform are from Tier 2 and Tier 3 cities who do not know much about WEB3 & it’s implications. They wanted an Informative website to educate their users and help them embark on the journey together with Oneto11.</p>
+		      </div>
+		    </div>
+		</div>
+		<div class="accordion">
+		    <div class="accordion_tab">
+		        <h4 class="fontW800 fontPoppins colorBlack">Minute Maid</h4>
+		        <div class="accordion_arrow">
+		        	<img src="<?php bloginfo('template_directory'); ?>/images/clients_drop.png" alt="">
+		      	</div>
+		      	<p class="hideText fontW500 fontPoppins colorBlack">The user demographic  on this platform are from</p>
+		    </div>
+		    <div class="accordion_content">
+		      	<img src="<?php bloginfo('template_directory'); ?>/images/minute-maid.png" alt="">
+		      <div class="accordion_item">
+		        <p class="fontW500 fontPoppins colorBlack">The user demographic  on this platform are from Tier 2 and Tier 3 cities who do not know much about WEB3 & it’s implications. They wanted an Informative website to educate their users and help them embark on the journey together with Oneto11.</p>
+		      </div>
+		    </div>
+		</div>
+		<div class="accordion">
+		    <div class="accordion_tab">
+		        <h4 class="fontW800 fontPoppins colorBlack">Box8</h4>
+		        <div class="accordion_arrow">
+		        	<img src="<?php bloginfo('template_directory'); ?>/images/clients_drop.png" alt="">
+		      	</div>
+		      	<p class="hideText fontW500 fontPoppins colorBlack">The user demographic  on this platform are from</p>
+		    </div>
+		    <div class="accordion_content">
+		      	<img src="<?php bloginfo('template_directory'); ?>/images/box8.png" alt="">
+		      <div class="accordion_item">
+		        <p class="fontW500 fontPoppins colorBlack">The user demographic  on this platform are from Tier 2 and Tier 3 cities who do not know much about WEB3 & it’s implications. They wanted an Informative website to educate their users and help them embark on the journey together with Oneto11.</p>
+		      </div>
+		    </div>
+		</div>
+		<div class="accordion">
+		    <div class="accordion_tab">
+		        <h4 class="fontW800 fontPoppins colorBlack">The Hindu</h4>
+		        <div class="accordion_arrow">
+		        	<img src="<?php bloginfo('template_directory'); ?>/images/clients_drop.png" alt="">
+		      	</div>
+		      	<p class="hideText fontW500 fontPoppins colorBlack">The user demographic  on this platform are from</p>
+		    </div>
+		    <div class="accordion_content">
+		      	<img src="<?php bloginfo('template_directory'); ?>/images/the-hindu.png" alt="">
+		      <div class="accordion_item">
+		        <p class="fontW500 fontPoppins colorBlack">The user demographic  on this platform are from Tier 2 and Tier 3 cities who do not know much about WEB3 & it’s implications. They wanted an Informative website to educate their users and help them embark on the journey together with Oneto11.</p>
+		      </div>
+		    </div>
+		</div>
+		<div class="accordion">
+		    <div class="accordion_tab">
+		        <h4 class="fontW800 fontPoppins colorBlack">Optimum Nutrition</h4>
+		        <div class="accordion_arrow">
+		        	<img src="<?php bloginfo('template_directory'); ?>/images/clients_drop.png" alt="">
+		      	</div>
+		      	<p class="hideText fontW500 fontPoppins colorBlack">The user demographic  on this platform are from</p>
+		    </div>
+		    <div class="accordion_content">
+		      	<img src="<?php bloginfo('template_directory'); ?>/images/optimum-nutrition.png" alt="">
+		      <div class="accordion_item">
+		        <p class="fontW500 fontPoppins colorBlack">The user demographic  on this platform are from Tier 2 and Tier 3 cities who do not know much about WEB3 & it’s implications. They wanted an Informative website to educate their users and help them embark on the journey together with Oneto11.</p>
+		      </div>
+		    </div>
+		</div>
+		<div class="accordion">
+		    <div class="accordion_tab">
+		        <h4 class="fontW800 fontPoppins colorBlack">Blue Star</h4>
+		        <div class="accordion_arrow">
+		        	<img src="<?php bloginfo('template_directory'); ?>/images/clients_drop.png" alt="">
+		      	</div>
+		      	<p class="hideText fontW500 fontPoppins colorBlack">The user demographic  on this platform are from</p>
+		    </div>
+		    <div class="accordion_content">
+		      	<img src="<?php bloginfo('template_directory'); ?>/images/blue-star.png" alt="">
+		      <div class="accordion_item">
+		        <p class="fontW500 fontPoppins colorBlack">The user demographic  on this platform are from Tier 2 and Tier 3 cities who do not know much about WEB3 & it’s implications. They wanted an Informative website to educate their users and help them embark on the journey together with Oneto11.</p>
+		      </div>
+		    </div>
+		</div>
+		<div class="accordion">
+		    <div class="accordion_tab">
+		        <h4 class="fontW800 fontPoppins colorBlack">IIT Bombay</h4>
+		        <div class="accordion_arrow">
+		        	<img src="<?php bloginfo('template_directory'); ?>/images/clients_drop.png" alt="">
+		      	</div>
+		      	<p class="hideText fontW500 fontPoppins colorBlack">The user demographic  on this platform are from</p>
+		    </div>
+		    <div class="accordion_content">
+		      	<img src="<?php bloginfo('template_directory'); ?>/images/unknown-logo.png" alt="">
+		      <div class="accordion_item">
+		        <p class="fontW500 fontPoppins colorBlack">The user demographic  on this platform are from Tier 2 and Tier 3 cities who do not know much about WEB3 & it’s implications. They wanted an Informative website to educate their users and help them embark on the journey together with Oneto11.</p>
+		      </div>
+		    </div>
+		</div>
+		<div class="accordion">
+		    <div class="accordion_tab">
+		        <h4 class="fontW800 fontPoppins colorBlack">Optimum Nutrition</h4>
+		        <div class="accordion_arrow">
+		        	<img src="<?php bloginfo('template_directory'); ?>/images/clients_drop.png" alt="">
+		      	</div>
+		      	<p class="hideText fontW500 fontPoppins colorBlack">The user demographic  on this platform are from</p>
+		    </div>
+		    <div class="accordion_content">
+		      	<img src="<?php bloginfo('template_directory'); ?>/images/optimum-nutrition.png" alt="">
+		      <div class="accordion_item">
+		        <p class="fontW500 fontPoppins colorBlack">The user demographic  on this platform are from Tier 2 and Tier 3 cities who do not know much about WEB3 & it’s implications. They wanted an Informative website to educate their users and help them embark on the journey together with Oneto11.</p>
+		      </div>
+		    </div>
+		</div>
+		<div class="accordion">
+		    <div class="accordion_tab">
+		        <h4 class="fontW800 fontPoppins colorBlack">ICICI Prudential Life Insurance</h4>
+		        <div class="accordion_arrow">
+		        	<img src="<?php bloginfo('template_directory'); ?>/images/clients_drop.png" alt="">
+		      	</div>
+		      	<p class="hideText fontW500 fontPoppins colorBlack">The user demographic  on this platform are from</p>
+		    </div>
+		    <div class="accordion_content">
+		      	<img src="<?php bloginfo('template_directory'); ?>/images/icici-prudential-life-insurance.png" alt="">
+		      <div class="accordion_item">
+		        <p class="fontW500 fontPoppins colorBlack">The user demographic  on this platform are from Tier 2 and Tier 3 cities who do not know much about WEB3 & it’s implications. They wanted an Informative website to educate their users and help them embark on the journey together with Oneto11.</p>
+		      </div>
+		    </div>
+		</div>
+		<div class="accordion">
+		    <div class="accordion_tab">
+		        <h4 class="fontW800 fontPoppins colorBlack">WTW</h4>
+		        <div class="accordion_arrow">
+		        	<img src="<?php bloginfo('template_directory'); ?>/images/clients_drop.png" alt="">
+		      	</div>
+		      	<p class="hideText fontW500 fontPoppins colorBlack">The user demographic  on this platform are from</p>
+		    </div>
+		    <div class="accordion_content">
+		      	<img src="<?php bloginfo('template_directory'); ?>/images/wtw.png" alt="">
+		      <div class="accordion_item">
+		        <p class="fontW500 fontPoppins colorBlack">The user demographic  on this platform are from Tier 2 and Tier 3 cities who do not know much about WEB3 & it’s implications. They wanted an Informative website to educate their users and help them embark on the journey together with Oneto11.</p>
+		      </div>
+		    </div>
+		</div>
+		<div class="accordion">
+		    <div class="accordion_tab">
+		        <h4 class="fontW800 fontPoppins colorBlack">Canara Robeco</h4>
+		        <div class="accordion_arrow">
+		        	<img src="<?php bloginfo('template_directory'); ?>/images/clients_drop.png" alt="">
+		      	</div>
+		      	<p class="hideText fontW500 fontPoppins colorBlack">The user demographic  on this platform are from</p>
+		    </div>
+		    <div class="accordion_content">
+		      	<img src="<?php bloginfo('template_directory'); ?>/images/canara-robeco.png" alt="">
+		      <div class="accordion_item">
+		        <p class="fontW500 fontPoppins colorBlack">The user demographic  on this platform are from Tier 2 and Tier 3 cities who do not know much about WEB3 & it’s implications. They wanted an Informative website to educate their users and help them embark on the journey together with Oneto11.</p>
+		      </div>
+		    </div>
+		</div>
+		<div class="accordion">
+		    <div class="accordion_tab">
+		        <h4 class="fontW800 fontPoppins colorBlack">Wockhardt Hospital</h4>
+		        <div class="accordion_arrow">
+		        	<img src="<?php bloginfo('template_directory'); ?>/images/clients_drop.png" alt="">
+		      	</div>
+		      	<p class="hideText fontW500 fontPoppins colorBlack">The user demographic  on this platform are from</p>
+		    </div>
+		    <div class="accordion_content">
+		      	<img src="<?php bloginfo('template_directory'); ?>/images/wockhardt-hospital.png" alt="">
+		      <div class="accordion_item">
+		        <p class="fontW500 fontPoppins colorBlack">The user demographic  on this platform are from Tier 2 and Tier 3 cities who do not know much about WEB3 & it’s implications. They wanted an Informative website to educate their users and help them embark on the journey together with Oneto11.</p>
+		      </div>
+		    </div>
+		</div>
+		<div class="accordion">
+		    <div class="accordion_tab">
+		        <h4 class="fontW800 fontPoppins colorBlack">Dineout</h4>
+		        <div class="accordion_arrow">
+		        	<img src="<?php bloginfo('template_directory'); ?>/images/clients_drop.png" alt="">
+		      	</div>
+		      	<p class="hideText fontW500 fontPoppins colorBlack">The user demographic  on this platform are from</p>
+		    </div>
+		    <div class="accordion_content">
+		      	<img src="<?php bloginfo('template_directory'); ?>/images/dineout.png" alt="">
+		      <div class="accordion_item">
+		        <p class="fontW500 fontPoppins colorBlack">The user demographic  on this platform are from Tier 2 and Tier 3 cities who do not know much about WEB3 & it’s implications. They wanted an Informative website to educate their users and help them embark on the journey together with Oneto11.</p>
+		      </div>
+		    </div>
+		</div>
+		<div class="accordion">
+		    <div class="accordion_tab">
+		        <h4 class="fontW800 fontPoppins colorBlack">Mi</h4>
+		        <div class="accordion_arrow">
+		        	<img src="<?php bloginfo('template_directory'); ?>/images/clients_drop.png" alt="">
+		      	</div>
+		      	<p class="hideText fontW500 fontPoppins colorBlack">The user demographic  on this platform are from</p>
+		    </div>
+		    <div class="accordion_content">
+		      	<img src="<?php bloginfo('template_directory'); ?>/images/mi.png" alt="">
+		      <div class="accordion_item">
+		        <p class="fontW500 fontPoppins colorBlack">The user demographic  on this platform are from Tier 2 and Tier 3 cities who do not know much about WEB3 & it’s implications. They wanted an Informative website to educate their users and help them embark on the journey together with Oneto11.</p>
+		      </div>
+		    </div>
+		</div>
+		<div class="accordion">
+		    <div class="accordion_tab">
+		        <h4 class="fontW800 fontPoppins colorBlack">Hyatt</h4>
+		        <div class="accordion_arrow">
+		        	<img src="<?php bloginfo('template_directory'); ?>/images/clients_drop.png" alt="">
+		      	</div>
+		      	<p class="hideText fontW500 fontPoppins colorBlack">The user demographic  on this platform are from</p>
+		    </div>
+		    <div class="accordion_content">
+		      	<img src="<?php bloginfo('template_directory'); ?>/images/hyatt.png" alt="">
+		      <div class="accordion_item">
+		        <p class="fontW500 fontPoppins colorBlack">The user demographic  on this platform are from Tier 2 and Tier 3 cities who do not know much about WEB3 & it’s implications. They wanted an Informative website to educate their users and help them embark on the journey together with Oneto11.</p>
+		      </div>
+		    </div>
+		</div>
+		<div class="accordion">
+		    <div class="accordion_tab">
+		        <h4 class="fontW800 fontPoppins colorBlack">Moengage</h4>
+		        <div class="accordion_arrow">
+		        	<img src="<?php bloginfo('template_directory'); ?>/images/clients_drop.png" alt="">
+		      	</div>
+		      	<p class="hideText fontW500 fontPoppins colorBlack">The user demographic  on this platform are from</p>
+		    </div>
+		    <div class="accordion_content">
+		      	<img src="<?php bloginfo('template_directory'); ?>/images/moengage.png" alt="">
 		      <div class="accordion_item">
 		        <p class="fontW500 fontPoppins colorBlack">The user demographic  on this platform are from Tier 2 and Tier 3 cities who do not know much about WEB3 & it’s implications. They wanted an Informative website to educate their users and help them embark on the journey together with Oneto11.</p>
 		      </div>
@@ -522,33 +1161,4 @@
 	</div>
 </section>
 <?php get_footer(); ?>
-<script type="text/javascript">
-	$(".accordion_tab").click(function(){
-    $(".accordion_tab").each(function(){
-      $(this).parent().removeClass("active");
-      $(this).removeClass("active");
-    });
-    $(this).parent().addClass("active");
-    $(this).addClass("active");
-});
-</script>
-<script>
-	jQuery('.clientSlider').slick({ 
-    autoplay: false,
-    autoplaySpeed: 1000,
-    arrows: false,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    cssEase: 'linear',
- 	dots: true
-  });
-</script>
-<script>
-$(document).ready(function(){
-	$('.brandIconsInfo').mouseover(function() {
-  		myvar = this.id;
-  		$("div.brandDetailsBox").hide();
-   		$('#div'+myvar).show();
-	});
-});
-</script>
+
