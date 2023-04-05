@@ -462,7 +462,7 @@
 			</div>
 		</div>
 		<div class="brandIcons">
-			<div class="brandIconsInfo" id="one">
+			<div class="brandIconsInfo active" id="one">
 				<h4 class="font30 fontW800 fontPoppins">Coca Cola</h4>
 				<p class="font20 font400 fontPoppins colorBlack">Website / Branding / Social media</p>
 			</div>

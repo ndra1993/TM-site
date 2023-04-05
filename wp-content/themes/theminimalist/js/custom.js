@@ -391,7 +391,7 @@ jQuery(document).ready(function() {
 /*our cliets js*/
 jQuery('.clientSlider').slick({ 
     autoplay: true,
-    autoplaySpeed: 1000,
+    autoplaySpeed: 3000,
     arrows: false,
     slidesToShow: 1,
     slidesToScroll: 1,

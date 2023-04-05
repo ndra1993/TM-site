@@ -1,7 +1,7 @@
 .titleBox {
     display: flex;
     align-items: center;justify-content: space-between;
-    .backArrow{padding: 5px 15px;cursor: pointer;width:20%;}
+    .backArrow{padding: 5px 15px;cursor: pointer;width:auto;}
     h3 {
         margin-left: 0px;
     }
@@ -34,7 +34,7 @@
 .ourClients{margin-top:96px;
 .clientsContentBox {padding: 0px 90px;
     .clientSlider{margin-bottom: 0px !important;
-        .clientSliderSection {margin-left:98px;padding: 147px 0px 97px;
+        .clientSliderSection {margin-left:98px;padding: 97px 0px 97px;
             .clientContent{
                     h2{position:relative;margin-bottom:97px;line-height: 100px;letter-spacing: -0.055em; width:95%; font-size:90px;
                     .beforeQuote{
@@ -119,6 +119,7 @@
         .brandIconsInfo{
             padding:40px 0px 40px 70px;border-bottom: 1px solid #000000;cursor:pointer;
             h4{margin-bottom:4px;line-height:40px;}
+            &.active{border-bottom: 2px solid #01FFA3;}
             p{line-height:30px;}
             &:hover{border-bottom: 2px solid #01FFA3;}
             &:last-child {border-bottom: 0px solid #000000;}
@@ -136,7 +137,7 @@
     @media screen and (max-width: 1600px) {
         .clientsContentBox {padding: 0px 65px;
             .clientSlider{
-                .clientSliderSection {padding: 120px 0px 75px;
+                .clientSliderSection {padding: 75px 0px 75px;
                     .clientContent{
                         h2{font-size:70px; width:90%;line-height: 90px;margin-bottom: 75px;
                             
@@ -186,7 +187,7 @@
         margin-top: 77px;
        .clientsContentBox {padding: 0px 50px;
            .clientSlider{
-                .clientSliderSection {padding: 90px 0px 55px;
+                .clientSliderSection {padding: 55px 0px 55px;
                     .clientContent{
                         h2{font-size:55px; line-height: 70px;margin-bottom: 75px;
                             .beforeQuote{
@@ -240,9 +241,10 @@
     }
 
     @media screen and (max-width: 1024px) {
+        margin-top: 73px;
         .clientsContentBox {padding: 0px 35px;
            .clientSlider{
-                .clientSliderSection {padding: 70px 0px 40px;margin-left: 85px;
+                .clientSliderSection {padding: 45px 0px 40px;margin-left: 85px;
                     .clientContent{
                         h2{font-size:40px; line-height: 55px;margin-bottom:55px;
                             .beforeQuote{
@@ -291,7 +293,7 @@
         margin-top:73px;
         .clientsContentBox {padding: 0px 25px 40px;
             .clientSlider{margin-bottom: 10px !important;
-                .clientSliderSection {margin-left:35px;padding: 60px 0px 0px;
+                .clientSliderSection {margin-left:35px;padding: 40px 0px 0px;
                     .clientContent{
                         h2{position:relative;margin-bottom:35px;line-height: 30px;letter-spacing: -0.055em; width:95%; font-size:24px;
                             .beforeQuote{

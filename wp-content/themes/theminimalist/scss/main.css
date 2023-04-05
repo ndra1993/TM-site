@@ -4002,7 +4002,7 @@ footer .ftbutton {
   .titleBox .backArrow {
     padding: 5px 15px;
     cursor: pointer;
-    width: 20%; }
+    width: auto; }
   .titleBox h3 {
     margin-left: 0px; }
   .titleBox img {
@@ -4027,7 +4027,7 @@ footer .ftbutton {
       margin-bottom: 0px !important; }
       .ourClients .clientsContentBox .clientSlider .clientSliderSection {
         margin-left: 98px;
-        padding: 147px 0px 97px; }
+        padding: 97px 0px 97px; }
         .ourClients .clientsContentBox .clientSlider .clientSliderSection .clientContent h2 {
           position: relative;
           margin-bottom: 97px;
@@ -4112,6 +4112,8 @@ footer .ftbutton {
         .ourClients .brandsSection .brandIcons .brandIconsInfo h4 {
           margin-bottom: 4px;
           line-height: 40px; }
+        .ourClients .brandsSection .brandIcons .brandIconsInfo.active {
+          border-bottom: 2px solid #01FFA3; }
         .ourClients .brandsSection .brandIcons .brandIconsInfo p {
           line-height: 30px; }
         .ourClients .brandsSection .brandIcons .brandIconsInfo:hover {
@@ -4126,7 +4128,7 @@ footer .ftbutton {
     .ourClients .clientsContentBox {
       padding: 0px 65px; }
       .ourClients .clientsContentBox .clientSlider .clientSliderSection {
-        padding: 120px 0px 75px; }
+        padding: 75px 0px 75px; }
         .ourClients .clientsContentBox .clientSlider .clientSliderSection .clientContent h2 {
           font-size: 70px;
           width: 90%;
@@ -4164,7 +4166,7 @@ footer .ftbutton {
       .ourClients .clientsContentBox {
         padding: 0px 50px; }
         .ourClients .clientsContentBox .clientSlider .clientSliderSection {
-          padding: 90px 0px 55px; }
+          padding: 55px 0px 55px; }
           .ourClients .clientsContentBox .clientSlider .clientSliderSection .clientContent h2 {
             font-size: 55px;
             line-height: 70px;
@@ -4204,42 +4206,44 @@ footer .ftbutton {
         .ourClients .brandsSection .brandIcons .brandIconsInfo p {
           line-height: 25px; } }
   @media screen and (max-width: 1024px) {
-    .ourClients .clientsContentBox {
-      padding: 0px 35px; }
-      .ourClients .clientsContentBox .clientSlider .clientSliderSection {
-        padding: 70px 0px 40px;
-        margin-left: 85px; }
-        .ourClients .clientsContentBox .clientSlider .clientSliderSection .clientContent h2 {
-          font-size: 40px;
-          line-height: 55px;
-          margin-bottom: 55px; }
-          .ourClients .clientsContentBox .clientSlider .clientSliderSection .clientContent h2 .beforeQuote {
-            top: -25px;
-            left: -60px; }
-          .ourClients .clientsContentBox .clientSlider .clientSliderSection .clientContent h2 .afterQuote {
-            bottom: -25px;
-            margin-left: 25px; }
-          .ourClients .clientsContentBox .clientSlider .clientSliderSection .clientContent h2 img {
-            width: 45px; }
-        .ourClients .clientsContentBox .clientSlider .clientSliderSection .authorBox .authorImg {
-          margin-right: 15px; }
-          .ourClients .clientsContentBox .clientSlider .clientSliderSection .authorBox .authorImg img {
-            width: 60px; }
-        .ourClients .clientsContentBox .clientSlider .clientSliderSection .authorBox .authorDesc h4 {
-          margin-bottom: 5px; }
-      .ourClients .clientsContentBox .clientSlider .slick-dots {
-        bottom: 55px; }
-    .ourClients .brandsSection .brandDetails {
-      top: 73px;
-      padding: 30px 40px 30px 40px; }
-      .ourClients .brandsSection .brandDetails .brandDetailsBox {
-        display: none; }
-        .ourClients .brandsSection .brandDetails .brandDetailsBox .brandLogo {
-          margin-bottom: 30px; }
-          .ourClients .brandsSection .brandDetails .brandDetailsBox .brandLogo img {
-            height: 150px; }
-        .ourClients .brandsSection .brandDetails .brandDetailsBox .brandLogoDesc p {
-          line-height: 20px; } }
+    .ourClients {
+      margin-top: 73px; }
+      .ourClients .clientsContentBox {
+        padding: 0px 35px; }
+        .ourClients .clientsContentBox .clientSlider .clientSliderSection {
+          padding: 45px 0px 40px;
+          margin-left: 85px; }
+          .ourClients .clientsContentBox .clientSlider .clientSliderSection .clientContent h2 {
+            font-size: 40px;
+            line-height: 55px;
+            margin-bottom: 55px; }
+            .ourClients .clientsContentBox .clientSlider .clientSliderSection .clientContent h2 .beforeQuote {
+              top: -25px;
+              left: -60px; }
+            .ourClients .clientsContentBox .clientSlider .clientSliderSection .clientContent h2 .afterQuote {
+              bottom: -25px;
+              margin-left: 25px; }
+            .ourClients .clientsContentBox .clientSlider .clientSliderSection .clientContent h2 img {
+              width: 45px; }
+          .ourClients .clientsContentBox .clientSlider .clientSliderSection .authorBox .authorImg {
+            margin-right: 15px; }
+            .ourClients .clientsContentBox .clientSlider .clientSliderSection .authorBox .authorImg img {
+              width: 60px; }
+          .ourClients .clientsContentBox .clientSlider .clientSliderSection .authorBox .authorDesc h4 {
+            margin-bottom: 5px; }
+        .ourClients .clientsContentBox .clientSlider .slick-dots {
+          bottom: 55px; }
+      .ourClients .brandsSection .brandDetails {
+        top: 73px;
+        padding: 30px 40px 30px 40px; }
+        .ourClients .brandsSection .brandDetails .brandDetailsBox {
+          display: none; }
+          .ourClients .brandsSection .brandDetails .brandDetailsBox .brandLogo {
+            margin-bottom: 30px; }
+            .ourClients .brandsSection .brandDetails .brandDetailsBox .brandLogo img {
+              height: 150px; }
+          .ourClients .brandsSection .brandDetails .brandDetailsBox .brandLogoDesc p {
+            line-height: 20px; } }
   @media screen and (max-width: 920px) {
     .ourClients {
       margin-top: 73px; }
@@ -4249,7 +4253,7 @@ footer .ftbutton {
           margin-bottom: 10px !important; }
           .ourClients .clientsContentBox .clientSlider .clientSliderSection {
             margin-left: 35px;
-            padding: 60px 0px 0px; }
+            padding: 40px 0px 0px; }
             .ourClients .clientsContentBox .clientSlider .clientSliderSection .clientContent h2 {
               position: relative;
               margin-bottom: 35px;
