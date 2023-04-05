@@ -362,7 +362,7 @@
 			</div>
 			<div class="brandDetailsBox" id="divtwentynine">
 				<div class="brandLogo">
-					<img src="<?php bloginfo('template_directory'); ?>/images/optimum-nutrition.png" alt="">
+					<img src="<?php bloginfo('template_directory'); ?>/images/iifl.png" alt="">
 				</div>
 				<div class="brandLogoDesc">
 					<p class="font20 fontW500 fontPoppins colorBlack">
@@ -443,6 +443,16 @@
 			<div class="brandDetailsBox" id="divthirtyseven">
 				<div class="brandLogo">
 					<img src="<?php bloginfo('template_directory'); ?>/images/moengage.png" alt="">
+				</div>	
+				<div class="brandLogoDesc">
+					<p class="font20 fontW500 fontPoppins colorBlack">
+						The user demographic  on this platform are from Tier 2 and Tier 3 cities who do not know much about WEB3 & it’s implications. They wanted an Informative website to educate their users and help them embark on the journey together with Oneto11.
+					</p>
+				</div>
+			</div>
+			<div class="brandDetailsBox" id="divthirtyeight">
+				<div class="brandLogo">
+					<img src="<?php bloginfo('template_directory'); ?>/images/iifl.png" alt="">
 				</div>	
 				<div class="brandLogoDesc">
 					<p class="font20 fontW500 fontPoppins colorBlack">
@@ -565,7 +575,7 @@
 				<p class="font20 font400 fontPoppins colorBlack">Website / Branding / Social media</p>
 			</div>
 			<div class="brandIconsInfo" id="twentynine">
-				<h4 class="font30 fontW800 fontPoppins">Optimum Nutrition</h4>
+				<h4 class="font30 fontW800 fontPoppins">IIFL</h4>
 				<p class="font20 font400 fontPoppins colorBlack">Website / Branding / Social media</p>
 			</div>
 			<div class="brandIconsInfo" id="thirty">
