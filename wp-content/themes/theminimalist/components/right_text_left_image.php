@@ -19,7 +19,14 @@
 <section class="sectionSeven" style="padding:100px 0px 100px 0px;">
         <div class="sectionSevenBox" style="display:flex;padding:0px 82px 50px 0px;">
             <div class="imgBox" style="max-width:100%;">
-                <img src="<?php bloginfo('template_directory'); ?>/images/tagged-3.png">
+            <?php
+$value = get_sub_field('right_text_left_image_image');
+if ( $value ) {?>
+         <img src="<?php echo get_sub_field('right_text_left_image_image'); ?>">
+      <?php } else { ?>
+     <?php echo get_sub_field('svg_link_rightslider');?>   
+     <?php } ?>
+         
             </div>
             <div class="textBox">
                 <h3 class="colorBlack font30 fontW800" style="line-height:28px;"><?php echo get_sub_field('right_text_left_image_heading'); ?></h3>

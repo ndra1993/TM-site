@@ -6,8 +6,17 @@
        url(<?php echo get_sub_field('background_image');?>);">
         <?php } ?>
             <div class="startToEndTitle">
+            <?php
+      $value = get_sub_field('dualimage');
+    if ( $value ) {?>
             <img src="<?php echo get_sub_field('dualimage'); ?>">
-                <h4 class="font20 fontW800"><?php echo get_sub_field('Image_heading1'); ?></h4>
+         <?php } else { ?>
+        <?php echo get_sub_field('svg_link_data');?>   
+        <?php } ?>
+
+          
+            
+            <h4 class="font20 fontW800"><?php echo get_sub_field('Image_heading1'); ?></h4>
             </div>
             <div class="startToEndTitle">
                 <h2 class="font32 fontW800"><?php echo get_sub_field('text_heading'); ?></h2>

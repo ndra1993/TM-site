@@ -32,34 +32,40 @@
     header{border-bottom: 1px solid #000;}
 }
 .ourClients{margin-top:96px;
-.clientsContentBox {padding: 95px 90px;
+.clientsContentBox {padding: 0px 90px;
     .clientSlider{margin-bottom: 0px !important;
-        .clientSliderSection {margin-left:98px;
+        .clientSliderSection {margin-left:98px;padding: 147px 0px 97px;
             .clientContent{
-                h2{position:relative;margin-bottom:45px;line-height: 100px;letter-spacing: -0.055em; width:80%; font-size:90px;
-                    .quoteOne{
+                    h2{position:relative;margin-bottom:97px;line-height: 100px;letter-spacing: -0.055em; width:95%; font-size:90px;
+                    .beforeQuote{
                         position:absolute;
-                        top:0;
-                        left:-98px;
-                    } 
-                    .quoteTwo{
+                        top:-35px;
+                        left:-95px;
+                    }
+                    .afterQuote{
                         position:absolute;
-                        bottom:0;
-                        right:0px;
-                    }  
+                        bottom:-35px;
+                        margin-left: 25px;
+                    }
+                    img{
+                        width: 70px;
+                        height: auto;
+                    }
+
                 }
             }
             .authorBox{
                 display:flex;align-items:center;
                 .authorImg{margin-right:30px;}
                 .authorDesc{
-                    h4{margin-bottom:15px;}
+                    h4{margin-bottom:15px;line-height: 24px;}
+                    p{line-height: 16px;}
                 }
             }
         }
         .slick-dots{
             position: absolute;
-            bottom: 50px;
+            bottom: 150px;
             right: 0px;
             left: unset;
             text-align: right;
@@ -95,8 +101,15 @@
         width:50%; height: 100%; position:sticky; top:96px;
         padding:150px 100px 150px 90px;
         .brandDetailsBox{display:none;
-            .brandLogo{margin-bottom:130px;}
-            .brandLogoDesc{}
+            &:first-child {
+                display:block;
+            }
+            .brandLogo{margin-bottom:130px;
+                img{max-width:100%; height:226px;}
+            }
+            .brandLogoDesc{
+                p{line-height: 30px;}
+            }
         }
         
     }
@@ -121,11 +134,16 @@
     }
 
     @media screen and (max-width: 1600px) {
-        .clientsContentBox {padding: 75px 65px;
+        .clientsContentBox {padding: 0px 65px;
             .clientSlider{
-                .clientSliderSection {
+                .clientSliderSection {padding: 120px 0px 75px;
                     .clientContent{
-                        h2{font-size:75px; width:90%;line-height: 90px;margin-bottom: 35px;}
+                        h2{font-size:70px; width:90%;line-height: 90px;margin-bottom: 75px;
+                            
+                            img{
+                                width: 65px;
+                            }
+                        }
                     }
                     .authorBox{
                         .authorImg{margin-right:25px;
@@ -135,8 +153,8 @@
                             h4{margin-bottom:10px;}
                         }
                     }
-                    .slick-dots{bottom:40px;}
-                    }
+                }
+                .slick-dots{bottom:120px;}
                 }
             }
         
@@ -146,7 +164,9 @@
                 top:96px;
                 padding:100px 75px 100px 80px;
                 .brandDetailsBox{display:none;
-                    .brandLogo{margin-bottom:100px;}
+                    .brandLogo{margin-bottom:100px;
+                        img{height:200px;}
+                    }
                     .brandLogoDesc{}
                 }
                 
@@ -163,16 +183,22 @@
     
         }
     @media screen and (max-width: 1450px) {
-       .clientsContentBox {padding: 55px 50px;
+        margin-top: 77px;
+       .clientsContentBox {padding: 0px 50px;
            .clientSlider{
-                .clientSliderSection {
+                .clientSliderSection {padding: 90px 0px 55px;
                     .clientContent{
-                        h2{font-size:60px; line-height: 70px;
-                            .quoteOne{
-                                width:60px;
+                        h2{font-size:55px; line-height: 70px;margin-bottom: 75px;
+                            .beforeQuote{
+                                top:-25px;
+                                left:-80px;
                             }
-                            .quoteTwo{
-                                width:60px;
+                            .afterQuote{
+                                bottom:-25px;
+                                margin-left: 25px;
+                            }
+                            img{
+                                width: 55px;
                             }
                         }
                     }
@@ -184,17 +210,21 @@
                             h4{margin-bottom:7px;}
                         }
                     }
-                    .slick-dots{bottom:30px;}
                 }
+                .slick-dots{bottom:95px;}
             }
         }
         .brandsSection{
             .brandDetails{
-                width:50%; height: 100%; position:sticky; top:96px;
-                padding:100px 75px 100px 80px;
+                top:77px;
+                padding:75px 75px 75px 80px;
                 .brandDetailsBox{display:none;
-                    .brandLogo{margin-bottom:100px;}
-                    .brandLogoDesc{}
+                    .brandLogo{margin-bottom:75px;
+                        img{height:180px;}
+                    }
+                    .brandLogoDesc{
+                        p{line-height: 25px;}
+                    }
                 }
                 
             }
@@ -210,11 +240,23 @@
     }
 
     @media screen and (max-width: 1024px) {
-        .clientsContentBox {padding: 40px 35px;
+        .clientsContentBox {padding: 0px 35px;
            .clientSlider{
-                .clientSliderSection {
+                .clientSliderSection {padding: 70px 0px 40px;margin-left: 85px;
                     .clientContent{
-                        h2{font-size:45px; line-height: 55px;}
+                        h2{font-size:40px; line-height: 55px;margin-bottom:55px;
+                            .beforeQuote{
+                                top:-25px;
+                                left:-60px;
+                            }
+                            .afterQuote{
+                                bottom:-25px;
+                                margin-left: 25px;
+                            }
+                            img{
+                                width: 45px;
+                            }
+                        }
                     }
                     .authorBox{
                         .authorImg{margin-right:15px;
@@ -224,31 +266,45 @@
                             h4{margin-bottom:5px;}
                         }
                     }
-                    .slick-dots{bottom:20px;}
                 }
+                .slick-dots{bottom:55px;}
+            }
+        }
+        .brandsSection{
+            .brandDetails{
+                top:73px;
+                padding:30px 40px 30px 40px;
+                .brandDetailsBox{display:none;
+                    .brandLogo{margin-bottom:30px;
+                        img{height:150px;}
+                    }
+                    .brandLogoDesc{
+                        p{line-height: 20px;}
+                    }
+                }
+                
             }
         }
     }
 
     @media screen and (max-width: 920px) {
         margin-top:73px;
-        .clientsContentBox {padding: 30px 25px 40px;
+        .clientsContentBox {padding: 0px 25px 40px;
             .clientSlider{margin-bottom: 10px !important;
-                .clientSliderSection {margin-left:35px;
+                .clientSliderSection {margin-left:35px;padding: 60px 0px 0px;
                     .clientContent{
-                        h2{position:relative;margin-bottom:27px;line-height: 30px;letter-spacing: -0.055em; width:95%; font-size:24px;
-                            .quoteOne{
-                                position:absolute;
-                                top:0;
-                                left:-35px;
-                                width:23px;
-                            } 
-                            .quoteTwo{
-                                position:absolute;
-                                bottom:0;
-                                right:0px;
-                                width:23px;
-                            }  
+                        h2{position:relative;margin-bottom:35px;line-height: 30px;letter-spacing: -0.055em; width:95%; font-size:24px;
+                            .beforeQuote{
+                                top:-15px;
+                                left:-30px;
+                            }
+                            .afterQuote{
+                                bottom:-15px;
+                                margin-left: 10px;
+                            }
+                            img{
+                                width: 25px;
+                            }
                         }
                     }
                     .authorBox{
@@ -258,6 +314,7 @@
                         }
                         .authorDesc{
                             h4{margin-bottom:8px;}
+                            p{font-size: 14px;}
                         }
                     }
                 }
@@ -311,7 +368,7 @@
                   
                     .accordion_arrow{
                       position: absolute;
-                      top: 50%;
+                      top: 20%;
                       transform: translateY(-50%);
                       right: 20px;
                       transition: all 0.3s ease;
@@ -320,16 +377,17 @@
                           height: 100%;
                         }
                     }
-                    .hideText{font-size: 16px;line-height: 24px;letter-spacing: 0.03em;margin-top:10px;}
+                    .hideText{font-size: 16px;line-height: 24px;letter-spacing: 0.03em;margin-top:10px;transition: ease-in-out all 1s;}
                 }
                 .accordion_tab.active .accordion_arrow{
+                    top: 20%;
                     transform: translateY(-50%) rotate(180deg);
                 }
                 .accordion_tab.active .hideText{display:none;transition:ease-in-out all 1s;}
                 .accordion_content{
                   padding-top: 30px;
                   transition:ease-in-out all 1s;
-                  img{width:215px;margin-bottom:35px;}
+                  img{max-width:100%; margin-bottom:35px;height: 150px;}
                   .accordion_item{
                     }
                     .accordion_item{
@@ -339,8 +397,10 @@
 
             } 
             .accordion.active{
-                  height: 100%;
-                } 
+                padding: 35px 25px 35px 25px;
+                height: 100%;
+                transition: ease-in-out all 1s;
+            } 
         }
 
     }
@@ -353,7 +413,7 @@
                   
                     .accordion_arrow{
                       position: absolute;
-                      top: 50%;
+                      top: 15%;
                       transform: translateY(-50%);
                       right: 0px;
                       transition: all 0.3s ease;
@@ -362,20 +422,21 @@
                           height: 100%;
                         }
                     }
-                    .hideText{font-size: 16px;line-height: 20px;margin-top:5px;width: 90%;}
+                    .hideText{font-size: 14px;line-height: 20px;width: 90%;}
                 }
                 .accordion_tab.active .accordion_arrow{
+                    top: 50%;
                     transform: translateY(-50%) rotate(180deg);
                 }
                 .accordion_tab.active .hideText{display:none;transition:ease-in-out all 1s;}
                 .accordion_content{
                   padding-top: 30px;
                   transition:ease-in-out all 1s;
-                  img{width:215px;margin-bottom:35px;}
+                  img{margin-bottom:25px;height: 100px;}
                   .accordion_item{
                     }
                     .accordion_item{width: 90%;
-                        p{font-size: 14px;line-height: 18px;}
+                        p{font-size: 14px;line-height: 20px;}
                     }
                 }
 

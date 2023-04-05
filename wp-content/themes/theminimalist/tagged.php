@@ -15,9 +15,9 @@
     <section>
         <div class="sectionOne">
             <div class="mobtext wow slideInLeft">
-                <p class="font20 fontW800 colorBlack">taggd</p>
-                <h1 class="font60 fontW800 colorBlack">Helping hiring managers & candidates</h1>
-                <h5 class="font20 colorWhite fontW500">By creating a digital platform that democratizes access to the art and science of hiring.</h5>
+                <p class="font20 fontW800 colorBlack">Taggd </p>
+                <h1 class="font60 fontW800 colorBlack">Employing intelligent UX to help Taggd excel at digital recruitment</h1>
+                <h5 class="font20 colorWhite fontW500">Taggd is a digital recruitment platform that provides ready-to-hire talent to India Inc., combining the power of human knowledge with AI-driven solutions. </h5>
             </div>
             <div class="wow fadeInUp mobImg" data-wow-duration="4s">
                 <img src="<?php bloginfo('template_directory'); ?>/images/tagged-banner.png">
@@ -28,9 +28,9 @@
         <div class="sectionTwo">
             <div class="mobtextTwo wow slideInLeft" data-wow-duration="1s">
                 <div class="">
-                    <p class="font20 fontW800 colorBlack">insight</p>
-                    <h1 class="font60 fontW800 colorBlack">A new experience reflecting the brand’s vision and values</h1>
-                    <h5 class="font20 colorBlack fontW500">This digital recruitment platform helps candidates to get their dream job and hiring manager to get their right candidate. </h5>
+                    <p class="font20 fontW800 colorBlack">Objective </p>
+                    <h1 class="font60 fontW800 colorBlack">Re-envisioning the platform for the future of work</h1>
+                    <h5 class="font20 colorBlack fontW500">Taggd aimed to build a hybrid platform that would be a legitimate source of information as well as an entry portal for all users. To highlight its transformative human-AI collaboration in the recruitment process, efficient UI/UX fueled by design thinking was needed. </h5>
                 </div>
             </div>
             <div class="mobimgTwo wow slideInRight" data-wow-duration="1s">
@@ -41,11 +41,12 @@
     <section>
         <div class="sectionThree">
             <div class="mobtextThree wow slideInLeft" data-wow-duration="1s">
-                <p class="font20 fontW800 colorBlack">solutions</p>
-                <h1 class="font60 fontW800 colorBlack">Introducing a unique, informative & clean  styling that create interest of users</h1>
+                <p class="font20 fontW800 colorBlack">Solutions </p>
+                <h1 class="font60 fontW800 colorBlack">Revolutionizing recruitment through design thinking</h1>
             </div>
             <div class="mobsubtextThree wow slideInRight" data-wow-duration="1s">
-                <h5 class="font20 colorBlack fontW500">This website aims to educate the users about hiring the right way and eliminating an accidental hiring through easy navigation and easy access to the information</h5>
+                <h5 class="font20 colorBlack fontW500">A website enabling an entry point for candidates and a talent pool for acquisition was built from scratch. We developed portals to cater to diverse user search queries and ensured that every stage of the UX process reflects a broad range of solutions.</h5>
+                <h5 class="font20 colorBlack fontW500">To streamline the flow of information within the portals, all steps in the UI process were carried out. A dynamic front end and a multi-dynamic format with downloadable reports were created.</h5>
             </div>
         </div>
     </section>
@@ -67,14 +68,14 @@
                 <img src="<?php bloginfo('template_directory'); ?>/images/tagged-3.png">
             </div>
             <div class="textBox">
-                <h3 class="colorBlack font30 fontW800">Matching candidates profiles</h3>
-                <p class="font24 fontW500">List of candidates with related qualities with detailed info and t-score</p>
+                <h3 class="colorBlack font30 fontW800">Curated candidate profiles</h3>
+                <p class="font24 fontW500">A list of candidates matching the user's queries with required information and a t-score.</p>
             </div>
         </div>
         <div class="sectionSevenBox">
             <div class="textBox">
-                <h3 class="colorBlack font30 fontW800">Information popup with details</h3>
-                <p class="font24 fontW500">Can directly contact candidate and schedule a meeting for further</p>
+                <h3 class="colorBlack font30 fontW800">Informational pop-up</h3>
+                <p class="font24 fontW500">To directly contact a candidate and schedule a meeting.</p>
             </div>
             <div class="imgBox">
                 <img src="<?php bloginfo('template_directory'); ?>/images/tagged-4.png">
@@ -85,14 +86,14 @@
                 <img src="<?php bloginfo('template_directory'); ?>/images/tagged-3.png">
             </div>
             <div class="textBox">
-                <h3 class="colorBlack font30 fontW800">Used unique illustration styling that helps to relate given information</h3>
-                <p class="font24 fontW500">The flat illustration styling used with some shadow and highlight effects to gave unique look and feel for illustration</p>
+                <h3 class="colorBlack font30 fontW800">Unique illustration-based styling </h3>
+                <p class="font24 fontW500">The flat illustration styling with shadow and highlight effects is selected for a distinct look and feel, as well as to make the website easy on the eyes.</p>
             </div>
         </div>
         <div class="sectionSevenBox">
             <div class="textBox">
-                <h3 class="colorBlack font30 fontW800">Tried to show detailed information upfront with actual data</h3>
-                <p class="font24 fontW500">The important information we tried to show upfront with the help of illustration. The user can easily navigate through toggle buttons if they are candidate or hiring managers.</p>
+                <h3 class="colorBlack font30 fontW800">Displaying actual data upfront </h3>
+                <p class="font24 fontW500">For easy navigation, important information is laid out upfront with the help of illustrations. This helps users navigate through the toggle buttons with ease. </p>
             </div>
             <div class="imgBox">
                 <img src="<?php bloginfo('template_directory'); ?>/images/tagged-4.png">
@@ -101,33 +102,16 @@
     </section>
 
     <section class="sectionEight">
-        <div class="sectionEightBox">
-            <img src="<?php bloginfo('template_directory'); ?>/images/tagged-5.png">
-        </div>
-        <div class="sectionEightBox">
-            <img src="<?php bloginfo('template_directory'); ?>/images/tagged-6.png">
-        </div>
-        <div class="sectionEightBox">
-            <img src="<?php bloginfo('template_directory'); ?>/images/tagged-7.png">
-        </div>
-        <div class="sectionEightBox">
-            <img src="<?php bloginfo('template_directory'); ?>/images/tagged-8.png">
-        </div>
-        <div class="sectionEightBox">
-            <img src="<?php bloginfo('template_directory'); ?>/images/tagged-9.png">
-        </div>
-        <div class="sectionEightBox">
-            <img src="<?php bloginfo('template_directory'); ?>/images/tagged-10.png">
-        </div>
+        <img src="<?php bloginfo('template_directory'); ?>/images/tagged-img6.png">
     </section>
     <section>
         <div class="sectionFive">
             <div class="mobtextFour wow slideInLeft" data-wow-duration="1s">
-                <p class="font20 fontW800 colorBlack">impact</p>
-                <h1 class="font60 fontW800 colorBlack">A Brand that is Revolutionising recruitment landscape through democratising the art and science of hiring talent</h1>
+                <p class="font20 fontW800 colorBlack">Impact </p>
+                <h1 class="font60 fontW800 colorBlack">Making a worthwhile difference in the hiring scenario OR Today’s tight job market made easy-to-navigate </h1>
             </div>
             <div class="mobsubtextFour wow slideInRight" data-wow-duration="1s">
-                <h5 class="font20 colorBlack fontW500">Combining the power of human knowledge and data, Taggd has successfully fulfilled talent mandates of more than 100+ Clients and ensured hiring managers’ success for half a million jobs from over 14+ sectors</h5>
+                <h5 class="font20 colorBlack fontW500">The website coherently bridged the gap between information and people. Easy-to-navigate portals and the platform’s capability to float multiple types of data led to increased user engagement. It became an active entry point for users, increasing awareness and improving SEO as well as domain visibility. In terms of candidates and business perspectives, the website successfully piqued the interest of new users. </h5>
             </div>
         </div>
     </section>

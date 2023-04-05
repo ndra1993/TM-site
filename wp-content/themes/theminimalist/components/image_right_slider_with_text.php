@@ -12,7 +12,15 @@
                             <?php if (have_rows('image_right_slider_with_text_list')) : ?>
                             <?php while (have_rows('image_right_slider_with_text_list')) : the_row(); ?>
                                 <li>
-                                    <img src="<?php echo get_sub_field('image_right_slider_with_text_images'); ?>">
+                                  
+
+                                    <?php
+   $value = get_sub_field('image_right_slider_with_text_images');
+   if ( $value ) {?>
+            <img src="<?php echo get_sub_field('image_right_slider_with_text_images'); ?>">
+         <?php } else { ?>
+        <?php echo get_sub_field('svg_link_rightslider');?>   
+        <?php } ?>
                                 </li>
                             <?php endwhile; ?>
                             <?php endif; ?>
