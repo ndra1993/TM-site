@@ -31309,7 +31309,7 @@ m/7Pm+JeW9nKVrayla1sZStb2cpWtrKVrWxlK19BIaL/D3YC/OfXvxv/AAAAAElFTkSuQmCC" transf
         </div>
     </section>
     <!-- leftimg-righttext -->
-    <!-- <section class="leftimg-rightText">
+    <section class="leftimg-rightText">
         <div class="innerDiv" style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(219.06deg, #0D1917 23.88%, #A270F2 71.41%);">
             <div class="mobimgTwo wow slideInLeft" data-wow-duration="1s">
                 <img src="<?php bloginfo('template_directory'); ?>/images/phone-two.png">
@@ -31321,9 +31321,9 @@ m/7Pm+JeW9nKVrayla1sZStb2cpWtrKVrWxlK19BIaL/D3YC/OfXvxv/AAAAAElFTkSuQmCC" transf
                 </div>
             </div>
         </div>
-    </section> -->
+    </section>
     <!-- image full screen with heading -->
-    <!-- <section class="fullimgwithHeading">
+    <section class="fullimgwithHeading">
         <div class="headingSec">
             <h4 class="font36 colorBlack fontW800">Concised vehicle cards</h4>
             <p class="font20 fontW500">Indication of all vehicle parameters</p>
@@ -31331,7 +31331,7 @@ m/7Pm+JeW9nKVrayla1sZStb2cpWtrKVrWxlK19BIaL/D3YC/OfXvxv/AAAAAElFTkSuQmCC" transf
         <div class="imgDiv">
             <img src="<?php bloginfo('template_directory'); ?>/images/phone-two.png">
         </div>
-    </section> -->
+    </section>
     <!-- bottom logo section-->
     <section class="bottomimgLogos">
         <div class="sectionSiximg"><img src="<?php bloginfo('template_directory'); ?>/images/phone-four.png"></div>

@@ -7721,8 +7721,7 @@ footer .ftbutton {
       width: 50%;
       display: flex;
       align-items: center;
-      justify-content: center;
-      padding: 50px; }
+      justify-content: center; }
       .csdetailBg .lefttext-rightImg .sectionTwo .mobimgTwo img {
         max-width: 100%;
         margin: 0 auto; }
@@ -7776,8 +7775,7 @@ footer .ftbutton {
       width: 55%;
       display: flex;
       align-items: center;
-      justify-content: center;
-      padding: 50px; }
+      justify-content: center; }
       .csdetailBg .leftimg-rightText .innerDiv .mobimgTwo img {
         max-width: 100%;
         margin: 0 auto; }
@@ -7791,8 +7789,6 @@ footer .ftbutton {
         .csdetailBg .leftimg-rightText .innerDiv .mobtextTwo .innerContent h5 {
           line-height: 36px; }
   .csdetailBg .fullimgwithHeading {
-    width: 80%;
-    margin: 0 auto;
     text-align: center; }
     .csdetailBg .fullimgwithHeading .headingSec h4 {
       margin-bottom: 15px;
@@ -7862,8 +7858,7 @@ footer .ftbutton {
         .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent h5 {
           line-height: 27px; }
       .csdetailBg .lefttext-rightImg .sectionTwo .mobimgTwo {
-        width: 50%;
-        padding: 45px; }
+        width: 50%; }
       .csdetailBg .leftheading-rightText .sectionThree {
         padding: 100px 0px 100px 82px; }
         .csdetailBg .leftheading-rightText .sectionThree .mobtextThree .innerContianer h1 {
@@ -7878,8 +7873,7 @@ footer .ftbutton {
       .csdetailBg .leftimg-rightText .innerDiv {
         padding: 80px 0px; }
         .csdetailBg .leftimg-rightText .innerDiv .mobimgTwo {
-          width: 55%;
-          padding: 45px; }
+          width: 55%; }
         .csdetailBg .leftimg-rightText .innerDiv .mobtextTwo {
           width: 45%; }
           .csdetailBg .leftimg-rightText .innerDiv .mobtextTwo .innerContent {
@@ -7913,8 +7907,7 @@ footer .ftbutton {
           .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent h5 {
             line-height: 25px; }
       .csdetailBg .lefttext-rightImg .sectionTwo .mobimgTwo {
-        width: 50%;
-        padding: 35px; }
+        width: 50%; }
       .csdetailBg .leftheading-rightText .sectionThree {
         padding: 80px 0px 80px 52px; }
         .csdetailBg .leftheading-rightText .sectionThree .mobtextThree .innerContianer {
@@ -7933,8 +7926,7 @@ footer .ftbutton {
       .csdetailBg .leftimg-rightText .innerDiv {
         padding: 60px 0px; }
         .csdetailBg .leftimg-rightText .innerDiv .mobimgTwo {
-          width: 50%;
-          padding: 40px; }
+          width: 50%; }
         .csdetailBg .leftimg-rightText .innerDiv .mobtextTwo {
           width: 50%; }
           .csdetailBg .leftimg-rightText .innerDiv .mobtextTwo .innerContent {
@@ -7964,8 +7956,7 @@ footer .ftbutton {
         .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent h5 {
           line-height: 23px; }
     .csdetailBg .lefttext-rightImg .sectionTwo .mobimgTwo {
-      width: 50%;
-      padding: 30px; }
+      width: 50%; }
     .csdetailBg .leftheading-rightText .sectionThree {
       padding: 50px 0px 60px 32px; }
       .csdetailBg .leftheading-rightText .sectionThree .mobtextThree .innerContianer {
