@@ -415,4 +415,9 @@ jQuery('.clientSlider').slick({
       $('#div'+myvar).show();
   });
 });
+  
+$(".brandIconsInfo").hover(function(e) {
+    $('.brandIconsInfo').removeClass('active');
+    $(this).addClass('active');
+});
 /*our cliets js end*/

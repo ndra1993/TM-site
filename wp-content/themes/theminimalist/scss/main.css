@@ -4120,8 +4120,6 @@ footer .ftbutton {
           border-bottom: 2px solid #01FFA3; }
         .ourClients .brandsSection .brandIcons .brandIconsInfo p {
           line-height: 30px; }
-        .ourClients .brandsSection .brandIcons .brandIconsInfo:hover {
-          border-bottom: 2px solid #01FFA3; }
         .ourClients .brandsSection .brandIcons .brandIconsInfo:last-child {
           border-bottom: 0px solid #000000; }
         .ourClients .brandsSection .brandIcons .brandIconsInfo:last-child:hover {

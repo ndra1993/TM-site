@@ -1168,20 +1168,9 @@
 		      </div>
 		    </div>
 		</div>
+
+
+		
 	</div>
 </section>
 <?php get_footer(); ?>
-
-<script type="text/javascript">
-	/*$(".brandIconsInfo").hover(function(e) {
-    var animid=$(this).data('anim');
-    $('.animBtn').removeClass('showHover');
-    $(this).addClass('showHover');
-    $(".hideAnim").removeClass('showAnim');
-    $("."+animid).addClass('showAnim');
-});*/
-	/*$('.brandIconsInfo').hover(
-       function(){ $(this).addClass('active') },
-       function(){ $(this).removeClass('active') }
-)*/
-</script>
