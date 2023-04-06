@@ -1,13 +1,13 @@
-<?php get_header(); /*Template Name: case study details*/
+<?php get_header(); /*Template Name: casestudy details*/
 $homepage_id = get_option('page_on_front');
 
 ?>
 <a id="button"><img src="<?php bloginfo('template_directory'); ?>/images/back-to-top-arrow.svg"></a>
 
-<div class="csdetailBg">
+<div class="csdetailBg"  style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(219.06deg, #0D1917 23.88%, #A270F2 71.41%);">
     <!-- Banner Section -->
-    <section class="bannerSection">
-        <div class="sectionOne" style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(219.06deg, #0D1917 23.88%, #A270F2 71.41%);">
+    <section class="bannerSection" style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(219.06deg, #0D1917 23.88%, #A270F2 71.41%);">
+        <div class="sectionOne">
             <div class="mobtext wow slideInLeft">
                 <p class="font20 fontW800 colorWhite">One to 11</p>
                 <h1 class="font60 fontW800 colorWhite">Disrupting The Online Gaming Industry</h1>
@@ -9510,8 +9510,8 @@ $homepage_id = get_option('page_on_front');
         </div>
     </section>
     <!-- lefttext-rightimg -->
-    <section class="lefttext-rightImg">
-        <div class="sectionTwo" style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(219.06deg, #0D1917 23.88%, #A270F2 71.41%);">
+    <section class="lefttext-rightImg"  style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(219.06deg, #0D1917 23.88%, #A270F2 71.41%);">
+        <div class="sectionTwo">
             <div class="mobtextTwo wow slideInLeft" data-wow-duration="1s">
                 <div class="innerContent">
                     <p class="font20 fontW800 colorBlack">insight</p>
@@ -9525,8 +9525,8 @@ $homepage_id = get_option('page_on_front');
         </div>
     </section>
     <!-- leftheading-rightText -->
-    <section class="leftheading-rightText">
-        <div class="sectionThree" style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(311.06deg, #0D1917 40.88%, #A270F2 100%);">
+    <section class="leftheading-rightText"  style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(311.06deg, #0D1917 40.88%, #A270F2 100%);">  
+        <div class="sectionThree">
             <div class="mobtextThree wow slideInLeft" data-wow-duration="1s">
                 <div class="innerContianer">
                     <p class="font20 fontW800 colorWhite">solutions</p>
@@ -9541,8 +9541,8 @@ $homepage_id = get_option('page_on_front');
         </div>
     </section>
     <!-- fullscreenbigimg -->
-    <section class="fullscreenBigimg">
-        <div class="sectionFour" style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(219.06deg, #0D1917 23.88%, #A270F2 71.41%);">
+    <section class="fullscreenBigimg"  style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(219.06deg, #0D1917 23.88%, #A270F2 71.41%);">
+        <div class="sectionFour">
             <div class="desktopImg">
                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1920 1208" style="enable-background:new 0 0 1920 1208;" xml:space="preserve">
                     <g id="Layer_1" class="animFloat">
@@ -31293,8 +31293,8 @@ m/7Pm+JeW9nKVrayla1sZStb2cpWtrKVrWxlK19BIaL/D3YC/OfXvxv/AAAAAElFTkSuQmCC" transf
         </div>
     </section>
     <!-- leftHeading-righttext -->
-    <section class="leftheading-rightText">
-        <div class="sectionThree" style="background:#fff">
+    <section class="leftheading-rightText" style="background:#fff">
+        <div class="sectionThree">
             <div class="mobtextThree wow slideInLeft" data-wow-duration="1s">
                 <div class="innerContianer">
                     <p class="font20 fontW800 colorBlack">solutions</p>
@@ -31309,8 +31309,8 @@ m/7Pm+JeW9nKVrayla1sZStb2cpWtrKVrWxlK19BIaL/D3YC/OfXvxv/AAAAAElFTkSuQmCC" transf
         </div>
     </section>
     <!-- leftimg-righttext -->
-    <section class="leftimg-rightText">
-        <div class="innerDiv" style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(219.06deg, #0D1917 23.88%, #A270F2 71.41%);">
+    <section class="leftimg-rightText" style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(219.06deg, #0D1917 23.88%, #A270F2 71.41%);">
+        <div class="innerDiv">
             <div class="mobimgTwo wow slideInLeft" data-wow-duration="1s">
                 <img src="<?php bloginfo('template_directory'); ?>/images/phone-two.png">
             </div>
@@ -31323,7 +31323,7 @@ m/7Pm+JeW9nKVrayla1sZStb2cpWtrKVrWxlK19BIaL/D3YC/OfXvxv/AAAAAElFTkSuQmCC" transf
         </div>
     </section>
     <!-- image full screen with heading -->
-    <section class="fullimgwithHeading">
+    <section class="fullimgwithHeading" style="background: #fff">
         <div class="headingSec">
             <h4 class="font36 colorBlack fontW800">Concised vehicle cards</h4>
             <p class="font20 fontW500">Indication of all vehicle parameters</p>
@@ -31332,8 +31332,35 @@ m/7Pm+JeW9nKVrayla1sZStb2cpWtrKVrWxlK19BIaL/D3YC/OfXvxv/AAAAAElFTkSuQmCC" transf
             <img src="<?php bloginfo('template_directory'); ?>/images/phone-two.png">
         </div>
     </section>
+    <!-- two image from side Heading middle -->
+    <section class="twoImgsides-headingmiddle" style="background: #fff">
+        <div class="imageHeadingmain">
+            <div class="imgDivmain">
+                <img src="<?php bloginfo('template_directory'); ?>/images/phone-two.png">
+            </div>
+            <div class="headingDiv">
+                <h4 class="font36 colorBlack fontW700">Start & end-points</h4>
+                <p class="font20 fontW400">The gamified UI of each route helps the executive know about the sequence better with icons & numbers</p>
+            </div>
+            <div class="imgDivmain">
+                <img src="<?php bloginfo('template_directory'); ?>/images/phone-two.png">
+            </div>
+        </div>
+    </section>
+    <!-- two image side by side and one heading at end -->
+    <section class="twoImgtogether-headinglast" style="background: #fff">
+        <div class="imageHeadingmain">
+            <div class="imgDivmain">
+                <img src="<?php bloginfo('template_directory'); ?>/images/udaan-cards-map3.png">
+            </div>
+            <div class="headingDiv">
+                <h4 class="font36 colorBlack fontW700">Vehicle colour identifier</h4>
+                <p class="font20 fontW400">Helpful for faster locating of the vehicle on the map from the list view</p>
+            </div>
+        </div>
+    </section>
     <!-- bottom logo section-->
-    <section class="bottomimgLogos">
+    <section class="bottomimgLogos"  style="background: #fff"> 
         <div class="sectionSiximg"><img src="<?php bloginfo('template_directory'); ?>/images/phone-four.png"></div>
         <div class="moreCasestudy">
             <div class="brandLogos">

@@ -3,102 +3,111 @@
 
 
 
-
-
-
-
-
 <a id="button"><img src="<?php bloginfo('template_directory'); ?>/images/back-to-top-arrow.svg"></a>
 
-<div class="dozeebgdetails almaraiBg">
-
-    <section>
-        <div class="sectionOne">
+<div class="csdetailBg">
+    <!-- Banner Section -->
+    <section class="bannerSection almaraiBanner">
+        <div class="sectionOne" style="background: linear-gradient(127.67deg, #51BB79 18.41%, #00ACEF 47.2%);">
             <div class="mobtext wow slideInLeft">
-                <p class="font20 fontW800 colorWhite">ALMARAI</p>
+                <p class="font20 fontW800 colorWhite">Almarai </p>
                 <h1 class="font60 fontW800 colorWhite">Delivering a seamless Order Management System to Almarai</h1>
                 <h5 class="font20 colorWhite fontW500">Almarai is a Saudi-based multinational company that specialises in food and beverage manufacturing and distribution. It’s operational in all six GCC (Gulf Cooperation Council) countries.</h5>
             </div>
-            <div class="wow fadeInUp mobImg" data-wow-duration="4s">
-                <img src="<?php bloginfo('template_directory'); ?>/images/sec-one-img.png">
+            <div class="mobImg">
+                <img src="<?php bloginfo('template_directory'); ?>/images/almarai-banner.png">
             </div>
         </div>
     </section>
-    <section>
-        <div class="sectionTwo">
+    <!-- lefttext-rightimg -->
+    <section class="lefttext-rightImg">
+        <div class="sectionTwo" style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(219.06deg, #0D1917 23.88%, #A270F2 71.41%);">
             <div class="mobtextTwo wow slideInLeft" data-wow-duration="1s">
-                <div class="">
-                    <p class="font20 fontW800 colorBlack">Objective</p>
-                    <h1 class="font60 fontW800 colorBlack">Growing the pie by reducing dependency on delivery agents</h1>
-                    <h5 class="font20 colorBlack fontW500">To reduce route-to-market costs and reach a larger customer base, Almarai had to lessen its dependence on delivery agents. This required creating a channel that would streamline communication, ordering, and tracking to increase transparency between Almarai and its customers.</h5>
+                <div class="innerContent">
+                    <p class="font20 fontW800 colorBlack">insight</p>
+                    <h1 class="font60 fontW800 colorBlack">A new experience reflecting the brand’s vision and values</h1>
+                    <h5 class="font20 colorBlack fontW500">They aim to Create the biggest Gaming ecosystem in the world with games suiting to every gamers. They have plans to include NFT based Role playing Games with a New Play To Earn model across the platform.</h5>
                 </div>
             </div>
             <div class="mobimgTwo wow slideInRight" data-wow-duration="1s">
-                <img src="<?php bloginfo('template_directory'); ?>/images/sec-two-img.png">
+                <img src="<?php bloginfo('template_directory'); ?>/images/one-ele-gif.gif">
             </div>
         </div>
     </section>
-    <section>
-        <div class="sectionThree">
+    <!-- leftHeading-righttext -->
+    <section class="leftheading-rightText">
+        <div class="sectionThree" style="background:#fff">
             <div class="mobtextThree wow slideInLeft" data-wow-duration="1s">
-                <p class="font20 fontW800 colorWhite">Solution</p>
-                <h1 class="font60 fontW800 colorWhite">Serving customers through an easy, bilingual interface</h1>
+                <div class="innerContianer">
+                    <p class="font20 fontW800 colorBlack">solutions</p>
+                    <h1 class="font60 fontW800 colorBlack">Unique experience designed around Gamers life</h1>
+                </div>
             </div>
             <div class="mobsubtextThree wow slideInRight" data-wow-duration="1s">
-                <h5 class="font20 colorWhite fontW500">A mobile-first approach was taken and later made responsive for desktops. The brand guidelines were followed and the interactions were kept simple for the less tech savvy audience</h5>
-            </div>
-        </div>
-    </section>
-    <section>
-        <div class="sectionFour">
-            <div class="desktopImg">
-                <img src="<?php bloginfo('template_directory'); ?>/images/sec-three-img.png">
-            </div>
-        </div>
-    </section>
-    <section>
-        <div class="sectionSeven">
-            <div class="sectionSevenBoxTwo">
-                <div class="sectionSevenBoxImg">
-                    <img src="<?php bloginfo('template_directory'); ?>/images/sec-four-2-img.png">
-                    <img src="<?php bloginfo('template_directory'); ?>/images/sec-four-img.png">
+                <div class="innerContianertwo">
+                    <h5 class="font20 colorBlack fontW500">A responsive website that aims to educate users about the NFT market and crypto-currencies. An infographic design with educative content is easier to understand.</h5>
                 </div>
-                <div class="sectionSevenBoxText">
-                    <h3 class="fontW800 colorWhite font32">Bilingual Design</h3>
-                    <p class="fontW500 font16">The screens were designed in English and Arabic, providing a comprehensive and impactful user experience.</p>
+            </div>
+        </div>
+    </section>
+    <!-- leftimg-righttext -->
+    <section class="leftimg-rightText">
+        <div class="innerDiv" style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(219.06deg, #0D1917 23.88%, #A270F2 71.41%);">
+            <div class="mobimgTwo wow slideInLeft" data-wow-duration="1s">
+                <img src="<?php bloginfo('template_directory'); ?>/images/phone-two.png">
+            </div>
+            <div class="mobtextTwo wow slideInRight" data-wow-duration="1s">
+                <div class="innerContent">
+                    <h1 class="font60 fontW700 colorWhite">Bilingual Design</h1>
+                    <h5 class="font24 colorWhite fontW400">The screens were designed in English & Arabic, providing a comprehensive and impactful user experience.</h5>
                 </div>
-                
             </div>
         </div>
     </section>
-    <section>
-        <div class="sectionFour">
-            <div class="desktopImg">
-                <img src="<?php bloginfo('template_directory'); ?>/images/sec-five-img.png">
+    <!-- image full screen with heading -->
+    <section class="fullimgwithHeading">
+        <div class="headingSec">
+            <h4 class="font36 colorBlack fontW800">Concised vehicle cards</h4>
+            <p class="font20 fontW500">Indication of all vehicle parameters</p>
+        </div>
+        <div class="imgDiv">
+            <img src="<?php bloginfo('template_directory'); ?>/images/phone-two.png">
+        </div>
+    </section>
+    <!-- two image from side Heading middle -->
+    <section class="twoImgsides-headingmiddle">
+        <div class="imageHeadingmain">
+            <div class="imgDivmain">
+                <img src="<?php bloginfo('template_directory'); ?>/images/phone-two.png">
             </div>
-            <div class="desktopImg">
-                <img src="<?php bloginfo('template_directory'); ?>/images/sec-six-img.png">
+            <div class="headingDiv">
+                <h4 class="font36 colorBlack fontW700">Start & end-points</h4>
+                <p class="font20 fontW400">The gamified UI of each route helps the executive know about the sequence better with icons & numbers</p>
+            </div>
+            <div class="imgDivmain">
+                <img src="<?php bloginfo('template_directory'); ?>/images/phone-two.png">
             </div>
         </div>
     </section>
-    
-    <section>
-        <div class="sectionFive">
-            <div class="mobtextFour wow slideInLeft" data-wow-duration="1s">
-                <p class="font20 fontW800 colorBlack">Impact </p>
-                <h1 class="font60 fontW800 colorBlack">A digital-transformation based recipe for success </h1>
+    <!-- two image side by side and one heading at end -->
+    <section class="twoImgtogether-headinglast">
+        <div class="imageHeadingmain">
+            <div class="imgDivmain">
+                <img src="<?php bloginfo('template_directory'); ?>/images/udaan-cards-map3.png">
             </div>
-            <div class="mobsubtextFour wow slideInRight" data-wow-duration="1s">
-                <h5 class="font20 colorBlack fontW500">The adoption of a design-centric digital transformation empowered Almarai with efficient ordering and tracking systems that operate seamlessly through its platform. This has resulted in easy access to valuable data and increased sales figures through effective upselling opportunities.</h5>
+            <div class="headingDiv">
+                <h4 class="font36 colorBlack fontW700">Vehicle colour identifier</h4>
+                <p class="font20 fontW400">Helpful for faster locating of the vehicle on the map from the list view</p>
             </div>
         </div>
     </section>
-    <section class="sectionSix">
-        <div class="sectionSiximg"><img src="<?php bloginfo('template_directory'); ?>/images/sec-seven-img.png"></div>
+    <!-- bottom logo section-->
+    <section class="bottomimgLogos">
+        <div class="sectionSiximg"><img src="<?php bloginfo('template_directory'); ?>/images/phone-four.png"></div>
         <div class="moreCasestudy">
             <div class="brandLogos">
                 <div class="relatedBox relatedBoxone" style="background: #ec2120;">
-                    <a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/bizongo-logo.png"></a>
+                    <a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/nayaka.png"></a>
                 </div>
                 <div class="relatedBox relatedBoxtwo" style="background: #00C859;">
                     <a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/bizongo-logo.png"></a>
@@ -111,4 +120,3 @@
 
 
 <?php get_footer(); ?>
-
