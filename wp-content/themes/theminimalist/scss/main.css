@@ -2562,6 +2562,10 @@ footer .ftbutton {
   margin-top: 86px;
   border-top: 1px solid #000;
   /**************************************************Media Query***************************************************/ }
+  .casebgdetails img {
+    max-width: 100%; }
+  .casebgdetails .meeshobg {
+    background: linear-gradient(158.47deg, #070707 4.94%, #101010 53.55%, #070707 58.48%, #020202 65.02%, #131313 77.34%) !important; }
   .casebgdetails .animFloat {
     animation: float 3s ease-in-out infinite; }
   .casebgdetails .sectionOne {
@@ -4186,7 +4190,7 @@ footer .ftbutton {
           .ourClients .clientsContentBox .clientSlider .clientSliderSection .authorBox .authorDesc h4 {
             margin-bottom: 7px; }
         .ourClients .clientsContentBox .clientSlider .slick-dots {
-          bottom: 95px; }
+          bottom: 90px; }
       .ourClients .brandsSection .brandDetails {
         top: 77px;
         padding: 75px 75px 75px 80px; }
@@ -4232,7 +4236,7 @@ footer .ftbutton {
           .ourClients .clientsContentBox .clientSlider .clientSliderSection .authorBox .authorDesc h4 {
             margin-bottom: 5px; }
         .ourClients .clientsContentBox .clientSlider .slick-dots {
-          bottom: 55px; }
+          bottom: 50px; }
       .ourClients .brandsSection .brandDetails {
         top: 73px;
         padding: 30px 40px 30px 40px; }
@@ -4271,7 +4275,7 @@ footer .ftbutton {
                 width: 25px; }
             .ourClients .clientsContentBox .clientSlider .clientSliderSection .authorBox {
               display: flex;
-              align-items: center;
+              align-items: self-start;
               margin-bottom: 34px; }
               .ourClients .clientsContentBox .clientSlider .clientSliderSection .authorBox .authorImg {
                 margin-right: 13px; }

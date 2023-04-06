@@ -3,7 +3,8 @@
 }
 
 .casebgdetails {
-
+    img{max-width:100%;}
+    .meeshobg{background: linear-gradient(158.47deg, #070707 4.94%, #101010 53.55%, #070707 58.48%, #020202 65.02%, #131313 77.34%) !important;}
     margin-top: 86px; border-top: 1px solid #000;
     .animFloat{animation: float 3s ease-in-out infinite;}
     .sectionOne {
@@ -121,6 +122,9 @@
         }
     }
 
+    .sectionFourMeesho{
+        
+    }
     .sectionFive {
         background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(219.06deg, #0D1917 23.88%, #A270F2 71.41%);
         display: flex;
