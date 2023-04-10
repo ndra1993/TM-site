@@ -399,14 +399,48 @@ jQuery('.clientSlider').slick({
   dots: true
   });
 
-  $(".accordion_tab").click(function(){
+  /*$(".accordion_tab").click(function(){
     $(".accordion_tab").each(function(){
       $(this).parent().removeClass("active");
       $(this).removeClass("active");
     });
     $(this).parent().addClass("active");
     $(this).addClass("active");
+});*/
+$(document).ready(function () {
+  $(".klundesaga-title").click(function (e) {
+  var klundesagaitem = $(this).attr("data-tab");
+  $("#" + klundesagaitem)
+  .slideToggle()
+  .parent()
+  .siblings()
+  .find(".klundesaga-content")
+  .slideUp();
+
+  $(this).toggleClass("active-title");
+  $("#" + klundesagaitem)
+  .parent()
+  .siblings()
+  .find(".klundesaga-title")
+  .removeClass("active-title");
+
+
+  $("img", this).toggleClass("chevron-top");
+  $("#" + klundesagaitem)
+  .parent()
+  .siblings()
+  .find(".klundesaga-title img")
+  .removeClass("chevron-top");
+  });
+  });
+
+$(document).ready(function() {
+$(".klundesaga-item").click(function () {
+    $(".klundesaga-item").removeClass("someClass");
+    $(this).addClass("someClass");        
 });
+});
+
 
   $(document).ready(function(){
   $('.brandIconsInfo').mouseover(function() {
@@ -415,7 +449,7 @@ jQuery('.clientSlider').slick({
       $('#div'+myvar).show();
   });
 });
-  
+
 $(".brandIconsInfo").hover(function(e) {
     $('.brandIconsInfo').removeClass('active');
     $(this).addClass('active');

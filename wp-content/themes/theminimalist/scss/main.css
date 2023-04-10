@@ -4094,13 +4094,13 @@ footer .ftbutton {
       height: 100%;
       position: sticky;
       top: 96px;
-      padding: 150px 100px 150px 90px; }
+      padding: 130px 100px 130px 90px; }
       .ourClients .brandsSection .brandDetails .brandDetailsBox {
         display: none; }
         .ourClients .brandsSection .brandDetails .brandDetailsBox:first-child {
           display: block; }
         .ourClients .brandsSection .brandDetails .brandDetailsBox .brandLogo {
-          margin-bottom: 130px; }
+          margin-bottom: 100px; }
           .ourClients .brandsSection .brandDetails .brandDetailsBox .brandLogo img {
             max-width: 100%;
             height: 226px; }
@@ -4148,11 +4148,11 @@ footer .ftbutton {
         bottom: 120px; }
     .ourClients .brandsSection .brandDetails {
       top: 96px;
-      padding: 100px 75px 100px 80px; }
+      padding: 80px 75px 80px 80px; }
       .ourClients .brandsSection .brandDetails .brandDetailsBox {
         display: none; }
         .ourClients .brandsSection .brandDetails .brandDetailsBox .brandLogo {
-          margin-bottom: 100px; }
+          margin-bottom: 80px; }
           .ourClients .brandsSection .brandDetails .brandDetailsBox .brandLogo img {
             height: 200px; }
     .ourClients .brandsSection .brandIcons .brandIconsInfo {
@@ -4191,11 +4191,11 @@ footer .ftbutton {
           bottom: 90px; }
       .ourClients .brandsSection .brandDetails {
         top: 77px;
-        padding: 75px 75px 75px 80px; }
+        padding: 50px 75px 50px 80px; }
         .ourClients .brandsSection .brandDetails .brandDetailsBox {
           display: none; }
           .ourClients .brandsSection .brandDetails .brandDetailsBox .brandLogo {
-            margin-bottom: 75px; }
+            margin-bottom: 50px; }
             .ourClients .brandsSection .brandDetails .brandDetailsBox .brandLogo img {
               height: 180px; }
           .ourClients .brandsSection .brandDetails .brandDetailsBox .brandLogoDesc p {
@@ -4237,11 +4237,11 @@ footer .ftbutton {
           bottom: 50px; }
       .ourClients .brandsSection .brandDetails {
         top: 73px;
-        padding: 30px 40px 30px 40px; }
+        padding: 20px 40px 20px 40px; }
         .ourClients .brandsSection .brandDetails .brandDetailsBox {
           display: none; }
           .ourClients .brandsSection .brandDetails .brandDetailsBox .brandLogo {
-            margin-bottom: 30px; }
+            margin-bottom: 20px; }
             .ourClients .brandsSection .brandDetails .brandDetailsBox .brandLogo img {
               height: 150px; }
           .ourClients .brandsSection .brandDetails .brandDetailsBox .brandLogoDesc p {
@@ -4250,7 +4250,7 @@ footer .ftbutton {
     .ourClients {
       margin-top: 73px; }
       .ourClients .clientsContentBox {
-        padding: 0px 25px 40px; }
+        padding: 10px 25px 40px; }
         .ourClients .clientsContentBox .clientSlider {
           margin-bottom: 10px !important; }
           .ourClients .clientsContentBox .clientSlider .clientSliderSection {
@@ -4312,95 +4312,63 @@ footer .ftbutton {
         display: none; }
       .ourClients .brandsSectionMobile {
         display: block; }
-        .ourClients .brandsSectionMobile .accordion {
-          width: 100%;
-          height: 105px;
-          margin: 0 auto;
-          overflow: hidden;
-          transition: height 0.3s ease;
-          border-top: 1px solid #000000;
-          padding: 25px 25px 30px 25px; }
-          .ourClients .brandsSectionMobile .accordion .accordion_tab {
+        .ourClients .brandsSectionMobile .voprosnik .klundesaga-item {
+          padding: 25px 25px 30px 25px;
+          border-top: 1px solid #000000; }
+          .ourClients .brandsSectionMobile .voprosnik .klundesaga-item .klundesaga-title {
             cursor: pointer;
-            user-select: none;
-            position: relative; }
-            .ourClients .brandsSectionMobile .accordion .accordion_tab h4 {
+            transition: transform 0.4s ease-in-out; }
+            .ourClients .brandsSectionMobile .voprosnik .klundesaga-item .klundesaga-title.active-title .rmTxt {
+              display: none; }
+            .ourClients .brandsSectionMobile .voprosnik .klundesaga-item .klundesaga-title h4 {
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
               font-size: 16px;
               letter-spacing: -0.055em;
               line-height: 20px; }
-            .ourClients .brandsSectionMobile .accordion .accordion_tab .accordion_arrow {
-              position: absolute;
-              top: 20%;
-              transform: translateY(-50%);
-              right: 20px;
-              transition: all 0.3s ease; }
-              .ourClients .brandsSectionMobile .accordion .accordion_tab .accordion_arrow img {
-                width: 100%;
-                height: 100%; }
-            .ourClients .brandsSectionMobile .accordion .accordion_tab .hideText {
+            .ourClients .brandsSectionMobile .voprosnik .klundesaga-item .klundesaga-title img {
+              transform: rotate(0);
+              transition: 0.4s;
+              max-width: 100%;
+              height: 100%;
+              width: auto; }
+              .ourClients .brandsSectionMobile .voprosnik .klundesaga-item .klundesaga-title img.chevron-top {
+                transform: rotate(-180deg);
+                color: #fa5019; }
+            .ourClients .brandsSectionMobile .voprosnik .klundesaga-item .klundesaga-title .rmTxt {
               font-size: 16px;
               line-height: 24px;
               letter-spacing: 0.03em;
               margin-top: 10px;
-              transition: ease-in-out all 1s; }
-          .ourClients .brandsSectionMobile .accordion .accordion_tab.active .accordion_arrow {
-            top: 20%;
-            transform: translateY(-50%) rotate(180deg); }
-          .ourClients .brandsSectionMobile .accordion .accordion_tab.active .hideText {
+              transition: ease-in-out all 1s;
+              width: 90%; }
+          .ourClients .brandsSectionMobile .voprosnik .klundesaga-item .klundesaga-content {
             display: none;
-            transition: ease-in-out all 1s; }
-          .ourClients .brandsSectionMobile .accordion .accordion_content {
-            padding-top: 30px;
-            transition: ease-in-out all 1s; }
-            .ourClients .brandsSectionMobile .accordion .accordion_content img {
-              max-width: 100%;
-              margin-bottom: 35px;
-              height: 150px; }
-            .ourClients .brandsSectionMobile .accordion .accordion_content .accordion_item p {
+            padding-top: 30px; }
+            .ourClients .brandsSectionMobile .voprosnik .klundesaga-item .klundesaga-content.active {
+              display: block; }
+            .ourClients .brandsSectionMobile .voprosnik .klundesaga-item .klundesaga-content p {
               font-size: 16px;
               line-height: 24px;
               letter-spacing: 0.03em; }
-        .ourClients .brandsSectionMobile .accordion.active {
-          padding: 35px 25px 35px 25px;
-          height: 100%;
+            .ourClients .brandsSectionMobile .voprosnik .klundesaga-item .klundesaga-content img {
+              max-width: 100%;
+              margin-bottom: 35px;
+              height: 150px; }
+        .ourClients .brandsSectionMobile .voprosnik .someClass {
+          padding: 35px 25px 30px 25px;
           transition: ease-in-out all 1s; } }
   @media screen and (max-width: 575px) {
-    .ourClients .brandsSectionMobile .accordion {
-      padding: 15px 25px 15px 25px; }
-      .ourClients .brandsSectionMobile .accordion .accordion_tab h4 {
-        font-size: 16px;
-        letter-spacing: -0.055em;
-        line-height: 20px; }
-      .ourClients .brandsSectionMobile .accordion .accordion_tab .accordion_arrow {
-        position: absolute;
-        top: 15%;
-        transform: translateY(-50%);
-        right: 0px;
-        transition: all 0.3s ease; }
-        .ourClients .brandsSectionMobile .accordion .accordion_tab .accordion_arrow img {
-          width: 100%;
-          height: 100%; }
-      .ourClients .brandsSectionMobile .accordion .accordion_tab .hideText {
-        font-size: 14px;
-        line-height: 20px;
-        width: 90%; }
-      .ourClients .brandsSectionMobile .accordion .accordion_tab.active .accordion_arrow {
-        top: 50%;
-        transform: translateY(-50%) rotate(180deg); }
-      .ourClients .brandsSectionMobile .accordion .accordion_tab.active .hideText {
-        display: none;
-        transition: ease-in-out all 1s; }
-      .ourClients .brandsSectionMobile .accordion .accordion_content {
-        padding-top: 30px;
-        transition: ease-in-out all 1s; }
-        .ourClients .brandsSectionMobile .accordion .accordion_content img {
-          margin-bottom: 25px;
-          height: 100px; }
-        .ourClients .brandsSectionMobile .accordion .accordion_content .accordion_item {
-          width: 90%; }
-          .ourClients .brandsSectionMobile .accordion .accordion_content .accordion_item p {
-            font-size: 14px;
-            line-height: 20px; } }
+    .ourClients .brandsSectionMobile .voprosnik .klundesaga-item .klundesaga-title .rmTxt {
+      font-size: 14px;
+      line-height: 20px; }
+    .ourClients .brandsSectionMobile .voprosnik .klundesaga-item .klundesaga-content p {
+      font-size: 14px;
+      line-height: 20px; }
+    .ourClients .brandsSectionMobile .voprosnik .klundesaga-item .klundesaga-content img {
+      margin-bottom: 25px;
+      height: 100px; } }
 
 .privacyPolicypg {
   height: calc(100vh - 148px);
