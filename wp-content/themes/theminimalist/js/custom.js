@@ -247,7 +247,7 @@ if ($(window).width() > 1024) {
       $(".relatedBoxone").toggleClass("active");
     });
   });
-  
+
   $(document).ready(function () {
     $('.relatedBoxtwo').hover(function () {
       $(".relatedBoxtwo").toggleClass("activeTwo");
@@ -293,7 +293,7 @@ $(function () {
       $('header').addClass('header-up');
       $('.tabs').addClass('smaller');
       $('.content').addClass('smallertwo');
-      
+
     } else {
       $('header').removeClass('header-up');
       $('.tabs').removeClass('smaller');
@@ -306,10 +306,10 @@ $(function () {
     return window.pageYOffset || document.documentElement.scrollTop;
   }
 });
-  // service page tab shrink on scroll js ends
+// service page tab shrink on scroll js ends
 
 
-  // top btn js for mbl
+// top btn js for mbl
 if ($(window).width() < 1024) {
   var btn = $('#button');
 
@@ -338,13 +338,13 @@ $.fn.isInViewport = function () {
 
   return elementBottom > viewportTop && elementTop < viewportBottom;
 };
-$(window).on('resize scroll', function() {
-  if($('.bottomimgLogos').length){
+$(window).on('resize scroll', function () {
+  if ($('.bottomimgLogos').length) {
     if ($('.bottomimgLogos').isInViewport()) {
       setTimeout(() => {
         $('.moreCasestudy').addClass('circleAnimShow');
       }, 1500);
-    }else{
+    } else {
       $('.moreCasestudy').removeClass('circleAnimShow');
     }
   }
@@ -352,50 +352,50 @@ $(window).on('resize scroll', function() {
 
 //header menu active state js//
 $('.headerActive').hover(
-  function(){ 
+  function () {
     $(".headerActive.active").addClass('inactive').removeClass('active');
   },
-  function(){ 
-    $(".headerActive.inactive").addClass('active').removeClass('inactive'); 
+  function () {
+    $(".headerActive.inactive").addClass('active').removeClass('inactive');
   }
 );
 
 /*blog details mobile slider start*/
-jQuery(document).ready(function() {
-    jQuery(".relatedBlogsSlider").slick({
-      arrows: false,
-      dots: true,
-      slidesToShow: 3,
-      slidesToScroll: 1,
-      autoplay: false,
-      speed: 900,
-      autoplaySpeed: 700,
-      responsive: [
-        {
-          breakpoint: 920,
-          settings: {
-            slidesToShow: 2
-          }
-        },
-        {
-          breakpoint: 575,
-          settings: {
-            slidesToShow: 1
-          }
+jQuery(document).ready(function () {
+  jQuery(".relatedBlogsSlider").slick({
+    arrows: false,
+    dots: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: false,
+    speed: 900,
+    autoplaySpeed: 700,
+    responsive: [
+      {
+        breakpoint: 920,
+        settings: {
+          slidesToShow: 2
         }
-      ]
-    });
+      },
+      {
+        breakpoint: 575,
+        settings: {
+          slidesToShow: 1
+        }
+      }
+    ]
+  });
 });
 /*blog details mobile slider end*/
 
 /*our cliets js*/
-jQuery('.clientSlider').slick({ 
-    autoplay: true,
-    autoplaySpeed: 3000,
-    arrows: false,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    cssEase: 'linear',
+jQuery('.clientSlider').slick({
+  autoplay: true,
+  autoplaySpeed: 3000,
+  arrows: false,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  cssEase: 'linear',
   dots: true
   });
 
@@ -442,13 +442,63 @@ $(".klundesaga-item").click(function () {
 });
 
 
-  $(document).ready(function(){
-  $('.brandIconsInfo').mouseover(function() {
-      myvar = this.id;
-      $("div.brandDetailsBox").hide();
-      $('#div'+myvar).show();
+$(".accordion_tab").click(function () {
+  $(".accordion_tab").each(function () {
+    $(this).parent().removeClass("active");
+    $(this).removeClass("active");
+  });
+  $(this).parent().addClass("active");
+  $(this).addClass("active");
+});
+
+$(document).ready(function () {
+  $('.brandIconsInfo').mouseover(function () {
+    myvar = this.id;
+    $("div.brandDetailsBox").hide();
+    $('#div' + myvar).show();
   });
 });
+/*our cliets js end*/
+
+
+
+
+
+// svg animation on scroll js starts
+$.fn.isInViewport = function () {
+  var elementTop = $(this).offset().top;
+  var elementBottom = elementTop + $(this).outerHeight();
+  var viewportTop = $(window).scrollTop();
+  var viewportBottom = viewportTop + $(window).height();
+  return elementBottom > viewportTop && elementTop < viewportBottom;
+};
+$(window).on('resize scroll', function () {
+  if ($('#svganime').length) {
+    if ($('#svganime').isInViewport()) {
+      setTimeout(() => {
+        $('.layer_two').addClass('newClass');
+        $('.layer_three').addClass('newClasstwo');
+      }, 500);
+    }
+    else {
+      // $('.layer_two').removeClass('newClass');
+      // $('.layer_three').removeClass('newClasstwo');
+    }
+  }
+  if ($('#multipleMbl').length) {
+    if ($('#multipleMbl').isInViewport()) {
+      setTimeout(() => {
+        $('.mobile_one').addClass('mobile_one_anime');
+        $('.mobile_two').addClass('mobile_two_anime');
+      }, 500);
+    }
+    else {
+      // $('.layer_two').removeClass('newClass');
+      // $('.layer_three').removeClass('newClasstwo');
+    }
+  }
+});
+// svg animation on scroll js ends
 
 $(".brandIconsInfo").hover(function(e) {
     $('.brandIconsInfo').removeClass('active');
