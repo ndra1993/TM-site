@@ -6,10 +6,26 @@ $homepage_id = get_option( 'page_on_front' );
     
 <!-- <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> -->
 <style type="text/css">
-  .draggable
-{
-  padding: 0px 0px 0px !important;
-  margin: 9px;
+  
+/*.slick-vertical {
+      top: calc(30% - 105px) !important;
+   }*/
+   .slick-vertical {
+      top: calc(5% + 5px) !important;
+   }
+   
+   /* slide when not active*/ 
+.slick-slide[aria-hidden="true"]:not(.slick-cloned) ~ .slick-cloned[aria-hidden="true"] {
+
+}
+
+/* slide when active (when play last to first) */ 
+.slick-slide[aria-hidden="true"]:not([tabindex="-1"]) + .slick-cloned[aria-hidden="true"]  {
+
+}
+/* slide when active (when play first to last) */ 
+.slick-slide[aria-hidden="true"] + .slick-cloned[aria-hidden="true"] {
+
 }
   /*.desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column {
       margin: -100px 85px;
@@ -226,13 +242,18 @@ $(".filterLi").click(function () {
 const slider = jQuery(".content-grp");
 slider
   .slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
     dots: false,
     infinite: true,
+    loop:true, 
     vertical: true,
     asNavFor: '.img-grp',
     verticalSwiping: true,
-    centerMode: true,
+    centerMode: false,
+    cssEase: 'linear',
     adaptiveHeight: true,
+    infinite: true,
     swipeToSlide: true,
     touchThreshold: 3,
   });
@@ -254,12 +275,25 @@ jQuery(document).ready(function(){
     slidesToScroll: 1,
     arrows: false,
     fade: false,
-    adaptiveHeight: true,
+    adaptiveHeight: false,
     infinite: true,
-    useTransform: true,
+    useTransform: false,
     speed: 400,
 });
 });
 
  $('.content-grp .slick-slide').eq(0).addClass('slick-active');
+</script>
+<script>
+/*$(document).ready(function(){
+    $(".slick-track").click(function(){
+      
+        var color = $(this).css("height");
+        alert(color);
+        if(color == '1054px'){
+          $(".slick-track").css("background-color", "yellow");
+        }
+        //$("#result").html(color);
+    });    
+});*/
 </script>

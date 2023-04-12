@@ -2,65 +2,7 @@
 $homepage_id = get_option('page_on_front');
 
 ?>
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css">
-<style type="text/css">
- 
-/* Default slide */
-.center-slider .slick-slide{
-  /*background-color: #b32532;*/
-  color: #FFF;
-  height: 500px;
-  margin: 0 15px 0 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transform: scale(0.8);
-  transition: all 0.4s ease-in-out;
-  /*background: url(<?php bloginfo('template_directory'); ?>/images/meesho-slider-bg.png) no-repeat center center fixed;*/
-}
-.center-slider .slick-slide,
-.center-slider .slick-slide[aria-hidden="true"]:not(.slick-cloned) ~ .slick-cloned[aria-hidden="true"] {
-  transform: scale(0.8, 0.8);
-  transition: all 0.4s ease-in-out;
-}
 
-/* Active center slide (You can change anything here for cenetr slide)*/
-.center-slider .slick-center,
-.center-slider .slick-slide[aria-hidden="true"]:not([tabindex="-1"]) + .slick-cloned[aria-hidden="true"] {
-  transform: scale(1.1);
-  /*background: url(<?php bloginfo('template_directory'); ?>/images/meesho-slider-bg.png) no-repeat center center fixed;*/
-}
-.center-slider .slick-current.slick-active{
-  transform: scale(1.1);
-  /*background-image: url("<?php bloginfo('template_directory'); ?>/images/meesho-slider-bg.png") no-repeat center center fixed;*/
-  background: url(<?php bloginfo('template_directory'); ?>/images/meesho-slider-bg.png) no-repeat center center fixed;
-  background-size: 100%;
-  width: 500px;
-  height: 500px;
-  overflow: hidden;
-}
-.abc{
-   background: url(<?php bloginfo('template_directory'); ?>/images/meesho-slider-bg.png) no-repeat center center fixed;
-  background-size: 100%; 
-  width: 500px;
-  height: 500px;
-  overflow: hidden;
-}
-.slick-next, .slick     -prev{
-  z-index: 5;
-}
-.slick-next{
-  right: 15px;
-}
-.slick-prev{
-  left: 15px;
-}
-.slick-next:before, .slick-prev:before{
-  color: #000;
-  font-size: 26px;
-}
-</style>
 <a id="button"><img src="<?php bloginfo('template_directory'); ?>/images/back-to-top-arrow.svg"></a>
 
 <div class="casebgdetails">
@@ -104,16 +46,9 @@ $homepage_id = get_option('page_on_front');
         
     </section>
     <section>
-        <div class="meeshobg sectionFour">
-            <div class="desktopImg">
-                <img src="<?php bloginfo('template_directory'); ?>/images/computer-img-responsive.png">
-            </div>
-            <!-- <div class="mobileImg">
-                <img src="<?php bloginfo('template_directory'); ?>/images/computer-img-responsive.png">
-                <img src="<?php bloginfo('template_directory'); ?>/images/mbl-responsive.png">
-            </div> -->
-        </div>
+        <div id="meesho-beforeafter"></div>
     </section>
+    
     <section>
         <div class="sectionTwo">
             <div class="mobimgTwo wow slideInLeft" data-wow-duration="1s">
@@ -157,19 +92,9 @@ $homepage_id = get_option('page_on_front');
             </div>
         </div>
     </section>
-    <section style="background: #000000; padding: 80px 75px;">
-        <div class="center-slider">
-            <div>
-               <div class="abc">
-                   Slide 1
-               </div> 
-            </div>
-            <div>Slide 2</div>
-            <div>Slide 3</div>
-            <div>Slide 4</div>
-            <div>Slide 5</div>
-            <div>Slide 6</div>
-        </div>
+    <section>
+        <!-- <div id="animation-container"></div> -->
+        <div id="meesho-mobileslider"></div>
     </section>
     <section>
         <div class="sectionFive">
@@ -207,20 +132,26 @@ $homepage_id = get_option('page_on_front');
 
 
 <?php get_footer(); ?>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script type="text/javascript">
-    $(document).ready(function(){
-      $('.center-slider').slick({
-        slidesToShow: 5,
-        slidesToScroll: 1,
-        centerMode: true,
-        arrows: true,
-        dots: false,
-        speed: 300,
-        centerPadding: '20px',
-        infinite: true,
-        autoplaySpeed: 5000,
-        autoplay: false
-      });
-    });
+var animation = bodymovin.loadAnimation({
+  container: document.getElementById('animation-container'),
+  path: site_url+'/wp-content/themes/theminimalist/js/json/meeshoSlider.json', // Required
+  renderer: 'svg', // or 'canvas', 'html'
+  loop: true,
+  autoplay: true
+});
+
+var animation = bodymovin.loadAnimation({
+  container: document.getElementById('meesho-beforeafter'),
+  path: site_url+'/wp-content/themes/theminimalist/js/json/meeshoBeforeafter.json',renderer: 'svg', // or 'canvas', 'html'
+  loop: true,
+  autoplay: true
+});
+
+var animation = bodymovin.loadAnimation({
+  container: document.getElementById('meesho-mobileslider'),
+  path: site_url+'/wp-content/themes/theminimalist/js/json/meeshoSlidermobile.json',renderer: 'svg', // or 'canvas', 'html'
+  loop: true,
+  autoplay: true
+});
 </script>
