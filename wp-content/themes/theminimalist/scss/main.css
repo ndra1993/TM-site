@@ -7814,7 +7814,7 @@ footer .ftbutton {
           text-transform: uppercase; }
         .csdetailBg .leftheading-rightText .sectionThree .mobtextThree .innerContianer h1 {
           line-height: 70px;
-          margin: 5px 0px 35px 0px; }
+          margin: 15px 0px 35px 0px; }
     .csdetailBg .leftheading-rightText .sectionThree .mobsubtextThree {
       width: 45%; }
       .csdetailBg .leftheading-rightText .sectionThree .mobsubtextThree .innerContianertwo {
@@ -7969,7 +7969,7 @@ footer .ftbutton {
         padding: 100px 0px 100px 82px; }
         .csdetailBg .leftheading-rightText .sectionThree .mobtextThree .innerContianer h1 {
           line-height: 50px;
-          margin: 5px 0px 20px 0px; }
+          margin: 10px 0px 20px 0px; }
         .csdetailBg .leftheading-rightText .sectionThree .mobsubtextThree .innerContianertwo h5 {
           line-height: 27px; }
       .csdetailBg .fullscreenBigimg .sectionFour {
@@ -8278,5 +8278,33 @@ footer .ftbutton {
               line-height: 21px; }
           .csdetailBg .twoImgtogether-headinglast .imageHeadingmain .imgDivmain {
             width: 100%; } }
+
+#svganime .st0 {
+  display: none; }
+#svganime .newClass {
+  animation: 2s slide-right forwards;
+  animation-delay: .8s;
+  opacity: 0; }
+#svganime .layer_two,
+#svganime .layer_three {
+  opacity: 0; }
+@keyframes slide-right {
+  from {
+    transform: translateX(60%);
+    opacity: 0; }
+  to {
+    transform: translateX(0%);
+    opacity: 1; } }
+#svganime .newClasstwo {
+  animation: 2s slide-left forwards;
+  animation-delay: .8s;
+  opacity: 0; }
+@keyframes slide-left {
+  from {
+    transform: translateX(-60%);
+    opacity: 0; }
+  to {
+    transform: translateX(0%);
+    opacity: 1; } }
 
 /*# sourceMappingURL=main.css.map */

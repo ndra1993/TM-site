@@ -1,0 +1,46 @@
+#svganime {
+    .st0 {
+        display: none;
+    }
+
+    .newClass {
+        animation: 2s slide-right forwards;
+        animation-delay: .8s;
+        opacity: 0;
+    }
+
+    .layer_two,
+    .layer_three {
+        opacity: 0;
+    }
+
+    @keyframes slide-right {
+        from {
+            transform: translateX(60%);
+            opacity: 0;
+        }
+
+        to {
+            transform: translateX(0%);
+            opacity: 1;
+        }
+    }
+
+    .newClasstwo {
+        animation: 2s slide-left forwards;
+        animation-delay: .8s;
+        opacity: 0;
+    }
+
+    @keyframes slide-left {
+        from {
+            transform: translateX(-60%);
+            opacity: 0;
+        }
+
+        to {
+            transform: translateX(0%);
+            opacity: 1;
+        }
+    }
+}
