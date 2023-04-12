@@ -99,12 +99,12 @@
     display:flex;position: relative;
     .brandDetails{
         width:50%; height: 100%; position:sticky; top:96px;
-        padding:150px 100px 150px 90px;
+        padding:130px 100px 130px 90px;
         .brandDetailsBox{display:none;
             &:first-child {
                 display:block;
             }
-            .brandLogo{margin-bottom:130px;
+            .brandLogo{margin-bottom:100px;
                 img{max-width:100%; height:226px;}
             }
             .brandLogoDesc{
@@ -121,7 +121,7 @@
             h4{margin-bottom:4px;line-height:40px;}
             &.active{border-bottom: 2px solid #01FFA3;}
             p{line-height:30px;}
-            &:hover{border-bottom: 2px solid #01FFA3;}
+            
             &:last-child {border-bottom: 0px solid #000000;}
             &:last-child:hover{border-bottom: 2px solid #01FFA3;}
         }
@@ -163,9 +163,9 @@
         .brandsSection{
             .brandDetails{
                 top:96px;
-                padding:100px 75px 100px 80px;
+                padding:80px 75px 80px 80px;
                 .brandDetailsBox{display:none;
-                    .brandLogo{margin-bottom:100px;
+                    .brandLogo{margin-bottom:80px;
                         img{height:200px;}
                     }
                     .brandLogoDesc{}
@@ -218,9 +218,9 @@
         .brandsSection{
             .brandDetails{
                 top:77px;
-                padding:75px 75px 75px 80px;
+                padding:50px 75px 50px 80px;
                 .brandDetailsBox{display:none;
-                    .brandLogo{margin-bottom:75px;
+                    .brandLogo{margin-bottom:50px;
                         img{height:180px;}
                     }
                     .brandLogoDesc{
@@ -275,9 +275,9 @@
         .brandsSection{
             .brandDetails{
                 top:73px;
-                padding:30px 40px 30px 40px;
+                padding:20px 40px 20px 40px;
                 .brandDetailsBox{display:none;
-                    .brandLogo{margin-bottom:30px;
+                    .brandLogo{margin-bottom:20px;
                         img{height:150px;}
                     }
                     .brandLogoDesc{
@@ -291,7 +291,7 @@
 
     @media screen and (max-width: 920px) {
         margin-top:73px;
-        .clientsContentBox {padding: 0px 25px 40px;
+        .clientsContentBox {padding: 10px 25px 40px;
             .clientSlider{margin-bottom: 10px !important;
                 .clientSliderSection {margin-left:35px;padding: 40px 0px 0px;
                     .clientContent{
@@ -354,94 +354,95 @@
         }
         .brandsSection{display:none;}
         .brandsSectionMobile{display:block;
-            .accordion{
-                width:100%;
-                height: 105px;
-                margin: 0 auto;
-                overflow: hidden;
-                transition: height 0.3s ease;
-                border-top: 1px solid #000000;
-                padding: 25px 25px 30px 25px;
-                .accordion_tab{
-                  cursor: pointer;
-                  user-select: none;
-                  position: relative;
-                  h4{font-size:16px;letter-spacing: -0.055em;line-height: 20px;}
-                  
-                    .accordion_arrow{
-                      position: absolute;
-                      top: 20%;
-                      transform: translateY(-50%);
-                      right: 20px;
-                      transition: all 0.3s ease;
-                      img{
-                          width: 100%;
-                          height: 100%;
+            .voprosnik {
+                .klundesaga-item {
+                    padding: 25px 25px 30px 25px;
+                    border-top: 1px solid #000000;
+                    .klundesaga-title {
+                        cursor: pointer;
+                        transition: transform 0.4s ease-in-out;
+                        &.active-title { 
+                            .rmTxt{
+                                display:none;
+                            }
+                        }
+                        h4 {
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            font-size: 16px;
+                            letter-spacing: -0.055em;
+                            line-height: 20px;
+                        }
+                        img {
+                            transform: rotate(0);
+                            transition: 0.4s;
+                            max-width: 100%;
+                            height: 100%;
+                            width: auto;
+                            &.chevron-top {
+                                transform: rotate(-180deg);
+                                color: #fa5019;
+                            }
+
+                        }
+                        .rmTxt{
+                            font-size: 16px;
+                            line-height: 24px;
+                            letter-spacing: 0.03em;
+                            margin-top: 10px;
+                            transition: ease-in-out all 1s;
+                            width: 90%;
                         }
                     }
-                    .hideText{font-size: 16px;line-height: 24px;letter-spacing: 0.03em;margin-top:10px;transition: ease-in-out all 1s;}
-                }
-                .accordion_tab.active .accordion_arrow{
-                    top: 20%;
-                    transform: translateY(-50%) rotate(180deg);
-                }
-                .accordion_tab.active .hideText{display:none;transition:ease-in-out all 1s;}
-                .accordion_content{
-                  padding-top: 30px;
-                  transition:ease-in-out all 1s;
-                  img{max-width:100%; margin-bottom:35px;height: 150px;}
-                  .accordion_item{
+                    .klundesaga-content {
+                        display: none;
+                        padding-top: 30px;
+                        &.active {
+                            display: block;
+                        }
+                        p {
+                            font-size: 16px;
+                            line-height: 24px;
+                            letter-spacing: 0.03em;
+                        }
+                        img{
+                            max-width: 100%;
+                            margin-bottom: 35px;
+                            height: 150px;
+                        }
                     }
-                    .accordion_item{
-                        p{font-size: 16px;line-height: 24px;letter-spacing: 0.03em;}
-                    }
                 }
+                .someClass{
+                    padding: 35px 25px 30px 25px;
+                    transition: ease-in-out all 1s;
+                }
+            }
 
-            } 
-            .accordion.active{
-                padding: 35px 25px 35px 25px;
-                height: 100%;
-                transition: ease-in-out all 1s;
-            } 
         }
 
     }
     @media screen and (max-width: 575px) {
         .brandsSectionMobile{
-            .accordion{
-                padding: 15px 25px 15px 25px;
-                .accordion_tab{
-                  h4{font-size:16px;letter-spacing: -0.055em;line-height: 20px;}
-                  
-                    .accordion_arrow{
-                      position: absolute;
-                      top: 15%;
-                      transform: translateY(-50%);
-                      right: 0px;
-                      transition: all 0.3s ease;
-                      img{
-                          width: 100%;
-                          height: 100%;
+            .voprosnik {
+                .klundesaga-item {
+                    .klundesaga-title {
+                        .rmTxt{
+                            font-size: 14px;
+                            line-height: 20px;
                         }
                     }
-                    .hideText{font-size: 14px;line-height: 20px;width: 90%;}
-                }
-                .accordion_tab.active .accordion_arrow{
-                    top: 50%;
-                    transform: translateY(-50%) rotate(180deg);
-                }
-                .accordion_tab.active .hideText{display:none;transition:ease-in-out all 1s;}
-                .accordion_content{
-                  padding-top: 30px;
-                  transition:ease-in-out all 1s;
-                  img{margin-bottom:25px;height: 100px;}
-                  .accordion_item{
-                    }
-                    .accordion_item{width: 90%;
-                        p{font-size: 14px;line-height: 20px;}
+                    .klundesaga-content {
+                        p {
+                            font-size: 14px;
+                            line-height: 20px;
+                        }
+                        img{
+                            margin-bottom: 25px;
+                            height: 100px;
+                        }
                     }
                 }
-
             }
         }
     }
