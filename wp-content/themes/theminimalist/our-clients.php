@@ -1080,12 +1080,12 @@
 		        </div>
 	      	</div>
 	      	<div class="klundesaga-item">
-	         	<div class="klundesaga-title" data-tab="item22">
+	         	<div class="klundesaga-title" data-tab="item37">
 		            <h4> IIFL <img src="<?php bloginfo('template_directory'); ?>/images/clients_drop.png" alt="">
 		            </h4>
 		            <p class="rmTxt fontW500 fontPoppins colorBlack">The user demographic  on this platform are from</p>
 	         	</div>
-		        <div class="klundesaga-content" id="item22">
+		        <div class="klundesaga-content" id="item37">
 		         	<img src="<?php bloginfo('template_directory'); ?>/images/iifl.png" alt="">
 		            <p class="fontW500 fontPoppins colorBlack">
 		               The user demographic  on this platform are from Tier 2 and Tier 3 cities who do not know much about WEB3 & it’s implications. They wanted an Informative website to educate their users and help them embark on the journey together with Oneto11.

@@ -2,7 +2,65 @@
 $homepage_id = get_option('page_on_front');
 
 ?>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css">
+<style type="text/css">
+ 
+/* Default slide */
+.center-slider .slick-slide{
+  /*background-color: #b32532;*/
+  color: #FFF;
+  height: 500px;
+  margin: 0 15px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: scale(0.8);
+  transition: all 0.4s ease-in-out;
+  /*background: url(<?php bloginfo('template_directory'); ?>/images/meesho-slider-bg.png) no-repeat center center fixed;*/
+}
+.center-slider .slick-slide,
+.center-slider .slick-slide[aria-hidden="true"]:not(.slick-cloned) ~ .slick-cloned[aria-hidden="true"] {
+  transform: scale(0.8, 0.8);
+  transition: all 0.4s ease-in-out;
+}
 
+/* Active center slide (You can change anything here for cenetr slide)*/
+.center-slider .slick-center,
+.center-slider .slick-slide[aria-hidden="true"]:not([tabindex="-1"]) + .slick-cloned[aria-hidden="true"] {
+  transform: scale(1.1);
+  /*background: url(<?php bloginfo('template_directory'); ?>/images/meesho-slider-bg.png) no-repeat center center fixed;*/
+}
+.center-slider .slick-current.slick-active{
+  transform: scale(1.1);
+  /*background-image: url("<?php bloginfo('template_directory'); ?>/images/meesho-slider-bg.png") no-repeat center center fixed;*/
+  background: url(<?php bloginfo('template_directory'); ?>/images/meesho-slider-bg.png) no-repeat center center fixed;
+  background-size: 100%;
+  width: 500px;
+  height: 500px;
+  overflow: hidden;
+}
+.abc{
+   background: url(<?php bloginfo('template_directory'); ?>/images/meesho-slider-bg.png) no-repeat center center fixed;
+  background-size: 100%; 
+  width: 500px;
+  height: 500px;
+  overflow: hidden;
+}
+.slick-next, .slick     -prev{
+  z-index: 5;
+}
+.slick-next{
+  right: 15px;
+}
+.slick-prev{
+  left: 15px;
+}
+.slick-next:before, .slick-prev:before{
+  color: #000;
+  font-size: 26px;
+}
+</style>
 <a id="button"><img src="<?php bloginfo('template_directory'); ?>/images/back-to-top-arrow.svg"></a>
 
 <div class="casebgdetails">
@@ -15,7 +73,7 @@ $homepage_id = get_option('page_on_front');
                 <h5 class="font20 colorWhite fontW500">Meesho is the biggest and most reliable online marketplace in India for resellers that conduct their business over Facebook and WhatsApp. It is democratising e-commerce for all, thanks to its tech-first philosophy.</h5>
             </div>
             <div class="wow fadeInUp mobImg" data-wow-duration="4s">
-                <img src="<?php bloginfo('template_directory'); ?>/images/meesho1.png">
+                <img src="<?php bloginfo('template_directory'); ?>/images/meesho-banner.svg">
             </div>
         </div>
     </section>
@@ -99,6 +157,20 @@ $homepage_id = get_option('page_on_front');
             </div>
         </div>
     </section>
+    <section style="background: #000000; padding: 80px 75px;">
+        <div class="center-slider">
+            <div>
+               <div class="abc">
+                   Slide 1
+               </div> 
+            </div>
+            <div>Slide 2</div>
+            <div>Slide 3</div>
+            <div>Slide 4</div>
+            <div>Slide 5</div>
+            <div>Slide 6</div>
+        </div>
+    </section>
     <section>
         <div class="sectionFive">
             <div class="mobtextFour wow slideInLeft" data-wow-duration="1s">
@@ -118,7 +190,7 @@ $homepage_id = get_option('page_on_front');
         </div>
     </section>
     <section class="sectionSix">
-        <div class="sectionSiximg"><img src="<?php bloginfo('template_directory'); ?>/images/udaan-mlr-footer.png"></div>
+        <div class="sectionSiximg"><img src="<?php bloginfo('template_directory'); ?>/images/meesho-footer.png"></div>
         <div class="moreCasestudy">
             <div class="brandLogos">
                 <div class="relatedBox relatedBoxone" style="background: #ec2120;">
@@ -135,4 +207,20 @@ $homepage_id = get_option('page_on_front');
 
 
 <?php get_footer(); ?>
-
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+      $('.center-slider').slick({
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        centerMode: true,
+        arrows: true,
+        dots: false,
+        speed: 300,
+        centerPadding: '20px',
+        infinite: true,
+        autoplaySpeed: 5000,
+        autoplay: false
+      });
+    });
+</script>

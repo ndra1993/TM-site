@@ -31311,11 +31311,11 @@ m/7Pm+JeW9nKVrayla1sZStb2cpWtrKVrWxlK19BIaL/D3YC/OfXvxv/AAAAAElFTkSuQmCC" transf
             </div>
         </div>
     </section>
-    <section class="sectionSix">
+    <section class="sectionSix bottomimgLogos">
         <div class="sectionSiximg"><img src="<?php bloginfo('template_directory'); ?>/images/phone-four.png"></div>
         <div class="moreCasestudy">
             <div class="brandLogos">
-                <div class="relatedBox relatedBoxone" style="background: #ec2120;">
+                <div class="relatedBox relatedBoxone" style="background: linear-gradient(97.82deg, #E6237B 0%, #EC2018 102.14%);">
                     <a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/nayaka.png"></a>
                 </div>
                 <div class="relatedBox relatedBoxtwo" style="background: #00C859;">
