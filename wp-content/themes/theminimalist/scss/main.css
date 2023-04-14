@@ -2948,14 +2948,15 @@ footer .ftbutton {
         opacity: 1;
         visibility: visible; } }
 
+.page-template-case-study-listing header {
+  border-bottom: 1px solid #000; }
+
 .mobileSection {
-  display: none;
-  border-top: 1px solid #000; }
+  display: none; }
 
 .desktopSection {
   display: block;
-  margin-top: 96px;
-  border-top: 1px solid #000; }
+  margin-top: 96px; }
   .desktopSection .caseStudyFilter {
     padding: 15px 0px 17px 90px;
     border-bottom: 1px solid #000; }
@@ -2995,10 +2996,10 @@ footer .ftbutton {
       margin: 0 85px; }
       .desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column .content-grp {
         display: block; }
-        .desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column .content-grp .slick-slide .content-item a {
+        .desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column .content-grp .slick-slide a {
           text-decoration: none;
           color: #000; }
-          .desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column .content-grp .slick-slide .content-item a .item-inner {
+          .desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column .content-grp .slick-slide a .item-inner {
             position: relative;
             overflow: hidden;
             transition: .5s ease;
@@ -3006,9 +3007,14 @@ footer .ftbutton {
             margin: 0 auto;
             border-bottom: 1px solid #000;
             padding: 42px 99px 52px 0px; }
-            .desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column .content-grp .slick-slide .content-item a .item-inner p {
-              text-transform: uppercase; }
-            .desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column .content-grp .slick-slide .content-item a .item-inner span.bar {
+            .desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column .content-grp .slick-slide a .item-inner p {
+              text-transform: uppercase;
+              margin-bottom: 15px; }
+            .desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column .content-grp .slick-slide a .item-inner h2 {
+              font-weight: 600;
+              font-size: 30px;
+              line-height: 36px; }
+            .desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column .content-grp .slick-slide a .item-inner span.bar {
               display: block;
               height: 10px;
               width: 100%;
@@ -3017,25 +3023,22 @@ footer .ftbutton {
               left: 0;
               bottom: 0;
               visibility: hidden; }
-              .desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column .content-grp .slick-slide .content-item a .item-inner span.bar:after {
+              .desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column .content-grp .slick-slide a .item-inner span.bar:after {
                 content: "";
                 position: absolute;
                 width: 100%;
                 height: 100%;
                 background: #00FFA3; }
-        .desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column .content-grp .slick-slide.slick-current .content-item span.bar {
-          visibility: visible; }
       .desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column .content-item.slick-current.current-item {
         padding: 15px; }
-      .desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column .slick-vertical .slick-slide:not(.slick-current) .content-item .item-inner {
+      .desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column .slick-slide.slick-current span.bar {
+        visibility: visible; }
+      .desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column .slick-vertical .slick-slide:not(.slick-current) .item-inner {
         border-bottom: 1px solid #000000; }
-      .desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column .slick-vertical .slick-slide.slick-current .content-item .item-inner {
-        border-bottom: 10px solid #00FFA3;
-        padding: 40px 0px 40px 0px;
+      .desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column .slick-vertical .slick-slide.slick-current .item-inner {
+        border-bottom: 2px solid #00FFA3;
         cursor: url("../images/detail-page-cursor.svg") 0 0, auto; }
-        .desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column .slick-vertical .slick-slide.slick-current .content-item .item-inner p {
-          font-size: 20px; }
-        .desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column .slick-vertical .slick-slide.slick-current .content-item .item-inner h2 {
+        .desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column .slick-vertical .slick-slide.slick-current .item-inner h2 {
           font-weight: 800; }
       .desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column .mouseScroll {
         position: absolute;
@@ -3064,8 +3067,15 @@ footer .ftbutton {
   .desktopSection {
     display: block;
     margin-top: 86px; }
-    .desktopSection .caseStudycontainerRow {
-      height: calc(100vh - 195px) !important; } }
+    .desktopSection .caseStudycontainer .caseStudycontainerRow {
+      height: calc(100vh - 195px) !important; }
+      .desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column .content-grp .slick-slide a .item-inner {
+        padding: 30px 0px !important; }
+        .desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column .content-grp .slick-slide a .item-inner p {
+          margin-bottom: 10px; }
+        .desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column .content-grp .slick-slide a .item-inner h2 {
+          font-size: 24px;
+          line-height: 28px; } }
 @media screen and (max-width: 1400px) {
   .desktopSection {
     margin-top: 76px; }
@@ -3078,13 +3088,13 @@ footer .ftbutton {
       .desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column {
         width: 45%;
         margin: 0px 35px; }
-        .desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column .content-grp .slick-slide .content-item a .item-inner {
-          padding: 20px 66px 32px 0px; }
-        .desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column .slick-vertical .slick-slide.slick-current .content-item .item-inner {
-          padding: 25px 0px 25px 0px;
-          border-bottom: 5px solid #00FFA3; }
-          .desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column .slick-vertical .slick-slide.slick-current .content-item .item-inner p {
-            font-size: 16px; }
+        .desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column .content-grp .slick-slide a .item-inner {
+          padding: 20px 0px !important; }
+          .desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column .content-grp .slick-slide a .item-inner p {
+            margin-bottom: 5px; }
+          .desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column .content-grp .slick-slide a .item-inner h2 {
+            font-size: 20px;
+            line-height: 22px; }
       .desktopSection .caseStudycontainer .caseStudycontainerRow .mouseScroll {
         width: 20px;
         height: 30px; } }
@@ -4010,6 +4020,9 @@ footer .ftbutton {
     padding: 5px 15px;
     cursor: pointer;
     width: auto; }
+    @media screen and (max-width: 1024px) {
+      .titleBox .backArrow {
+        padding: 5px 15px 5px 0px; } }
   .titleBox h3 {
     margin-left: 0px; }
   .titleBox img {
