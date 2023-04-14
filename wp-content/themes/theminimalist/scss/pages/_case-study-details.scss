@@ -123,7 +123,8 @@
     }
 
     .sectionFourMeesho{
-
+        .desktopMeeshoSlider{display:block;}
+        .mobileMeeshoSlider{display:none;}
     }
     .sectionFive {
         background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(219.06deg, #0D1917 23.88%, #A270F2 71.41%);
@@ -575,6 +576,11 @@
             .mobileImg {
                 display: block;
             }
+        }
+
+        .sectionFourMeesho{
+            .desktopMeeshoSlider{display:none;}
+            .mobileMeeshoSlider{display:block;}
         }
 
         .sectionFive {

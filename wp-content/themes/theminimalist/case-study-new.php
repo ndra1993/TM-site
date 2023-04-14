@@ -1,11 +1,35 @@
 <?php get_header(); /*Template Name: case studies listing three*/
 $homepage_id = get_option( 'page_on_front' );
 ?>  
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
 
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script> -->
+    
+<!-- <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> -->
 <style type="text/css">
   
+/*.slick-vertical {
+      top: calc(30% - 105px) !important;
+   }*/
+   .slick-vertical {
+      top: calc(5% + 5px) !important;
+   }
+   
+   /* slide when not active*/ 
+.slick-slide[aria-hidden="true"]:not(.slick-cloned) ~ .slick-cloned[aria-hidden="true"] {
+
+}
+
+/* slide when active (when play last to first) */ 
+.slick-slide[aria-hidden="true"]:not([tabindex="-1"]) + .slick-cloned[aria-hidden="true"]  {
+
+}
+/* slide when active (when play first to last) */ 
+.slick-slide[aria-hidden="true"] + .slick-cloned[aria-hidden="true"] {
+
+}
+  /*.desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column {
+      margin: -100px 85px;
+  }*/
 </style>
 <body>
 <div class="desktopSection">
@@ -23,9 +47,10 @@ $homepage_id = get_option( 'page_on_front' );
   <div class="caseStudycontainer">
     <div class="container-inner">
         <div class="caseStudycontainerRow">
-          <div class="img-column">
-              <div class="img-grp">
-                <?php 
+            <div class="img-column">
+                <div class="img-grp">
+
+<?php 
 $groupID = 'case_study';
     $custom_query_args = array('post_type' => 'casestudy','posts_per_page' => 9,'order' => 'DESC','post_status' => 'publish');
                         $custom_query_args['paged'] = get_query_var( 'paged' ) ? get_query_var( 'paged' ) : 1;
@@ -54,11 +79,12 @@ $custom_query = new WP_Query( $custom_query_args );
                     </div>
                
                      <?php endwhile; ?>
-              </div>
+                </div>
             </div>
             <div class="detail-column">
-              <div class="content-grp">
-                <?php 
+                <div class="content-grp">
+
+<?php 
 $groupID = 'case_study';
     $custom_query_args = array('post_type' => 'casestudy','posts_per_page' => 9,'order' => 'DESC','post_status' => 'publish');
                         $custom_query_args['paged'] = get_query_var( 'paged' ) ? get_query_var( 'paged' ) : 1;
@@ -90,15 +116,19 @@ $custom_query = new WP_Query( $custom_query_args );
 
                               <?php //echo $catname;
                                the_title(); ?></p>
-                            <!-- <h2 class="font30 fontW600"> --><?php the_content(); ?>
+                            <h2 class="font30 fontW600"><?php the_content(); ?>
 
-                           <!-- </h2> -->
+                           </h2>
                         </div>
                         </a>
                     </div>
 
                         <?php endwhile; ?>
-              </div>
+                 
+
+
+                </div>
+                <img class="mouseScroll" src="<?php bloginfo('template_directory'); ?>/images/mouse-scroll.svg">
             </div>
         </div>
     </div>
@@ -179,54 +209,53 @@ echo $text = str_replace('</p>','',$text); ?></h2>
 </div>
   </div>
 </div>
-<!-- <div class="sld-wrp">
-
-  <div class="slider-for">
-    <div class="slide-container">go 1</div>
-    <div class="slide-container">go 2</div>
-    <div class="slide-container">go 3</div>
-    <div class="slide-container">go 4</div>
-    <div class="slide-container">go 5</div>
-    <div class="slide-container">go 6</div>
-  </div>
-  <div class="slider-nav">
-    <div class="slide-btn">go 1</div>
-    <div class="slide-btn">go 2</div>
-    <div class="slide-btn">go 3</div>
-    <div class="slide-btn">go 4</div>
-    <div class="slide-btn">go 5</div>
-    <div class="slide-btn">go 6</div>
-  </div>
-
-</div> -->
 </body>
 
 <?php get_footer(); ?>
-<!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
+
+
 <script type="text/javascript">
-   $('.img-grp').slick({
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  arrows: false,
-  infinite:true,
-  //vertical:true,
-   //adaptiveHeight: true,
-  // fade: true,
-  asNavFor: '.content-grp'
+
+jQuery(document).ready(function($) {
+  
+  setTimeout(function() {
+    $('#lab-slide-bottom-popup').modal('show');
+  }, 5000); 
+
+  $(document).ready(function() {
+    $('.lab-slide-up').find('a').attr('data-toggle', 'modal');
+    $('.lab-slide-up').find('a').attr('data-target', '#lab-slide-bottom-popup');
+  });
+
 });
 
-const slider = jQuery(".content-grp");
-slider.slick({
-  slidesToShow: 5,
-  slidesToScroll: 1,
-  asNavFor: '.img-grp',
-  dots: false,
-  centerMode: false,
-  infinite:true,
-  vertical:true,
-  focusOnSelect: true
+
+/*filter js*/
+  $(document).ready(function() {
+$(".filterLi").click(function () {
+    $(".filterLi").removeClass("active");
+    $(this).addClass("active");        
 });
+});
+
+
+const slider = jQuery(".content-grp");
+slider
+  .slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    dots: false,
+    loop:true, 
+    vertical: true,
+    asNavFor: '.img-grp',
+    verticalSwiping: true,
+    centerMode: false,
+    cssEase: 'linear',
+    adaptiveHeight: true,
+    infinite: true,
+    swipeToSlide: true,
+    touchThreshold: 3,
+  });
 
 slider.on('wheel', (function(e) {
   e.preventDefault();
@@ -237,4 +266,33 @@ slider.on('wheel', (function(e) {
     jQuery(this).slick('slickPrev');
   }
 }));
+
+jQuery(document).ready(function(){
+  jQuery('.img-grp').slick(
+  {
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    fade: false,
+    adaptiveHeight: false,
+    infinite: true,
+    useTransform: false,
+    speed: 400,
+});
+});
+
+ $('.content-grp .slick-slide').eq(0).addClass('slick-active');
+</script>
+<script>
+/*$(document).ready(function(){
+    $(".slick-track").click(function(){
+      
+        var color = $(this).css("height");
+        alert(color);
+        if(color == '1054px'){
+          $(".slick-track").css("background-color", "yellow");
+        }
+        //$("#result").html(color);
+    });    
+});*/
 </script>

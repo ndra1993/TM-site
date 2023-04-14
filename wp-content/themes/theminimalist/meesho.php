@@ -92,9 +92,9 @@ $homepage_id = get_option('page_on_front');
             </div>
         </div>
     </section>
-    <section>
-        <!-- <div id="animation-container"></div> -->
-        <div id="meesho-mobileslider"></div>
+    <section class="sectionFourMeesho">
+        <div id="animation-container" class="desktopMeeshoSlider"></div>
+        <div id="meesho-mobileslider" class="mobileMeeshoSlider"></div>
     </section>
     <section>
         <div class="sectionFive">
@@ -114,7 +114,7 @@ $homepage_id = get_option('page_on_front');
             </div>
         </div>
     </section>
-    <section class="sectionSix">
+    <section class="sectionSix bottomimgLogos">
         <div class="sectionSiximg"><img src="<?php bloginfo('template_directory'); ?>/images/meesho-footer.png"></div>
         <div class="moreCasestudy">
             <div class="brandLogos">
