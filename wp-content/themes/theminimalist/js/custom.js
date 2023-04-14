@@ -407,6 +407,48 @@ $('.headerActive').hover(
   }
 );
 
+/*case study liting start*/
+$('.img-grp').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: false,
+  infinite:true,
+  fade: true,
+    speed: 500,
+    infinite: true,
+    cssEase: 'ease-in-out',
+    touchThreshold: 100,
+    //variableWidth: true,
+  //vertical:true,
+   //adaptiveHeight: true,
+  // fade: true,
+  asNavFor: '.content-grp'
+});
+
+const slider = jQuery(".content-grp");
+slider.slick({
+  slidesToShow: 5,
+  slidesToScroll: 1,
+  asNavFor: '.img-grp',
+  dots: false,
+  centerMode: false,
+  infinite:true,
+  vertical:true,
+  //variableWidth: true,
+  focusOnSelect: true
+});
+
+slider.on('wheel', (function(e) {
+  e.preventDefault();
+
+  if (e.originalEvent.deltaY < 0) {
+    jQuery(this).slick('slickNext');
+  } else {
+    jQuery(this).slick('slickPrev');
+  }
+}));
+/*case study liting start*/
+
 /*blog details mobile slider start*/
 $(document).ready(function () {
   $(".relatedBlogsSlider").slick({

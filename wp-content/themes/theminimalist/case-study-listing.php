@@ -1,12 +1,7 @@
 <?php get_header(); /*Template Name: case studies listing three*/
 $homepage_id = get_option( 'page_on_front' );
 ?>  
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
 
-<style type="text/css">
-  
-</style>
 <body>
 <div class="desktopSection">
   <div class="caseStudyFilter">
@@ -179,62 +174,10 @@ echo $text = str_replace('</p>','',$text); ?></h2>
 </div>
   </div>
 </div>
-<!-- <div class="sld-wrp">
 
-  <div class="slider-for">
-    <div class="slide-container">go 1</div>
-    <div class="slide-container">go 2</div>
-    <div class="slide-container">go 3</div>
-    <div class="slide-container">go 4</div>
-    <div class="slide-container">go 5</div>
-    <div class="slide-container">go 6</div>
-  </div>
-  <div class="slider-nav">
-    <div class="slide-btn">go 1</div>
-    <div class="slide-btn">go 2</div>
-    <div class="slide-btn">go 3</div>
-    <div class="slide-btn">go 4</div>
-    <div class="slide-btn">go 5</div>
-    <div class="slide-btn">go 6</div>
-  </div>
-
-</div> -->
 </body>
 
 <?php get_footer(); ?>
-<!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
-<script type="text/javascript">
-   $('.img-grp').slick({
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  arrows: false,
-  infinite:true,
-  //vertical:true,
-   //adaptiveHeight: true,
-  // fade: true,
-  asNavFor: '.content-grp'
-});
 
-const slider = jQuery(".content-grp");
-slider.slick({
-  slidesToShow: 5,
-  slidesToScroll: 1,
-  asNavFor: '.img-grp',
-  dots: false,
-  centerMode: false,
-  infinite:true,
-  vertical:true,
-  focusOnSelect: true
-});
 
-slider.on('wheel', (function(e) {
-  e.preventDefault();
 
-  if (e.originalEvent.deltaY < 0) {
-    jQuery(this).slick('slickNext');
-  } else {
-    jQuery(this).slick('slickPrev');
-  }
-}));
-</script>

@@ -1,7 +1,11 @@
 .titleBox {
     display: flex;
     align-items: center;justify-content: space-between;
-    .backArrow{padding: 5px 15px;cursor: pointer;width:auto;}
+    .backArrow{padding: 5px 15px;cursor: pointer;width:auto;
+        @media screen and (max-width: 1024px) {
+            padding: 5px 15px 5px 0px;
+        }
+    }
     h3 {
         margin-left: 0px;
     }
