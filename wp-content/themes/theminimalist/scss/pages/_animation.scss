@@ -44,3 +44,41 @@
         }
     }
 }
+
+#multipleMbl {
+
+    .mobile_one,
+    .mobile_two {
+        opacity: 0;
+    }
+
+    .mobile_two_anime {
+        animation: fadeinall 3s forwards;
+        opacity: 1;
+    }
+
+    .mobile_one_anime {
+        animation: fadeinalltwo 3s forwards;
+        opacity: 1;
+    }
+
+    @keyframes fadeinall {
+        from {
+            transform: translateY(900px);
+        }
+
+        90% {
+            transform: translateY(0px);
+        }
+    }
+
+    @keyframes fadeinalltwo {
+        from {
+            transform: translateY(500px);
+        }
+
+        90% {
+            transform: translateY(0px);
+        }
+    }
+}
