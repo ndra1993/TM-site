@@ -65,7 +65,41 @@ $(function () {
 });
 
 
-
+// svg animation on scroll js starts
+$.fn.isInViewport = function () {
+  var elementTop = $(this).offset().top;
+  var elementBottom = elementTop + $(this).outerHeight();
+  var viewportTop = $(window).scrollTop();
+  var viewportBottom = viewportTop + $(window).height();
+  return elementBottom > viewportTop && elementTop < viewportBottom;
+};
+$(window).on('resize scroll', function () {
+  if ($('#svganime').length) {
+    if ($('#svganime').isInViewport()) {
+      setTimeout(() => {
+        $('.layer_two').addClass('newClass');
+        $('.layer_three').addClass('newClasstwo');
+      }, 500);
+    }
+    else {
+      // $('.layer_two').removeClass('newClass');
+      // $('.layer_three').removeClass('newClasstwo');
+    }
+  }
+  if ($('#multipleMbl').length) {
+    if ($('#multipleMbl').isInViewport()) {
+      setTimeout(() => {
+        $('.mobile_one').addClass('mobile_one_anime');
+        $('.mobile_two').addClass('mobile_two_anime');
+      }, 500);
+    }
+    else {
+      // $('.layer_two').removeClass('newClass');
+      // $('.layer_three').removeClass('newClasstwo');
+    }
+  }
+});
+// svg animation on scroll js ends
 
 
 
@@ -361,8 +395,8 @@ $('.headerActive').hover(
 );
 
 /*blog details mobile slider start*/
-jQuery(document).ready(function () {
-  jQuery(".relatedBlogsSlider").slick({
+$(document).ready(function () {
+  $(".relatedBlogsSlider").slick({
     arrows: false,
     dots: true,
     slidesToShow: 3,
@@ -389,7 +423,7 @@ jQuery(document).ready(function () {
 /*blog details mobile slider end*/
 
 /*our cliets js*/
-jQuery('.clientSlider').slick({
+$('.clientSlider').slick({
   autoplay: true,
   autoplaySpeed: 3000,
   arrows: false,
@@ -464,41 +498,7 @@ $(document).ready(function () {
 
 
 
-// svg animation on scroll js starts
-$.fn.isInViewport = function () {
-  var elementTop = $(this).offset().top;
-  var elementBottom = elementTop + $(this).outerHeight();
-  var viewportTop = $(window).scrollTop();
-  var viewportBottom = viewportTop + $(window).height();
-  return elementBottom > viewportTop && elementTop < viewportBottom;
-};
-$(window).on('resize scroll', function () {
-  if ($('#svganime').length) {
-    if ($('#svganime').isInViewport()) {
-      setTimeout(() => {
-        $('.layer_two').addClass('newClass');
-        $('.layer_three').addClass('newClasstwo');
-      }, 500);
-    }
-    else {
-      // $('.layer_two').removeClass('newClass');
-      // $('.layer_three').removeClass('newClasstwo');
-    }
-  }
-  if ($('#multipleMbl').length) {
-    if ($('#multipleMbl').isInViewport()) {
-      setTimeout(() => {
-        $('.mobile_one').addClass('mobile_one_anime');
-        $('.mobile_two').addClass('mobile_two_anime');
-      }, 500);
-    }
-    else {
-      // $('.layer_two').removeClass('newClass');
-      // $('.layer_three').removeClass('newClasstwo');
-    }
-  }
-});
-// svg animation on scroll js ends
+
 
 $(".brandIconsInfo").hover(function(e) {
     $('.brandIconsInfo').removeClass('active');
