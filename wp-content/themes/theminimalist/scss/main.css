@@ -8276,12 +8276,17 @@ footer .ftbutton {
     transform: translateX(0%);
     opacity: 1; } }
 #multipleMbl .mobile_one,
-#multipleMbl .mobile_two {
+#multipleMbl .mobile_two,
+#multipleMbl .mobileSec_two,
+#multipleMbl .mobileSec_one, #multipleMbltwo .mobile_one,
+#multipleMbltwo .mobile_two,
+#multipleMbltwo .mobileSec_two,
+#multipleMbltwo .mobileSec_one {
   opacity: 0; }
-#multipleMbl .mobile_two_anime {
+#multipleMbl .mobile_two_anime, #multipleMbl .mobileSec_two_anime, #multipleMbltwo .mobile_two_anime, #multipleMbltwo .mobileSec_two_anime {
   animation: fadeinall 3s forwards;
   opacity: 1; }
-#multipleMbl .mobile_one_anime {
+#multipleMbl .mobile_one_anime, #multipleMbl .mobileSec_one_anime, #multipleMbltwo .mobile_one_anime, #multipleMbltwo .mobileSec_one_anime {
   animation: fadeinalltwo 3s forwards;
   opacity: 1; }
 @keyframes fadeinall {

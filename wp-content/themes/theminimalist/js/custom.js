@@ -98,6 +98,19 @@ $(window).on('resize scroll', function () {
       // $('.layer_three').removeClass('newClasstwo');
     }
   }
+
+  if ($('#multipleMbltwo').length) {
+    if ($('#multipleMbltwo').isInViewport()) {
+      setTimeout(() => {
+        $('.mobileSec_one').addClass('mobileSec_one_anime');
+        $('.mobileSec_two').addClass('mobileSec_two_anime');
+      }, 500);
+    }
+    else {
+      // $('.layer_two').removeClass('newClass');
+      // $('.layer_three').removeClass('newClasstwo');
+    }
+  }
 });
 // svg animation on scroll js ends
 

@@ -45,19 +45,21 @@
     }
 }
 
-#multipleMbl {
+#multipleMbl, #multipleMbltwo {
 
     .mobile_one,
-    .mobile_two {
+    .mobile_two,
+    .mobileSec_two,
+    .mobileSec_one {
         opacity: 0;
     }
 
-    .mobile_two_anime {
+    .mobile_two_anime, .mobileSec_two_anime {
         animation: fadeinall 3s forwards;
         opacity: 1;
     }
 
-    .mobile_one_anime {
+    .mobile_one_anime, .mobileSec_one_anime {
         animation: fadeinalltwo 3s forwards;
         opacity: 1;
     }
