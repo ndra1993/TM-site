@@ -81,7 +81,7 @@ $custom_query = new WP_Query( $custom_query_args );
                       <a href="<?php the_permalink();?>">
                         <div class="item-inner">
                             <span class="bar"></span>
-                            <p class="font14 fontW800">
+                            <p class="fontW800">
 
                               <?php //echo $catname;
                                the_title(); ?></p>

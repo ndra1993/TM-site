@@ -58,11 +58,11 @@
 								    margin: 0 auto;
 								    border-bottom: 1px solid #000;
 								    padding:42px 99px 52px 0px;
-								    p{text-transform: uppercase;margin-bottom:15px;}
+								    p{font-size:12px;text-transform: uppercase;margin-bottom:15px;line-height: 14px;}
 								    h2{
 								    	font-weight: 600;
-										font-size: 30px;
-										line-height: 36px;
+										font-size: 20px;
+										line-height: 26px;
 								    }
 								    span.bar{
 									    display:block;
@@ -97,8 +97,12 @@
 						.slick-slide.slick-current  .item-inner{
 	    					border-bottom: 2px solid #00FFA3;
 	    					cursor: url('../images/detail-page-cursor.svg') 0 0, auto;
+	    					p{font-size:20px;line-height: 14px;}
 	    					h2{
 							   	font-weight: 800;
+							   	font-size:40px;
+							   	line-height: 46px;
+
 							}
 						}
 						
