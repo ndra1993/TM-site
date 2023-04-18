@@ -2566,8 +2566,14 @@ footer .ftbutton {
     max-width: 100%; }
   .casebgdetails .meeshobg {
     background: linear-gradient(158.47deg, #070707 4.94%, #101010 53.55%, #070707 58.48%, #020202 65.02%, #131313 77.34%) !important; }
+  .casebgdetails .dozeebg {
+    background: #0839B6 !important; }
   .casebgdetails .animFloat {
     animation: float 3s ease-in-out infinite; }
+  .casebgdetails .paddingZero {
+    padding: 0px !important; }
+  .casebgdetails .textCenter {
+    text-align: center; }
   .casebgdetails .sectionOne {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(219.06deg, #0D1917 23.88%, #A270F2 71.41%);
     position: relative;
@@ -2642,6 +2648,8 @@ footer .ftbutton {
       width: 80%; }
     .casebgdetails .sectionFour .mobileImg {
       display: none; }
+  .casebgdetails .fullSection {
+    padding: 130px 0px 130px 112px; }
   .casebgdetails .sectionFourMeesho .desktopMeeshoSlider {
     display: block; }
   .casebgdetails .sectionFourMeesho .mobileMeeshoSlider {
@@ -5426,8 +5434,7 @@ footer .ftbutton {
     margin: 0;
     line-height: 0; }
   .dozeebgdetails .sectionOne {
-    position: relative;
-    padding: 70px 0px 200px 0px; }
+    position: relative; }
     .dozeebgdetails .sectionOne .mobtext {
       position: absolute;
       top: 10%;
@@ -5631,15 +5638,13 @@ footer .ftbutton {
     .dozeebgdetails .sectionEight .mobImg {
       width: 33%; }
   @media screen and (max-width: 1600px) {
-    .dozeebgdetails .sectionOne {
-      padding: 50px 0px 150px 0px; }
-      .dozeebgdetails .sectionOne .mobtext {
-        padding-left: 82px; }
-        .dozeebgdetails .sectionOne .mobtext h1 {
-          margin: 20px 0px;
-          line-height: 50px; }
-        .dozeebgdetails .sectionOne .mobtext h5 {
-          line-height: 27px; }
+    .dozeebgdetails .sectionOne .mobtext {
+      padding-left: 82px; }
+      .dozeebgdetails .sectionOne .mobtext h1 {
+        margin: 20px 0px;
+        line-height: 50px; }
+      .dozeebgdetails .sectionOne .mobtext h5 {
+        line-height: 27px; }
     .dozeebgdetails .sectionTwo .mobtextTwo {
       padding: 74px 0px 200px 82px; }
       .dozeebgdetails .sectionTwo .mobtextTwo h1 {
@@ -5703,15 +5708,13 @@ footer .ftbutton {
   @media screen and (max-width: 1400px) {
     .dozeebgdetails {
       margin-top: 76px; }
-      .dozeebgdetails .sectionOne {
-        padding: 35px 0px 100px 0px; }
-        .dozeebgdetails .sectionOne .mobtext {
-          padding-left: 52px; }
-          .dozeebgdetails .sectionOne .mobtext h1 {
-            margin: 10px 0px;
-            line-height: 45px; }
-          .dozeebgdetails .sectionOne .mobtext h5 {
-            line-height: 25px; }
+      .dozeebgdetails .sectionOne .mobtext {
+        padding-left: 52px; }
+        .dozeebgdetails .sectionOne .mobtext h1 {
+          margin: 10px 0px;
+          line-height: 45px; }
+        .dozeebgdetails .sectionOne .mobtext h5 {
+          line-height: 25px; }
       .dozeebgdetails .sectionTwo .mobtextTwo {
         padding: 54px 0px 100px 52px; }
         .dozeebgdetails .sectionTwo .mobtextTwo h1 {
@@ -5760,15 +5763,13 @@ footer .ftbutton {
       .dozeebgdetails .sectionEight {
         padding: 50px 50px 30px 50px; } }
   @media screen and (max-width: 1200px) {
-    .dozeebgdetails .sectionOne {
-      padding: 35px 0px 60px 0px; }
-      .dozeebgdetails .sectionOne .mobtext {
-        padding-left: 32px; }
-        .dozeebgdetails .sectionOne .mobtext h1 {
-          margin: 10px 0px;
-          line-height: 40px; }
-        .dozeebgdetails .sectionOne .mobtext h5 {
-          line-height: 23px; }
+    .dozeebgdetails .sectionOne .mobtext {
+      padding-left: 32px; }
+      .dozeebgdetails .sectionOne .mobtext h1 {
+        margin: 10px 0px;
+        line-height: 40px; }
+      .dozeebgdetails .sectionOne .mobtext h5 {
+        line-height: 23px; }
     .dozeebgdetails .sectionTwo .mobtextTwo {
       padding: 34px 0px 60px 32px; }
       .dozeebgdetails .sectionTwo .mobtextTwo h1 {
@@ -5807,21 +5808,19 @@ footer .ftbutton {
   @media screen and (max-width: 1024px) {
     .dozeebgdetails {
       margin-top: 73px; }
-      .dozeebgdetails .sectionOne {
-        padding: 32px 0px 20px 0px; }
-        .dozeebgdetails .sectionOne .mobtext {
-          position: unset;
-          width: 100%;
-          padding-left: 24px;
-          padding-right: 24px; }
-          .dozeebgdetails .sectionOne .mobtext h1 {
-            line-height: 36px; }
-          .dozeebgdetails .sectionOne .mobtext h5 {
-            line-height: 20px;
-            width: 100%; }
-        .dozeebgdetails .sectionOne .mobImg {
-          width: 100%;
-          margin: 40px auto 0px; }
+      .dozeebgdetails .sectionOne .mobtext {
+        position: unset;
+        width: 100%;
+        padding-left: 24px;
+        padding-right: 24px; }
+        .dozeebgdetails .sectionOne .mobtext h1 {
+          line-height: 36px; }
+        .dozeebgdetails .sectionOne .mobtext h5 {
+          line-height: 20px;
+          width: 100%; }
+      .dozeebgdetails .sectionOne .mobImg {
+        width: 100%;
+        margin: 40px auto 0px; }
       .dozeebgdetails .sectionTwo {
         display: block; }
         .dozeebgdetails .sectionTwo .mobtextTwo {

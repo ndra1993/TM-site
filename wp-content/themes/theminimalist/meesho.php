@@ -67,10 +67,10 @@ $homepage_id = get_option('page_on_front');
         <div class="meeshobg sectionFive">
             <div class="mobtextFour wow slideInLeft" data-wow-duration="1s">
                 <p class="font20 fontW800 colorWhite">Solutions </p>
-                <h1 class="font60 fontW800 colorWhite">Optimizing for success</h1>
+                <h1 class="font60 fontW800 colorWhite">A clean  design with an emphasis on the information</h1>
             </div>
             <div class="mobsubtextFour wow slideInRight" data-wow-duration="1s">
-                <h5 class="font20 colorWhite fontW500">To achieve true performance optimization, all 3D elements were recomposed, and animations were tailored to fit the mobile screen for ease of navigation, minimal load time, and an easy call to action.</h5>
+                <h5 class="font20 colorWhite fontW500">A webiste that educates the users about how Dozee uses AI and machine learning to transform hospitals all over India.</h5>
             </div>
         </div>
     </section>
@@ -84,11 +84,11 @@ $homepage_id = get_option('page_on_front');
     <section>
         <div class="sectionFive">
             <div class="mobtextFour wow slideInLeft" data-wow-duration="1s">
-                <p class="font20 fontW800 colorBlack">Solutions </p>
-                <h1 class="font60 fontW800 colorBlack">Optimizing for success</h1>
+                <p class="font20 fontW800 colorBlack">Impact </p>
+                <h1 class="font60 fontW800 colorBlack">A memorable and unique identity that makes the brand stand out</h1>
             </div>
             <div class="mobsubtextFour wow slideInRight" data-wow-duration="1s">
-                <h5 class="font20 colorBlack fontW500">To achieve true performance optimization, all 3D elements were recomposed, and animations were tailored to fit the mobile screen for ease of navigation, minimal load time, and an easy call to action.</h5>
+                <h5 class="font20 colorBlack fontW500">The user demographic  on this platform are from Tier 2 and Tier 3 cities who do not know much about WEB3 & it’s implications. They wanted an Informative website to educate their users and help them embark on the journey together with Oneto11.</h5>
             </div>
         </div>
     </section>
@@ -100,10 +100,10 @@ $homepage_id = get_option('page_on_front');
         <div class="sectionFive">
             <div class="mobtextFour wow slideInLeft" data-wow-duration="1s">
                 <p class="font20 fontW800 colorBlack">Impact </p>
-                <h1 class="font60 fontW800 colorBlack">Content that educates the users & design that reflects the brand’s values</h1>
+                <h1 class="font60 fontW800 colorBlack">Delightful user experience delivered before time</h1>
             </div>
             <div class="mobsubtextFour wow slideInRight" data-wow-duration="1s">
-                <h5 class="font20 colorBlack fontW500">The user demographic  on this platform are from Tier 2 and Tier 3 cities who do not know much about WEB3 & it’s implications. They wanted an Informative website to educate their users and help them embark on the journey together with Oneto11.</h5>
+                <h5 class="font20 colorBlack fontW500">All assets were successfully delivered ahead of schedule, giving the client the luxury of time to get internal approvals and move assets into development for their mobile website launch.</h5>
             </div>
         </div>
     </section>
