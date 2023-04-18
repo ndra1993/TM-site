@@ -7725,21 +7725,6 @@ footer .ftbutton {
         opacity: 1;
         visibility: visible; } }
 
-.almaraiBanner .mobImg {
-  padding-top: 200px; }
-@media screen and (max-width: 1600px) {
-  .almaraiBanner .mobImg {
-    padding-top: 160px; } }
-@media screen and (max-width: 1400px) {
-  .almaraiBanner .mobImg {
-    padding-top: 120px; } }
-@media screen and (max-width: 1200px) {
-  .almaraiBanner .mobImg {
-    padding-top: 100px; } }
-@media screen and (max-width: 1024px) {
-  .almaraiBanner .mobImg {
-    padding-top: 0px; } }
-
 .csdetailBg {
   margin-top: 96px;
   /**************************************************Media Query*********************************************/ }
@@ -7760,7 +7745,6 @@ footer .ftbutton {
         margin: 35px 0px; }
       .csdetailBg .bannerSection .sectionOne .mobtext h5 {
         line-height: 30px;
-        color: rgba(255, 255, 255, 0.5);
         width: 73%; }
     .csdetailBg .bannerSection .sectionOne .mobImg {
       margin: 0 auto 0 24%;
@@ -7822,9 +7806,10 @@ footer .ftbutton {
   .csdetailBg .leftimg-rightText .innerDiv {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding: 100px 0px; }
     .csdetailBg .leftimg-rightText .innerDiv .mobimgTwo {
-      width: 55%;
+      width: 50%;
       display: flex;
       align-items: center;
       justify-content: center; }
@@ -7968,7 +7953,7 @@ footer .ftbutton {
       .csdetailBg .leftimg-rightText .innerDiv {
         padding: 80px 0px; }
         .csdetailBg .leftimg-rightText .innerDiv .mobimgTwo {
-          width: 55%; }
+          width: 52%; }
         .csdetailBg .leftimg-rightText .innerDiv .mobtextTwo {
           width: 45%; }
           .csdetailBg .leftimg-rightText .innerDiv .mobtextTwo .innerContent {
@@ -8048,7 +8033,7 @@ footer .ftbutton {
       .csdetailBg .leftimg-rightText .innerDiv {
         padding: 60px 0px; }
         .csdetailBg .leftimg-rightText .innerDiv .mobimgTwo {
-          width: 50%; }
+          width: 45%; }
         .csdetailBg .leftimg-rightText .innerDiv .mobtextTwo {
           width: 50%; }
           .csdetailBg .leftimg-rightText .innerDiv .mobtextTwo .innerContent {
@@ -8272,7 +8257,7 @@ footer .ftbutton {
   display: none; }
 #svganime .newClass {
   animation: 2s slide-right forwards;
-  animation-delay: .8s;
+  animation-delay: .5s;
   opacity: 0; }
 #svganime .layer_two,
 #svganime .layer_three {
@@ -8286,7 +8271,7 @@ footer .ftbutton {
     opacity: 1; } }
 #svganime .newClasstwo {
   animation: 2s slide-left forwards;
-  animation-delay: .8s;
+  animation-delay: .5s;
   opacity: 0; }
 @keyframes slide-left {
   from {
@@ -8295,18 +8280,30 @@ footer .ftbutton {
   to {
     transform: translateX(0%);
     opacity: 1; } }
+@media screen and (max-width: 1024px) {
+  #svganime .layer_two,
+  #svganime .layer_three {
+    opacity: 1; } }
+
 #multipleMbl .mobile_one,
 #multipleMbl .mobile_two,
 #multipleMbl .mobileSec_two,
-#multipleMbl .mobileSec_one, #multipleMbltwo .mobile_one,
+#multipleMbl .mobileSec_one,
+#multipleMbltwo .mobile_one,
 #multipleMbltwo .mobile_two,
 #multipleMbltwo .mobileSec_two,
 #multipleMbltwo .mobileSec_one {
   opacity: 0; }
-#multipleMbl .mobile_two_anime, #multipleMbl .mobileSec_two_anime, #multipleMbltwo .mobile_two_anime, #multipleMbltwo .mobileSec_two_anime {
+#multipleMbl .mobile_two_anime,
+#multipleMbl .mobileSec_two_anime,
+#multipleMbltwo .mobile_two_anime,
+#multipleMbltwo .mobileSec_two_anime {
   animation: fadeinall 3s forwards;
   opacity: 1; }
-#multipleMbl .mobile_one_anime, #multipleMbl .mobileSec_one_anime, #multipleMbltwo .mobile_one_anime, #multipleMbltwo .mobileSec_one_anime {
+#multipleMbl .mobile_one_anime,
+#multipleMbl .mobileSec_one_anime,
+#multipleMbltwo .mobile_one_anime,
+#multipleMbltwo .mobileSec_one_anime {
   animation: fadeinalltwo 3s forwards;
   opacity: 1; }
 @keyframes fadeinall {
@@ -8319,5 +8316,49 @@ footer .ftbutton {
     transform: translateY(500px); }
   90% {
     transform: translateY(0px); } }
+@media screen and (max-width: 1024px) {
+  #multipleMbl .mobile_one,
+  #multipleMbl .mobile_two,
+  #multipleMbl .mobileSec_two,
+  #multipleMbl .mobileSec_one,
+  #multipleMbltwo .mobile_one,
+  #multipleMbltwo .mobile_two,
+  #multipleMbltwo .mobileSec_two,
+  #multipleMbltwo .mobileSec_one {
+    opacity: 1; } }
+
+#lampAnime .st0 {
+  fill: #CBDCF1;
+  animation: lineatwo 1s linear forwards;
+  opacity: 0;
+  animation-delay: 1.5s; }
+#lampAnime .st1 {
+  fill: none;
+  stroke: #BAD5EF;
+  stroke-width: 1.5;
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: linea 5s linear forwards;
+  animation-delay: 0.3s; }
+@keyframes linea {
+  to {
+    stroke-dashoffset: 0; } }
+@keyframes lineatwo {
+  to {
+    opacity: 1; } }
+#lampAnime #Layer_2,
+#lampAnime #Layer_3 {
+  animation: fadeinall 2s forwards;
+  animation-delay: .1s;
+  opacity: 0;
+  transform: translateY(0%); }
+@keyframes fadeinall {
+  from {
+    opacity: 0;
+    transform: translateY(100%); }
+  40% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
 
 /*# sourceMappingURL=main.css.map */
