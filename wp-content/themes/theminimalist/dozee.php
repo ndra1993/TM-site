@@ -62,11 +62,36 @@
         </div>
     </section>
     <section>
-        <div class="fullSection dozeebg textCenter">
-            <h1 class="font40 fontW800 colorWhite">Creating s pattern that conveys a story. </h1>
-            <h5 class="font20 colorWhite fontW500">Carrying forward our design solution, our brand pattern is created to narrate our story. 
+        <div class="fullSection dozeebg">
+            <h1 class="font40 fontW800 colorWhite textCenter">Creating s pattern that conveys a story. </h1>
+            <h5 class="font20 colorWhite fontW500 textCenter">Carrying forward our design solution, our brand pattern is created to narrate our story. 
             It is created with combinations of Dozee shapes which come together to construct a Ballistocardiography wave.
             This implementation ensures we keep science at the core of our pattern design.</h5>
+            <div class="fullSectionAnimation">
+                <div class="fullSectionAnimationOne">
+                    <img src="<?php bloginfo('template_directory'); ?>/images/fullSectionAnimationOne-1.png">
+                    <img src="<?php bloginfo('template_directory'); ?>/images/fullSectionAnimationOne-2.png">
+                </div>
+                <div class="fullSectionAnimationTwo">
+                    <img src="<?php bloginfo('template_directory'); ?>/images/dozee-convey.gif">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section>
+        <div class="fullSectionTwo textCenter">
+            <h1 class="font40 fontW800 colorBlack">Intro for Guidelines</h1>
+            <h5 class="font20 fontW500">Lorem ipsum: Carrying forward our design solution, our brand pattern is created to narrate our story. It is created with combinations of Dozee shapes which come together to construct a Ballistocardiography wave. This implementation ensures we keep science at the core of our pattern design.</h5>
+        </div>
+    </section>
+
+    <section>
+        <div class="sectionFiveBanner">
+            <div class="">
+                <img src="<?php bloginfo('template_directory'); ?>/images/dozee-footer-animation.png">
+            </div>
+            
         </div>
     </section>
     <section>
@@ -96,7 +121,7 @@
         </div>
     </section>
     <section>
-        <div class="sectionThree">
+        <div class="sectionThree dozeebg">
             <div class="mobtextThree wow slideInLeft" data-wow-duration="1s">
                 <p class="font20 fontW800 colorWhite">solutions</p>
                 <h1 class="font60 fontW800 colorWhite">Collaterals & stationary that is in line with the design language</h1>
@@ -107,14 +132,8 @@
         </div>
     </section>
     <section>
-        <div class="sectionFour">
-            <div class="desktopImg">
-                <img src="<?php bloginfo('template_directory'); ?>/images/dozee-solutions.png">
-            </div>
-            <div class="mobileImg">
-                <img src="<?php bloginfo('template_directory'); ?>/images/dozee-solutions.png">
-                <!-- <img src="<?php bloginfo('template_directory'); ?>/images/mbl-responsive.png"> -->
-            </div>
+        <div class="sectionFiveBanner">
+            <img src="<?php bloginfo('template_directory'); ?>/images/dozee-solutions.png">
         </div>
     </section>
     <section>
@@ -128,19 +147,23 @@
             </div>
         </div>
         <img class="sectionFiveBanner" src="<?php bloginfo('template_directory'); ?>/images/dozee-impact-banner.png">
-        <div class="sectionFiveSecond">
-            <div class="mobtextFour wow slideInLeft" data-wow-duration="1s">
+   </section>
+    <section>
+        <div class="sectionTwo">
+            <div class="mobimgTwo wow slideInLeft" data-wow-duration="1s">
                 <img src="<?php bloginfo('template_directory'); ?>/images/dozee-impact-banner2.png">
             </div>
-            <div class="mobsubtextFour wow slideInRight" data-wow-duration="1s">
-                <p class="font20 fontW800 colorBlack">impact</p>
-                <h1 class="font60 fontW800 colorBlack">A memorable and unique identity that makes the brand stand out</h1>
-                <h5 class="font20 colorBlack fontW500">The user demographic  on this platform are from Tier 2 and Tier 3 cities who do not know much about WEB3 & it’s implications. They wanted an Informative website to educate their users and help them embark on the journey together with Oneto11.</h5>
+            <div class="mobtextTwo wow slideInRight" data-wow-duration="1s">
+                <div class="">
+                    <p class="font20 fontW800 colorBlack">impact</p>
+                    <h1 class="font60 fontW800 colorBlack">A memorable and unique identity that makes the brand stand out</h1>
+                    <h5 class="font20 colorBlack fontW500">The user demographic  on this platform are from Tier 2 and Tier 3 cities who do not know much about WEB3 & it’s implications. They wanted an Informative website to educate their users and help them embark on the journey together with Oneto11.</h5>
+                </div>
             </div>
         </div>
     </section>
     <section>
-        <div class="sectionThree">
+        <div class="sectionThree dozeebg">
             <div class="mobtextThree wow slideInLeft" data-wow-duration="1s">
                 <p class="font20 fontW800 colorWhite">solutions</p>
                 <h1 class="font60 fontW800 colorWhite">A clean  design with an emphasis on the information</h1>
@@ -151,14 +174,8 @@
         </div>
     </section>
     <section>
-        <div class="sectionFour">
-            <div class="desktopImg">
-                <img src="<?php bloginfo('template_directory'); ?>/images/dozee-solutions2.png">
-            </div>
-            <div class="mobileImg">
-                <img src="<?php bloginfo('template_directory'); ?>/images/dozee-solutions2.png">
-               
-            </div>
+        <div class="sectionFiveBanner">
+            <img src="<?php bloginfo('template_directory'); ?>/images/dozee-solutions2.png">
         </div>
     </section>
     <section>

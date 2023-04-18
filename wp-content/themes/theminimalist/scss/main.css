@@ -2649,7 +2649,37 @@ footer .ftbutton {
     .casebgdetails .sectionFour .mobileImg {
       display: none; }
   .casebgdetails .fullSection {
-    padding: 130px 0px 130px 112px; }
+    padding: 130px 208px 190px 163px; }
+    .casebgdetails .fullSection h1 {
+      margin-bottom: 36px;
+      line-height: 53px;
+      letter-spacing: -0.03em; }
+    .casebgdetails .fullSection h5 {
+      color: rgba(255, 255, 255, 0.5);
+      line-height: 36px;
+      letter-spacing: 0.03em;
+      margin-bottom: 110px; }
+    .casebgdetails .fullSection .fullSectionAnimation {
+      display: flex;
+      width: 100%; }
+      .casebgdetails .fullSection .fullSectionAnimation .fullSectionAnimationOne {
+        width: 50%; }
+        .casebgdetails .fullSection .fullSectionAnimation .fullSectionAnimationOne img {
+          margin-bottom: 40px; }
+          .casebgdetails .fullSection .fullSectionAnimation .fullSectionAnimationOne img:last-child {
+            margin-bottom: 0px; }
+      .casebgdetails .fullSection .fullSectionAnimation .fullSectionAnimationTwo {
+        width: 50%; }
+  .casebgdetails .fullSectionTwo {
+    padding: 88px 185px 110px 185px; }
+    .casebgdetails .fullSectionTwo h1 {
+      margin-bottom: 36px;
+      line-height: 53px;
+      letter-spacing: -0.03em; }
+    .casebgdetails .fullSectionTwo h5 {
+      color: rgba(0, 0, 0, 0.5);
+      line-height: 36px;
+      letter-spacing: 0.03em; }
   .casebgdetails .sectionFourMeesho .desktopMeeshoSlider {
     display: block; }
   .casebgdetails .sectionFourMeesho .mobileMeeshoSlider {
@@ -2746,6 +2776,23 @@ footer .ftbutton {
       padding: 30px 0px; }
       .casebgdetails .sectionFour img {
         width: 68%; }
+    .casebgdetails .fullSection {
+      padding: 100px 150px 160px 120px; }
+      .casebgdetails .fullSection h1 {
+        margin-bottom: 30px;
+        line-height: 45px; }
+      .casebgdetails .fullSection h5 {
+        line-height: 30px;
+        margin-bottom: 90px; }
+      .casebgdetails .fullSection .fullSectionAnimation .fullSectionAnimationOne img {
+        margin-bottom: 30px; }
+    .casebgdetails .fullSectionTwo {
+      padding: 70px 150px 100px 150px; }
+      .casebgdetails .fullSectionTwo h1 {
+        margin-bottom: 30px;
+        line-height: 45px; }
+      .casebgdetails .fullSectionTwo h5 {
+        line-height: 30px; }
     .casebgdetails .sectionFive {
       padding: 100px 0px 100px 82px; }
       .casebgdetails .sectionFive .mobtextFour h1 {
@@ -2791,6 +2838,23 @@ footer .ftbutton {
         padding: 20px 0px; }
         .casebgdetails .sectionFour img {
           width: 64%; }
+      .casebgdetails .fullSection {
+        padding: 80px 120px 120px 100px; }
+        .casebgdetails .fullSection h1 {
+          margin-bottom: 25px;
+          line-height: 40px; }
+        .casebgdetails .fullSection h5 {
+          line-height: 25px;
+          margin-bottom: 70px; }
+        .casebgdetails .fullSection .fullSectionAnimation .fullSectionAnimationOne img {
+          margin-bottom: 20px; }
+      .casebgdetails .fullSectionTwo {
+        padding: 50px 120px 80px 120px; }
+        .casebgdetails .fullSectionTwo h1 {
+          margin-bottom: 25px;
+          line-height: 40px; }
+        .casebgdetails .fullSectionTwo h5 {
+          line-height: 25px; }
       .casebgdetails .sectionFive {
         padding: 80px 0px 80px 52px; }
         .casebgdetails .sectionFive .mobtextFour h1 {
@@ -2834,6 +2898,23 @@ footer .ftbutton {
       padding: 20px 0px; }
       .casebgdetails .sectionFour img {
         width: 64%; }
+    .casebgdetails .fullSection {
+      padding: 50px 100px 90px 80px; }
+      .casebgdetails .fullSection h1 {
+        margin-bottom: 22px;
+        line-height: 35px; }
+      .casebgdetails .fullSection h5 {
+        line-height: 22px;
+        margin-bottom: 50px; }
+      .casebgdetails .fullSection .fullSectionAnimation .fullSectionAnimationOne img {
+        margin-bottom: 15px; }
+    .casebgdetails .fullSectionTwo {
+      padding: 40px 100px 60px 100px; }
+      .casebgdetails .fullSectionTwo h1 {
+        margin-bottom: 22px;
+        line-height: 35px; }
+      .casebgdetails .fullSectionTwo h5 {
+        line-height: 22px; }
     .casebgdetails .sectionFive {
       padding: 50px 0px 60px 32px; }
       .casebgdetails .sectionFive .mobtextFour h1 {
@@ -2899,6 +2980,33 @@ footer .ftbutton {
           display: block; }
         .casebgdetails .sectionFour .mobileImg {
           display: block; }
+      .casebgdetails .fullSection {
+        padding: 32px 70px 50px 50px; }
+        .casebgdetails .fullSection h1 {
+          margin-bottom: 20px;
+          line-height: 30px; }
+        .casebgdetails .fullSection h5 {
+          line-height: 20px; }
+        .casebgdetails .fullSection .fullSectionAnimation {
+          display: block; }
+          .casebgdetails .fullSection .fullSectionAnimation .fullSectionAnimationOne {
+            width: 100%; }
+            .casebgdetails .fullSection .fullSectionAnimation .fullSectionAnimationOne img {
+              margin-bottom: 10px;
+              width: 100%; }
+              .casebgdetails .fullSection .fullSectionAnimation .fullSectionAnimationOne img:last-child {
+                margin-bottom: 10px; }
+          .casebgdetails .fullSection .fullSectionAnimation .fullSectionAnimationTwo {
+            width: 100%; }
+            .casebgdetails .fullSection .fullSectionAnimation .fullSectionAnimationTwo img {
+              width: 100%; }
+      .casebgdetails .fullSectionTwo {
+        padding: 32px 70px 40px 70px; }
+        .casebgdetails .fullSectionTwo h1 {
+          margin-bottom: 20px;
+          line-height: 30px; }
+        .casebgdetails .fullSectionTwo h5 {
+          line-height: 20px; }
       .casebgdetails .sectionFourMeesho .desktopMeeshoSlider {
         display: none; }
       .casebgdetails .sectionFourMeesho .mobileMeeshoSlider {
