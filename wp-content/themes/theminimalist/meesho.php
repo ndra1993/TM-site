@@ -14,7 +14,7 @@ $homepage_id = get_option('page_on_front');
                 <h1 class="font60 fontW800 colorWhite">Beating the clock to launch Meesho's mobile-friendly website</h1>
                 <h5 class="font20 colorWhite fontW500">Meesho is the biggest and most reliable online marketplace in India for resellers that conduct their business over Facebook and WhatsApp. It is democratising e-commerce for all, thanks to its tech-first philosophy.</h5>
             </div>
-            <div class="wow fadeInUp mobImg" data-wow-duration="4s">
+            <div class="wow bounceInUp mobImg" data-wow-duration="4s">
                 <img src="<?php bloginfo('template_directory'); ?>/images/meesho-banner.svg">
             </div>
         </div>
