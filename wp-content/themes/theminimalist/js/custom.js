@@ -66,52 +66,55 @@ $(function () {
 
 
 // svg animation on scroll js starts
-$.fn.isInViewport = function () {
-  var elementTop = $(this).offset().top;
-  var elementBottom = elementTop + $(this).outerHeight();
-  var viewportTop = $(window).scrollTop();
-  var viewportBottom = viewportTop + $(window).height();
-  return elementBottom > viewportTop && elementTop < viewportBottom;
-};
-$(window).on('resize scroll', function () {
-  if ($('#svganime').length) {
-    if ($('#svganime').isInViewport()) {
-      setTimeout(() => {
-        $('.layer_two').addClass('newClass');
-        $('.layer_three').addClass('newClasstwo');
-      }, 500);
+if ($(window).width() > 1024) {
+  $.fn.isInViewport = function () {
+    var elementTop = $(this).offset().top;
+    var elementBottom = elementTop + $(this).outerHeight();
+    var viewportTop = $(window).scrollTop();
+    var viewportBottom = viewportTop + $(window).height();
+    return elementBottom > viewportTop && elementTop < viewportBottom;
+  };
+  $(window).on('resize scroll', function () {
+    if ($('#svganime').length) {
+      if ($('#svganime').isInViewport()) {
+        setTimeout(() => {
+          $('.layer_two').addClass('newClass');
+          $('.layer_three').addClass('newClasstwo');
+        }, 500);
+      }
+      else {
+        // $('.layer_two').removeClass('newClass');
+        // $('.layer_three').removeClass('newClasstwo');
+      }
     }
-    else {
-      // $('.layer_two').removeClass('newClass');
-      // $('.layer_three').removeClass('newClasstwo');
+   
+    if ($('#multipleMbl').length) {
+      if ($('#multipleMbl').isInViewport()) {
+        setTimeout(() => {
+          $('.mobile_one').addClass('mobile_one_anime');
+          $('.mobile_two').addClass('mobile_two_anime');
+        }, 500);
+      }
+      else {
+        // $('.layer_two').removeClass('newClass');
+        // $('.layer_three').removeClass('newClasstwo');
+      }
     }
-  }
-  if ($('#multipleMbl').length) {
-    if ($('#multipleMbl').isInViewport()) {
-      setTimeout(() => {
-        $('.mobile_one').addClass('mobile_one_anime');
-        $('.mobile_two').addClass('mobile_two_anime');
-      }, 500);
+  
+    if ($('#multipleMbltwo').length) {
+      if ($('#multipleMbltwo').isInViewport()) {
+        setTimeout(() => {
+          $('.mobileSec_one').addClass('mobileSec_one_anime');
+          $('.mobileSec_two').addClass('mobileSec_two_anime');
+        }, 500);
+      }
+      else {
+        // $('.layer_two').removeClass('newClass');
+        // $('.layer_three').removeClass('newClasstwo');
+      }
     }
-    else {
-      // $('.layer_two').removeClass('newClass');
-      // $('.layer_three').removeClass('newClasstwo');
-    }
-  }
-
-  if ($('#multipleMbltwo').length) {
-    if ($('#multipleMbltwo').isInViewport()) {
-      setTimeout(() => {
-        $('.mobileSec_one').addClass('mobileSec_one_anime');
-        $('.mobileSec_two').addClass('mobileSec_two_anime');
-      }, 500);
-    }
-    else {
-      // $('.layer_two').removeClass('newClass');
-      // $('.layer_three').removeClass('newClasstwo');
-    }
-  }
-});
+  });
+}
 // svg animation on scroll js ends
 
 
