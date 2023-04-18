@@ -8023,6 +8023,56 @@ footer .ftbutton {
       position: absolute;
       bottom: 0%;
       transition: all 1s ease-in-out; }
+  .csdetailBg .bannerSlidermain .bannerInnerDiv {
+    position: relative;
+    padding: 120px 80px 0px 0px; }
+    .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerSlider img {
+      margin: 0 auto; }
+    .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerSlider .slick-dots {
+      position: absolute;
+      top: 50%;
+      right: 0;
+      transform: translate(-50%, -50%);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 100%;
+      width: unset; }
+      .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerSlider .slick-dots li {
+        width: 8px;
+        height: 8px;
+        margin: 0px 10px;
+        padding: 10px 0px; }
+        .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerSlider .slick-dots li button:before {
+          content: " ";
+          border-radius: 10px;
+          width: 8px;
+          height: 8px;
+          background: #627578;
+          opacity: 1; }
+      .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerSlider .slick-dots li.slick-active {
+        margin-bottom: 40px; }
+      .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerSlider .slick-dots li.slick-active button:before {
+        opacity: 1;
+        color: #627578;
+        width: 8px;
+        height: 50px;
+        border-radius: 10px;
+        transition: .9s all ease-in-out; }
+    .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara {
+      position: absolute;
+      top: 120px;
+      left: 100px;
+      z-index: 1;
+      width: 28%; }
+      .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara p {
+        line-height: 14px; }
+      .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara h5 {
+        line-height: 30px;
+        width: 75%; }
+      .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara h1 {
+        line-height: 70px;
+        margin: 15px 0px 35px; }
   @media screen and (max-width: 1600px) {
     .csdetailBg {
       margin-top: 86px; }

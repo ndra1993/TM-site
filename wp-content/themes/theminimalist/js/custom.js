@@ -116,6 +116,18 @@ if ($(window).width() > 1024) {
   });
 }
 // svg animation on scroll js ends
+// banner slider case study js starts
+$('.bannerSlider').slick({
+  autoplay: true,
+  autoplaySpeed: 3000,
+  arrows: false,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  infinite:true,
+  cssEase: 'linear',
+  dots: true
+  });
+  // banner slider case study js ends
 
 
 
