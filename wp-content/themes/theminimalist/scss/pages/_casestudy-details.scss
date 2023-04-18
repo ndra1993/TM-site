@@ -34,7 +34,8 @@
             .mobImg {
                 margin: 0 auto 0 24%;
                 width: 60%;
-                img{
+
+                img {
                     max-width: 100%;
                 }
             }
@@ -161,6 +162,7 @@
 
                 .innerContent {
                     width: 80%;
+
                     h1 {
                         line-height: 70px;
                         margin: 5px 0px 35px 0px;
@@ -174,80 +176,99 @@
         }
     }
 
-    .fullimgwithHeading{
+    .fullimgwithHeading {
         text-align: center;
         padding: 70px 0px;
-        .headingSec{
-            h4{
+
+        .headingSec {
+            h4 {
                 margin-bottom: 15px;
                 line-height: 42px;
             }
-            p{
+
+            p {
                 color: rgba(0, 0, 0, 0.5);
                 line-height: 30px;
             }
         }
-        .imgDiv{
+
+        .imgDiv {
             margin-top: 78px;
-            img{
+
+            img {
                 max-width: 100%;
             }
         }
     }
-    .twoImgsides-headingmiddle{
+
+    .twoImgsides-headingmiddle {
         padding: 70px 0px;
-        .imageHeadingmain{
+
+        .imageHeadingmain {
             display: flex;
             align-items: center;
             justify-content: space-between;
             text-align: center;
-            .headingDiv{
+
+            .headingDiv {
                 width: 30%;
-                h4{
+
+                h4 {
                     line-height: 42px;
                     margin-bottom: 15px;
                 }
-                p{
+
+                p {
                     color: rgba(0, 0, 0, 0.5);
                     line-height: 30px;
                 }
             }
-            .imgDivmain{
+
+            .imgDivmain {
                 width: 33%;
-                img{
+
+                img {
                     max-width: 100%;
                 }
             }
         }
     }
-    .twoImgtogether-headinglast{
+
+    .twoImgtogether-headinglast {
         padding: 70px 0px;
-        .imageHeadingmain{
+
+        .imageHeadingmain {
             display: flex;
             align-items: center;
             justify-content: space-between;
             text-align: center;
-            .headingDiv{
+
+            .headingDiv {
                 width: 32%;
                 text-align: left;
                 padding-right: 150px;
-                h4{
+
+                h4 {
                     line-height: 42px;
                     margin-bottom: 15px;
                 }
-                p{
+
+                p {
                     color: rgba(0, 0, 0, 0.5);
                     line-height: 30px;
                 }
             }
-            .imgDivmain{
+
+            .imgDivmain {
                 width: 65%;
-                img{
+
+                img {
                     max-width: 100%;
                 }
             }
         }
     }
+
     .bottomimgLogos {
         position: relative;
         overflow: hidden;
@@ -319,6 +340,72 @@
             transition: all 1s ease-in-out;
         }
 
+    }
+
+    .bannerSlidermain {
+        .bannerInnerDiv {
+            position: relative;
+            padding:120px 80px 0px 0px;
+            .bannerSlider {
+                img {
+                    margin:0 auto;
+                }
+
+                .slick-dots {
+                    position: absolute;
+                    top: 50%;
+                    right: 0;
+                    transform: translate(-50%, -50%);
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    height: 100%;
+                    width: unset;
+
+                    li {
+                        width: 8px;
+                        height: 8px;
+                        margin: 0px 10px;
+                        padding: 10px 0px;
+
+                        button {
+                            &:before {
+                                content: " ";
+                                border-radius: 10px;
+                                width: 8px;
+                                height: 8px;
+                                background: #627578;
+                                opacity: 1;
+                            }
+                        }
+                    }
+
+                    li.slick-active {
+                        margin-bottom: 40px;
+                    }
+
+                    li.slick-active button:before {
+                        opacity: 1;
+                        color: #627578;
+                        width: 8px;
+                        height: 50px;
+                        border-radius: 10px;
+                        transition: .9s all ease-in-out;
+                    }
+                }
+            }
+
+            .bannerslidePara {
+                position: absolute;
+                top: 120px;
+                left: 100px;
+                z-index: 1;
+                width: 28%;
+                p{line-height: 14px;}
+                h5{line-height: 30px;width: 75%;}
+                h1{line-height: 70px;margin: 15px 0px 35px;}
+            }
+        }
     }
 
     /**************************************************Media Query*********************************************/
@@ -398,21 +485,22 @@
         .leftimg-rightText {
             .innerDiv {
                 padding: 80px 0px;
-    
+
                 .mobimgTwo {
                     width: 52%;
                 }
-    
+
                 .mobtextTwo {
                     width: 45%;
-    
+
                     .innerContent {
                         width: 70%;
+
                         h1 {
                             line-height: 60px;
                             margin: 5px 0px 30px 0px;
                         }
-    
+
                         h5 {
                             line-height: 30px;
                         }
@@ -421,49 +509,60 @@
             }
         }
 
-        .fullimgwithHeading{
+        .fullimgwithHeading {
             padding: 50px 0px;
-            .headingSec{
-                h4{
+
+            .headingSec {
+                h4 {
                     margin-bottom: 10px;
                     line-height: 38px;
                 }
-                p{
+
+                p {
                     line-height: 27px;
                 }
             }
-            .imgDiv{
+
+            .imgDiv {
                 margin-top: 58px;
             }
         }
-        .twoImgsides-headingmiddle{
+
+        .twoImgsides-headingmiddle {
             padding: 50px 0px;
-            .imageHeadingmain{
-               .headingDiv{
-                    h4{
+
+            .imageHeadingmain {
+                .headingDiv {
+                    h4 {
                         margin-bottom: 10px;
                         line-height: 38px;
                     }
-                    p{
+
+                    p {
                         line-height: 27px;
                     }
                 }
             }
         }
-        .twoImgtogether-headinglast{
+
+        .twoImgtogether-headinglast {
             padding: 50px 0px;
-            .imageHeadingmain{
-                .headingDiv{
-                  padding-right: 120px;
-                    h4{
+
+            .imageHeadingmain {
+                .headingDiv {
+                    padding-right: 120px;
+
+                    h4 {
                         line-height: 38px;
                         margin-bottom: 10px;
                     }
-                    p{
+
+                    p {
                         line-height: 27px;
                     }
                 }
-                .imgDivmain{
+
+                .imgDivmain {
                     width: 66%;
                 }
             }
@@ -556,21 +655,22 @@
         .leftimg-rightText {
             .innerDiv {
                 padding: 60px 0px;
-    
+
                 .mobimgTwo {
                     width: 45%;
                 }
-    
+
                 .mobtextTwo {
                     width: 50%;
-    
+
                     .innerContent {
                         width: 80%;
+
                         h1 {
                             line-height: 50px;
                             margin: 5px 0px 25px 0px;
                         }
-    
+
                         h5 {
                             line-height: 28px;
                         }
@@ -579,47 +679,58 @@
             }
         }
 
-        .fullimgwithHeading{
+        .fullimgwithHeading {
             padding: 40px 0px;
-            .headingSec{
-                h4{
+
+            .headingSec {
+                h4 {
                     line-height: 32px;
                 }
-                p{
+
+                p {
                     line-height: 25px;
                 }
             }
-            .imgDiv{
+
+            .imgDiv {
                 margin-top: 50px;
             }
         }
-        .twoImgsides-headingmiddle{
+
+        .twoImgsides-headingmiddle {
             padding: 40px 0px;
-            .imageHeadingmain{
-               .headingDiv{
-                    h4{
+
+            .imageHeadingmain {
+                .headingDiv {
+                    h4 {
                         line-height: 32px;
                     }
-                    p{
+
+                    p {
                         line-height: 25px;
                     }
                 }
             }
         }
-        .twoImgtogether-headinglast{
+
+        .twoImgtogether-headinglast {
             padding: 40px 0px;
-            .imageHeadingmain{
-                .headingDiv{
+
+            .imageHeadingmain {
+                .headingDiv {
                     width: 31%;
                     padding-right: 80px;
-                    h4{
+
+                    h4 {
                         line-height: 32px;
                     }
-                    p{
+
+                    p {
                         line-height: 25px;
                     }
                 }
-                .imgDivmain{
+
+                .imgDivmain {
                     width: 67%;
                 }
             }
@@ -703,47 +814,58 @@
             }
         }
 
-        .fullimgwithHeading{
+        .fullimgwithHeading {
             padding: 30px 0px;
-            .headingSec{
-                h4{
+
+            .headingSec {
+                h4 {
                     line-height: 28px;
                 }
-                p{
+
+                p {
                     line-height: 23px;
                 }
             }
-            .imgDiv{
+
+            .imgDiv {
                 margin-top: 40px;
             }
         }
-        .twoImgsides-headingmiddle{
+
+        .twoImgsides-headingmiddle {
             padding: 30px 0px;
-            .imageHeadingmain{
-               .headingDiv{
-                    h4{
+
+            .imageHeadingmain {
+                .headingDiv {
+                    h4 {
                         line-height: 28px;
                     }
-                    p{
+
+                    p {
                         line-height: 23px;
                     }
                 }
             }
         }
-        .twoImgtogether-headinglast{
+
+        .twoImgtogether-headinglast {
             padding: 30px 0px;
-            .imageHeadingmain{
-                .headingDiv{
+
+            .imageHeadingmain {
+                .headingDiv {
                     width: 30%;
                     padding-right: 60px;
-                    h4{
+
+                    h4 {
                         line-height: 28px;
                     }
-                    p{
+
+                    p {
                         line-height: 23px;
                     }
                 }
-                .imgDivmain{
+
+                .imgDivmain {
                     width: 68%;
                 }
             }
@@ -857,6 +979,7 @@
                 display: block;
             }
         }
+
         .bottomimgLogos .moreCasestudy {
             position: static;
 
@@ -881,23 +1004,25 @@
             .innerDiv {
                 padding: 30px 0px;
                 display: block;
-    
+
                 .mobimgTwo {
                     width: 100%;
                     padding: 0px;
                 }
-    
+
                 .mobtextTwo {
                     width: 100%;
                     margin-top: 20px;
                     padding: 0px 24px;
+
                     .innerContent {
                         width: 100%;
+
                         h1 {
                             line-height: 36px;
                             margin: 5px 0px 10px 0px;
                         }
-    
+
                         h5 {
                             line-height: 20px;
                         }
@@ -905,57 +1030,73 @@
                 }
             }
         }
-        .fullimgwithHeading{
+
+        .fullimgwithHeading {
             padding: 20px 0px;
-            .headingSec{
-                h4{
+
+            .headingSec {
+                h4 {
                     line-height: 26px;
                     margin-bottom: 5px;
                 }
-                p{
+
+                p {
                     line-height: 21px;
                 }
             }
-            .imgDiv{
+
+            .imgDiv {
                 margin-top: 25px;
             }
         }
-        .twoImgsides-headingmiddle{
+
+        .twoImgsides-headingmiddle {
             padding: 20px 0px;
-            .imageHeadingmain{
+
+            .imageHeadingmain {
                 display: block;
-               .headingDiv{
-                width: 100%;
-                padding: 20px;
-                    h4{
+
+                .headingDiv {
+                    width: 100%;
+                    padding: 20px;
+
+                    h4 {
                         line-height: 26px;
                         margin-bottom: 5px;
                     }
-                    p{
+
+                    p {
                         line-height: 21px;
                     }
                 }
-                .imgDivmain{
+
+                .imgDivmain {
                     width: 100%;
                 }
             }
         }
-        .twoImgtogether-headinglast{
+
+        .twoImgtogether-headinglast {
             padding: 20px 0px;
-            .imageHeadingmain{
+
+            .imageHeadingmain {
                 display: block;
-                .headingDiv{
+
+                .headingDiv {
                     width: 100%;
                     padding: 20px 20px 0px;
-                    h4{
+
+                    h4 {
                         line-height: 26px;
                         margin-bottom: 5px;
                     }
-                    p{
+
+                    p {
                         line-height: 21px;
                     }
                 }
-                .imgDivmain{
+
+                .imgDivmain {
                     width: 100%;
                 }
             }
