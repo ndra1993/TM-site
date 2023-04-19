@@ -108,7 +108,7 @@
     }
 }
 
-#lampAnime{
+#lampAnime {
     .st0 {
         fill: #CBDCF1;
         animation: lineatwo 1s linear forwards;
@@ -159,5 +159,109 @@
         100% {
             opacity: 1;
         }
+    }
+}
+
+// arrow animation files
+#arrowAnime, #arrowanimetwo {
+    .st0 {
+        display: none;
+    }
+
+    .st1 {
+        enable-background: new;
+    }
+
+    .st2 {
+        opacity: 0.5;
+        enable-background: new;
+    }
+
+    .st3 {
+        fill: none;
+        stroke: #9ABDE4;
+        stroke-width: 4;
+    }
+    .linearrow , .lineTop{
+        opacity: 0;
+    }
+    .linearrow_anime {
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 1000;
+        animation: linea 2s linear forwards;
+        animation-delay: 2.5s;
+        opacity: 1;
+    }
+
+    .lineTop_anime {
+        animation: linea 5s linear forwards;
+        animation-delay: 3s;
+        stroke-dashoffset: 1000;
+        stroke-dasharray: 1000;
+        opacity: 1;
+    }
+
+    .desktopslide, .textSlide {
+        opacity: 0;
+    }
+    .desktop-slide-anime{
+        animation: 2s slideleftsec forwards;
+        animation-delay: .5s;
+        opacity: 0;
+    }
+    .text-slide-anime{
+        animation: 2s sliderightsec forwards;
+        animation-delay: 3s;
+        opacity: 0;
+    }
+    @keyframes sliderightsec {
+        from {
+            transform: translateX(60%);
+            opacity: 0;
+        }
+
+        to {
+            transform: translateX(0%);
+            opacity: 1;
+        }
+    }
+    @keyframes slideleftsec {
+        from {
+            transform: translateX(-60%);
+            opacity: 0;
+        }
+
+        to {
+            transform: translateX(0%);
+            opacity: 1;
+        }
+    }
+
+    @keyframes linea {
+        to {
+            stroke-dashoffset: 0
+        }
+    }
+}
+
+#arrowanimetwo{
+    .linearrowtwo, .lineToptwo{
+        opacity: 0;
+    }
+    .linearrow_anime, .lineTop_anime{
+        opacity: 1;
+    }
+    .desktopslidetwo, .textSlidetwo{
+        opacity: 0;
+    }
+    .desktop-slide-anime{
+        animation: 2s sliderightsec forwards;
+        animation-delay: .5s;
+        opacity: 0;
+    }
+    .text-slide-anime{
+        animation: 2s slideleftsec forwards;
+        animation-delay: 3s;
+        opacity: 0;
     }
 }

@@ -21,7 +21,7 @@ $homepage_id = get_option('page_on_front');
     <!-- lefttext-rightimg -->
     <section class="lefttext-rightImg" style="background: linear-gradient(127.67deg, #51BB79 18.41%, #00ACEF 47.2%);">
         <div class="sectionTwo">
-            <div class="mobtextTwo wow slideInLeft" data-wow-duration="1s">
+            <div class="mobtextTwo wow slideInLeft" data-wow-duration="1s" style="background:#fff">
                 <div class="innerContent">
                     <p class="font20 fontW800 colorBlack">Objective</p>
                     <h1 class="font60 fontW800 colorBlack">Growing the pie by reducing dependency on delivery agents</h1>
@@ -22300,16 +22300,17 @@ wHj85H8D07zDpY75hNEAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 186.5373 68)">
         </div>
     </section>
     <!-- leftimg-righttext -->
-    <section class="leftimg-rightText" style="background:  linear-gradient(127.67deg, #51BB79 18.41%, #00ACEF 47.2%);">
-        <div class="innerDiv">
+   
+    <section class="lefttext-rightImg leftimg-rightText">
+        <div class="sectionTwo">
+            <div class="mobtextTwo wow slideInRight" data-wow-duration="1s" style="background: none;">
+                <div class="innerContent">
+                    <h1 class="font60 fontW800 colorWhite">Bilingual Design</h1>
+                    <h5 class="font20 colorWhite fontW500">The screens were designed in English and Arabic, providing a comprehensive and impactful user experience.</h5>
+                </div>
+            </div>
             <div class="mobimgTwo wow slideInLeft" data-wow-duration="1s">
                 <img src="<?php bloginfo('template_directory'); ?>/images/almarai-two-mbl.svg">
-            </div>
-            <div class="mobtextTwo wow slideInRight" data-wow-duration="1s">
-                <div class="innerContent">
-                    <h1 class="font60 fontW700 colorWhite">Bilingual Design</h1>
-                    <h5 class="font24 colorWhite fontW400">The screens were designed in English and Arabic, providing a comprehensive and impactful user experience.</h5>
-                </div>
             </div>
         </div>
     </section>
