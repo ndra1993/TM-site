@@ -423,7 +423,7 @@ $('.headerActive').hover(
 );
 
 /*case study liting start*/
-$('.img-grp').slick({
+/*$('.img-grp').slick({
   slidesToShow: 1,
   slidesToScroll: 1,
   arrows: false,
@@ -461,7 +461,7 @@ slider.on('wheel', (function(e) {
   } else {
     jQuery(this).slick('slickPrev');
   }
-}));
+}));*/
 /*case study liting start*/
 
 /*blog details mobile slider start*/
