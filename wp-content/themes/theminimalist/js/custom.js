@@ -127,10 +127,33 @@ if ($(window).width() > 1024) {
         }, 500);
       }
     }
+
+    if ($('#arrowanimethree').length) {
+      if ($('#arrowanimethree').isInViewport()) {
+        setTimeout(() => {
+          $('.desktopslidethree').addClass('desktop-slide-anime');
+          $('.textSlidethree').addClass('text-slide-anime');
+          $('.linearrowthree').addClass('linearrow_anime');
+          $('.lineTopthree').addClass('lineTop_anime');
+        }, 500);
+      }
+    }
+
+    if ($('#arrowanimeFour').length) {
+      if ($('#arrowanimeFour').isInViewport()) {
+        setTimeout(() => {
+          $('.desktopslidefour').addClass('desktop-slide-anime');
+          $('.textSlidefour').addClass('text-slide-anime');
+          $('.linearrowfour').addClass('linearrow_anime');
+          $('.lineTopfour').addClass('lineTop_anime');
+        }, 500);
+      }
+    }
     
   });
 }
 // svg animation on scroll js ends
+
 // banner slider case study js starts
 $('.bannerSlider').slick({
   autoplay: true,
@@ -144,6 +167,7 @@ $('.bannerSlider').slick({
   });
   // banner slider case study js ends
 
+  
 
 
 /*jQuery('.clientSec').slick({

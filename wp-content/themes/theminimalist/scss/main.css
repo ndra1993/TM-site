@@ -8466,38 +8466,38 @@ footer .ftbutton {
     opacity: 0; }
   100% {
     opacity: 1; } }
-#arrowAnime .st0, #arrowanimetwo .st0 {
+#arrowAnime .st0, #arrowanimetwo .st0, #arrowanimethree .st0, #arrowanimeFour .st0 {
   display: none; }
-#arrowAnime .st1, #arrowanimetwo .st1 {
+#arrowAnime .st1, #arrowanimetwo .st1, #arrowanimethree .st1, #arrowanimeFour .st1 {
   enable-background: new; }
-#arrowAnime .st2, #arrowanimetwo .st2 {
+#arrowAnime .st2, #arrowanimetwo .st2, #arrowanimethree .st2, #arrowanimeFour .st2 {
   opacity: 0.5;
   enable-background: new; }
-#arrowAnime .st3, #arrowanimetwo .st3 {
+#arrowAnime .st3, #arrowanimetwo .st3, #arrowanimethree .st3, #arrowanimeFour .st3 {
   fill: none;
   stroke: #9ABDE4;
   stroke-width: 4; }
-#arrowAnime .linearrow, #arrowAnime .lineTop, #arrowanimetwo .linearrow, #arrowanimetwo .lineTop {
+#arrowAnime .linearrow, #arrowAnime .lineTop, #arrowAnime .linearrowtwo, #arrowAnime .lineToptwo, #arrowAnime .linearrowthree, #arrowAnime .lineTopthree, #arrowAnime .linearrowfour, #arrowAnime .lineTopfour, #arrowanimetwo .linearrow, #arrowanimetwo .lineTop, #arrowanimetwo .linearrowtwo, #arrowanimetwo .lineToptwo, #arrowanimetwo .linearrowthree, #arrowanimetwo .lineTopthree, #arrowanimetwo .linearrowfour, #arrowanimetwo .lineTopfour, #arrowanimethree .linearrow, #arrowanimethree .lineTop, #arrowanimethree .linearrowtwo, #arrowanimethree .lineToptwo, #arrowanimethree .linearrowthree, #arrowanimethree .lineTopthree, #arrowanimethree .linearrowfour, #arrowanimethree .lineTopfour, #arrowanimeFour .linearrow, #arrowanimeFour .lineTop, #arrowanimeFour .linearrowtwo, #arrowanimeFour .lineToptwo, #arrowanimeFour .linearrowthree, #arrowanimeFour .lineTopthree, #arrowanimeFour .linearrowfour, #arrowanimeFour .lineTopfour {
   opacity: 0; }
-#arrowAnime .linearrow_anime, #arrowanimetwo .linearrow_anime {
+#arrowAnime .linearrow_anime, #arrowanimetwo .linearrow_anime, #arrowanimethree .linearrow_anime, #arrowanimeFour .linearrow_anime {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
   animation: linea 2s linear forwards;
   animation-delay: 2.5s;
   opacity: 1; }
-#arrowAnime .lineTop_anime, #arrowanimetwo .lineTop_anime {
+#arrowAnime .lineTop_anime, #arrowanimetwo .lineTop_anime, #arrowanimethree .lineTop_anime, #arrowanimeFour .lineTop_anime {
   animation: linea 5s linear forwards;
   animation-delay: 3s;
   stroke-dashoffset: 1000;
   stroke-dasharray: 1000;
   opacity: 1; }
-#arrowAnime .desktopslide, #arrowAnime .textSlide, #arrowanimetwo .desktopslide, #arrowanimetwo .textSlide {
+#arrowAnime .desktopslide, #arrowAnime .textSlide, #arrowAnime .desktopslidetwo, #arrowAnime .textSlidetwo, #arrowAnime .desktopslidethree, #arrowAnime .textSlidethree, #arrowAnime .desktopslidefour, #arrowAnime .textSlidefour, #arrowanimetwo .desktopslide, #arrowanimetwo .textSlide, #arrowanimetwo .desktopslidetwo, #arrowanimetwo .textSlidetwo, #arrowanimetwo .desktopslidethree, #arrowanimetwo .textSlidethree, #arrowanimetwo .desktopslidefour, #arrowanimetwo .textSlidefour, #arrowanimethree .desktopslide, #arrowanimethree .textSlide, #arrowanimethree .desktopslidetwo, #arrowanimethree .textSlidetwo, #arrowanimethree .desktopslidethree, #arrowanimethree .textSlidethree, #arrowanimethree .desktopslidefour, #arrowanimethree .textSlidefour, #arrowanimeFour .desktopslide, #arrowanimeFour .textSlide, #arrowanimeFour .desktopslidetwo, #arrowanimeFour .textSlidetwo, #arrowanimeFour .desktopslidethree, #arrowanimeFour .textSlidethree, #arrowanimeFour .desktopslidefour, #arrowanimeFour .textSlidefour {
   opacity: 0; }
-#arrowAnime .desktop-slide-anime, #arrowanimetwo .desktop-slide-anime {
+#arrowAnime .desktop-slide-anime, #arrowanimetwo .desktop-slide-anime, #arrowanimethree .desktop-slide-anime, #arrowanimeFour .desktop-slide-anime {
   animation: 2s slideleftsec forwards;
   animation-delay: .5s;
   opacity: 0; }
-#arrowAnime .text-slide-anime, #arrowanimetwo .text-slide-anime {
+#arrowAnime .text-slide-anime, #arrowanimetwo .text-slide-anime, #arrowanimethree .text-slide-anime, #arrowanimeFour .text-slide-anime {
   animation: 2s sliderightsec forwards;
   animation-delay: 3s;
   opacity: 0; }
@@ -8518,17 +8518,11 @@ footer .ftbutton {
 @keyframes linea {
   to {
     stroke-dashoffset: 0; } }
-#arrowanimetwo .linearrowtwo, #arrowanimetwo .lineToptwo {
-  opacity: 0; }
-#arrowanimetwo .linearrow_anime, #arrowanimetwo .lineTop_anime {
-  opacity: 1; }
-#arrowanimetwo .desktopslidetwo, #arrowanimetwo .textSlidetwo {
-  opacity: 0; }
-#arrowanimetwo .desktop-slide-anime {
+#arrowanimetwo .desktop-slide-anime, #arrowanimeFour .desktop-slide-anime {
   animation: 2s sliderightsec forwards;
   animation-delay: .5s;
   opacity: 0; }
-#arrowanimetwo .text-slide-anime {
+#arrowanimetwo .text-slide-anime, #arrowanimeFour .text-slide-anime {
   animation: 2s slideleftsec forwards;
   animation-delay: 3s;
   opacity: 0; }
