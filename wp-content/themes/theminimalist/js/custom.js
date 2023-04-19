@@ -95,10 +95,6 @@ if ($(window).width() > 1024) {
           $('.mobile_two').addClass('mobile_two_anime');
         }, 500);
       }
-      else {
-        // $('.layer_two').removeClass('newClass');
-        // $('.layer_three').removeClass('newClasstwo');
-      }
     }
   
     if ($('#multipleMbltwo').length) {
@@ -108,11 +104,30 @@ if ($(window).width() > 1024) {
           $('.mobileSec_two').addClass('mobileSec_two_anime');
         }, 500);
       }
-      else {
-        // $('.layer_two').removeClass('newClass');
-        // $('.layer_three').removeClass('newClasstwo');
+    }
+
+    if ($('#arrowAnime').length) {
+      if ($('#arrowAnime').isInViewport()) {
+        setTimeout(() => {
+          $('.desktopslide').addClass('desktop-slide-anime');
+          $('.textSlide').addClass('text-slide-anime');
+          $('.linearrow').addClass('linearrow_anime');
+          $('.lineTop').addClass('lineTop_anime');
+        }, 500);
       }
     }
+
+    if ($('#arrowanimetwo').length) {
+      if ($('#arrowanimetwo').isInViewport()) {
+        setTimeout(() => {
+          $('.desktopslidetwo').addClass('desktop-slide-anime');
+          $('.textSlidetwo').addClass('text-slide-anime');
+          $('.linearrowtwo').addClass('linearrow_anime');
+          $('.lineToptwo').addClass('lineTop_anime');
+        }, 500);
+      }
+    }
+    
   });
 }
 // svg animation on scroll js ends

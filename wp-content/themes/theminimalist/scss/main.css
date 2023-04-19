@@ -7838,6 +7838,7 @@ footer .ftbutton {
 
 .csdetailBg {
   margin-top: 96px;
+  overflow-x: hidden;
   /**************************************************Media Query*********************************************/ }
   .csdetailBg .animFloat {
     animation: float 3s ease-in-out infinite; }
@@ -7874,10 +7875,9 @@ footer .ftbutton {
         margin: 0 auto; }
     .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo {
       padding: 94px 0px 94px 112px;
-      background: #fff;
       width: 50%; }
       .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent {
-        width: 50%; }
+        width: 60%; }
         .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent p {
           text-transform: uppercase; }
         .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent h1 {
@@ -7914,28 +7914,9 @@ footer .ftbutton {
       width: 80%; }
     .csdetailBg .fullscreenBigimg .sectionFour .mobileImg {
       display: none; }
-  .csdetailBg .leftimg-rightText .innerDiv {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 100px 0px; }
-    .csdetailBg .leftimg-rightText .innerDiv .mobimgTwo {
-      width: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center; }
-      .csdetailBg .leftimg-rightText .innerDiv .mobimgTwo img {
-        max-width: 100%;
-        margin: 0 auto; }
-    .csdetailBg .leftimg-rightText .innerDiv .mobtextTwo {
-      width: 45%; }
-      .csdetailBg .leftimg-rightText .innerDiv .mobtextTwo .innerContent {
-        width: 80%; }
-        .csdetailBg .leftimg-rightText .innerDiv .mobtextTwo .innerContent h1 {
-          line-height: 70px;
-          margin: 5px 0px 35px 0px; }
-        .csdetailBg .leftimg-rightText .innerDiv .mobtextTwo .innerContent h5 {
-          line-height: 36px; }
+  .csdetailBg .leftimg-rightText .sectionTwo {
+    flex-direction: row-reverse;
+    align-items: center; }
   .csdetailBg .fullimgwithHeading {
     text-align: center;
     padding: 70px 0px; }
@@ -8077,6 +8058,11 @@ footer .ftbutton {
       .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara h1 {
         line-height: 70px;
         margin: 15px 0px 35px; }
+  .csdetailBg .taggedBanner .sectionOne {
+    padding: 0px !important; }
+    .csdetailBg .taggedBanner .sectionOne .mobImg {
+      margin: 0 0 0 auto !important;
+      width: 100%; }
   @media screen and (max-width: 1600px) {
     .csdetailBg {
       margin-top: 86px; }
@@ -8093,11 +8079,13 @@ footer .ftbutton {
           margin: 0 auto 0 22%; }
       .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo {
         padding: 74px 0px 74px 82px; }
-        .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent h1 {
-          margin: 5px 0px 20px 0px;
-          line-height: 50px; }
-        .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent h5 {
-          line-height: 27px; }
+        .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent {
+          width: 50%; }
+          .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent h1 {
+            margin: 5px 0px 20px 0px;
+            line-height: 50px; }
+          .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent h5 {
+            line-height: 27px; }
       .csdetailBg .lefttext-rightImg .sectionTwo .mobimgTwo {
         width: 50%; }
       .csdetailBg .leftheading-rightText .sectionThree {
@@ -8111,19 +8099,6 @@ footer .ftbutton {
         padding: 30px 0px; }
         .csdetailBg .fullscreenBigimg .sectionFour img {
           width: 68%; }
-      .csdetailBg .leftimg-rightText .innerDiv {
-        padding: 80px 0px; }
-        .csdetailBg .leftimg-rightText .innerDiv .mobimgTwo {
-          width: 52%; }
-        .csdetailBg .leftimg-rightText .innerDiv .mobtextTwo {
-          width: 45%; }
-          .csdetailBg .leftimg-rightText .innerDiv .mobtextTwo .innerContent {
-            width: 70%; }
-            .csdetailBg .leftimg-rightText .innerDiv .mobtextTwo .innerContent h1 {
-              line-height: 60px;
-              margin: 5px 0px 30px 0px; }
-            .csdetailBg .leftimg-rightText .innerDiv .mobtextTwo .innerContent h5 {
-              line-height: 30px; }
       .csdetailBg .fullimgwithHeading {
         padding: 50px 0px; }
         .csdetailBg .fullimgwithHeading .headingSec h4 {
@@ -8191,19 +8166,6 @@ footer .ftbutton {
         padding: 20px 0px; }
         .csdetailBg .fullscreenBigimg .sectionFour img {
           width: 64%; }
-      .csdetailBg .leftimg-rightText .innerDiv {
-        padding: 60px 0px; }
-        .csdetailBg .leftimg-rightText .innerDiv .mobimgTwo {
-          width: 45%; }
-        .csdetailBg .leftimg-rightText .innerDiv .mobtextTwo {
-          width: 50%; }
-          .csdetailBg .leftimg-rightText .innerDiv .mobtextTwo .innerContent {
-            width: 80%; }
-            .csdetailBg .leftimg-rightText .innerDiv .mobtextTwo .innerContent h1 {
-              line-height: 50px;
-              margin: 5px 0px 25px 0px; }
-            .csdetailBg .leftimg-rightText .innerDiv .mobtextTwo .innerContent h5 {
-              line-height: 28px; }
       .csdetailBg .fullimgwithHeading {
         padding: 40px 0px; }
         .csdetailBg .fullimgwithHeading .headingSec h4 {
@@ -8359,23 +8321,6 @@ footer .ftbutton {
             text-align: center; }
           .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox a img {
             height: 50px; }
-      .csdetailBg .leftimg-rightText .innerDiv {
-        padding: 30px 0px;
-        display: block; }
-        .csdetailBg .leftimg-rightText .innerDiv .mobimgTwo {
-          width: 100%;
-          padding: 0px; }
-        .csdetailBg .leftimg-rightText .innerDiv .mobtextTwo {
-          width: 100%;
-          margin-top: 20px;
-          padding: 0px 24px; }
-          .csdetailBg .leftimg-rightText .innerDiv .mobtextTwo .innerContent {
-            width: 100%; }
-            .csdetailBg .leftimg-rightText .innerDiv .mobtextTwo .innerContent h1 {
-              line-height: 36px;
-              margin: 5px 0px 10px 0px; }
-            .csdetailBg .leftimg-rightText .innerDiv .mobtextTwo .innerContent h5 {
-              line-height: 20px; }
       .csdetailBg .fullimgwithHeading {
         padding: 20px 0px; }
         .csdetailBg .fullimgwithHeading .headingSec h4 {
@@ -8521,5 +8466,71 @@ footer .ftbutton {
     opacity: 0; }
   100% {
     opacity: 1; } }
+#arrowAnime .st0, #arrowanimetwo .st0 {
+  display: none; }
+#arrowAnime .st1, #arrowanimetwo .st1 {
+  enable-background: new; }
+#arrowAnime .st2, #arrowanimetwo .st2 {
+  opacity: 0.5;
+  enable-background: new; }
+#arrowAnime .st3, #arrowanimetwo .st3 {
+  fill: none;
+  stroke: #9ABDE4;
+  stroke-width: 4; }
+#arrowAnime .linearrow, #arrowAnime .lineTop, #arrowanimetwo .linearrow, #arrowanimetwo .lineTop {
+  opacity: 0; }
+#arrowAnime .linearrow_anime, #arrowanimetwo .linearrow_anime {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: linea 2s linear forwards;
+  animation-delay: 2.5s;
+  opacity: 1; }
+#arrowAnime .lineTop_anime, #arrowanimetwo .lineTop_anime {
+  animation: linea 5s linear forwards;
+  animation-delay: 3s;
+  stroke-dashoffset: 1000;
+  stroke-dasharray: 1000;
+  opacity: 1; }
+#arrowAnime .desktopslide, #arrowAnime .textSlide, #arrowanimetwo .desktopslide, #arrowanimetwo .textSlide {
+  opacity: 0; }
+#arrowAnime .desktop-slide-anime, #arrowanimetwo .desktop-slide-anime {
+  animation: 2s slideleftsec forwards;
+  animation-delay: .5s;
+  opacity: 0; }
+#arrowAnime .text-slide-anime, #arrowanimetwo .text-slide-anime {
+  animation: 2s sliderightsec forwards;
+  animation-delay: 3s;
+  opacity: 0; }
+@keyframes sliderightsec {
+  from {
+    transform: translateX(60%);
+    opacity: 0; }
+  to {
+    transform: translateX(0%);
+    opacity: 1; } }
+@keyframes slideleftsec {
+  from {
+    transform: translateX(-60%);
+    opacity: 0; }
+  to {
+    transform: translateX(0%);
+    opacity: 1; } }
+@keyframes linea {
+  to {
+    stroke-dashoffset: 0; } }
+#arrowanimetwo .linearrowtwo, #arrowanimetwo .lineToptwo {
+  opacity: 0; }
+#arrowanimetwo .linearrow_anime, #arrowanimetwo .lineTop_anime {
+  opacity: 1; }
+#arrowanimetwo .desktopslidetwo, #arrowanimetwo .textSlidetwo {
+  opacity: 0; }
+#arrowanimetwo .desktop-slide-anime {
+  animation: 2s sliderightsec forwards;
+  animation-delay: .5s;
+  opacity: 0; }
+#arrowanimetwo .text-slide-anime {
+  animation: 2s slideleftsec forwards;
+  animation-delay: 3s;
+  opacity: 0; }
 
 /*# sourceMappingURL=main.css.map */
