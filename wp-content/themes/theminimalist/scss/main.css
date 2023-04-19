@@ -2584,7 +2584,8 @@ footer .ftbutton {
       padding-left: 112px;
       width: 32%; }
       .casebgdetails .sectionOne .mobtext p {
-        text-transform: uppercase; }
+        text-transform: uppercase;
+        line-height: 14px; }
       .casebgdetails .sectionOne .mobtext h1 {
         line-height: 70px;
         margin: 35px 0px; }
@@ -2610,7 +2611,8 @@ footer .ftbutton {
       background: #fff;
       width: 50%; }
       .casebgdetails .sectionTwo .mobtextTwo p {
-        text-transform: uppercase; }
+        text-transform: uppercase;
+        line-height: 14px; }
       .casebgdetails .sectionTwo .mobtextTwo h1 {
         line-height: 70px;
         margin: 15px 0px 35px 0px;
@@ -2627,7 +2629,8 @@ footer .ftbutton {
     .casebgdetails .sectionThree .mobtextThree {
       width: 50%; }
       .casebgdetails .sectionThree .mobtextThree p {
-        text-transform: uppercase; }
+        text-transform: uppercase;
+        line-height: 14px; }
       .casebgdetails .sectionThree .mobtextThree h1 {
         line-height: 70px;
         margin: 15px 0px 35px 0px;
@@ -2694,7 +2697,8 @@ footer .ftbutton {
     .casebgdetails .sectionFive .mobtextFour {
       width: 50%; }
       .casebgdetails .sectionFive .mobtextFour p {
-        text-transform: uppercase; }
+        text-transform: uppercase;
+        line-height: 14px; }
       .casebgdetails .sectionFive .mobtextFour h1 {
         line-height: 70px;
         margin: 15px 0px 35px 0px;
