@@ -2666,13 +2666,13 @@ footer .ftbutton {
       display: flex;
       width: 100%; }
       .casebgdetails .fullSection .fullSectionAnimation .fullSectionAnimationOne {
-        width: 50%; }
+        width: 30%; }
         .casebgdetails .fullSection .fullSectionAnimation .fullSectionAnimationOne img {
           margin-bottom: 40px; }
           .casebgdetails .fullSection .fullSectionAnimation .fullSectionAnimationOne img:last-child {
             margin-bottom: 0px; }
       .casebgdetails .fullSection .fullSectionAnimation .fullSectionAnimationTwo {
-        width: 50%; }
+        width: 70%; }
   .casebgdetails .fullSectionTwo {
     padding: 88px 185px 110px 185px; }
     .casebgdetails .fullSectionTwo h1 {
