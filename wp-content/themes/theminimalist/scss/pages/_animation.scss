@@ -53,8 +53,6 @@
     }
 }
 
-
-
 #multipleMbl,
 #multipleMbltwo {
 
@@ -163,7 +161,7 @@
 }
 
 // arrow animation files
-#arrowAnime, #arrowanimetwo {
+#arrowAnime, #arrowanimetwo , #arrowanimethree, #arrowanimeFour{
     .st0 {
         display: none;
     }
@@ -182,7 +180,7 @@
         stroke: #9ABDE4;
         stroke-width: 4;
     }
-    .linearrow , .lineTop{
+    .linearrow , .lineTop, .linearrowtwo, .lineToptwo, .linearrowthree, .lineTopthree, .linearrowfour, .lineTopfour{
         opacity: 0;
     }
     .linearrow_anime {
@@ -201,7 +199,7 @@
         opacity: 1;
     }
 
-    .desktopslide, .textSlide {
+    .desktopslide, .textSlide , .desktopslidetwo, .textSlidetwo, .desktopslidethree, .textSlidethree, .desktopslidefour, .textSlidefour{
         opacity: 0;
     }
     .desktop-slide-anime{
@@ -244,16 +242,7 @@
     }
 }
 
-#arrowanimetwo{
-    .linearrowtwo, .lineToptwo{
-        opacity: 0;
-    }
-    .linearrow_anime, .lineTop_anime{
-        opacity: 1;
-    }
-    .desktopslidetwo, .textSlidetwo{
-        opacity: 0;
-    }
+#arrowanimetwo, #arrowanimeFour{
     .desktop-slide-anime{
         animation: 2s sliderightsec forwards;
         animation-delay: .5s;
