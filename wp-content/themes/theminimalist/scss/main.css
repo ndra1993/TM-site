@@ -8022,42 +8022,43 @@ footer .ftbutton {
       transition: all 1s ease-in-out; }
   .csdetailBg .bannerSlidermain .bannerInnerDiv {
     position: relative;
-    padding: 120px 80px 0px 0px; }
-    .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerSlider img {
-      margin: 0 auto; }
-    .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerSlider .slick-dotted.slick-slider {
+    background: linear-gradient(181.96deg, rgba(0, 190, 222, 0.1976) 37.2%, rgba(53, 225, 202, 0.022) 62.22%);
+    padding: 120px 60px 400px 0px; }
+    .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerSlider {
       margin-bottom: 0px; }
-    .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerSlider .slick-dots {
-      position: absolute;
-      top: 50%;
-      right: 0;
-      transform: translate(-50%, -50%);
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      height: 100%;
-      width: unset; }
-      .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerSlider .slick-dots li {
-        width: 8px;
-        height: 8px;
-        margin: 0px 10px;
-        padding: 10px 0px; }
-        .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerSlider .slick-dots li button:before {
-          content: " ";
-          border-radius: 10px;
+      .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerSlider img {
+        margin: 0 auto; }
+      .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerSlider .slick-dots {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translate(-50%, -50%);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        width: unset; }
+        .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerSlider .slick-dots li {
           width: 8px;
           height: 8px;
-          background: #627578;
-          opacity: 1; }
-      .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerSlider .slick-dots li.slick-active {
-        margin-bottom: 40px; }
-      .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerSlider .slick-dots li.slick-active button:before {
-        opacity: 1;
-        color: #627578;
-        width: 8px;
-        height: 50px;
-        border-radius: 10px;
-        transition: .9s all ease-in-out; }
+          margin: 0px 10px;
+          padding: 10px 0px; }
+          .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerSlider .slick-dots li button:before {
+            content: " ";
+            border-radius: 10px;
+            width: 8px;
+            height: 8px;
+            background: #627578;
+            opacity: 1; }
+        .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerSlider .slick-dots li.slick-active {
+          margin-bottom: 40px; }
+        .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerSlider .slick-dots li.slick-active button:before {
+          opacity: 1;
+          color: #627578;
+          width: 8px;
+          height: 50px;
+          border-radius: 10px;
+          transition: .9s all ease-in-out; }
     .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara {
       position: absolute;
       top: 120px;
@@ -8072,6 +8073,8 @@ footer .ftbutton {
       .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara h1 {
         line-height: 70px;
         margin: 15px 0px 35px; }
+    .csdetailBg .bannerSlidermain .bannerInnerDiv .awardSec {
+      display: none; }
   .csdetailBg .taggedBanner .sectionOne {
     padding: 0px !important; }
     .csdetailBg .taggedBanner .sectionOne .mobImg {
@@ -8145,7 +8148,21 @@ footer .ftbutton {
           .csdetailBg .twoImgtogether-headinglast .imageHeadingmain .headingDiv p {
             line-height: 27px; }
         .csdetailBg .twoImgtogether-headinglast .imageHeadingmain .imgDivmain {
-          width: 66%; } }
+          width: 66%; }
+      .csdetailBg .bannerSlidermain .bannerInnerDiv {
+        padding: 100px 50px 300px 0px; }
+        .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara {
+          top: 100px;
+          left: 80px;
+          width: 26%; }
+          .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara p {
+            line-height: 12px; }
+          .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara h5 {
+            line-height: 26px;
+            width: 70%; }
+          .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara h1 {
+            line-height: 50px;
+            margin: 15px 0px 30px; } }
   @media screen and (max-width: 1450px) {
     .csdetailBg {
       margin-top: 76px; }
@@ -8216,7 +8233,20 @@ footer .ftbutton {
           .csdetailBg .twoImgtogether-headinglast .imageHeadingmain .headingDiv p {
             line-height: 25px; }
         .csdetailBg .twoImgtogether-headinglast .imageHeadingmain .imgDivmain {
-          width: 67%; } }
+          width: 67%; }
+      .csdetailBg .bannerSlidermain .bannerInnerDiv {
+        padding: 80px 30px 200px 0px; }
+        .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara {
+          top: 80px;
+          left: 60px;
+          width: 24%; }
+          .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara p {
+            line-height: 12px; }
+          .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara h5 {
+            line-height: 24px; }
+          .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara h1 {
+            line-height: 40px;
+            margin: 10px 0px 25px; } }
   @media screen and (max-width: 1200px) {
     .csdetailBg .bannerSection .sectionOne {
       padding: 35px 0px 60px 0px; }
@@ -8277,7 +8307,22 @@ footer .ftbutton {
         .csdetailBg .twoImgtogether-headinglast .imageHeadingmain .headingDiv p {
           line-height: 23px; }
       .csdetailBg .twoImgtogether-headinglast .imageHeadingmain .imgDivmain {
-        width: 68%; } }
+        width: 68%; }
+    .csdetailBg .bannerSlidermain .bannerInnerDiv {
+      padding: 60px 20px 100px 0px; }
+      .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara {
+        top: 60px;
+        left: 30px;
+        width: 26%; }
+        .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara p {
+          line-height: 10px; }
+        .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara h5 {
+          line-height: 22px; }
+        .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara h1 {
+          line-height: 36px;
+          margin: 10px 0px 15px; }
+      .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerSlider img {
+        width: 80%; } }
   @media screen and (max-width: 1024px) {
     .csdetailBg {
       margin-top: 72px; }
@@ -8400,7 +8445,7 @@ footer .ftbutton {
             width: 100%; }
       .csdetailBg .bannerSlidermain .bannerInnerDiv {
         background: linear-gradient(181.96deg, rgba(0, 190, 222, 0.1976) 37.2%, rgba(53, 225, 202, 0.022) 62.22%);
-        padding: 32px 0px 0px 0px; }
+        padding: 32px 0px 20px 0px; }
         .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara {
           position: unset;
           width: 100%;
@@ -8414,22 +8459,47 @@ footer .ftbutton {
             font-size: 12px;
             line-height: 20px;
             width: 100%; }
-        .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerSlider .slick-dots {
-          top: unset;
-          height: unset;
-          right: 50%;
-          transform: rotate(270deg); }
-          .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerSlider .slick-dots li {
-            margin: 0px;
-            padding: 8px 0px; }
-            .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerSlider .slick-dots li button:before {
-              width: 5px;
-              height: 5px; }
-            .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerSlider .slick-dots li.slick-active {
-              margin-bottom: 10px; }
-              .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerSlider .slick-dots li.slick-active button:before {
-                width: 5px;
-                height: 22px; } }
+        .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerSlider {
+          margin-bottom: 24px; }
+          .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerSlider img {
+            width: unset; }
+          .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerSlider .slick-dots {
+            top: 95%;
+            height: unset;
+            right: 0;
+            left: 0;
+            transform: unset;
+            display: block; }
+            .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerSlider .slick-dots li {
+              margin: 0px;
+              padding: 8px 0px; }
+              .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerSlider .slick-dots li button:before {
+                width: 4px;
+                height: 4px;
+                background: #858585; }
+              .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerSlider .slick-dots li.slick-active {
+                margin-bottom: 0px;
+                margin-right: 20px; }
+                .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerSlider .slick-dots li.slick-active button:before {
+                  width: 25px;
+                  height: 4px; }
+        .csdetailBg .bannerSlidermain .bannerInnerDiv .awardSec {
+          display: block;
+          text-align: center; }
+          .csdetailBg .bannerSlidermain .bannerInnerDiv .awardSec h5 {
+            text-transform: uppercase;
+            margin-bottom: 12px; }
+          .csdetailBg .bannerSlidermain .bannerInnerDiv .awardSec .awardMaindiv {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap; }
+            .csdetailBg .bannerSlidermain .bannerInnerDiv .awardSec .awardMaindiv .awardDivbx {
+              width: 48%;
+              margin-top: 12px; }
+              .csdetailBg .bannerSlidermain .bannerInnerDiv .awardSec .awardMaindiv .awardDivbx h5 {
+                text-transform: unset;
+                margin: 12px 0px 4px; } }
 
 #svganime .st0 {
   display: none; }
