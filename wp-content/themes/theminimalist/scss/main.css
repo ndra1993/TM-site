@@ -6852,7 +6852,8 @@ footer .ftbutton {
           position: unset;
           width: 100%;
           padding-left: 24px;
-          padding-right: 24px; }
+          padding-right: 24px;
+          padding-top: 32px; }
           .taggedbgdetails .sectionOne .mobtext h1 {
             line-height: 36px; }
           .taggedbgdetails .sectionOne .mobtext h5 {
@@ -8261,7 +8262,8 @@ footer .ftbutton {
           position: unset;
           width: 100%;
           padding-left: 24px;
-          padding-right: 24px; }
+          padding-right: 24px;
+          padding-top: 32px; }
           .csdetailBg .bannerSection .sectionOne .mobtext h1 {
             line-height: 36px; }
           .csdetailBg .bannerSection .sectionOne .mobtext h5 {
