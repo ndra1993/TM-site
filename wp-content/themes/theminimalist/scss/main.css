@@ -7913,8 +7913,6 @@ footer .ftbutton {
       align-items: center;
       margin: auto;
       width: 80%; }
-    .csdetailBg .fullscreenBigimg .sectionFour .mobileImg {
-      display: none; }
   .csdetailBg .leftimg-rightText .sectionTwo {
     flex-direction: row-reverse;
     align-items: center; }
@@ -8064,6 +8062,10 @@ footer .ftbutton {
     .csdetailBg .taggedBanner .sectionOne .mobImg {
       margin: 0 0 0 auto !important;
       width: 100%; }
+  .csdetailBg .desktopImg {
+    display: block; }
+  .csdetailBg .mobileImg {
+    display: none; }
   @media screen and (max-width: 1600px) {
     .csdetailBg {
       margin-top: 86px; }
@@ -8256,6 +8258,16 @@ footer .ftbutton {
   @media screen and (max-width: 1024px) {
     .csdetailBg {
       margin-top: 72px; }
+      .csdetailBg .desktopImg {
+        display: none; }
+      .csdetailBg .mobileImg {
+        display: block !important;
+        padding: 25px 0px; }
+        .csdetailBg .mobileImg img {
+          max-width: 100%;
+          margin: 0 auto;
+          display: block;
+          width: unset !important; }
       .csdetailBg .bannerSection .sectionOne {
         padding: 32px 0px 20px 0px; }
         .csdetailBg .bannerSection .sectionOne .mobtext {
@@ -8287,7 +8299,8 @@ footer .ftbutton {
           width: 100%;
           margin: 0px;
           line-height: 0;
-          padding: 0; }
+          padding: 0;
+          display: none; }
           .csdetailBg .lefttext-rightImg .sectionTwo .mobimgTwo img {
             width: 100%; }
       .csdetailBg .leftheading-rightText .sectionThree {
@@ -8309,10 +8322,6 @@ footer .ftbutton {
         padding: 10px 0px; }
         .csdetailBg .fullscreenBigimg .sectionFour img {
           width: 100%; }
-        .csdetailBg .fullscreenBigimg .sectionFour .desktopImg {
-          display: block; }
-        .csdetailBg .fullscreenBigimg .sectionFour .mobileImg {
-          display: block; }
       .csdetailBg .bottomimgLogos .moreCasestudy {
         position: static; }
         .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox {
@@ -8435,39 +8444,40 @@ footer .ftbutton {
   #multipleMbltwo .mobileSec_one {
     opacity: 1; } }
 
-#lampAnime .st0 {
-  fill: #CBDCF1;
-  animation: lineatwo 1s linear forwards;
-  opacity: 0;
-  animation-delay: 1.5s; }
-#lampAnime .st1 {
-  fill: none;
-  stroke: #BAD5EF;
-  stroke-width: 1.5;
-  stroke-dasharray: 1000;
-  stroke-dashoffset: 1000;
-  animation: linea 5s linear forwards;
-  animation-delay: 0.3s; }
-@keyframes linea {
-  to {
-    stroke-dashoffset: 0; } }
-@keyframes lineatwo {
-  to {
-    opacity: 1; } }
-#lampAnime #Layer_2,
-#lampAnime #Layer_3 {
-  animation: fadeinall 2s forwards;
-  animation-delay: .1s;
-  opacity: 0;
-  transform: translateY(0%); }
-@keyframes fadeinall {
-  from {
+@media screen and (min-width: 1024px) {
+  #lampAnime .st0 {
+    fill: #CBDCF1;
+    animation: lineatwo 1s linear forwards;
     opacity: 0;
-    transform: translateY(100%); }
-  40% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
+    animation-delay: 1.5s; }
+  #lampAnime .st1 {
+    fill: none;
+    stroke: #BAD5EF;
+    stroke-width: 1.5;
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: linea 5s linear forwards;
+    animation-delay: 0.3s; }
+  @keyframes linea {
+    to {
+      stroke-dashoffset: 0; } }
+  @keyframes lineatwo {
+    to {
+      opacity: 1; } }
+  #lampAnime #Layer_2,
+  #lampAnime #Layer_3 {
+    animation: fadeinall 2s forwards;
+    animation-delay: .1s;
+    opacity: 0;
+    transform: translateY(0%); }
+  @keyframes fadeinall {
+    from {
+      opacity: 0;
+      transform: translateY(100%); }
+    40% {
+      opacity: 0; }
+    100% {
+      opacity: 1; } } }
 #arrowAnime .st0, #arrowanimetwo .st0, #arrowanimethree .st0, #arrowanimeFour .st0 {
   display: none; }
 #arrowAnime .st1, #arrowanimetwo .st1, #arrowanimethree .st1, #arrowanimeFour .st1 {
