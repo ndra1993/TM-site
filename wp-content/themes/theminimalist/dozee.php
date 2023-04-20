@@ -19,8 +19,11 @@
                 <h5 class="font20 colorWhite fontW500">It offers an efficient ballistocardiography solution to enhance patient care.</h5>
             </div>
             <div class="wow fadeInUp mobImg" data-wow-duration="4s">
-                <video playsinline="playsinline" muted="muted" preload="yes" autoplay="autoplay" loop="loop" id="vjs_video_739_html5_api" class="video-js" data-setup='{"autoplay":"any"}'>
+                <video class="desktopVid" playsinline="playsinline" muted="muted" preload="yes" autoplay="autoplay" loop="loop" id="vjs_video_739_html5_api" class="video-js" data-setup='{"autoplay":"any"}'>
                     <source src="<?php bloginfo('template_directory'); ?>/videos/dozee-animation-video.mp4" type="video/mp4">
+                </video>
+                <video class="mobVid" playsinline="playsinline" muted="muted" preload="yes" autoplay="autoplay" loop="loop" id="vjs_video_739_html5_api" class="video-js" data-setup='{"autoplay":"any"}'>
+                    <source src="<?php bloginfo('template_directory'); ?>/videos/dozee-animation-video-mob.mp4" type="video/mp4">
                 </video>
             </div>
         </div>

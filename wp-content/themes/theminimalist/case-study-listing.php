@@ -53,7 +53,7 @@ $homepage_id = get_option( 'page_on_front' );
 }
 .slider-banner-image img,
 .slider-nav .slick-slide.thumbnail-image .thumbImg img {
-    height: 100%;
+   /* height: 100%;*/
     width:100%;
     object-fit: cover;
 }
@@ -238,37 +238,37 @@ $homepage_id = get_option( 'page_on_front' );
           <div class="slider slider-for">
                   <div class="slider-banner-image">
                     <a href="">
-                      <img src="https://images.unsplash.com/photo-1570942872213-1242607a35eb?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Car-Image"></a>
+                      <img src="<?php bloginfo('template_directory'); ?>/images/phone-two.png" alt="Car-Image"></a>
                   </div> 
                   <div class="slider-banner-image">
-                     <a href=""> <img src="https://images.unsplash.com/photo-1570171278960-d6c2b316f3b1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="Car-Image"></a>
+                     <a href=""> <img src="<?php bloginfo('template_directory'); ?>/images/computer-img-responsive.png" alt="Car-Image"></a>
                   </div> 
                   <div class="slider-banner-image">
-                     <a href=""> <img src="https://images.unsplash.com/photo-1564376130023-5360fbb7c91b?ixlib=rb-1.2.1&auto=format&fit=crop&w=724&q=80" alt="Car-Image"></a>
+                     <a href=""> <img src="<?php bloginfo('template_directory'); ?>/images/case-study-details-1.png" alt="Car-Image"></a>
                   </div> 
                    <div class="slider-banner-image">
-                      <a href=""><img src="https://images.unsplash.com/photo-1570942872213-1242607a35eb?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Car-Image"></a>
+                      <a href=""><img src="<?php bloginfo('template_directory'); ?>/images/computer-img-responsive.png" alt="Car-Image"></a>
                   </div> 
                   <div class="slider-banner-image">
-                      <a href=""><img src="https://images.unsplash.com/photo-1570171278960-d6c2b316f3b1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="Car-Image"></a>
+                      <a href=""><img src="<?php bloginfo('template_directory'); ?>/images/computer-img-responsive.png" alt="Car-Image"></a>
                   </div> 
                   <div class="slider-banner-image">
-                      <a href=""><img src="https://images.unsplash.com/photo-1564376130023-5360fbb7c91b?ixlib=rb-1.2.1&auto=format&fit=crop&w=724&q=80" alt="Car-Image"></a>
+                      <a href=""><img src="<?php bloginfo('template_directory'); ?>/images/case-study-details-1.png" alt="Car-Image"></a>
                   </div> 
                    <div class="slider-banner-image">
-                      <a href=""><img src="https://images.unsplash.com/photo-1570942872213-1242607a35eb?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Car-Image"></a>
+                      <a href=""><img src="<?php bloginfo('template_directory'); ?>/images/computer-img-responsive.png" alt="Car-Image"></a>
                   </div> 
                   <div class="slider-banner-image">
-                      <a href=""><img src="https://images.unsplash.com/photo-1570171278960-d6c2b316f3b1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="Car-Image"></a>
+                      <a href=""><img src="<?php bloginfo('template_directory'); ?>/images/case-study-details-1.png" alt="Car-Image"></a>
                   </div> 
                   <div class="slider-banner-image">
-                      <a href=""><img src="https://images.unsplash.com/photo-1564376130023-5360fbb7c91b?ixlib=rb-1.2.1&auto=format&fit=crop&w=724&q=80" alt="Car-Image"></a>
+                      <a href=""><img src="<?php bloginfo('template_directory'); ?>/images/digital-currency.png" alt="Car-Image"></a>
                   </div> 
               </div>
             <div class="slider slider-nav thumb-image">
                             <a href=""><div class="thumbnail-image">
                                 <p class="fontW800">Strategy And Consulting</p>
-                                <h2 class="fontW800">Strategy And Consulting</h2>
+                                <h2 class="fontW800">Strategy And Consulting Strategy And Consulting Strategy And Consulting</h2>
                             </div></a>
                             <a href=""><div class="thumbnail-image">
                                 <p class="fontW800">Strategy And Consulting</p>

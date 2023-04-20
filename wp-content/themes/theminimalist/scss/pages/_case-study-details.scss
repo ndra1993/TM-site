@@ -44,6 +44,8 @@
             align-items: center;
             width: 60%;
         }
+        .desktopVid{display:block;}
+        .mobVid{display:none;}
     }
 
     .sectionTwo {
@@ -571,6 +573,8 @@
                 width: 100%;
                 margin: 40px auto 0px;
             }
+            .desktopVid{display:none;}
+            .mobVid{display:block; max-width:100%;}
         }
 
         .sectionTwo {
