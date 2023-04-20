@@ -2598,6 +2598,10 @@ footer .ftbutton {
       display: flex;
       align-items: center;
       width: 60%; }
+    .casebgdetails .sectionOne .desktopVid {
+      display: block; }
+    .casebgdetails .sectionOne .mobVid {
+      display: none; }
   .casebgdetails .sectionTwo {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(219.06deg, #0D1917 23.88%, #A270F2 71.41%);
     display: flex; }
@@ -2946,6 +2950,11 @@ footer .ftbutton {
         .casebgdetails .sectionOne .mobImg {
           width: 100%;
           margin: 40px auto 0px; }
+        .casebgdetails .sectionOne .desktopVid {
+          display: none; }
+        .casebgdetails .sectionOne .mobVid {
+          display: block;
+          max-width: 100%; }
       .casebgdetails .sectionTwo {
         display: block; }
         .casebgdetails .sectionTwo .mobtextTwo {
