@@ -32,7 +32,7 @@ $homepage_id = get_option('page_on_front');
                     <h5 class="font20 colorBlack fontW500">Meesho intended to create a mobile version of their existing website, to improve UX and increase visibility for SEO under a time constraint</h5>
                 </div>
             </div>
-            <div class="mobimgTwo wow slideInRight" data-wow-duration="1s">
+            <div class="mobimgTwo wow slideInRight mobileImg" data-wow-duration="1s">
                 <img src="<?php bloginfo('template_directory'); ?>/images/meesho1.png">
             </div>
         </div>
@@ -68,7 +68,7 @@ $homepage_id = get_option('page_on_front');
                     <h5 class="font20 colorBlack fontW500">All assets were successfully delivered ahead of schedule, giving the client the luxury of time to get internal approvals and move assets into development for their mobile website launch.</h5>
                 </div>
             </div>
-            <div class="mobimgTwo wow slideInLeft" data-wow-duration="1s">
+            <div class="mobimgTwo wow slideInLeft mobileImg" data-wow-duration="1s">
                 <img src="<?php bloginfo('template_directory'); ?>/images/meesho2.png">
             </div>
         </div>
@@ -97,6 +97,9 @@ $homepage_id = get_option('page_on_front');
         <div class="desktopImg">
             <img src="<?php bloginfo('template_directory'); ?>/images/meesho3.png">
         </div>
+        <div class="mobileImg">
+            <img src="<?php bloginfo('template_directory'); ?>/images/meesho3.png">
+        </div>
     </section>
 
      <!-- leftheading-rightText -->
@@ -117,7 +120,7 @@ $homepage_id = get_option('page_on_front');
     </section>
     
     
-    <section class="fullscreenBigimg">
+    <section class="fullscreenBigimg" style="background: #fff;">
         <div id="animation-container" class="desktopImg"></div>
         <div id="meesho-mobileslider" class="mobileImg"></div>
     </section>
