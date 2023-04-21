@@ -186,9 +186,9 @@ $homepage_id = get_option('page_on_front');
         </div>
     </section> -->
     
-    <section class="sectionFourMeesho">
-        <div id="animation-container" class="desktopMeeshoSlider"></div>
-        <div id="meesho-mobileslider" class="mobileMeeshoSlider"></div>
+    <section class="fullscreenBigimg">
+        <div id="animation-container" class="desktopImg"></div>
+        <div id="meesho-mobileslider" class="mobileImg"></div>
     </section>
     <section>
         <div class="sectionFourMeesho">
