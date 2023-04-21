@@ -7922,7 +7922,9 @@ footer .ftbutton {
   .csdetailBg .fullscreenBigimg .sectionFour {
     padding: 50px 0px; }
     .csdetailBg .fullscreenBigimg .sectionFour img {
-      margin: 0 auto; }
+      margin: 0 auto;
+      width: 100%;
+      max-width: 100%; }
   .csdetailBg .leftimg-rightText .sectionTwo {
     flex-direction: row-reverse;
     align-items: center; }
