@@ -7928,12 +7928,15 @@ footer .ftbutton {
   .csdetailBg .fullimgwithHeading {
     text-align: center;
     padding: 70px 0px; }
-    .csdetailBg .fullimgwithHeading .headingSec h4 {
-      margin-bottom: 15px;
-      line-height: 42px; }
-    .csdetailBg .fullimgwithHeading .headingSec p {
-      color: rgba(0, 0, 0, 0.5);
-      line-height: 30px; }
+    .csdetailBg .fullimgwithHeading .headingSec {
+      width: 60%;
+      margin: 0 auto; }
+      .csdetailBg .fullimgwithHeading .headingSec h4 {
+        margin-bottom: 15px;
+        line-height: 42px; }
+      .csdetailBg .fullimgwithHeading .headingSec p {
+        color: rgba(0, 0, 0, 0.5);
+        line-height: 30px; }
     .csdetailBg .fullimgwithHeading .imgDiv {
       margin-top: 78px; }
   .csdetailBg .twoImgsides-headingmiddle {
@@ -8268,10 +8271,12 @@ footer .ftbutton {
       padding: 20px 0px; }
     .csdetailBg .fullimgwithHeading {
       padding: 30px 0px; }
-      .csdetailBg .fullimgwithHeading .headingSec h4 {
-        line-height: 28px; }
-      .csdetailBg .fullimgwithHeading .headingSec p {
-        line-height: 23px; }
+      .csdetailBg .fullimgwithHeading .headingSec {
+        width: 75%; }
+        .csdetailBg .fullimgwithHeading .headingSec h4 {
+          line-height: 28px; }
+        .csdetailBg .fullimgwithHeading .headingSec p {
+          line-height: 23px; }
       .csdetailBg .fullimgwithHeading .imgDiv {
         margin-top: 40px; }
     .csdetailBg .twoImgsides-headingmiddle {
@@ -8389,11 +8394,13 @@ footer .ftbutton {
             height: 50px; }
       .csdetailBg .fullimgwithHeading {
         padding: 20px 0px; }
-        .csdetailBg .fullimgwithHeading .headingSec h4 {
-          line-height: 26px;
-          margin-bottom: 5px; }
-        .csdetailBg .fullimgwithHeading .headingSec p {
-          line-height: 21px; }
+        .csdetailBg .fullimgwithHeading .headingSec {
+          width: 100%; }
+          .csdetailBg .fullimgwithHeading .headingSec h4 {
+            line-height: 26px;
+            margin-bottom: 5px; }
+          .csdetailBg .fullimgwithHeading .headingSec p {
+            line-height: 21px; }
         .csdetailBg .fullimgwithHeading .imgDiv {
           margin-top: 25px; }
       .csdetailBg .twoImgsides-headingmiddle {
