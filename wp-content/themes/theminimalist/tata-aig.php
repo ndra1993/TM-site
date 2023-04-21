@@ -4,9 +4,9 @@ $homepage_id = get_option('page_on_front');
 ?>
 <a id="button"><img src="<?php bloginfo('template_directory'); ?>/images/back-to-top-arrow.svg"></a>
 
-<div class="csdetailBg" style="background: #fff;">
+<div class="csdetailBg" style="background: #f5f5f5;">
     <!-- banner slider section -->
-    <section class="bannerSlidermain" style="background:#fff">
+    <section class="bannerSlidermain" style=" background: linear-gradient(181.96deg, rgba(0, 190, 222, 0.1976) 37.2%, rgba(53, 225, 202, 0.022) 62.22%);">
         <div class="bannerInnerDiv">
             <div class="bannerslidePara">
                 <p class="font20 fontW800 colorBlack">One to 11</p>
@@ -76,7 +76,7 @@ $homepage_id = get_option('page_on_front');
                         a New Play To Earn model across the platform.</h5>
                 </div>
             </div>
-            <div class="mobimgTwo wow slideInRight" data-wow-duration="1s">
+            <div class="mobimgTwo wow slideInRight mobileImg" data-wow-duration="1s">
                 <img src="<?php bloginfo('template_directory'); ?>/images/tata-aig-sec2.png">
             </div>
         </div>
@@ -9899,7 +9899,7 @@ aU5zmtOc5jSnOc1pTnOa05zmNKc5zWnN9P8DTmN/gW+rDo4AAAAASUVORK5CYII=" transform="mat
             <p class="font20 fontW500">Indication of all vehicle parameters</p>
         </div>
         <div class="imgDiv">
-            <div class="desktopImg">
+            <div>
                 <svg version="1.1" id="multipleMbl" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1920 1080" style="enable-background:new 0 0 1920 1080;" xml:space="preserve">
                     <g id="Layer_3" class="mobile_one">
 
@@ -19368,6 +19368,61 @@ Gp1aXl5G4HAYekrSfwGsPET2Cn6PUQAAAABJRU5ErkJggg==" transform="matrix(1 0 0 1 76 3
             </div>
         </div>
     </section>
+    <section class="leftheading-rightText" style="background: #fff;">
+        <div class="sectionThree">
+            <div class="mobtextThree wow slideInLeft" data-wow-duration="1s">
+                <div class="innerContianer">
+                    <p class="font20 fontW800 colorBlack">solutions</p>
+                    <h1 class="font60 fontW800 colorBlack">Unique experience designed around Gamers life</h1>
+                </div>
+            </div>
+            <div class="mobsubtextThree wow slideInRight" data-wow-duration="1s">
+                <div class="innerContianertwo">
+                    <h5 class="font20 colorBlack fontW500">A responsive website that aims to educate users about the NFT
+                        market and crypto-currencies. An infographic design with educative content is easier to
+                        understand.</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="fullscreenBigimg" style="background: #fff">
+        <img src="<?php bloginfo('template_directory'); ?>/images/tataaig-laptop-full.png">
+    </section>
+    <section class="bannerSlidermain" style="background:#eeedec">
+        <div class="bannerInnerDiv">
+            <div class="bannerslidePara">
+                <p class="font20 fontW800 colorBlack">One to 11</p>
+                <h1 class="font60 fontW800 colorBlack">Disrupting The Online Gaming Industry</h1>
+                <h5 class="font20 colorBlack fontW500" style="color:rgba(17, 0, 17, 0.5)">India's first fastest growing
+                    Social Networking Fantasy Mobile gaming with over 2.2 million users on the
+                    platform.</h5>
+            </div>
+            <div class="bannerSlider">
+                <div class="bannerSliderSection">
+                    <div class="bannerSliderimg">
+                        <img src="<?php bloginfo('template_directory'); ?>/images/full-img-tata.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="lefttext-rightImg">
+        <div class="sectionTwo">
+            <div class="mobtextTwo wow slideInLeft" data-wow-duration="1s" style="background: #fff;">
+                <div class="innerContent">
+                    <p class="font20 fontW800 colorBlack">insight</p>
+                    <h1 class="font60 fontW800 colorBlack">A new experience reflecting the brand’s vision and values
+                    </h1>
+                    <h5 class="font20 colorBlack fontW500">They aim to Create the biggest Gaming ecosystem in the world
+                        with games suiting to every gamers. They have plans to include NFT based Role playing Games with
+                        a New Play To Earn model across the platform.</h5>
+                </div>
+            </div>
+            <div class="mobimgTwo wow slideInRight mobileImg" data-wow-duration="1s">
+                <img src="<?php bloginfo('template_directory'); ?>/images/tata-mobile-two.png">
+            </div>
+        </div>
+    </section>
     <section class="leftheading-rightText" style="background: #f5f5f5;">
         <div class="sectionThree">
             <div class="mobtextThree wow slideInLeft" data-wow-duration="1s">
@@ -19385,16 +19440,39 @@ Gp1aXl5G4HAYekrSfwGsPET2Cn6PUQAAAABJRU5ErkJggg==" transform="matrix(1 0 0 1 76 3
             </div>
         </div>
     </section>
-    <section class="fullscreenBigimg" style="background: #f5f5f5">
-        <div class="sectionFour">
-            <div class="desktopImg">
-                <img src="<?php bloginfo('template_directory'); ?>/images/tataaig-laptop-full.png">
+    <section class="fullscreenBigimg" style="background: #fff">
+        <img src="<?php bloginfo('template_directory'); ?>/images/laptop-2-tata.svg">
+    </section>
+    <section class="fullscreenBigimg" style="background: #fff">
+        <img src="<?php bloginfo('template_directory'); ?>/images/multiple-screen-tata.png">
+    </section>
+    <section class="leftheading-rightText" style="background: #274079;">
+        <div class="sectionThree">
+            <div class="mobtextThree wow slideInLeft" data-wow-duration="1s">
+                <div class="innerContianer">
+                    <p class="font20 fontW800 colorWhite">solutions</p>
+                    <h1 class="font60 fontW800 colorWhite">Unique experience designed around Gamers life</h1>
+                </div>
             </div>
-            <div class="mobileImg">
-                <img src="<?php bloginfo('template_directory'); ?>/images/tagged-desktop.png">
+            <div class="mobsubtextThree wow slideInRight" data-wow-duration="1s">
+                <div class="innerContianertwo">
+                    <h5 class="font20 colorWhite fontW500">A responsive website that aims to educate users about the NFT
+                        market and crypto-currencies. An infographic design with educative content is easier to
+                        understand.</h5>
+                </div>
             </div>
-            <div class="mobileImg">
-                <img src="<?php bloginfo('template_directory'); ?>/images/tagged-mblview.png">
+        </div>
+    </section>
+    <section class="bottomimgLogos" style="background: #fff">
+        <div class="sectionSiximg"><img src="<?php bloginfo('template_directory'); ?>/images/bottom-img-tata.png"></div>
+        <div class="moreCasestudy">
+            <div class="brandLogos">
+                <div class="relatedBox relatedBoxone" style="background: #ec2120;">
+                    <a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/nayaka.png"></a>
+                </div>
+                <div class="relatedBox relatedBoxtwo" style="background: #00C859;">
+                    <a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/bizongo-logo.png"></a>
+                </div>
             </div>
         </div>
     </section>
@@ -19403,15 +19481,3 @@ Gp1aXl5G4HAYekrSfwGsPET2Cn6PUQAAAABJRU5ErkJggg==" transform="matrix(1 0 0 1 76 3
 
 
 <?php get_footer(); ?>
-
-<script>
-    // lottie animation js starts
-    var animation = bodymovin.loadAnimation({
-        container: document.getElementById('animationmblmoving'),
-        path: site_url + '/wp-content/themes/theminimalist/js/json/mblAnime.json', // Required
-        renderer: 'svg', // or 'canvas', 'html'
-        loop: true,
-        autoplay: true
-    });
-    // lottie animation js ends
-</script>

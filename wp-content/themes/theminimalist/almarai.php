@@ -4,7 +4,7 @@ $homepage_id = get_option('page_on_front');
 ?>
 <a id="button"><img src="<?php bloginfo('template_directory'); ?>/images/back-to-top-arrow.svg"></a>
 
-<div class="csdetailBg" style="background: linear-gradient(127.67deg, #51BB79 18.41%, #00ACEF 47.2%);">
+<div class="csdetailBg almaraiCasestudy" style="background: linear-gradient(127.67deg, #51BB79 18.41%, #00ACEF 47.2%);">
     <!-- Banner Section -->
     <section class="bannerSection" style="background: linear-gradient(127.67deg, #51BB79 18.41%, #00ACEF 47.2%);">
         <div class="sectionOne">
