@@ -9518,7 +9518,7 @@ $homepage_id = get_option('page_on_front');
                     <h5 class="font20 colorBlack fontW500">To communicate the various aspects of the services provided, to educate users in the potential of online gaming, to promote the Play-to-Earn concept and expand the metaverse and GameFi user base in tier-2 and tier-3 cities.</h5>
                 </div>
             </div>
-            <div class="mobimgTwo wow slideInRight" data-wow-duration="1s">
+            <div class="mobimgTwo wow slideInRight mobileImg" data-wow-duration="1s">
                 <img src="<?php bloginfo('template_directory'); ?>/images/one-ele-gif.gif">
             </div>
         </div>
@@ -31290,10 +31290,10 @@ m/7Pm+JeW9nKVrayla1sZStb2cpWtrKVrWxlK19BIaL/D3YC/OfXvxv/AAAAAElFTkSuQmCC" transf
 </g>
 </svg>
             </div>
-            <!-- <div class="mobileImg">
+            <div class="mobileImg">
                 <img src="<?php bloginfo('template_directory'); ?>/images/computer-img-responsive.png">
                 <img src="<?php bloginfo('template_directory'); ?>/images/mbl-responsive.png">
-            </div> -->
+            </div>
         </div>
     </section>
     <!-- leftHeading-righttext -->

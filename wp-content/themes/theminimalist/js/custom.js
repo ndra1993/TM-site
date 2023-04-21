@@ -163,7 +163,8 @@ $('.bannerSlider').slick({
   slidesToScroll: 1,
   infinite:true,
   cssEase: 'linear',
-  dots: true
+  dots: true,
+  pauseOnHover:false,
   });
   // banner slider case study js ends
 

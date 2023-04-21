@@ -128,14 +128,7 @@
             padding: 50px 0px;
 
             img {
-                display: flex;
-                align-items: center;
-                margin: auto;
-                width: 80%;
-            }
-
-            .mobileImg {
-                display: none;
+                margin: 0 auto;
             }
         }
     }
@@ -316,8 +309,10 @@
     .bannerSlidermain {
         .bannerInnerDiv {
             position: relative;
-            padding:120px 80px 0px 0px;
+            background: linear-gradient(181.96deg, rgba(0, 190, 222, 0.1976) 37.2%, rgba(53, 225, 202, 0.022) 62.22%);
+            padding:120px 60px 400px 0px;
             .bannerSlider {
+                margin-bottom: 0px;
                 img {
                     margin:0 auto;
                 }
@@ -376,6 +371,10 @@
                 h5{line-height: 30px;width: 75%;}
                 h1{line-height: 70px;margin: 15px 0px 35px;}
             }
+
+            .awardSec{
+                display: none;
+            }
         }
     }
     // tagged banner style
@@ -387,6 +386,14 @@
                 width: 100%;
             }
         }
+    }
+
+    .desktopImg {
+        display: block;
+    }
+
+    .mobileImg {
+        display: none;
     }
 
     /**************************************************Media Query*********************************************/
@@ -461,10 +468,6 @@
 
         .fullscreenBigimg .sectionFour {
             padding: 30px 0px;
-
-            img {
-                width: 68%;
-            }
         }
 
         
@@ -524,6 +527,20 @@
 
                 .imgDivmain {
                     width: 66%;
+                }
+            }
+        }
+
+        .bannerSlidermain {
+            .bannerInnerDiv {
+               padding:100px 50px 300px 0px;
+                .bannerslidePara {
+                    top: 100px;
+                    left: 80px;
+                    width: 26%;
+                    p{line-height: 12px;}
+                    h5{line-height: 26px;width: 70%;}
+                    h1{line-height: 50px;margin: 15px 0px 30px;}
                 }
             }
         }
@@ -609,13 +626,7 @@
 
         .fullscreenBigimg .sectionFour {
             padding: 20px 0px;
-
-            img {
-                width: 64%;
-            }
         }
-
-        
 
         .fullimgwithHeading {
             padding: 40px 0px;
@@ -670,6 +681,20 @@
 
                 .imgDivmain {
                     width: 67%;
+                }
+            }
+        }
+
+        .bannerSlidermain {
+            .bannerInnerDiv {
+               padding:80px 30px 200px 0px;
+                .bannerslidePara {
+                    top: 80px;
+                    left: 60px;
+                    width: 24%;
+                    p{line-height: 12px;}
+                    h5{line-height: 24px;}
+                    h1{line-height: 40px;margin: 10px 0px 25px;}
                 }
             }
         }
@@ -746,10 +771,6 @@
 
         .fullscreenBigimg .sectionFour {
             padding: 20px 0px;
-
-            img {
-                width: 64%;
-            }
         }
 
         .fullimgwithHeading {
@@ -808,10 +829,42 @@
                 }
             }
         }
+
+        .bannerSlidermain {
+            .bannerInnerDiv {
+               padding:60px 20px 100px 0px;
+                .bannerslidePara {
+                    top: 60px;
+                    left: 30px;
+                    width: 26%;
+                    p{line-height: 10px;}
+                    h5{line-height: 22px;}
+                    h1{line-height: 36px;margin: 10px 0px 15px;}
+                }
+                .bannerSlider img{
+                    width: 80%;
+                }
+            }
+        }
     }
 
     @media screen and (max-width:1024px) {
         margin-top: 72px;
+
+        .desktopImg {
+            display: none;
+        }
+
+        .mobileImg {
+            display: block !important;
+            padding: 25px 0px;
+            img{
+                max-width: 100% ;
+                margin: 0 auto;
+                display: block;
+                width: unset !important;
+            }
+        }
 
         .bannerSection {
             .sectionOne {
@@ -869,6 +922,7 @@
                 margin: 0px;
                 line-height: 0;
                 padding: 0;
+                display: none;
 
                 img {
                     width: 100%;
@@ -908,18 +962,6 @@
 
         .fullscreenBigimg .sectionFour {
             padding: 10px 0px;
-
-            img {
-                width: 100%;
-            }
-
-            .desktopImg {
-                display: block;
-            }
-
-            .mobileImg {
-                display: block;
-            }
         }
 
         .bottomimgLogos .moreCasestudy {
@@ -1011,6 +1053,79 @@
 
                 .imgDivmain {
                     width: 100%;
+                }
+            }
+        }
+
+        .bannerSlidermain{
+            .bannerInnerDiv{
+                background: linear-gradient(181.96deg, rgba(0, 190, 222, 0.1976) 37.2%, rgba(53, 225, 202, 0.022) 62.22%);
+                padding:32px 0px 20px 0px;
+                .bannerslidePara{
+                    position: unset;
+                    width: 100%;
+                    padding: 0px 40px;
+                    text-align: center;
+                    h1{
+                        line-height: 28px;
+                        margin: 5px 0px 12px;
+                        font-size: 22px;
+                    }
+                    h5{
+                        font-size: 12px;
+                        line-height: 20px;
+                        width: 100%;
+                    }
+                }
+                .bannerSlider{
+                    margin-bottom: 24px;
+                    img{
+                        width: unset;
+                    }
+                    .slick-dots{
+                        top: 95%;
+                        height: unset;
+                        right: 0;
+                        left: 0;
+                        transform: unset;
+                        display: block;
+                        li{
+                            margin: 0px;
+                            padding: 8px 0px;
+                            button:before{
+                                width: 4px;
+                                height: 4px;
+                                background: #858585;
+                            }
+                            &.slick-active{
+                                margin-bottom: 0px;
+                                margin-right: 20px;
+                                button:before{
+                                    width: 25px;
+                                    height: 4px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .awardSec{
+                    display: block;
+                    text-align: center;
+                    h5{text-transform: uppercase;margin-bottom: 12px;}
+                    .awardMaindiv{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        flex-wrap: wrap;
+                        .awardDivbx{
+                            width: 48%;
+                            margin-top: 12px;
+                            h5{
+                                text-transform: unset;
+                                margin: 12px 0px 4px;
+                            }
+                        }
+                    }
                 }
             }
         }

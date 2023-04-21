@@ -11,7 +11,9 @@ $homepage_id = get_option('page_on_front');
             <div class="mobtext wow slideInLeft">
                 <p class="font20 fontW800 colorWhite">Almarai </p>
                 <h1 class="font60 fontW800 colorWhite">Delivering a seamless Order Management System to Almarai</h1>
-                <h5 class="font20 colorWhite fontW500">Almarai is a Saudi-based multinational company that specialises in food and beverage manufacturing and distribution. It’s operational in all six GCC (Gulf Cooperation Council) countries.</h5>
+                <h5 class="font20 colorWhite fontW500">Almarai is a Saudi-based multinational company that specialises
+                    in food and beverage manufacturing and distribution. It’s operational in all six GCC (Gulf
+                    Cooperation Council) countries.</h5>
             </div>
             <div class="mobImg wow fadeInUp" data-wow-duration="4s">
                 <img src="<?php bloginfo('template_directory'); ?>/images/almarai-banner.png">
@@ -24,17 +26,22 @@ $homepage_id = get_option('page_on_front');
             <div class="mobtextTwo wow slideInLeft" data-wow-duration="1s" style="background:#fff">
                 <div class="innerContent">
                     <p class="font20 fontW800 colorBlack">Objective</p>
-                    <h1 class="font60 fontW800 colorBlack">Growing the pie by reducing dependency on delivery agents</h1>
-                    <h5 class="font20 colorBlack fontW500">To reduce route-to-market costs and reach a larger customer base, Almarai had to lessen its dependence on delivery agents. This required creating a channel that would streamline communication, ordering, and tracking to increase transparency between Almarai and its customers.</h5>
+                    <h1 class="font60 fontW800 colorBlack">Growing the pie by reducing dependency on delivery agents
+                    </h1>
+                    <h5 class="font20 colorBlack fontW500">To reduce route-to-market costs and reach a larger customer
+                        base, Almarai had to lessen its dependence on delivery agents. This required creating a channel
+                        that would streamline communication, ordering, and tracking to increase transparency between
+                        Almarai and its customers.</h5>
                 </div>
             </div>
-            <div class="mobimgTwo wow slideInRight" data-wow-duration="1s">
+            <div class="mobimgTwo wow slideInRight mobileImg" data-wow-duration="1s">
                 <img src="<?php bloginfo('template_directory'); ?>/images/almarai-mbl-two.png">
             </div>
         </div>
     </section>
     <!-- leftheading-rightText -->
-    <section class="leftheading-rightText" style="background: linear-gradient(127.67deg, #51BB79 18.41%, #00ACEF 47.2%);">
+    <section class="leftheading-rightText"
+        style="background: linear-gradient(127.67deg, #51BB79 18.41%, #00ACEF 47.2%);">
         <div class="sectionThree">
             <div class="mobtextThree wow slideInLeft" data-wow-duration="1s">
                 <div class="innerContianer">
@@ -44,7 +51,9 @@ $homepage_id = get_option('page_on_front');
             </div>
             <div class="mobsubtextThree wow slideInRight" data-wow-duration="1s">
                 <div class="innerContianertwo">
-                    <h5 class="font20 colorWhite fontW500">A mobile-first experience that translates seamlessly to desktops was created by following brand guidelines to the T. The interactions were kept simple and easy to use for all audiences, tech-savvy or not. </h5>
+                    <h5 class="font20 colorWhite fontW500">A mobile-first experience that translates seamlessly to
+                        desktops was created by following brand guidelines to the T. The interactions were kept simple
+                        and easy to use for all audiences, tech-savvy or not. </h5>
                 </div>
             </div>
         </div>
@@ -53,9 +62,12 @@ $homepage_id = get_option('page_on_front');
     <section class="fullscreenBigimg" style="background: linear-gradient(127.67deg, #51BB79 18.41%, #00ACEF 47.2%);">
         <div class="sectionFour">
             <div class="desktopImg">
-                <svg version="1.1" id="svganime" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1920 840" style="enable-background:new 0 0 1920 840;" xml:space="preserve">
+                <svg version="1.1" id="svganime" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1920 840"
+                    style="enable-background:new 0 0 1920 840;" xml:space="preserve">
                     <g id="Layer_1" class="layer_two">
-                        <image style="display:none;overflow:visible;enable-background:new    ;" width="1921" height="838" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAB4EAAANGCAYAAADznvhCAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA
+                        <image style="display:none;overflow:visible;enable-background:new    ;" width="1921"
+                            height="838" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAB4EAAANGCAYAAADznvhCAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA
 AXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAB9EcSURBVHgB7P0HvBvndeeNn+no7Vb2KorqhWpU
 pWxZsizalu1Qb5zdrOXdRNn4TTZO3myy2SRrKpuyef95106y2eKNEydONomVuMmxXGSLkm3ZsgpF
 SaTE3nk7LnqZwWD+5zwPHgD3khQp+YLl3vPVZzTAYADMBUDM4PnO7xwAhmEYhmEYhmEYhmEYhmEY
@@ -22293,24 +22305,28 @@ wHj85H8D07zDpY75hNEAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 186.5373 68)">
                     </g>
                 </svg>
             </div>
-            <!-- <div class="mobileImg">
-                <img src="<?php bloginfo('template_directory'); ?>/images/computer-img-responsive.png">
-                <img src="<?php bloginfo('template_directory'); ?>/images/mbl-responsive.png">
-            </div> -->
+            <div class="mobileImg">
+                <img src="<?php bloginfo('template_directory'); ?>/images/almarai-laptop.png">
+                <img src="<?php bloginfo('template_directory'); ?>/images/almarai-mbl.png">
+            </div>
         </div>
     </section>
     <!-- leftimg-righttext -->
-   
+
     <section class="lefttext-rightImg leftimg-rightText">
         <div class="sectionTwo">
             <div class="mobtextTwo wow slideInRight" data-wow-duration="1s" style="background: none;">
                 <div class="innerContent">
                     <h1 class="font60 fontW800 colorWhite">Bilingual Design</h1>
-                    <h5 class="font20 colorWhite fontW500">The screens were designed in English and Arabic, providing a comprehensive and impactful user experience.</h5>
+                    <h5 class="font20 colorWhite fontW500">The screens were designed in English and Arabic, providing a
+                        comprehensive and impactful user experience.</h5>
                 </div>
             </div>
-            <div class="mobimgTwo wow slideInLeft" data-wow-duration="1s">
-                <img src="<?php bloginfo('template_directory'); ?>/images/almarai-two-mbl.svg">
+            <div class="mobimgTwo wow slideInLeft desktopImg" data-wow-duration="1s">
+                <img src="<?php bloginfo('template_directory'); ?>/images/almarai-two-mbl.png">
+            </div>
+            <div class="mobileImg" data-wow-duration="1s">
+                <img src="<?php bloginfo('template_directory'); ?>/images/almarai-two-mblview.png">
             </div>
         </div>
     </section>
@@ -22318,7 +22334,9 @@ wHj85H8D07zDpY75hNEAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 186.5373 68)">
     <section class="fullscreenBigimg" style="background: linear-gradient(127.67deg, #51BB79 18.41%, #00ACEF 47.2%);">
         <div class="sectionFourimgone">
             <div class="desktopImg">
-                <svg version="1.1" id="multipleMbl" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1920 816.1" style="enable-background:new 0 0 1920 816.1;" xml:space="preserve">
+                <svg version="1.1" id="multipleMbl" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1920 816.1"
+                    style="enable-background:new 0 0 1920 816.1;" xml:space="preserve">
                     <g id="Layer_1_00000072271220056826641760000002241662622420456345_" class="mobile_one">
 
                         <image style="overflow:visible;" width="417" height="806" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAaIAAAMnCAYAAAB86VYtAAAACXBIWXMAAAsSAAALEgHS3X78AAAg
@@ -29489,7 +29507,8 @@ e06E7XvPJYKlobGQGurLnZn2dsrL70m1NRBcuW6tGitixUwmmpVJgDyjOopECoxZ+3a73IfzHcWU
 zwJm//DduILD6XdzcmW2z6ud4z4Lcn/JCY022462fFu2xX0O5LgSJWceF9si7ZfZZi6qWVLiCGor
 oZnQiwiYhpps7hPZR7QccoIS1MymKIqiKIqiKIqiKIqiKIqiKIqiKIqiKIqiKIqiKIqiKIqiKIqi
 KIqiKIqiKIqiKIqiKIqiKIqiKIqiKIqiKIqiKIqiKIqiKIqiKIqiKIqiKIqiKIqiKIqiKIqiKIqi
-KIqiKIqiKIqiKIqiKIqiKIqiKIqiKIqiKIqiKEFBRP8f4saUWW/JZ80AAAAASUVORK5CYII=" transform="matrix(1 0 0 1 1417.0011 10.0945)">
+KIqiKIqiKIqiKIqiKIqiKIqiKIqiKIqiKIqiKEFBRP8f4saUWW/JZ80AAAAASUVORK5CYII="
+                            transform="matrix(1 0 0 1 1417.0011 10.0945)">
                         </image>
                     </g>
                 </svg>
@@ -29497,7 +29516,9 @@ KIqiKIqiKIqiKIqiKIqiKIqiKIqiKIqiKIqiKEFBRP8f4saUWW/JZ80AAAAASUVORK5CYII=" transf
         </div>
         <div class="sectionFourimgtwo">
             <div class="desktopImg">
-                <svg version="1.1" id="multipleMbltwo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1920 816.1" style="enable-background:new 0 0 1920 816.1;" xml:space="preserve">
+                <svg version="1.1" id="multipleMbltwo" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1920 816.1"
+                    style="enable-background:new 0 0 1920 816.1;" xml:space="preserve">
                     <g id="Layer_1" class="mobileSec_one">
 
                         <image style="overflow:visible;" width="417" height="806" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAaIAAAMnCAYAAAB86VYtAAAACXBIWXMAAAsSAAALEgHS3X78AAAg
@@ -38670,8 +38691,12 @@ EARBEARBEARBEARBEARBEARBEARBEARBEARBEARBEARBEARBEARBEARBEARBEARBEARBEARBKFmI
             </div>
         </div>
 
+        <div class="mobileImg">
+            <img src="<?php bloginfo('template_directory'); ?>/images/almarai-multi-mbl.png">
+        </div>
+
     </section>
-    
+
     <!-- leftHeading-righttext -->
     <section class="leftheading-rightText" style="background:#fff">
         <div class="sectionThree">
@@ -38683,7 +38708,10 @@ EARBEARBEARBEARBEARBEARBEARBEARBEARBEARBEARBEARBEARBEARBEARBEARBEARBEARBKFmI
             </div>
             <div class="mobsubtextThree wow slideInRight" data-wow-duration="1s">
                 <div class="innerContianertwo">
-                    <h5 class="font20 colorBlack fontW500">The adoption of a design-centric digital transformation empowered Almarai with efficient ordering and tracking systems that operate seamlessly through its platform. This has resulted in easy access to valuable data and increased sales figures through effective upselling opportunities.</h5>
+                    <h5 class="font20 colorBlack fontW500">The adoption of a design-centric digital transformation
+                        empowered Almarai with efficient ordering and tracking systems that operate seamlessly through
+                        its platform. This has resulted in easy access to valuable data and increased sales figures
+                        through effective upselling opportunities.</h5>
                 </div>
             </div>
         </div>
@@ -38691,7 +38719,8 @@ EARBEARBEARBEARBEARBEARBEARBEARBEARBEARBEARBEARBEARBEARBEARBEARBEARBEARBKFmI
 
     <!-- bottom logo section-->
     <section class="bottomimgLogos" style="background: #fff">
-        <div class="sectionSiximg"><img src="<?php bloginfo('template_directory'); ?>/images/almarai-last-banner.png"></div>
+        <div class="sectionSiximg"><img src="<?php bloginfo('template_directory'); ?>/images/almarai-last-banner.png">
+        </div>
         <div class="moreCasestudy">
             <div class="brandLogos">
                 <div class="relatedBox relatedBoxone" style="background: #ec2120;">
