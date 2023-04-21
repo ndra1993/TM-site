@@ -7922,10 +7922,8 @@ footer .ftbutton {
   .csdetailBg .fullscreenBigimg .sectionFour {
     padding: 50px 0px; }
     .csdetailBg .fullscreenBigimg .sectionFour img {
-      display: flex;
-      align-items: center;
-      margin: auto;
-      width: 80%; }
+      margin: 0 auto;
+      max-width: 100%; }
   .csdetailBg .leftimg-rightText .sectionTwo {
     flex-direction: row-reverse;
     align-items: center; }
@@ -8120,8 +8118,6 @@ footer .ftbutton {
           line-height: 27px; }
       .csdetailBg .fullscreenBigimg .sectionFour {
         padding: 30px 0px; }
-        .csdetailBg .fullscreenBigimg .sectionFour img {
-          width: 68%; }
       .csdetailBg .fullimgwithHeading {
         padding: 50px 0px; }
         .csdetailBg .fullimgwithHeading .headingSec h4 {
@@ -8207,8 +8203,6 @@ footer .ftbutton {
             line-height: 25px; }
       .csdetailBg .fullscreenBigimg .sectionFour {
         padding: 20px 0px; }
-        .csdetailBg .fullscreenBigimg .sectionFour img {
-          width: 64%; }
       .csdetailBg .fullimgwithHeading {
         padding: 40px 0px; }
         .csdetailBg .fullimgwithHeading .headingSec h4 {
@@ -8281,8 +8275,6 @@ footer .ftbutton {
           line-height: 23px; }
     .csdetailBg .fullscreenBigimg .sectionFour {
       padding: 20px 0px; }
-      .csdetailBg .fullscreenBigimg .sectionFour img {
-        width: 64%; }
     .csdetailBg .fullimgwithHeading {
       padding: 30px 0px; }
       .csdetailBg .fullimgwithHeading .headingSec h4 {
@@ -8394,8 +8386,6 @@ footer .ftbutton {
               line-height: 20px; }
       .csdetailBg .fullscreenBigimg .sectionFour {
         padding: 10px 0px; }
-        .csdetailBg .fullscreenBigimg .sectionFour img {
-          width: 100%; }
       .csdetailBg .bottomimgLogos .moreCasestudy {
         position: static; }
         .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox {
