@@ -2,6 +2,10 @@
     margin-top: 96px;
     overflow-x: hidden;
 
+    img{
+        max-width: 100%;
+    }
+
     .animFloat {
         animation: float 3s ease-in-out infinite;
     }
@@ -35,10 +39,6 @@
             .mobImg {
                 margin: 0 auto 0 24%;
                 width: 60%;
-
-                img {
-                    max-width: 100%;
-                }
             }
         }
     }
@@ -55,7 +55,6 @@
                 justify-content: center;
 
                 img {
-                    max-width: 100%;
                     margin: 0 auto;
                     width:100%;
                 }
@@ -129,7 +128,6 @@
 
             img {
                 margin: 0 auto;
-                max-width: 100%;
             }
         }
     }
@@ -159,10 +157,6 @@
 
         .imgDiv {
             margin-top: 78px;
-
-            img {
-                max-width: 100%;
-            }
         }
     }
 
@@ -191,10 +185,6 @@
 
             .imgDivmain {
                 width: 33%;
-
-                img {
-                    max-width: 100%;
-                }
             }
         }
     }
@@ -226,10 +216,6 @@
 
             .imgDivmain {
                 width: 65%;
-
-                img {
-                    max-width: 100%;
-                }
             }
         }
     }
@@ -310,8 +296,7 @@
     .bannerSlidermain {
         .bannerInnerDiv {
             position: relative;
-            background: linear-gradient(181.96deg, rgba(0, 190, 222, 0.1976) 37.2%, rgba(53, 225, 202, 0.022) 62.22%);
-            padding:120px 60px 400px 0px;
+            padding:120px 60px 0px 0px;
             .bannerSlider {
                 margin-bottom: 0px;
                 img {
@@ -534,7 +519,7 @@
 
         .bannerSlidermain {
             .bannerInnerDiv {
-               padding:100px 50px 300px 0px;
+               padding:100px 50px 0px 0px;
                 .bannerslidePara {
                     top: 100px;
                     left: 80px;
@@ -688,7 +673,7 @@
 
         .bannerSlidermain {
             .bannerInnerDiv {
-               padding:80px 30px 200px 0px;
+               padding:80px 30px 0px 0px;
                 .bannerslidePara {
                     top: 80px;
                     left: 60px;
@@ -833,7 +818,7 @@
 
         .bannerSlidermain {
             .bannerInnerDiv {
-               padding:60px 20px 100px 0px;
+               padding:60px 20px 0px 0px;
                 .bannerslidePara {
                     top: 60px;
                     left: 30px;
@@ -851,7 +836,13 @@
 
     @media screen and (max-width:1024px) {
         margin-top: 72px;
-
+        &.almaraiCasestudy{
+            .leftimg-rightText{
+                .mobimgTwo{
+                    display: none;
+                }
+            }
+        }
         .desktopImg {
             display: none;
         }
@@ -860,7 +851,6 @@
             display: block !important;
             padding: 25px 0px;
             img{
-                max-width: 100% ;
                 margin: 0 auto;
                 display: block;
                 width: unset !important;
@@ -923,7 +913,6 @@
                 margin: 0px;
                 line-height: 0;
                 padding: 0;
-                display: none;
 
                 img {
                     width: 100%;
@@ -1060,8 +1049,7 @@
 
         .bannerSlidermain{
             .bannerInnerDiv{
-                background: linear-gradient(181.96deg, rgba(0, 190, 222, 0.1976) 37.2%, rgba(53, 225, 202, 0.022) 62.22%);
-                padding:32px 0px 20px 0px;
+                padding:32px 0px 0px 0px;
                 .bannerslidePara{
                     position: unset;
                     width: 100%;
@@ -1112,6 +1100,7 @@
                 .awardSec{
                     display: block;
                     text-align: center;
+                    padding-bottom: 20px;
                     h5{text-transform: uppercase;margin-bottom: 12px;}
                     .awardMaindiv{
                         display: flex;

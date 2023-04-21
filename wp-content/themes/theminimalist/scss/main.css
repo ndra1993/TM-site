@@ -7850,6 +7850,8 @@ footer .ftbutton {
   margin-top: 96px;
   overflow-x: hidden;
   /**************************************************Media Query*********************************************/ }
+  .csdetailBg img {
+    max-width: 100%; }
   .csdetailBg .animFloat {
     animation: float 3s ease-in-out infinite; }
   .csdetailBg .bannerSection .sectionOne {
@@ -7872,8 +7874,6 @@ footer .ftbutton {
     .csdetailBg .bannerSection .sectionOne .mobImg {
       margin: 0 auto 0 24%;
       width: 60%; }
-      .csdetailBg .bannerSection .sectionOne .mobImg img {
-        max-width: 100%; }
   .csdetailBg .lefttext-rightImg .sectionTwo {
     display: flex; }
     .csdetailBg .lefttext-rightImg .sectionTwo .mobimgTwo {
@@ -7882,7 +7882,6 @@ footer .ftbutton {
       align-items: center;
       justify-content: center; }
       .csdetailBg .lefttext-rightImg .sectionTwo .mobimgTwo img {
-        max-width: 100%;
         margin: 0 auto;
         width: 100%; }
     .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo {
@@ -7922,8 +7921,7 @@ footer .ftbutton {
   .csdetailBg .fullscreenBigimg .sectionFour {
     padding: 50px 0px; }
     .csdetailBg .fullscreenBigimg .sectionFour img {
-      margin: 0 auto;
-      max-width: 100%; }
+      margin: 0 auto; }
   .csdetailBg .leftimg-rightText .sectionTwo {
     flex-direction: row-reverse;
     align-items: center; }
@@ -7938,8 +7936,6 @@ footer .ftbutton {
       line-height: 30px; }
     .csdetailBg .fullimgwithHeading .imgDiv {
       margin-top: 78px; }
-      .csdetailBg .fullimgwithHeading .imgDiv img {
-        max-width: 100%; }
   .csdetailBg .twoImgsides-headingmiddle {
     padding: 70px 0px; }
     .csdetailBg .twoImgsides-headingmiddle .imageHeadingmain {
@@ -7957,8 +7953,6 @@ footer .ftbutton {
           line-height: 30px; }
       .csdetailBg .twoImgsides-headingmiddle .imageHeadingmain .imgDivmain {
         width: 33%; }
-        .csdetailBg .twoImgsides-headingmiddle .imageHeadingmain .imgDivmain img {
-          max-width: 100%; }
   .csdetailBg .twoImgtogether-headinglast {
     padding: 70px 0px; }
     .csdetailBg .twoImgtogether-headinglast .imageHeadingmain {
@@ -7978,8 +7972,6 @@ footer .ftbutton {
           line-height: 30px; }
       .csdetailBg .twoImgtogether-headinglast .imageHeadingmain .imgDivmain {
         width: 65%; }
-        .csdetailBg .twoImgtogether-headinglast .imageHeadingmain .imgDivmain img {
-          max-width: 100%; }
   .csdetailBg .bottomimgLogos {
     position: relative;
     overflow: hidden; }
@@ -8020,8 +8012,7 @@ footer .ftbutton {
       transition: all 1s ease-in-out; }
   .csdetailBg .bannerSlidermain .bannerInnerDiv {
     position: relative;
-    background: linear-gradient(181.96deg, rgba(0, 190, 222, 0.1976) 37.2%, rgba(53, 225, 202, 0.022) 62.22%);
-    padding: 120px 60px 400px 0px; }
+    padding: 120px 60px 0px 0px; }
     .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerSlider {
       margin-bottom: 0px; }
       .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerSlider img {
@@ -8146,7 +8137,7 @@ footer .ftbutton {
         .csdetailBg .twoImgtogether-headinglast .imageHeadingmain .imgDivmain {
           width: 66%; }
       .csdetailBg .bannerSlidermain .bannerInnerDiv {
-        padding: 100px 50px 300px 0px; }
+        padding: 100px 50px 0px 0px; }
         .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara {
           top: 100px;
           left: 80px;
@@ -8229,7 +8220,7 @@ footer .ftbutton {
         .csdetailBg .twoImgtogether-headinglast .imageHeadingmain .imgDivmain {
           width: 67%; }
       .csdetailBg .bannerSlidermain .bannerInnerDiv {
-        padding: 80px 30px 200px 0px; }
+        padding: 80px 30px 0px 0px; }
         .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara {
           top: 80px;
           left: 60px;
@@ -8301,7 +8292,7 @@ footer .ftbutton {
       .csdetailBg .twoImgtogether-headinglast .imageHeadingmain .imgDivmain {
         width: 68%; }
     .csdetailBg .bannerSlidermain .bannerInnerDiv {
-      padding: 60px 20px 100px 0px; }
+      padding: 60px 20px 0px 0px; }
       .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara {
         top: 60px;
         left: 30px;
@@ -8318,13 +8309,14 @@ footer .ftbutton {
   @media screen and (max-width: 1024px) {
     .csdetailBg {
       margin-top: 72px; }
+      .csdetailBg.almaraiCasestudy .leftimg-rightText .mobimgTwo {
+        display: none; }
       .csdetailBg .desktopImg {
         display: none; }
       .csdetailBg .mobileImg {
         display: block !important;
         padding: 25px 0px; }
         .csdetailBg .mobileImg img {
-          max-width: 100%;
           margin: 0 auto;
           display: block;
           width: unset !important; }
@@ -8363,8 +8355,7 @@ footer .ftbutton {
           width: 100%;
           margin: 0px;
           line-height: 0;
-          padding: 0;
-          display: none; }
+          padding: 0; }
           .csdetailBg .lefttext-rightImg .sectionTwo .mobimgTwo img {
             width: 100%; }
       .csdetailBg .leftheading-rightText .sectionThree {
@@ -8434,8 +8425,7 @@ footer .ftbutton {
           .csdetailBg .twoImgtogether-headinglast .imageHeadingmain .imgDivmain {
             width: 100%; }
       .csdetailBg .bannerSlidermain .bannerInnerDiv {
-        background: linear-gradient(181.96deg, rgba(0, 190, 222, 0.1976) 37.2%, rgba(53, 225, 202, 0.022) 62.22%);
-        padding: 32px 0px 20px 0px; }
+        padding: 32px 0px 0px 0px; }
         .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara {
           position: unset;
           width: 100%;
@@ -8475,7 +8465,8 @@ footer .ftbutton {
                   height: 4px; }
         .csdetailBg .bannerSlidermain .bannerInnerDiv .awardSec {
           display: block;
-          text-align: center; }
+          text-align: center;
+          padding-bottom: 20px; }
           .csdetailBg .bannerSlidermain .bannerInnerDiv .awardSec h5 {
             text-transform: uppercase;
             margin-bottom: 12px; }
