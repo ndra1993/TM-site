@@ -94,10 +94,10 @@ $homepage_id = get_option('page_on_front');
 
     <!-- fullscreenbigimg -->
     <section class="fullscreenBigimg" style="background: #fff;">
-        <div class="desktopImg">
+        <div class="desktopImg wow fadeInUp" data-wow-duration="4s">
             <img src="<?php bloginfo('template_directory'); ?>/images/meesho3.png">
         </div>
-        <div class="mobileImg">
+        <div class="mobileImg wow fadeInUp" data-wow-duration="4s">
             <img src="<?php bloginfo('template_directory'); ?>/images/meesho3.png">
         </div>
     </section>
@@ -23683,20 +23683,10 @@ KIqiKIqiKIqiKIqiKIqiKIqiKIqiKIqiKIqiKEFBRP8f4saUWW/JZ80AAAAASUVORK5CYII="
             </div>
         </div>
     </section>
-    <!-- <section>
-        <div class="sectionFive">
-            <div class="mobtextFour wow slideInLeft" data-wow-duration="1s">
-                <p class="font20 fontW800 colorBlack">Impact </p>
-                <h1 class="font60 fontW800 colorBlack">Delightful user experience delivered before time</h1>
-            </div>
-            <div class="mobsubtextFour wow slideInRight" data-wow-duration="1s">
-                <h5 class="font20 colorBlack fontW500">All assets were successfully delivered ahead of schedule, giving the client the luxury of time to get internal approvals and move assets into development for their mobile website launch.</h5>
-            </div>
-        </div>
-    </section> -->
+
     
     <section class="sectionSix bottomimgLogos">
-        <div class="sectionSiximg"><img src="<?php bloginfo('template_directory'); ?>/images/meesho4.png"></div>
+        <div class="sectionSiximg wow fadeInUp" data-wow-duration="4s"><img src="<?php bloginfo('template_directory'); ?>/images/meesho4.png"></div>
         <div class="moreCasestudy">
             <div class="brandLogos">
                 <div class="relatedBox relatedBoxone" style="background: #ec2120;">

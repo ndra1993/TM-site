@@ -3260,7 +3260,7 @@ footer .ftbutton {
             font-size: 16px; }
           .desktopSection .wrap .gallery-thumbs .swiper-slide-active .swiper-slide-container .anchor .h2 {
             font-size: 35px;
-            line-height: 30px; } }
+            line-height: 35px; } }
 @media screen and (max-width: 920px) {
   .page-template-case-study-list footer {
     position: unset; }
@@ -7872,7 +7872,7 @@ footer .ftbutton {
 
 .csdetailBg {
   margin-top: 96px;
-  overflow-x: hidden;
+  overflow: hidden;
   /**************************************************Media Query*********************************************/ }
   .csdetailBg img {
     max-width: 100%; }
