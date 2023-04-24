@@ -3077,8 +3077,14 @@ footer .ftbutton {
         opacity: 1;
         visibility: visible; } }
 
-.page-template-case-study-listing header {
+.page-template-case-study-list header {
   border-bottom: 1px solid #000; }
+
+.page-template-case-study-list footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 11; }
 
 .mobileSection {
   display: none; }
@@ -3087,7 +3093,7 @@ footer .ftbutton {
   display: block;
   margin-top: 96px; }
   .desktopSection .caseStudyFilter {
-    padding: 15px 0px 17px 90px;
+    padding: 15px 0px 17px 60px;
     border-bottom: 1px solid #000; }
     .desktopSection .caseStudyFilter #filters {
       display: inline-flex;
@@ -3107,141 +3113,152 @@ footer .ftbutton {
           display: block;
           text-decoration: none;
           cursor: pointer; }
-  .desktopSection .caseStudycontainer .caseStudycontainerRow {
+  .desktopSection .wrap {
     display: flex;
+    flex-wrap: wrap;
+    height: calc(100vh - 160px) !important;
+    overflow: hidden;
     justify-content: space-between;
-    height: calc(100vh - 210px);
-    overflow: hidden; }
-    .desktopSection .caseStudycontainer .caseStudycontainerRow .img-column {
-      width: 50%; }
-      .desktopSection .caseStudycontainer .caseStudycontainerRow .img-column .img-holder a {
-        display: block; }
-      .desktopSection .caseStudycontainer .caseStudycontainerRow .img-column .img-holder img {
-        max-width: 100%;
-        height: 100%; }
-    .desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column {
-      width: 42%;
-      position: relative;
-      margin: 0 85px; }
-      .desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column .content-grp {
-        display: block; }
-        .desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column .content-grp .slick-slide a {
-          text-decoration: none;
-          color: #000; }
-          .desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column .content-grp .slick-slide a .item-inner {
-            position: relative;
-            overflow: hidden;
-            transition: .5s ease;
-            text-align: left;
-            margin: 0 auto;
-            border-bottom: 1px solid #000;
-            padding: 42px 99px 52px 0px; }
-            .desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column .content-grp .slick-slide a .item-inner p {
-              font-size: 12px;
-              text-transform: uppercase;
-              margin-bottom: 15px;
-              line-height: 14px; }
-            .desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column .content-grp .slick-slide a .item-inner h2 {
+    width: 100%; }
+    .desktopSection .wrap .gallery-top {
+      height: 100%;
+      width: calc(50% - 80px);
+      margin: 0 0px; }
+      .desktopSection .wrap .gallery-top .swiper-slide-container {
+        height: 100%;
+        margin: auto;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -ms-flex-pack: center;
+        -ms-flex-align: center;
+        background: #fff; }
+        .desktopSection .wrap .gallery-top .swiper-slide-container img {
+          max-width: 100%;
+          height: 100%; }
+    .desktopSection .wrap .gallery-thumbs {
+      height: 100%;
+      width: 50%;
+      box-sizing: border-box;
+      padding: 0px 0;
+      margin: 1px auto; }
+      .desktopSection .wrap .gallery-thumbs .swiper-slide {
+        width: 100%;
+        height: auto; }
+        .desktopSection .wrap .gallery-thumbs .swiper-slide .swiper-slide-container {
+          height: 100%;
+          margin: auto;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: -webkit-flex;
+          display: flex;
+          -ms-flex-pack: center;
+          -ms-flex-align: center;
+          border-bottom: 1px black solid; }
+          .desktopSection .wrap .gallery-thumbs .swiper-slide .swiper-slide-container .anchor {
+            text-decoration: none;
+            color: #000000;
+            width: 100%;
+            padding: 42px 99px 37px 0px; }
+            .desktopSection .wrap .gallery-thumbs .swiper-slide .swiper-slide-container .anchor p {
+              font-weight: 800;
+              font-size: 14px;
+              line-height: 14px;
+              color: #000000;
+              margin-bottom: 15px !important;
+              margin-block-start: 1px;
+              margin-block-end: 1px; }
+            .desktopSection .wrap .gallery-thumbs .swiper-slide .swiper-slide-container .anchor .h2 {
+              line-height: 36px;
               font-weight: 600;
-              font-size: 20px;
-              line-height: 26px; }
-            .desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column .content-grp .slick-slide a .item-inner span.bar {
-              display: block;
-              height: 10px;
-              width: 100%;
-              background: #00FFA3;
-              position: absolute;
-              left: 0;
-              bottom: 0;
-              visibility: hidden; }
-              .desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column .content-grp .slick-slide a .item-inner span.bar:after {
-                content: "";
-                position: absolute;
-                width: 100%;
-                height: 100%;
-                background: #00FFA3; }
-      .desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column .content-item.slick-current.current-item {
-        padding: 15px; }
-      .desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column .slick-slide.slick-current span.bar {
-        visibility: visible; }
-      .desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column .slick-vertical .slick-slide:not(.slick-current) .item-inner {
-        border-bottom: 1px solid #000000; }
-      .desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column .slick-vertical .slick-slide.slick-current .item-inner {
-        border-bottom: 2px solid #00FFA3;
-        cursor: url("../images/detail-page-cursor.svg") 0 0, auto; }
-        .desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column .slick-vertical .slick-slide.slick-current .item-inner p {
-          font-size: 20px;
-          line-height: 14px; }
-        .desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column .slick-vertical .slick-slide.slick-current .item-inner h2 {
-          font-weight: 800;
-          font-size: 40px;
-          line-height: 46px; }
-      .desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column .mouseScroll {
-        position: absolute;
-        bottom: 10px;
-        right: 0;
-        /*width: 25px;
-        height: 40px;*/ }
-      .desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column .slick-list.draggable {
-        height: auto !important;
-        margin: 0px 0px; }
-  .desktopSection .caseStudyFooter {
-    display: flex;
-    justify-content: space-between;
-    padding: 14px 50px 12px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    align-items: center; }
-    .desktopSection .caseStudyFooter .footerItem2 a {
-      text-decoration: none;
-      color: #000;
-      padding: 0px 5px; }
+              margin-block-start: 1px;
+              margin-block-end: 1px; }
+      .desktopSection .wrap .gallery-thumbs .swiper-slide-active .swiper-slide-container {
+        border-bottom: 10px solid #00FFA3; }
+        .desktopSection .wrap .gallery-thumbs .swiper-slide-active .swiper-slide-container .anchor {
+          padding: 99px 65px 86px 0px !important;
+          cursor: url("../images/detail-page-cursor.svg") 0 0, auto; }
+          .desktopSection .wrap .gallery-thumbs .swiper-slide-active .swiper-slide-container .anchor p {
+            font-size: 20px; }
+          .desktopSection .wrap .gallery-thumbs .swiper-slide-active .swiper-slide-container .anchor .h2 {
+            font-size: 64px;
+            margin: 0px;
+            line-height: 72px;
+            font-weight: 800 !important; }
 
 /* media quary */
 @media screen and (max-width: 1600px) {
   .desktopSection {
     display: block;
     margin-top: 86px; }
-    .desktopSection .caseStudycontainer .caseStudycontainerRow {
-      height: calc(100vh - 195px) !important; }
-      .desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column .content-grp .slick-slide a .item-inner {
-        padding: 30px 0px !important; }
-        .desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column .content-grp .slick-slide a .item-inner p {
-          margin-bottom: 10px; }
-        .desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column .content-grp .slick-slide a .item-inner h2 {
-          font-size: 24px;
-          line-height: 28px; } }
+    .desktopSection .wrap .gallery-thumbs .swiper-slide .swiper-slide-container .anchor {
+      padding: 35px 85px 32px 0px; }
+      .desktopSection .wrap .gallery-thumbs .swiper-slide .swiper-slide-container .anchor p {
+        font-size: 14px;
+        line-height: 14px;
+        margin-bottom: 12px !important; }
+      .desktopSection .wrap .gallery-thumbs .swiper-slide .swiper-slide-container .anchor .h2 {
+        line-height: 30px; }
+    .desktopSection .wrap .gallery-thumbs .swiper-slide-active .swiper-slide-container {
+      border-bottom: 7px solid #00FFA3; }
+      .desktopSection .wrap .gallery-thumbs .swiper-slide-active .swiper-slide-container .anchor {
+        padding: 70px 55px 66px 0px !important; }
+        .desktopSection .wrap .gallery-thumbs .swiper-slide-active .swiper-slide-container .anchor p {
+          font-size: 20px; }
+        .desktopSection .wrap .gallery-thumbs .swiper-slide-active .swiper-slide-container .anchor .h2 {
+          font-size: 54px;
+          line-height: 60px; } }
 @media screen and (max-width: 1400px) {
   .desktopSection {
     margin-top: 76px; }
     .desktopSection .caseStudyFilter {
-      padding: 7px 0px 7px 85px; }
+      padding: 7px 0px 7px 60px; }
       .desktopSection .caseStudyFilter #filters li {
         padding: 5px 10px; }
-    .desktopSection .caseStudycontainer .caseStudycontainerRow {
-      height: calc(100vh - 161px) !important; }
-      .desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column {
-        width: 45%;
-        margin: 0px 35px; }
-        .desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column .content-grp .slick-slide a .item-inner {
-          padding: 20px 0px !important; }
-          .desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column .content-grp .slick-slide a .item-inner p {
-            margin-bottom: 5px; }
-          .desktopSection .caseStudycontainer .caseStudycontainerRow .detail-column .content-grp .slick-slide a .item-inner h2 {
-            font-size: 20px;
-            line-height: 22px; }
-      .desktopSection .caseStudycontainer .caseStudycontainerRow .mouseScroll {
-        width: 20px;
-        height: 30px; } }
+    .desktopSection .wrap .gallery-thumbs .swiper-slide .swiper-slide-container .anchor {
+      padding: 35px 85px 32px 0px; }
+      .desktopSection .wrap .gallery-thumbs .swiper-slide .swiper-slide-container .anchor p {
+        font-size: 14px;
+        line-height: 14px;
+        margin-bottom: 12px !important; }
+      .desktopSection .wrap .gallery-thumbs .swiper-slide .swiper-slide-container .anchor .h2 {
+        line-height: 25px; }
+    .desktopSection .wrap .gallery-thumbs .swiper-slide-active .swiper-slide-container {
+      border-bottom: 5px solid #00FFA3; }
+      .desktopSection .wrap .gallery-thumbs .swiper-slide-active .swiper-slide-container .anchor {
+        padding: 50px 45px 55px 0px !important; }
+        .desktopSection .wrap .gallery-thumbs .swiper-slide-active .swiper-slide-container .anchor p {
+          font-size: 18px; }
+        .desktopSection .wrap .gallery-thumbs .swiper-slide-active .swiper-slide-container .anchor .h2 {
+          font-size: 45px;
+          line-height: 45px; } }
 @media screen and (max-width: 1080px) {
   .desktopSection {
     margin-top: 73px; }
     .desktopSection .caseStudyFilter {
       padding: 7px 20px; }
-    .desktopSection .caseStudycontainer .caseStudycontainerRow {
-      height: calc(100vh - 145px) !important; } }
+    .desktopSection .wrap .gallery-thumbs .swiper-slide .swiper-slide-container .anchor {
+      padding: 28px 60px 25px 0px; }
+      .desktopSection .wrap .gallery-thumbs .swiper-slide .swiper-slide-container .anchor p {
+        font-size: 12px;
+        line-height: 14px;
+        margin-bottom: 10px !important; }
+      .desktopSection .wrap .gallery-thumbs .swiper-slide .swiper-slide-container .anchor .h2 {
+        line-height: 22px; }
+    .desktopSection .wrap .gallery-thumbs .swiper-slide-active .swiper-slide-container {
+      border-bottom: 5px solid #00FFA3; }
+      .desktopSection .wrap .gallery-thumbs .swiper-slide-active .swiper-slide-container .anchor {
+        padding: 35px 38px 45px 0px !important; }
+        .desktopSection .wrap .gallery-thumbs .swiper-slide-active .swiper-slide-container .anchor p {
+          font-size: 16px; }
+        .desktopSection .wrap .gallery-thumbs .swiper-slide-active .swiper-slide-container .anchor .h2 {
+          font-size: 35px;
+          line-height: 30px; } }
 @media screen and (max-width: 920px) {
+  .page-template-case-study-list footer {
+    position: unset; }
+
   .desktopSection {
     display: none; }
 
@@ -3257,7 +3274,8 @@ footer .ftbutton {
         .mobileSection .caseStudyDetailsSection a img {
           max-width: 100%;
           width: 100%;
-          margin-bottom: 17px; }
+          margin-bottom: 17px;
+          height: 100%; }
         .mobileSection .caseStudyDetailsSection a p {
           margin-bottom: 8px;
           line-height: 14px;
@@ -7854,6 +7872,12 @@ footer .ftbutton {
     max-width: 100%; }
   .csdetailBg .animFloat {
     animation: float 3s ease-in-out infinite; }
+  .csdetailBg .paddingZero {
+    padding: 0px !important; }
+  .csdetailBg .desktopVid {
+    display: block; }
+  .csdetailBg .mobVid {
+    display: none; }
   .csdetailBg .bannerSection .sectionOne {
     position: relative;
     padding: 50px 0px 200px 0px; }
@@ -7918,6 +7942,30 @@ footer .ftbutton {
         width: 60%; }
         .csdetailBg .leftheading-rightText .sectionThree .mobsubtextThree .innerContianertwo h5 {
           line-height: 30px; }
+  .csdetailBg .centerheading-centerText .fullSection {
+    padding: 130px 112px 130px 112px; }
+    .csdetailBg .centerheading-centerText .fullSection h1 {
+      line-height: 53px;
+      letter-spacing: -0.03em;
+      text-align: center;
+      margin-bottom: 36px; }
+    .csdetailBg .centerheading-centerText .fullSection p {
+      line-height: 36px;
+      text-align: center;
+      letter-spacing: 0.03em; }
+  .csdetailBg .fullSectionAnimation .fullSectionAnimationBox {
+    display: flex;
+    width: 100%;
+    padding: 0px 112px 190px 112px; }
+    .csdetailBg .fullSectionAnimation .fullSectionAnimationBox .fullSectionAnimationOne {
+      width: 30%; }
+      .csdetailBg .fullSectionAnimation .fullSectionAnimationBox .fullSectionAnimationOne img {
+        margin-bottom: 40px; }
+        .csdetailBg .fullSectionAnimation .fullSectionAnimationBox .fullSectionAnimationOne img:last-child {
+          margin-bottom: 0px; }
+    .csdetailBg .fullSectionAnimation .fullSectionAnimationBox .fullSectionAnimationTwo {
+      width: 70%;
+      margin-left: 35px; }
   .csdetailBg .fullscreenBigimg .sectionFour {
     padding: 50px 0px; }
     .csdetailBg .fullscreenBigimg .sectionFour img {
@@ -8107,6 +8155,21 @@ footer .ftbutton {
           margin: 10px 0px 20px 0px; }
         .csdetailBg .leftheading-rightText .sectionThree .mobsubtextThree .innerContianertwo h5 {
           line-height: 27px; }
+      .csdetailBg .centerheading-centerText .fullSection {
+        padding: 100px 82px 100px 82px; }
+        .csdetailBg .centerheading-centerText .fullSection h1 {
+          line-height: 45px;
+          margin-bottom: 32px; }
+        .csdetailBg .centerheading-centerText .fullSection p {
+          line-height: 30px; }
+      .csdetailBg .fullSectionAnimation .fullSectionAnimationBox {
+        padding: 0px 82px 160px 82px; }
+        .csdetailBg .fullSectionAnimation .fullSectionAnimationBox .fullSectionAnimationOne img {
+          margin-bottom: 30px; }
+          .csdetailBg .fullSectionAnimation .fullSectionAnimationBox .fullSectionAnimationOne img:last-child {
+            margin-bottom: 0px; }
+        .csdetailBg .fullSectionAnimation .fullSectionAnimationBox .fullSectionAnimationTwo {
+          margin-left: 30px; }
       .csdetailBg .fullscreenBigimg .sectionFour {
         padding: 30px 0px; }
       .csdetailBg .fullimgwithHeading {
@@ -8192,6 +8255,19 @@ footer .ftbutton {
           width: 58%; }
           .csdetailBg .leftheading-rightText .sectionThree .mobsubtextThree .innerContianertwo h5 {
             line-height: 25px; }
+      .csdetailBg .centerheading-centerText .fullSection {
+        padding: 80px 52px 80px 52px; }
+        .csdetailBg .centerheading-centerText .fullSection h1 {
+          line-height: 40px;
+          margin-bottom: 28px; }
+        .csdetailBg .centerheading-centerText .fullSection p {
+          line-height: 26px; }
+      .csdetailBg .fullSectionAnimation .fullSectionAnimationBox {
+        padding: 0px 52px 120px 52px; }
+        .csdetailBg .fullSectionAnimation .fullSectionAnimationBox .fullSectionAnimationOne img {
+          margin-bottom: 25px; }
+        .csdetailBg .fullSectionAnimation .fullSectionAnimationBox .fullSectionAnimationTwo {
+          margin-left: 25px; }
       .csdetailBg .fullscreenBigimg .sectionFour {
         padding: 20px 0px; }
       .csdetailBg .fullimgwithHeading {
@@ -8264,6 +8340,19 @@ footer .ftbutton {
         width: 62%; }
         .csdetailBg .leftheading-rightText .sectionThree .mobsubtextThree .innerContianertwo h5 {
           line-height: 23px; }
+    .csdetailBg .centerheading-centerText .fullSection {
+      padding: 50px 32px 60px 32px; }
+      .csdetailBg .centerheading-centerText .fullSection h1 {
+        line-height: 35px;
+        margin-bottom: 24px; }
+      .csdetailBg .centerheading-centerText .fullSection p {
+        line-height: 24px; }
+    .csdetailBg .fullSectionAnimation .fullSectionAnimationBox {
+      padding: 0px 32px 100px 32px; }
+      .csdetailBg .fullSectionAnimation .fullSectionAnimationBox .fullSectionAnimationOne img {
+        margin-bottom: 20px; }
+      .csdetailBg .fullSectionAnimation .fullSectionAnimationBox .fullSectionAnimationTwo {
+        margin-left: 20px; }
     .csdetailBg .fullscreenBigimg .sectionFour {
       padding: 20px 0px; }
     .csdetailBg .fullimgwithHeading {
@@ -8309,6 +8398,10 @@ footer .ftbutton {
   @media screen and (max-width: 1024px) {
     .csdetailBg {
       margin-top: 72px; }
+      .csdetailBg .desktopVid {
+        display: none; }
+      .csdetailBg .mobVid {
+        display: block; }
       .csdetailBg.almaraiCasestudy .leftimg-rightText .mobimgTwo {
         display: none; }
       .csdetailBg .desktopImg {
@@ -8375,6 +8468,26 @@ footer .ftbutton {
             width: 100%; }
             .csdetailBg .leftheading-rightText .sectionThree .mobsubtextThree .innerContianertwo h5 {
               line-height: 20px; }
+      .csdetailBg .centerheading-centerText .fullSection {
+        padding: 32px 24px 24px 24px; }
+        .csdetailBg .centerheading-centerText .fullSection h1 {
+          line-height: 30px;
+          margin-bottom: 20px; }
+        .csdetailBg .centerheading-centerText .fullSection p {
+          line-height: 20px; }
+      .csdetailBg .fullSectionAnimation .fullSectionAnimationBox {
+        display: block;
+        padding: 0px 24px 70px 24px; }
+        .csdetailBg .fullSectionAnimation .fullSectionAnimationBox .fullSectionAnimationOne {
+          width: 100%; }
+          .csdetailBg .fullSectionAnimation .fullSectionAnimationBox .fullSectionAnimationOne img {
+            margin-bottom: 15px;
+            width: 100%; }
+            .csdetailBg .fullSectionAnimation .fullSectionAnimationBox .fullSectionAnimationOne img:last-child {
+              margin-bottom: 15px; }
+        .csdetailBg .fullSectionAnimation .fullSectionAnimationBox .fullSectionAnimationTwo {
+          margin-left: 0px;
+          width: 100%; }
       .csdetailBg .fullscreenBigimg .sectionFour {
         padding: 10px 0px; }
       .csdetailBg .bottomimgLogos .moreCasestudy {
