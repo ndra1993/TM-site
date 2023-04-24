@@ -40,14 +40,14 @@
   	.wrap {
   		display:flex;
   		flex-wrap:wrap;
-      	height: calc(100vh - 160px) !important;
+      	height: calc(100vh - 210px) !important;
 	    overflow: hidden;
 	    justify-content: space-between;
 	    width: 100%;
 	    .gallery-top {
 		    height:100%;
 		    width: calc(50% - 80px);
-		  	margin:0 0px;
+		  	margin: 1px auto;
 		  	.swiper-slide-container {
 				height:100%;
 				margin:auto;
@@ -127,7 +127,7 @@
 /* media quary */
 @media screen and (max-width: 1600px) {
 	.desktopSection{display: block;margin-top:86px;
-		.wrap {
+		.wrap {height: calc(100vh - 190px) !important;
 	  		.gallery-top {
 			    .swiper-slide-container {
 				}
@@ -174,7 +174,7 @@
 			}
 		}
 	
-		.wrap {
+		.wrap {height: calc(100vh - 160px) !important;
 	  		.gallery-top {
 			    .swiper-slide-container {
 				}
@@ -215,7 +215,7 @@
 @media screen and (max-width: 1080px) {
 	.desktopSection{margin-top:73px;
 		.caseStudyFilter {padding:7px 20px;}
-		.wrap {
+		.wrap {height: calc(100vh - 142px) !important;
 	  		.gallery-top {
 			    .swiper-slide-container {
 				}

@@ -142,5 +142,5 @@ echo $text = str_replace('</p>','',$text); ?></h2>
 
 
 <?php get_footer(); ?>
-  
+
 <script  src="<?php bloginfo('template_directory'); ?>/newswiper/script.js"></script>
