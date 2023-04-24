@@ -9,11 +9,10 @@ $homepage_id = get_option('page_on_front');
     <section class="bannerSlidermain" style=" background: linear-gradient(181.96deg, rgba(0, 190, 222, 0.1976) 37.2%, rgba(53, 225, 202, 0.022) 62.22%);">
         <div class="bannerInnerDiv">
             <div class="bannerslidePara">
-                <p class="font20 fontW800 colorBlack">One to 11</p>
-                <h1 class="font60 fontW800 colorBlack">Disrupting The Online Gaming Industry</h1>
-                <h5 class="font20 colorBlack fontW500" style="color:rgba(17, 0, 17, 0.5)">India's first fastest growing
-                    Social Networking Fantasy Mobile gaming with over 2.2 million users on the
-                    platform.</h5>
+                <p class="font20 fontW800 colorBlack">Tata AIG</p>
+                <h1 class="font60 fontW800 colorBlack">Disrupting The private general insurance Industry</h1>
+                <h5 class="font20 colorBlack fontW500" style="color:rgba(17, 0, 17, 0.5)">India's first fastest growing general insurance company, a joint venture between TATA Group
+                    and American International Group (AIG) </h5>
             </div>
             <div class="bannerSlider">
                 <div class="bannerSliderSection">
@@ -69,11 +68,9 @@ $homepage_id = get_option('page_on_front');
             <div class="mobtextTwo wow slideInLeft" data-wow-duration="1s" style="background: #fff;">
                 <div class="innerContent">
                     <p class="font20 fontW800 colorBlack">insight</p>
-                    <h1 class="font60 fontW800 colorBlack">A new experience reflecting the brand’s vision and values
+                    <h1 class="font60 fontW800 colorBlack">A seamless experience & reflecting the brand’s vision and values
                     </h1>
-                    <h5 class="font20 colorBlack fontW500">They aim to Create the biggest Gaming ecosystem in the world
-                        with games suiting to every gamers. They have plans to include NFT based Role playing Games with
-                        a New Play To Earn model across the platform.</h5>
+                    <h5 class="font20 colorBlack fontW500">Our aim was to decrease drop offs by introducing a payment-first method. We  reduced the time it takes to get to the quote page by reducing the form filling and streamlining the entire flow</h5>
                 </div>
             </div>
             <div class="mobimgTwo wow slideInRight mobileImg" data-wow-duration="1s">
@@ -86,14 +83,12 @@ $homepage_id = get_option('page_on_front');
             <div class="mobtextThree wow slideInLeft" data-wow-duration="1s">
                 <div class="innerContianer">
                     <p class="font20 fontW800 colorBlack">solutions</p>
-                    <h1 class="font60 fontW800 colorBlack">Unique experience designed around Gamers life</h1>
+                    <h1 class="font60 fontW800 colorBlack">Mobile-first Experience</h1>
                 </div>
             </div>
             <div class="mobsubtextThree wow slideInRight" data-wow-duration="1s">
                 <div class="innerContianertwo">
-                    <h5 class="font20 colorBlack fontW500">A responsive website that aims to educate users about the NFT
-                        market and crypto-currencies. An infographic design with educative content is easier to
-                        understand.</h5>
+                    <h5 class="font20 colorBlack fontW500">We implemented a mobile first approach to reach a wider target audience and introduced a payment-first approach to reduce drop offs and retain customers. We also introduced third-party integrations to reduce overall form filling</h5>
                 </div>
             </div>
         </div>
@@ -9886,17 +9881,17 @@ aU5zmtOc5jSnOc1pTnOa05zmNKc5zWnN9P8DTmN/gW+rDo4AAAAASUVORK5CYII=" transform="mat
                 </svg>
             </div>
             <div class="mobileImg">
-                <img src="<?php bloginfo('template_directory'); ?>/images/tagged-desktop.png">
+                <img src="<?php bloginfo('template_directory'); ?>/images/tataaig-desk-separate.png">
             </div>
             <div class="mobileImg">
-                <img src="<?php bloginfo('template_directory'); ?>/images/tagged-mblview.png">
+                <img src="<?php bloginfo('template_directory'); ?>/images/tataaig-mbl-separate.png">
             </div>
         </div>
     </section>
     <section class="fullimgwithHeading" style="background: #f5f5f5">
         <div class="headingSec">
-            <h4 class="font36 colorBlack fontW800">Concised vehicle cards</h4>
-            <p class="font20 fontW500">Indication of all vehicle parameters</p>
+            <h4 class="font36 colorBlack fontW800">Streamlined the user flow </h4>
+            <p class="font20 fontW500">Our research indicated that the navigation led to choice paralysis and the overall form filling was detrimental to conversions. We also wanted to reduce the time it takes the user to acquire a quote. We simplified the navigation to aid in decision-making, and implemented payment-first method and incorporated third-party integrations to reduce form filing.  </p>
         </div>
         <div class="imgDiv">
             <div>
@@ -19372,15 +19367,13 @@ Gp1aXl5G4HAYekrSfwGsPET2Cn6PUQAAAABJRU5ErkJggg==" transform="matrix(1 0 0 1 76 3
         <div class="sectionThree">
             <div class="mobtextThree wow slideInLeft" data-wow-duration="1s">
                 <div class="innerContianer">
-                    <p class="font20 fontW800 colorBlack">solutions</p>
-                    <h1 class="font60 fontW800 colorBlack">Unique experience designed around Gamers life</h1>
+                    <p class="font20 fontW800 colorBlack">impact</p>
+                    <h1 class="font60 fontW800 colorBlack">Increased engagement & higher conversions</h1>
                 </div>
             </div>
             <div class="mobsubtextThree wow slideInRight" data-wow-duration="1s">
                 <div class="innerContianertwo">
-                    <h5 class="font20 colorBlack fontW500">A responsive website that aims to educate users about the NFT
-                        market and crypto-currencies. An infographic design with educative content is easier to
-                        understand.</h5>
+                    <h5 class="font20 colorBlack fontW500">We reduced drop-offs and enabled conversions by streamlining the navigation and changing the user flow to reduce the time it takes to reach the quote page. We implemented third-party integrations to reduce form filling and incorporated payment-first to retain users. </h5>
                 </div>
             </div>
         </div>
@@ -19391,11 +19384,9 @@ Gp1aXl5G4HAYekrSfwGsPET2Cn6PUQAAAABJRU5ErkJggg==" transform="matrix(1 0 0 1 76 3
     <section class="bannerSlidermain" style="background:#eeedec">
         <div class="bannerInnerDiv">
             <div class="bannerslidePara">
-                <p class="font20 fontW800 colorBlack">One to 11</p>
-                <h1 class="font60 fontW800 colorBlack">Disrupting The Online Gaming Industry</h1>
-                <h5 class="font20 colorBlack fontW500" style="color:rgba(17, 0, 17, 0.5)">India's first fastest growing
-                    Social Networking Fantasy Mobile gaming with over 2.2 million users on the
-                    platform.</h5>
+                <p class="font20 fontW800 colorBlack">Agent Service</p>
+                <h1 class="font60 fontW800 colorBlack">Disrupting The private general insurance Industry </h1>
+                <h5 class="font20 colorBlack fontW500" style="color:rgba(17, 0, 17, 0.5)">We also revamped the entire agent experience for TATA AIG</h5>
             </div>
             <div class="bannerSlider">
                 <div class="bannerSliderSection">
@@ -19411,11 +19402,8 @@ Gp1aXl5G4HAYekrSfwGsPET2Cn6PUQAAAABJRU5ErkJggg==" transform="matrix(1 0 0 1 76 3
             <div class="mobtextTwo wow slideInLeft" data-wow-duration="1s" style="background: #fff;">
                 <div class="innerContent">
                     <p class="font20 fontW800 colorBlack">insight</p>
-                    <h1 class="font60 fontW800 colorBlack">A new experience reflecting the brand’s vision and values
-                    </h1>
-                    <h5 class="font20 colorBlack fontW500">They aim to Create the biggest Gaming ecosystem in the world
-                        with games suiting to every gamers. They have plans to include NFT based Role playing Games with
-                        a New Play To Earn model across the platform.</h5>
+                    <h1 class="font60 fontW800 colorBlack">A new experience with a holistic platform</h1>
+                    <h5 class="font20 colorBlack fontW500">We wanted to create a seamless experience that caters to multiple user-types and create a platform that can accommodate multiple system integrations </h5>
                 </div>
             </div>
             <div class="mobimgTwo wow slideInRight mobileImg" data-wow-duration="1s">
@@ -19427,15 +19415,13 @@ Gp1aXl5G4HAYekrSfwGsPET2Cn6PUQAAAABJRU5ErkJggg==" transform="matrix(1 0 0 1 76 3
         <div class="sectionThree">
             <div class="mobtextThree wow slideInLeft" data-wow-duration="1s">
                 <div class="innerContianer">
-                    <p class="font20 fontW800 colorBlack">solutions</p>
-                    <h1 class="font60 fontW800 colorBlack">Unique experience designed around Gamers life</h1>
+                    <p class="font20 fontW800 colorBlack">SOLUTIONS</p>
+                    <h1 class="font60 fontW800 colorBlack">Easier onboarding & seamless integrations</h1>
                 </div>
             </div>
             <div class="mobsubtextThree wow slideInRight" data-wow-duration="1s">
                 <div class="innerContianertwo">
-                    <h5 class="font20 colorBlack fontW500">A responsive website that aims to educate users about the NFT
-                        market and crypto-currencies. An infographic design with educative content is easier to
-                        understand.</h5>
+                    <h5 class="font20 colorBlack fontW500">The existing infrastructure depended on multiple services and integrations. we simplified the interactions and user-flows to reduce the load on the server and makes onboarding easier for new users</h5>
                 </div>
             </div>
         </div>
@@ -19450,15 +19436,13 @@ Gp1aXl5G4HAYekrSfwGsPET2Cn6PUQAAAABJRU5ErkJggg==" transform="matrix(1 0 0 1 76 3
         <div class="sectionThree">
             <div class="mobtextThree wow slideInLeft" data-wow-duration="1s">
                 <div class="innerContianer">
-                    <p class="font20 fontW800 colorWhite">solutions</p>
-                    <h1 class="font60 fontW800 colorWhite">Unique experience designed around Gamers life</h1>
+                    <p class="font20 fontW800 colorWhite">IMPACT</p>
+                    <h1 class="font60 fontW800 colorWhite">Simplified quote generation & reduced the learning curve of agents</h1>
                 </div>
             </div>
             <div class="mobsubtextThree wow slideInRight" data-wow-duration="1s">
                 <div class="innerContianertwo">
-                    <h5 class="font20 colorWhite fontW500">A responsive website that aims to educate users about the NFT
-                        market and crypto-currencies. An infographic design with educative content is easier to
-                        understand.</h5>
+                    <h5 class="font20 colorWhite fontW500">We created a holistic platform that can accommodate multiple integrations, simplified user flows to enable faster quote generation and reduced the learning curve of new users</h5>
                 </div>
             </div>
         </div>
