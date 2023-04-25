@@ -27,11 +27,12 @@
 
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+	<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" /> -->
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 	<script src="<?php echo get_template_directory_uri(); ?>/js/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/css/swiper.min.css'>
 	<script src="<?php echo get_template_directory_uri(); ?>/js/WOW.js"></script>
 	<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/form.js"></script>
 	<script type="text/javascript">
@@ -66,7 +67,7 @@
 						<img src="<?php bloginfo('template_directory'); ?>/images/tm-logo.svg" alt="">
 					</a>
 				</div>
-			<?php } elseif (is_page ('blogs')||is_page('case-study-listing')||is_page('case-study-details')||is_page('privacy-policy')||is_page('our-clients')) { ?>
+			<?php } elseif (is_page ('blogs')||is_page('case-study')||is_page('case-study-details')||is_page('privacy-policy')||is_page('our-clients')) { ?>
 				<div class="logoBox titleBox">
 					<a class="backArrow" onclick="GoBackWithRefresh();return false;"><img src="<?php bloginfo('template_directory'); ?>/images/arrow-title.svg" alt="Back Arrow"></a>
 					<h3 class="fontW800 font30 fontPoppins colorBlack" style="text-transform:capitalize;"><?php the_title(); ?></h3>
