@@ -7893,10 +7893,10 @@ footer .ftbutton {
       position: absolute;
       top: 10%;
       padding-left: 112px;
-      width: 32%; }
+      width: 32%;
+      z-index: 2; }
       .csdetailBg .bannerSection .sectionOne .mobtext p {
-        text-transform: uppercase;
-        margin-bottom: 35px; }
+        text-transform: uppercase; }
       .csdetailBg .bannerSection .sectionOne .mobtext h1 {
         line-height: 70px;
         margin: 35px 0px; }
@@ -7904,7 +7904,7 @@ footer .ftbutton {
         line-height: 30px;
         width: 73%; }
     .csdetailBg .bannerSection .sectionOne .mobImg {
-      margin: 0 auto 0 24%;
+      margin: 50px auto 0 24%;
       width: 60%; }
   .csdetailBg .lefttext-rightImg .sectionTwo {
     display: flex; }
@@ -7926,7 +7926,7 @@ footer .ftbutton {
           margin-bottom: 15px; }
         .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent h1 {
           line-height: 70px;
-          margin: 5px 0px 35px 0px; }
+          margin: 0px 0px 35px 0px; }
         .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent h5 {
           line-height: 30px; }
   .csdetailBg .leftheading-rightText .sectionThree {
@@ -7942,8 +7942,7 @@ footer .ftbutton {
           text-transform: uppercase;
           margin-bottom: 15px; }
         .csdetailBg .leftheading-rightText .sectionThree .mobtextThree .innerContianer h1 {
-          line-height: 70px;
-          margin: 15px 0px 35px 0px; }
+          line-height: 70px; }
     .csdetailBg .leftheading-rightText .sectionThree .mobsubtextThree {
       width: 45%; }
       .csdetailBg .leftheading-rightText .sectionThree .mobsubtextThree .innerContianertwo {
@@ -8055,8 +8054,7 @@ footer .ftbutton {
             width: 100%;
             cursor: url(../images/mouse-cursor-pages.png) 30 30, auto; }
             .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox a img {
-              margin: 0 auto;
-              height: 100px; }
+              margin: 0 auto; }
           .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox:nth-child(1) {
             text-align: left; }
           .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox:nth-child(2) {
@@ -8120,7 +8118,7 @@ footer .ftbutton {
         width: 75%; }
       .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara h1 {
         line-height: 70px;
-        margin: 15px 0px 35px; }
+        margin: 35px 0px; }
     .csdetailBg .bannerSlidermain .bannerInnerDiv .awardSec {
       display: none; }
   .csdetailBg .taggedBanner .sectionOne {
@@ -8128,6 +8126,8 @@ footer .ftbutton {
     .csdetailBg .taggedBanner .sectionOne .mobImg {
       margin: 0 0 0 auto !important;
       width: 100%; }
+  .csdetailBg.almaraiCasestudy .bannerSection .sectionOne .mobImg {
+    margin-left: 32%; }
   .csdetailBg .desktopImg {
     display: block; }
   .csdetailBg .mobileImg {
@@ -8139,21 +8139,19 @@ footer .ftbutton {
         padding: 40px 0px 150px 0px; }
         .csdetailBg .bannerSection .sectionOne .mobtext {
           padding-left: 82px; }
-          .csdetailBg .bannerSection .sectionOne .mobtext p {
-            margin-bottom: 25px; }
           .csdetailBg .bannerSection .sectionOne .mobtext h1 {
             margin: 20px 0px;
             line-height: 50px; }
           .csdetailBg .bannerSection .sectionOne .mobtext h5 {
             line-height: 27px; }
         .csdetailBg .bannerSection .sectionOne .mobImg {
-          margin: 0 auto 0 22%; }
+          margin: 40px auto 0 22%; }
       .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo {
         padding: 74px 0px 74px 82px; }
         .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent {
           width: 50%; }
           .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent h1 {
-            margin: 5px 0px 20px 0px;
+            margin: 0px 0px 25px 0px;
             line-height: 50px; }
           .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent h5 {
             line-height: 27px; }
@@ -8162,8 +8160,7 @@ footer .ftbutton {
       .csdetailBg .leftheading-rightText .sectionThree {
         padding: 100px 0px 100px 82px; }
         .csdetailBg .leftheading-rightText .sectionThree .mobtextThree .innerContianer h1 {
-          line-height: 50px;
-          margin: 10px 0px 20px 0px; }
+          line-height: 50px; }
         .csdetailBg .leftheading-rightText .sectionThree .mobsubtextThree .innerContianertwo h5 {
           line-height: 27px; }
       .csdetailBg .centerheading-centerText .fullSection {
@@ -8223,7 +8220,7 @@ footer .ftbutton {
             width: 70%; }
           .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara h1 {
             line-height: 50px;
-            margin: 15px 0px 30px; } }
+            margin: 20px 0px; } }
   @media screen and (max-width: 1450px) {
     .csdetailBg {
       margin-top: 76px; }
@@ -8231,15 +8228,13 @@ footer .ftbutton {
         padding: 30px 0px 100px 0px; }
         .csdetailBg .bannerSection .sectionOne .mobtext {
           padding-left: 52px; }
-          .csdetailBg .bannerSection .sectionOne .mobtext p {
-            margin-bottom: 15px; }
           .csdetailBg .bannerSection .sectionOne .mobtext h1 {
             margin: 10px 0px;
             line-height: 45px; }
           .csdetailBg .bannerSection .sectionOne .mobtext h5 {
             line-height: 25px; }
         .csdetailBg .bannerSection .sectionOne .mobImg {
-          margin: 0 auto 0 20%; }
+          margin: 40px auto 0 20%; }
       .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo {
         padding: 54px 0px 54px 52px; }
         .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent {
@@ -8247,7 +8242,7 @@ footer .ftbutton {
           .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent p {
             margin-bottom: 10px; }
           .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent h1 {
-            margin: 5px 0px 10px 0px;
+            margin: 0px 0px 15px 0px;
             line-height: 45px; }
           .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent h5 {
             line-height: 25px; }
@@ -8260,8 +8255,7 @@ footer .ftbutton {
           .csdetailBg .leftheading-rightText .sectionThree .mobtextThree .innerContianer p {
             margin-bottom: 10px; }
           .csdetailBg .leftheading-rightText .sectionThree .mobtextThree .innerContianer h1 {
-            line-height: 45px;
-            margin: 5px 0px 10px 0px; }
+            line-height: 45px; }
         .csdetailBg .leftheading-rightText .sectionThree .mobsubtextThree .innerContianertwo {
           width: 58%; }
           .csdetailBg .leftheading-rightText .sectionThree .mobsubtextThree .innerContianertwo h5 {
@@ -8318,7 +8312,7 @@ footer .ftbutton {
             line-height: 24px; }
           .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara h1 {
             line-height: 40px;
-            margin: 10px 0px 25px; } }
+            margin: 10px 0px; } }
   @media screen and (max-width: 1200px) {
     .csdetailBg .bannerSection .sectionOne {
       padding: 35px 0px 60px 0px; }
@@ -8334,7 +8328,7 @@ footer .ftbutton {
       .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent {
         width: 70%; }
         .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent h1 {
-          margin: 5px 0px 10px 0px;
+          margin: 0px 0px 10px 0px;
           line-height: 40px; }
         .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent h5 {
           line-height: 23px; }
@@ -8345,8 +8339,7 @@ footer .ftbutton {
       .csdetailBg .leftheading-rightText .sectionThree .mobtextThree .innerContianer {
         width: 70%; }
         .csdetailBg .leftheading-rightText .sectionThree .mobtextThree .innerContianer h1 {
-          line-height: 40px;
-          margin: 5px 0px 10px 0px; }
+          line-height: 40px; }
       .csdetailBg .leftheading-rightText .sectionThree .mobsubtextThree .innerContianertwo {
         width: 62%; }
         .csdetailBg .leftheading-rightText .sectionThree .mobsubtextThree .innerContianertwo h5 {
@@ -8405,23 +8398,22 @@ footer .ftbutton {
           line-height: 22px; }
         .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara h1 {
           line-height: 36px;
-          margin: 10px 0px 15px; }
+          margin: 10px 0px; }
       .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerSlider img {
         width: 80%; } }
   @media screen and (max-width: 1024px) {
     .csdetailBg {
       margin-top: 72px; }
-      .csdetailBg .desktopVid {
-        display: none; }
-      .csdetailBg .mobVid {
-        display: block; }
       .csdetailBg.almaraiCasestudy .leftimg-rightText .mobimgTwo {
         display: none; }
+      .csdetailBg.almaraiCasestudy .bannerSection .sectionOne .mobImg {
+        margin-left: auto; }
       .csdetailBg .desktopImg {
         display: none; }
       .csdetailBg .mobileImg {
         display: block !important;
-        padding: 25px 0px; }
+        padding: 25px 0px;
+        margin: 0 auto; }
         .csdetailBg .mobileImg img {
           margin: 0 auto;
           display: block; }
@@ -8433,8 +8425,6 @@ footer .ftbutton {
           padding-left: 24px;
           padding-right: 24px;
           padding-top: 32px; }
-          .csdetailBg .bannerSection .sectionOne .mobtext p {
-            margin-bottom: 8px; }
           .csdetailBg .bannerSection .sectionOne .mobtext h1 {
             line-height: 36px; }
           .csdetailBg .bannerSection .sectionOne .mobtext h5 {
@@ -8505,17 +8495,18 @@ footer .ftbutton {
       .csdetailBg .bottomimgLogos .moreCasestudy {
         position: static; }
         .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox {
-          padding: 12px; }
+          padding: 25px; }
           .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox:nth-child(1) {
             text-align: center; }
           .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox:nth-child(2) {
             text-align: center; }
           .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox a img {
-            height: 50px; }
+            width: 100px; }
       .csdetailBg .fullimgwithHeading {
         padding: 20px 0px; }
         .csdetailBg .fullimgwithHeading .headingSec {
-          width: 100%; }
+          width: 100%;
+          padding: 0px 20px; }
           .csdetailBg .fullimgwithHeading .headingSec h4 {
             line-height: 26px;
             margin-bottom: 5px; }
@@ -8560,7 +8551,7 @@ footer .ftbutton {
           text-align: center; }
           .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara h1 {
             line-height: 28px;
-            margin: 5px 0px 12px;
+            margin: 12px 0px;
             font-size: 22px; }
           .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara h5 {
             font-size: 12px;
@@ -8608,6 +8599,11 @@ footer .ftbutton {
               .csdetailBg .bannerSlidermain .bannerInnerDiv .awardSec .awardMaindiv .awardDivbx h5 {
                 text-transform: unset;
                 margin: 12px 0px 4px; } }
+  @media screen and (max-width: 560px) {
+    .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox {
+      padding: 25px; }
+      .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox a img {
+        width: 70px; } }
 
 #svganime .st0 {
   display: none; }

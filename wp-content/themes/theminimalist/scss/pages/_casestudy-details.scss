@@ -2,7 +2,7 @@
     margin-top: 96px;
     overflow: hidden;
 
-    img{
+    img {
         max-width: 100%;
     }
 
@@ -24,9 +24,10 @@
                 top: 10%;
                 padding-left: 112px;
                 width: 32%;
+                z-index: 2;
 
                 p {
-                    text-transform: uppercase;margin-bottom:35px;
+                    text-transform: uppercase;
                 }
 
                 h1 {
@@ -41,12 +42,12 @@
             }
 
             .mobImg {
-                margin: 0 auto 0 24%;
+                margin: 50px auto 0 24%;
                 width: 60%;
             }
         }
     }
-    
+
 
     .lefttext-rightImg {
         .sectionTwo {
@@ -60,7 +61,7 @@
 
                 img {
                     margin: 0 auto;
-                    width:100%;
+                    width: 100%;
                 }
             }
 
@@ -72,12 +73,13 @@
                     width: 60%;
 
                     p {
-                        text-transform: uppercase;margin-bottom: 15px;
+                        text-transform: uppercase;
+                        margin-bottom: 15px;
                     }
 
                     h1 {
                         line-height: 70px;
-                        margin: 5px 0px 35px 0px;
+                        margin: 0px 0px 35px 0px;
                     }
 
                     h5 {
@@ -102,12 +104,12 @@
                     width: 60%;
 
                     p {
-                        text-transform: uppercase;margin-bottom: 15px;
+                        text-transform: uppercase;
+                        margin-bottom: 15px;
                     }
 
                     h1 {
                         line-height: 70px;
-                        margin: 15px 0px 35px 0px;
                     }
                 }
             }
@@ -153,10 +155,10 @@
         }
     }
 
-    .leftimg-rightText{
+    .leftimg-rightText {
         .sectionTwo {
-           flex-direction: row-reverse;
-           align-items: center;
+            flex-direction: row-reverse;
+            align-items: center;
         }
     }
 
@@ -167,6 +169,7 @@
         .headingSec {
             width: 60%;
             margin: 0 auto;
+
             h4 {
                 margin-bottom: 15px;
                 line-height: 42px;
@@ -277,7 +280,6 @@
 
                         img {
                             margin: 0 auto;
-                            height: 100px;
                         }
                     }
 
@@ -319,11 +321,13 @@
     .bannerSlidermain {
         .bannerInnerDiv {
             position: relative;
-            padding:120px 60px 0px 0px;
+            padding: 120px 60px 0px 0px;
+
             .bannerSlider {
                 margin-bottom: 0px;
+
                 img {
-                    margin:0 auto;
+                    margin: 0 auto;
                 }
 
                 .slick-dots {
@@ -376,26 +380,48 @@
                 left: 100px;
                 z-index: 1;
                 width: 28%;
-                p{line-height: 14px;}
-                h5{line-height: 30px;width: 75%;}
-                h1{line-height: 70px;margin: 15px 0px 35px;}
+
+                p {
+                    line-height: 14px;
+                }
+
+                h5 {
+                    line-height: 30px;
+                    width: 75%;
+                }
+
+                h1 {
+                    line-height: 70px;
+                    margin: 35px 0px;
+                }
             }
 
-            .awardSec{
+            .awardSec {
                 display: none;
             }
         }
     }
+
     // tagged banner style
-    .taggedBanner{
-        .sectionOne{
+    .taggedBanner {
+        .sectionOne {
             padding: 0px !important;
-            .mobImg{
+
+            .mobImg {
                 margin: 0 0 0 auto !important;
                 width: 100%;
             }
         }
     }
+    // tagged css ends
+
+    // almarai banner style
+    &.almaraiCasestudy{
+        .bannerSection .sectionOne .mobImg{
+           margin-left: 32%;
+        }
+    }
+    // almarai css ends
 
     .desktopImg {
         display: block;
@@ -415,9 +441,6 @@
 
                 .mobtext {
                     padding-left: 82px;
-                    p {
-                        margin-bottom:25px;
-                    }
 
                     h1 {
                         margin: 20px 0px;
@@ -430,7 +453,7 @@
                 }
 
                 .mobImg {
-                    margin: 0 auto 0 22%;
+                    margin: 40px auto 0 22%;
                 }
             }
         }
@@ -441,8 +464,9 @@
 
                 .innerContent {
                     width: 50%;
+
                     h1 {
-                        margin: 5px 0px 20px 0px;
+                        margin: 0px 0px 25px 0px;
                         line-height: 50px;
                     }
 
@@ -464,7 +488,6 @@
             .mobtextThree {
                 .innerContianer h1 {
                     line-height: 50px;
-                    margin: 10px 0px 20px 0px;
                 }
             }
 
@@ -495,7 +518,7 @@
             padding: 30px 0px;
         }
 
-        
+
 
         .fullimgwithHeading {
             padding: 50px 0px;
@@ -558,14 +581,26 @@
 
         .bannerSlidermain {
             .bannerInnerDiv {
-               padding:100px 50px 0px 0px;
+                padding: 100px 50px 0px 0px;
+
                 .bannerslidePara {
                     top: 100px;
                     left: 80px;
                     width: 26%;
-                    p{line-height: 12px;}
-                    h5{line-height: 26px;width: 70%;}
-                    h1{line-height: 50px;margin: 15px 0px 30px;}
+
+                    p {
+                        line-height: 12px;
+                    }
+
+                    h5 {
+                        line-height: 26px;
+                        width: 70%;
+                    }
+
+                    h1 {
+                        line-height: 50px;
+                        margin: 20px 0px;
+                    }
                 }
             }
         }
@@ -580,9 +615,6 @@
 
                 .mobtext {
                     padding-left: 52px;
-                    p {
-                        margin-bottom:15px;
-                    }
 
                     h1 {
                         margin: 10px 0px;
@@ -595,7 +627,7 @@
                 }
 
                 .mobImg {
-                    margin: 0 auto 0 20%;
+                    margin: 40px auto 0 20%;
                 }
             }
         }
@@ -606,9 +638,13 @@
 
                 .innerContent {
                     width: 65%;
-                    p{margin-bottom: 10px;}
+
+                    p {
+                        margin-bottom: 10px;
+                    }
+
                     h1 {
-                        margin: 5px 0px 10px 0px;
+                        margin: 0px 0px 15px 0px;
                         line-height: 45px;
                     }
 
@@ -630,10 +666,13 @@
             .mobtextThree {
                 .innerContianer {
                     width: 65%;
-                    p{margin-bottom: 10px;}
+
+                    p {
+                        margin-bottom: 10px;
+                    }
+
                     h1 {
                         line-height: 45px;
-                        margin: 5px 0px 10px 0px;
                     }
                 }
             }
@@ -726,14 +765,25 @@
 
         .bannerSlidermain {
             .bannerInnerDiv {
-               padding:80px 30px 0px 0px;
+                padding: 80px 30px 0px 0px;
+
                 .bannerslidePara {
                     top: 80px;
                     left: 60px;
                     width: 24%;
-                    p{line-height: 12px;}
-                    h5{line-height: 24px;}
-                    h1{line-height: 40px;margin: 10px 0px 25px;}
+
+                    p {
+                        line-height: 12px;
+                    }
+
+                    h5 {
+                        line-height: 24px;
+                    }
+
+                    h1 {
+                        line-height: 40px;
+                        margin: 10px 0px;
+                    }
                 }
             }
         }
@@ -767,7 +817,7 @@
                     width: 70%;
 
                     h1 {
-                        margin: 5px 0px 10px 0px;
+                        margin: 0px 0px 10px 0px;
                         line-height: 40px;
                     }
 
@@ -792,7 +842,6 @@
 
                     h1 {
                         line-height: 40px;
-                        margin: 5px 0px 10px 0px;
                     }
                 }
             }
@@ -831,6 +880,7 @@
 
             .headingSec {
                 width: 75%;
+
                 h4 {
                     line-height: 28px;
                 }
@@ -886,16 +936,28 @@
 
         .bannerSlidermain {
             .bannerInnerDiv {
-               padding:60px 20px 0px 0px;
+                padding: 60px 20px 0px 0px;
+
                 .bannerslidePara {
                     top: 60px;
                     left: 30px;
                     width: 26%;
-                    p{line-height: 10px;}
-                    h5{line-height: 22px;}
-                    h1{line-height: 36px;margin: 10px 0px 15px;}
+
+                    p {
+                        line-height: 10px;
+                    }
+
+                    h5 {
+                        line-height: 22px;
+                    }
+
+                    h1 {
+                        line-height: 36px;
+                        margin: 10px 0px;
+                    }
                 }
-                .bannerSlider img{
+
+                .bannerSlider img {
                     width: 80%;
                 }
             }
@@ -904,15 +966,19 @@
 
     @media screen and (max-width:1024px) {
         margin-top: 72px;
-        .desktopVid{display:none;}
-        .mobVid{display:block;}
-        &.almaraiCasestudy{
-            .leftimg-rightText{
-                .mobimgTwo{
+
+        &.almaraiCasestudy {
+            .leftimg-rightText {
+                .mobimgTwo {
                     display: none;
                 }
             }
+            .bannerSection .sectionOne .mobImg{
+                margin-left: auto;
+            }
+           
         }
+
         .desktopImg {
             display: none;
         }
@@ -920,7 +986,9 @@
         .mobileImg {
             display: block !important;
             padding: 25px 0px;
-            img{
+            margin: 0 auto;
+
+            img {
                 margin: 0 auto;
                 display: block;
                 
@@ -937,9 +1005,6 @@
                     padding-left: 24px;
                     padding-right: 24px;
                     padding-top: 32px;
-                    p {
-                        margin-bottom:8px;
-                    }
 
                     h1 {
                         line-height: 36px;
@@ -967,7 +1032,11 @@
 
                 .innerContent {
                     width: 100%;
-                    p{margin-bottom: 8px;}
+
+                    p {
+                        margin-bottom: 8px;
+                    }
+
                     h1 {
                         line-height: 36px;
                     }
@@ -1000,7 +1069,11 @@
 
                 .innerContianer {
                     width: 100%;
-                    p{margin-bottom: 8px;}
+
+                    p {
+                        margin-bottom: 8px;
+                    }
+
                     h1 {
                         line-height: 36px;
                     }
@@ -1044,7 +1117,7 @@
             position: static;
 
             .brandLogos .relatedBox {
-                padding: 12px;
+                padding: 25px;
 
                 &:nth-child(1) {
                     text-align: center;
@@ -1055,18 +1128,20 @@
                 }
 
                 a img {
-                    height: 50px;
+                    width: 100px;
                 }
             }
         }
 
-        
+
 
         .fullimgwithHeading {
             padding: 20px 0px;
 
             .headingSec {
                 width: 100%;
+                padding: 0px 20px;
+
                 h4 {
                     line-height: 26px;
                     margin-bottom: 5px;
@@ -1134,49 +1209,59 @@
             }
         }
 
-        .bannerSlidermain{
-            .bannerInnerDiv{
-                padding:32px 0px 0px 0px;
-                .bannerslidePara{
+        .bannerSlidermain {
+            .bannerInnerDiv {
+                padding: 32px 0px 0px 0px;
+
+                .bannerslidePara {
                     position: unset;
                     width: 100%;
                     padding: 0px 40px;
                     text-align: center;
-                    h1{
+
+                    h1 {
                         line-height: 28px;
-                        margin: 5px 0px 12px;
+                        margin: 12px 0px;
                         font-size: 22px;
                     }
-                    h5{
+
+                    h5 {
                         font-size: 12px;
                         line-height: 20px;
                         width: 100%;
                     }
                 }
-                .bannerSlider{
+
+                .bannerSlider {
                     margin-bottom: 24px;
-                    img{
+
+                    img {
                         width: unset;
                     }
-                    .slick-dots{
+
+                    .slick-dots {
                         top: 95%;
                         height: unset;
                         right: 0;
                         left: 0;
                         transform: unset;
                         display: block;
-                        li{
+
+                        li {
                             margin: 0px;
                             padding: 8px 0px;
-                            button:before{
+
+                            button:before {
                                 width: 4px;
                                 height: 4px;
                                 background: #858585;
                             }
-                            &.slick-active{
+
+                            &.slick-active {
                                 margin-bottom: 0px;
                                 margin-right: 20px;
-                                button:before{
+
+                                button:before {
                                     width: 25px;
                                     height: 4px;
                                 }
@@ -1184,25 +1269,45 @@
                         }
                     }
                 }
-                .awardSec{
+
+                .awardSec {
                     display: block;
                     text-align: center;
                     padding-bottom: 20px;
-                    h5{text-transform: uppercase;margin-bottom: 12px;}
-                    .awardMaindiv{
+
+                    h5 {
+                        text-transform: uppercase;
+                        margin-bottom: 12px;
+                    }
+
+                    .awardMaindiv {
                         display: flex;
                         align-items: center;
                         justify-content: center;
                         flex-wrap: wrap;
-                        .awardDivbx{
+
+                        .awardDivbx {
                             width: 48%;
                             margin-top: 12px;
-                            h5{
+
+                            h5 {
                                 text-transform: unset;
                                 margin: 12px 0px 4px;
                             }
                         }
                     }
+                }
+            }
+        }
+
+    }
+
+    @media screen and (max-width:560px) {
+        .bottomimgLogos .moreCasestudy {
+            .brandLogos .relatedBox {
+                padding: 25px;
+                a img {
+                    width: 70px;
                 }
             }
         }

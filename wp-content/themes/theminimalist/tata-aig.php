@@ -88,7 +88,7 @@ $homepage_id = get_option('page_on_front');
             </div>
             <div class="mobsubtextThree wow slideInRight" data-wow-duration="1s">
                 <div class="innerContianertwo">
-                    <h5 class="font20 colorBlack fontW500">We implemented a mobile first approach to reach a wider target audience and introduced a payment-first approach to reduce drop offs and retain customers. We also introduced third-party integrations to reduce overall form filling</h5>
+                    <h5 class="font20 fontW500" style="color:rgba(0, 0, 0, 0.5)">We implemented a mobile first approach to reach a wider target audience and introduced a payment-first approach to reduce drop offs and retain customers. We also introduced third-party integrations to reduce overall form filling</h5>
                 </div>
             </div>
         </div>
@@ -19378,7 +19378,7 @@ Gp1aXl5G4HAYekrSfwGsPET2Cn6PUQAAAABJRU5ErkJggg==" transform="matrix(1 0 0 1 76 3
             </div>
         </div>
     </section>
-    <section class="fullscreenBigimg" style="background: #fff">
+    <section class="fullscreenBigimg wow fadeInUp"  data-wow-duration="3s" style="background: #fff">
         <img src="<?php bloginfo('template_directory'); ?>/images/tataaig-laptop-full.png">
     </section>
     <section class="bannerSlidermain" style="background:#eeedec">
@@ -19388,7 +19388,7 @@ Gp1aXl5G4HAYekrSfwGsPET2Cn6PUQAAAABJRU5ErkJggg==" transform="matrix(1 0 0 1 76 3
                 <h1 class="font60 fontW800 colorBlack">Disrupting The private general insurance Industry </h1>
                 <h5 class="font20 colorBlack fontW500" style="color:rgba(17, 0, 17, 0.5)">We also revamped the entire agent experience for TATA AIG</h5>
             </div>
-            <div class="bannerSlider">
+            <div class="bannerSlider wow fadeInUp"  data-wow-duration="3s">
                 <div class="bannerSliderSection">
                     <div class="bannerSliderimg">
                         <img src="<?php bloginfo('template_directory'); ?>/images/full-img-tata.png" alt="">
@@ -19411,7 +19411,7 @@ Gp1aXl5G4HAYekrSfwGsPET2Cn6PUQAAAABJRU5ErkJggg==" transform="matrix(1 0 0 1 76 3
             </div>
         </div>
     </section>
-    <section class="leftheading-rightText" style="background: #f5f5f5;">
+    <section class="leftheading-rightText" style="background: #E8E8E8;">
         <div class="sectionThree">
             <div class="mobtextThree wow slideInLeft" data-wow-duration="1s">
                 <div class="innerContianer">
@@ -19421,15 +19421,15 @@ Gp1aXl5G4HAYekrSfwGsPET2Cn6PUQAAAABJRU5ErkJggg==" transform="matrix(1 0 0 1 76 3
             </div>
             <div class="mobsubtextThree wow slideInRight" data-wow-duration="1s">
                 <div class="innerContianertwo">
-                    <h5 class="font20 colorBlack fontW500">The existing infrastructure depended on multiple services and integrations. we simplified the interactions and user-flows to reduce the load on the server and makes onboarding easier for new users</h5>
+                    <h5 class="font20 colorBlack fontW500" style="color:rgba(0, 0, 0, 0.5)">The existing infrastructure depended on multiple services and integrations. we simplified the interactions and user-flows to reduce the load on the server and makes onboarding easier for new users</h5>
                 </div>
             </div>
         </div>
     </section>
-    <section class="fullscreenBigimg" style="background: #fff">
+    <section class="fullscreenBigimg wow fadeInUp"  data-wow-duration="3s" style="background: #fff">
         <img src="<?php bloginfo('template_directory'); ?>/images/laptop-2-tata.svg">
     </section>
-    <section class="fullscreenBigimg" style="background: #fff">
+    <section class="fullscreenBigimg wow fadeInUp" data-wow-duration="3s" style="background: #fff">
         <img src="<?php bloginfo('template_directory'); ?>/images/multiple-screen-tata.png">
     </section>
     <section class="leftheading-rightText" style="background: #274079;">

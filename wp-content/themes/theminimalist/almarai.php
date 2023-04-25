@@ -11,7 +11,7 @@ $homepage_id = get_option('page_on_front');
             <div class="mobtext wow slideInLeft">
                 <p class="font20 fontW800 colorWhite">Almarai </p>
                 <h1 class="font60 fontW800 colorWhite">Delivering a seamless Order Management System to Almarai</h1>
-                <h5 class="font20 colorWhite fontW500">Almarai is a Saudi-based multinational company that specialises
+                <h5 class="font20 colorWhite fontW500" style="color: rgba(255, 255, 255, 0.75);">Almarai is a Saudi-based multinational company that specialises
                     in food and beverage manufacturing and distribution. It’s operational in all six GCC (Gulf
                     Cooperation Council) countries.</h5>
             </div>
