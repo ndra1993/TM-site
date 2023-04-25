@@ -23,6 +23,7 @@
                 top: 10%;
                 padding-left: 112px;
                 width: 32%;
+                z-index: 2;
 
                 p {
                     text-transform: uppercase;
@@ -40,7 +41,7 @@
             }
 
             .mobImg {
-                margin: 0 auto 0 24%;
+                margin: 50px auto 0 24%;
                 width: 60%;
             }
         }
@@ -390,7 +391,7 @@
 
                 h1 {
                     line-height: 70px;
-                    margin: 15px 0px 35px;
+                    margin: 35px 0px;
                 }
             }
 
@@ -411,6 +412,15 @@
             }
         }
     }
+    // tagged css ends
+
+    // almarai banner style
+    &.almaraiCasestudy{
+        .bannerSection .sectionOne .mobImg{
+           margin-left: 32%;
+        }
+    }
+    // almarai css ends
 
     .desktopImg {
         display: block;
@@ -442,7 +452,7 @@
                 }
 
                 .mobImg {
-                    margin: 0 auto 0 22%;
+                    margin: 40px auto 0 22%;
                 }
             }
         }
@@ -588,7 +598,7 @@
 
                     h1 {
                         line-height: 50px;
-                        margin: 15px 0px 30px;
+                        margin: 20px 0px;
                     }
                 }
             }
@@ -616,7 +626,7 @@
                 }
 
                 .mobImg {
-                    margin: 0 auto 0 20%;
+                    margin: 40px auto 0 20%;
                 }
             }
         }
@@ -771,7 +781,7 @@
 
                     h1 {
                         line-height: 40px;
-                        margin: 10px 0px 25px;
+                        margin: 10px 0px;
                     }
                 }
             }
@@ -942,7 +952,7 @@
 
                     h1 {
                         line-height: 36px;
-                        margin: 10px 0px 15px;
+                        margin: 10px 0px;
                     }
                 }
 
@@ -962,6 +972,10 @@
                     display: none;
                 }
             }
+            .bannerSection .sectionOne .mobImg{
+                margin-left: auto;
+            }
+           
         }
 
         .desktopImg {
@@ -971,6 +985,7 @@
         .mobileImg {
             display: block !important;
             padding: 25px 0px;
+            margin: 0 auto;
 
             img {
                 margin: 0 auto;
@@ -1124,6 +1139,7 @@
 
             .headingSec {
                 width: 100%;
+                padding: 0px 20px;
 
                 h4 {
                     line-height: 26px;
@@ -1204,7 +1220,7 @@
 
                     h1 {
                         line-height: 28px;
-                        margin: 5px 0px 12px;
+                        margin: 12px 0px;
                         font-size: 22px;
                     }
 
