@@ -8399,10 +8399,6 @@ footer .ftbutton {
   @media screen and (max-width: 1024px) {
     .csdetailBg {
       margin-top: 72px; }
-      .csdetailBg .desktopVid {
-        display: none; }
-      .csdetailBg .mobVid {
-        display: block; }
       .csdetailBg.almaraiCasestudy .leftimg-rightText .mobimgTwo {
         display: none; }
       .csdetailBg .desktopImg {
