@@ -171,7 +171,7 @@
         </div>
     </section>
     <!-- fullscreenbigimg -->
-    <section class="fullscreenBigimg" style="background: #0243A3;">
+    <section class="fullscreenBigimg" style="background: #0243A3;line-height: 0;">
         <div class="desktopImg wow fadeInUp" data-wow-duration="4s">
             <img src="<?php bloginfo('template_directory'); ?>/images/dozee-impact-banner.png">
         </div>
@@ -210,33 +210,33 @@
             </div>
         </div>
     </section>
-    <section class="fullscreenBigimg" style="background: #0243A3;">
+    <section class="fullscreenBigimg" style="background: #0243A3;padding: 50px;">
         <div class="wow fadeInUp" data-wow-duration="4s">
             <img src="<?php bloginfo('template_directory'); ?>/images/dozee_1.svg">
         </div>
     </section>
-    <section class="fullscreenBigimg" style="background: #0243A3;">
+    <section class="fullscreenBigimg" style="background: #0243A3;padding: 50px;">
         <div class="wow fadeInUp" data-wow-duration="4s">
             <img src="<?php bloginfo('template_directory'); ?>/images/dozee_2.svg">
         </div>
     </section>
-    <section class="fullscreenBigimg" style="background: #0243A3;">
+    <section class="fullscreenBigimg" style="background: #0243A3;padding: 50px;">
         <div class="wow fadeInUp" data-wow-duration="4s">
             <img src="<?php bloginfo('template_directory'); ?>/images/dozee_3.svg">
         </div>
     </section>
-    <section class="fullscreenBigimg" style="background: #0243A3;">
+    <section class="fullscreenBigimg" style="background: #0243A3;padding: 50px;">
         <div class="wow fadeInUp" data-wow-duration="4s">
             <img src="<?php bloginfo('template_directory'); ?>/images/dozee_4.svg">
         </div>
     </section>
     
-   <section class="fullscreenBigimg" style="background: #0243A3;">
+   <section class="fullscreenBigimg" style="background: #0243A3;padding: 50px;">
         <div class="wow fadeInUp" data-wow-duration="4s">
             <img src="<?php bloginfo('template_directory'); ?>/images/dozee_mobile1.svg">
         </div>
     </section>
-    <section class="fullscreenBigimg" style="background: #0243A3;">
+    <section class="fullscreenBigimg" style="background: #0243A3;padding: 50px;">
         <div class="wow fadeInUp" data-wow-duration="4s">
             <img src="<?php bloginfo('template_directory'); ?>/images/dozee_mobile2.svg">
         </div>
