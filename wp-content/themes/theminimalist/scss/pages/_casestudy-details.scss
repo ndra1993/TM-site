@@ -12,6 +12,7 @@
     .paddingZero{padding:0px !important;}
     .desktopVid{display:block;}
     .mobVid{display:none;}
+    .lineHeightZero{line-height:0;}
 
     .bannerSection {
         .sectionOne {
@@ -922,7 +923,7 @@
             img{
                 margin: 0 auto;
                 display: block;
-                width: unset !important;
+                
             }
         }
 

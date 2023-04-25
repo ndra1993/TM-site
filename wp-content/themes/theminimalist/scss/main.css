@@ -3142,7 +3142,7 @@ footer .ftbutton {
       width: 50%;
       box-sizing: border-box;
       padding: 0px 0;
-      margin: 1px auto; }
+      margin: 0px auto; }
       .desktopSection .wrap .gallery-thumbs .swiper-slide {
         width: 100%;
         height: auto; }
@@ -7884,6 +7884,8 @@ footer .ftbutton {
     display: block; }
   .csdetailBg .mobVid {
     display: none; }
+  .csdetailBg .lineHeightZero {
+    line-height: 0; }
   .csdetailBg .bannerSection .sectionOne {
     position: relative;
     padding: 50px 0px 200px 0px; }
@@ -8422,8 +8424,7 @@ footer .ftbutton {
         padding: 25px 0px; }
         .csdetailBg .mobileImg img {
           margin: 0 auto;
-          display: block;
-          width: unset !important; }
+          display: block; }
       .csdetailBg .bannerSection .sectionOne {
         padding: 32px 0px 20px 0px; }
         .csdetailBg .bannerSection .sectionOne .mobtext {

@@ -15,7 +15,7 @@ $homepage_id = get_option('page_on_front');
                 <h5 class="font20 colorWhite fontW500">Meesho is the biggest and most reliable online marketplace in India for resellers that conduct their business over Facebook and WhatsApp. It is democratising e-commerce for all, thanks to its tech-first philosophy.</h5>
             </div>
             <div class="mobImg wow fadeInUp" data-wow-duration="4s">
-                <img src="<?php bloginfo('template_directory'); ?>/images/meesho-banner-new.svg">
+                <img src="<?php bloginfo('template_directory'); ?>/images/meesho-banner-new.png">
             </div>
         </div>
     </section>
@@ -29,7 +29,7 @@ $homepage_id = get_option('page_on_front');
                 <div class="innerContent">
                     <p class="font20 fontW800 colorBlack">Objective </p>
                     <h1 class="font60 fontW800 colorBlack">Making Meesho accessible via Mobile </h1>
-                    <h5 class="font20 colorBlack fontW500">Meesho intended to create a mobile version of their existing website, to improve UX and increase visibility for SEO under a time constraint</h5>
+                    <h5 class="font20 colorBlack fontW500">Meesho intended to create a mobile version of their existing website, to improve UX and increase visibility for SEO under a time constraint.</h5>
                 </div>
             </div>
             <div class="mobimgTwo wow slideInRight mobileImg" data-wow-duration="1s">
@@ -94,11 +94,11 @@ $homepage_id = get_option('page_on_front');
 
     <!-- fullscreenbigimg -->
     <section class="fullscreenBigimg" style="background: #fff;">
-        <div class="desktopImg wow fadeInUp" data-wow-duration="4s">
+        <div class="desktopImg wow fadeInUp paddingZero" data-wow-duration="8s">
             <img src="<?php bloginfo('template_directory'); ?>/images/meesho3.png">
         </div>
-        <div class="mobileImg wow fadeInUp" data-wow-duration="4s">
-            <img src="<?php bloginfo('template_directory'); ?>/images/meesho3.png">
+        <div class="mobileImg wow fadeInUp paddingZero" data-wow-duration="8s">
+            <img src="<?php bloginfo('template_directory'); ?>/images/meesho3.png" width="100%">
         </div>
     </section>
 
@@ -120,21 +120,17 @@ $homepage_id = get_option('page_on_front');
     </section>
     
     
-    <section class="fullscreenBigimg" style="background: #fff;">
+    <section class="fullscreenBigimg lineHeightZero" style="background: #fff;">
         <div id="animation-container" class="desktopImg"></div>
         <div id="meesho-mobileslider" class="mobileImg"></div>
     </section>
 
-    <section class="fullscreenBigimg" style="background: #fff;">
+    <section class="fullscreenBigimg lineHeightZero" style="background: #fff;">
         <div class="wow fadeInUp" data-wow-duration="4s">
             <img src="<?php bloginfo('template_directory'); ?>/images/meesho-mobile-1.png">
         </div>
     </section>
-    <section class="fullscreenBigimg" style="background: #fff;">
-        <div class="wow fadeInUp" data-wow-duration="4s">
-            <img src="<?php bloginfo('template_directory'); ?>/images/meesho-mobile-1.png">
-        </div>
-    </section>
+    
 
     <!-- leftheading-rightText -->
     <section class="leftheading-rightText" style="background: #fff;">
