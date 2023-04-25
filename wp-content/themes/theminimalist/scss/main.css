@@ -7886,6 +7886,8 @@ footer .ftbutton {
     display: none; }
   .csdetailBg .lineHeightZero {
     line-height: 0; }
+  .csdetailBg .marginZero {
+    margin: 0px !important; }
   .csdetailBg .bannerSection .sectionOne {
     position: relative;
     padding: 50px 0px 200px 0px; }

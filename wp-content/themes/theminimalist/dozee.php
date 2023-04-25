@@ -3,7 +3,7 @@
 
 
 
-
+    
 
 
 
@@ -19,7 +19,7 @@
                 <h1 class="font60 fontW800 colorWhite">Adding a dose of Science and technology to Dozee’s design system </h1>
                 <h5 class="font20 colorWhite fontW500">Dozee is an advanced contactless remote patient monitoring and early warning system that utilizes cutting-edge artificial intelligence technology. It offers an efficient ballistocardiography solution to enhance patient care.</h5>
             </div>
-            <div class="mobImg wow fadeInUp" data-wow-duration="4s">
+            <div class="mobImg wow fadeInUp marginZero" data-wow-duration="4s">
                 <video class="desktopVid" playsinline="playsinline" muted="muted" preload="yes" autoplay="autoplay" loop="loop" id="vjs_video_739_html5_api" class="video-js" data-setup='{"autoplay":"any"}'>
                     <source src="<?php bloginfo('template_directory'); ?>/videos/dozee-animation-video.mp4" type="video/mp4">
                 </video>
@@ -29,6 +29,7 @@
             </div>
         </div>
     </section>
+    
 
     
     <!-- lefttext-rightimg -->
@@ -102,18 +103,7 @@
             </div>
         </div>
     </section>
-    <!-- <section>
-        <div class="sectionOne dozeebg">
-            <div class="mobtext wow slideInLeft">
-                <p class="font20 fontW800 colorWhite">DOZEE</p>
-                <h1 class="font60 fontW800 colorWhite">Contactless remote patient monitoring</h1>
-                <h5 class="font20 colorWhite fontW500">Dozee is the pioneer in contactless remote patient monitoring and early warning system powered by cutting edge AI and trusted by over 300+ hospitals.</h5>
-            </div>
-            <div class="wow fadeInUp mobImg" data-wow-duration="4s">
-                <img src="<?php bloginfo('template_directory'); ?>/images/dozee-banner.png">
-            </div>
-        </div>
-    </section> -->
+    
     <!-- lefttext-rightimg -->
     <section class="lefttext-rightImg" style="background: #fff;">
         <div class="sectionTwo">
