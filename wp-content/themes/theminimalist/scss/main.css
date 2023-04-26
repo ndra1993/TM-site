@@ -7216,6 +7216,9 @@ footer .ftbutton {
         margin-bottom: 32px; }
         .blogsDetails .blogsDetailsSection .blogsDetailsOne .blogDate img {
           margin-right: 10px; }
+        .blogsDetails .blogsDetailsSection .blogsDetailsOne .blogDate p {
+          line-height: 16px;
+          letter-spacing: 0.03em; }
       .blogsDetails .blogsDetailsSection .blogsDetailsOne h1 {
         margin-bottom: 32px;
         line-height: 70px; }
