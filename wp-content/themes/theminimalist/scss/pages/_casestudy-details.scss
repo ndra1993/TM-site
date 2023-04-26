@@ -10,9 +10,12 @@
         animation: float 3s ease-in-out infinite;
     }
     .paddingZero{padding:0px !important;}
-    .desktopVid{display:block;}
-    .mobVid{display:none;}
-
+    .desktopVid{display:block;width:100%;}
+    .mobVid{display:none;width:100%;}
+    .lineHeightZero{line-height:0;}
+    .marginZero{margin:0px !important;}
+    .widthFull{width:100% !important;}
+    .colorWhiteLight{color:#ffffff80;}
     .bannerSection {
         .sectionOne {
             position: relative;
@@ -136,11 +139,13 @@
     .fullSectionAnimation{
         .fullSectionAnimationBox{display:flex;width:100%;padding: 0px 112px 190px 112px;
             .fullSectionAnimationOne{width:30%;
-                img{margin-bottom:40px;
+                img{margin-bottom:40px; width:100%;
                     &:last-child{margin-bottom:0px;}
                 }
             }
-            .fullSectionAnimationTwo{width:70%;margin-left:35px;}
+            .fullSectionAnimationTwo{width:70%;margin-left:35px;
+                img{ width:100%;}
+            }
         }
     }
 
@@ -990,7 +995,7 @@
             img {
                 margin: 0 auto;
                 display: block;
-                width: unset !important;
+                
             }
         }
 

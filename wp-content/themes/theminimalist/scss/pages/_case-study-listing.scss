@@ -46,8 +46,8 @@
 	    width: 100%;
 	    .gallery-top {
 		    height:100%;
-		    width: calc(50% - 80px);
-		  	margin: 1px auto;
+		    width: calc(50% - 85px);
+		  	margin: 1px 0px;
 		  	.swiper-slide-container {
 				height:100%;
 				margin:auto;
@@ -65,8 +65,8 @@
 			height: 100%;
 		    width: 50%;
 		    box-sizing: border-box;
-		    padding: 0px 0;
-		    margin: 1px auto;
+		    padding: 0px 0px;
+		    margin: 1px 0px;
 		    .swiper-slide {
 		    	width: 100%;
     			height: auto;
@@ -128,7 +128,7 @@
 @media screen and (max-width: 1600px) {
 	.desktopSection{display: block;margin-top:86px;
 		.wrap {height: calc(100vh - 190px) !important;
-	  		.gallery-top {
+	  		.gallery-top {width: calc(50% - 70px);
 			    .swiper-slide-container {
 				}
 			}
@@ -175,7 +175,7 @@
 		}
 	
 		.wrap {height: calc(100vh - 160px) !important;
-	  		.gallery-top {
+	  		.gallery-top {width: calc(50% - 60px);
 			    .swiper-slide-container {
 				}
 			}
@@ -214,9 +214,9 @@
 }
 @media screen and (max-width: 1080px) {
 	.desktopSection{margin-top:73px;
-		.caseStudyFilter {padding:7px 20px;}
+		
 		.wrap {height: calc(100vh - 142px) !important;
-	  		.gallery-top {
+	  		.gallery-top {width: calc(50% - 50px);
 			    .swiper-slide-container {
 				}
 			}
@@ -254,7 +254,7 @@
 	}
 }
 
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 1024px) {
 	.page-template-case-study-list {
 	    footer{
 		    position: unset;

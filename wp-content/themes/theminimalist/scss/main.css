@@ -3122,8 +3122,8 @@ footer .ftbutton {
     width: 100%; }
     .desktopSection .wrap .gallery-top {
       height: 100%;
-      width: calc(50% - 80px);
-      margin: 1px auto; }
+      width: calc(50% - 85px);
+      margin: 1px 0px; }
       .desktopSection .wrap .gallery-top .swiper-slide-container {
         height: 100%;
         margin: auto;
@@ -3141,8 +3141,8 @@ footer .ftbutton {
       height: 100%;
       width: 50%;
       box-sizing: border-box;
-      padding: 0px 0;
-      margin: 1px auto; }
+      padding: 0px 0px;
+      margin: 1px 0px; }
       .desktopSection .wrap .gallery-thumbs .swiper-slide {
         width: 100%;
         height: auto; }
@@ -3194,6 +3194,8 @@ footer .ftbutton {
     margin-top: 86px; }
     .desktopSection .wrap {
       height: calc(100vh - 190px) !important; }
+      .desktopSection .wrap .gallery-top {
+        width: calc(50% - 70px); }
       .desktopSection .wrap .gallery-thumbs .swiper-slide .swiper-slide-container .anchor {
         padding: 35px 85px 32px 0px; }
         .desktopSection .wrap .gallery-thumbs .swiper-slide .swiper-slide-container .anchor p {
@@ -3220,6 +3222,8 @@ footer .ftbutton {
         padding: 5px 10px; }
     .desktopSection .wrap {
       height: calc(100vh - 160px) !important; }
+      .desktopSection .wrap .gallery-top {
+        width: calc(50% - 60px); }
       .desktopSection .wrap .gallery-thumbs .swiper-slide .swiper-slide-container .anchor {
         padding: 35px 85px 32px 0px; }
         .desktopSection .wrap .gallery-thumbs .swiper-slide .swiper-slide-container .anchor p {
@@ -3240,10 +3244,10 @@ footer .ftbutton {
 @media screen and (max-width: 1080px) {
   .desktopSection {
     margin-top: 73px; }
-    .desktopSection .caseStudyFilter {
-      padding: 7px 20px; }
     .desktopSection .wrap {
       height: calc(100vh - 142px) !important; }
+      .desktopSection .wrap .gallery-top {
+        width: calc(50% - 50px); }
       .desktopSection .wrap .gallery-thumbs .swiper-slide .swiper-slide-container .anchor {
         padding: 28px 60px 25px 0px; }
         .desktopSection .wrap .gallery-thumbs .swiper-slide .swiper-slide-container .anchor p {
@@ -3261,7 +3265,7 @@ footer .ftbutton {
           .desktopSection .wrap .gallery-thumbs .swiper-slide-active .swiper-slide-container .anchor .h2 {
             font-size: 35px;
             line-height: 35px; } }
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 1024px) {
   .page-template-case-study-list footer {
     position: unset; }
 
@@ -7881,9 +7885,19 @@ footer .ftbutton {
   .csdetailBg .paddingZero {
     padding: 0px !important; }
   .csdetailBg .desktopVid {
-    display: block; }
+    display: block;
+    width: 100%; }
   .csdetailBg .mobVid {
-    display: none; }
+    display: none;
+    width: 100%; }
+  .csdetailBg .lineHeightZero {
+    line-height: 0; }
+  .csdetailBg .marginZero {
+    margin: 0px !important; }
+  .csdetailBg .widthFull {
+    width: 100% !important; }
+  .csdetailBg .colorWhiteLight {
+    color: #ffffff80; }
   .csdetailBg .bannerSection .sectionOne {
     position: relative;
     padding: 50px 0px 200px 0px; }
@@ -7965,12 +7979,15 @@ footer .ftbutton {
     .csdetailBg .fullSectionAnimation .fullSectionAnimationBox .fullSectionAnimationOne {
       width: 30%; }
       .csdetailBg .fullSectionAnimation .fullSectionAnimationBox .fullSectionAnimationOne img {
-        margin-bottom: 40px; }
+        margin-bottom: 40px;
+        width: 100%; }
         .csdetailBg .fullSectionAnimation .fullSectionAnimationBox .fullSectionAnimationOne img:last-child {
           margin-bottom: 0px; }
     .csdetailBg .fullSectionAnimation .fullSectionAnimationBox .fullSectionAnimationTwo {
       width: 70%;
       margin-left: 35px; }
+      .csdetailBg .fullSectionAnimation .fullSectionAnimationBox .fullSectionAnimationTwo img {
+        width: 100%; }
   .csdetailBg .fullscreenBigimg .sectionFour {
     padding: 50px 0px; }
     .csdetailBg .fullscreenBigimg .sectionFour img {
@@ -8414,8 +8431,7 @@ footer .ftbutton {
         margin: 0 auto; }
         .csdetailBg .mobileImg img {
           margin: 0 auto;
-          display: block;
-          width: unset !important; }
+          display: block; }
       .csdetailBg .bannerSection .sectionOne {
         padding: 32px 0px 20px 0px; }
         .csdetailBg .bannerSection .sectionOne .mobtext {
