@@ -11,9 +11,9 @@
                 img{margin-right:10px;}
                 p{line-height: 16px;letter-spacing: 0.03em;}
             }
-            h1{margin-bottom:32px;line-height: 70px;}
+            h1{margin-bottom:32px;line-height: 70px;letter-spacing: -0.03em;}
             .authorBoxDesktop{
-                .shareIcons{display:flex; justify-content:space-between;align-items: center;padding: 50px 0px; margin-bottom:24px;border-bottom: 1px solid #000000;border-top: 1px solid #000000;
+                .shareIcons{display:flex; justify-content:space-between;align-items: center;padding: 50px 0px; margin-bottom:24px;border-bottom: 1px solid #000000;border-top: 1px solid #000000;line-height: 24px;
                     h4{text-transform: uppercase;}
                     .icons{display:flex;align-items: center;
                             .iconsImg{margin-right: 15px;
@@ -39,7 +39,7 @@
                             }
                         }   
                 }
-                .blogTags{border-bottom: 1px solid #000000;padding-bottom: 24px;
+                .blogTags{border-bottom: 1px solid #000000;padding-bottom: 24px;line-height: 24px;
                     p{display:flex; justify-content:space-between;
                         span{margin: 0px 15px;}
                     }

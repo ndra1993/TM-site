@@ -7221,7 +7221,8 @@ footer .ftbutton {
           letter-spacing: 0.03em; }
       .blogsDetails .blogsDetailsSection .blogsDetailsOne h1 {
         margin-bottom: 32px;
-        line-height: 70px; }
+        line-height: 70px;
+        letter-spacing: -0.03em; }
       .blogsDetails .blogsDetailsSection .blogsDetailsOne .authorBoxDesktop .shareIcons {
         display: flex;
         justify-content: space-between;
@@ -7229,7 +7230,8 @@ footer .ftbutton {
         padding: 50px 0px;
         margin-bottom: 24px;
         border-bottom: 1px solid #000000;
-        border-top: 1px solid #000000; }
+        border-top: 1px solid #000000;
+        line-height: 24px; }
         .blogsDetails .blogsDetailsSection .blogsDetailsOne .authorBoxDesktop .shareIcons h4 {
           text-transform: uppercase; }
         .blogsDetails .blogsDetailsSection .blogsDetailsOne .authorBoxDesktop .shareIcons .icons {
@@ -7261,7 +7263,8 @@ footer .ftbutton {
               fill: #EDB32E; }
       .blogsDetails .blogsDetailsSection .blogsDetailsOne .authorBoxDesktop .blogTags {
         border-bottom: 1px solid #000000;
-        padding-bottom: 24px; }
+        padding-bottom: 24px;
+        line-height: 24px; }
         .blogsDetails .blogsDetailsSection .blogsDetailsOne .authorBoxDesktop .blogTags p {
           display: flex;
           justify-content: space-between; }

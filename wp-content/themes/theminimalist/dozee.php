@@ -210,14 +210,10 @@
     
    <section class="fullscreenBigimg" style="background: #0243A3;padding: 50px;">
         <div class="wow fadeInUp" data-wow-duration="4s">
-            <img src="<?php bloginfo('template_directory'); ?>/images/dozee_mobile1.svg">
+            <img src="<?php bloginfo('template_directory'); ?>/images/dozee_mobile1.png">
         </div>
     </section>
-    <section class="fullscreenBigimg" style="background: #0243A3;padding: 50px;">
-        <div class="wow fadeInUp" data-wow-duration="4s">
-            <img src="<?php bloginfo('template_directory'); ?>/images/dozee_mobile2.svg">
-        </div>
-    </section>
+   
     
     <section class="sectionSix bottomimgLogos">
         <div class="sectionSiximg wow fadeInUp" data-wow-duration="4s"><img src="<?php bloginfo('template_directory'); ?>/images/dozee-footer.png"></div>
