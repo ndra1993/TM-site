@@ -17,7 +17,7 @@
             <div class="mobtext wow slideInLeft">
                 <p class="font20 fontW800 colorWhite">DOZEE</p>
                 <h1 class="font60 fontW800 colorWhite">Adding a dose of Science and technology to Dozee’s design system </h1>
-                <h5 class="font20 colorWhite fontW500">Dozee is an advanced contactless remote patient monitoring and early warning system that utilizes cutting-edge artificial intelligence technology. It offers an efficient ballistocardiography solution to enhance patient care.</h5>
+                <h5 class="font20 colorWhiteLight fontW500">Dozee is an advanced contactless remote patient monitoring and early warning system that utilizes cutting-edge artificial intelligence technology. It offers an efficient ballistocardiography solution to enhance patient care.</h5>
             </div>
             <div class="mobImg wow fadeInUp marginZero widthFull" data-wow-duration="4s">
                 <video class="desktopVid" playsinline="playsinline" muted="muted" preload="yes" autoplay="autoplay" loop="loop" id="vjs_video_739_html5_api" class="video-js" data-setup='{"autoplay":"any"}'>

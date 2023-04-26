@@ -7896,6 +7896,8 @@ footer .ftbutton {
     margin: 0px !important; }
   .csdetailBg .widthFull {
     width: 100% !important; }
+  .csdetailBg .colorWhiteLight {
+    color: #ffffff80; }
   .csdetailBg .bannerSection .sectionOne {
     position: relative;
     padding: 50px 0px 200px 0px; }
