@@ -75,7 +75,7 @@ $homepage_id = get_option('page_on_front');
     </section>
    
     <!-- leftheading-rightText -->
-    <section class="leftheading-rightText" style="background: linear-gradient(158.47deg, #070707 4.94%, #101010 53.55%, #070707 58.48%, #020202 65.02%, #131313 77.34%);">
+    <!-- <section class="leftheading-rightText" style="background: linear-gradient(158.47deg, #070707 4.94%, #101010 53.55%, #070707 58.48%, #020202 65.02%, #131313 77.34%);">
         <div class="sectionThree">
             <div class="mobtextThree wow slideInLeft" data-wow-duration="1s">
                 <div class="innerContianer">
@@ -89,21 +89,21 @@ $homepage_id = get_option('page_on_front');
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     
 
     <!-- fullscreenbigimg -->
-    <section class="fullscreenBigimg" style="background: #fff;">
+    <!-- <section class="fullscreenBigimg" style="background: #fff;">
         <div class="desktopImg wow fadeInUp paddingZero" data-wow-duration="8s">
             <img src="<?php bloginfo('template_directory'); ?>/images/meesho3.png">
         </div>
         <div class="mobileImg wow fadeInUp paddingZero" data-wow-duration="8s">
             <img src="<?php bloginfo('template_directory'); ?>/images/meesho3.png" width="100%">
         </div>
-    </section>
+    </section> -->
 
      <!-- leftheading-rightText -->
-    <section class="leftheading-rightText" style="background: #fff;">
+    <!-- <section class="leftheading-rightText" style="background: #fff;">
         <div class="sectionThree">
             <div class="mobtextThree wow slideInLeft" data-wow-duration="1s">
                 <div class="innerContianer">
@@ -117,7 +117,7 @@ $homepage_id = get_option('page_on_front');
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     
     
     <section class="fullscreenBigimg lineHeightZero" style="background: #fff;">
@@ -133,7 +133,7 @@ $homepage_id = get_option('page_on_front');
     
 
     <!-- leftheading-rightText -->
-    <section class="leftheading-rightText" style="background: #fff;">
+    <!-- <section class="leftheading-rightText" style="background: #fff;">
         <div class="sectionThree">
             <div class="mobtextThree wow slideInLeft" data-wow-duration="1s">
                 <div class="innerContianer">
@@ -147,7 +147,7 @@ $homepage_id = get_option('page_on_front');
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     
     <section class="sectionSix bottomimgLogos">

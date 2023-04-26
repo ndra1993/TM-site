@@ -7213,18 +7213,18 @@ footer .ftbutton {
       .blogsDetails .blogsDetailsSection .blogsDetailsOne .blogDate {
         display: flex;
         align-items: center;
-        margin-bottom: 25px; }
+        margin-bottom: 32px; }
         .blogsDetails .blogsDetailsSection .blogsDetailsOne .blogDate img {
           margin-right: 10px; }
       .blogsDetails .blogsDetailsSection .blogsDetailsOne h1 {
-        margin-bottom: 50px;
+        margin-bottom: 32px;
         line-height: 70px; }
       .blogsDetails .blogsDetailsSection .blogsDetailsOne .authorBoxDesktop .shareIcons {
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 50px 0px;
-        margin-bottom: 30px;
+        margin-bottom: 24px;
         border-bottom: 1px solid #000000;
         border-top: 1px solid #000000; }
         .blogsDetails .blogsDetailsSection .blogsDetailsOne .authorBoxDesktop .shareIcons h4 {
@@ -7258,7 +7258,7 @@ footer .ftbutton {
               fill: #EDB32E; }
       .blogsDetails .blogsDetailsSection .blogsDetailsOne .authorBoxDesktop .blogTags {
         border-bottom: 1px solid #000000;
-        padding-bottom: 30px; }
+        padding-bottom: 24px; }
         .blogsDetails .blogsDetailsSection .blogsDetailsOne .authorBoxDesktop .blogTags p {
           display: flex;
           justify-content: space-between; }
@@ -7575,11 +7575,11 @@ footer .ftbutton {
       .blogsDetails .blogsDetailsSection .blogsDetailsOne {
         margin-right: 80px; }
         .blogsDetails .blogsDetailsSection .blogsDetailsOne h1 {
-          margin-bottom: 40px;
+          margin-bottom: 28px;
           line-height: 60px; }
         .blogsDetails .blogsDetailsSection .blogsDetailsOne .authorBoxDesktop .shareIcons {
           padding: 40px 0px;
-          margin-bottom: 30px; }
+          margin-bottom: 20px; }
       .blogsDetails .blogsDetailsSection .blogsDetailsTwo {
         width: 65%; }
         .blogsDetails .blogsDetailsSection .blogsDetailsTwo img {
@@ -7615,17 +7615,17 @@ footer .ftbutton {
         .blogsDetails .blogsDetailsSection .blogsDetailsOne {
           margin-right: 60px; }
           .blogsDetails .blogsDetailsSection .blogsDetailsOne .blogDate {
-            margin-bottom: 20px; }
+            margin-bottom: 25px; }
             .blogsDetails .blogsDetailsSection .blogsDetailsOne .blogDate img {
               margin-right: 7px; }
           .blogsDetails .blogsDetailsSection .blogsDetailsOne h1 {
-            margin-bottom: 40px;
+            margin-bottom: 25px;
             line-height: 45px; }
           .blogsDetails .blogsDetailsSection .blogsDetailsOne .authorBoxDesktop .shareIcons {
             display: flex;
             justify-content: space-between;
             padding: 25px 0px;
-            margin-bottom: 25px;
+            margin-bottom: 18px;
             border-bottom: 1px solid #000000; }
             .blogsDetails .blogsDetailsSection .blogsDetailsOne .authorBoxDesktop .shareIcons .icons {
               display: flex;
@@ -7633,7 +7633,7 @@ footer .ftbutton {
               .blogsDetails .blogsDetailsSection .blogsDetailsOne .authorBoxDesktop .shareIcons .icons .iconsImg {
                 margin-right: 15px; }
           .blogsDetails .blogsDetailsSection .blogsDetailsOne .authorBoxDesktop .blogTags {
-            padding-bottom: 25px; }
+            padding-bottom: 18px; }
             .blogsDetails .blogsDetailsSection .blogsDetailsOne .authorBoxDesktop .blogTags p span {
               margin-left: 20px; }
         .blogsDetails .blogsDetailsSection .blogsDetailsTwo {
@@ -7698,14 +7698,14 @@ footer .ftbutton {
         .blogsDetails .blogsDetailsSection .blogsDetailsOne {
           margin-right: 40px; }
           .blogsDetails .blogsDetailsSection .blogsDetailsOne .blogDate {
-            margin-bottom: 15px; }
+            margin-bottom: 20px; }
           .blogsDetails .blogsDetailsSection .blogsDetailsOne h1 {
-            margin-bottom: 35px;
+            margin-bottom: 20px;
             line-height: 37px; }
           .blogsDetails .blogsDetailsSection .blogsDetailsOne .authorBoxDesktop .shareIcons {
             align-items: center;
-            padding: 25px 0px;
-            margin-bottom: 25px; }
+            padding: 20px 0px;
+            margin-bottom: 15px; }
           .blogsDetails .blogsDetailsSection .blogsDetailsOne .authorBoxDesktop .blogTags p span {
             margin-left: 10px; }
         .blogsDetails .blogsDetailsSection .blogsDetailsTwo {
