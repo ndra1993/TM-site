@@ -3240,8 +3240,6 @@ footer .ftbutton {
 @media screen and (max-width: 1080px) {
   .desktopSection {
     margin-top: 73px; }
-    .desktopSection .caseStudyFilter {
-      padding: 7px 20px; }
     .desktopSection .wrap {
       height: calc(100vh - 142px) !important; }
       .desktopSection .wrap .gallery-thumbs .swiper-slide .swiper-slide-container .anchor {
@@ -3261,7 +3259,7 @@ footer .ftbutton {
           .desktopSection .wrap .gallery-thumbs .swiper-slide-active .swiper-slide-container .anchor .h2 {
             font-size: 35px;
             line-height: 35px; } }
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 1024px) {
   .page-template-case-study-list footer {
     position: unset; }
 
@@ -7881,13 +7879,17 @@ footer .ftbutton {
   .csdetailBg .paddingZero {
     padding: 0px !important; }
   .csdetailBg .desktopVid {
-    display: block; }
+    display: block;
+    width: 100%; }
   .csdetailBg .mobVid {
-    display: none; }
+    display: none;
+    width: 100%; }
   .csdetailBg .lineHeightZero {
     line-height: 0; }
   .csdetailBg .marginZero {
     margin: 0px !important; }
+  .csdetailBg .widthFull {
+    width: 100% !important; }
   .csdetailBg .bannerSection .sectionOne {
     position: relative;
     padding: 50px 0px 200px 0px; }
@@ -7969,12 +7971,15 @@ footer .ftbutton {
     .csdetailBg .fullSectionAnimation .fullSectionAnimationBox .fullSectionAnimationOne {
       width: 30%; }
       .csdetailBg .fullSectionAnimation .fullSectionAnimationBox .fullSectionAnimationOne img {
-        margin-bottom: 40px; }
+        margin-bottom: 40px;
+        width: 100%; }
         .csdetailBg .fullSectionAnimation .fullSectionAnimationBox .fullSectionAnimationOne img:last-child {
           margin-bottom: 0px; }
     .csdetailBg .fullSectionAnimation .fullSectionAnimationBox .fullSectionAnimationTwo {
       width: 70%;
       margin-left: 35px; }
+      .csdetailBg .fullSectionAnimation .fullSectionAnimationBox .fullSectionAnimationTwo img {
+        width: 100%; }
   .csdetailBg .fullscreenBigimg .sectionFour {
     padding: 50px 0px; }
     .csdetailBg .fullscreenBigimg .sectionFour img {
