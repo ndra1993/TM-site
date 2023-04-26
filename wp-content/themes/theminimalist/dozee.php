@@ -186,22 +186,7 @@
             </div>
         </div>
     </section>
-    <!-- leftheading-rightText -->
-    <section class="leftheading-rightText" style="background: #0243A3;">
-        <div class="sectionThree">
-            <div class="mobtextThree wow slideInLeft" data-wow-duration="1s">
-                <div class="innerContianer">
-                    <p class="font20 fontW800 colorWhite">solutions </p>
-                    <h1 class="font60 fontW800 colorWhite">A clean  design with an emphasis on the information</h1>
-                </div>
-            </div>
-            <div class="mobsubtextThree wow slideInRight" data-wow-duration="1s">
-                <div class="innerContianertwo">
-                    <h5 class="font20 colorWhite fontW500">A webiste that educates the users about how Dozee uses AI and machine learning to transform hospitals all over India.</h5>
-                </div>
-            </div>
-        </div>
-    </section>
+   
     <section class="fullscreenBigimg" style="background: #0243A3;padding: 50px;">
         <div class="wow fadeInUp" data-wow-duration="4s">
             <img src="<?php bloginfo('template_directory'); ?>/images/dozee_1.svg">
@@ -233,23 +218,8 @@
             <img src="<?php bloginfo('template_directory'); ?>/images/dozee_mobile2.svg">
         </div>
     </section>
-    <!-- leftheading-rightText -->
-    <section class="leftheading-rightText" style="background: #fff;">
-        <div class="sectionThree">
-            <div class="mobtextThree wow slideInLeft" data-wow-duration="1s">
-                <div class="innerContianer">
-                    <p class="font20 fontW800 colorBlack">impact </p>
-                    <h1 class="font60 fontW800 colorBlack">Content that educates the users & design that reflects the brand’s values</h1>
-                </div>
-            </div>
-            <div class="mobsubtextThree wow slideInRight" data-wow-duration="1s">
-                <div class="innerContianertwo">
-                    <h5 class="font20 colorBlack fontW500">The user demographic  on this platform are from Tier 2 and Tier 3 cities who do not know much about WEB3 & it’s implications. They wanted an Informative website to educate their users and help them embark on the journey together with Oneto11.</h5>
-                </div>
-            </div>
-        </div>
-    </section>
-   <section class="sectionSix bottomimgLogos">
+    
+    <section class="sectionSix bottomimgLogos">
         <div class="sectionSiximg wow fadeInUp" data-wow-duration="4s"><img src="<?php bloginfo('template_directory'); ?>/images/dozee-footer.png"></div>
         <div class="moreCasestudy">
             <div class="brandLogos">
