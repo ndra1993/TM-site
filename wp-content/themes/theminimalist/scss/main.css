@@ -3123,7 +3123,7 @@ footer .ftbutton {
     .desktopSection .wrap .gallery-top {
       height: 100%;
       width: calc(50% - 85px);
-      margin: 0px; }
+      margin: 1px 0px; }
       .desktopSection .wrap .gallery-top .swiper-slide-container {
         height: 100%;
         margin: auto;
@@ -3142,7 +3142,7 @@ footer .ftbutton {
       width: 50%;
       box-sizing: border-box;
       padding: 0px 0px;
-      margin: 0px; }
+      margin: 1px 0px; }
       .desktopSection .wrap .gallery-thumbs .swiper-slide {
         width: 100%;
         height: auto; }
