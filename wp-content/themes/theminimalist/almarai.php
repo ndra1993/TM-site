@@ -34,7 +34,7 @@ $homepage_id = get_option('page_on_front');
                         Almarai and its customers.</h5>
                 </div>
             </div>
-            <div class="mobimgTwo wow slideInRight mobileImg" data-wow-duration="1s">
+            <div class="mobimgTwo wow slideInRight" data-wow-duration="1s">
                 <img src="<?php bloginfo('template_directory'); ?>/images/almarai-mbl-two.png">
             </div>
         </div>
@@ -22322,11 +22322,9 @@ wHj85H8D07zDpY75hNEAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 186.5373 68)">
                         comprehensive and impactful user experience.</h5>
                 </div>
             </div>
-            <div class="mobimgTwo wow slideInLeft desktopImg" data-wow-duration="1s">
-                <img src="<?php bloginfo('template_directory'); ?>/images/almarai-two-mbl.png">
-            </div>
-            <div class="mobileImg" data-wow-duration="1s">
-                <img src="<?php bloginfo('template_directory'); ?>/images/almarai-two-mblview.png">
+            <div class="mobimgTwo wow slideInLeft" data-wow-duration="1s">
+                <img src="<?php bloginfo('template_directory'); ?>/images/almarai-two-mbl.png" class="desktopImg">
+                <img src="<?php bloginfo('template_directory'); ?>/images/almarai-two-mblview.png" class="mobileImg">
             </div>
         </div>
     </section>

@@ -73,7 +73,7 @@ $homepage_id = get_option('page_on_front');
                     <h5 class="font20 colorBlack fontW500">Our aim was to decrease drop offs by introducing a payment-first method. We  reduced the time it takes to get to the quote page by reducing the form filling and streamlining the entire flow</h5>
                 </div>
             </div>
-            <div class="mobimgTwo wow slideInRight mobileImg" data-wow-duration="1s">
+            <div class="mobimgTwo wow slideInRight" data-wow-duration="1s">
                 <img src="<?php bloginfo('template_directory'); ?>/images/tata-aig-sec2.png">
             </div>
         </div>
@@ -19406,7 +19406,7 @@ Gp1aXl5G4HAYekrSfwGsPET2Cn6PUQAAAABJRU5ErkJggg==" transform="matrix(1 0 0 1 76 3
                     <h5 class="font20 colorBlack fontW500">We wanted to create a seamless experience that caters to multiple user-types and create a platform that can accommodate multiple system integrations </h5>
                 </div>
             </div>
-            <div class="mobimgTwo wow slideInRight mobileImg" data-wow-duration="1s">
+            <div class="mobimgTwo wow slideInRight" data-wow-duration="1s">
                 <img src="<?php bloginfo('template_directory'); ?>/images/tata-mobile-two.png">
             </div>
         </div>

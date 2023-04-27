@@ -7877,6 +7877,7 @@ footer .ftbutton {
 .csdetailBg {
   margin-top: 96px;
   overflow: hidden;
+  line-height: 0px;
   /**************************************************Media Query*********************************************/ }
   .csdetailBg img {
     max-width: 100%; }
@@ -8419,8 +8420,6 @@ footer .ftbutton {
   @media screen and (max-width: 1024px) {
     .csdetailBg {
       margin-top: 72px; }
-      .csdetailBg.almaraiCasestudy .leftimg-rightText .mobimgTwo {
-        display: none; }
       .csdetailBg.almaraiCasestudy .bannerSection .sectionOne .mobImg {
         margin-left: auto; }
       .csdetailBg .desktopImg {
@@ -8445,6 +8444,8 @@ footer .ftbutton {
           .csdetailBg .bannerSection .sectionOne .mobtext h5 {
             line-height: 20px;
             width: 100%; }
+          .csdetailBg .bannerSection .sectionOne .mobtext p {
+            line-height: 14px; }
         .csdetailBg .bannerSection .sectionOne .mobImg {
           width: 100%;
           margin: 40px auto 0px; }
@@ -8456,7 +8457,8 @@ footer .ftbutton {
           .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent {
             width: 100%; }
             .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent p {
-              margin-bottom: 8px; }
+              margin-bottom: 8px;
+              line-height: 14px; }
             .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent h1 {
               line-height: 36px; }
             .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent h5 {
@@ -8476,9 +8478,11 @@ footer .ftbutton {
           .csdetailBg .leftheading-rightText .sectionThree .mobtextThree .innerContianer {
             width: 100%; }
             .csdetailBg .leftheading-rightText .sectionThree .mobtextThree .innerContianer p {
-              margin-bottom: 8px; }
+              margin-bottom: 8px;
+              line-height: 14px; }
             .csdetailBg .leftheading-rightText .sectionThree .mobtextThree .innerContianer h1 {
-              line-height: 36px; }
+              line-height: 36px;
+              margin-bottom: 8px; }
         .csdetailBg .leftheading-rightText .sectionThree .mobsubtextThree {
           width: 100%; }
           .csdetailBg .leftheading-rightText .sectionThree .mobsubtextThree .innerContianertwo {
