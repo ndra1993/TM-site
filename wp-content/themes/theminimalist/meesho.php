@@ -74,7 +74,7 @@ $homepage_id = get_option('page_on_front');
         </div>
     </section>
    
-    <section class="fullscreenBigimg lineHeightZero" style="background: #fff;">
+    <section class="fullscreenBigimg lineHeightZero" style="background: #000;">
         <div id="animation-container" class="desktopImg"></div>
         <div id="meesho-mobileslider" class="mobileImg"></div>
     </section>

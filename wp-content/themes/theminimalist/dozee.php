@@ -97,7 +97,7 @@
                 <p class="font20 fontW800 colorWhite">DOZEE </p>
                 <h1 class="font60 fontW800 colorWhite">Adding a dose of sales efficacy to Dozee's product website</h1>
                 <h5 class="font20 colorWhite fontW500">Dozee is India's first contactless patient vital monitoring equipment with an early warning system powered by cutting-edge AI.
-                Its automated and digital applications are trusted by over 300 hospitals
+                Its automated and digital applications are trusted by over 300 hospitals.
                 </h5>
             </div>
             <div class="mobImg wow fadeInUp" data-wow-duration="4s">
