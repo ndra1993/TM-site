@@ -74,52 +74,6 @@ $homepage_id = get_option('page_on_front');
         </div>
     </section>
    
-    <!-- leftheading-rightText -->
-    <section class="leftheading-rightText" style="background: linear-gradient(158.47deg, #070707 4.94%, #101010 53.55%, #070707 58.48%, #020202 65.02%, #131313 77.34%);">
-        <div class="sectionThree">
-            <div class="mobtextThree wow slideInLeft" data-wow-duration="1s">
-                <div class="innerContianer">
-                    <p class="font20 fontW800 colorWhite">Solutions </p>
-                    <h1 class="font60 fontW800 colorWhite">A clean  design with an emphasis on the information</h1>
-                </div>
-            </div>
-            <div class="mobsubtextThree wow slideInRight" data-wow-duration="1s">
-                <div class="innerContianertwo">
-                    <h5 class="font20 colorWhite fontW500">A webiste that educates the users about how Dozee uses AI and machine learning to transform hospitals all over India.</h5>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-
-    <!-- fullscreenbigimg -->
-    <section class="fullscreenBigimg" style="background: #fff;">
-        <div class="desktopImg wow fadeInUp paddingZero" data-wow-duration="8s">
-            <img src="<?php bloginfo('template_directory'); ?>/images/meesho3.png">
-        </div>
-        <div class="mobileImg wow fadeInUp paddingZero" data-wow-duration="8s">
-            <img src="<?php bloginfo('template_directory'); ?>/images/meesho3.png" width="100%">
-        </div>
-    </section>
-
-     <!-- leftheading-rightText -->
-    <section class="leftheading-rightText" style="background: #fff;">
-        <div class="sectionThree">
-            <div class="mobtextThree wow slideInLeft" data-wow-duration="1s">
-                <div class="innerContianer">
-                    <p class="font20 fontW800 colorBlack">Impact </p>
-                <h1 class="font60 fontW800 colorBlack">A memorable and unique identity that makes the brand stand out</h1>
-                </div>
-            </div>
-            <div class="mobsubtextThree wow slideInRight" data-wow-duration="1s">
-                <div class="innerContianertwo">
-                    <h5 class="font20 colorBlack fontW500">The user demographic  on this platform are from Tier 2 and Tier 3 cities who do not know much about WEB3 & it’s implications. They wanted an Informative website to educate their users and help them embark on the journey together with Oneto11.</h5>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    
     <section class="fullscreenBigimg lineHeightZero" style="background: #fff;">
         <div id="animation-container" class="desktopImg"></div>
         <div id="meesho-mobileslider" class="mobileImg"></div>
@@ -130,25 +84,6 @@ $homepage_id = get_option('page_on_front');
             <img src="<?php bloginfo('template_directory'); ?>/images/meesho-mobile-1.png">
         </div>
     </section>
-    
-
-    <!-- leftheading-rightText -->
-    <section class="leftheading-rightText" style="background: #fff;">
-        <div class="sectionThree">
-            <div class="mobtextThree wow slideInLeft" data-wow-duration="1s">
-                <div class="innerContianer">
-                    <p class="font20 fontW800 colorBlack">Impact </p>
-                    <h1 class="font60 fontW800 colorBlack">Delightful user experience delivered before time</h1>
-                </div>
-            </div>
-            <div class="mobsubtextThree wow slideInRight" data-wow-duration="1s">
-                <div class="innerContianertwo">
-                    <h5 class="font20 colorBlack fontW500">All assets were successfully delivered ahead of schedule, giving the client the luxury of time to get internal approvals and move assets into development for their mobile website launch.</h5>
-                </div>
-            </div>
-        </div>
-    </section>
-
     
     <section class="sectionSix bottomimgLogos">
         <div class="sectionSiximg wow fadeInUp" data-wow-duration="4s"><img src="<?php bloginfo('template_directory'); ?>/images/meesho4.png"></div>

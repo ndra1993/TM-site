@@ -95,8 +95,10 @@
         <div class="sectionOne">
             <div class="mobtext wow slideInLeft">
                 <p class="font20 fontW800 colorWhite">DOZEE </p>
-                <h1 class="font60 fontW800 colorWhite">Contactless remote patient monitoring</h1>
-                <h5 class="font20 colorWhite fontW500">Dozee is the pioneer in contactless remote patient monitoring and early warning system powered by cutting edge AI and trusted by over 300+ hospitals.</h5>
+                <h1 class="font60 fontW800 colorWhite">Adding a dose of sales efficacy to Dozee's product website</h1>
+                <h5 class="font20 colorWhite fontW500">Dozee is India's first contactless patient vital monitoring equipment with an early warning system powered by cutting-edge AI.
+                Its automated and digital applications are trusted by over 300 hospitals
+                </h5>
             </div>
             <div class="mobImg wow fadeInUp" data-wow-duration="4s">
                 <img src="<?php bloginfo('template_directory'); ?>/images/dozee-banner.png">
@@ -109,9 +111,9 @@
         <div class="sectionTwo">
             <div class="mobtextTwo wow slideInLeft" data-wow-duration="1s" style="background: #fff;">
                 <div class="innerContent">
-                    <p class="font20 fontW800 colorBlack">insight</p>
-                    <h1 class="font60 fontW800 colorBlack">A new experience reflecting the brand’s vision and values</h1>
-                    <h5 class="font20 colorBlack fontW500">Dozee is the pioneer in contactless remote patient monitoring and early warning system powered by cutting edge AI and trusted by 300+ hospitals.</h5>
+                    <p class="font20 fontW800 colorBlack">Objective</p>
+                    <h1 class="font60 fontW800 colorBlack">Creating a website that acts as a product brochure</h1>
+                    <h5 class="font20 colorBlack fontW500">The project required fast, impactful and crisp communication for product education in order to save time during the sales-pitch and to build brand credibility.</h5>
                 </div>
             </div>
             <div class="mobimgTwo wow slideInRight mobileImg" data-wow-duration="1s" style="background: #F4F4F4;">
@@ -125,12 +127,12 @@
             <div class="mobtextThree wow slideInLeft" data-wow-duration="1s">
                 <div class="innerContianer">
                     <p class="font20 fontW800 colorWhite">solutions </p>
-                    <h1 class="font60 fontW800 colorWhite">Collaterals & stationary that is in line with the design language</h1>
+                    <h1 class="font60 fontW800 colorWhite">Making a brilliant first impression</h1>
                 </div>
             </div>
             <div class="mobsubtextThree wow slideInRight" data-wow-duration="1s">
                 <div class="innerContianertwo">
-                    <h5 class="font20 colorWhite fontW500">A responsive website that aims to educate users about the NFT market and crypto-currencies. An infographic design with educative content is easier to understand.</h5>
+                    <h5 class="font20 colorWhite fontW500">The homepage is the most valuable landing page and also the first introduction of a product to potential customers. The team researched and finalized the theme emphasizing the functionality of the product in the first fold and capturing all the important information in a single scroll.</h5>
                 </div>
             </div>
         </div>
@@ -150,12 +152,12 @@
             <div class="mobtextThree wow slideInLeft" data-wow-duration="1s">
                 <div class="innerContianer">
                     <p class="font20 fontW800 colorBlack">impact </p>
-                    <h1 class="font60 fontW800 colorBlack">A memorable and unique identity that makes the brand stand out</h1>
+                    <h1 class="font60 fontW800 colorBlack">Delivering a smooth pitch with smoother closing</h1>
                 </div>
             </div>
             <div class="mobsubtextThree wow slideInRight" data-wow-duration="1s">
                 <div class="innerContianertwo">
-                    <h5 class="font20 colorBlack fontW500">The user demographic  on this platform are from Tier 2 and Tier 3 cities who do not know much about WEB3 & it’s implications. They wanted an Informative website to educate their users and help them embark on the journey together with Oneto11.</h5>
+                    <h5 class="font20 colorBlack fontW500">With easy access to all the relevant information on the site via strong infographics, the delivered website helped the client to close deals with their customers and investors, easily and seamlessly.</h5>
                 </div>
             </div>
         </div>
@@ -174,9 +176,9 @@
         <div class="sectionTwo">
             <div class="mobtextTwo wow slideInRight" data-wow-duration="1s" style="background: none;">
                 <div class="innerContent">
-                    <p class="font20 fontW800 colorBlack">impact  </p>
-                    <h1 class="font60 fontW800 colorBlack">A memorable and unique identity that makes the brand stand out  </h1>
-                    <h5 class="font20 colorBlack fontW500">The user demographic  on this platform are from Tier 2 and Tier 3 cities who do not know much about WEB3 & it’s implications. They wanted an Informative website to educate their users and help them embark on the journey together with Oneto11.</h5>
+                    <!-- <p class="font20 fontW800 colorBlack">impact  </p> -->
+                    <h1 class="font60 fontW800 colorBlack">Product Education  </h1>
+                    <h5 class="font20 colorBlack fontW500">The new website is structured well, educating users about how Dozee uses AI & Machine Learning to help transform hospitals all over India.</h5>
                 </div>
             </div>
             <div class="mobimgTwo wow slideInLeft mobileImg" data-wow-duration="1s">
@@ -184,22 +186,7 @@
             </div>
         </div>
     </section>
-    <!-- leftheading-rightText -->
-    <section class="leftheading-rightText" style="background: #0243A3;">
-        <div class="sectionThree">
-            <div class="mobtextThree wow slideInLeft" data-wow-duration="1s">
-                <div class="innerContianer">
-                    <p class="font20 fontW800 colorWhite">solutions </p>
-                    <h1 class="font60 fontW800 colorWhite">A clean  design with an emphasis on the information</h1>
-                </div>
-            </div>
-            <div class="mobsubtextThree wow slideInRight" data-wow-duration="1s">
-                <div class="innerContianertwo">
-                    <h5 class="font20 colorWhite fontW500">A webiste that educates the users about how Dozee uses AI and machine learning to transform hospitals all over India.</h5>
-                </div>
-            </div>
-        </div>
-    </section>
+   
     <section class="fullscreenBigimg" style="background: #0243A3;padding: 50px;">
         <div class="wow fadeInUp" data-wow-duration="4s">
             <img src="<?php bloginfo('template_directory'); ?>/images/dozee_1.svg">
@@ -223,31 +210,12 @@
     
    <section class="fullscreenBigimg" style="background: #0243A3;padding: 50px;">
         <div class="wow fadeInUp" data-wow-duration="4s">
-            <img src="<?php bloginfo('template_directory'); ?>/images/dozee_mobile1.svg">
+            <img src="<?php bloginfo('template_directory'); ?>/images/dozee_mobile1.png">
         </div>
     </section>
-    <section class="fullscreenBigimg" style="background: #0243A3;padding: 50px;">
-        <div class="wow fadeInUp" data-wow-duration="4s">
-            <img src="<?php bloginfo('template_directory'); ?>/images/dozee_mobile2.svg">
-        </div>
-    </section>
-    <!-- leftheading-rightText -->
-    <section class="leftheading-rightText" style="background: #fff;">
-        <div class="sectionThree">
-            <div class="mobtextThree wow slideInLeft" data-wow-duration="1s">
-                <div class="innerContianer">
-                    <p class="font20 fontW800 colorBlack">impact </p>
-                    <h1 class="font60 fontW800 colorBlack">Content that educates the users & design that reflects the brand’s values</h1>
-                </div>
-            </div>
-            <div class="mobsubtextThree wow slideInRight" data-wow-duration="1s">
-                <div class="innerContianertwo">
-                    <h5 class="font20 colorBlack fontW500">The user demographic  on this platform are from Tier 2 and Tier 3 cities who do not know much about WEB3 & it’s implications. They wanted an Informative website to educate their users and help them embark on the journey together with Oneto11.</h5>
-                </div>
-            </div>
-        </div>
-    </section>
-   <section class="sectionSix bottomimgLogos">
+   
+    
+    <section class="sectionSix bottomimgLogos">
         <div class="sectionSiximg wow fadeInUp" data-wow-duration="4s"><img src="<?php bloginfo('template_directory'); ?>/images/dozee-footer.png"></div>
         <div class="moreCasestudy">
             <div class="brandLogos">
