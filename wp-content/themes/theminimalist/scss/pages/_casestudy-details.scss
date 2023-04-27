@@ -1,6 +1,7 @@
 .csdetailBg {
     margin-top: 96px;
     overflow: hidden;
+    line-height: 0px;
 
     img {
         max-width: 100%;
@@ -979,11 +980,6 @@
         margin-top: 72px;
 
         &.almaraiCasestudy {
-            .leftimg-rightText {
-                .mobimgTwo {
-                    display: none;
-                }
-            }
             .bannerSection .sectionOne .mobImg{
                 margin-left: auto;
             }
@@ -1025,6 +1021,9 @@
                         line-height: 20px;
                         width: 100%;
                     }
+                    p{
+                        line-height: 14px;
+                    }
                 }
 
                 .mobImg {
@@ -1046,6 +1045,7 @@
 
                     p {
                         margin-bottom: 8px;
+                        line-height: 14px;
                     }
 
                     h1 {
@@ -1083,10 +1083,12 @@
 
                     p {
                         margin-bottom: 8px;
+                        line-height: 14px;
                     }
 
                     h1 {
                         line-height: 36px;
+                        margin-bottom: 8px;
                     }
                 }
             }
