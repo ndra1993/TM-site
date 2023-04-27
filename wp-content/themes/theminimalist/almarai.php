@@ -38721,11 +38721,11 @@ EARBEARBEARBEARBEARBEARBEARBEARBEARBEARBEARBEARBEARBEARBEARBEARBEARBEARBKFmI
         </div>
         <div class="moreCasestudy">
             <div class="brandLogos">
-                <div class="relatedBox relatedBoxone" style="background: #ec2120;">
-                    <a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/nayaka.png"></a>
+                <div class="relatedBox relatedBoxone" style="background: #194690;">
+                    <a href="<?php echo site_url('/tata-aig/'); ?>"><img src="<?php bloginfo('template_directory'); ?>/images/tata-aig-logo.png"></a>
                 </div>
-                <div class="relatedBox relatedBoxtwo" style="background: #00C859;">
-                    <a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/bizongo-logo.png"></a>
+                <div class="relatedBox relatedBoxtwo" style="background: #2D2D2D;">
+                    <a href="<?php echo site_url('/taggd/'); ?>"><img src="<?php bloginfo('template_directory'); ?>/images/taggd-logo.png"></a>
                 </div>
             </div>
         </div>

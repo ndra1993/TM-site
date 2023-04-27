@@ -8096,10 +8096,9 @@ footer .ftbutton {
             .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox a img {
               margin: 0 auto; }
           .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox:nth-child(1) {
-            text-align: right;
-            transition: 1s ease-out; }
+            text-align: center; }
           .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox:nth-child(2) {
-            text-align: left; }
+            text-align: center; }
           .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox.active {
             width: 100%; }
             .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox.active:nth-child(1) {

@@ -89,11 +89,11 @@ $homepage_id = get_option('page_on_front');
         <div class="sectionSiximg wow fadeInUp" data-wow-duration="4s"><img src="<?php bloginfo('template_directory'); ?>/images/meesho4.png"></div>
         <div class="moreCasestudy">
             <div class="brandLogos">
-                <div class="relatedBox relatedBoxone" style="background: #ec2120;">
-                    <a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/nayaka.png"></a>
+                <div class="relatedBox relatedBoxone" style="background: #ffffff;">
+                    <a href="<?php echo site_url('/dozee/'); ?>"><img src="<?php bloginfo('template_directory'); ?>/images/dozee-logo.png"></a>
                 </div>
-                <div class="relatedBox relatedBoxtwo" style="background: #00C859;">
-                    <a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/bizongo-logo.png"></a>
+                <div class="relatedBox relatedBoxtwo" style="background: #194690;">
+                    <a href="<?php echo site_url('/tata-aig/'); ?>"><img src="<?php bloginfo('template_directory'); ?>/images/tata-aig-logo.png"></a>
                 </div>
             </div>
         </div>
