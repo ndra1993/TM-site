@@ -7596,6 +7596,12 @@ footer .ftbutton {
         width: 65%; }
         .blogsDetails .blogsDetailsSection .blogsDetailsTwo img {
           padding-bottom: 36px; }
+        .blogsDetails .blogsDetailsSection .blogsDetailsTwo ul {
+          margin-bottom: 36px;
+          font-size: 18px; }
+        .blogsDetails .blogsDetailsSection .blogsDetailsTwo ol {
+          margin-bottom: 36px;
+          font-size: 18px; }
         .blogsDetails .blogsDetailsSection .blogsDetailsTwo h2 {
           font-size: 35px;
           margin-bottom: 35px;
@@ -7914,6 +7920,8 @@ footer .ftbutton {
     width: 100% !important; }
   .csdetailBg .colorWhiteLight {
     color: #ffffff80; }
+  .csdetailBg .colorBlackLight {
+    color: #00000080; }
   .csdetailBg .bannerSection .sectionOne {
     position: relative;
     padding: 50px 0px 200px 0px; }
@@ -8079,7 +8087,7 @@ footer .ftbutton {
           padding: 30px;
           width: 50%;
           background: #00C859;
-          transition: 0.6s all; }
+          transition: 1s ease-out; }
           .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox a {
             display: block;
             width: 100%;
@@ -8087,13 +8095,20 @@ footer .ftbutton {
             .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox a img {
               margin: 0 auto; }
           .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox:nth-child(1) {
-            text-align: left; }
+            text-align: right;
+            transition: 1s ease-out; }
           .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox:nth-child(2) {
-            text-align: right; }
+            text-align: left; }
           .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox.active {
             width: 100%; }
+            .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox.active:nth-child(1) {
+              text-align: left;
+              transition: 1s ease-out; }
           .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox.activeTwo {
             width: 100%; }
+            .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox.activeTwo:nth-child(2) {
+              text-align: right;
+              transition: 1s ease-out; }
     .csdetailBg .bottomimgLogos .circleAnimShow {
       position: absolute;
       bottom: 0%;

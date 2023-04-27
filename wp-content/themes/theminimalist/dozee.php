@@ -59,8 +59,8 @@
     <section class="centerheading-centerText">
         <div class="fullSection">
             <h1 class="font40 fontW800 colorWhite">From AI to aesthetics: Building a visual identity for futuristic healthcare</h1>
-            <p class="font24 fontW500 colorWhite">We developed a design system around their existing logo to visually capture the amalgamation of science and technology. Our approach was to create a dynamic identity that was both bold and understated, allowing their technical and informative content to take centre stage while maintaining a cohesive design. We utilized various design elements to effectively communicate different aspects of the brand's narrative.</p>
-            <p class="font24 fontW500 colorWhite">As we progress with our design strategy, we have devised a brand pattern that narrates the story. Our pattern is constructed using a blend of Dozee shapes, amalgamated to form a ballistocardiography wave. By taking this approach, we ensure that the scientific essence of our design pattern remains intact.</p>
+            <p class="font24 fontW500 colorWhiteLight">We developed a design system around their existing logo to visually capture the amalgamation of science and technology. Our approach was to create a dynamic identity that was both bold and understated, allowing their technical and informative content to take centre stage while maintaining a cohesive design. We utilized various design elements to effectively communicate different aspects of the brand's narrative.</p>
+            <p class="font24 fontW500 colorWhiteLight">As we progress with our design strategy, we have devised a brand pattern that narrates the story. Our pattern is constructed using a blend of Dozee shapes, amalgamated to form a ballistocardiography wave. By taking this approach, we ensure that the scientific essence of our design pattern remains intact.</p>
         </div>
     </section>
     <section class="fullSectionAnimation">
@@ -78,7 +78,7 @@
     <section class="centerheading-centerText" style="background:#fff;">
         <div class="fullSection">
             <h1 class="font40 fontW800 colorBlack">Building a design style system</h1>
-            <p class="font24 fontW500 colorBlack">We built a versatile design system which is consistant across all touchpoints, thus strengthening brand recognition.</p>
+            <p class="font24 fontW500 colorBlackLight">We built a versatile design system which is Consistent across all touchpoints, thus strengthening brand recognition.</p>
         </div>
     </section>
     <section>
@@ -91,7 +91,7 @@
     </section>
 
     <!-- Banner Section -->
-    <section class="bannerSection">
+    <section class="bannerSection" style="background-color: #0243A3;">
         <div class="sectionOne">
             <div class="mobtext wow slideInLeft">
                 <p class="font20 fontW800 colorWhite">DOZEE </p>
@@ -167,7 +167,7 @@
         <div class="desktopImg wow fadeInUp" data-wow-duration="4s">
             <img src="<?php bloginfo('template_directory'); ?>/images/dozee-impact-banner.png">
         </div>
-        <div class="mobileImg wow fadeInUp" data-wow-duration="4s">
+        <div class="mobileImg wow fadeInUp paddingZero" data-wow-duration="4s">
             <img src="<?php bloginfo('template_directory'); ?>/images/dozee-impact-banner.png">
         </div>
     </section>

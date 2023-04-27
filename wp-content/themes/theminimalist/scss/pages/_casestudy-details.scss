@@ -16,6 +16,7 @@
     .marginZero{margin:0px !important;}
     .widthFull{width:100% !important;}
     .colorWhiteLight{color:#ffffff80;}
+    .colorBlackLight{color:#00000080;}
     .bannerSection {
         .sectionOne {
             position: relative;
@@ -275,7 +276,7 @@
                     padding: 30px;
                     width: 50%;
                     background: #00C859;
-                    transition: 0.6s all;
+                    transition: 1s ease-out;
 
                     a {
                         display: block;
@@ -288,19 +289,25 @@
                     }
 
                     &:nth-child(1) {
-                        text-align: left;
+                        text-align: right;transition: 1s ease-out;
                     }
 
                     &:nth-child(2) {
-                        text-align: right;
+                        text-align: left;
                     }
 
                     &.active {
                         width: 100%;
+                        &:nth-child(1) {
+                            text-align: left;transition: 1s ease-out;
+                        }
                     }
 
                     &.activeTwo {
                         width: 100%;
+                        &:nth-child(2) {
+                            text-align: right;transition: 1s ease-out;
+                        }
                     }
 
                     // &.activerelated {
