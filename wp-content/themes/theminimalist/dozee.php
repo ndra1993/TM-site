@@ -97,7 +97,7 @@
                 <p class="font20 fontW800 colorWhite">DOZEE </p>
                 <h1 class="font60 fontW800 colorWhite">Adding a dose of sales efficacy to Dozee's product website</h1>
                 <h5 class="font20 colorWhite fontW500">Dozee is India's first contactless patient vital monitoring equipment with an early warning system powered by cutting-edge AI.
-                Its automated and digital applications are trusted by over 300 hospitals
+                Its automated and digital applications are trusted by over 300 hospitals.
                 </h5>
             </div>
             <div class="mobImg wow fadeInUp" data-wow-duration="4s">
@@ -219,11 +219,11 @@
         <div class="sectionSiximg wow fadeInUp" data-wow-duration="4s"><img src="<?php bloginfo('template_directory'); ?>/images/dozee-footer.png"></div>
         <div class="moreCasestudy">
             <div class="brandLogos">
-                <div class="relatedBox relatedBoxone" style="background: #ec2120;">
-                    <a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/nayaka.png"></a>
+                <div class="relatedBox relatedBoxone" style="background: #FD009A;">
+                    <a href="<?php echo site_url('/meesho/'); ?>"><img src="<?php bloginfo('template_directory'); ?>/images/meesho-logo.png"></a>
                 </div>
-                <div class="relatedBox relatedBoxtwo" style="background: #00C859;">
-                    <a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/bizongo-logo.png"></a>
+                <div class="relatedBox relatedBoxtwo" style="background: #FFFFFF;">
+                    <a href="<?php echo site_url('/almarai/'); ?>"><img src="<?php bloginfo('template_directory'); ?>/images/almarai-logo.png"></a>
                 </div>
             </div>
         </div>
