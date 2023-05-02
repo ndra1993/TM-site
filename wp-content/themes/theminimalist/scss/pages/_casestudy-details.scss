@@ -62,7 +62,7 @@
             }
 
             .mobtextTwo {
-                padding: 94px 0px 94px 112px;
+                padding: 115px 0px 94px 115px;
                 width: 50%;
 
                 .innerContent {
@@ -92,7 +92,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 130px 0px 130px 112px;
+            padding: 115px 0px 115px 115px;
 
             .mobtextThree {
                 width: 50%;
@@ -413,6 +413,7 @@
                 .bannerSliderSection .bannerSliderimg{
                     width: 50%;
                     margin: 0 auto;
+                    padding-top: 80px;
                 }
             }
 
@@ -502,7 +503,7 @@
 
         .lefttext-rightImg .sectionTwo {
             .mobtextTwo {
-                padding: 74px 0px 74px 82px;
+                padding: 90px 0px 94px 90px;
 
                 .innerContent {
                     width: 50%;
@@ -525,7 +526,7 @@
         }
 
         .leftheading-rightText .sectionThree {
-            padding: 100px 0px 100px 82px;
+            padding: 90px 0px 90px 90px;
 
             .mobtextThree {
                 .innerContianer h1 {
@@ -692,7 +693,7 @@
 
         .lefttext-rightImg .sectionTwo {
             .mobtextTwo {
-                padding: 54px 0px 54px 52px;
+                padding: 50px 0px 94px 50px;
 
                 .innerContent {
                     width: 65%;
@@ -719,7 +720,7 @@
         }
 
         .leftheading-rightText .sectionThree {
-            padding: 80px 0px 80px 52px;
+            padding: 50px 0px 50px 50px;
 
             .mobtextThree {
                 .innerContianer {
@@ -838,6 +839,11 @@
         .bannerSlidermain {
             .bannerInnerDiv {
                 padding: 50px 0px 120px 0px;
+
+                .bannerSliderSection .bannerSliderimg{
+                    width: 60%;
+                    padding-top: 60px;
+                }
                 .slick-dots{
                     right: 46px;
                 }
@@ -885,7 +891,7 @@
 
         .lefttext-rightImg .sectionTwo {
             .mobtextTwo {
-                padding: 34px 0px 34px 32px;
+                padding: 35px 0px 94px 35px;
 
                 .innerContent {
                     width: 70%;
@@ -908,7 +914,7 @@
         }
 
         .leftheading-rightText .sectionThree {
-            padding: 50px 0px 60px 32px;
+            padding: 35px 0px 35px 35px;
 
             .mobtextThree {
                 .innerContianer {
@@ -1341,6 +1347,10 @@
                                 }
                             }
                         }
+                    }
+                    .bannerSliderSection .bannerSliderimg{
+                        width: 100%;
+                        padding-top: 0px;
                     }
                 }
 
