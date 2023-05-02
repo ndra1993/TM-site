@@ -7905,24 +7905,6 @@ footer .ftbutton {
     max-width: 100%; }
   .csdetailBg .animFloat {
     animation: float 3s ease-in-out infinite; }
-  .csdetailBg .paddingZero {
-    padding: 0px !important; }
-  .csdetailBg .desktopVid {
-    display: block;
-    width: 100%; }
-  .csdetailBg .mobVid {
-    display: none;
-    width: 100%; }
-  .csdetailBg .lineHeightZero {
-    line-height: 0; }
-  .csdetailBg .marginZero {
-    margin: 0px !important; }
-  .csdetailBg .widthFull {
-    width: 100% !important; }
-  .csdetailBg .colorWhiteLight {
-    color: #ffffff80; }
-  .csdetailBg .colorBlackLight {
-    color: #00000080; }
   .csdetailBg .bannerSection .sectionOne {
     position: relative;
     padding: 50px 0px 200px 0px; }

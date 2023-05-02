@@ -19426,13 +19426,13 @@ Gp1aXl5G4HAYekrSfwGsPET2Cn6PUQAAAABJRU5ErkJggg==" transform="matrix(1 0 0 1 76 3
             </div>
         </div>
     </section>
-    <section class="fullscreenBigimg wow fadeInUp"  data-wow-duration="3s" style="background: #fff">
-        <img src="<?php bloginfo('template_directory'); ?>/images/laptop-2-tata.svg">
+    <section class="fullscreenBigimg wow fadeInUp"  data-wow-duration="3s" style="background: #E8E8E8;">
+        <img src="<?php bloginfo('template_directory'); ?>/images/laptop-2-tata.png">
     </section>
     <section class="fullscreenBigimg wow fadeInUp" data-wow-duration="3s" style="background: #fff">
         <img src="<?php bloginfo('template_directory'); ?>/images/multiple-screen-tata.png">
     </section>
-    <section class="leftheading-rightText" style="background: #274079;">
+    <section class="leftheading-rightText" style="background: linear-gradient(135.52deg, #18478B 0.89%, #264A9F 50.45%, #283A61 100%)">
         <div class="sectionThree">
             <div class="mobtextThree wow slideInLeft" data-wow-duration="1s">
                 <div class="innerContianer">
