@@ -7596,12 +7596,10 @@ footer .ftbutton {
         width: 65%; }
         .blogsDetails .blogsDetailsSection .blogsDetailsTwo img {
           padding-bottom: 36px; }
-        .blogsDetails .blogsDetailsSection .blogsDetailsTwo ul {
-          margin-bottom: 36px;
-          font-size: 18px; }
-        .blogsDetails .blogsDetailsSection .blogsDetailsTwo ol {
-          margin-bottom: 36px;
-          font-size: 18px; }
+        .blogsDetails .blogsDetailsSection .blogsDetailsTwo ul, .blogsDetails .blogsDetailsSection .blogsDetailsTwo ol {
+          margin-bottom: 36px; }
+          .blogsDetails .blogsDetailsSection .blogsDetailsTwo ul li, .blogsDetails .blogsDetailsSection .blogsDetailsTwo ol li {
+            font-size: 18px; }
         .blogsDetails .blogsDetailsSection .blogsDetailsTwo h2 {
           font-size: 35px;
           margin-bottom: 35px;
@@ -8063,35 +8061,51 @@ footer .ftbutton {
     .csdetailBg .bottomimgLogos .moreCasestudy {
       position: absolute;
       width: 100%;
-      bottom: -100%; }
+      bottom: -100%;
+      height: 210px; }
       .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos {
         display: flex;
-        align-items: center; }
+        align-items: center;
+        height: 100%; }
         .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox {
-          padding: 30px;
           width: 50%;
           background: #00C859;
-          transition: 1s ease-out; }
+          transition: 1s ease-out;
+          height: 100%;
+          position: relative; }
           .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox a {
+            padding: 30px 0px;
             display: block;
             width: 100%;
-            cursor: url(../images/mouse-cursor-pages.png) 30 30, auto; }
-            .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox a img {
-              margin: 0 auto; }
-          .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox:nth-child(1) {
-            text-align: center; }
-          .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox:nth-child(2) {
-            text-align: center; }
+            cursor: url(../images/mouse-cursor-pages.png) 30 30, auto;
+            height: 100%; }
+          .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox:nth-child(1) a img {
+            margin: 0 auto;
+            display: block;
+            transition: 1s all ease-in-out;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%); }
+          .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox:nth-child(2) a img {
+            margin: 0 auto;
+            display: block;
+            transition: 1s all ease-in-out;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            transition: 1s all ease-in-out; }
           .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox.active {
             width: 100%; }
-            .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox.active:nth-child(1) {
-              text-align: left;
-              transition: 1s ease-out; }
+            .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox.active:nth-child(1) a img {
+              left: 30px;
+              transform: translateX(0); }
           .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox.activeTwo {
             width: 100%; }
-            .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox.activeTwo:nth-child(2) {
-              text-align: right;
-              transition: 1s ease-out; }
+            .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox.activeTwo:nth-child(2) a img {
+              right: 30px;
+              transform: translateX(0); }
+        .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBoxtwo {
+          position: relative; }
     .csdetailBg .bottomimgLogos .circleAnimShow {
       position: absolute;
       bottom: 0%;
@@ -8239,9 +8253,11 @@ footer .ftbutton {
             line-height: 27px; }
         .csdetailBg .twoImgtogether-headinglast .imageHeadingmain .imgDivmain {
           width: 66%; }
-      .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox a img {
-        margin: 0 auto;
-        width: 200px; }
+      .csdetailBg .bottomimgLogos .moreCasestudy {
+        height: 160px; }
+        .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox a img {
+          margin: 0 auto;
+          width: 200px; }
       .csdetailBg .bannerSlidermain .bannerInnerDiv {
         padding: 90px 0px 180px 0px; }
         .csdetailBg .bannerSlidermain .bannerInnerDiv .slick-dots {
@@ -8337,9 +8353,11 @@ footer .ftbutton {
             line-height: 25px; }
         .csdetailBg .twoImgtogether-headinglast .imageHeadingmain .imgDivmain {
           width: 67%; }
-      .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox a img {
-        margin: 0 auto;
-        width: 180px; }
+      .csdetailBg .bottomimgLogos .moreCasestudy {
+        height: 150px; }
+        .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox a img {
+          margin: 0 auto;
+          width: 180px; }
       .csdetailBg .bannerSlidermain .bannerInnerDiv {
         padding: 50px 0px 120px 0px; }
         .csdetailBg .bannerSlidermain .bannerInnerDiv .slick-dots {
@@ -8538,7 +8556,8 @@ footer .ftbutton {
       .csdetailBg .fullscreenBigimg .sectionFour {
         padding: 10px 0px; }
       .csdetailBg .bottomimgLogos .moreCasestudy {
-        position: static; }
+        position: static;
+        height: 110px; }
         .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox {
           padding: 25px; }
           .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox:nth-child(1) {
@@ -8647,10 +8666,12 @@ footer .ftbutton {
               .csdetailBg .bannerSlidermain .bannerInnerDiv .awardSec .awardMaindiv .awardDivbx p {
                 line-height: 28px; } }
   @media screen and (max-width: 560px) {
-    .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox {
-      padding: 25px; }
-      .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox a img {
-        width: 70px; } }
+    .csdetailBg .bottomimgLogos .moreCasestudy {
+      height: 95px; }
+      .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox {
+        padding: 25px; }
+        .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox a img {
+          width: 70px; } }
 
 #svganime .st0 {
   display: none; }
