@@ -7907,7 +7907,7 @@ footer .ftbutton {
     animation: float 3s ease-in-out infinite; }
   .csdetailBg .bannerSection .sectionOne {
     position: relative;
-    padding: 50px 0px 200px 0px; }
+    padding: 115px 0px 222px 0px; }
     .csdetailBg .bannerSection .sectionOne .mobtext {
       position: absolute;
       top: 10%;
@@ -7923,7 +7923,7 @@ footer .ftbutton {
         line-height: 30px;
         width: 73%; }
     .csdetailBg .bannerSection .sectionOne .mobImg {
-      margin: 50px auto 0 24%;
+      margin: 0px auto 0 24%;
       width: 60%; }
   .csdetailBg .lefttext-rightImg .sectionTwo {
     display: flex; }
@@ -7933,8 +7933,7 @@ footer .ftbutton {
       align-items: center;
       justify-content: center; }
       .csdetailBg .lefttext-rightImg .sectionTwo .mobimgTwo img {
-        margin: 0 auto;
-        width: 100%; }
+        margin: 0 auto; }
     .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo {
       padding: 94px 0px 94px 112px;
       width: 50%; }
@@ -7942,7 +7941,8 @@ footer .ftbutton {
         width: 60%; }
         .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent p {
           text-transform: uppercase;
-          margin-bottom: 15px; }
+          margin-bottom: 15px;
+          line-height: 1; }
         .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent h1 {
           line-height: 70px;
           margin: 0px 0px 35px 0px; }
@@ -7959,7 +7959,8 @@ footer .ftbutton {
         width: 60%; }
         .csdetailBg .leftheading-rightText .sectionThree .mobtextThree .innerContianer p {
           text-transform: uppercase;
-          margin-bottom: 15px; }
+          margin-bottom: 15px;
+          line-height: 1; }
         .csdetailBg .leftheading-rightText .sectionThree .mobtextThree .innerContianer h1 {
           line-height: 70px; }
     .csdetailBg .leftheading-rightText .sectionThree .mobsubtextThree {
@@ -8097,7 +8098,7 @@ footer .ftbutton {
       transition: all 1s ease-in-out; }
   .csdetailBg .bannerSlidermain .bannerInnerDiv {
     position: relative;
-    padding: 120px 60px 0px 0px; }
+    padding: 115px 0px 222px 0px; }
     .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerSlider {
       margin-bottom: 0px; }
       .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerSlider img {
@@ -8105,7 +8106,7 @@ footer .ftbutton {
       .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerSlider .slick-dots {
         position: absolute;
         top: 50%;
-        right: 0;
+        right: 76px;
         transform: translate(-50%, -50%);
         display: flex;
         flex-direction: column;
@@ -8133,6 +8134,9 @@ footer .ftbutton {
           height: 50px;
           border-radius: 10px;
           transition: .9s all ease-in-out; }
+      .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerSlider .bannerSliderSection .bannerSliderimg {
+        width: 50%;
+        margin: 0 auto; }
     .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara {
       position: absolute;
       top: 120px;
@@ -8164,7 +8168,7 @@ footer .ftbutton {
     .csdetailBg {
       margin-top: 86px; }
       .csdetailBg .bannerSection .sectionOne {
-        padding: 40px 0px 150px 0px; }
+        padding: 90px 0px 180px 0px; }
         .csdetailBg .bannerSection .sectionOne .mobtext {
           padding-left: 82px; }
           .csdetailBg .bannerSection .sectionOne .mobtext h1 {
@@ -8173,7 +8177,7 @@ footer .ftbutton {
           .csdetailBg .bannerSection .sectionOne .mobtext h5 {
             line-height: 27px; }
         .csdetailBg .bannerSection .sectionOne .mobImg {
-          margin: 40px auto 0 22%; }
+          margin: 0px auto 0 22%; }
       .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo {
         padding: 74px 0px 74px 82px; }
         .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent {
@@ -8239,7 +8243,9 @@ footer .ftbutton {
         margin: 0 auto;
         width: 200px; }
       .csdetailBg .bannerSlidermain .bannerInnerDiv {
-        padding: 100px 50px 0px 0px; }
+        padding: 90px 0px 180px 0px; }
+        .csdetailBg .bannerSlidermain .bannerInnerDiv .slick-dots {
+          right: 56px; }
         .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara {
           top: 100px;
           left: 80px;
@@ -8256,7 +8262,7 @@ footer .ftbutton {
     .csdetailBg {
       margin-top: 76px; }
       .csdetailBg .bannerSection .sectionOne {
-        padding: 30px 0px 100px 0px; }
+        padding: 50px 0px 120px 0px; }
         .csdetailBg .bannerSection .sectionOne .mobtext {
           padding-left: 52px; }
           .csdetailBg .bannerSection .sectionOne .mobtext h1 {
@@ -8265,7 +8271,7 @@ footer .ftbutton {
           .csdetailBg .bannerSection .sectionOne .mobtext h5 {
             line-height: 25px; }
         .csdetailBg .bannerSection .sectionOne .mobImg {
-          margin: 40px auto 0 20%; }
+          margin: 0px auto 0 20%; }
       .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo {
         padding: 54px 0px 54px 52px; }
         .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent {
@@ -8335,7 +8341,9 @@ footer .ftbutton {
         margin: 0 auto;
         width: 180px; }
       .csdetailBg .bannerSlidermain .bannerInnerDiv {
-        padding: 80px 30px 0px 0px; }
+        padding: 50px 0px 120px 0px; }
+        .csdetailBg .bannerSlidermain .bannerInnerDiv .slick-dots {
+          right: 46px; }
         .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara {
           top: 80px;
           left: 60px;
@@ -8349,7 +8357,7 @@ footer .ftbutton {
             margin: 10px 0px; } }
   @media screen and (max-width: 1200px) {
     .csdetailBg .bannerSection .sectionOne {
-      padding: 35px 0px 60px 0px; }
+      padding: 35px 0px 80px 0px; }
       .csdetailBg .bannerSection .sectionOne .mobtext {
         padding-left: 32px; }
         .csdetailBg .bannerSection .sectionOne .mobtext h1 {
@@ -8421,7 +8429,9 @@ footer .ftbutton {
       .csdetailBg .twoImgtogether-headinglast .imageHeadingmain .imgDivmain {
         width: 68%; }
     .csdetailBg .bannerSlidermain .bannerInnerDiv {
-      padding: 60px 20px 0px 0px; }
+      padding: 35px 0px 80px 0px; }
+      .csdetailBg .bannerSlidermain .bannerInnerDiv .slick-dots {
+        right: 36px; }
       .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara {
         top: 60px;
         left: 30px;
@@ -8486,8 +8496,6 @@ footer .ftbutton {
           margin: 0px;
           line-height: 0;
           padding: 0; }
-          .csdetailBg .lefttext-rightImg .sectionTwo .mobimgTwo img {
-            width: 100%; }
       .csdetailBg .leftheading-rightText .sectionThree {
         display: block;
         padding: 32px 24px 24px 24px; }
@@ -8635,7 +8643,9 @@ footer .ftbutton {
               margin-top: 12px; }
               .csdetailBg .bannerSlidermain .bannerInnerDiv .awardSec .awardMaindiv .awardDivbx h5 {
                 text-transform: unset;
-                margin: 12px 0px 4px; } }
+                margin: 12px 0px 4px; }
+              .csdetailBg .bannerSlidermain .bannerInnerDiv .awardSec .awardMaindiv .awardDivbx p {
+                line-height: 28px; } }
   @media screen and (max-width: 560px) {
     .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox {
       padding: 25px; }

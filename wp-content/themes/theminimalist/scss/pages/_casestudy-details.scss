@@ -14,7 +14,7 @@
     .bannerSection {
         .sectionOne {
             position: relative;
-            padding: 50px 0px 200px 0px;
+            padding: 115px 0px 222px 0px;
 
             .mobtext {
                 position: absolute;
@@ -39,7 +39,7 @@
             }
 
             .mobImg {
-                margin: 50px auto 0 24%;
+                margin: 0px auto 0 24%;
                 width: 60%;
             }
         }
@@ -58,7 +58,6 @@
 
                 img {
                     margin: 0 auto;
-                    width: 100%;
                 }
             }
 
@@ -72,6 +71,7 @@
                     p {
                         text-transform: uppercase;
                         margin-bottom: 15px;
+                        line-height: 1;
                     }
 
                     h1 {
@@ -103,6 +103,7 @@
                     p {
                         text-transform: uppercase;
                         margin-bottom: 15px;
+                        line-height: 1;
                     }
 
                     h1 {
@@ -326,7 +327,7 @@
     .bannerSlidermain {
         .bannerInnerDiv {
             position: relative;
-            padding: 120px 60px 0px 0px;
+            padding: 115px 0px 222px 0px;
 
             .bannerSlider {
                 margin-bottom: 0px;
@@ -338,7 +339,7 @@
                 .slick-dots {
                     position: absolute;
                     top: 50%;
-                    right: 0;
+                    right: 76px;
                     transform: translate(-50%, -50%);
                     display: flex;
                     flex-direction: column;
@@ -376,6 +377,10 @@
                         border-radius: 10px;
                         transition: .9s all ease-in-out;
                     }
+                }
+                .bannerSliderSection .bannerSliderimg{
+                    width: 50%;
+                    margin: 0 auto;
                 }
             }
 
@@ -442,7 +447,7 @@
 
         .bannerSection {
             .sectionOne {
-                padding: 40px 0px 150px 0px;
+                padding: 90px 0px 180px 0px;
 
                 .mobtext {
                     padding-left: 82px;
@@ -458,7 +463,7 @@
                 }
 
                 .mobImg {
-                    margin: 40px auto 0 22%;
+                    margin: 0px auto 0 22%;
                 }
             }
         }
@@ -600,8 +605,10 @@
 
         .bannerSlidermain {
             .bannerInnerDiv {
-                padding: 100px 50px 0px 0px;
-
+                padding: 90px 0px 180px 0px;
+                .slick-dots{
+                    right: 56px;
+                }
                 .bannerslidePara {
                     top: 100px;
                     left: 80px;
@@ -630,7 +637,7 @@
 
         .bannerSection {
             .sectionOne {
-                padding: 30px 0px 100px 0px;
+                padding: 50px 0px 120px 0px;
 
                 .mobtext {
                     padding-left: 52px;
@@ -646,7 +653,7 @@
                 }
 
                 .mobImg {
-                    margin: 40px auto 0 20%;
+                    margin: 0px auto 0 20%;
                 }
             }
         }
@@ -798,8 +805,10 @@
 
         .bannerSlidermain {
             .bannerInnerDiv {
-                padding: 80px 30px 0px 0px;
-
+                padding: 50px 0px 120px 0px;
+                .slick-dots{
+                    right: 46px;
+                }
                 .bannerslidePara {
                     top: 80px;
                     left: 60px;
@@ -825,7 +834,7 @@
     @media screen and (max-width:1200px) {
         .bannerSection {
             .sectionOne {
-                padding: 35px 0px 60px 0px;
+                padding: 35px 0px 80px 0px;
 
                 .mobtext {
                     padding-left: 32px;
@@ -969,8 +978,11 @@
 
         .bannerSlidermain {
             .bannerInnerDiv {
-                padding: 60px 20px 0px 0px;
-
+                padding: 35px 0px 80px 0px;
+                
+                .slick-dots{
+                    right: 36px;
+                }
                 .bannerslidePara {
                     top: 60px;
                     left: 30px;
@@ -1084,10 +1096,6 @@
                 margin: 0px;
                 line-height: 0;
                 padding: 0;
-
-                img {
-                    width: 100%;
-                }
             }
 
         }
@@ -1327,6 +1335,9 @@
                             h5 {
                                 text-transform: unset;
                                 margin: 12px 0px 4px;
+                            }
+                            p{
+                                line-height: 28px;
                             }
                         }
                     }

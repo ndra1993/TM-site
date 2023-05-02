@@ -19406,7 +19406,7 @@ Gp1aXl5G4HAYekrSfwGsPET2Cn6PUQAAAABJRU5ErkJggg==" transform="matrix(1 0 0 1 76 3
                     <h5 class="font20 colorBlack fontW500">We wanted to create a seamless experience that caters to multiple user-types and create a platform that can accommodate multiple system integrations </h5>
                 </div>
             </div>
-            <div class="mobimgTwo wow slideInRight" data-wow-duration="1s">
+            <div class="mobimgTwo wow slideInRight" data-wow-duration="1s" style="background:linear-gradient(135.52deg, #18478B 0.89%, #264A9F 50.45%, #283A61 100%);">
                 <img src="<?php bloginfo('template_directory'); ?>/images/tata-mobile-two.png">
             </div>
         </div>
