@@ -7596,12 +7596,10 @@ footer .ftbutton {
         width: 65%; }
         .blogsDetails .blogsDetailsSection .blogsDetailsTwo img {
           padding-bottom: 36px; }
-        .blogsDetails .blogsDetailsSection .blogsDetailsTwo ul {
-          margin-bottom: 36px;
-          font-size: 18px; }
-        .blogsDetails .blogsDetailsSection .blogsDetailsTwo ol {
-          margin-bottom: 36px;
-          font-size: 18px; }
+        .blogsDetails .blogsDetailsSection .blogsDetailsTwo ul, .blogsDetails .blogsDetailsSection .blogsDetailsTwo ol {
+          margin-bottom: 36px; }
+          .blogsDetails .blogsDetailsSection .blogsDetailsTwo ul li, .blogsDetails .blogsDetailsSection .blogsDetailsTwo ol li {
+            font-size: 18px; }
         .blogsDetails .blogsDetailsSection .blogsDetailsTwo h2 {
           font-size: 35px;
           margin-bottom: 35px;
@@ -8069,13 +8067,13 @@ footer .ftbutton {
         align-items: center;
         height: 100%; }
         .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox {
-          padding: 30px;
           width: 50%;
           background: #00C859;
           transition: 1s ease-out;
           height: 100%;
           position: relative; }
           .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox a {
+            padding: 30px 0px;
             display: block;
             width: 100%;
             cursor: url(../images/mouse-cursor-pages.png) 30 30, auto;
