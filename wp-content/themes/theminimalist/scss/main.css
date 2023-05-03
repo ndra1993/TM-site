@@ -7617,11 +7617,11 @@ footer .ftbutton {
         .blogsDetails .blogsDetailsSection .blogsDetailsTwo p {
           font-size: 18px;
           line-height: 30px;
-          margin-bottom: 36px; }
+          margin-bottom: 30px; }
         .blogsDetails .blogsDetailsSection .blogsDetailsTwo .divider {
           border-top: 1px solid transparent;
           border-bottom: 1px solid transparent;
-          margin-bottom: 45px; }
+          margin-bottom: 40px; }
       .blogsDetails .relatedBlogs .relatedBlogsSection .relatedBlogsBox a .details .detailsBox p {
         line-height: 25px; } }
   @media screen and (max-width: 1400px) {
@@ -7977,22 +7977,6 @@ footer .ftbutton {
       line-height: 36px;
       text-align: center;
       letter-spacing: 0.03em; }
-  .csdetailBg .fullSectionAnimation .fullSectionAnimationBox {
-    display: flex;
-    width: 100%;
-    padding: 0px 112px 190px 112px; }
-    .csdetailBg .fullSectionAnimation .fullSectionAnimationBox .fullSectionAnimationOne {
-      width: 30%; }
-      .csdetailBg .fullSectionAnimation .fullSectionAnimationBox .fullSectionAnimationOne img {
-        margin-bottom: 40px;
-        width: 100%; }
-        .csdetailBg .fullSectionAnimation .fullSectionAnimationBox .fullSectionAnimationOne img:last-child {
-          margin-bottom: 0px; }
-    .csdetailBg .fullSectionAnimation .fullSectionAnimationBox .fullSectionAnimationTwo {
-      width: 70%;
-      margin-left: 35px; }
-      .csdetailBg .fullSectionAnimation .fullSectionAnimationBox .fullSectionAnimationTwo img {
-        width: 100%; }
   .csdetailBg .fullscreenBigimg .sectionFour {
     padding: 50px 0px; }
     .csdetailBg .fullscreenBigimg .sectionFour img {
@@ -8170,6 +8154,14 @@ footer .ftbutton {
       width: 100%; }
   .csdetailBg.almaraiCasestudy .bannerSection .sectionOne .mobImg {
     margin-left: 32%; }
+  .csdetailBg .dozeeBanner .sectionOne {
+    padding: 0px !important; }
+    .csdetailBg .dozeeBanner .sectionOne .mobImg {
+      margin: 0 0 0 auto !important;
+      width: 100%; }
+  .csdetailBg .dozeeBanner video {
+    width: 100%;
+    padding: 0px; }
   .csdetailBg .desktopImg {
     display: block; }
   .csdetailBg .mobileImg {
@@ -8212,14 +8204,6 @@ footer .ftbutton {
           margin-bottom: 32px; }
         .csdetailBg .centerheading-centerText .fullSection p {
           line-height: 30px; }
-      .csdetailBg .fullSectionAnimation .fullSectionAnimationBox {
-        padding: 0px 82px 160px 82px; }
-        .csdetailBg .fullSectionAnimation .fullSectionAnimationBox .fullSectionAnimationOne img {
-          margin-bottom: 30px; }
-          .csdetailBg .fullSectionAnimation .fullSectionAnimationBox .fullSectionAnimationOne img:last-child {
-            margin-bottom: 0px; }
-        .csdetailBg .fullSectionAnimation .fullSectionAnimationBox .fullSectionAnimationTwo {
-          margin-left: 30px; }
       .csdetailBg .fullscreenBigimg .sectionFour {
         padding: 30px 0px; }
       .csdetailBg .fullimgwithHeading {
@@ -8314,12 +8298,6 @@ footer .ftbutton {
           margin-bottom: 28px; }
         .csdetailBg .centerheading-centerText .fullSection p {
           line-height: 26px; }
-      .csdetailBg .fullSectionAnimation .fullSectionAnimationBox {
-        padding: 0px 52px 120px 52px; }
-        .csdetailBg .fullSectionAnimation .fullSectionAnimationBox .fullSectionAnimationOne img {
-          margin-bottom: 25px; }
-        .csdetailBg .fullSectionAnimation .fullSectionAnimationBox .fullSectionAnimationTwo {
-          margin-left: 25px; }
       .csdetailBg .fullscreenBigimg .sectionFour {
         padding: 20px 0px; }
       .csdetailBg .fullimgwithHeading {
@@ -8403,12 +8381,6 @@ footer .ftbutton {
         margin-bottom: 24px; }
       .csdetailBg .centerheading-centerText .fullSection p {
         line-height: 24px; }
-    .csdetailBg .fullSectionAnimation .fullSectionAnimationBox {
-      padding: 0px 32px 100px 32px; }
-      .csdetailBg .fullSectionAnimation .fullSectionAnimationBox .fullSectionAnimationOne img {
-        margin-bottom: 20px; }
-      .csdetailBg .fullSectionAnimation .fullSectionAnimationBox .fullSectionAnimationTwo {
-        margin-left: 20px; }
     .csdetailBg .fullscreenBigimg .sectionFour {
       padding: 20px 0px; }
     .csdetailBg .fullimgwithHeading {
@@ -8467,6 +8439,8 @@ footer .ftbutton {
         .csdetailBg .mobileImg img {
           margin: 0 auto;
           display: block; }
+      .csdetailBg .dozeefullscreenBigimg .mobileImg {
+        padding: 0px; }
       .csdetailBg .bannerSection .sectionOne {
         padding: 32px 0px 20px 0px; }
         .csdetailBg .bannerSection .sectionOne .mobtext {
@@ -8532,19 +8506,6 @@ footer .ftbutton {
           margin-bottom: 20px; }
         .csdetailBg .centerheading-centerText .fullSection p {
           line-height: 20px; }
-      .csdetailBg .fullSectionAnimation .fullSectionAnimationBox {
-        display: block;
-        padding: 0px 24px 70px 24px; }
-        .csdetailBg .fullSectionAnimation .fullSectionAnimationBox .fullSectionAnimationOne {
-          width: 100%; }
-          .csdetailBg .fullSectionAnimation .fullSectionAnimationBox .fullSectionAnimationOne img {
-            margin-bottom: 15px;
-            width: 100%; }
-            .csdetailBg .fullSectionAnimation .fullSectionAnimationBox .fullSectionAnimationOne img:last-child {
-              margin-bottom: 15px; }
-        .csdetailBg .fullSectionAnimation .fullSectionAnimationBox .fullSectionAnimationTwo {
-          margin-left: 0px;
-          width: 100%; }
       .csdetailBg .fullscreenBigimg .sectionFour {
         padding: 10px 0px; }
       .csdetailBg .bottomimgLogos .moreCasestudy {

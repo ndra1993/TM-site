@@ -12,18 +12,18 @@
 
 <div class="csdetailBg" style="background: #0839B6;">
     <!-- Banner Section -->
-    <section class="bannerSection">
-        <div class="sectionOne paddingZero">
+    <section class="bannerSection dozeeBanner">
+        <div class="sectionOne">
             <div class="mobtext wow slideInLeft">
                 <p class="font20 fontW800 colorWhite">DOZEE</p>
                 <h1 class="font60 fontW800 colorWhite">Adding a dose of Science and technology to Dozee’s design system </h1>
-                <h5 class="font20 colorWhiteLight fontW500">Dozee is an advanced contactless remote patient monitoring and early warning system that utilizes cutting-edge artificial intelligence technology. It offers an efficient ballistocardiography solution to enhance patient care.</h5>
+                <h5 class="font20 colorWhite fontW500">Dozee is an advanced contactless remote patient monitoring and early warning system that utilizes cutting-edge artificial intelligence technology. It offers an efficient ballistocardiography solution to enhance patient care.</h5>
             </div>
-            <div class="mobImg wow fadeInUp marginZero widthFull" data-wow-duration="4s">
-                <video class="desktopVid" playsinline="playsinline" muted="muted" preload="yes" autoplay="autoplay" loop="loop" id="vjs_video_739_html5_api" class="video-js" data-setup='{"autoplay":"any"}'>
+            <div class="mobImg wow fadeInUp" data-wow-duration="4s">
+                <video class="desktopImg" playsinline="playsinline" muted="muted" preload="yes" autoplay="autoplay" loop="loop" id="vjs_video_739_html5_api" class="video-js" data-setup='{"autoplay":"any"}'>
                     <source src="<?php bloginfo('template_directory'); ?>/videos/dozee-animation-video.mp4" type="video/mp4">
                 </video>
-                 <video class="mobVid" playsinline="playsinline" muted="muted" preload="yes" autoplay="autoplay" loop="loop" id="vjs_video_739_html5_api" class="video-js" data-setup='{"autoplay":"any"}'>
+                 <video class="mobileImg" playsinline="playsinline" muted="muted" preload="yes" autoplay="autoplay" loop="loop" id="vjs_video_739_html5_api" class="video-js" data-setup='{"autoplay":"any"}'>
                     <source src="<?php bloginfo('template_directory'); ?>/videos/dozee-animation-video-mob.mp4" type="video/mp4">
                 </video>
             </div>
@@ -50,30 +50,23 @@
    
     <!-- fullscreenbigimg -->
     <section class="fullscreenBigimg" style="background: #0243A3;">
-        <div class="">
-            <img src="<?php bloginfo('template_directory'); ?>/images/dozee-logo-animation.gif">
-        </div>
+        <div id="dozeeFirstAnim"></div>
     </section>
+    
     
     <!-- centerheading-centerText -->
     <section class="centerheading-centerText">
         <div class="fullSection">
             <h1 class="font40 fontW800 colorWhite">From AI to aesthetics: Building a visual identity for futuristic healthcare</h1>
-            <p class="font24 fontW500 colorWhiteLight">We developed a design system around their existing logo to visually capture the amalgamation of science and technology. Our approach was to create a dynamic identity that was both bold and understated, allowing their technical and informative content to take centre stage while maintaining a cohesive design. We utilized various design elements to effectively communicate different aspects of the brand's narrative.</p>
-            <p class="font24 fontW500 colorWhiteLight">As we progress with our design strategy, we have devised a brand pattern that narrates the story. Our pattern is constructed using a blend of Dozee shapes, amalgamated to form a ballistocardiography wave. By taking this approach, we ensure that the scientific essence of our design pattern remains intact.</p>
+            <p class="font24 fontW500 colorWhite">We developed a design system around their existing logo to visually capture the amalgamation of science and technology. Our approach was to create a dynamic identity that was both bold and understated, allowing their technical and informative content to take centre stage while maintaining a cohesive design. We utilized various design elements to effectively communicate different aspects of the brand's narrative.</p>
+            <p class="font24 fontW500 colorWhite">As we progress with our design strategy, we have devised a brand pattern that narrates the story. Our pattern is constructed using a blend of Dozee shapes, amalgamated to form a ballistocardiography wave. By taking this approach, we ensure that the scientific essence of our design pattern remains intact.</p>
         </div>
     </section>
-    <section class="fullSectionAnimation">
-        <div class="fullSectionAnimationBox">
-            <div class="fullSectionAnimationOne">
-                <img src="<?php bloginfo('template_directory'); ?>/images/fullSectionAnimationOne-1.png">
-                <img src="<?php bloginfo('template_directory'); ?>/images/fullSectionAnimationOne-2.png">
-            </div>
-            <div class="fullSectionAnimationTwo">
-                <img src="<?php bloginfo('template_directory'); ?>/images/dozee-convey.gif">
-            </div>
-        </div>
+    <!-- fullscreenbigimg -->
+    <section class="fullscreenBigimg" style="background: #0243A3;">
+        <div id="dozeeThreeBox"></div>
     </section>
+    
     <!-- centerheading-centerText -->
     <section class="centerheading-centerText" style="background:#fff;">
         <div class="fullSection">
@@ -138,11 +131,11 @@
         </div>
     </section>
     <!-- fullscreenbigimg -->
-    <section class="fullscreenBigimg paddingZero" style="background: #0243A3;">
+    <section class="fullscreenBigimg dozeefullscreenBigimg" style="background: #0243A3;">
         <div class="desktopImg wow fadeInUp" data-wow-duration="4s">
             <img src="<?php bloginfo('template_directory'); ?>/images/dozee-solutions.png">
         </div>
-        <div class="mobileImg wow fadeInUp paddingZero" data-wow-duration="4s">
+        <div class="mobileImg wow fadeInUp" data-wow-duration="4s">
             <img src="<?php bloginfo('template_directory'); ?>/images/dozee-solutions.png">
         </div>
     </section>
@@ -163,11 +156,11 @@
         </div>
     </section>
     <!-- fullscreenbigimg -->
-    <section class="fullscreenBigimg" style="background: #0243A3;line-height: 0;">
+    <section class="fullscreenBigimg dozeefullscreenBigimg" style="background: #0243A3;">
         <div class="desktopImg wow fadeInUp" data-wow-duration="4s">
             <img src="<?php bloginfo('template_directory'); ?>/images/dozee-impact-banner.png">
         </div>
-        <div class="mobileImg wow fadeInUp paddingZero" data-wow-duration="4s">
+        <div class="mobileImg wow fadeInUp" data-wow-duration="4s">
             <img src="<?php bloginfo('template_directory'); ?>/images/dozee-impact-banner.png">
         </div>
     </section>
@@ -236,8 +229,16 @@
 <?php get_footer(); ?>
 <script type="text/javascript">
 var animation = bodymovin.loadAnimation({
-  container: document.getElementById('animation-container'),
-  path: site_url+'/wp-content/themes/theminimalist/js/json/dozee-banner.json', // Required
+  container: document.getElementById('dozeeFirstAnim'),
+  path: site_url+'/wp-content/themes/theminimalist/js/json/dozeeFirstAnim.json', // Required
+  renderer: 'svg', // or 'canvas', 'html'
+  loop: true,
+  autoplay: true
+});
+
+var animation = bodymovin.loadAnimation({
+  container: document.getElementById('dozeeThreeBox'),
+  path: site_url+'/wp-content/themes/theminimalist/js/json/dozee-threeBox.json', // Required
   renderer: 'svg', // or 'canvas', 'html'
   loop: true,
   autoplay: true
