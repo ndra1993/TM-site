@@ -137,18 +137,7 @@
             p{line-height: 36px;text-align: center;letter-spacing: 0.03em;}
         }
     }
-    .fullSectionAnimation{
-        .fullSectionAnimationBox{display:flex;width:100%;padding: 0px 112px 190px 112px;
-            .fullSectionAnimationOne{width:30%;
-                img{margin-bottom:40px; width:100%;
-                    &:last-child{margin-bottom:0px;}
-                }
-            }
-            .fullSectionAnimationTwo{width:70%;margin-left:35px;
-                img{ width:100%;}
-            }
-        }
-    }
+    
 
     .fullscreenBigimg {
         .sectionFour {
@@ -471,6 +460,20 @@
     }
     // almarai css ends
 
+    // tagged banner style
+    .dozeeBanner {
+        .sectionOne {
+            padding: 0px !important;
+            .mobImg 
+                {
+                    margin: 0 0 0 auto !important;
+                    width: 100%;
+                }
+            }
+        video{width:100%;padding:0px;} 
+        }
+    // tagged css ends
+
     .desktopImg {
         display: block;
     }
@@ -551,16 +554,7 @@
                 p{line-height: 30px;}
             }
         }
-        .fullSectionAnimation{
-            .fullSectionAnimationBox{padding: 0px 82px 160px 82px;
-                .fullSectionAnimationOne{
-                    img{margin-bottom:30px;
-                        &:last-child{margin-bottom:0px;}
-                    }
-                }
-                .fullSectionAnimationTwo{margin-left:30px;}
-            }
-        }
+        
 
         .fullscreenBigimg .sectionFour {
             padding: 30px 0px;
@@ -757,14 +751,7 @@
                 p{line-height: 26px;}
             }
         }
-        .fullSectionAnimation{
-            .fullSectionAnimationBox{padding: 0px 52px 120px 52px;
-                .fullSectionAnimationOne{
-                    img{margin-bottom:25px;}
-                }
-                .fullSectionAnimationTwo{margin-left:25px;}
-            }
-        }
+        
 
         .fullscreenBigimg .sectionFour {
             padding: 20px 0px;
@@ -947,14 +934,7 @@
                 p{line-height: 24px;}
             }
         }
-        .fullSectionAnimation{
-            .fullSectionAnimationBox{padding: 0px 32px 100px 32px;
-                .fullSectionAnimationOne{
-                    img{margin-bottom:20px;}
-                }
-                .fullSectionAnimationTwo{margin-left:20px;}
-            }
-        }
+        
 
         .fullscreenBigimg .sectionFour {
             padding: 20px 0px;
@@ -1077,6 +1057,11 @@
                 
             }
         }
+        .dozeefullscreenBigimg{
+            .mobileImg {
+                padding:0px;
+            }
+        }
 
         .bannerSection {
             .sectionOne {
@@ -1183,16 +1168,7 @@
                 p{line-height: 20px;}
             }
         }
-        .fullSectionAnimation{
-            .fullSectionAnimationBox{display:block;padding: 0px 24px 70px 24px;
-                .fullSectionAnimationOne{width:100%;
-                    img{margin-bottom:15px;width:100%;
-                        &:last-child{margin-bottom:15px;}
-                    }
-                }
-                .fullSectionAnimationTwo{margin-left:0px;width:100%;}
-            }
-        }
+        
 
         .fullscreenBigimg .sectionFour {
             padding: 10px 0px;

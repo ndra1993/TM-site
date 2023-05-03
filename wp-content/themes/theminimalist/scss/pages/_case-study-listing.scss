@@ -212,6 +212,11 @@
 		}
   	}
 }
+@media (min-height: 1024px) and (min-width: 1366px) {
+	.desktopSection{
+		.wrap {height: calc(100vh - 190px) !important;}
+  	}
+}
 @media screen and (max-width: 1080px) {
 	.desktopSection{margin-top:73px;
 		

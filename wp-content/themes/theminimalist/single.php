@@ -86,7 +86,7 @@ $current_url = home_url( add_query_arg( array(), $wp->request ) );
                         $tax = '';
                         endif;
                     ?>
-                    <p class="font20 fontW800 fontPoppins colorBlack">Tags <span class="fontW500"><?php  echo implode(", ",$tagsm);//echo str_replace(' ', ' / ', $tax);echo $tagsm[0]; ?></span> </p>
+                    <p class="font20 fontW800 fontPoppins colorBlack">Tags <span class="fontW500"><?php  echo implode(" / ",$tagsm);//echo str_replace(' ', ' / ', $tax);echo $tagsm[0]; ?></span> </p>
                 </div>
             </div>
         </div>
@@ -196,7 +196,7 @@ $current_url = home_url( add_query_arg( array(), $wp->request ) );
                     $tax = '';
                     endif;
                 ?>
-                <h4 class="font20 fontW800 fontPoppins colorBlack">Tags <span class="fontW500"><?php  echo implode(", ",$tagsmom);//echo str_replace(' ', ' / ', $tax);echo $tagsm[0]; ?></span> </h4>
+                <h4 class="font20 fontW800 fontPoppins colorBlack">Tags <span class="fontW500"><?php  echo implode(" / ",$tagsmom);//echo str_replace(' ', ' / ', $tax);echo $tagsm[0]; ?></span> </h4>
             </div> 
         </div>
     </div>

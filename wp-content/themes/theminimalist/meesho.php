@@ -74,12 +74,12 @@ $homepage_id = get_option('page_on_front');
         </div>
     </section>
    
-    <section class="fullscreenBigimg lineHeightZero" style="background: #000;">
+    <section class="fullscreenBigimg" style="background: #000;">
         <div id="animation-container" class="desktopImg"></div>
         <div id="meesho-mobileslider" class="mobileImg"></div>
     </section>
 
-    <section class="fullscreenBigimg lineHeightZero" style="background: #fff;">
+    <section class="fullscreenBigimg" style="background: #fff;">
         <div class="wow fadeInUp" data-wow-duration="4s">
             <img src="<?php bloginfo('template_directory'); ?>/images/meesho-mobile-1.png">
         </div>
