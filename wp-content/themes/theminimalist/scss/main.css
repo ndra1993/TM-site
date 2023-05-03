@@ -7923,6 +7923,9 @@ footer .ftbutton {
     .csdetailBg .bannerSection .sectionOne .mobImg {
       margin: 0px auto 0 24%;
       width: 60%; }
+    .csdetailBg .bannerSection .sectionOne .bannerAnimeimg {
+      width: unset;
+      margin: 0 auto; }
   .csdetailBg .lefttext-rightImg .sectionTwo {
     display: flex; }
     .csdetailBg .lefttext-rightImg .sectionTwo .mobimgTwo {
