@@ -9,7 +9,7 @@
       </div>
     </div>
     
-    <div class="mobimgTwo wow slideInRight" data-wow-duration="1s" style="background: <?php echo get_sub_field('image_box_background_color'); ?>;">
+    <div class="mobimgTwo wow slideInLeft" data-wow-duration="1s" style="background: <?php echo get_sub_field('image_box_background_color'); ?>;">
       <?php if (have_rows('left_image_options')) : ?>
         <?php while (have_rows('left_image_options')) : the_row(); ?>
           <?php if (get_row_layout() == 'left_image_box') : ?>

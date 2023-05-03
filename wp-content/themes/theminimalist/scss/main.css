@@ -8163,8 +8163,10 @@ footer .ftbutton {
     .csdetailBg .taggedBanner .sectionOne .mobImg {
       margin: 0 0 0 auto !important;
       width: 100%; }
-  .csdetailBg.almaraiCasestudy .bannerSection .sectionOne .mobImg {
-    margin-left: 32%; }
+  .csdetailBg.almaraiCasestudy {
+    background: linear-gradient(127.67deg, #51BB79 18.41%, #00ACEF 47.2%); }
+    .csdetailBg.almaraiCasestudy .bannerSection .sectionOne .mobImg {
+      margin-left: 32%; }
   .csdetailBg .dozeeBanner .sectionOne {
     padding: 0px !important; }
     .csdetailBg .dozeeBanner .sectionOne .mobImg {
