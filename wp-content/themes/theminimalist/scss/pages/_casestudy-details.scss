@@ -23,7 +23,7 @@
                 width: 32%;
                 z-index: 2;
 
-                p {
+                h5 {
                     text-transform: uppercase;
                 }
 
@@ -32,7 +32,7 @@
                     margin: 35px 0px;
                 }
 
-                h5 {
+                p {
                     line-height: 30px;
                     width: 73%;
                 }
@@ -68,18 +68,18 @@
                 .innerContent {
                     width: 60%;
 
-                    p {
+                    h5 {
                         text-transform: uppercase;
                         margin-bottom: 15px;
                         line-height: 1;
                     }
 
-                    h1 {
+                    h2 {
                         line-height: 70px;
                         margin: 0px 0px 35px 0px;
                     }
 
-                    h5 {
+                    p {
                         line-height: 30px;
                     }
                 }
@@ -100,13 +100,13 @@
                 .innerContianer {
                     width: 60%;
 
-                    p {
+                    h5 {
                         text-transform: uppercase;
                         margin-bottom: 15px;
                         line-height: 1;
                     }
 
-                    h1 {
+                    h2 {
                         line-height: 70px;
                     }
                 }
@@ -118,7 +118,7 @@
                 .innerContianertwo {
                     width: 60%;
 
-                    h5 {
+                    p {
                         line-height: 30px;
                     }
                 }
@@ -170,7 +170,7 @@
             width: 60%;
             margin: 0 auto;
 
-            h4 {
+            h2 {
                 margin-bottom: 15px;
                 line-height: 42px;
             }
@@ -198,7 +198,7 @@
             .headingDiv {
                 width: 30%;
 
-                h4 {
+                h2 {
                     line-height: 42px;
                     margin-bottom: 15px;
                 }
@@ -229,7 +229,7 @@
                 text-align: left;
                 padding-right: 150px;
 
-                h4 {
+                h2 {
                     line-height: 42px;
                     margin-bottom: 15px;
                 }
@@ -424,11 +424,11 @@
                 z-index: 1;
                 width: 28%;
 
-                p {
+                h5 {
                     line-height: 14px;
                 }
 
-                h5 {
+                p {
                     line-height: 30px;
                     width: 75%;
                 }
@@ -490,7 +490,7 @@
                         line-height: 50px;
                     }
 
-                    h5 {
+                    p {
                         line-height: 27px;
                     }
                 }
@@ -508,12 +508,12 @@
                 .innerContent {
                     width: 50%;
 
-                    h1 {
+                    h2 {
                         margin: 0px 0px 25px 0px;
                         line-height: 50px;
                     }
 
-                    h5 {
+                    p {
                         line-height: 27px;
                     }
                 }
@@ -529,13 +529,13 @@
             padding: 90px 0px 90px 90px;
 
             .mobtextThree {
-                .innerContianer h1 {
+                .innerContianer h2 {
                     line-height: 50px;
                 }
             }
 
             .mobsubtextThree {
-                .innerContianertwo h5 {
+                .innerContianertwo p {
                     line-height: 27px;
                 }
             }
@@ -567,7 +567,7 @@
             padding: 50px 0px;
 
             .headingSec {
-                h4 {
+                h2 {
                     margin-bottom: 10px;
                     line-height: 38px;
                 }
@@ -587,7 +587,7 @@
 
             .imageHeadingmain {
                 .headingDiv {
-                    h4 {
+                    h2 {
                         margin-bottom: 10px;
                         line-height: 38px;
                     }
@@ -606,7 +606,7 @@
                 .headingDiv {
                     padding-right: 120px;
 
-                    h4 {
+                    h2 {
                         line-height: 38px;
                         margin-bottom: 10px;
                     }
@@ -647,11 +647,11 @@
                     left: 80px;
                     width: 26%;
 
-                    p {
+                    h5 {
                         line-height: 12px;
                     }
 
-                    h5 {
+                    p {
                         line-height: 26px;
                         width: 70%;
                     }
@@ -680,7 +680,7 @@
                         line-height: 45px;
                     }
 
-                    h5 {
+                    p {
                         line-height: 25px;
                     }
                 }
@@ -698,16 +698,16 @@
                 .innerContent {
                     width: 65%;
 
-                    p {
+                    h5 {
                         margin-bottom: 10px;
                     }
 
-                    h1 {
+                    h2 {
                         margin: 0px 0px 15px 0px;
                         line-height: 45px;
                     }
 
-                    h5 {
+                    p {
                         line-height: 25px;
                     }
                 }
@@ -726,11 +726,11 @@
                 .innerContianer {
                     width: 65%;
 
-                    p {
+                    h5 {
                         margin-bottom: 10px;
                     }
 
-                    h1 {
+                    h2 {
                         line-height: 45px;
                     }
                 }
@@ -740,7 +740,7 @@
                 .innerContianertwo {
                     width: 58%;
 
-                    h5 {
+                    p {
                         line-height: 25px;
                     }
                 }
@@ -769,7 +769,7 @@
             padding: 40px 0px;
 
             .headingSec {
-                h4 {
+                h2 {
                     line-height: 32px;
                 }
 
@@ -788,7 +788,7 @@
 
             .imageHeadingmain {
                 .headingDiv {
-                    h4 {
+                    h2 {
                         line-height: 32px;
                     }
 
@@ -807,7 +807,7 @@
                     width: 31%;
                     padding-right: 80px;
 
-                    h4 {
+                    h2 {
                         line-height: 32px;
                     }
 
@@ -852,11 +852,11 @@
                     left: 60px;
                     width: 24%;
 
-                    p {
+                    h5 {
                         line-height: 12px;
                     }
 
-                    h5 {
+                    p {
                         line-height: 24px;
                     }
 
@@ -882,7 +882,7 @@
                         line-height: 40px;
                     }
 
-                    h5 {
+                    p {
                         line-height: 23px;
                     }
                 }
@@ -896,12 +896,12 @@
                 .innerContent {
                     width: 70%;
 
-                    h1 {
+                    h2 {
                         margin: 0px 0px 10px 0px;
                         line-height: 40px;
                     }
 
-                    h5 {
+                    p {
                         line-height: 23px;
                     }
                 }
@@ -920,7 +920,7 @@
                 .innerContianer {
                     width: 70%;
 
-                    h1 {
+                    h2 {
                         line-height: 40px;
                     }
                 }
@@ -930,7 +930,7 @@
                 .innerContianertwo {
                     width: 62%;
 
-                    h5 {
+                    p {
                         line-height: 23px;
                     }
                 }
@@ -961,7 +961,7 @@
             .headingSec {
                 width: 75%;
 
-                h4 {
+                h2 {
                     line-height: 28px;
                 }
 
@@ -980,7 +980,7 @@
 
             .imageHeadingmain {
                 .headingDiv {
-                    h4 {
+                    h2 {
                         line-height: 28px;
                     }
 
@@ -999,7 +999,7 @@
                     width: 30%;
                     padding-right: 60px;
 
-                    h4 {
+                    h2 {
                         line-height: 28px;
                     }
 
@@ -1026,11 +1026,11 @@
                     left: 30px;
                     width: 26%;
 
-                    p {
+                    h5 {
                         line-height: 10px;
                     }
 
-                    h5 {
+                    p {
                         line-height: 22px;
                     }
 
@@ -1088,11 +1088,11 @@
                         line-height: 36px;
                     }
 
-                    h5 {
+                    p {
                         line-height: 20px;
                         width: 100%;
                     }
-                    p{
+                    h5 {
                         line-height: 14px;
                     }
                 }
@@ -1114,16 +1114,16 @@
                 .innerContent {
                     width: 100%;
 
-                    p {
+                    h5 {
                         margin-bottom: 8px;
                         line-height: 14px;
                     }
 
-                    h1 {
+                    h2 {
                         line-height: 36px;
                     }
 
-                    h5 {
+                    p {
                         line-height: 20px;
                     }
                 }
@@ -1148,12 +1148,12 @@
                 .innerContianer {
                     width: 100%;
 
-                    p {
+                    h5 {
                         margin-bottom: 8px;
                         line-height: 14px;
                     }
 
-                    h1 {
+                    h2 {
                         line-height: 36px;
                         margin-bottom: 8px;
                     }
@@ -1166,7 +1166,7 @@
                 .innerContianertwo {
                     width: 100%;
 
-                    h5 {
+                    p {
                         line-height: 20px;
                     }
                 }
@@ -1222,7 +1222,7 @@
                 width: 100%;
                 padding: 0px 20px;
 
-                h4 {
+                h2 {
                     line-height: 26px;
                     margin-bottom: 5px;
                 }
@@ -1247,7 +1247,7 @@
                     width: 100%;
                     padding: 20px;
 
-                    h4 {
+                    h2 {
                         line-height: 26px;
                         margin-bottom: 5px;
                     }
@@ -1273,7 +1273,7 @@
                     width: 100%;
                     padding: 20px 20px 0px;
 
-                    h4 {
+                    h2 {
                         line-height: 26px;
                         margin-bottom: 5px;
                     }
@@ -1305,7 +1305,7 @@
                         font-size: 22px;
                     }
 
-                    h5 {
+                    p {
                         font-size: 12px;
                         line-height: 20px;
                         width: 100%;
