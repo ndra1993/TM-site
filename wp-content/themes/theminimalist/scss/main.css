@@ -8173,6 +8173,8 @@ footer .ftbutton {
   .csdetailBg .dozeeBanner video {
     width: 100%;
     padding: 0px; }
+  .csdetailBg.one-to-11 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(219.06deg, #0D1917 23.88%, #A270F2 71.41%); }
   .csdetailBg .desktopImg {
     display: block; }
   .csdetailBg .mobileImg {
