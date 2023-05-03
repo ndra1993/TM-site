@@ -51,6 +51,7 @@
 </footer>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.10.2/lottie.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/animation.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/plugins.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/form.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/custom.js"></script> 

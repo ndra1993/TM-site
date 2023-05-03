@@ -7905,24 +7905,27 @@ footer .ftbutton {
     animation: float 3s ease-in-out infinite; }
   .csdetailBg .bannerSection .sectionOne {
     position: relative;
-    padding: 50px 0px 200px 0px; }
+    padding: 115px 0px 222px 0px; }
     .csdetailBg .bannerSection .sectionOne .mobtext {
       position: absolute;
       top: 10%;
       padding-left: 112px;
       width: 32%;
       z-index: 2; }
-      .csdetailBg .bannerSection .sectionOne .mobtext p {
+      .csdetailBg .bannerSection .sectionOne .mobtext h5 {
         text-transform: uppercase; }
       .csdetailBg .bannerSection .sectionOne .mobtext h1 {
         line-height: 70px;
         margin: 35px 0px; }
-      .csdetailBg .bannerSection .sectionOne .mobtext h5 {
+      .csdetailBg .bannerSection .sectionOne .mobtext p {
         line-height: 30px;
         width: 73%; }
     .csdetailBg .bannerSection .sectionOne .mobImg {
-      margin: 50px auto 0 24%;
+      margin: 0px auto 0 24%;
       width: 60%; }
+    .csdetailBg .bannerSection .sectionOne .bannerAnimeimg {
+      width: unset;
+      margin: 0 auto; }
   .csdetailBg .lefttext-rightImg .sectionTwo {
     display: flex; }
     .csdetailBg .lefttext-rightImg .sectionTwo .mobimgTwo {
@@ -7931,40 +7934,41 @@ footer .ftbutton {
       align-items: center;
       justify-content: center; }
       .csdetailBg .lefttext-rightImg .sectionTwo .mobimgTwo img {
-        margin: 0 auto;
-        width: 100%; }
+        margin: 0 auto; }
     .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo {
-      padding: 94px 0px 94px 112px;
+      padding: 115px 0px 94px 115px;
       width: 50%; }
       .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent {
         width: 60%; }
-        .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent p {
+        .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent h5 {
           text-transform: uppercase;
-          margin-bottom: 15px; }
-        .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent h1 {
+          margin-bottom: 15px;
+          line-height: 1; }
+        .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent h2 {
           line-height: 70px;
           margin: 0px 0px 35px 0px; }
-        .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent h5 {
+        .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent p {
           line-height: 30px; }
   .csdetailBg .leftheading-rightText .sectionThree {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 130px 0px 130px 112px; }
+    padding: 115px 0px 115px 115px; }
     .csdetailBg .leftheading-rightText .sectionThree .mobtextThree {
       width: 50%; }
       .csdetailBg .leftheading-rightText .sectionThree .mobtextThree .innerContianer {
         width: 60%; }
-        .csdetailBg .leftheading-rightText .sectionThree .mobtextThree .innerContianer p {
+        .csdetailBg .leftheading-rightText .sectionThree .mobtextThree .innerContianer h5 {
           text-transform: uppercase;
-          margin-bottom: 15px; }
-        .csdetailBg .leftheading-rightText .sectionThree .mobtextThree .innerContianer h1 {
+          margin-bottom: 15px;
+          line-height: 1; }
+        .csdetailBg .leftheading-rightText .sectionThree .mobtextThree .innerContianer h2 {
           line-height: 70px; }
     .csdetailBg .leftheading-rightText .sectionThree .mobsubtextThree {
       width: 45%; }
       .csdetailBg .leftheading-rightText .sectionThree .mobsubtextThree .innerContianertwo {
         width: 60%; }
-        .csdetailBg .leftheading-rightText .sectionThree .mobsubtextThree .innerContianertwo h5 {
+        .csdetailBg .leftheading-rightText .sectionThree .mobsubtextThree .innerContianertwo p {
           line-height: 30px; }
   .csdetailBg .centerheading-centerText .fullSection {
     padding: 130px 112px 130px 112px; }
@@ -7990,7 +7994,7 @@ footer .ftbutton {
     .csdetailBg .fullimgwithHeading .headingSec {
       width: 60%;
       margin: 0 auto; }
-      .csdetailBg .fullimgwithHeading .headingSec h4 {
+      .csdetailBg .fullimgwithHeading .headingSec h2 {
         margin-bottom: 15px;
         line-height: 42px; }
       .csdetailBg .fullimgwithHeading .headingSec p {
@@ -8007,7 +8011,7 @@ footer .ftbutton {
       text-align: center; }
       .csdetailBg .twoImgsides-headingmiddle .imageHeadingmain .headingDiv {
         width: 30%; }
-        .csdetailBg .twoImgsides-headingmiddle .imageHeadingmain .headingDiv h4 {
+        .csdetailBg .twoImgsides-headingmiddle .imageHeadingmain .headingDiv h2 {
           line-height: 42px;
           margin-bottom: 15px; }
         .csdetailBg .twoImgsides-headingmiddle .imageHeadingmain .headingDiv p {
@@ -8026,7 +8030,7 @@ footer .ftbutton {
         width: 32%;
         text-align: left;
         padding-right: 150px; }
-        .csdetailBg .twoImgtogether-headinglast .imageHeadingmain .headingDiv h4 {
+        .csdetailBg .twoImgtogether-headinglast .imageHeadingmain .headingDiv h2 {
           line-height: 42px;
           margin-bottom: 15px; }
         .csdetailBg .twoImgtogether-headinglast .imageHeadingmain .headingDiv p {
@@ -8095,7 +8099,7 @@ footer .ftbutton {
       transition: all 1s ease-in-out; }
   .csdetailBg .bannerSlidermain .bannerInnerDiv {
     position: relative;
-    padding: 120px 60px 0px 0px; }
+    padding: 115px 0px 222px 0px; }
     .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerSlider {
       margin-bottom: 0px; }
       .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerSlider img {
@@ -8103,7 +8107,7 @@ footer .ftbutton {
       .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerSlider .slick-dots {
         position: absolute;
         top: 50%;
-        right: 0;
+        right: 76px;
         transform: translate(-50%, -50%);
         display: flex;
         flex-direction: column;
@@ -8131,15 +8135,19 @@ footer .ftbutton {
           height: 50px;
           border-radius: 10px;
           transition: .9s all ease-in-out; }
+      .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerSlider .bannerSliderSection .bannerSliderimg {
+        width: 50%;
+        margin: 0 auto;
+        padding-top: 80px; }
     .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara {
       position: absolute;
       top: 120px;
       left: 100px;
       z-index: 1;
       width: 28%; }
-      .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara p {
-        line-height: 14px; }
       .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara h5 {
+        line-height: 14px; }
+      .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara p {
         line-height: 30px;
         width: 75%; }
       .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara h1 {
@@ -8170,32 +8178,32 @@ footer .ftbutton {
     .csdetailBg {
       margin-top: 86px; }
       .csdetailBg .bannerSection .sectionOne {
-        padding: 40px 0px 150px 0px; }
+        padding: 90px 0px 180px 0px; }
         .csdetailBg .bannerSection .sectionOne .mobtext {
           padding-left: 82px; }
           .csdetailBg .bannerSection .sectionOne .mobtext h1 {
             margin: 20px 0px;
             line-height: 50px; }
-          .csdetailBg .bannerSection .sectionOne .mobtext h5 {
+          .csdetailBg .bannerSection .sectionOne .mobtext p {
             line-height: 27px; }
         .csdetailBg .bannerSection .sectionOne .mobImg {
-          margin: 40px auto 0 22%; }
+          margin: 0px auto 0 22%; }
       .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo {
-        padding: 74px 0px 74px 82px; }
+        padding: 90px 0px 94px 90px; }
         .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent {
           width: 50%; }
-          .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent h1 {
+          .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent h2 {
             margin: 0px 0px 25px 0px;
             line-height: 50px; }
-          .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent h5 {
+          .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent p {
             line-height: 27px; }
       .csdetailBg .lefttext-rightImg .sectionTwo .mobimgTwo {
         width: 50%; }
       .csdetailBg .leftheading-rightText .sectionThree {
-        padding: 100px 0px 100px 82px; }
-        .csdetailBg .leftheading-rightText .sectionThree .mobtextThree .innerContianer h1 {
+        padding: 90px 0px 90px 90px; }
+        .csdetailBg .leftheading-rightText .sectionThree .mobtextThree .innerContianer h2 {
           line-height: 50px; }
-        .csdetailBg .leftheading-rightText .sectionThree .mobsubtextThree .innerContianertwo h5 {
+        .csdetailBg .leftheading-rightText .sectionThree .mobsubtextThree .innerContianertwo p {
           line-height: 27px; }
       .csdetailBg .centerheading-centerText .fullSection {
         padding: 100px 82px 100px 82px; }
@@ -8208,7 +8216,7 @@ footer .ftbutton {
         padding: 30px 0px; }
       .csdetailBg .fullimgwithHeading {
         padding: 50px 0px; }
-        .csdetailBg .fullimgwithHeading .headingSec h4 {
+        .csdetailBg .fullimgwithHeading .headingSec h2 {
           margin-bottom: 10px;
           line-height: 38px; }
         .csdetailBg .fullimgwithHeading .headingSec p {
@@ -8217,7 +8225,7 @@ footer .ftbutton {
           margin-top: 58px; }
       .csdetailBg .twoImgsides-headingmiddle {
         padding: 50px 0px; }
-        .csdetailBg .twoImgsides-headingmiddle .imageHeadingmain .headingDiv h4 {
+        .csdetailBg .twoImgsides-headingmiddle .imageHeadingmain .headingDiv h2 {
           margin-bottom: 10px;
           line-height: 38px; }
         .csdetailBg .twoImgsides-headingmiddle .imageHeadingmain .headingDiv p {
@@ -8226,7 +8234,7 @@ footer .ftbutton {
         padding: 50px 0px; }
         .csdetailBg .twoImgtogether-headinglast .imageHeadingmain .headingDiv {
           padding-right: 120px; }
-          .csdetailBg .twoImgtogether-headinglast .imageHeadingmain .headingDiv h4 {
+          .csdetailBg .twoImgtogether-headinglast .imageHeadingmain .headingDiv h2 {
             line-height: 38px;
             margin-bottom: 10px; }
           .csdetailBg .twoImgtogether-headinglast .imageHeadingmain .headingDiv p {
@@ -8239,14 +8247,16 @@ footer .ftbutton {
           margin: 0 auto;
           width: 200px; }
       .csdetailBg .bannerSlidermain .bannerInnerDiv {
-        padding: 100px 50px 0px 0px; }
+        padding: 90px 0px 180px 0px; }
+        .csdetailBg .bannerSlidermain .bannerInnerDiv .slick-dots {
+          right: 56px; }
         .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara {
           top: 100px;
           left: 80px;
           width: 26%; }
-          .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara p {
-            line-height: 12px; }
           .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara h5 {
+            line-height: 12px; }
+          .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara p {
             line-height: 26px;
             width: 70%; }
           .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara h1 {
@@ -8256,40 +8266,40 @@ footer .ftbutton {
     .csdetailBg {
       margin-top: 76px; }
       .csdetailBg .bannerSection .sectionOne {
-        padding: 30px 0px 100px 0px; }
+        padding: 50px 0px 120px 0px; }
         .csdetailBg .bannerSection .sectionOne .mobtext {
           padding-left: 52px; }
           .csdetailBg .bannerSection .sectionOne .mobtext h1 {
             margin: 10px 0px;
             line-height: 45px; }
-          .csdetailBg .bannerSection .sectionOne .mobtext h5 {
+          .csdetailBg .bannerSection .sectionOne .mobtext p {
             line-height: 25px; }
         .csdetailBg .bannerSection .sectionOne .mobImg {
-          margin: 40px auto 0 20%; }
+          margin: 0px auto 0 20%; }
       .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo {
-        padding: 54px 0px 54px 52px; }
+        padding: 50px 0px 94px 50px; }
         .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent {
           width: 65%; }
-          .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent p {
+          .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent h5 {
             margin-bottom: 10px; }
-          .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent h1 {
+          .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent h2 {
             margin: 0px 0px 15px 0px;
             line-height: 45px; }
-          .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent h5 {
+          .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent p {
             line-height: 25px; }
       .csdetailBg .lefttext-rightImg .sectionTwo .mobimgTwo {
         width: 50%; }
       .csdetailBg .leftheading-rightText .sectionThree {
-        padding: 80px 0px 80px 52px; }
+        padding: 50px 0px 50px 50px; }
         .csdetailBg .leftheading-rightText .sectionThree .mobtextThree .innerContianer {
           width: 65%; }
-          .csdetailBg .leftheading-rightText .sectionThree .mobtextThree .innerContianer p {
+          .csdetailBg .leftheading-rightText .sectionThree .mobtextThree .innerContianer h5 {
             margin-bottom: 10px; }
-          .csdetailBg .leftheading-rightText .sectionThree .mobtextThree .innerContianer h1 {
+          .csdetailBg .leftheading-rightText .sectionThree .mobtextThree .innerContianer h2 {
             line-height: 45px; }
         .csdetailBg .leftheading-rightText .sectionThree .mobsubtextThree .innerContianertwo {
           width: 58%; }
-          .csdetailBg .leftheading-rightText .sectionThree .mobsubtextThree .innerContianertwo h5 {
+          .csdetailBg .leftheading-rightText .sectionThree .mobsubtextThree .innerContianertwo p {
             line-height: 25px; }
       .csdetailBg .centerheading-centerText .fullSection {
         padding: 80px 52px 80px 52px; }
@@ -8302,7 +8312,7 @@ footer .ftbutton {
         padding: 20px 0px; }
       .csdetailBg .fullimgwithHeading {
         padding: 40px 0px; }
-        .csdetailBg .fullimgwithHeading .headingSec h4 {
+        .csdetailBg .fullimgwithHeading .headingSec h2 {
           line-height: 32px; }
         .csdetailBg .fullimgwithHeading .headingSec p {
           line-height: 25px; }
@@ -8310,7 +8320,7 @@ footer .ftbutton {
           margin-top: 50px; }
       .csdetailBg .twoImgsides-headingmiddle {
         padding: 40px 0px; }
-        .csdetailBg .twoImgsides-headingmiddle .imageHeadingmain .headingDiv h4 {
+        .csdetailBg .twoImgsides-headingmiddle .imageHeadingmain .headingDiv h2 {
           line-height: 32px; }
         .csdetailBg .twoImgsides-headingmiddle .imageHeadingmain .headingDiv p {
           line-height: 25px; }
@@ -8319,7 +8329,7 @@ footer .ftbutton {
         .csdetailBg .twoImgtogether-headinglast .imageHeadingmain .headingDiv {
           width: 31%;
           padding-right: 80px; }
-          .csdetailBg .twoImgtogether-headinglast .imageHeadingmain .headingDiv h4 {
+          .csdetailBg .twoImgtogether-headinglast .imageHeadingmain .headingDiv h2 {
             line-height: 32px; }
           .csdetailBg .twoImgtogether-headinglast .imageHeadingmain .headingDiv p {
             line-height: 25px; }
@@ -8331,48 +8341,53 @@ footer .ftbutton {
           margin: 0 auto;
           width: 180px; }
       .csdetailBg .bannerSlidermain .bannerInnerDiv {
-        padding: 80px 30px 0px 0px; }
+        padding: 50px 0px 120px 0px; }
+        .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerSliderSection .bannerSliderimg {
+          width: 60%;
+          padding-top: 60px; }
+        .csdetailBg .bannerSlidermain .bannerInnerDiv .slick-dots {
+          right: 46px; }
         .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara {
           top: 80px;
           left: 60px;
           width: 24%; }
-          .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara p {
-            line-height: 12px; }
           .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara h5 {
+            line-height: 12px; }
+          .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara p {
             line-height: 24px; }
           .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara h1 {
             line-height: 40px;
             margin: 10px 0px; } }
   @media screen and (max-width: 1200px) {
     .csdetailBg .bannerSection .sectionOne {
-      padding: 35px 0px 60px 0px; }
+      padding: 35px 0px 80px 0px; }
       .csdetailBg .bannerSection .sectionOne .mobtext {
         padding-left: 32px; }
         .csdetailBg .bannerSection .sectionOne .mobtext h1 {
           margin: 10px 0px;
           line-height: 40px; }
-        .csdetailBg .bannerSection .sectionOne .mobtext h5 {
+        .csdetailBg .bannerSection .sectionOne .mobtext p {
           line-height: 23px; }
     .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo {
-      padding: 34px 0px 34px 32px; }
+      padding: 35px 0px 94px 35px; }
       .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent {
         width: 70%; }
-        .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent h1 {
+        .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent h2 {
           margin: 0px 0px 10px 0px;
           line-height: 40px; }
-        .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent h5 {
+        .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent p {
           line-height: 23px; }
     .csdetailBg .lefttext-rightImg .sectionTwo .mobimgTwo {
       width: 50%; }
     .csdetailBg .leftheading-rightText .sectionThree {
-      padding: 50px 0px 60px 32px; }
+      padding: 35px 0px 35px 35px; }
       .csdetailBg .leftheading-rightText .sectionThree .mobtextThree .innerContianer {
         width: 70%; }
-        .csdetailBg .leftheading-rightText .sectionThree .mobtextThree .innerContianer h1 {
+        .csdetailBg .leftheading-rightText .sectionThree .mobtextThree .innerContianer h2 {
           line-height: 40px; }
       .csdetailBg .leftheading-rightText .sectionThree .mobsubtextThree .innerContianertwo {
         width: 62%; }
-        .csdetailBg .leftheading-rightText .sectionThree .mobsubtextThree .innerContianertwo h5 {
+        .csdetailBg .leftheading-rightText .sectionThree .mobsubtextThree .innerContianertwo p {
           line-height: 23px; }
     .csdetailBg .centerheading-centerText .fullSection {
       padding: 50px 32px 60px 32px; }
@@ -8387,7 +8402,7 @@ footer .ftbutton {
       padding: 30px 0px; }
       .csdetailBg .fullimgwithHeading .headingSec {
         width: 75%; }
-        .csdetailBg .fullimgwithHeading .headingSec h4 {
+        .csdetailBg .fullimgwithHeading .headingSec h2 {
           line-height: 28px; }
         .csdetailBg .fullimgwithHeading .headingSec p {
           line-height: 23px; }
@@ -8395,7 +8410,7 @@ footer .ftbutton {
         margin-top: 40px; }
     .csdetailBg .twoImgsides-headingmiddle {
       padding: 30px 0px; }
-      .csdetailBg .twoImgsides-headingmiddle .imageHeadingmain .headingDiv h4 {
+      .csdetailBg .twoImgsides-headingmiddle .imageHeadingmain .headingDiv h2 {
         line-height: 28px; }
       .csdetailBg .twoImgsides-headingmiddle .imageHeadingmain .headingDiv p {
         line-height: 23px; }
@@ -8404,21 +8419,23 @@ footer .ftbutton {
       .csdetailBg .twoImgtogether-headinglast .imageHeadingmain .headingDiv {
         width: 30%;
         padding-right: 60px; }
-        .csdetailBg .twoImgtogether-headinglast .imageHeadingmain .headingDiv h4 {
+        .csdetailBg .twoImgtogether-headinglast .imageHeadingmain .headingDiv h2 {
           line-height: 28px; }
         .csdetailBg .twoImgtogether-headinglast .imageHeadingmain .headingDiv p {
           line-height: 23px; }
       .csdetailBg .twoImgtogether-headinglast .imageHeadingmain .imgDivmain {
         width: 68%; }
     .csdetailBg .bannerSlidermain .bannerInnerDiv {
-      padding: 60px 20px 0px 0px; }
+      padding: 35px 0px 80px 0px; }
+      .csdetailBg .bannerSlidermain .bannerInnerDiv .slick-dots {
+        right: 36px; }
       .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara {
         top: 60px;
         left: 30px;
         width: 26%; }
-        .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara p {
-          line-height: 10px; }
         .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara h5 {
+          line-height: 10px; }
+        .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara p {
           line-height: 22px; }
         .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara h1 {
           line-height: 36px;
@@ -8451,10 +8468,10 @@ footer .ftbutton {
           padding-top: 32px; }
           .csdetailBg .bannerSection .sectionOne .mobtext h1 {
             line-height: 36px; }
-          .csdetailBg .bannerSection .sectionOne .mobtext h5 {
+          .csdetailBg .bannerSection .sectionOne .mobtext p {
             line-height: 20px;
             width: 100%; }
-          .csdetailBg .bannerSection .sectionOne .mobtext p {
+          .csdetailBg .bannerSection .sectionOne .mobtext h5 {
             line-height: 14px; }
         .csdetailBg .bannerSection .sectionOne .mobImg {
           width: 100%;
@@ -8466,20 +8483,18 @@ footer .ftbutton {
           padding: 32px 24px 32px 24px; }
           .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent {
             width: 100%; }
-            .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent p {
+            .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent h5 {
               margin-bottom: 8px;
               line-height: 14px; }
-            .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent h1 {
+            .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent h2 {
               line-height: 36px; }
-            .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent h5 {
+            .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent p {
               line-height: 20px; }
         .csdetailBg .lefttext-rightImg .sectionTwo .mobimgTwo {
           width: 100%;
           margin: 0px;
           line-height: 0;
           padding: 0; }
-          .csdetailBg .lefttext-rightImg .sectionTwo .mobimgTwo img {
-            width: 100%; }
       .csdetailBg .leftheading-rightText .sectionThree {
         display: block;
         padding: 32px 24px 24px 24px; }
@@ -8487,17 +8502,17 @@ footer .ftbutton {
           width: 100%; }
           .csdetailBg .leftheading-rightText .sectionThree .mobtextThree .innerContianer {
             width: 100%; }
-            .csdetailBg .leftheading-rightText .sectionThree .mobtextThree .innerContianer p {
+            .csdetailBg .leftheading-rightText .sectionThree .mobtextThree .innerContianer h5 {
               margin-bottom: 8px;
               line-height: 14px; }
-            .csdetailBg .leftheading-rightText .sectionThree .mobtextThree .innerContianer h1 {
+            .csdetailBg .leftheading-rightText .sectionThree .mobtextThree .innerContianer h2 {
               line-height: 36px;
               margin-bottom: 8px; }
         .csdetailBg .leftheading-rightText .sectionThree .mobsubtextThree {
           width: 100%; }
           .csdetailBg .leftheading-rightText .sectionThree .mobsubtextThree .innerContianertwo {
             width: 100%; }
-            .csdetailBg .leftheading-rightText .sectionThree .mobsubtextThree .innerContianertwo h5 {
+            .csdetailBg .leftheading-rightText .sectionThree .mobsubtextThree .innerContianertwo p {
               line-height: 20px; }
       .csdetailBg .centerheading-centerText .fullSection {
         padding: 32px 24px 24px 24px; }
@@ -8524,7 +8539,7 @@ footer .ftbutton {
         .csdetailBg .fullimgwithHeading .headingSec {
           width: 100%;
           padding: 0px 20px; }
-          .csdetailBg .fullimgwithHeading .headingSec h4 {
+          .csdetailBg .fullimgwithHeading .headingSec h2 {
             line-height: 26px;
             margin-bottom: 5px; }
           .csdetailBg .fullimgwithHeading .headingSec p {
@@ -8538,7 +8553,7 @@ footer .ftbutton {
           .csdetailBg .twoImgsides-headingmiddle .imageHeadingmain .headingDiv {
             width: 100%;
             padding: 20px; }
-            .csdetailBg .twoImgsides-headingmiddle .imageHeadingmain .headingDiv h4 {
+            .csdetailBg .twoImgsides-headingmiddle .imageHeadingmain .headingDiv h2 {
               line-height: 26px;
               margin-bottom: 5px; }
             .csdetailBg .twoImgsides-headingmiddle .imageHeadingmain .headingDiv p {
@@ -8552,7 +8567,7 @@ footer .ftbutton {
           .csdetailBg .twoImgtogether-headinglast .imageHeadingmain .headingDiv {
             width: 100%;
             padding: 20px 20px 0px; }
-            .csdetailBg .twoImgtogether-headinglast .imageHeadingmain .headingDiv h4 {
+            .csdetailBg .twoImgtogether-headinglast .imageHeadingmain .headingDiv h2 {
               line-height: 26px;
               margin-bottom: 5px; }
             .csdetailBg .twoImgtogether-headinglast .imageHeadingmain .headingDiv p {
@@ -8570,7 +8585,7 @@ footer .ftbutton {
             line-height: 28px;
             margin: 12px 0px;
             font-size: 22px; }
-          .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara h5 {
+          .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara p {
             font-size: 12px;
             line-height: 20px;
             width: 100%; }
@@ -8598,6 +8613,9 @@ footer .ftbutton {
                 .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerSlider .slick-dots li.slick-active button:before {
                   width: 25px;
                   height: 4px; }
+          .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerSlider .bannerSliderSection .bannerSliderimg {
+            width: 100%;
+            padding-top: 0px; }
         .csdetailBg .bannerSlidermain .bannerInnerDiv .awardSec {
           display: block;
           text-align: center;
@@ -8615,7 +8633,9 @@ footer .ftbutton {
               margin-top: 12px; }
               .csdetailBg .bannerSlidermain .bannerInnerDiv .awardSec .awardMaindiv .awardDivbx h5 {
                 text-transform: unset;
-                margin: 12px 0px 4px; } }
+                margin: 12px 0px 4px; }
+              .csdetailBg .bannerSlidermain .bannerInnerDiv .awardSec .awardMaindiv .awardDivbx p {
+                line-height: 28px; } }
   @media screen and (max-width: 560px) {
     .csdetailBg .bottomimgLogos .moreCasestudy {
       height: 95px; }

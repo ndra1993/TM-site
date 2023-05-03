@@ -14,7 +14,7 @@
     .bannerSection {
         .sectionOne {
             position: relative;
-            padding: 50px 0px 200px 0px;
+            padding: 115px 0px 222px 0px;
 
             .mobtext {
                 position: absolute;
@@ -23,7 +23,7 @@
                 width: 32%;
                 z-index: 2;
 
-                p {
+                h5 {
                     text-transform: uppercase;
                 }
 
@@ -32,15 +32,20 @@
                     margin: 35px 0px;
                 }
 
-                h5 {
+                p {
                     line-height: 30px;
                     width: 73%;
                 }
             }
 
             .mobImg {
-                margin: 50px auto 0 24%;
+                margin: 0px auto 0 24%;
                 width: 60%;
+            }
+
+            .bannerAnimeimg{
+                width: unset;
+                margin: 0 auto;
             }
         }
     }
@@ -58,28 +63,28 @@
 
                 img {
                     margin: 0 auto;
-                    width: 100%;
                 }
             }
 
             .mobtextTwo {
-                padding: 94px 0px 94px 112px;
+                padding: 115px 0px 94px 115px;
                 width: 50%;
 
                 .innerContent {
                     width: 60%;
 
-                    p {
+                    h5 {
                         text-transform: uppercase;
                         margin-bottom: 15px;
+                        line-height: 1;
                     }
 
-                    h1 {
+                    h2 {
                         line-height: 70px;
                         margin: 0px 0px 35px 0px;
                     }
 
-                    h5 {
+                    p {
                         line-height: 30px;
                     }
                 }
@@ -92,7 +97,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 130px 0px 130px 112px;
+            padding: 115px 0px 115px 115px;
 
             .mobtextThree {
                 width: 50%;
@@ -100,12 +105,13 @@
                 .innerContianer {
                     width: 60%;
 
-                    p {
+                    h5 {
                         text-transform: uppercase;
                         margin-bottom: 15px;
+                        line-height: 1;
                     }
 
-                    h1 {
+                    h2 {
                         line-height: 70px;
                     }
                 }
@@ -117,7 +123,7 @@
                 .innerContianertwo {
                     width: 60%;
 
-                    h5 {
+                    p {
                         line-height: 30px;
                     }
                 }
@@ -158,7 +164,7 @@
             width: 60%;
             margin: 0 auto;
 
-            h4 {
+            h2 {
                 margin-bottom: 15px;
                 line-height: 42px;
             }
@@ -186,7 +192,7 @@
             .headingDiv {
                 width: 30%;
 
-                h4 {
+                h2 {
                     line-height: 42px;
                     margin-bottom: 15px;
                 }
@@ -217,7 +223,7 @@
                 text-align: left;
                 padding-right: 150px;
 
-                h4 {
+                h2 {
                     line-height: 42px;
                     margin-bottom: 15px;
                 }
@@ -347,7 +353,7 @@
     .bannerSlidermain {
         .bannerInnerDiv {
             position: relative;
-            padding: 120px 60px 0px 0px;
+            padding: 115px 0px 222px 0px;
 
             .bannerSlider {
                 margin-bottom: 0px;
@@ -359,7 +365,7 @@
                 .slick-dots {
                     position: absolute;
                     top: 50%;
-                    right: 0;
+                    right: 76px;
                     transform: translate(-50%, -50%);
                     display: flex;
                     flex-direction: column;
@@ -398,6 +404,11 @@
                         transition: .9s all ease-in-out;
                     }
                 }
+                .bannerSliderSection .bannerSliderimg{
+                    width: 50%;
+                    margin: 0 auto;
+                    padding-top: 80px;
+                }
             }
 
             .bannerslidePara {
@@ -407,11 +418,11 @@
                 z-index: 1;
                 width: 28%;
 
-                p {
+                h5 {
                     line-height: 14px;
                 }
 
-                h5 {
+                p {
                     line-height: 30px;
                     width: 75%;
                 }
@@ -477,7 +488,7 @@
 
         .bannerSection {
             .sectionOne {
-                padding: 40px 0px 150px 0px;
+                padding: 90px 0px 180px 0px;
 
                 .mobtext {
                     padding-left: 82px;
@@ -487,30 +498,30 @@
                         line-height: 50px;
                     }
 
-                    h5 {
+                    p {
                         line-height: 27px;
                     }
                 }
 
                 .mobImg {
-                    margin: 40px auto 0 22%;
+                    margin: 0px auto 0 22%;
                 }
             }
         }
 
         .lefttext-rightImg .sectionTwo {
             .mobtextTwo {
-                padding: 74px 0px 74px 82px;
+                padding: 90px 0px 94px 90px;
 
                 .innerContent {
                     width: 50%;
 
-                    h1 {
+                    h2 {
                         margin: 0px 0px 25px 0px;
                         line-height: 50px;
                     }
 
-                    h5 {
+                    p {
                         line-height: 27px;
                     }
                 }
@@ -523,16 +534,16 @@
         }
 
         .leftheading-rightText .sectionThree {
-            padding: 100px 0px 100px 82px;
+            padding: 90px 0px 90px 90px;
 
             .mobtextThree {
-                .innerContianer h1 {
+                .innerContianer h2 {
                     line-height: 50px;
                 }
             }
 
             .mobsubtextThree {
-                .innerContianertwo h5 {
+                .innerContianertwo p {
                     line-height: 27px;
                 }
             }
@@ -555,7 +566,7 @@
             padding: 50px 0px;
 
             .headingSec {
-                h4 {
+                h2 {
                     margin-bottom: 10px;
                     line-height: 38px;
                 }
@@ -575,7 +586,7 @@
 
             .imageHeadingmain {
                 .headingDiv {
-                    h4 {
+                    h2 {
                         margin-bottom: 10px;
                         line-height: 38px;
                     }
@@ -594,7 +605,7 @@
                 .headingDiv {
                     padding-right: 120px;
 
-                    h4 {
+                    h2 {
                         line-height: 38px;
                         margin-bottom: 10px;
                     }
@@ -626,18 +637,20 @@
 
         .bannerSlidermain {
             .bannerInnerDiv {
-                padding: 100px 50px 0px 0px;
-
+                padding: 90px 0px 180px 0px;
+                .slick-dots{
+                    right: 56px;
+                }
                 .bannerslidePara {
                     top: 100px;
                     left: 80px;
                     width: 26%;
 
-                    p {
+                    h5 {
                         line-height: 12px;
                     }
 
-                    h5 {
+                    p {
                         line-height: 26px;
                         width: 70%;
                     }
@@ -656,7 +669,7 @@
 
         .bannerSection {
             .sectionOne {
-                padding: 30px 0px 100px 0px;
+                padding: 50px 0px 120px 0px;
 
                 .mobtext {
                     padding-left: 52px;
@@ -666,34 +679,34 @@
                         line-height: 45px;
                     }
 
-                    h5 {
+                    p {
                         line-height: 25px;
                     }
                 }
 
                 .mobImg {
-                    margin: 40px auto 0 20%;
+                    margin: 0px auto 0 20%;
                 }
             }
         }
 
         .lefttext-rightImg .sectionTwo {
             .mobtextTwo {
-                padding: 54px 0px 54px 52px;
+                padding: 50px 0px 94px 50px;
 
                 .innerContent {
                     width: 65%;
 
-                    p {
+                    h5 {
                         margin-bottom: 10px;
                     }
 
-                    h1 {
+                    h2 {
                         margin: 0px 0px 15px 0px;
                         line-height: 45px;
                     }
 
-                    h5 {
+                    p {
                         line-height: 25px;
                     }
                 }
@@ -706,17 +719,17 @@
         }
 
         .leftheading-rightText .sectionThree {
-            padding: 80px 0px 80px 52px;
+            padding: 50px 0px 50px 50px;
 
             .mobtextThree {
                 .innerContianer {
                     width: 65%;
 
-                    p {
+                    h5 {
                         margin-bottom: 10px;
                     }
 
-                    h1 {
+                    h2 {
                         line-height: 45px;
                     }
                 }
@@ -726,7 +739,7 @@
                 .innerContianertwo {
                     width: 58%;
 
-                    h5 {
+                    p {
                         line-height: 25px;
                     }
                 }
@@ -748,7 +761,7 @@
             padding: 40px 0px;
 
             .headingSec {
-                h4 {
+                h2 {
                     line-height: 32px;
                 }
 
@@ -767,7 +780,7 @@
 
             .imageHeadingmain {
                 .headingDiv {
-                    h4 {
+                    h2 {
                         line-height: 32px;
                     }
 
@@ -786,7 +799,7 @@
                     width: 31%;
                     padding-right: 80px;
 
-                    h4 {
+                    h2 {
                         line-height: 32px;
                     }
 
@@ -817,18 +830,25 @@
 
         .bannerSlidermain {
             .bannerInnerDiv {
-                padding: 80px 30px 0px 0px;
+                padding: 50px 0px 120px 0px;
 
+                .bannerSliderSection .bannerSliderimg{
+                    width: 60%;
+                    padding-top: 60px;
+                }
+                .slick-dots{
+                    right: 46px;
+                }
                 .bannerslidePara {
                     top: 80px;
                     left: 60px;
                     width: 24%;
 
-                    p {
+                    h5 {
                         line-height: 12px;
                     }
 
-                    h5 {
+                    p {
                         line-height: 24px;
                     }
 
@@ -844,7 +864,7 @@
     @media screen and (max-width:1200px) {
         .bannerSection {
             .sectionOne {
-                padding: 35px 0px 60px 0px;
+                padding: 35px 0px 80px 0px;
 
                 .mobtext {
                     padding-left: 32px;
@@ -854,7 +874,7 @@
                         line-height: 40px;
                     }
 
-                    h5 {
+                    p {
                         line-height: 23px;
                     }
                 }
@@ -863,17 +883,17 @@
 
         .lefttext-rightImg .sectionTwo {
             .mobtextTwo {
-                padding: 34px 0px 34px 32px;
+                padding: 35px 0px 94px 35px;
 
                 .innerContent {
                     width: 70%;
 
-                    h1 {
+                    h2 {
                         margin: 0px 0px 10px 0px;
                         line-height: 40px;
                     }
 
-                    h5 {
+                    p {
                         line-height: 23px;
                     }
                 }
@@ -886,13 +906,13 @@
         }
 
         .leftheading-rightText .sectionThree {
-            padding: 50px 0px 60px 32px;
+            padding: 35px 0px 35px 35px;
 
             .mobtextThree {
                 .innerContianer {
                     width: 70%;
 
-                    h1 {
+                    h2 {
                         line-height: 40px;
                     }
                 }
@@ -902,7 +922,7 @@
                 .innerContianertwo {
                     width: 62%;
 
-                    h5 {
+                    p {
                         line-height: 23px;
                     }
                 }
@@ -926,7 +946,7 @@
             .headingSec {
                 width: 75%;
 
-                h4 {
+                h2 {
                     line-height: 28px;
                 }
 
@@ -945,7 +965,7 @@
 
             .imageHeadingmain {
                 .headingDiv {
-                    h4 {
+                    h2 {
                         line-height: 28px;
                     }
 
@@ -964,7 +984,7 @@
                     width: 30%;
                     padding-right: 60px;
 
-                    h4 {
+                    h2 {
                         line-height: 28px;
                     }
 
@@ -981,18 +1001,21 @@
 
         .bannerSlidermain {
             .bannerInnerDiv {
-                padding: 60px 20px 0px 0px;
-
+                padding: 35px 0px 80px 0px;
+                
+                .slick-dots{
+                    right: 36px;
+                }
                 .bannerslidePara {
                     top: 60px;
                     left: 30px;
                     width: 26%;
 
-                    p {
+                    h5 {
                         line-height: 10px;
                     }
 
-                    h5 {
+                    p {
                         line-height: 22px;
                     }
 
@@ -1055,11 +1078,11 @@
                         line-height: 36px;
                     }
 
-                    h5 {
+                    p {
                         line-height: 20px;
                         width: 100%;
                     }
-                    p{
+                    h5 {
                         line-height: 14px;
                     }
                 }
@@ -1081,16 +1104,16 @@
                 .innerContent {
                     width: 100%;
 
-                    p {
+                    h5 {
                         margin-bottom: 8px;
                         line-height: 14px;
                     }
 
-                    h1 {
+                    h2 {
                         line-height: 36px;
                     }
 
-                    h5 {
+                    p {
                         line-height: 20px;
                     }
                 }
@@ -1101,10 +1124,6 @@
                 margin: 0px;
                 line-height: 0;
                 padding: 0;
-
-                img {
-                    width: 100%;
-                }
             }
 
         }
@@ -1119,12 +1138,12 @@
                 .innerContianer {
                     width: 100%;
 
-                    p {
+                    h5 {
                         margin-bottom: 8px;
                         line-height: 14px;
                     }
 
-                    h1 {
+                    h2 {
                         line-height: 36px;
                         margin-bottom: 8px;
                     }
@@ -1137,7 +1156,7 @@
                 .innerContianertwo {
                     width: 100%;
 
-                    h5 {
+                    p {
                         line-height: 20px;
                     }
                 }
@@ -1184,7 +1203,7 @@
                 width: 100%;
                 padding: 0px 20px;
 
-                h4 {
+                h2 {
                     line-height: 26px;
                     margin-bottom: 5px;
                 }
@@ -1209,7 +1228,7 @@
                     width: 100%;
                     padding: 20px;
 
-                    h4 {
+                    h2 {
                         line-height: 26px;
                         margin-bottom: 5px;
                     }
@@ -1235,7 +1254,7 @@
                     width: 100%;
                     padding: 20px 20px 0px;
 
-                    h4 {
+                    h2 {
                         line-height: 26px;
                         margin-bottom: 5px;
                     }
@@ -1267,7 +1286,7 @@
                         font-size: 22px;
                     }
 
-                    h5 {
+                    p {
                         font-size: 12px;
                         line-height: 20px;
                         width: 100%;
@@ -1310,6 +1329,10 @@
                             }
                         }
                     }
+                    .bannerSliderSection .bannerSliderimg{
+                        width: 100%;
+                        padding-top: 0px;
+                    }
                 }
 
                 .awardSec {
@@ -1335,6 +1358,9 @@
                             h5 {
                                 text-transform: unset;
                                 margin: 12px 0px 4px;
+                            }
+                            p{
+                                line-height: 28px;
                             }
                         }
                     }
