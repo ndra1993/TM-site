@@ -4,7 +4,7 @@ $homepage_id = get_option('page_on_front');
 ?>
 <a id="button"><img src="<?php bloginfo('template_directory'); ?>/images/back-to-top-arrow.svg"></a>
 
-<div class="csdetailBg" style="background: #f5f5f5;">
+<div class="csdetailBg tataAig" style="background: #f5f5f5;">
     <!-- banner slider section -->
     <section class="bannerSlidermain" style=" background: linear-gradient(181.96deg, rgba(0, 190, 222, 0.1976) 37.2%, rgba(53, 225, 202, 0.022) 62.22%);">
         <div class="bannerInnerDiv">
