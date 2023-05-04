@@ -15,9 +15,9 @@
     <section class="bannerSection">
         <div class="sectionOne">
             <div class="mobtext wow slideInLeft">
-                <p class="font20 fontW800 colorWhite">DOZEE</p>
+                <h5 class="font20 fontW800 colorWhite">DOZEE</h5>
                 <h1 class="font60 fontW800 colorWhite">Adding a dose of Science and technology to Dozee’s design system </h1>
-                <h5 class="font20 colorWhite fontW500">Dozee is an advanced contactless remote patient monitoring and early warning system that utilizes cutting-edge artificial intelligence technology. It offers an efficient ballistocardiography solution to enhance patient care.</h5>
+                <p class="font20 colorWhite fontW500">Dozee is an advanced contactless remote patient monitoring and early warning system that utilizes cutting-edge artificial intelligence technology. It offers an efficient ballistocardiography solution to enhance patient care.</p>
             </div>
             <div class="mobImg wow fadeInUp" data-wow-duration="4s">
                 <video class="desktopImg" playsinline="playsinline" muted="muted" preload="yes" autoplay="autoplay" loop="loop" id="vjs_video_739_html5_api" class="video-js" data-setup='{"autoplay":"any"}'>
@@ -37,9 +37,9 @@
         <div class="sectionTwo">
             <div class="mobtextTwo wow slideInLeft" data-wow-duration="1s" style="background: #fff;">
                 <div class="innerContent">
-                    <p class="font20 fontW800 colorBlack">Insight  </p>
-                    <h1 class="font60 fontW800 colorBlack">Crafting a unique design identity for a game-changing device </h1>
-                    <h5 class="font20 colorBlack fontW500">While the device is indeed a pioneering and visionary product in the industry, it lacks a unique and innovative identity that truly sets it apart. Although the brand logo is well-established and easily recognizable, it falls short in capturing a distinct and forward-thinking persona.</h5>
+                    <h5 class="font20 fontW800 colorBlack">Insight  </h5>
+                    <h2 class="font60 fontW800 colorBlack">Crafting a unique design identity for a game-changing device </h2>
+                    <p class="font20 colorBlack fontW500">While the device is indeed a pioneering and visionary product in the industry, it lacks a unique and innovative identity that truly sets it apart. Although the brand logo is well-established and easily recognizable, it falls short in capturing a distinct and forward-thinking persona.</p>
                 </div>
             </div>
             <div class="mobimgTwo wow slideInRight mobileImg" data-wow-duration="1s" style="background: #F4F4F4;">
@@ -49,7 +49,7 @@
     </section>
    
     <!-- fullscreenbigimg -->
-    <section class="fullscreenBigimg" style="background: #0243A3;">
+    <section class="fullscreenBigimg">
         <div id="dozeeFirstAnim"></div>
     </section>
     
@@ -63,7 +63,7 @@
         </div>
     </section>
     <!-- fullscreenbigimg -->
-    <section class="fullscreenBigimg" style="background: #0243A3;">
+    <section class="fullscreenBigimg">
         <div id="dozeeThreeBox"></div>
     </section>
     
