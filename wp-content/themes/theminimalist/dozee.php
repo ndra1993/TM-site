@@ -10,9 +10,9 @@
 
 <a id="button"><img src="<?php bloginfo('template_directory'); ?>/images/back-to-top-arrow.svg"></a>
 
-<div class="csdetailBg" style="background: #0839B6;">
+<div class="csdetailBg dozeeBanner">
     <!-- Banner Section -->
-    <section class="bannerSection dozeeBanner">
+    <section class="bannerSection">
         <div class="sectionOne">
             <div class="mobtext wow slideInLeft">
                 <p class="font20 fontW800 colorWhite">DOZEE</p>

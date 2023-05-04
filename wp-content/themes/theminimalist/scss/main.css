@@ -8169,16 +8169,32 @@ footer .ftbutton {
       margin-left: 32%; }
   .csdetailBg.tataAig {
     background: #f5f5f5; }
-  .csdetailBg .dozeeBanner .sectionOne {
-    padding: 0px !important; }
-    .csdetailBg .dozeeBanner .sectionOne .mobImg {
-      margin: 0 0 0 auto !important;
-      width: 100%; }
-  .csdetailBg .dozeeBanner video {
-    width: 100%;
-    padding: 0px; }
+  .csdetailBg.dozeeBanner {
+    background: #0733B5; }
+    .csdetailBg.dozeeBanner .sectionOne {
+      padding: 0px !important; }
+      .csdetailBg.dozeeBanner .sectionOne .mobImg {
+        margin: 0 0 0 auto !important;
+        width: 100%; }
+    .csdetailBg.dozeeBanner video {
+      width: 100%;
+      padding: 0px; }
   .csdetailBg.one-to-11 {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(219.06deg, #0D1917 23.88%, #A270F2 71.41%); }
+  .csdetailBg.tataluxuryCasestudy .bannerSlidermain .bannerInnerDiv {
+    padding: 0px !important; }
+    .csdetailBg.tataluxuryCasestudy .bannerSlidermain .bannerInnerDiv .bannerslidePara {
+      width: 40%; }
+      .csdetailBg.tataluxuryCasestudy .bannerSlidermain .bannerInnerDiv .bannerslidePara h5 {
+        width: 95%; }
+  .csdetailBg.tataluxuryCasestudy .lefttext-rightImg .sectionTwo {
+    padding: 60px 0px; }
+    .csdetailBg.tataluxuryCasestudy .lefttext-rightImg .sectionTwo .mobtextTwo {
+      padding: 0px 0px 0px 115px !important; }
+  .csdetailBg.tataluxuryCasestudy:nth-child(2) .sectionTwo {
+    padding: 0px !important; }
+  .csdetailBg.tataluxuryCasestudy .fullimgwithHeading .imgDiv {
+    padding: 0px 50px; }
   .csdetailBg .desktopImg {
     display: block; }
   .csdetailBg .mobileImg {
@@ -8270,7 +8286,9 @@ footer .ftbutton {
             width: 70%; }
           .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara h1 {
             line-height: 50px;
-            margin: 20px 0px; } }
+            margin: 20px 0px; }
+      .csdetailBg.tataluxuryCasestudy .lefttext-rightImg .sectionTwo .mobtextTwo {
+        padding: 0px 0px 0px 90px !important; } }
   @media screen and (max-width: 1450px) {
     .csdetailBg {
       margin-top: 76px; }
@@ -8366,7 +8384,9 @@ footer .ftbutton {
             line-height: 24px; }
           .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara h1 {
             line-height: 40px;
-            margin: 10px 0px; } }
+            margin: 10px 0px; }
+      .csdetailBg.tataluxuryCasestudy .lefttext-rightImg .sectionTwo .mobtextTwo {
+        padding: 0px 0px 0px 50px !important; } }
   @media screen and (max-width: 1200px) {
     .csdetailBg .bannerSection .sectionOne {
       padding: 35px 0px 80px 0px; }
