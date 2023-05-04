@@ -8167,14 +8167,16 @@ footer .ftbutton {
     background: linear-gradient(127.67deg, #51BB79 18.41%, #00ACEF 47.2%); }
     .csdetailBg.almaraiCasestudy .bannerSection .sectionOne .mobImg {
       margin-left: 32%; }
-  .csdetailBg .dozeeBanner .sectionOne {
-    padding: 0px !important; }
-    .csdetailBg .dozeeBanner .sectionOne .mobImg {
-      margin: 0 0 0 auto !important;
-      width: 100%; }
-  .csdetailBg .dozeeBanner video {
-    width: 100%;
-    padding: 0px; }
+  .csdetailBg .dozeeBanner {
+    background: #0733B5; }
+    .csdetailBg .dozeeBanner .sectionOne {
+      padding: 0px !important; }
+      .csdetailBg .dozeeBanner .sectionOne .mobImg {
+        margin: 0 0 0 auto !important;
+        width: 100%; }
+    .csdetailBg .dozeeBanner video {
+      width: 100%;
+      padding: 0px; }
   .csdetailBg.one-to-11 {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(219.06deg, #0D1917 23.88%, #A270F2 71.41%); }
   .csdetailBg .desktopImg {
