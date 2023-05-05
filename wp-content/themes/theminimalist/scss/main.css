@@ -7996,15 +7996,13 @@ footer .ftbutton {
     padding: 70px 0px; }
     .csdetailBg .fullimgwithHeading .headingSec {
       width: 60%;
-      margin: 0 auto; }
+      margin: 0 auto 78px; }
       .csdetailBg .fullimgwithHeading .headingSec h2 {
         margin-bottom: 15px;
         line-height: 42px; }
       .csdetailBg .fullimgwithHeading .headingSec p {
         color: rgba(0, 0, 0, 0.5);
         line-height: 30px; }
-    .csdetailBg .fullimgwithHeading .imgDiv {
-      margin-top: 78px; }
   .csdetailBg .twoImgsides-headingmiddle {
     padding: 70px 0px; }
     .csdetailBg .twoImgsides-headingmiddle .imageHeadingmain {
@@ -8062,38 +8060,40 @@ footer .ftbutton {
           background: #00C859;
           transition: 1s ease-out;
           height: 100%;
-          position: relative; }
+          position: relative;
+          text-align: center;
+          transition: 1s all ease-in-out; }
           .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox a {
             padding: 30px 0px;
             display: block;
+            transition: 1s all ease-in-out;
             width: 100%;
             cursor: url(../images/mouse-cursor-pages.png) 30 30, auto;
-            height: 100%; }
-          .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox:nth-child(1) a img {
-            margin: 0 auto;
-            display: block;
-            transition: 1s all ease-in-out;
-            position: absolute;
-            left: 50%;
-            transform: translateX(-50%); }
-          .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox:nth-child(2) a img {
-            margin: 0 auto;
-            display: block;
-            transition: 1s all ease-in-out;
-            position: absolute;
-            left: 50%;
-            transform: translateX(-50%);
-            transition: 1s all ease-in-out; }
+            height: 100%;
+            position: relative; }
+            .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox a img {
+              display: block;
+              transition: 1s all ease-in-out;
+              position: absolute;
+              left: 50%;
+              transform: translateX(-50%); }
           .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox.active {
-            width: 200%; }
-            .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox.active:nth-child(1) a img {
-              left: 30px;
-              transform: translateX(0); }
-          .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox.activeTwo {
-            width: 200%; }
-            .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox.activeTwo:nth-child(2) a img {
-              right: 30px;
-              transform: translateX(0); }
+            width: 75%; }
+            .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox.active.relatedBoxone {
+              transition: 1s all ease-in-out; }
+              .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox.active.relatedBoxone a img {
+                left: 0;
+                transform: translateX(0);
+                transition: 1s all ease-in-out; }
+            .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox.active.relatedBoxtwo {
+              transition: 1s all ease-in-out; }
+              .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox.active.relatedBoxtwo a img {
+                right: 0;
+                left: unset;
+                transform: translateX(0);
+                transition: 1s all ease-in-out; }
+          .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox.deactive {
+            width: 25%; }
         .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBoxtwo {
           position: relative; }
     .csdetailBg .bottomimgLogos .circleAnimShow {
@@ -8167,6 +8167,8 @@ footer .ftbutton {
     background: linear-gradient(127.67deg, #51BB79 18.41%, #00ACEF 47.2%); }
     .csdetailBg.almaraiCasestudy .bannerSection .sectionOne .mobImg {
       margin-left: 32%; }
+  .csdetailBg.tataAig {
+    background: #f5f5f5; }
   .csdetailBg.dozeeBanner {
     background: #0733B5; }
     .csdetailBg.dozeeBanner .sectionOne {
@@ -8179,6 +8181,11 @@ footer .ftbutton {
       padding: 0px; }
   .csdetailBg.one-to-11 {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(219.06deg, #0D1917 23.88%, #A270F2 71.41%); }
+  .csdetailBg.tataluxuryCasestudy .bannerSlidermain .bannerInnerDiv {
+    padding: 0px !important; }
+    .csdetailBg.tataluxuryCasestudy .bannerSlidermain .bannerInnerDiv .bannerSlider .bannerSliderSection .bannerSliderimg {
+      width: 100% !important;
+      padding-top: 0px !important; }
   .csdetailBg .desktopImg {
     display: block; }
   .csdetailBg .mobileImg {
@@ -8225,13 +8232,13 @@ footer .ftbutton {
         padding: 30px 0px; }
       .csdetailBg .fullimgwithHeading {
         padding: 50px 0px; }
-        .csdetailBg .fullimgwithHeading .headingSec h2 {
-          margin-bottom: 10px;
-          line-height: 38px; }
-        .csdetailBg .fullimgwithHeading .headingSec p {
-          line-height: 27px; }
-        .csdetailBg .fullimgwithHeading .imgDiv {
-          margin-top: 58px; }
+        .csdetailBg .fullimgwithHeading .headingSec {
+          margin: 0 auto 58px; }
+          .csdetailBg .fullimgwithHeading .headingSec h2 {
+            margin-bottom: 10px;
+            line-height: 38px; }
+          .csdetailBg .fullimgwithHeading .headingSec p {
+            line-height: 27px; }
       .csdetailBg .twoImgsides-headingmiddle {
         padding: 50px 0px; }
         .csdetailBg .twoImgsides-headingmiddle .imageHeadingmain .headingDiv h2 {
@@ -8253,7 +8260,6 @@ footer .ftbutton {
       .csdetailBg .bottomimgLogos .moreCasestudy {
         height: 160px; }
         .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox a img {
-          margin: 0 auto;
           width: 200px; }
       .csdetailBg .bannerSlidermain .bannerInnerDiv {
         padding: 90px 0px 180px 0px; }
@@ -8321,12 +8327,12 @@ footer .ftbutton {
         padding: 20px 0px; }
       .csdetailBg .fullimgwithHeading {
         padding: 40px 0px; }
-        .csdetailBg .fullimgwithHeading .headingSec h2 {
-          line-height: 32px; }
-        .csdetailBg .fullimgwithHeading .headingSec p {
-          line-height: 25px; }
-        .csdetailBg .fullimgwithHeading .imgDiv {
-          margin-top: 50px; }
+        .csdetailBg .fullimgwithHeading .headingSec {
+          margin: 0 auto 50px; }
+          .csdetailBg .fullimgwithHeading .headingSec h2 {
+            line-height: 32px; }
+          .csdetailBg .fullimgwithHeading .headingSec p {
+            line-height: 25px; }
       .csdetailBg .twoImgsides-headingmiddle {
         padding: 40px 0px; }
         .csdetailBg .twoImgsides-headingmiddle .imageHeadingmain .headingDiv h2 {
@@ -8347,7 +8353,6 @@ footer .ftbutton {
       .csdetailBg .bottomimgLogos .moreCasestudy {
         height: 150px; }
         .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox a img {
-          margin: 0 auto;
           width: 180px; }
       .csdetailBg .bannerSlidermain .bannerInnerDiv {
         padding: 50px 0px 120px 0px; }
@@ -8410,13 +8415,12 @@ footer .ftbutton {
     .csdetailBg .fullimgwithHeading {
       padding: 30px 0px; }
       .csdetailBg .fullimgwithHeading .headingSec {
-        width: 75%; }
+        width: 75%;
+        margin: 0px auto 40px; }
         .csdetailBg .fullimgwithHeading .headingSec h2 {
           line-height: 28px; }
         .csdetailBg .fullimgwithHeading .headingSec p {
           line-height: 23px; }
-      .csdetailBg .fullimgwithHeading .imgDiv {
-        margin-top: 40px; }
     .csdetailBg .twoImgsides-headingmiddle {
       padding: 30px 0px; }
       .csdetailBg .twoImgsides-headingmiddle .imageHeadingmain .headingDiv h2 {
@@ -8459,7 +8463,7 @@ footer .ftbutton {
       .csdetailBg .desktopImg {
         display: none; }
       .csdetailBg .mobileImg {
-        display: block !important;
+        display: block;
         padding: 25px 0px;
         margin: 0 auto; }
         .csdetailBg .mobileImg img {
@@ -8547,14 +8551,13 @@ footer .ftbutton {
         padding: 20px 0px; }
         .csdetailBg .fullimgwithHeading .headingSec {
           width: 100%;
-          padding: 0px 20px; }
+          padding: 0px 20px;
+          margin: 0px auto 25px; }
           .csdetailBg .fullimgwithHeading .headingSec h2 {
             line-height: 26px;
             margin-bottom: 5px; }
           .csdetailBg .fullimgwithHeading .headingSec p {
             line-height: 21px; }
-        .csdetailBg .fullimgwithHeading .imgDiv {
-          margin-top: 25px; }
       .csdetailBg .twoImgsides-headingmiddle {
         padding: 20px 0px; }
         .csdetailBg .twoImgsides-headingmiddle .imageHeadingmain {
