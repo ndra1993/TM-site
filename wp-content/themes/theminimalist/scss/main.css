@@ -8060,38 +8060,40 @@ footer .ftbutton {
           background: #00C859;
           transition: 1s ease-out;
           height: 100%;
-          position: relative; }
+          position: relative;
+          text-align: center;
+          transition: 1s all ease-in-out; }
           .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox a {
             padding: 30px 0px;
             display: block;
+            transition: 1s all ease-in-out;
             width: 100%;
             cursor: url(../images/mouse-cursor-pages.png) 30 30, auto;
-            height: 100%; }
-          .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox:nth-child(1) a img {
-            margin: 0 auto;
-            display: block;
-            transition: 1s all ease-in-out;
-            position: absolute;
-            left: 50%;
-            transform: translateX(-50%); }
-          .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox:nth-child(2) a img {
-            margin: 0 auto;
-            display: block;
-            transition: 1s all ease-in-out;
-            position: absolute;
-            left: 50%;
-            transform: translateX(-50%);
-            transition: 1s all ease-in-out; }
+            height: 100%;
+            position: relative; }
+            .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox a img {
+              display: block;
+              transition: 1s all ease-in-out;
+              position: absolute;
+              left: 50%;
+              transform: translateX(-50%); }
           .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox.active {
-            width: 100%; }
-            .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox.active:nth-child(1) a img {
-              left: 30px;
-              transform: translateX(0); }
-          .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox.activeTwo {
-            width: 100%; }
-            .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox.activeTwo:nth-child(2) a img {
-              right: 30px;
-              transform: translateX(0); }
+            width: 75%; }
+            .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox.active.relatedBoxone {
+              transition: 1s all ease-in-out; }
+              .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox.active.relatedBoxone a img {
+                left: 0;
+                transform: translateX(0);
+                transition: 1s all ease-in-out; }
+            .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox.active.relatedBoxtwo {
+              transition: 1s all ease-in-out; }
+              .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox.active.relatedBoxtwo a img {
+                right: 0;
+                left: unset;
+                transform: translateX(0);
+                transition: 1s all ease-in-out; }
+          .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox.deactive {
+            width: 25%; }
         .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBoxtwo {
           position: relative; }
     .csdetailBg .bottomimgLogos .circleAnimShow {
@@ -8258,7 +8260,6 @@ footer .ftbutton {
       .csdetailBg .bottomimgLogos .moreCasestudy {
         height: 160px; }
         .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox a img {
-          margin: 0 auto;
           width: 200px; }
       .csdetailBg .bannerSlidermain .bannerInnerDiv {
         padding: 90px 0px 180px 0px; }
@@ -8352,7 +8353,6 @@ footer .ftbutton {
       .csdetailBg .bottomimgLogos .moreCasestudy {
         height: 150px; }
         .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox a img {
-          margin: 0 auto;
           width: 180px; }
       .csdetailBg .bannerSlidermain .bannerInnerDiv {
         padding: 50px 0px 120px 0px; }

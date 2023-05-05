@@ -88,7 +88,7 @@ if ($(window).width() > 1024) {
         // $('.layer_three').removeClass('newClasstwo');
       }
     }
-   
+
     if ($('#multipleMbl').length) {
       if ($('#multipleMbl').isInViewport()) {
         setTimeout(() => {
@@ -97,7 +97,7 @@ if ($(window).width() > 1024) {
         }, 500);
       }
     }
-  
+
     if ($('#multipleMbltwo').length) {
       if ($('#multipleMbltwo').isInViewport()) {
         setTimeout(() => {
@@ -150,7 +150,7 @@ if ($(window).width() > 1024) {
         }, 500);
       }
     }
-    
+
   });
 }
 // svg animation on scroll js ends
@@ -162,14 +162,14 @@ $('.bannerSlider').slick({
   arrows: false,
   slidesToShow: 1,
   slidesToScroll: 1,
-  infinite:true,
+  infinite: true,
   cssEase: 'linear',
   dots: true,
-  pauseOnHover:false,
-  });
-  // banner slider case study js ends
+  pauseOnHover: false,
+});
+// banner slider case study js ends
 
-  
+
 
 
 /*jQuery('.clientSec').slick({
@@ -345,17 +345,37 @@ $(document).ready(function () {
 // active class for case study details last section js starts
 
 if ($(window).width() > 1024) {
-  $(document).ready(function () {
-    $('.relatedBoxone').hover(function () {
-      $(".relatedBoxone").toggleClass("active");
-    });
-  });
+  // $(document).ready(function () {
+  //   $('.relatedBoxone').hover(function () {
+  //     $(".relatedBoxone").toggleClass("active");
+  //   });
+  // });
+
+  // $(document).ready(function () {
+  //   $('.relatedBoxtwo').hover(function () {
+  //     $(".relatedBoxtwo").toggleClass("activeTwo");
+  //   });
+  // });
 
   $(document).ready(function () {
-    $('.relatedBoxtwo').hover(function () {
-      $(".relatedBoxtwo").toggleClass("activeTwo");
+    $(".relatedBox").on('mouseover',function () {
+      $(".relatedBox").removeClass("active");
+      if ($(this).hasClass("active")) {
+        $(this).removeClass("active");
+        $(this).siblings().removeClass("deactive");
+      } else {
+        $(this).addClass("active");
+        $(this).siblings().addClass("deactive");
+      }
+      // $(this).parent().prev().toggle();
+      // $(this).prev().toggle();
+      return false;
     });
   });
+  $('.relatedBox').on('mouseleave', function() {
+    $('.relatedBox').removeClass('active');
+    $('.relatedBox').removeClass("deactive");
+ });
 }
 
 // active class for case study details last section js ends
@@ -542,48 +562,48 @@ $('.clientSlider').slick({
   slidesToScroll: 1,
   cssEase: 'linear',
   dots: true
-  });
+});
 
-  /*$(".accordion_tab").click(function(){
-    $(".accordion_tab").each(function(){
-      $(this).parent().removeClass("active");
-      $(this).removeClass("active");
-    });
-    $(this).parent().addClass("active");
-    $(this).addClass("active");
+/*$(".accordion_tab").click(function(){
+  $(".accordion_tab").each(function(){
+    $(this).parent().removeClass("active");
+    $(this).removeClass("active");
+  });
+  $(this).parent().addClass("active");
+  $(this).addClass("active");
 });*/
 $(document).ready(function () {
   $(".klundesaga-title").click(function (e) {
-  var klundesagaitem = $(this).attr("data-tab");
-  $("#" + klundesagaitem)
-  .slideToggle()
-  .parent()
-  .siblings()
-  .find(".klundesaga-content")
-  .slideUp();
+    var klundesagaitem = $(this).attr("data-tab");
+    $("#" + klundesagaitem)
+      .slideToggle()
+      .parent()
+      .siblings()
+      .find(".klundesaga-content")
+      .slideUp();
 
-  $(this).toggleClass("active-title");
-  $("#" + klundesagaitem)
-  .parent()
-  .siblings()
-  .find(".klundesaga-title")
-  .removeClass("active-title");
+    $(this).toggleClass("active-title");
+    $("#" + klundesagaitem)
+      .parent()
+      .siblings()
+      .find(".klundesaga-title")
+      .removeClass("active-title");
 
 
-  $("img", this).toggleClass("chevron-top");
-  $("#" + klundesagaitem)
-  .parent()
-  .siblings()
-  .find(".klundesaga-title img")
-  .removeClass("chevron-top");
+    $("img", this).toggleClass("chevron-top");
+    $("#" + klundesagaitem)
+      .parent()
+      .siblings()
+      .find(".klundesaga-title img")
+      .removeClass("chevron-top");
   });
-  });
-
-$(document).ready(function() {
-$(".klundesaga-item").click(function () {
-    $(".klundesaga-item").removeClass("someClass");
-    $(this).addClass("someClass");        
 });
+
+$(document).ready(function () {
+  $(".klundesaga-item").click(function () {
+    $(".klundesaga-item").removeClass("someClass");
+    $(this).addClass("someClass");
+  });
 });
 
 
@@ -611,8 +631,8 @@ $(document).ready(function () {
 
 
 
-$(".brandIconsInfo").hover(function(e) {
-    $('.brandIconsInfo').removeClass('active');
-    $(this).addClass('active');
+$(".brandIconsInfo").hover(function (e) {
+  $('.brandIconsInfo').removeClass('active');
+  $(this).addClass('active');
 });
 /*our cliets js end*/
