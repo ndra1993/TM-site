@@ -8085,12 +8085,12 @@ footer .ftbutton {
             transform: translateX(-50%);
             transition: 1s all ease-in-out; }
           .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox.active {
-            width: 100%; }
+            width: 200%; }
             .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox.active:nth-child(1) a img {
               left: 30px;
               transform: translateX(0); }
           .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox.activeTwo {
-            width: 100%; }
+            width: 200%; }
             .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox.activeTwo:nth-child(2) a img {
               right: 30px;
               transform: translateX(0); }

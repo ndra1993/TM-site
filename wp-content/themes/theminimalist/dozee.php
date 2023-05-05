@@ -84,17 +84,18 @@
     </section>
 
     <!-- Banner Section -->
-    <section class="bannerSection" style="background-color: #0243A3;">
+    <section class="bannerSection">
         <div class="sectionOne">
             <div class="mobtext wow slideInLeft">
-                <p class="font20 fontW800 colorWhite">DOZEE </p>
+                <h5 class="font20 fontW800 colorWhite">DOZEE </h5>
                 <h1 class="font60 fontW800 colorWhite">Adding a dose of sales efficacy to Dozee's product website</h1>
-                <h5 class="font20 colorWhite fontW500">Dozee is India's first contactless patient vital monitoring equipment with an early warning system powered by cutting-edge AI.
+                <p class="font20 colorWhite fontW500">Dozee is India's first contactless patient vital monitoring equipment with an early warning system powered by cutting-edge AI.
                 Its automated and digital applications are trusted by over 300 hospitals.
-                </h5>
+                </p>
             </div>
             <div class="mobImg wow fadeInUp" data-wow-duration="4s">
-                <img src="<?php bloginfo('template_directory'); ?>/images/dozee-banner.png">
+                <!-- <img src="<?php bloginfo('template_directory'); ?>/images/dozee-banner.png"> -->
+                <div id="dozeeUiUx"></div>
             </div>
         </div>
     </section>
@@ -104,9 +105,9 @@
         <div class="sectionTwo">
             <div class="mobtextTwo wow slideInLeft" data-wow-duration="1s" style="background: #fff;">
                 <div class="innerContent">
-                    <p class="font20 fontW800 colorBlack">Objective</p>
-                    <h1 class="font60 fontW800 colorBlack">Creating a website that acts as a product brochure</h1>
-                    <h5 class="font20 colorBlack fontW500">The project required fast, impactful and crisp communication for product education in order to save time during the sales-pitch and to build brand credibility.</h5>
+                    <h5 class="font20 fontW800 colorBlack">Objective</h5>
+                    <h2 class="font60 fontW800 colorBlack">Creating a website that acts as a product brochure</h2>
+                    <p class="font20 colorBlack fontW500">The project required fast, impactful and crisp communication for product education in order to save time during the sales-pitch and to build brand credibility.</p>
                 </div>
             </div>
             <div class="mobimgTwo wow slideInRight mobileImg" data-wow-duration="1s" style="background: #F4F4F4;">
@@ -170,8 +171,8 @@
             <div class="mobtextTwo wow slideInRight" data-wow-duration="1s" style="background: none;">
                 <div class="innerContent">
                     <!-- <p class="font20 fontW800 colorBlack">impact  </p> -->
-                    <h1 class="font60 fontW800 colorBlack">Product Education  </h1>
-                    <h5 class="font20 colorBlack fontW500">The new website is structured well, educating users about how Dozee uses AI & Machine Learning to help transform hospitals all over India.</h5>
+                    <h2 class="font60 fontW800 colorBlack">Product Education  </h2>
+                    <p class="font20 colorBlack fontW500">The new website is structured well, educating users about how Dozee uses AI & Machine Learning to help transform hospitals all over India.</p>
                 </div>
             </div>
             <div class="mobimgTwo wow slideInLeft mobileImg" data-wow-duration="1s">
@@ -180,15 +181,11 @@
         </div>
     </section>
    
-    <section class="fullscreenBigimg" style="background: #0243A3;padding: 50px;">
-        <div class="wow fadeInUp" data-wow-duration="4s">
-            <img src="<?php bloginfo('template_directory'); ?>/images/dozee_1.svg">
-        </div>
+    <section class="fullscreenBigimg">
+        <div id="dozeeOne"></div>
     </section>
-    <section class="fullscreenBigimg" style="background: #0243A3;padding: 50px;">
-        <div class="wow fadeInUp" data-wow-duration="4s">
-            <img src="<?php bloginfo('template_directory'); ?>/images/dozee_2.svg">
-        </div>
+    <section class="fullscreenBigimg">
+        <div id="dozeeTwo"></div>
     </section>
     <section class="fullscreenBigimg" style="background: #0243A3;padding: 50px;">
         <div class="wow fadeInUp" data-wow-duration="4s">
@@ -239,6 +236,28 @@ var animation = bodymovin.loadAnimation({
 var animation = bodymovin.loadAnimation({
   container: document.getElementById('dozeeThreeBox'),
   path: site_url+'/wp-content/themes/theminimalist/js/json/dozee-threeBox.json', // Required
+  renderer: 'svg', // or 'canvas', 'html'
+  loop: true,
+  autoplay: true
+});
+
+var animation = bodymovin.loadAnimation({
+  container: document.getElementById('dozeeUiUx'),
+  path: site_url+'/wp-content/themes/theminimalist/js/json/dozeeUiUx.json', // Required
+  renderer: 'svg', // or 'canvas', 'html'
+  loop: true,
+  autoplay: true
+});
+var animation = bodymovin.loadAnimation({
+  container: document.getElementById('dozeeOne'),
+  path: site_url+'/wp-content/themes/theminimalist/js/json/dozeeOne.json', // Required
+  renderer: 'svg', // or 'canvas', 'html'
+  loop: true,
+  autoplay: true
+});
+var animation = bodymovin.loadAnimation({
+  container: document.getElementById('dozeeTwo'),
+  path: site_url+'/wp-content/themes/theminimalist/js/json/dozeeTwo.json', // Required
   renderer: 'svg', // or 'canvas', 'html'
   loop: true,
   autoplay: true
