@@ -162,7 +162,7 @@
 
         .headingSec {
             width: 60%;
-            margin: 0 auto;
+            margin: 0 auto 78px;
 
             h2 {
                 margin-bottom: 15px;
@@ -173,10 +173,6 @@
                 color: rgba(0, 0, 0, 0.5);
                 line-height: 30px;
             }
-        }
-
-        .imgDiv {
-            margin-top: 78px;
         }
     }
 
@@ -492,36 +488,11 @@
         .bannerSlidermain {
             .bannerInnerDiv {
                 padding: 0px !important;
-
-                .bannerslidePara {
-                    width: 40%;
-
-                    h5 {
-                        width: 95%;
-                    }
+    
+                .bannerSlider .bannerSliderSection .bannerSliderimg {
+                    width: 100% !important;
+                    padding-top: 0px !important;
                 }
-            }
-        }
-
-        .lefttext-rightImg {
-            .sectionTwo {
-                padding: 60px 0px;
-
-                .mobtextTwo {
-                    padding: 0px 0px 0px 115px !important;
-                }
-            }
-        }
-
-        &:nth-child(2) {
-            .sectionTwo {
-                padding: 0px !important;
-            }
-        }
-
-        .fullimgwithHeading {
-            .imgDiv {
-                padding: 0px 50px;
             }
         }
     }
@@ -615,6 +586,7 @@
             padding: 50px 0px;
 
             .headingSec {
+                margin: 0 auto 58px;
                 h2 {
                     margin-bottom: 10px;
                     line-height: 38px;
@@ -625,9 +597,7 @@
                 }
             }
 
-            .imgDiv {
-                margin-top: 58px;
-            }
+
         }
 
         .twoImgsides-headingmiddle {
@@ -707,16 +677,6 @@
                     h1 {
                         line-height: 50px;
                         margin: 20px 0px;
-                    }
-                }
-            }
-        }
-
-        &.tataluxuryCasestudy {
-            .lefttext-rightImg {
-                .sectionTwo {
-                    .mobtextTwo {
-                        padding: 0px 0px 0px 90px !important;
                     }
                 }
             }
@@ -820,6 +780,7 @@
             padding: 40px 0px;
 
             .headingSec {
+                margin: 0 auto 50px;
                 h2 {
                     line-height: 32px;
                 }
@@ -827,10 +788,6 @@
                 p {
                     line-height: 25px;
                 }
-            }
-
-            .imgDiv {
-                margin-top: 50px;
             }
         }
 
@@ -914,16 +871,6 @@
                     h1 {
                         line-height: 40px;
                         margin: 10px 0px;
-                    }
-                }
-            }
-        }
-
-        &.tataluxuryCasestudy {
-            .lefttext-rightImg {
-                .sectionTwo {
-                    .mobtextTwo {
-                        padding: 0px 0px 0px 50px !important;
                     }
                 }
             }
@@ -1014,6 +961,7 @@
 
             .headingSec {
                 width: 75%;
+                margin: 0px auto 40px;
 
                 h2 {
                     line-height: 28px;
@@ -1022,10 +970,6 @@
                 p {
                     line-height: 23px;
                 }
-            }
-
-            .imgDiv {
-                margin-top: 40px;
             }
         }
 
@@ -1116,7 +1060,7 @@
         }
 
         .mobileImg {
-            display: block !important;
+            display: block;
             padding: 25px 0px;
             margin: 0 auto;
 
@@ -1271,6 +1215,7 @@
             .headingSec {
                 width: 100%;
                 padding: 0px 20px;
+                margin: 0px auto 25px;
 
                 h2 {
                     line-height: 26px;
@@ -1282,9 +1227,6 @@
                 }
             }
 
-            .imgDiv {
-                margin-top: 25px;
-            }
         }
 
         .twoImgsides-headingmiddle {

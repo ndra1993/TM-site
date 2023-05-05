@@ -11,7 +11,13 @@
       <?php while (have_rows('banner_option')) : the_row(); ?>
 
         <?php if (get_row_layout() == 'banner_image_box') : ?>
-          <div class="mobImg">
+          <div class="mobImg desktopImg">
+            <?php $bannerimage = get_sub_field('banner_image');
+            if (!empty($bannerimage)) : ?>
+              <img src="<?php echo esc_url($bannerimage['url']); ?>" loading="lazy" alt="<?php echo esc_attr($bannerimage['alt']); ?>" />
+            <?php endif; ?>
+          </div>
+          <div class="mobImg mobileImg">
             <?php $bannerimage = get_sub_field('banner_image');
             if (!empty($bannerimage)) : ?>
               <img src="<?php echo esc_url($bannerimage['url']); ?>" loading="lazy" alt="<?php echo esc_attr($bannerimage['alt']); ?>" />
@@ -22,7 +28,6 @@
           <div class="bannerAnimeimg">
             <?php echo get_sub_field('banner_animation'); ?>
           </div>
-          
         <?php endif; ?>
       <?php endwhile; ?>
     <?php endif; ?>

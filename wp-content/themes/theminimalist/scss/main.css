@@ -7996,15 +7996,13 @@ footer .ftbutton {
     padding: 70px 0px; }
     .csdetailBg .fullimgwithHeading .headingSec {
       width: 60%;
-      margin: 0 auto; }
+      margin: 0 auto 78px; }
       .csdetailBg .fullimgwithHeading .headingSec h2 {
         margin-bottom: 15px;
         line-height: 42px; }
       .csdetailBg .fullimgwithHeading .headingSec p {
         color: rgba(0, 0, 0, 0.5);
         line-height: 30px; }
-    .csdetailBg .fullimgwithHeading .imgDiv {
-      margin-top: 78px; }
   .csdetailBg .twoImgsides-headingmiddle {
     padding: 70px 0px; }
     .csdetailBg .twoImgsides-headingmiddle .imageHeadingmain {
@@ -8183,18 +8181,9 @@ footer .ftbutton {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(219.06deg, #0D1917 23.88%, #A270F2 71.41%); }
   .csdetailBg.tataluxuryCasestudy .bannerSlidermain .bannerInnerDiv {
     padding: 0px !important; }
-    .csdetailBg.tataluxuryCasestudy .bannerSlidermain .bannerInnerDiv .bannerslidePara {
-      width: 40%; }
-      .csdetailBg.tataluxuryCasestudy .bannerSlidermain .bannerInnerDiv .bannerslidePara h5 {
-        width: 95%; }
-  .csdetailBg.tataluxuryCasestudy .lefttext-rightImg .sectionTwo {
-    padding: 60px 0px; }
-    .csdetailBg.tataluxuryCasestudy .lefttext-rightImg .sectionTwo .mobtextTwo {
-      padding: 0px 0px 0px 115px !important; }
-  .csdetailBg.tataluxuryCasestudy:nth-child(2) .sectionTwo {
-    padding: 0px !important; }
-  .csdetailBg.tataluxuryCasestudy .fullimgwithHeading .imgDiv {
-    padding: 0px 50px; }
+    .csdetailBg.tataluxuryCasestudy .bannerSlidermain .bannerInnerDiv .bannerSlider .bannerSliderSection .bannerSliderimg {
+      width: 100% !important;
+      padding-top: 0px !important; }
   .csdetailBg .desktopImg {
     display: block; }
   .csdetailBg .mobileImg {
@@ -8241,13 +8230,13 @@ footer .ftbutton {
         padding: 30px 0px; }
       .csdetailBg .fullimgwithHeading {
         padding: 50px 0px; }
-        .csdetailBg .fullimgwithHeading .headingSec h2 {
-          margin-bottom: 10px;
-          line-height: 38px; }
-        .csdetailBg .fullimgwithHeading .headingSec p {
-          line-height: 27px; }
-        .csdetailBg .fullimgwithHeading .imgDiv {
-          margin-top: 58px; }
+        .csdetailBg .fullimgwithHeading .headingSec {
+          margin: 0 auto 58px; }
+          .csdetailBg .fullimgwithHeading .headingSec h2 {
+            margin-bottom: 10px;
+            line-height: 38px; }
+          .csdetailBg .fullimgwithHeading .headingSec p {
+            line-height: 27px; }
       .csdetailBg .twoImgsides-headingmiddle {
         padding: 50px 0px; }
         .csdetailBg .twoImgsides-headingmiddle .imageHeadingmain .headingDiv h2 {
@@ -8286,9 +8275,7 @@ footer .ftbutton {
             width: 70%; }
           .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara h1 {
             line-height: 50px;
-            margin: 20px 0px; }
-      .csdetailBg.tataluxuryCasestudy .lefttext-rightImg .sectionTwo .mobtextTwo {
-        padding: 0px 0px 0px 90px !important; } }
+            margin: 20px 0px; } }
   @media screen and (max-width: 1450px) {
     .csdetailBg {
       margin-top: 76px; }
@@ -8339,12 +8326,12 @@ footer .ftbutton {
         padding: 20px 0px; }
       .csdetailBg .fullimgwithHeading {
         padding: 40px 0px; }
-        .csdetailBg .fullimgwithHeading .headingSec h2 {
-          line-height: 32px; }
-        .csdetailBg .fullimgwithHeading .headingSec p {
-          line-height: 25px; }
-        .csdetailBg .fullimgwithHeading .imgDiv {
-          margin-top: 50px; }
+        .csdetailBg .fullimgwithHeading .headingSec {
+          margin: 0 auto 50px; }
+          .csdetailBg .fullimgwithHeading .headingSec h2 {
+            line-height: 32px; }
+          .csdetailBg .fullimgwithHeading .headingSec p {
+            line-height: 25px; }
       .csdetailBg .twoImgsides-headingmiddle {
         padding: 40px 0px; }
         .csdetailBg .twoImgsides-headingmiddle .imageHeadingmain .headingDiv h2 {
@@ -8384,9 +8371,7 @@ footer .ftbutton {
             line-height: 24px; }
           .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara h1 {
             line-height: 40px;
-            margin: 10px 0px; }
-      .csdetailBg.tataluxuryCasestudy .lefttext-rightImg .sectionTwo .mobtextTwo {
-        padding: 0px 0px 0px 50px !important; } }
+            margin: 10px 0px; } }
   @media screen and (max-width: 1200px) {
     .csdetailBg .bannerSection .sectionOne {
       padding: 35px 0px 80px 0px; }
@@ -8430,13 +8415,12 @@ footer .ftbutton {
     .csdetailBg .fullimgwithHeading {
       padding: 30px 0px; }
       .csdetailBg .fullimgwithHeading .headingSec {
-        width: 75%; }
+        width: 75%;
+        margin: 0px auto 40px; }
         .csdetailBg .fullimgwithHeading .headingSec h2 {
           line-height: 28px; }
         .csdetailBg .fullimgwithHeading .headingSec p {
           line-height: 23px; }
-      .csdetailBg .fullimgwithHeading .imgDiv {
-        margin-top: 40px; }
     .csdetailBg .twoImgsides-headingmiddle {
       padding: 30px 0px; }
       .csdetailBg .twoImgsides-headingmiddle .imageHeadingmain .headingDiv h2 {
@@ -8479,7 +8463,7 @@ footer .ftbutton {
       .csdetailBg .desktopImg {
         display: none; }
       .csdetailBg .mobileImg {
-        display: block !important;
+        display: block;
         padding: 25px 0px;
         margin: 0 auto; }
         .csdetailBg .mobileImg img {
@@ -8567,14 +8551,13 @@ footer .ftbutton {
         padding: 20px 0px; }
         .csdetailBg .fullimgwithHeading .headingSec {
           width: 100%;
-          padding: 0px 20px; }
+          padding: 0px 20px;
+          margin: 0px auto 25px; }
           .csdetailBg .fullimgwithHeading .headingSec h2 {
             line-height: 26px;
             margin-bottom: 5px; }
           .csdetailBg .fullimgwithHeading .headingSec p {
             line-height: 21px; }
-        .csdetailBg .fullimgwithHeading .imgDiv {
-          margin-top: 25px; }
       .csdetailBg .twoImgsides-headingmiddle {
         padding: 20px 0px; }
         .csdetailBg .twoImgsides-headingmiddle .imageHeadingmain {
