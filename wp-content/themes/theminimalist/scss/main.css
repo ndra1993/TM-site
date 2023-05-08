@@ -7283,13 +7283,14 @@ footer .ftbutton {
       .blogsDetails .blogsDetailsSection .blogsDetailsTwo a {
         color: #000;
         word-break: break-all; }
+      .blogsDetails .blogsDetailsSection .blogsDetailsTwo .wp-block-image {
+        margin: 0 !important; }
       .blogsDetails .blogsDetailsSection .blogsDetailsTwo img {
-        padding-bottom: 46px;
+        padding-bottom: 36px;
         max-width: 100%; }
       .blogsDetails .blogsDetailsSection .blogsDetailsTwo ul {
-        padding: 10px 0px;
         padding-left: 30px !important;
-        margin-bottom: 46px; }
+        margin-bottom: 36px; }
         .blogsDetails .blogsDetailsSection .blogsDetailsTwo ul li {
           font-weight: 300;
           font-size: 20px;
@@ -7301,9 +7302,8 @@ footer .ftbutton {
             color: #000;
             word-break: break-all; }
       .blogsDetails .blogsDetailsSection .blogsDetailsTwo ol {
-        padding: 10px 0px;
         padding-left: 20px !important;
-        margin-bottom: 46px; }
+        margin-bottom: 36px; }
         .blogsDetails .blogsDetailsSection .blogsDetailsTwo ol li {
           font-weight: 300;
           font-size: 20px;
@@ -7316,7 +7316,7 @@ footer .ftbutton {
             word-break: break-all; }
       .blogsDetails .blogsDetailsSection .blogsDetailsTwo h2 {
         font-size: 40px;
-        margin-bottom: 46px;
+        margin-bottom: 30px;
         font-weight: 800;
         line-height: 50px; }
       .blogsDetails .blogsDetailsSection .blogsDetailsTwo h3 {
@@ -7339,11 +7339,11 @@ footer .ftbutton {
         font-size: 20px;
         line-height: 30px;
         font-weight: 300;
-        margin-bottom: 46px; }
+        margin-bottom: 36px; }
       .blogsDetails .blogsDetailsSection .blogsDetailsTwo .divider {
         border-top: 1px solid transparent;
         border-bottom: 1px solid transparent;
-        margin-bottom: 54px; }
+        margin-bottom: 44px; }
       .blogsDetails .blogsDetailsSection .blogsDetailsTwo .blogModal {
         margin: 20px 0px; }
         .blogsDetails .blogsDetailsSection .blogsDetailsTwo .blogModal .link {
@@ -7599,20 +7599,22 @@ footer .ftbutton {
         width: 65%; }
         .blogsDetails .blogsDetailsSection .blogsDetailsTwo img {
           padding-bottom: 30px; }
-        .blogsDetails .blogsDetailsSection .blogsDetailsTwo ul, .blogsDetails .blogsDetailsSection .blogsDetailsTwo ol {
+        .blogsDetails .blogsDetailsSection .blogsDetailsTwo ul,
+        .blogsDetails .blogsDetailsSection .blogsDetailsTwo ol {
           margin-bottom: 30px; }
-          .blogsDetails .blogsDetailsSection .blogsDetailsTwo ul li, .blogsDetails .blogsDetailsSection .blogsDetailsTwo ol li {
+          .blogsDetails .blogsDetailsSection .blogsDetailsTwo ul li,
+          .blogsDetails .blogsDetailsSection .blogsDetailsTwo ol li {
             font-size: 18px; }
         .blogsDetails .blogsDetailsSection .blogsDetailsTwo h2 {
           font-size: 35px;
-          margin-bottom: 35px;
+          margin-bottom: 25px;
           line-height: 40px; }
         .blogsDetails .blogsDetailsSection .blogsDetailsTwo h3 {
           font-size: 26px;
           margin-bottom: 22px; }
         .blogsDetails .blogsDetailsSection .blogsDetailsTwo h4 {
           font-size: 18px;
-          margin-bottom: 25px;
+          margin-bottom: 20px;
           line-height: 20px; }
         .blogsDetails .blogsDetailsSection .blogsDetailsTwo h5 {
           font-size: 18px;
@@ -7624,7 +7626,7 @@ footer .ftbutton {
         .blogsDetails .blogsDetailsSection .blogsDetailsTwo .divider {
           border-top: 1px solid transparent;
           border-bottom: 1px solid transparent;
-          margin-bottom: 40px; }
+          margin-bottom: 35px; }
       .blogsDetails .relatedBlogs .relatedBlogsSection .relatedBlogsBox a .details .detailsBox p {
         line-height: 25px; } }
   @media screen and (max-width: 1400px) {
@@ -7660,36 +7662,33 @@ footer .ftbutton {
         .blogsDetails .blogsDetailsSection .blogsDetailsTwo {
           width: 65%; }
           .blogsDetails .blogsDetailsSection .blogsDetailsTwo img {
-            padding-bottom: 26px; }
-          .blogsDetails .blogsDetailsSection .blogsDetailsTwo ul, .blogsDetails .blogsDetailsSection .blogsDetailsTwo ol {
-            padding: 10px 0px;
-            margin-bottom: 15px; }
-            .blogsDetails .blogsDetailsSection .blogsDetailsTwo ul li, .blogsDetails .blogsDetailsSection .blogsDetailsTwo ol li {
-              font-size: 16px; }
-          .blogsDetails .blogsDetailsSection .blogsDetailsTwo ul {
-            margin-bottom: 15px; }
-            .blogsDetails .blogsDetailsSection .blogsDetailsTwo ul li {
-              font-size: 16px;
-              line-height: 25px; }
-              .blogsDetails .blogsDetailsSection .blogsDetailsTwo ul li a {
-                color: #000;
-                word-break: break-all; }
+            padding-bottom: 25px; }
+          .blogsDetails .blogsDetailsSection .blogsDetailsTwo ul,
           .blogsDetails .blogsDetailsSection .blogsDetailsTwo ol {
-            padding: 10px 0px; }
+            margin-bottom: 25px; }
+            .blogsDetails .blogsDetailsSection .blogsDetailsTwo ul li,
             .blogsDetails .blogsDetailsSection .blogsDetailsTwo ol li {
-              font-weight: 300;
-              font-size: 16px;
-              line-height: 25px; }
-              .blogsDetails .blogsDetailsSection .blogsDetailsTwo ol li a {
-                text-decoration: none;
-                color: #000; }
+              font-size: 16px; }
+          .blogsDetails .blogsDetailsSection .blogsDetailsTwo ul li {
+            font-size: 16px;
+            line-height: 25px; }
+            .blogsDetails .blogsDetailsSection .blogsDetailsTwo ul li a {
+              color: #000;
+              word-break: break-all; }
+          .blogsDetails .blogsDetailsSection .blogsDetailsTwo ol li {
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 25px; }
+            .blogsDetails .blogsDetailsSection .blogsDetailsTwo ol li a {
+              text-decoration: none;
+              color: #000; }
           .blogsDetails .blogsDetailsSection .blogsDetailsTwo h2 {
             font-size: 25px;
-            margin-bottom: 25px;
+            margin-bottom: 20px;
             line-height: 30px; }
           .blogsDetails .blogsDetailsSection .blogsDetailsTwo h3 {
             font-size: 20px;
-            margin-bottom: 20px; }
+            margin-bottom: 18px; }
           .blogsDetails .blogsDetailsSection .blogsDetailsTwo h4 {
             font-size: 16px;
             margin-bottom: 15px; }
@@ -7698,9 +7697,9 @@ footer .ftbutton {
           .blogsDetails .blogsDetailsSection .blogsDetailsTwo p {
             font-size: 16px;
             line-height: 22px;
-            margin-bottom: 26px; }
+            margin-bottom: 25px; }
           .blogsDetails .blogsDetailsSection .blogsDetailsTwo .divider {
-            margin-bottom: 35px; }
+            margin-bottom: 30px; }
       .blogsDetails .relatedBlogs h3 {
         margin-bottom: 25px; }
       .blogsDetails .relatedBlogs .relatedBlogsSection .relatedBlogsBox {
