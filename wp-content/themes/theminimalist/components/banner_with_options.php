@@ -11,7 +11,7 @@
       <?php while (have_rows('banner_option')) : the_row(); ?>
 
         <?php if (get_row_layout() == 'banner_image_box') : ?>
-          <div class="mobImg desktopImg">
+          <div class="mobImg desktopImg wow fadeInUp" data-wow-duration="4s">
             <?php $bannerimage = get_sub_field('banner_image');
             if (!empty($bannerimage)) : ?>
               <img src="<?php echo esc_url($bannerimage['url']); ?>" loading="lazy" alt="<?php echo esc_attr($bannerimage['alt']); ?>" />
@@ -21,14 +21,14 @@
           <?php
           $value = get_sub_field( "mobile_banner_image" );
           if ( $value ) {?>
-            <div class="mobImg mobileImg">
+            <div class="mobImg mobileImg wow fadeInUp" data-wow-duration="4s">
               <?php $mobbannerimage = get_sub_field('mobile_banner_image');
               if (!empty($mobbannerimage)) : ?>
                 <img src="<?php echo esc_url($mobbannerimage['url']); ?>" loading="lazy" alt="<?php echo esc_attr($mobbannerimage['alt']); ?>" />
               <?php endif; ?>
             </div>
           <?php } else { ?>
-            <div class="mobImg mobileImg">
+            <div class="mobImg mobileImg wow fadeInUp" data-wow-duration="4s">
               <?php $bannerimage = get_sub_field('banner_image');
               if (!empty($bannerimage)) : ?>
                 <img src="<?php echo esc_url($bannerimage['url']); ?>" loading="lazy" alt="<?php echo esc_attr($bannerimage['alt']); ?>" />
@@ -37,8 +37,22 @@
           <?php } ?>
 
         <?php elseif (get_row_layout() == 'banner_animation_box') : ?>
+          
           <div class="bannerAnimeimg">
-            <?php echo get_sub_field('banner_animation'); ?>
+            <div class="desktopImg showBox">
+              <?php echo get_sub_field('banner_animation'); ?>  
+            </div>
+
+            <?php
+            $mobilebanneranimation = get_sub_field( "mobile_banner_animation" );
+            if ( $mobilebanneranimation ) {?>
+              <div class="mobileImg">
+                <?php echo get_sub_field('mobile_banner_animation'); ?>
+              </div>
+            <?php } else { ?>
+              <style type="text/css">.desktopImg.showBox {display:block;}</style>
+            <?php } ?>
+
           </div>
 
           <!-- <?php

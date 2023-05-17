@@ -236,6 +236,7 @@
                 font-weight: 800;
                 line-height: 24px;
                 line-height: 24px;
+                margin-bottom: 25px;
             }
 
             p {
@@ -664,6 +665,7 @@
                 h5 {
                     font-size: 18px;
                     line-height: 20px;
+                    margin-bottom: 20px;
                 }
 
                 p {
@@ -812,6 +814,7 @@
 
                 h5 {
                     font-size: 16px;
+                    margin-bottom: 15px;
                 }
 
                 p {
@@ -912,6 +915,9 @@
                 h3 {
                     margin-bottom: 12px;
                 }
+                h5{
+                    margin-bottom: 10px;
+                }
 
                 p {
                     margin-bottom: 16px;
@@ -983,7 +989,7 @@
                 overflow-y: hidden;
 
                 img {
-                    padding: 10px 0px;
+                    padding: 10px 0px 25px;
                     max-width: 100%;
                 }
 

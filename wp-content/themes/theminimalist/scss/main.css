@@ -7334,7 +7334,8 @@ footer .ftbutton {
         font-size: 20px;
         font-weight: 800;
         line-height: 24px;
-        line-height: 24px; }
+        line-height: 24px;
+        margin-bottom: 25px; }
       .blogsDetails .blogsDetailsSection .blogsDetailsTwo p {
         font-size: 20px;
         line-height: 30px;
@@ -7618,7 +7619,8 @@ footer .ftbutton {
           line-height: 20px; }
         .blogsDetails .blogsDetailsSection .blogsDetailsTwo h5 {
           font-size: 18px;
-          line-height: 20px; }
+          line-height: 20px;
+          margin-bottom: 20px; }
         .blogsDetails .blogsDetailsSection .blogsDetailsTwo p {
           font-size: 18px;
           line-height: 30px;
@@ -7693,7 +7695,8 @@ footer .ftbutton {
             font-size: 16px;
             margin-bottom: 15px; }
           .blogsDetails .blogsDetailsSection .blogsDetailsTwo h5 {
-            font-size: 16px; }
+            font-size: 16px;
+            margin-bottom: 15px; }
           .blogsDetails .blogsDetailsSection .blogsDetailsTwo p {
             font-size: 16px;
             line-height: 22px;
@@ -7739,6 +7742,8 @@ footer .ftbutton {
             line-height: 25px; }
           .blogsDetails .blogsDetailsSection .blogsDetailsTwo h3 {
             margin-bottom: 12px; }
+          .blogsDetails .blogsDetailsSection .blogsDetailsTwo h5 {
+            margin-bottom: 10px; }
           .blogsDetails .blogsDetailsSection .blogsDetailsTwo p {
             margin-bottom: 16px; }
           .blogsDetails .blogsDetailsSection .blogsDetailsTwo .divider {
@@ -7775,7 +7780,7 @@ footer .ftbutton {
           overflow-x: hidden;
           overflow-y: hidden; }
           .blogsDetails .blogsDetailsSection .blogsDetailsTwo img {
-            padding: 10px 0px;
+            padding: 10px 0px 25px;
             max-width: 100%; }
           .blogsDetails .blogsDetailsSection .blogsDetailsTwo h4 {
             margin-bottom: 10px; }
@@ -7915,7 +7920,8 @@ footer .ftbutton {
       width: 32%;
       z-index: 2; }
       .csdetailBg .bannerSection .sectionOne .mobtext h5 {
-        text-transform: uppercase; }
+        text-transform: uppercase;
+        line-height: 1; }
       .csdetailBg .bannerSection .sectionOne .mobtext h1 {
         line-height: 70px;
         margin: 35px 0px; }
@@ -7926,7 +7932,7 @@ footer .ftbutton {
       margin: 0px auto 0 24%;
       width: 60%; }
     .csdetailBg .bannerSection .sectionOne .bannerAnimeimg {
-      width: unset;
+      width: fit-content;
       margin: 0 auto; }
   .csdetailBg .lefttext-rightImg .sectionTwo {
     display: flex; }
@@ -7988,8 +7994,7 @@ footer .ftbutton {
     .csdetailBg .fullscreenBigimg .sectionFour img {
       margin: 0 auto; }
   .csdetailBg .leftimg-rightText .sectionTwo {
-    flex-direction: row-reverse;
-    align-items: center; }
+    flex-direction: row-reverse; }
   .csdetailBg .fullimgwithHeading {
     text-align: center;
     padding: 70px 0px; }
@@ -8002,6 +8007,8 @@ footer .ftbutton {
       .csdetailBg .fullimgwithHeading .headingSec p {
         color: rgba(0, 0, 0, 0.5);
         line-height: 30px; }
+    .csdetailBg .fullimgwithHeading .fullimghead {
+      display: none; }
   .csdetailBg .twoImgsides-headingmiddle {
     padding: 70px 0px; }
     .csdetailBg .twoImgsides-headingmiddle .imageHeadingmain {
@@ -8138,9 +8145,8 @@ footer .ftbutton {
           border-radius: 10px;
           transition: .9s all ease-in-out; }
       .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerSlider .bannerSliderSection .bannerSliderimg {
-        width: 50%;
-        margin: 0 auto;
-        padding-top: 80px; }
+        width: 70%;
+        margin: 0 auto; }
     .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara {
       position: absolute;
       top: 120px;
@@ -8157,17 +8163,36 @@ footer .ftbutton {
         margin: 35px 0px; }
     .csdetailBg .bannerSlidermain .bannerInnerDiv .awardSec {
       display: none; }
-  .csdetailBg .taggedBanner .sectionOne {
-    padding: 0px !important; }
-    .csdetailBg .taggedBanner .sectionOne .mobImg {
-      margin: 0 0 0 auto !important;
-      width: 100%; }
+  .csdetailBg.taggedBanner {
+    background: #fff; }
+    .csdetailBg.taggedBanner .sectionOne {
+      padding: 0px !important; }
+      .csdetailBg.taggedBanner .sectionOne .mobImg {
+        margin: 0 0 0 auto !important;
+        width: 100%; }
+    .csdetailBg.taggedBanner .fullAnimation {
+      padding-top: 200px; }
+    .csdetailBg.taggedBanner .mobileImg {
+      padding: 0px !important; }
   .csdetailBg.almaraiCasestudy {
     background: linear-gradient(127.67deg, #51BB79 18.41%, #00ACEF 47.2%); }
     .csdetailBg.almaraiCasestudy .bannerSection .sectionOne .mobImg {
       margin-left: 32%; }
+    .csdetailBg.almaraiCasestudy .fullAnimation {
+      padding: 80px; }
+    .csdetailBg.almaraiCasestudy .lefttext-rightImg {
+      padding: 100px 0px; }
   .csdetailBg.tataAig {
     background: #f5f5f5; }
+    .csdetailBg.tataAig .sectionOne {
+      padding: 0px !important; }
+      .csdetailBg.tataAig .sectionOne .mobImg {
+        margin: 0 auto !important;
+        width: 100%; }
+    .csdetailBg.tataAig .fullAnimation {
+      padding: 0px 80px; }
+    .csdetailBg.tataAig .lefttext-rightImg .mobileImg, .csdetailBg.tataAig .fullimgwithHeading .mobileImg {
+      padding: 0px !important; }
   .csdetailBg.dozeeBanner {
     background: #0733B5; }
     .csdetailBg.dozeeBanner .sectionOne {
@@ -8178,13 +8203,32 @@ footer .ftbutton {
     .csdetailBg.dozeeBanner video {
       width: 100%;
       padding: 0px; }
+    .csdetailBg.dozeeBanner .fullimgwithHeading .fullimghead {
+      display: block !important;
+      margin-bottom: 0px; }
   .csdetailBg.one-to-11 {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(219.06deg, #0D1917 23.88%, #A270F2 71.41%); }
-  .csdetailBg.tataluxuryCasestudy .bannerSlidermain .bannerInnerDiv {
-    padding: 0px !important; }
-    .csdetailBg.tataluxuryCasestudy .bannerSlidermain .bannerInnerDiv .bannerSlider .bannerSliderSection .bannerSliderimg {
-      width: 100% !important;
-      padding-top: 0px !important; }
+    .csdetailBg.one-to-11 .lefttext-rightImg .sectionTwo .mobimgTwo {
+      padding: 80px; }
+    .csdetailBg.one-to-11 .fullAnimation {
+      padding: 80px; }
+  .csdetailBg.tataluxuryCasestudy {
+    background: #000000; }
+    .csdetailBg.tataluxuryCasestudy .bannerSlidermain .bannerInnerDiv {
+      padding: 0px !important; }
+      .csdetailBg.tataluxuryCasestudy .bannerSlidermain .bannerInnerDiv .bannerSlider .bannerSliderSection .bannerSliderimg {
+        width: 100% !important;
+        padding-top: 0px !important; }
+    .csdetailBg.tataluxuryCasestudy .lefttext-rightImg .sectionTwo {
+      padding: 60px 0px; }
+    .csdetailBg.tataluxuryCasestudy:nth-child(3) .sectionTwo {
+      padding: 0px !important; }
+    .csdetailBg.tataluxuryCasestudy .fullimgwithHeading .imgDiv {
+      padding: 60px 50px; }
+  .csdetailBg.meeshoMain {
+    background: linear-gradient(158.47deg, #070707 4.94%, #101010 53.55%, #070707 58.48%, #020202 65.02%, #131313 77.34%); }
+    .csdetailBg.meeshoMain .lefttext-rightImg .mobileImg {
+      padding: 0px !important; }
   .csdetailBg .desktopImg {
     display: block; }
   .csdetailBg .mobileImg {
@@ -8275,7 +8319,19 @@ footer .ftbutton {
             width: 70%; }
           .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara h1 {
             line-height: 50px;
-            margin: 20px 0px; } }
+            margin: 20px 0px; }
+      .csdetailBg.one-to-11 .lefttext-rightImg .sectionTwo .mobimgTwo {
+        padding: 60px; }
+      .csdetailBg.one-to-11 .fullAnimation {
+        padding: 60px; }
+      .csdetailBg.almaraiCasestudy .fullAnimation {
+        padding: 60px; }
+      .csdetailBg.almaraiCasestudy .lefttext-rightImg {
+        padding: 80px 0px; }
+      .csdetailBg.tataAig .fullAnimation {
+        padding: 0px 80px; }
+      .csdetailBg.taggedBanner .fullAnimation {
+        padding-top: 150px; } }
   @media screen and (max-width: 1450px) {
     .csdetailBg {
       margin-top: 76px; }
@@ -8355,9 +8411,6 @@ footer .ftbutton {
           width: 180px; }
       .csdetailBg .bannerSlidermain .bannerInnerDiv {
         padding: 50px 0px 120px 0px; }
-        .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerSliderSection .bannerSliderimg {
-          width: 60%;
-          padding-top: 60px; }
         .csdetailBg .bannerSlidermain .bannerInnerDiv .slick-dots {
           right: 46px; }
         .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara {
@@ -8370,14 +8423,26 @@ footer .ftbutton {
             line-height: 24px; }
           .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara h1 {
             line-height: 40px;
-            margin: 10px 0px; } }
+            margin: 10px 0px; }
+      .csdetailBg.one-to-11 .lefttext-rightImg .sectionTwo .mobimgTwo {
+        padding: 50px; }
+      .csdetailBg.one-to-11 .fullAnimation {
+        padding: 50px; }
+      .csdetailBg.almaraiCasestudy .fullAnimation {
+        padding: 50px; }
+      .csdetailBg.almaraiCasestudy .lefttext-rightImg {
+        padding: 60px 0px; }
+      .csdetailBg.tataAig .fullAnimation {
+        padding: 0px 60px; }
+      .csdetailBg.taggedBanner .fullAnimation {
+        padding-top: 100px; } }
   @media screen and (max-width: 1200px) {
     .csdetailBg .bannerSection .sectionOne {
       padding: 35px 0px 80px 0px; }
       .csdetailBg .bannerSection .sectionOne .mobtext {
         padding-left: 32px; }
         .csdetailBg .bannerSection .sectionOne .mobtext h1 {
-          margin: 10px 0px;
+          margin: 10px 0px 15px;
           line-height: 40px; }
         .csdetailBg .bannerSection .sectionOne .mobtext p {
           line-height: 23px; }
@@ -8386,7 +8451,7 @@ footer .ftbutton {
       .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent {
         width: 70%; }
         .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent h2 {
-          margin: 0px 0px 10px 0px;
+          margin: 0px 0px 15px 0px;
           line-height: 40px; }
         .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent p {
           line-height: 23px; }
@@ -8453,12 +8518,46 @@ footer .ftbutton {
           line-height: 36px;
           margin: 10px 0px; }
       .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerSlider img {
-        width: 80%; } }
+        width: 80%; }
+    .csdetailBg.one-to-11 .lefttext-rightImg .sectionTwo .mobimgTwo {
+      padding: 40px; }
+    .csdetailBg.one-to-11 .fullAnimation {
+      padding: 40px; }
+    .csdetailBg.almaraiCasestudy .fullAnimation {
+      padding: 40px; }
+    .csdetailBg.almaraiCasestudy .lefttext-rightImg {
+      padding: 40px 0px; }
+    .csdetailBg.tataAig .fullAnimation {
+      padding: 0px 40px; }
+    .csdetailBg.taggedBanner .fullAnimation {
+      padding-top: 80px; } }
   @media screen and (max-width: 1024px) {
     .csdetailBg {
       margin-top: 72px; }
       .csdetailBg.almaraiCasestudy .bannerSection .sectionOne .mobImg {
         margin-left: auto; }
+      .csdetailBg.almaraiCasestudy .lefttext-rightImg {
+        padding: 20px 0px; }
+      .csdetailBg.almaraiCasestudy .fullAnimation {
+        padding: 20px 20px 15px; }
+      .csdetailBg.tataAig .sectionOne {
+        padding: 32px 0px 0px; }
+      .csdetailBg.tataAig .fullAnimation {
+        padding: 0px 25px; }
+      .csdetailBg.tataluxuryCasestudy .bannerSlidermain .bannerInnerDiv {
+        padding: 32px 0px 0px 0px !important; }
+        .csdetailBg.tataluxuryCasestudy .bannerSlidermain .bannerInnerDiv .awardSec {
+          display: none !important; }
+      .csdetailBg.tataluxuryCasestudy .lefttext-rightImg .sectionTwo {
+        padding: 30px 0px; }
+        .csdetailBg.tataluxuryCasestudy .lefttext-rightImg .sectionTwo .mobimgTwo .mobileImg {
+          width: 45%; }
+      .csdetailBg.tataluxuryCasestudy .fullimgwithHeading .imgDiv {
+        padding: 0px 20px; }
+      .csdetailBg.one-to-11 .lefttext-rightImg .sectionTwo .mobimgTwo {
+        padding: 35px; }
+      .csdetailBg.one-to-11 .fullAnimation {
+        padding: 20px 20px 60px; }
       .csdetailBg .desktopImg {
         display: none; }
       .csdetailBg .mobileImg {
@@ -8515,7 +8614,7 @@ footer .ftbutton {
           .csdetailBg .leftheading-rightText .sectionThree .mobtextThree .innerContianer {
             width: 100%; }
             .csdetailBg .leftheading-rightText .sectionThree .mobtextThree .innerContianer h5 {
-              margin-bottom: 8px;
+              margin-bottom: 15px;
               line-height: 14px; }
             .csdetailBg .leftheading-rightText .sectionThree .mobtextThree .innerContianer h2 {
               line-height: 36px;
@@ -8600,37 +8699,36 @@ footer .ftbutton {
             font-size: 12px;
             line-height: 20px;
             width: 100%; }
-        .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerSlider {
-          margin-bottom: 24px; }
-          .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerSlider img {
-            width: unset; }
-          .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerSlider .slick-dots {
-            top: 95%;
-            height: unset;
-            right: 0;
-            left: 0;
-            transform: unset;
-            display: block; }
-            .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerSlider .slick-dots li {
-              margin: 0px;
-              padding: 8px 0px; }
-              .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerSlider .slick-dots li button:before {
-                width: 4px;
-                height: 4px;
-                background: #858585; }
-              .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerSlider .slick-dots li.slick-active {
-                margin-bottom: 0px;
-                margin-right: 20px; }
-                .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerSlider .slick-dots li.slick-active button:before {
-                  width: 25px;
-                  height: 4px; }
-          .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerSlider .bannerSliderSection .bannerSliderimg {
-            width: 100%;
-            padding-top: 0px; }
+        .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerSlider img {
+          width: unset; }
+        .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerSlider .slick-dots {
+          top: 95%;
+          height: unset;
+          right: 0;
+          left: 0;
+          transform: unset;
+          display: block; }
+          .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerSlider .slick-dots li {
+            margin: 0px;
+            padding: 8px 0px; }
+            .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerSlider .slick-dots li button:before {
+              width: 4px;
+              height: 4px;
+              background: #858585; }
+            .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerSlider .slick-dots li.slick-active {
+              margin-bottom: 0px;
+              margin-right: 20px; }
+              .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerSlider .slick-dots li.slick-active button:before {
+                width: 25px;
+                height: 4px; }
+        .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerSlider .bannerSliderSection .bannerSliderimg {
+          width: 100%;
+          padding-top: 0px; }
         .csdetailBg .bannerSlidermain .bannerInnerDiv .awardSec {
           display: block;
           text-align: center;
-          padding-bottom: 20px; }
+          padding-bottom: 20px;
+          margin-top: 24px; }
           .csdetailBg .bannerSlidermain .bannerInnerDiv .awardSec h5 {
             text-transform: uppercase;
             margin-bottom: 12px; }
@@ -8646,7 +8744,9 @@ footer .ftbutton {
                 text-transform: unset;
                 margin: 12px 0px 4px; }
               .csdetailBg .bannerSlidermain .bannerInnerDiv .awardSec .awardMaindiv .awardDivbx p {
-                line-height: 28px; } }
+                line-height: 28px; }
+      .csdetailBg.taggedBanner .fullAnimation {
+        padding-top: 40px; } }
   @media screen and (max-width: 560px) {
     .csdetailBg .bottomimgLogos .moreCasestudy {
       height: 95px; }
@@ -8823,5 +8923,92 @@ footer .ftbutton {
   animation: 2s slideleftsec forwards;
   animation-delay: 3s;
   opacity: 0; }
+
+.animationContainer {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  background-color: orange;
+  position: relative; }
+  .animationContainer .feature .paraTwo,
+  .animationContainer .feature .paraThree {
+    opacity: 0; }
+  .animationContainer .feature .paraOne {
+    opacity: 1;
+    transition: 1s all ease-in-out; }
+  .animationContainer.active .feature .paraOne {
+    opacity: 1;
+    transition: 1s all ease-in-out; }
+  .animationContainer.active .feature .paraTwo {
+    opacity: 0; }
+  .animationContainer.active .feature .paraThree {
+    opacity: 0; }
+  .animationContainer.active .dots ul li:nth-child(1) {
+    height: 30px;
+    margin-bottom: 10px;
+    transition: 1s all ease-in-out; }
+  .animationContainer.activeTwo .feature .paraOne {
+    opacity: 0; }
+  .animationContainer.activeTwo .feature .paraTwo {
+    opacity: 1;
+    transition: 1s all ease-in-out; }
+  .animationContainer.activeTwo .feature .paraThree {
+    opacity: 0; }
+  .animationContainer.activeTwo .dots ul li:nth-child(1) {
+    height: 10px;
+    margin-bottom: 10px;
+    transition: 1s all ease-in-out; }
+  .animationContainer.activeTwo .dots ul li:nth-child(2) {
+    height: 30px;
+    margin-bottom: 10px;
+    transition: 1s all ease-in-out; }
+  .animationContainer.activeThree .feature .paraOne {
+    opacity: 0; }
+  .animationContainer.activeThree .feature .paraTwo {
+    opacity: 0; }
+  .animationContainer.activeThree .feature .paraThree {
+    opacity: 1;
+    transition: 1s all ease-in-out; }
+  .animationContainer.activeThree .dots ul li:nth-child(2) {
+    height: 10px;
+    margin-bottom: 10px;
+    transition: 1s all ease-in-out; }
+  .animationContainer.activeThree .dots ul li:nth-child(3) {
+    height: 30px;
+    margin-bottom: 10px;
+    transition: 1s all ease-in-out; }
+
+.dots {
+  position: absolute;
+  right: 0; }
+  .dots ul li {
+    background: #000;
+    display: block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50px;
+    border: 1px solid #000;
+    margin: 10px 0px; }
+
+.animationContainer svg {
+  position: absolute;
+  top: 0;
+  width: 50% !important;
+  right: 0; }
+
+.featuresContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1; }
 
 /*# sourceMappingURL=main.css.map */

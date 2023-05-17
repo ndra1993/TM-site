@@ -7,9 +7,9 @@
         <img src="<?php echo esc_url($firstimage['url']); ?>" loading="lazy" alt="<?php echo esc_attr($firstimage['alt']); ?>" />
       <?php endif; ?>
     </div>
-    <div class="headingDiv" style="color: <?php echo get_sub_field('text_color'); ?>;">
-      <h2 class="font36 colorBlack fontW700"><?php echo get_sub_field('heading'); ?></h2>
-      <p class="font20 fontW400"><?php echo get_sub_field('description'); ?></p>
+    <div class="headingDiv">
+      <h2 class="font36 fontW700" style="color: <?php echo get_sub_field('heading_text_color'); ?>;"><?php echo get_sub_field('heading'); ?></h2>
+      <p class="font20 fontW400" style="color: <?php echo get_sub_field('description_text_color'); ?>;"><?php echo get_sub_field('description'); ?></p>
     </div>
     <div class="imgDivmain wow slideInRight">
       <?php $secondimage = get_sub_field('second_image');

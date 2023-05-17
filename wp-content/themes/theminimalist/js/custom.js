@@ -170,6 +170,39 @@ $('.bannerSlider').slick({
 // banner slider case study js ends
 
 
+$('.bannerDiv').slick({
+  autoplay: true,
+  autoplaySpeed: 2000,
+  arrows: false,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  infinite: true,
+  speed: 500,
+  fade: true,
+  cssEase: 'linear',
+  dots: true,
+  pauseOnHover: false,
+});
+
+
+// wait until DOM is ready
+document.addEventListener("DOMContentLoaded", function (e) {
+  // make sure window is always at top on reload
+  window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+  }
+  // wait until window is loaded - all images, styles-sheets, fonts, links, and other media assets
+  // you could also use addEventListener() instead
+  window.onload = function () {
+    // OPTIONAL - waits til next tick render to run code (prevents running in the middle of render tick)
+    window.requestAnimationFrame(function () {
+
+      init();
+
+    })
+  }
+})
+
 
 
 /*jQuery('.clientSec').slick({
@@ -358,7 +391,7 @@ if ($(window).width() > 1024) {
   // });
 
   $(document).ready(function () {
-    $(".relatedBox").on('mouseover',function () {
+    $(".relatedBox").on('mouseover', function () {
       $(".relatedBox").removeClass("active");
       if ($(this).hasClass("active")) {
         $(this).removeClass("active");
@@ -372,10 +405,10 @@ if ($(window).width() > 1024) {
       return false;
     });
   });
-  $('.relatedBox').on('mouseleave', function() {
+  $('.relatedBox').on('mouseleave', function () {
     $('.relatedBox').removeClass('active');
     $('.relatedBox').removeClass("deactive");
- });
+  });
 }
 
 // active class for case study details last section js ends

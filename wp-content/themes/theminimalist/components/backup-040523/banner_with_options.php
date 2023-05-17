@@ -18,7 +18,7 @@
             <?php endif; ?>
           </div>
 
-          <div class="mobImg mobileImg">
+          <div class="mobImg mobileImg wow fadeInUp" data-wow-duration="4s">
             <?php
             $value = get_sub_field( "mobile_banner_image" );
             if ( $value ) {?>

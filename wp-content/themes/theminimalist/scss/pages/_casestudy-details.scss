@@ -25,6 +25,7 @@
 
                 h5 {
                     text-transform: uppercase;
+                    line-height: 1;
                 }
 
                 h1 {
@@ -44,7 +45,7 @@
             }
 
             .bannerAnimeimg {
-                width: unset;
+                width: fit-content;
                 margin: 0 auto;
             }
         }
@@ -164,7 +165,6 @@
     .leftimg-rightText {
         .sectionTwo {
             flex-direction: row-reverse;
-            align-items: center;
         }
     }
 
@@ -185,6 +185,10 @@
                 color: rgba(0, 0, 0, 0.5);
                 line-height: 30px;
             }
+        }
+
+        .fullimghead {
+            display: none;
         }
     }
 
@@ -265,10 +269,12 @@
             width: 100%;
             bottom: -100%;
             height: 210px;
+
             .brandLogos {
                 display: flex;
                 align-items: center;
                 height: 100%;
+
                 .relatedBox {
                     width: 50%;
                     background: #00C859;
@@ -277,6 +283,7 @@
                     position: relative;
                     text-align: center;
                     transition: 1s all ease-in-out;
+
                     a {
                         padding: 30px 0px;
                         display: block;
@@ -285,6 +292,7 @@
                         cursor: url(../images/mouse-cursor-pages.png) 30 30, auto;
                         height: 100%;
                         position: relative;
+
                         img {
                             display: block;
                             transition: 1s all ease-in-out;
@@ -293,22 +301,27 @@
                             transform: translateX(-50%);
                         }
                     }
+
                     &.active {
                         width: 75%;
+
                         &.relatedBoxone {
                             transition: 1s all ease-in-out;
+
                             a {
-                                img{
+                                img {
                                     left: 0;
                                     transform: translateX(0);
                                     transition: 1s all ease-in-out;
                                 }
                             }
                         }
+
                         &.relatedBoxtwo {
                             transition: 1s all ease-in-out;
+
                             a {
-                                img{
+                                img {
                                     right: 0;
                                     left: unset;
                                     transform: translateX(0);
@@ -317,9 +330,11 @@
                             }
                         }
                     }
+
                     &.deactive {
                         width: 25%;
                     }
+
                     // &.activerelated {
                     //     width: 85%;
                     // }
@@ -327,6 +342,7 @@
                     //     width: 15%;
                     // }
                 }
+
                 .relatedBoxtwo {
                     position: relative;
                 }
@@ -397,9 +413,8 @@
                 }
 
                 .bannerSliderSection .bannerSliderimg {
-                    width: 50%;
+                    width: 70%;
                     margin: 0 auto;
-                    padding-top: 80px;
                 }
             }
 
@@ -431,8 +446,11 @@
         }
     }
 
+
+
     // tagged banner style
-    .taggedBanner {
+    &.taggedBanner {
+        background: #fff;
         .sectionOne {
             padding: 0px !important;
 
@@ -441,16 +459,30 @@
                 width: 100%;
             }
         }
+        .fullAnimation{
+            padding-top: 200px;
+        }
+        .mobileImg{
+            padding: 0px !important;
+        }
     }
 
     // tagged css ends
 
-    // almarai banner style
+    // almarai style
     &.almaraiCasestudy {
         background: linear-gradient(127.67deg, #51BB79 18.41%, #00ACEF 47.2%);
 
         .bannerSection .sectionOne .mobImg {
             margin-left: 32%;
+        }
+
+        .fullAnimation {
+            padding: 80px;
+        }
+
+        .lefttext-rightImg {
+            padding: 100px 0px;
         }
     }
 
@@ -459,6 +491,23 @@
     // tata aig style starts
     &.tataAig {
         background: #f5f5f5;
+
+        .sectionOne {
+            padding: 0px !important;
+
+            .mobImg {
+                margin: 0 auto !important;
+                width: 100%;
+            }
+        }
+        .fullAnimation{
+            padding: 0px 80px;
+        }
+        .lefttext-rightImg , .fullimgwithHeading{
+            .mobileImg{
+                padding: 0px !important;
+            }
+        }
     }
 
     // tata aig style ends
@@ -480,6 +529,11 @@
             width: 100%;
             padding: 0px;
         }
+
+        .fullimgwithHeading .fullimghead {
+            display: block !important;
+            margin-bottom: 0px;
+        }
     }
 
     // tagged css ends
@@ -487,26 +541,57 @@
     // one to 11 css starts
     &.one-to-11 {
         background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(219.06deg, #0D1917 23.88%, #A270F2 71.41%);
+
+        .lefttext-rightImg .sectionTwo .mobimgTwo {
+            padding: 80px;
+        }
+
+        .fullAnimation {
+            padding: 80px;
+        }
     }
 
     // one to 11 css ends
 
     //tcl style starts
     &.tataluxuryCasestudy {
+        background: #000000;
         .bannerSlidermain {
             .bannerInnerDiv {
                 padding: 0px !important;
-
                 .bannerSlider .bannerSliderSection .bannerSliderimg {
                     width: 100% !important;
                     padding-top: 0px !important;
                 }
             }
         }
+        .lefttext-rightImg{
+            .sectionTwo{
+                padding: 60px 0px;
+            }
+        }
+        &:nth-child(3){
+            .sectionTwo{
+                padding: 0px !important;
+            } 
+        }
+        .fullimgwithHeading{
+            .imgDiv {
+                padding: 60px 50px;
+            }
+        }
     }
 
     //tcl style ends
+    // meesho case study css
+    &.meeshoMain {
+        background: linear-gradient(158.47deg, #070707 4.94%, #101010 53.55%, #070707 58.48%, #020202 65.02%, #131313 77.34%);
+        .lefttext-rightImg .mobileImg{
+            padding: 0px !important;
+        }
+    }
 
+    // meesho ends
     .desktopImg {
         display: block;
     }
@@ -705,6 +790,34 @@
                 }
             }
         }
+
+        &.one-to-11 {
+            .lefttext-rightImg .sectionTwo .mobimgTwo {
+                padding: 60px;
+            }
+
+            .fullAnimation {
+                padding: 60px;
+            }
+        }
+        &.almaraiCasestudy {
+            .fullAnimation {
+                padding: 60px;
+            }
+            .lefttext-rightImg {
+                padding: 80px 0px;
+            }
+        }
+        &.tataAig {
+            .fullAnimation{
+                padding: 0px 80px;
+            }
+        }
+        &.taggedBanner {
+            .fullAnimation{
+                padding-top: 150px;
+            }
+        }
     }
 
     @media screen and (max-width:1450px) {
@@ -884,11 +997,6 @@
             .bannerInnerDiv {
                 padding: 50px 0px 120px 0px;
 
-                .bannerSliderSection .bannerSliderimg {
-                    width: 60%;
-                    padding-top: 60px;
-                }
-
                 .slick-dots {
                     right: 46px;
                 }
@@ -913,6 +1021,35 @@
                 }
             }
         }
+
+        &.one-to-11 {
+            .lefttext-rightImg .sectionTwo .mobimgTwo {
+                padding: 50px;
+            }
+
+            .fullAnimation  {
+                padding: 50px;
+            }
+        }
+
+        &.almaraiCasestudy {
+            .fullAnimation {
+                padding: 50px;
+            }
+            .lefttext-rightImg {
+                padding: 60px 0px;
+            }
+        }
+        &.tataAig {
+            .fullAnimation{
+                padding: 0px 60px;
+            }
+        }
+        &.taggedBanner {
+            .fullAnimation{
+                padding-top: 100px;
+            }
+        }
     }
 
     @media screen and (max-width:1200px) {
@@ -924,7 +1061,7 @@
                     padding-left: 32px;
 
                     h1 {
-                        margin: 10px 0px;
+                        margin: 10px 0px 15px;
                         line-height: 40px;
                     }
 
@@ -943,7 +1080,7 @@
                     width: 70%;
 
                     h2 {
-                        margin: 0px 0px 10px 0px;
+                        margin: 0px 0px 15px 0px;
                         line-height: 40px;
                     }
 
@@ -1091,6 +1228,33 @@
                 }
             }
         }
+        &.one-to-11 {
+            .lefttext-rightImg .sectionTwo .mobimgTwo {
+                padding: 40px;
+            }
+
+            .fullAnimation {
+                padding: 40px;
+            }
+        }
+        &.almaraiCasestudy {
+            .fullAnimation {
+                padding: 40px;
+            }
+            .lefttext-rightImg {
+                padding: 40px 0px;
+            }
+        }
+        &.tataAig {
+            .fullAnimation{
+                padding: 0px 40px;
+            }
+        }
+        &.taggedBanner {
+            .fullAnimation{
+                padding-top: 80px;
+            }
+        }
     }
 
     @media screen and (max-width:1024px) {
@@ -1101,6 +1265,55 @@
                 margin-left: auto;
             }
 
+            .lefttext-rightImg {
+                padding: 20px 0px;
+            }
+            .fullAnimation {
+                padding: 20px 20px 15px;
+            }
+        }
+
+        &.tataAig {
+            .sectionOne {
+                padding: 32px 0px 0px;
+            }
+            .fullAnimation{
+                padding: 0px 25px;
+            }
+        }
+
+        &.tataluxuryCasestudy {
+            .bannerSlidermain {
+                .bannerInnerDiv {
+                    padding: 32px 0px 0px 0px !important;
+                    .awardSec{
+                        display: none !important;
+                    }
+                }
+            }
+            .lefttext-rightImg{
+                .sectionTwo{
+                    padding: 30px 0px;
+                    .mobimgTwo{
+                        .mobileImg{
+                            width: 45%;
+                        }
+                    }
+                }
+            }
+            .fullimgwithHeading .imgDiv{
+                padding: 0px 20px;
+            }
+        }
+
+        &.one-to-11 {
+            .lefttext-rightImg .sectionTwo .mobimgTwo {
+                padding: 35px;
+            }
+
+            .fullAnimation {
+                padding: 20px 20px 60px;
+            }
         }
 
         .desktopImg {
@@ -1202,7 +1415,7 @@
                     width: 100%;
 
                     h5 {
-                        margin-bottom: 8px;
+                        margin-bottom: 15px;
                         line-height: 14px;
                     }
 
@@ -1365,7 +1578,6 @@
                 }
 
                 .bannerSlider {
-                    margin-bottom: 24px;
 
                     img {
                         width: unset;
@@ -1411,6 +1623,7 @@
                     display: block;
                     text-align: center;
                     padding-bottom: 20px;
+                    margin-top: 24px;
 
                     h5 {
                         text-transform: uppercase;
@@ -1438,6 +1651,11 @@
                         }
                     }
                 }
+            }
+        }
+        &.taggedBanner {
+            .fullAnimation{
+                padding-top: 40px;
             }
         }
 
