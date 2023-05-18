@@ -8644,7 +8644,8 @@ footer .ftbutton {
           .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox:nth-child(2) {
             text-align: center; }
           .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox a img {
-            width: 100px; }
+            width: 100px;
+            top: 0; }
       .csdetailBg .fullimgwithHeading {
         padding: 20px 0px; }
         .csdetailBg .fullimgwithHeading .headingSec {
@@ -8749,7 +8750,7 @@ footer .ftbutton {
         padding-top: 40px; } }
   @media screen and (max-width: 560px) {
     .csdetailBg .bottomimgLogos .moreCasestudy {
-      height: 95px; }
+      height: 90px; }
       .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox {
         padding: 25px; }
         .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox a img {

@@ -1476,6 +1476,7 @@
 
                 a img {
                     width: 100px;
+                    top:0;
                 }
             }
         }
@@ -1663,7 +1664,7 @@
 
     @media screen and (max-width:560px) {
         .bottomimgLogos .moreCasestudy {
-            height: 95px;
+            height: 90px;
 
             .brandLogos .relatedBox {
                 padding: 25px;
