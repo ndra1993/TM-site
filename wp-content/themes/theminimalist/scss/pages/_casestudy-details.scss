@@ -541,7 +541,11 @@
     // one to 11 css starts
     &.one-to-11 {
         background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(219.06deg, #0D1917 23.88%, #A270F2 71.41%);
-
+        .bannerSection{
+            .sectionOne{
+                padding:0px;
+            }
+        }
         .lefttext-rightImg .sectionTwo .mobimgTwo {
             padding: 80px;
         }
@@ -792,10 +796,15 @@
         }
 
         &.one-to-11 {
+            .bannerSection{
+                .sectionOne{
+                    padding:0px;
+                }
+            }
             .lefttext-rightImg .sectionTwo .mobimgTwo {
                 padding: 60px;
             }
-
+            
             .fullAnimation {
                 padding: 60px;
             }
@@ -1023,6 +1032,11 @@
         }
 
         &.one-to-11 {
+            .bannerSection{
+                .sectionOne{
+                    padding:0px;
+                }
+            }
             .lefttext-rightImg .sectionTwo .mobimgTwo {
                 padding: 50px;
             }
@@ -1229,6 +1243,11 @@
             }
         }
         &.one-to-11 {
+            .bannerSection{
+                .sectionOne{
+                    padding:0px;
+                }
+            }
             .lefttext-rightImg .sectionTwo .mobimgTwo {
                 padding: 40px;
             }
