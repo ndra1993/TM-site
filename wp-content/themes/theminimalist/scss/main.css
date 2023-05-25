@@ -8208,6 +8208,8 @@ footer .ftbutton {
       margin-bottom: 0px; }
   .csdetailBg.one-to-11 {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(219.06deg, #0D1917 23.88%, #A270F2 71.41%); }
+    .csdetailBg.one-to-11 .bannerSection .sectionOne {
+      padding: 20px 0px 100px 0px !important; }
     .csdetailBg.one-to-11 .lefttext-rightImg .sectionTwo .mobimgTwo {
       padding: 80px; }
     .csdetailBg.one-to-11 .fullAnimation {
@@ -8320,6 +8322,8 @@ footer .ftbutton {
           .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara h1 {
             line-height: 50px;
             margin: 20px 0px; }
+      .csdetailBg.one-to-11 .bannerSection .sectionOne {
+        padding: 15px 0px 80px 0px !important; }
       .csdetailBg.one-to-11 .lefttext-rightImg .sectionTwo .mobimgTwo {
         padding: 60px; }
       .csdetailBg.one-to-11 .fullAnimation {
@@ -8424,6 +8428,8 @@ footer .ftbutton {
           .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara h1 {
             line-height: 40px;
             margin: 10px 0px; }
+      .csdetailBg.one-to-11 .bannerSection .sectionOne {
+        padding: 10px 0px 50px 0px !important; }
       .csdetailBg.one-to-11 .lefttext-rightImg .sectionTwo .mobimgTwo {
         padding: 50px; }
       .csdetailBg.one-to-11 .fullAnimation {
@@ -8539,7 +8545,7 @@ footer .ftbutton {
       .csdetailBg.almaraiCasestudy .lefttext-rightImg {
         padding: 20px 0px; }
       .csdetailBg.almaraiCasestudy .fullAnimation {
-        padding: 20px 20px 15px; }
+        padding: 20px 0px 15px; }
       .csdetailBg.tataAig .sectionOne {
         padding: 32px 0px 0px; }
       .csdetailBg.tataAig .fullAnimation {
@@ -8557,7 +8563,11 @@ footer .ftbutton {
       .csdetailBg.one-to-11 .lefttext-rightImg .sectionTwo .mobimgTwo {
         padding: 35px; }
       .csdetailBg.one-to-11 .fullAnimation {
-        padding: 20px 20px 60px; }
+        padding: 20px 0px 60px; }
+      .csdetailBg.dozeeBanner .mobileImg {
+        padding: 0px 0px; }
+      .csdetailBg.meeshoMain .mobileImg {
+        padding: 0px 0px; }
       .csdetailBg .desktopImg {
         display: none; }
       .csdetailBg .mobileImg {

@@ -40,7 +40,7 @@
 
           <?php elseif (get_row_layout() == 'right_animation_box') : ?>
 
-            <div class="desktopImg showBox">
+            <div class="<?php if(get_sub_field('mobile_right_animation')){?>desktopImg<?php } else { ?><?php } ?>  showBox">
               <?php echo get_sub_field('right_animation'); ?>
             </div>
 
@@ -51,7 +51,7 @@
                 <?php echo get_sub_field('mobile_right_animation'); ?>
               </div>
             <?php } else { ?>
-              <style type="text/css">.desktopImg.showBox {display:block;}</style>
+              <!-- <style type="text/css">.desktopImg.showBox {display:block;}</style> -->
             <?php } ?>
 
           <?php endif; ?>

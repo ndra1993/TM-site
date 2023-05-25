@@ -541,7 +541,9 @@
     // one to 11 css starts
     &.one-to-11 {
         background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(219.06deg, #0D1917 23.88%, #A270F2 71.41%);
-        
+        .bannerSection{
+            .sectionOne{padding:20px 0px 100px 0px !important;}
+        }
         .lefttext-rightImg .sectionTwo .mobimgTwo {
             padding: 80px;
         }
@@ -550,7 +552,7 @@
             padding: 80px;
         }
     }
-
+    
     // one to 11 css ends
 
     //tcl style starts
@@ -792,7 +794,9 @@
         }
 
         &.one-to-11 {
-            
+            .bannerSection{
+                .sectionOne{padding:15px 0px 80px 0px !important;}
+            }
             .lefttext-rightImg .sectionTwo .mobimgTwo {
                 padding: 60px;
             }
@@ -1024,6 +1028,9 @@
         }
 
         &.one-to-11 {
+            .bannerSection{
+                .sectionOne{padding:10px 0px 50px 0px !important;}
+            }
             .lefttext-rightImg .sectionTwo .mobimgTwo {
                 padding: 50px;
             }
@@ -1271,7 +1278,7 @@
                 padding: 20px 0px;
             }
             .fullAnimation {
-                padding: 20px 20px 15px;
+                padding: 20px 0px 15px;
             }
         }
 
@@ -1314,8 +1321,14 @@
             }
 
             .fullAnimation {
-                padding: 20px 20px 60px;
+                padding: 20px 0px 60px;
             }
+        }
+        &.dozeeBanner {
+            .mobileImg {padding: 0px 0px;}
+        }
+        &.meeshoMain {
+            .mobileImg {padding: 0px 0px;}
         }
 
         .desktopImg {
