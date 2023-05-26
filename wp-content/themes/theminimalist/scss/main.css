@@ -8586,7 +8586,8 @@ footer .ftbutton {
           width: 100%;
           padding-left: 24px;
           padding-right: 24px;
-          padding-top: 32px; }
+          padding-top: 32px;
+          padding-bottom: 15px; }
           .csdetailBg .bannerSection .sectionOne .mobtext h1 {
             line-height: 36px; }
           .csdetailBg .bannerSection .sectionOne .mobtext p {
@@ -8654,8 +8655,8 @@ footer .ftbutton {
           .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox:nth-child(2) {
             text-align: center; }
           .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox a img {
-            width: 100px;
-            top: 0; }
+            width: 150px;
+            top: -6px; }
       .csdetailBg .fullimgwithHeading {
         padding: 20px 0px; }
         .csdetailBg .fullimgwithHeading .headingSec {
@@ -8663,8 +8664,8 @@ footer .ftbutton {
           padding: 0px 20px;
           margin: 0px auto 25px; }
           .csdetailBg .fullimgwithHeading .headingSec h2 {
-            line-height: 26px;
-            margin-bottom: 5px; }
+            line-height: 28px;
+            margin-bottom: 10px; }
           .csdetailBg .fullimgwithHeading .headingSec p {
             line-height: 21px; }
       .csdetailBg .twoImgsides-headingmiddle {
@@ -8764,7 +8765,7 @@ footer .ftbutton {
       .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox {
         padding: 25px; }
         .csdetailBg .bottomimgLogos .moreCasestudy .brandLogos .relatedBox a img {
-          width: 70px; } }
+          width: 100px; } }
 
 #svganime .st0 {
   display: none; }
