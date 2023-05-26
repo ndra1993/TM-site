@@ -39,7 +39,7 @@
         <?php elseif (get_row_layout() == 'banner_animation_box') : ?>
           
           <div class="bannerAnimeimg">
-            <div class="<?php if(get_sub_field('mobile_banner_animation')){?>desktopImg<?php } else { ?><?php } ?> showBox">
+            <div class="<?php if(get_sub_field('mobile_banner_animation')){?>desktopImg<?php } else { ?><?php } ?> mobImg showBox">
               <?php echo get_sub_field('banner_animation'); ?>  
             </div>
 
