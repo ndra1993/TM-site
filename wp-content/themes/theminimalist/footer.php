@@ -68,7 +68,7 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
 
 
-<script language="javascript" type="text/javascript">
+<!-- <script language="javascript" type="text/javascript">
 jQuery(document).ready(function() {
   jQuery("#select_three").change(function() {
 alert("okk");
@@ -83,7 +83,7 @@ alert("okk");
 
 
 
-</script>
+</script> -->
 
 <?php wp_footer(); ?>
 
