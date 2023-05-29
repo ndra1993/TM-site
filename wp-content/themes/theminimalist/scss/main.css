@@ -7932,7 +7932,7 @@ footer .ftbutton {
       margin: 0px auto 0 24%;
       width: 60%; }
     .csdetailBg .bannerSection .sectionOne .bannerAnimeimg {
-      width: fit-content;
+      width: auto;
       margin: 0 auto; }
   .csdetailBg .lefttext-rightImg .sectionTwo {
     display: flex; }
@@ -8193,6 +8193,9 @@ footer .ftbutton {
       padding: 0px 80px; }
     .csdetailBg.tataAig .lefttext-rightImg .mobileImg, .csdetailBg.tataAig .fullimgwithHeading .mobileImg {
       padding: 0px !important; }
+    .csdetailBg.tataAig .fullimgwithHeading .fullimghead {
+      display: block !important;
+      margin-bottom: 0px; }
   .csdetailBg.dozeeBanner {
     background: #0733B5; }
     .csdetailBg.dozeeBanner .sectionOne {
@@ -8546,6 +8549,8 @@ footer .ftbutton {
         padding: 20px 0px; }
       .csdetailBg.almaraiCasestudy .fullAnimation {
         padding: 20px 0px 15px; }
+        .csdetailBg.almaraiCasestudy .fullAnimation .mobileImg {
+          padding: 0px 0px; }
       .csdetailBg.tataAig .sectionOne {
         padding: 32px 0px 0px; }
       .csdetailBg.tataAig .fullAnimation {

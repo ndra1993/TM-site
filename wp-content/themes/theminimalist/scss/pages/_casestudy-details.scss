@@ -45,7 +45,8 @@
             }
 
             .bannerAnimeimg {
-                width: fit-content;
+                // width: fit-content;
+                width:auto;
                 margin: 0 auto;
             }
         }
@@ -507,6 +508,10 @@
             .mobileImg{
                 padding: 0px !important;
             }
+        }
+        .fullimgwithHeading .fullimghead {
+            display: block !important;
+            margin-bottom: 0px;
         }
     }
 
@@ -1279,6 +1284,9 @@
             }
             .fullAnimation {
                 padding: 20px 0px 15px;
+                .mobileImg{
+                    padding: 0px 0px;
+                }
             }
         }
 
