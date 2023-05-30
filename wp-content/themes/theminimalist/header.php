@@ -139,7 +139,8 @@ else
 							</li> -->
 							<li class="menu_sub"><a href="<?php echo site_url('/blogs/'); ?>" class="menu__item font64">Blogs </a>
 							</li>
-
+							<li class="menu_sub"><a href="<?php echo site_url('/case-study/'); ?>" class="menu__item font64">Case Study </a>
+							</li>
 						</ul>
 <!-- 						<div class="footerLinksmbl">
 							<div class="Linksmblft">
