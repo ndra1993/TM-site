@@ -2,41 +2,7 @@
 $homepage_id = get_option('page_on_front');
 ?>
 
-<style>
-	
 
-	/* .works-filter {
-		display: inline-block;
-		text-decoration: none;
-		transition: all .35s ease;
-	}
-
-	.works-filter:hover {
-		cursor: pointer;
-		transition: all .35s ease;
-	}
-
-	
-
-	close-active {
-		color: white;
-	}
-
-	.workItem {
-		display: none;
-	}
-
-	.show-workItem {
-		display: block;
-		transition: all .35s ease;
-	} */
-
-	
-
-	
-
-	
-</style>
 
 <div class="desktopSection" style="display: block;">
 	<!-- <div class="filterDiv">

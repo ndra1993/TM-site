@@ -3247,9 +3247,9 @@ footer .ftbutton {
       line-height: 32px; } }
 @media screen and (max-width: 1600px) {
   .desktopSection {
-    margin-top: 87px; }
+    margin-top: 77px; }
     .desktopSection .casestudyContainerBox {
-      height: calc(100vh - 130px); }
+      height: calc(100vh - 122px); }
       .desktopSection .casestudyContainerBox .containerinnerBox .csheadings .csheadingsBox a {
         padding: 28px 0px;
         margin: 0px 65px; }
@@ -3264,7 +3264,7 @@ footer .ftbutton {
       .desktopSection .filterDiv .caseStudyFilter #filters li {
         padding: 5px 10px; }
     .desktopSection .casestudyContainerBox {
-      height: calc(100vh - 122px); }
+      height: calc(100vh - 121px); }
       .desktopSection .casestudyContainerBox .containerinnerBox .csheadings .csheadingsBox a {
         padding: 24px 0px;
         margin: 0px 55px; }
