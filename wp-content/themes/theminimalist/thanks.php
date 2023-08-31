@@ -1,6 +1,18 @@
 <?php get_header(); /*Template Name: thanks*/ 
 ?>
-<meta http-equiv="Refresh" content="0; url='<?php echo site_url('/enquiries-careers/'); ?>'" />
+
+<?php session_start();
+if($_SESSION['formset']=='FORMSET'){ session_destroy();?>
+<script>
+    window.location.href = '<?php echo site_url('/enquiries-careers/'); ?>';
+</script>
+<?php }
+else
+{
+  $_SESSION['formset']='FORMSET';
+}
+?>
+
 <style>
     
     .addressHeading{font-family: "Poppins", sans-serif;font-size:20px;font-weight:700;color:#000; line-height: 24px;}

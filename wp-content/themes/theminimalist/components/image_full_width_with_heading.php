@@ -6,11 +6,11 @@
     if ($fullimghead) { ?>
       <h2 class="font36 fontW800" style="color: <?php echo get_sub_field('heading_text_color'); ?>;"><?php echo get_sub_field('heading'); ?></h2>
     <?php } else { ?>
-      <style type="text/css">
+      <!-- <style type="text/css">
         .fullimgwithHeading {
           padding: 0px !important;
         }
-      </style>
+      </style> -->
     <?php } ?>
     <p class="font20 fontW500" style="color: <?php echo get_sub_field('description_text_color'); ?>;"><?php echo get_sub_field('description'); ?></p>
   </div>
@@ -22,7 +22,12 @@
             <?php $singleimagedesktop = get_sub_field('single_image_desktop');
             if (!empty($singleimagedesktop)) : ?>
               <img src="<?php echo esc_url($singleimagedesktop['url']); ?>" alt="<?php echo esc_attr($singleimagedesktop['alt']); ?>" />
-            <?php endif; ?>
+              <style type="text/css">
+                .imgDiv img {
+                  padding-top: 40px;
+                }
+            </style> 
+              <?php endif; ?>
           </div>
           <?php
           $mobsi = get_sub_field("single_image_mobile");

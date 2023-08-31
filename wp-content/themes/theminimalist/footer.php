@@ -50,7 +50,9 @@
     
 </footer>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<?php if(!is_front_page()){ ?>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.4/lottie.min.js"></script>
+<?php } ?>
 <script src="https://unpkg.co/gsap@3/dist/gsap.min.js"></script>
 <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
 <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scrollbar/8.5.2/smooth-scrollbar.js"></script>
@@ -60,18 +62,17 @@
 <script src="<?php echo get_template_directory_uri(); ?>/js/plugins.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/form.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/custom.js"></script> 
-<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<!-- sa<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
 <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.min.js'></script>
 
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/admin-lte/2.3.11/js/app.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/admin-lte/2.3.11/js/app.js"></script> 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
-
-
-<!-- <script language="javascript" type="text/javascript">
+sa
+-->
+<script language="javascript" type="text/javascript">
 jQuery(document).ready(function() {
   jQuery("#select_three").change(function() {
-alert("okk");
     var selectedCountry = jQuery(".country option:selected").text();
     if (selectedCountry == "India") {
       alert("You have selected the language - Hindi");
@@ -83,7 +84,7 @@ alert("okk");
 
 
 
-</script> -->
+</script>
 
 <?php wp_footer(); ?>
 

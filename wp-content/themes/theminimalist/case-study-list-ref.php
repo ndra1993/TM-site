@@ -1,8 +1,17 @@
 <?php get_header(); /*Template Name: case studies listing ref */
 $homepage_id = get_option( 'page_on_front' );
-error_reporting(0);
 session_start();
+/*$pageWasRefreshed = isset($_SERVER['HTTP_CACHE_CONTROL']) && $_SERVER['HTTP_CACHE_CONTROL'] === 'max-age=0';
+
+if($pageWasRefreshed ) {
+  //do something because page was refreshed;
+} */
+
 $cslider = $_REQUEST['ids'];
+
+
+
+
 for($k=0;$k<10;$k++)
 {
 if( $cslider == $_SESSION['names'][$k])
@@ -19,7 +28,11 @@ $_SESSION[ "names" ] = array_unique($arrys);
 $my_arr = array();
 $my_arr = $_SESSION['names'];
 $cnt = count($my_arr);
-
+if($cnt<=2 && $cslider != 'all')
+{
+  session_destroy();
+  header("location:case-study-listing-v/?ids=all");
+}
 ?>  
 <style>
 .filter
@@ -37,15 +50,22 @@ $cnt = count($my_arr);
 
 <div class="desktopSection">
   <div class="caseStudyFilter">
-
+ <?php
+            $terms = get_terms("casestudy_categories");
+            $count = count($terms);
+            $cmnt = $count+2;
+            ?>
 
  <ul id="filters">
    
-   <li class="filterLi><span class="filter font12 fontW500" data-filter=".experience, .technology, .marketing, .branding, .video, .strategy">All</span></li>
-            <?php
-            $terms = get_terms("casestudy_categories");
-            $count = count($terms);
-            if ( $count > 0 ){
+   <li class="filterLi <?php if($cslider=='all' || $cmnt<=$cnt || $cnt<=1){?>active<?php } ?>">
+
+    <a href="<?php if($cslider=='all' || $count<$cnt || $cnt<=1){?>#<?php }else{?>case-study-listing-v/?ids=all<?php } ?>"  class="filter font12 fontW500 " >All </a>
+   
+
+  </li>
+           
+           <?php if ( $count > 0 ){
                 foreach ( $terms as $y => $term ) {
                     $termname = $term->name;
                     $termslug = strtolower($term->slug);
@@ -54,8 +74,8 @@ $cnt = count($my_arr);
 
             ?>
             
-            <li class="filterLi <?php if ($valarr!='') {echo 'active';}?>">
-            <a href="case-study-ref/?ids=<?php echo $termslug ?>"  class="filter font12 fontW500" ><?php echo $termslug ?> </a>
+            <li class="filterLi <?php if ($valarr!='' ) {echo 'active';}?>">
+            <a href="case-study-listing-v/?ids=<?php echo $termslug ?>"  class="filter font12 fontW500" ><?php echo $termslug ?> </a>
                 </li>
            
                     
@@ -77,114 +97,188 @@ $cnt = count($my_arr);
       <div class="swiper-wrapper">
 
  <?php 
-$groupID = 'case_study';
-    $custom_query_args = array('post_type' => 'casestudy','posts_per_page' => 9,'order' => 'DESC','post_status' => 'publish');
-                        $custom_query_args['paged'] = get_query_var( 'paged' ) ? get_query_var( 'paged' ) : 1;
-$custom_query = new WP_Query( $custom_query_args );
-                    $count = $custom_query->found_posts;
-               
-                    $i=0;
-                     while ($custom_query->have_posts()) : $custom_query->the_post(); ?>
+                    $groupID = 'case_study';
+                    $custom_query_args = array('post_type' => 'casestudy','posts_per_page' => 9,'order' => 'DESC','post_status' => 'publish');
+                    $custom_query_args['paged'] = get_query_var( 'paged' ) ? get_query_var( 'paged' ) : 1;
+                            $custom_query = new WP_Query( $custom_query_args );
+                            $count = $custom_query->found_posts;
+                            $j=0;
+                            while ($custom_query->have_posts()) { $custom_query->the_post(); ?>
                             <?php 
-                            $id_data= $_SESSION['ids'][$i];
+                            //$id_data= $_SESSION['ids'][$i];
                                 $terms = get_the_terms( $post->ID, 'casestudy_categories' );
-                                
                                 if ( $terms && ! is_wp_error( $terms ) ) :
                                 $links = array();
-                                foreach ( $terms as $term ) {
-                                $links[] = $term->slug;
-                                
-                                }
+                                foreach ( $terms as $term ) { $links[] = $term->slug; }
                                 $tax_links = join( " ", str_replace(' ', '-', $links));
-                               $tax = strtolower($tax_links);
-                               else :
+                                $tax = strtolower($tax_links);
+                                else :
                                 $tax = '';
                                 endif;
-
-                                  $valarr = array_search($tax,$my_arr,true);
-
+                                $valarrimg = array_search($tax,$my_arr,true);
                             ?> 
+     <?php if ($valarrimg!='' && $cslider!='all' && $cnt > 1 ) {$j=$j-1;?>
+      <div class="swiper-slide"><div class="swiper-slide-container"><a href="<?php the_permalink();?>"><img src="<?php echo wp_get_attachment_url( get_post_thumbnail_id(get_the_ID()) ) ?>" width="100%"></a></div></div>
+     <?php } ?>
+<?php //$cslider=='all' &&
+if ( $valarrimg =='' && $cnt <= 1 || $cslider=='all' ) {?>
+<div class="swiper-slide"><div class="swiper-slide-container"><a href="<?php the_permalink();?>"><img src="<?php echo wp_get_attachment_url( get_post_thumbnail_id(get_the_ID()) ) ?>" width="100%"></a></div></div>
+<?php } $j++;} ?>
 
 
 
 
-<?php if ($valarr!='') {?>
+<!--data 5-->
+<?php $valtoseeimg = $count-$j;
+if($valtoseeimg<=3 && $cslider!='all' ){
+$newcnt = 5-$valtoseeimg+$valtoseeimg;
+  for($i=0;$i<=$newcnt;$i++)
+{
+  ?>
+<?php      while ($custom_query->have_posts()) { $custom_query->the_post(); ?>
+                            <?php 
+                            //$id_data= $_SESSION['ids'][$i];
+                                $terms = get_the_terms( $post->ID, 'casestudy_categories' );
+                                if ( $terms && ! is_wp_error( $terms ) ) :
+                                $links = array();
+                                foreach ( $terms as $term ) { $links[] = $term->slug; }
+                                $tax_links = join( " ", str_replace(' ', '-', $links));
+                                $tax = strtolower($tax_links);
+                                else :
+                                $tax = '';
+                                endif;
+                                $valarrimg = array_search($tax,$my_arr,true);
+                            ?> 
+      <?php if ($valarrimg!='' && $cslider!='all' && $cnt > 1 ) {?>
+      <div class="swiper-slide"><div class="swiper-slide-container"><a href="<?php the_permalink();?>"><img src="<?php echo wp_get_attachment_url( get_post_thumbnail_id(get_the_ID()) ) ?>" width="100%"></a></div></div>
+    <?php } } }?>
 
-      <div class="swiper-slide"><div class="swiper-slide-container"><a href="#"><img src="<?php echo wp_get_attachment_url( get_post_thumbnail_id(get_the_ID()) ) ?>" width="100%"></a></div></div>
-      <?php //} ?>
-<?php } ?>
 
-<?php
-      $i++;
-    endwhile; ?>
-
-
+ <?php } ?>
+<!--data 5-->
 
       </div>
     </div>
     
-    
+ <!--imageend-->   
     <div class="swiper-container gallery-thumbs">
      <div class="swiper-wrapper">
-
-
 <?php
 $groupID = 'case_study';
-    $custom_query_args = array('post_type' => 'casestudy','posts_per_page' => 9,'order' => 'DESC','post_status' => 'publish');
-                        $custom_query_args['paged'] = get_query_var( 'paged' ) ? get_query_var( 'paged' ) : 1;
+$custom_query_args = array('post_type' => 'casestudy','posts_per_page' => 9,'order' => 'DESC','post_status' => 'publish');
+$custom_query_args['paged'] = get_query_var( 'paged' ) ? get_query_var( 'paged' ) : 1;
 $custom_query = new WP_Query( $custom_query_args );
-                    $count = $custom_query->found_posts;
-                     $j = 0;
-
+$count = $custom_query->found_posts;
+$j = 0;
                      while ($custom_query->have_posts()) 
                      {
                         $custom_query->the_post(); 
-                        
-                                 $terms = get_the_terms( $post->ID, 'casestudy_categories' );
-                                
-                                if ( $terms && ! is_wp_error( $terms ) ) :
+                        $terms = get_the_terms( $post->ID, 'casestudy_categories' );
+                        if ( $terms && ! is_wp_error( $terms ) ) :
                                 $links = array();
                                 foreach ( $terms as $term ) {
                                 $links[] = $term->slug;
-                                
-                                }
+                                   }
                                 $tax_links = join( " ", str_replace(' ', '-', $links));
                                 $tax = strtolower($tax_links);
-
-                        
-                              else :
+                                else :
                                 $tax = '';
                                 endif;
-
-
                                 $valarr = array_search($tax,$my_arr,true);
+                                 $varcnt =$varcnt+ $valarr;
+        ?>   
 
-                            ?>   
 
 
-
-<?php if ($valarr!='') {
-
-  ?>
-<div class="swiper-slide"><div class="swiper-slide-container"> 
-        <a href="#" class="anchor"><p><?php  echo $my_arr[$valarr];?>-<?php  the_title(); ?></p>
-
-        <h2 class="h2 font30 fontW600 colorBlack"> <?php $text = str_replace('<p>','', the_content());
-echo $text = str_replace('</p>','',$text); ?></h2></a>
-              </div></div>
-
+<?php if ($valarr!='' && $cslider!='all' && $cnt > 1 ) {$j=$j-1;$arv[] = $myarr[$valarr];?>
+<div class="swiper-slide">
+<div class="swiper-slide-container"> 
+      <a href="<?php the_permalink();?>" class="anchor"><p><?php  the_title(); ?></p>
+        <h2 class="h2 font30 fontW600 colorBlack"> 
+        <?php $text = str_replace('<p>','', the_content());echo $text = str_replace('</p>','',$text); ?>
+        </h2>
+      </a>
+</div>
+</div>
 <?php } ?>
 
 
+<?php //$cslider=='all' &&
+if ( $valarr=='' && $cnt <= 1 || $cslider=='all' ) {?>
+<div class="swiper-slide">
+<div class="swiper-slide-container"> 
+      <a href="<?php the_permalink();?>" class="anchor"><p><?php  the_title(); ?></p>
+        <h2 class="h2 font30 fontW600 colorBlack"> 
+        <?php $text = str_replace('<p>','', the_content());echo $text = str_replace('</p>','',$text); ?>
+        </h2>
+      </a>
+</div>
+</div>
+<?php } ?>
+
+ <?php $j++;} ?>
+
+
+<!--data 5-->
+<?php $valtosee = $count-$j;
+if($valtosee<=3 && $cslider!='all' )
+{
+   $newcnt = 5-$valtosee+$valtosee;
+  for($i=0;$i<=$newcnt;$i++)
+{
+while ($custom_query->have_posts()) 
+                     {
+                        $custom_query->the_post(); 
+                        $terms = get_the_terms( $post->ID, 'casestudy_categories' );
+                        if ( $terms && ! is_wp_error( $terms ) ) :
+                                $links = array();
+                                foreach ( $terms as $term ) {
+                                $links[] = $term->slug;
+                                   }
+                                $tax_links = join( " ", str_replace(' ', '-', $links));
+                                $tax = strtolower($tax_links);
+                                else :
+                                $tax = '';
+                                endif;
+                                $valarrm = array_search($tax,$my_arr,true);
+                                 $varcnt =$varcnt+ $valarr;
+                                 
+
+
+        ?>   
 
 
 
-   <?php
-    
-    $j++;
+<?php 
+if ($valarrm!='' && $cslider!='all' && $cnt > 1 ) {?>
+<div class="swiper-slide">
+<div class="swiper-slide-container"> 
+      <a href="<?php the_permalink();?>" class="anchor"><p><?php  the_title(); ?></p>
+        <h2 class="h2 font30 fontW600 colorBlack"> 
+        <?php $text = str_replace('<p>','', the_content());echo $text = str_replace('</p>','',$text); ?>
+        </h2>
+      </a>
+</div>
+</div>
+<?php } } }?>
 
-     }
-     ?>
+
+
+ <?php }  ?>
+
+<!--data 5-->
+
+
+
+
+
+
+
+
+
+
+
+
 
 
       
@@ -226,7 +320,7 @@ $custom_query = new WP_Query( $custom_query_args );
 
 
   <div class="caseStudyDetailsSection">
-    <a href="#">
+    <a href="<?php the_permalink();?>">
        <?php echo the_post_thumbnail( 'medium' ); ?>
      <!-- <img src="<?php echo wp_get_attachment_url( get_post_thumbnail_id(get_the_ID()) ) ?>">-->
       <div class="description">

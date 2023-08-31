@@ -1,0 +1,271 @@
+.serviceContainer {
+    margin-top: 86px;
+    border-top:1px solid #000;
+   
+    
+
+    .tabs {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        transition: 0.2s all;
+        padding: 100px 0px 130px 75px;
+        width: 85%;
+
+        .btn {
+            background-color: #fff;
+            width: 50%;
+            line-height: 125px;
+            cursor: pointer;
+            border: none;
+            color: #e3e3e3;
+            text-align: left;
+            letter-spacing: -0.055em;
+
+            &.active {
+                color: #000;
+            }
+        }
+
+        &.smaller {
+            position: fixed;
+            width: 100%;
+            z-index: 1;
+            top: 0;
+            background: #fff;
+            padding: 24px 0px 24px 75px;
+            transition: 0.2s all;
+            scroll-behavior: smooth;
+            justify-content: flex-start;
+
+            .btn {
+                font-size: 30px;
+                width: 12%;
+                line-height: 36px;
+            }
+        }
+
+    }
+
+    .sections {
+        .content {
+            display: none;
+
+            &.smallertwo {
+                margin-top: 120px;
+            }
+
+            &.active {
+                display: block;
+            }
+
+            .sectionOne {
+                position: relative;
+
+                &:nth-child(1) {
+                    background-color: #EFDAD5;
+                }
+
+                &:nth-child(2) {
+                    background-color: #FDDC7B;
+                }
+
+                &:nth-child(3) {
+                    background-color: #CDE4FF;
+                }
+
+                &:nth-child(4) {
+                    background-color: #D7FFF0;
+                }
+
+                &:nth-child(5) {
+                    background-color: #FFF9D7;
+                }
+
+                &:nth-child(6) {
+                    background-color: #FFE0D7;
+                }
+
+                .mobtext {
+                    position: absolute;
+                    top: 15%;
+                    padding-left: 75px;
+                    width: 22%;
+                    h5 {
+                        padding: 20px 0px 25px 0px;
+                        font-size: 16px;
+                    }
+
+                    a {
+                        text-decoration: none;
+                        border: 1px solid #000;
+                        font-size: 12px;
+                        padding: 10px 15px;
+                        text-transform: uppercase;
+                    }
+                }
+
+                .mobImg img {
+                    margin: 0 auto;
+                    display: flex;
+                    align-items: center;
+                    width: 60%;
+                    position: relative;
+                    left: 2%;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width:1800px) {
+        .tabs {
+            padding: 90px 0px 110px 65px;
+            width: 83%;
+
+            .btn {
+                line-height: 110px;
+            }
+
+            &.smaller {
+                padding: 24px 0px 24px 65px;
+            }
+        }
+    }
+
+    @media screen and (max-width:1600px) {
+        .tabs {
+            padding: 70px 0px 80px 55px;
+
+            .btn {
+                line-height: 90px;
+            }
+
+            &.smaller {
+                padding: 24px 0px 24px 55px;
+
+                .btn {
+                    width: 18%;
+                }
+            }
+        }
+
+        .sections .content .sectionOne {
+            .mobtext {
+                padding-left: 55px;
+                width: 34%;
+            }
+        }
+    }
+
+    @media screen and (max-width:1400px) {
+        margin-top: 76px;
+        .tabs {
+            padding: 60px 0px 70px 45px;
+
+            .btn {
+                line-height: 76px;
+            }
+
+            &.smaller {
+                padding: 24px 0px 24px 45px;
+            }
+        }
+        .sections .content .sectionOne .mobImg img{
+            left: 8%;
+        }
+    }
+
+    @media screen and (max-width:1280px) {
+        .tabs {
+            padding: 40px 0px 50px 35px;
+
+            .btn {
+                line-height: 64px;
+            }
+
+            &.smaller {
+                padding: 24px 0px 24px 35px;
+
+                .btn {
+                    width: 20%;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width:1024px) {
+        .tabs {
+            padding: 30px 0px 40px 35px;
+            width: 90%;
+
+            .btn {
+                line-height: 40px;
+                width: 48%;
+            }
+
+            &.smaller .btn {
+                width: 26%;
+            }
+        }
+
+        .sections .content {
+            .sectionOne {
+                .mobtext {
+                    position: unset;
+                    width: 100%;
+                    padding-left: 24px;
+                    padding-bottom: 45px;
+                    h3{
+                        font-size: 24px
+                    }
+                    h5{
+                        line-height: 21px;
+                    }
+                }
+
+                .mobImg img{
+                    width: 100%;
+                    left: 0%;
+                }
+            }
+            &.smallertwo{
+                margin-top: 84px;
+            }
+        }
+    }
+
+    @media screen and (max-width:768px) {
+        .tabs {
+            padding: 25px 0px 30px 23px;
+
+            &.smaller {
+                padding: 24px 0px 24px 23px;
+
+                .btn {
+                    font-size: 20px;
+                    line-height: 24px;
+                    width: 25%;
+                }
+            }
+
+            .btn {
+                line-height: 24px;
+            }
+        }
+        .sections .content {
+            &.smallertwo{
+                margin-top: 100px;
+            }
+        }
+    }
+    
+
+    @media screen and (max-width:520px) {
+        .tabs {
+            &.smaller .btn {
+                line-height: 24px;
+                width: 48%;
+            }
+        }
+    }
+}

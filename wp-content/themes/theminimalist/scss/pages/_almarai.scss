@@ -1,0 +1,25 @@
+.almaraiBanner{
+   .mobImg{
+      padding-top: 200px;
+   }
+   @media screen and (max-width:1600px) {
+      .mobImg{
+         padding-top: 160px;
+      }
+   }
+   @media screen and (max-width:1400px) {
+      .mobImg{
+         padding-top: 120px;
+      }
+   }
+   @media screen and (max-width:1200px) {
+      .mobImg{
+         padding-top: 100px;
+      }
+   }
+   @media screen and (max-width:1024px) {
+      .mobImg{
+         padding-top: 0px;
+      }
+   }
+}

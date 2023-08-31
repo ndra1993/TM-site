@@ -26,11 +26,11 @@
                         by cookies or similar technologies.
                     </li>
                     <li>
-                        information that you submit to any third-party website you access from the links contained within the website.
-            Note: Please check the privacy policy of such third-party websites to find out how
+                        information that you submit to any third-party website you access from the links contained within the website.<br/>
+          <i>  Note: Please check the privacy policy of such third-party websites to find out how
 they will use your personal information and sensitive personal data or information.
 The company shall not be responsible or liable for the use or misuse of the same by
-third-party websites.
+third-party websites.</i>
                     </li>
                     <li>
                         your IP address, operating system, browser type, browser version, browser

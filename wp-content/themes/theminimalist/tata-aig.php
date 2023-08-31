@@ -62,7 +62,6 @@ $homepage_id = get_option('page_on_front');
             </div>
         </div>
     </section>
-    
     <!-- textleft-rightimg -->
     <section class="lefttext-rightImg">
         <div class="sectionTwo">

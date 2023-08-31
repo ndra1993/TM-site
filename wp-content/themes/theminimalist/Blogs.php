@@ -6,7 +6,7 @@
     <div class="blogListing">
         <?php
             $groupID = 'post';
-            $custom_query_args = array('post_type' => 'post','posts_per_page' => 6,'order' => 'DESC','post_status' => 'publish');
+            $custom_query_args = array('post_type' => 'post','posts_per_page' => 50,'order' => 'DESC','post_status' => 'publish');
             $custom_query_args['paged'] = get_query_var( 'paged' ) ? get_query_var( 'paged' ) : 1;
             $custom_query = new WP_Query( $custom_query_args );
             $count = $custom_query->found_posts;

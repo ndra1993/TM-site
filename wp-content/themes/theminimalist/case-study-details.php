@@ -23,8 +23,8 @@ $homepage_id = get_option( 'page_on_front' );
                 <h5 class="font20 colorWhite fontW500">One to 11 is India's first and fastest-growing decentralised social networking, online betting and fantasy Play-to-Earn gaming platform on the blockchain - with over 2.2 million users!</h5>
             </div>
             <div class="mobImg">
-            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-            viewBox="0 0 1178 1105" style="enable-background:new 0 0 1178 1105;" xml:space="preserve">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+     viewBox="0 0 1178 1105" style="enable-background:new 0 0 1178 1105;" xml:space="preserve">
                 <g id="Layer_1" class="animFloat">
                     
                         <image style="overflow:visible;" width="211" height="297" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANMAAAEpCAYAAAAJeRcSAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA
@@ -31311,11 +31311,11 @@ m/7Pm+JeW9nKVrayla1sZStb2cpWtrKVrWxlK19BIaL/D3YC/OfXvxv/AAAAAElFTkSuQmCC" transf
             </div>
         </div>
     </section>
-    <section class="sectionSix bottomimgLogos">
+    <section class="sectionSix">
         <div class="sectionSiximg"><img src="<?php bloginfo('template_directory'); ?>/images/phone-four.png"></div>
         <div class="moreCasestudy">
             <div class="brandLogos">
-                <div class="relatedBox relatedBoxone" style="background: linear-gradient(97.82deg, #E6237B 0%, #EC2018 102.14%);">
+                <div class="relatedBox relatedBoxone" style="background: #ec2120;">
                     <a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/nayaka.png"></a>
                 </div>
                 <div class="relatedBox relatedBoxtwo" style="background: #00C859;">

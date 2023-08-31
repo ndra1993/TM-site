@@ -158,12 +158,17 @@
 
             .wp-block-image {
                 margin: 0 !important;
+                img {
+                    width: 100%; 
+                }
             }
 
             img {
                 padding-bottom: 36px;
                 max-width: 100%;
+                // width: 100%;
             }
+            
 
             ul {
                 // padding: 10px 0px;

@@ -1,0 +1,170 @@
+.privacyPolicypg {
+    height: calc(100vh - 148px);
+    margin-top: 96px;
+    overflow-y: auto;
+    border-top:1px solid #000;
+    /* ===== Scrollbar CSS ===== */
+    /* Firefox */
+    scrollbar-width: auto;
+    scrollbar-color: #00ffa3 #ffffff;
+
+    /* Chrome, Edge, and Safari */
+    &::-webkit-scrollbar {
+        width: 13px;
+    }
+
+    &::-webkit-scrollbar-track {
+        background: #ffffff;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: #00ffa3;
+        border-radius: 15px;
+        border: 3px solid #ffffff;
+    }
+
+    .privacyPolicy {
+        width: 50%;
+        margin: 63px auto 130px;
+
+
+        .privacyBoxone p:nth-child(1) {
+            margin-top: 0px;
+        }
+
+        .privacyBoxtwo, .privacyBoxone {
+            margin-top: 115px;
+
+            h3 {
+                font-size: 36px;
+                font-weight: 800;
+                font-family: 'Poppins', sans-serif;
+                color: #000;
+                line-height: 36px;
+            }
+        }
+
+        p,
+        ul li {
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 36px;
+            font-family: 'Poppins', sans-serif;
+            color: #000;
+            margin-top: 30px;
+        }
+
+        ul {
+            margin-left: 27px;
+
+            li {
+                text-decoration: none;
+                margin-top: 0px;
+            }
+        }
+
+        a {
+            font-weight: 700;
+            color: #000;
+
+            &:visited,
+            &:hover,
+            &:active,
+            &:focus {
+                color: #000;
+            }
+        }
+
+
+
+
+
+        @media screen and (max-width:1200px) {
+            margin: 100px auto 60px;
+
+            .privacyBoxtwo, .privacyBoxone {
+                margin-top: 50px;
+
+                h3 {
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 1800px) {
+        height: calc(100vh - 145px);
+        margin-top: 96px;
+    }
+
+    @media screen and (max-width: 1600px) {
+        height: calc(100vh - 132px);
+        margin-top: 86px;
+
+        .privacyPolicy {
+            width: 60%;
+            margin: 63px auto 100px;
+
+            .privacyBoxtwo, .privacyBoxone {
+                margin-top: 90px;
+            }
+        }
+    }
+
+    @media screen and (max-width: 1450px) {
+        height: calc(100vh - 122px);
+        margin-top: 76px;
+
+        .privacyPolicy {
+            width: 60%;
+            margin: 60px auto 80px;
+
+            .privacyBoxtwo, .privacyBoxone {
+                margin-top: 70px;
+            }
+
+            p {
+                margin-top: 25px;
+            }
+        }
+    }
+
+    @media screen and (max-width:1200px) {
+        .privacyPolicy {
+            margin: 40px auto 60px;
+
+            .privacyBoxtwo, .privacyBoxone {
+                margin-top: 50px;
+
+                h3 {
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 1024px) {
+        height: calc(100vh - 104px);
+        margin-top: 73px;
+
+        .privacyPolicy {
+            margin: 40px auto 20px;
+            width: 100%;
+            padding: 0px 24px;
+
+            .privacyBoxtwo, .privacyBoxone {
+                margin-top: 30px;
+
+                h3 {
+                    font-size: 24px;
+                }
+            }
+
+            p,
+            ul li {
+                font-size: 16px;
+            }
+        }
+    }
+
+}

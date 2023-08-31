@@ -268,7 +268,7 @@ $homepage_id = get_option( 'page_on_front' );
             <div class="slider slider-nav thumb-image">
                             <a href=""><div class="thumbnail-image">
                                 <p class="fontW800">Strategy And Consulting</p>
-                                <h2 class="fontW800">Strategy And Consulting Strategy And Consulting Strategy And Consulting</h2>
+                                <h2 class="fontW800">Strategy And Consulting</h2>
                             </div></a>
                             <a href=""><div class="thumbnail-image">
                                 <p class="fontW800">Strategy And Consulting</p>
@@ -407,7 +407,7 @@ $(document).ready(function(){
     $(".slick-track").height(874);
 
     //$(".slick-track").css({"transform": "translate3d(0px, " + -138 + "px, 0px)"});
-    alert(ab);
+   // alert(ab);
    
   });
 

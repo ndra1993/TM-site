@@ -21,7 +21,7 @@
 			list-style:none;
 
 				li {
-				padding: 7px 15px;
+				// padding: 7px 15px;
 				background: #EEEEEE;
 				border-radius: 10px;
 				margin-right: 10px;
@@ -39,6 +39,7 @@
 						display: block;
 						text-decoration:none;
 						cursor: pointer;
+						padding: 7px 15px;
 					}
 				}
 			}
@@ -47,6 +48,7 @@
 	.filter-btn-mbl{display: none;}
 	.casestudyContainerBox {
 		height: calc(100vh - 148px);
+		// height: calc(100vh - 208px);
 		overflow: hidden;
 		.containerinnerBox {
 			display: flex;
@@ -120,7 +122,7 @@
 						}
 					}
 					&.showHover {
-						border-bottom: 10px solid #00FFA3;
+						border-bottom: 5px solid #00FFA3;
 						a {
 							padding-top: 50px;
 							padding-bottom: 50px;
@@ -174,14 +176,14 @@
 			}
 		
 			#style-1::-webkit-scrollbar {
-				width: 8px;
-				background-color: #00FFA3;
+				width: 5px;
+				background-color: #000000;
 			}
 		
 			#style-1::-webkit-scrollbar-thumb {
-				border-radius: 10px;
-				-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
-				background-color: #00FFA3;
+				border-radius: 5px;
+				// -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+				background-color: #000000;
 			}
 		}
 	}
@@ -191,7 +193,9 @@
 /* media quary */
 @media screen and (max-width: 1800px) {
 	.desktopSection{
-		.casestudyContainerBox{
+		.casestudyContainerBox{    
+			// height: calc(100vh - 206px);
+			height: calc(100vh - 146px);
 			.containerinnerBox{
 				.csheadings{
 					.csheadingsBox {
@@ -227,7 +231,11 @@
 
 @media screen and (max-width: 1600px) {
 	.desktopSection{margin-top:77px;
+		.filterDiv{
+			.caseStudyFilter {padding: 20px 0px 10px 60px;}
+		}
 		.casestudyContainerBox{
+			// height: calc(100vh - 180px);
 			height: calc(100vh - 122px);
 			.containerinnerBox{
 				.csheadings{
@@ -287,17 +295,32 @@
 	// }
 }
 
+@media screen and (max-width: 1440px) {
+	.desktopSection{
+		.filterDiv{
+			.caseStudyFilter {padding: 10px 0px 10px 60px;}
+		}
+	}
+}
+
 @media screen and (max-width: 1400px) {
 	.desktopSection{margin-top:77px;
 		.filterDiv{
 			.caseStudyFilter {padding: 7px 0px 7px 60px;
 				#filters {
 				
-					li{padding: 5px 10px;}
+					li{
+						// padding: 5px 10px;
+						span{
+							padding: 5px 10px;
+						}
+					}
 				}
 			}
 		}
-		.casestudyContainerBox{height: calc(100vh - 121px);
+		.casestudyContainerBox{
+			// height: calc(100vh - 161px);
+			height: calc(100vh - 122px);
 			.containerinnerBox{
 				.csheadings{
 					.csheadingsBox {
@@ -384,8 +407,7 @@
 		
 		.casestudyContainerBox {height: calc(100vh - 118px);
 	  		.gallery-top {width: calc(50% - 50px);
-			    .swiper-slide-container {
-				}
+			    
 			}
 			.gallery-thumbs {
 				.swiper-slide {
@@ -456,6 +478,7 @@
 				.heading-div {
 					display: flex;
 					margin-bottom: 10px;
+					align-items: center;
 					.select-filter-heading {
 						font-size: 24px;
 						line-height: 30px;
@@ -465,21 +488,29 @@
 						border: none;
 						background: transparent;
 						margin-left: auto;
+						// padding-right: 20px;
+						img{
+							width: 20px;
+							height: 20px;
+						}
 					}
 				}
 				#filters {
 					display: flex;
 					flex-flow: wrap;
 					li {
-						padding: 15px 20px;
 						border-radius: 40px;
-						padding: 28px 24px;
+						// padding: 28px 24px;
 						margin: 16px 4px;
+						span{
+							padding: 10px 15px;
+						}
 					}
 				}
 				&.active {
 					transition: 0.5s all ease-in-out;
 					bottom: 0;
+					padding: 28px 20px;
 				}
 			}
 		}

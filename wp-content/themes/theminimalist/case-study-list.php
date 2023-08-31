@@ -25,8 +25,6 @@ $homepage_id = get_option( 'page_on_front' );
       <div class="swiper-slide"><div class="swiper-slide-container"><a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/phone.png"></a></div></div>
       <div class="swiper-slide"><div class="swiper-slide-container"><a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/phone-two.png"></a></div></div>
       <div class="swiper-slide"><div class="swiper-slide-container"><a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/phone.png"></a></div></div>
-      <div class="swiper-slide"><div class="swiper-slide-container"><a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/phone-two.png"></a></div></div>
-      <div class="swiper-slide"><div class="swiper-slide-container"><a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/phone.png"></a></div></div>
       </div>
     </div>
     
@@ -57,15 +55,6 @@ $homepage_id = get_option( 'page_on_front' );
 
         <h2 class="h2  font30 fontW600 colorBlack">Strategy And Consulting one</h2></a>
               </div></div>
-      <div class="swiper-slide"><div class="swiper-slide-container"> 
-        <a href="#" class="fontW600 font30 anchor"><p>Strategy And Consulting one</p>
-
-        <h2 class="h2  font30 fontW600 colorBlack">Strategy And Consulting one</h2></a></div></div>
-      <div class="swiper-slide"><div class="swiper-slide-container">
-       <a href="#" class="fontW600 font30 anchor"><p>Strategy And Consulting one</p>
-
-        <h2 class="h2  font30 fontW600 colorBlack">Strategy And Consulting one</h2></a>
-              </div></div>      
      </div>
     </div>
    

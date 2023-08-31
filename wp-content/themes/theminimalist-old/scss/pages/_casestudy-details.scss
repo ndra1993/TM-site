@@ -1,0 +1,1715 @@
+.page-template-single-casestudy-post {
+    overflow-x: hidden;
+    header{border-bottom: 1px solid #000;}
+}
+
+.csdetailBg {
+    margin-top: 96px;
+    overflow: hidden;
+    line-height: 0px;
+
+    img {
+        max-width: 100%;
+    }
+
+    .animFloat {
+        animation: float 3s ease-in-out infinite;
+    }
+
+    .bannerSection {
+        .sectionOne {
+            position: relative;
+            padding: 115px 0px 222px 0px;
+
+            .mobtext {
+                position: absolute;
+                top: 10%;
+                padding-left: 112px;
+                width: 32%;
+                z-index: 2;
+
+                h5 {
+                    text-transform: uppercase;
+                    line-height: 1;
+                }
+
+                h1 {
+                    line-height: 70px;
+                    margin: 35px 0px;
+                }
+
+                p {
+                    line-height: 30px;
+                    width: 73%;
+                }
+            }
+
+            .mobImg {
+                margin: 0px auto 0 24%;
+                width: 60%;
+            }
+
+            .bannerAnimeimg {
+                // width: fit-content;
+                width:auto;
+                margin: 0 auto;
+            }
+        }
+    }
+
+
+    .lefttext-rightImg {
+        .sectionTwo {
+            display: flex;
+
+            .mobimgTwo {
+                width: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                img {
+                    margin: 0 auto;
+                }
+            }
+
+            .mobtextTwo {
+                padding: 115px 0px 94px 115px;
+                width: 50%;
+
+                .innerContent {
+                    width: 60%;
+
+                    h5 {
+                        text-transform: uppercase;
+                        margin-bottom: 15px;
+                        line-height: 1;
+                    }
+
+                    h2 {
+                        line-height: 70px;
+                        margin: 0px 0px 35px 0px;
+                    }
+
+                    p {
+                        line-height: 30px;
+                    }
+                }
+            }
+        }
+    }
+
+    .leftheading-rightText {
+        .sectionThree {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 115px 0px 115px 115px;
+
+            .mobtextThree {
+                width: 50%;
+
+                .innerContianer {
+                    width: 60%;
+
+                    h5 {
+                        text-transform: uppercase;
+                        margin-bottom: 15px;
+                        line-height: 1;
+                    }
+
+                    h2 {
+                        line-height: 70px;
+                    }
+                }
+            }
+
+            .mobsubtextThree {
+                width: 45%;
+
+                .innerContianertwo {
+                    width: 60%;
+
+                    p {
+                        line-height: 30px;
+                    }
+                }
+            }
+        }
+    }
+
+    .centerheading-centerText {
+        .fullSection {
+            padding: 130px 112px 130px 112px;
+
+            h1 {
+                line-height: 53px;
+                letter-spacing: -0.03em;
+                text-align: center;
+                margin-bottom: 36px;
+            }
+
+            p {
+                line-height: 36px;
+                text-align: center;
+                letter-spacing: 0.03em;
+            }
+        }
+    }
+
+
+    .fullscreenBigimg {
+        .sectionFour {
+            padding: 50px 0px;
+
+            img {
+                margin: 0 auto;
+            }
+        }
+    }
+
+    .leftimg-rightText {
+        .sectionTwo {
+            flex-direction: row-reverse;
+        }
+    }
+
+    .fullimgwithHeading {
+        text-align: center;
+        padding: 70px 0px;
+
+        .headingSec {
+            width: 60%;
+            margin: 0 auto 78px;
+
+            h2 {
+                margin-bottom: 15px;
+                line-height: 42px;
+            }
+
+            p {
+                color: rgba(0, 0, 0, 0.5);
+                line-height: 30px;
+            }
+        }
+
+        .fullimghead {
+            display: none;
+        }
+    }
+
+    .twoImgsides-headingmiddle {
+        padding: 70px 0px;
+
+        .imageHeadingmain {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            text-align: center;
+
+            .headingDiv {
+                width: 30%;
+
+                h2 {
+                    line-height: 42px;
+                    margin-bottom: 15px;
+                }
+
+                p {
+                    color: rgba(0, 0, 0, 0.5);
+                    line-height: 30px;
+                }
+            }
+
+            .imgDivmain {
+                width: 33%;
+            }
+        }
+    }
+
+    .twoImgtogether-headinglast {
+        padding: 70px 0px;
+
+        .imageHeadingmain {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            text-align: center;
+
+            .headingDiv {
+                width: 32%;
+                text-align: left;
+                padding-right: 150px;
+
+                h2 {
+                    line-height: 42px;
+                    margin-bottom: 15px;
+                }
+
+                p {
+                    color: rgba(0, 0, 0, 0.5);
+                    line-height: 30px;
+                }
+            }
+
+            .imgDivmain {
+                width: 65%;
+            }
+        }
+    }
+
+    .bottomimgLogos {
+        position: relative;
+        overflow: hidden;
+
+        .sectionSiximg {
+            line-height: 0px;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .moreCasestudy {
+            position: absolute;
+            width: 100%;
+            bottom: -100%;
+            height: 210px;
+
+            .brandLogos {
+                display: flex;
+                align-items: center;
+                height: 100%;
+
+                .relatedBox {
+                    width: 50%;
+                    background: #00C859;
+                    transition: 1s ease-out;
+                    height: 100%;
+                    position: relative;
+                    text-align: center;
+                    transition: 1s all ease-in-out;
+
+                    a {
+                        padding: 30px 0px;
+                        display: block;
+                        transition: 1s all ease-in-out;
+                        width: 100%;
+                        cursor: url(../images/mouse-cursor-pages.png) 30 30, auto;
+                        height: 100%;
+                        position: relative;
+
+                        img {
+                            display: block;
+                            transition: 1s all ease-in-out;
+                            position: absolute;
+                            left: 50%;
+                            transform: translateX(-50%);
+                        }
+                    }
+
+                    &.active {
+                        width: 75%;
+
+                        &.relatedBoxone {
+                            transition: 1s all ease-in-out;
+
+                            a {
+                                img {
+                                    left: 0;
+                                    transform: translateX(0);
+                                    transition: 1s all ease-in-out;
+                                }
+                            }
+                        }
+
+                        &.relatedBoxtwo {
+                            transition: 1s all ease-in-out;
+
+                            a {
+                                img {
+                                    right: 0;
+                                    left: unset;
+                                    transform: translateX(0);
+                                    transition: 1s all ease-in-out;
+                                }
+                            }
+                        }
+                    }
+
+                    &.deactive {
+                        width: 25%;
+                    }
+
+                    // &.activerelated {
+                    //     width: 85%;
+                    // }
+                    // &.deactiverelated {
+                    //     width: 15%;
+                    // }
+                }
+
+                .relatedBoxtwo {
+                    position: relative;
+                }
+            }
+        }
+
+        .circleAnimShow {
+            position: absolute;
+            bottom: 0%;
+            transition: all 1s ease-in-out;
+        }
+
+    }
+
+    .bannerSlidermain {
+        .bannerInnerDiv {
+            position: relative;
+            padding: 115px 0px 222px 0px;
+
+            .bannerSlider {
+                margin-bottom: 0px;
+
+                img {
+                    margin: 0 auto;
+                }
+
+                .slick-dots {
+                    position: absolute;
+                    top: 50%;
+                    right: 76px;
+                    transform: translate(-50%, -50%);
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    height: 100%;
+                    width: unset;
+
+                    li {
+                        width: 8px;
+                        height: 8px;
+                        margin: 0px 10px;
+                        padding: 10px 0px;
+
+                        button {
+                            &:before {
+                                content: " ";
+                                border-radius: 10px;
+                                width: 8px;
+                                height: 8px;
+                                background: #627578;
+                                opacity: 1;
+                            }
+                        }
+                    }
+
+                    li.slick-active {
+                        margin-bottom: 40px;
+                    }
+
+                    li.slick-active button:before {
+                        opacity: 1;
+                        color: #627578;
+                        width: 8px;
+                        height: 50px;
+                        border-radius: 10px;
+                        transition: .9s all ease-in-out;
+                    }
+                }
+
+                .bannerSliderSection .bannerSliderimg {
+                    width: 70%;
+                    margin: 0 auto;
+                }
+            }
+
+            .bannerslidePara {
+                position: absolute;
+                top: 120px;
+                left: 100px;
+                z-index: 1;
+                width: 28%;
+
+                h5 {
+                    line-height: 14px;
+                }
+
+                p {
+                    line-height: 30px;
+                    width: 75%;
+                }
+
+                h1 {
+                    line-height: 70px;
+                    margin: 35px 0px;
+                }
+            }
+
+            .awardSec {
+                display: none;
+            }
+        }
+    }
+
+
+
+    // tagged banner style
+    &.taggedBanner {
+        background: #fff;
+        .sectionOne {
+            padding: 0px !important;
+
+            .mobImg {
+                margin: 0 0 0 auto !important;
+                width: 100%;
+            }
+        }
+        .fullAnimation{
+            padding-top: 200px;
+        }
+        .mobileImg{
+            padding: 0px !important;
+        }
+    }
+
+    // tagged css ends
+
+    // almarai style
+    &.almaraiCasestudy {
+        // background: linear-gradient(127.67deg, #51BB79 18.41%, #00ACEF 47.2%);
+        background: linear-gradient(75.67deg, #51BB79 48.41%, #00ACEF 100.2%);
+        .bannerSection .sectionOne {
+            padding: 115px 0px 115px 0px;
+            .mobImg {
+                margin-left: 32%;
+            }
+        }
+
+        .fullAnimation {
+            padding: 80px;
+        }
+
+        .lefttext-rightImg {
+            padding: 100px 0px;
+        }
+    }
+
+    // almarai css ends
+
+    // tata aig style starts
+    &.tataAig {
+        background: #f5f5f5;
+
+        .sectionOne {
+            padding: 0px !important;
+
+            .mobImg {
+                margin: 0 auto !important;
+                width: 100%;
+            }
+        }
+        .fullAnimation{
+            padding: 0px 80px;
+        }
+        .lefttext-rightImg , .fullimgwithHeading{
+            .mobileImg{
+                padding: 0px !important;
+            }
+        }
+        .fullimgwithHeading .fullimghead {
+            display: block !important;
+            margin-bottom: 0px;
+        }
+    }
+
+    // tata aig style ends
+
+    // tagged banner style
+    &.dozeeBanner {
+        background: #0733B5;
+
+        .sectionOne {
+            padding: 0px !important;
+
+            .mobImg {
+                margin: 0 0 0 auto !important;
+                width: 100%;
+            }
+        }
+
+        video {
+            width: 100%;
+            padding: 0px;
+        }
+
+        .fullimgwithHeading .fullimghead {
+            display: block !important;
+            margin-bottom: 0px;
+        }
+    }
+
+    // tagged css ends
+
+    // one to 11 css starts
+    &.one-to-11 {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(219.06deg, #0D1917 23.88%, #A270F2 71.41%);
+        .bannerSection{
+            .sectionOne{padding:20px 0px 100px 0px !important;}
+        }
+        .lefttext-rightImg .sectionTwo .mobimgTwo {
+            padding: 80px;
+        }
+
+        .fullAnimation {
+            padding: 80px;
+        }
+    }
+    
+    // one to 11 css ends
+
+    //tcl style starts
+    &.tataluxuryCasestudy {
+        background: #000000;
+        .bannerSlidermain {
+            .bannerInnerDiv {
+                padding: 0px !important;
+                .bannerSlider .bannerSliderSection .bannerSliderimg {
+                    width: 100% !important;
+                    padding-top: 0px !important;
+                }
+            }
+        }
+        .lefttext-rightImg{
+            .sectionTwo{
+                padding: 60px 0px;
+            }
+        }
+        &:nth-child(3){
+            .sectionTwo{
+                padding: 0px !important;
+            } 
+        }
+        .fullimgwithHeading{
+            .imgDiv {
+                padding: 60px 50px;
+            }
+        }
+    }
+
+    //tcl style ends
+    // meesho case study css
+    &.meeshoMain {
+        background: linear-gradient(158.47deg, #070707 4.94%, #101010 53.55%, #070707 58.48%, #020202 65.02%, #131313 77.34%);
+        .lefttext-rightImg .mobileImg{
+            padding: 0px !important;
+        }
+    }
+
+    // meesho ends
+    .desktopImg {
+        display: block;
+    }
+
+    .mobileImg {
+        display: none;
+    }
+
+    /**************************************************Media Query*********************************************/
+    @media screen and (max-width:1600px) {
+        margin-top: 86px;
+
+        .bannerSection {
+            .sectionOne {
+                padding: 90px 0px 180px 0px;
+
+                .mobtext {
+                    padding-left: 82px;
+
+                    h1 {
+                        margin: 20px 0px;
+                        line-height: 50px;
+                    }
+
+                    p {
+                        line-height: 27px;
+                    }
+                }
+
+                .mobImg {
+                    margin: 0px auto 0 22%;
+                }
+            }
+        }
+
+        .lefttext-rightImg .sectionTwo {
+            .mobtextTwo {
+                padding: 90px 0px 94px 90px;
+
+                .innerContent {
+                    width: 50%;
+
+                    h2 {
+                        margin: 0px 0px 25px 0px;
+                        line-height: 50px;
+                    }
+
+                    p {
+                        line-height: 27px;
+                    }
+                }
+            }
+
+            .mobimgTwo {
+                width: 50%;
+            }
+
+        }
+
+        .leftheading-rightText .sectionThree {
+            padding: 90px 0px 90px 90px;
+
+            .mobtextThree {
+                .innerContianer h2 {
+                    line-height: 50px;
+                }
+            }
+
+            .mobsubtextThree {
+                .innerContianertwo p {
+                    line-height: 27px;
+                }
+            }
+        }
+
+        .centerheading-centerText {
+            .fullSection {
+                padding: 100px 82px 100px 82px;
+
+                h1 {
+                    line-height: 45px;
+                    margin-bottom: 32px;
+                }
+
+                p {
+                    line-height: 30px;
+                }
+            }
+        }
+
+        .fullscreenBigimg .sectionFour {
+            padding: 30px 0px;
+        }
+
+        .fullimgwithHeading {
+            padding: 50px 0px;
+
+            .headingSec {
+                margin: 0 auto 58px;
+
+                h2 {
+                    margin-bottom: 10px;
+                    line-height: 38px;
+                }
+
+                p {
+                    line-height: 27px;
+                }
+            }
+
+
+        }
+
+        .twoImgsides-headingmiddle {
+            padding: 50px 0px;
+
+            .imageHeadingmain {
+                .headingDiv {
+                    h2 {
+                        margin-bottom: 10px;
+                        line-height: 38px;
+                    }
+
+                    p {
+                        line-height: 27px;
+                    }
+                }
+            }
+        }
+
+        .twoImgtogether-headinglast {
+            padding: 50px 0px;
+
+            .imageHeadingmain {
+                .headingDiv {
+                    padding-right: 120px;
+
+                    h2 {
+                        line-height: 38px;
+                        margin-bottom: 10px;
+                    }
+
+                    p {
+                        line-height: 27px;
+                    }
+                }
+
+                .imgDivmain {
+                    width: 66%;
+                }
+            }
+        }
+
+        .bottomimgLogos {
+            .moreCasestudy {
+                height: 160px;
+
+                .brandLogos {
+                    .relatedBox {
+                        a {
+                            img {
+                                width: 200px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .bannerSlidermain {
+            .bannerInnerDiv {
+                padding: 90px 0px 180px 0px;
+
+                .slick-dots {
+                    right: 56px;
+                }
+
+                .bannerslidePara {
+                    top: 100px;
+                    left: 80px;
+                    width: 26%;
+
+                    h5 {
+                        line-height: 12px;
+                    }
+
+                    p {
+                        line-height: 26px;
+                        width: 70%;
+                    }
+
+                    h1 {
+                        line-height: 50px;
+                        margin: 20px 0px;
+                    }
+                }
+            }
+        }
+
+        &.one-to-11 {
+            .bannerSection{
+                .sectionOne{padding:15px 0px 80px 0px !important;}
+            }
+            .lefttext-rightImg .sectionTwo .mobimgTwo {
+                padding: 60px;
+            }
+            
+            .fullAnimation {
+                padding: 60px;
+            }
+        }
+        &.almaraiCasestudy {
+            .bannerSection .sectionOne {
+                padding: 90px 0px 90px 0px;}
+            .fullAnimation {
+                padding: 60px;
+            }
+            .lefttext-rightImg {
+                padding: 80px 0px;
+            }
+        }
+        &.tataAig {
+            .fullAnimation{
+                padding: 0px 80px;
+            }
+        }
+        &.taggedBanner {
+            .fullAnimation{
+                padding-top: 150px;
+            }
+        }
+    }
+
+    @media screen and (max-width:1450px) {
+        margin-top: 76px;
+
+        .bannerSection {
+            .sectionOne {
+                padding: 50px 0px 120px 0px;
+
+                .mobtext {
+                    padding-left: 52px;
+
+                    h1 {
+                        margin: 10px 0px;
+                        line-height: 45px;
+                    }
+
+                    p {
+                        line-height: 25px;
+                    }
+                }
+
+                .mobImg {
+                    margin: 0px auto 0 20%;
+                }
+            }
+        }
+
+        .lefttext-rightImg .sectionTwo {
+            .mobtextTwo {
+                padding: 50px 0px 94px 50px;
+
+                .innerContent {
+                    width: 65%;
+
+                    h5 {
+                        margin-bottom: 10px;
+                    }
+
+                    h2 {
+                        margin: 0px 0px 15px 0px;
+                        line-height: 45px;
+                    }
+
+                    p {
+                        line-height: 25px;
+                    }
+                }
+            }
+
+            .mobimgTwo {
+                width: 50%;
+            }
+
+        }
+
+        .leftheading-rightText .sectionThree {
+            padding: 50px 0px 50px 50px;
+
+            .mobtextThree {
+                .innerContianer {
+                    width: 65%;
+
+                    h5 {
+                        margin-bottom: 10px;
+                    }
+
+                    h2 {
+                        line-height: 45px;
+                    }
+                }
+            }
+
+            .mobsubtextThree {
+                .innerContianertwo {
+                    width: 58%;
+
+                    p {
+                        line-height: 25px;
+                    }
+                }
+            }
+        }
+
+        .centerheading-centerText {
+            .fullSection {
+                padding: 80px 52px 80px 52px;
+
+                h1 {
+                    line-height: 40px;
+                    margin-bottom: 28px;
+                }
+
+                p {
+                    line-height: 26px;
+                }
+            }
+        }
+
+
+        .fullscreenBigimg .sectionFour {
+            padding: 20px 0px;
+        }
+
+        .fullimgwithHeading {
+            padding: 40px 0px;
+
+            .headingSec {
+                margin: 0 auto 50px;
+
+                h2 {
+                    line-height: 32px;
+                }
+
+                p {
+                    line-height: 25px;
+                }
+            }
+        }
+
+        .twoImgsides-headingmiddle {
+            padding: 40px 0px;
+
+            .imageHeadingmain {
+                .headingDiv {
+                    h2 {
+                        line-height: 32px;
+                    }
+
+                    p {
+                        line-height: 25px;
+                    }
+                }
+            }
+        }
+
+        .twoImgtogether-headinglast {
+            padding: 40px 0px;
+
+            .imageHeadingmain {
+                .headingDiv {
+                    width: 31%;
+                    padding-right: 80px;
+
+                    h2 {
+                        line-height: 32px;
+                    }
+
+                    p {
+                        line-height: 25px;
+                    }
+                }
+
+                .imgDivmain {
+                    width: 67%;
+                }
+            }
+        }
+
+        .bottomimgLogos {
+            .moreCasestudy {
+                height: 150px;
+
+                .brandLogos {
+                    .relatedBox {
+                        a {
+                            img {
+                                width: 180px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .bannerSlidermain {
+            .bannerInnerDiv {
+                padding: 50px 0px 120px 0px;
+
+                .slick-dots {
+                    right: 46px;
+                }
+
+                .bannerslidePara {
+                    top: 80px;
+                    left: 60px;
+                    width: 24%;
+
+                    h5 {
+                        line-height: 12px;
+                    }
+
+                    p {
+                        line-height: 24px;
+                    }
+
+                    h1 {
+                        line-height: 40px;
+                        margin: 10px 0px;
+                    }
+                }
+            }
+        }
+
+        &.one-to-11 {
+            .bannerSection{
+                .sectionOne{padding:10px 0px 50px 0px !important;}
+            }
+            .lefttext-rightImg .sectionTwo .mobimgTwo {
+                padding: 50px;
+            }
+
+            .fullAnimation  {
+                padding: 50px;
+            }
+        }
+
+        &.almaraiCasestudy {
+            .bannerSection .sectionOne {
+                padding: 50px 0px 50px 0px;}
+            .fullAnimation {
+                padding: 50px;
+            }
+            .lefttext-rightImg {
+                padding: 60px 0px;
+            }
+        }
+        &.tataAig {
+            .fullAnimation{
+                padding: 0px 60px;
+            }
+        }
+        &.taggedBanner {
+            .fullAnimation{
+                padding-top: 100px;
+            }
+        }
+    }
+
+    @media screen and (max-width:1200px) {
+        .bannerSection {
+            .sectionOne {
+                padding: 35px 0px 80px 0px;
+
+                .mobtext {
+                    padding-left: 32px;
+
+                    h1 {
+                        margin: 10px 0px 15px;
+                        line-height: 40px;
+                    }
+
+                    p {
+                        line-height: 23px;
+                    }
+                }
+            }
+        }
+
+        .lefttext-rightImg .sectionTwo {
+            .mobtextTwo {
+                padding: 35px 0px 94px 35px;
+
+                .innerContent {
+                    width: 70%;
+
+                    h2 {
+                        margin: 0px 0px 15px 0px;
+                        line-height: 40px;
+                    }
+
+                    p {
+                        line-height: 23px;
+                    }
+                }
+            }
+
+            .mobimgTwo {
+                width: 50%;
+            }
+
+        }
+
+        .leftheading-rightText .sectionThree {
+            padding: 35px 0px 35px 35px;
+
+            .mobtextThree {
+                .innerContianer {
+                    width: 70%;
+
+                    h2 {
+                        line-height: 40px;
+                    }
+                }
+            }
+
+            .mobsubtextThree {
+                .innerContianertwo {
+                    width: 62%;
+
+                    p {
+                        line-height: 23px;
+                    }
+                }
+            }
+        }
+
+        .centerheading-centerText {
+            .fullSection {
+                padding: 50px 32px 60px 32px;
+
+                h1 {
+                    line-height: 35px;
+                    margin-bottom: 24px;
+                }
+
+                p {
+                    line-height: 24px;
+                }
+            }
+        }
+
+
+        .fullscreenBigimg .sectionFour {
+            padding: 20px 0px;
+        }
+
+        .fullimgwithHeading {
+            padding: 30px 0px;
+
+            .headingSec {
+                width: 75%;
+                margin: 0px auto 40px;
+
+                h2 {
+                    line-height: 28px;
+                }
+
+                p {
+                    line-height: 23px;
+                }
+            }
+        }
+
+        .twoImgsides-headingmiddle {
+            padding: 30px 0px;
+
+            .imageHeadingmain {
+                .headingDiv {
+                    h2 {
+                        line-height: 28px;
+                    }
+
+                    p {
+                        line-height: 23px;
+                    }
+                }
+            }
+        }
+
+        .twoImgtogether-headinglast {
+            padding: 30px 0px;
+
+            .imageHeadingmain {
+                .headingDiv {
+                    width: 30%;
+                    padding-right: 60px;
+
+                    h2 {
+                        line-height: 28px;
+                    }
+
+                    p {
+                        line-height: 23px;
+                    }
+                }
+
+                .imgDivmain {
+                    width: 68%;
+                }
+            }
+        }
+
+        .bannerSlidermain {
+            .bannerInnerDiv {
+                padding: 35px 0px 80px 0px;
+
+                .slick-dots {
+                    right: 36px;
+                }
+
+                .bannerslidePara {
+                    top: 60px;
+                    left: 30px;
+                    width: 26%;
+
+                    h5 {
+                        line-height: 10px;
+                    }
+
+                    p {
+                        line-height: 22px;
+                    }
+
+                    h1 {
+                        line-height: 36px;
+                        margin: 10px 0px;
+                    }
+                }
+
+                .bannerSlider img {
+                    width: 80%;
+                }
+            }
+        }
+        &.one-to-11 {
+           
+            .lefttext-rightImg .sectionTwo .mobimgTwo {
+                padding: 40px;
+            }
+
+            .fullAnimation {
+                padding: 40px;
+            }
+        }
+        &.almaraiCasestudy {
+            .fullAnimation {
+                padding: 40px;
+            }
+            .lefttext-rightImg {
+                padding: 40px 0px;
+            }
+        }
+        &.tataAig {
+            .fullAnimation{
+                padding: 0px 40px;
+            }
+        }
+        &.taggedBanner {
+            .fullAnimation{
+                padding-top: 80px;
+            }
+        }
+    }
+
+    @media screen and (max-width:1024px) {
+        margin-top: 72px;
+
+        &.almaraiCasestudy {
+            .bannerSection .sectionOne .mobImg {
+                margin-left: auto;
+            }
+
+            .lefttext-rightImg {
+                padding: 20px 0px;
+            }
+            .fullAnimation {
+                padding: 20px 0px 15px;
+                .mobileImg{
+                    padding: 0px 0px;
+                }
+            }
+        }
+
+        &.tataAig {
+            .sectionOne {
+                padding: 32px 0px 0px;
+            }
+            .fullAnimation{
+                padding: 0px 25px;
+            }
+        }
+
+        &.tataluxuryCasestudy {
+            .bannerSlidermain {
+                .bannerInnerDiv {
+                    padding: 32px 0px 0px 0px !important;
+                    .awardSec{
+                        display: none !important;
+                    }
+                }
+            }
+            .lefttext-rightImg{
+                .sectionTwo{
+                    padding: 30px 0px;
+                    .mobimgTwo{
+                        .mobileImg{
+                            width: 45%;
+                        }
+                    }
+                }
+            }
+            .fullimgwithHeading .imgDiv{
+                padding: 0px 20px;
+            }
+        }
+
+        &.one-to-11 {
+            .lefttext-rightImg .sectionTwo .mobimgTwo {
+                padding: 35px;
+            }
+
+            .fullAnimation {
+                padding: 20px 0px 60px;
+            }
+        }
+        &.dozeeBanner {
+            .mobileImg {padding: 0px 0px;}
+        }
+        &.meeshoMain {
+            .mobileImg {padding: 0px 0px;}
+        }
+
+        .desktopImg {
+            display: none;
+        }
+
+        .mobileImg {
+            display: block;
+            padding: 25px 0px;
+            margin: 0 auto;
+
+            img {
+                margin: 0 auto;
+                display: block;
+
+            }
+        }
+
+        .dozeefullscreenBigimg {
+            .mobileImg {
+                padding: 0px;
+            }
+        }
+
+        .bannerSection {
+            .sectionOne {
+                padding: 32px 0px 20px 0px;
+
+                .mobtext {
+                    position: unset;
+                    width: 100%;
+                    padding-left: 24px;
+                    padding-right: 24px;
+                    padding-top: 32px;
+                    padding-bottom: 15px;
+
+                    h1 {
+                        line-height: 36px;
+                    }
+
+                    p {
+                        line-height: 20px;
+                        width: 100%;
+                    }
+
+                    h5 {
+                        line-height: 14px;
+                    }
+                }
+
+                .mobImg {
+                    width: 100%;
+                    margin: 40px auto 0px;
+                }
+            }
+        }
+
+        .lefttext-rightImg .sectionTwo {
+            display: block;
+
+            .mobtextTwo {
+                width: 100%;
+                padding: 32px 24px 32px 24px;
+
+                .innerContent {
+                    width: 100%;
+
+                    h5 {
+                        margin-bottom: 10px;
+                        line-height: 14px;
+                    }
+
+                    h2 {
+                        line-height: 36px;
+                    }
+
+                    p {
+                        line-height: 20px;
+                    }
+                }
+            }
+
+            .mobimgTwo {
+                width: 100%;
+                margin: 0px;
+                line-height: 0;
+                padding: 0;
+            }
+
+        }
+
+        .leftheading-rightText .sectionThree {
+            display: block;
+            padding: 32px 24px 24px 24px;
+
+            .mobtextThree {
+                width: 100%;
+
+                .innerContianer {
+                    width: 100%;
+
+                    h5 {
+                        margin-bottom: 10px;
+                        line-height: 14px;
+                    }
+
+                    h2 {
+                        line-height: 36px;
+                        margin-bottom: 15px;
+                    }
+                }
+            }
+
+            .mobsubtextThree {
+                width: 100%;
+
+                .innerContianertwo {
+                    width: 100%;
+
+                    p {
+                        line-height: 20px;
+                    }
+                }
+            }
+        }
+
+        .centerheading-centerText {
+            .fullSection {
+                padding: 32px 24px 24px 24px;
+
+                h1 {
+                    line-height: 30px;
+                    margin-bottom: 20px;
+                }
+
+                p {
+                    line-height: 20px;
+                }
+            }
+        }
+
+
+        .fullscreenBigimg .sectionFour {
+            padding: 10px 0px;
+        }
+
+        .bottomimgLogos .moreCasestudy {
+            position: static;
+            height: 110px;
+
+            .brandLogos .relatedBox {
+                padding: 25px;
+
+                &:nth-child(1) {
+                    text-align: center;
+                }
+
+                &:nth-child(2) {
+                    text-align: center;
+                }
+
+                a img {
+                    width: 150px;
+                    top:-6px;
+                }
+            }
+        }
+
+
+
+        .fullimgwithHeading {
+            padding: 20px 0px;
+
+            .headingSec {
+                width: 100%;
+                padding: 0px 20px;
+                margin: 0px auto 25px;
+
+                h2 {
+                    line-height: 28px;
+                    margin-bottom: 10px;
+                }
+
+                p {
+                    line-height: 21px;
+                }
+            }
+
+        }
+
+        .twoImgsides-headingmiddle {
+            padding: 20px 0px;
+
+            .imageHeadingmain {
+                display: block;
+
+                .headingDiv {
+                    width: 100%;
+                    padding: 20px;
+
+                    h2 {
+                        line-height: 26px;
+                        margin-bottom: 5px;
+                    }
+
+                    p {
+                        line-height: 21px;
+                    }
+                }
+
+                .imgDivmain {
+                    width: 100%;
+                }
+            }
+        }
+
+        .twoImgtogether-headinglast {
+            padding: 20px 0px;
+
+            .imageHeadingmain {
+                display: block;
+
+                .headingDiv {
+                    width: 100%;
+                    padding: 20px 20px 0px;
+
+                    h2 {
+                        line-height: 26px;
+                        margin-bottom: 5px;
+                    }
+
+                    p {
+                        line-height: 21px;
+                    }
+                }
+
+                .imgDivmain {
+                    width: 100%;
+                }
+            }
+        }
+
+        .bannerSlidermain {
+            .bannerInnerDiv {
+                padding: 32px 0px 0px 0px;
+
+                .bannerslidePara {
+                    position: unset;
+                    width: 100%;
+                    padding: 0px 40px;
+                    text-align: center;
+
+                    h1 {
+                        line-height: 28px;
+                        margin: 12px 0px;
+                        font-size: 22px;
+                    }
+
+                    p {
+                        font-size: 12px;
+                        line-height: 20px;
+                        width: 100%;
+                    }
+                }
+
+                .bannerSlider {
+
+                    img {
+                        width: unset;
+                    }
+
+                    .slick-dots {
+                        top: 95%;
+                        height: unset;
+                        right: 0;
+                        left: 0;
+                        transform: unset;
+                        display: block;
+
+                        li {
+                            margin: 0px;
+                            padding: 8px 0px;
+
+                            button:before {
+                                width: 4px;
+                                height: 4px;
+                                background: #858585;
+                            }
+
+                            &.slick-active {
+                                margin-bottom: 0px;
+                                margin-right: 20px;
+
+                                button:before {
+                                    width: 25px;
+                                    height: 4px;
+                                }
+                            }
+                        }
+                    }
+
+                    .bannerSliderSection .bannerSliderimg {
+                        width: 100%;
+                        padding-top: 0px;
+                    }
+                }
+
+                .awardSec {
+                    display: block;
+                    text-align: center;
+                    padding-bottom: 20px;
+                    margin-top: 24px;
+
+                    h5 {
+                        text-transform: uppercase;
+                        margin-bottom: 12px;
+                    }
+
+                    .awardMaindiv {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        flex-wrap: wrap;
+
+                        .awardDivbx {
+                            width: 48%;
+                            margin-top: 12px;
+
+                            h5 {
+                                text-transform: unset;
+                                margin: 12px 0px 4px;
+                            }
+
+                            p {
+                                line-height: 28px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        &.taggedBanner {
+            .fullAnimation{
+                padding-top: 40px;
+            }
+        }
+
+    }
+
+    @media screen and (max-width:560px) {
+        .bottomimgLogos .moreCasestudy {
+            height: 90px;
+
+            .brandLogos .relatedBox {
+                padding: 25px;
+
+                a img {
+                    width: 100px;
+                }
+            }
+        }
+
+    }
+}

@@ -11,6 +11,7 @@ if(mail($receiver, $subject, $body, $sender)){
 
 exit; */
 ?>
+	<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery-3.3.1.min.js"></script>
 <style>
 	
 	
@@ -45,18 +46,20 @@ exit; */
 			<!--.tabs-->
 			<div class="tabs-content">
 				<div id="signup-tab-content" class="tab-content">
-					<form action="#" method="post" name="myForm1" enctype="multipart/form-data" onSubmit="return checkButtonscope()" >
+					<form action="#" method="post"  id="formscope" name="myForm1" enctype="multipart/form-data" onSubmit="return checkButtonscope()" >
 						 <?php echo apply_shortcodes( '[contact-form-7 id="16" title="Scope My Projects"]' ); ?>
 					</form>
 				</div>
 				<!--.signup-tab-content-->
 				<div id="login-tab-content" class="tab-content">
-					<form action="#" method="post" name="myForm" enctype="multipart/form-data" onSubmit="return checkButton()">
+					<form action="#" method="post" id="formcar" name="myForm" enctype="multipart/form-data" onSubmit="return checkButton()">
     <?php echo apply_shortcodes('[contact-form-7 id="15" title="Careers"]');?> 
 						 
 						
 						 
 					</form>
+					
+				
 				</div>
 				
 				<!--.login-tab-content-->
@@ -69,10 +72,40 @@ exit; */
 
 </section>
 
+
 <?php if($actual_link == 'https://ixdtm.com/projects/theminimalist-site/enquiries-careers/?login-tab-content' ){
 
- ?> <script>
-$('.login-tab').addClass('active');
+ ?> 
+ 
+ <script>
+    $(function(){
+      window.history.pushState({page: 1}, "", "");
+      history.back();
+      history.forward();
+      window.onpopstate = function(event) {
+        if(event){
+        //   var confirm = window.confirm("Please, note that you may lose your move details by returning to the previous page.");
+        document.getElementById("formscope").reset();
+        }
+      }
+    });
+    
+        $(function(){
+      window.history.pushState({page: 1}, "", "");
+      history.back();
+      history.forward();
+      window.onpopstate = function(event) {
+        if(event){
+        //   var confirm = window.confirm("Please, note that you may lose your move details by returning to the previous page.");
+        document.getElementById("formcar").reset();
+        }
+      }
+    });
+</script>
+
+ 
+ <script>
+ $('.login-tab').addClass('active');
 $('#signup-tab-content').hide();
 $('#login-tab-content').show();
 // Click function
@@ -309,7 +342,7 @@ var y = document.getElementById("enable2");
   z.setAttribute("disabled", "disabled");
   z1.setAttribute("class", "wpcf7-list-item-label disabled");
     }
-if (dropDownText == "Content") {
+if (dropDownText == "Content Writer") {
 var y = document.getElementById("enable2");
   var y1 = document.getElementById("second");
   y.setAttribute("disabled", "disabled");
@@ -323,7 +356,7 @@ var y = document.getElementById("enable2");
   
 
     }
-if (dropDownText == "Copy") {
+if (dropDownText == "Copywriter") {
 var y = document.getElementById("enable2");
   var y1 = document.getElementById("second");
   y.setAttribute("disabled", "disabled");
@@ -554,6 +587,25 @@ if (dropDownText == "User Experience") {
   y1.setAttribute("class", "wpcf7-list-item-label");
    y1.removeAttribute("style");
     }
+    
+    
+if (dropDownText == "Account Planner") {
+ var y = document.getElementById("enable2");
+  var y1 = document.getElementById("second");
+  y.setAttribute("disabled", "disabled");
+  y1.setAttribute("class", "wpcf7-list-item-label disabled");
+   y1.setAttribute("style", "background:white");
+
+   var z = document.getElementById("enable3");
+   var z1 = document.getElementById("last");
+  z.setAttribute("disabled", "disabled");
+  z1.setAttribute("class", "wpcf7-list-item-label disabled");
+  
+    }    
+    
+    
+    
+    
 
 
 
@@ -1167,7 +1219,6 @@ else
 
 
 
-
 /*on type event*/
 document.getElementById("sel1").onmouseup = function() {mouseUp()};
 function mouseUp() {
@@ -1315,8 +1366,12 @@ document.getElementById("xcheckboxerror123").innerHTML = "";
 atpos = xemail.indexOf("@");
 dotpos = xemail.lastIndexOf(".");
 var data = xemail;
- 
 
+
+
+
+//var upsize =  document.getElementById('upload-file').files[0].size;
+//alert(upsize);
 
 if(xsname == "" && !validatePhoneNumber(xmob) && xemail == "" && xcompany == "" && xcctc == "" && xectc == "" && xupload_file == "" && !document.getElementById('checkboxm').checked ) { 
    document.getElementById("error").innerHTML = "<div class='wpcf7-not-valid-tip'>The field is required</div>"; 
@@ -1464,7 +1519,9 @@ if (xsname == "" ) {
   }
    else
   {
-      document.getElementById("xupload_fileerror").innerHTML = ""; 
+    
+document.getElementById("xupload_fileerror").innerHTML = ""; 
+     
   }
   
   
@@ -1567,6 +1624,7 @@ function myFunctionm1() {
       let mx1len1 = mx1y1.length;
      if(mx1len1 >= 10)
      {
+         document.getElementById("xmoberror1").innerHTML = "";
        document.getElementById('numberm1').style.color = '#000';
      }
      else

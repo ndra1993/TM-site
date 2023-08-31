@@ -1,0 +1,454 @@
+.titleBox {
+    display: flex;
+    align-items: center;justify-content: space-between;
+    .backArrow{padding: 5px 15px;cursor: pointer;width:auto;
+        @media screen and (max-width: 1024px) {
+            padding: 5px 15px 5px 0px;
+        }
+    }
+    h3 {
+        margin-left: 0px;
+    }
+
+    img {
+        height: 30px !important;
+        width: 30px !important;
+        cursor: pointer;
+    }
+
+    @media screen and (max-width:1400px) {
+        h3 {
+            margin-left: 0px;
+        }
+
+        img {
+            
+        }
+    }
+
+    @media screen and (max-width:1280px) {
+        h3 {
+            margin-left: 0px;
+        }
+    }
+}
+.page-template-our-clients {
+    header{border-bottom: 1px solid #000;}
+}
+.ourClients{margin-top:96px;
+.clientsContentBox {padding: 0px 90px;
+    .clientSlider{margin-bottom: 0px !important;
+        .clientSliderSection {margin-left:98px;padding: 97px 0px 97px;
+            .clientContent{
+                    h2{position:relative;margin-bottom:97px;line-height: 100px;letter-spacing: -0.055em; width:95%; font-size:90px;
+                    .beforeQuote{
+                        position:absolute;
+                        top:-35px;
+                        left:-95px;
+                    }
+                    .afterQuote{
+                        position:absolute;
+                        bottom:-35px;
+                        margin-left: 25px;
+                    }
+                    img{
+                        width: 70px;
+                        height: auto;
+                    }
+
+                }
+            }
+            .authorBox{
+                display:flex;align-items:center;
+                .authorImg{margin-right:30px;}
+                .authorDesc{
+                    h4{margin-bottom:15px;line-height: 24px;}
+                    p{line-height: 16px;}
+                }
+            }
+        }
+        .slick-dots{
+            position: absolute;
+            bottom: 150px;
+            right: 0px;
+            left: unset;
+            text-align: right;
+            li{
+               width: 8px;
+               height: 8px;
+               margin: 0px 10px;
+               button{
+                    &:before{
+                      content: " ";
+                      border-radius: 10px;
+                      width:8px;
+                      height: 8px;
+                      background: #000;
+                      opacity: 1;
+                    }
+               }
+            }
+            li.slick-active{margin-right:40px;}
+            li.slick-active button:before{
+                opacity: 1;
+                color: black;
+                width: 50px;
+                border-radius: 10px;
+                transition: .9s all ease-in-out;
+            }
+        }
+    }
+}
+.brandsSection{border-top: 1px solid #000000;
+    display:flex;position: relative;
+    .brandDetails{
+        width:50%; height: 100%; position:sticky; top:96px;
+        padding:130px 100px 130px 90px;
+        .brandDetailsBox{display:none;
+            &:first-child {
+                display:block;
+            }
+            .brandLogo{margin-bottom:100px;
+                img{max-width:100%; height:226px;}
+            }
+            .brandLogoDesc{
+                p{line-height: 30px;}
+            }
+        }
+        
+    }
+    .brandIcons{
+        width:50%;
+        border-left: 1px solid #000000;
+        .brandIconsInfo{
+            padding:40px 0px 40px 70px;border-bottom: 1px solid #000000;cursor:pointer;
+            h4{margin-bottom:4px;line-height:40px;}
+            &.active{border-bottom: 2px solid #01FFA3;}
+            p{line-height:30px;}
+            
+            &:last-child {border-bottom: 0px solid #000000;}
+            &:last-child:hover{border-bottom: 2px solid #01FFA3;}
+        }
+        
+    }
+}
+.brandsSectionMobile{display:none;}
+
+    @media screen and (max-width: 1800px) {
+        
+    }
+
+    @media screen and (max-width: 1600px) {
+        .clientsContentBox {padding: 0px 65px;
+            .clientSlider{
+                .clientSliderSection {padding: 75px 0px 75px;
+                    .clientContent{
+                        h2{font-size:70px; width:90%;line-height: 90px;margin-bottom: 75px;
+                            
+                            img{
+                                width: 65px;
+                            }
+                        }
+                    }
+                    .authorBox{
+                        .authorImg{margin-right:25px;
+                            img{width:100px;}
+                        }
+                        .authorDesc{
+                            h4{margin-bottom:10px;}
+                        }
+                    }
+                }
+                .slick-dots{bottom:120px;}
+                }
+            }
+        
+
+        .brandsSection{
+            .brandDetails{
+                top:96px;
+                padding:80px 75px 80px 80px;
+                .brandDetailsBox{display:none;
+                    .brandLogo{margin-bottom:80px;
+                        img{height:200px;}
+                    }
+                    .brandLogoDesc{}
+                }
+                
+            }
+            .brandIcons{
+                .brandIconsInfo{
+                    padding:30px 0px 30px 60px;
+                    h4{margin-bottom:4px;line-height:35px;}
+                    p{line-height:25px;}
+                }
+                
+            }
+        }
+    
+        }
+    @media screen and (max-width: 1450px) {
+        margin-top: 77px;
+       .clientsContentBox {padding: 0px 50px;
+           .clientSlider{
+                .clientSliderSection {padding: 55px 0px 55px;
+                    .clientContent{
+                        h2{font-size:55px; line-height: 70px;margin-bottom: 75px;
+                            .beforeQuote{
+                                top:-25px;
+                                left:-80px;
+                            }
+                            .afterQuote{
+                                bottom:-25px;
+                                margin-left: 25px;
+                            }
+                            img{
+                                width: 55px;
+                            }
+                        }
+                    }
+                    .authorBox{
+                        .authorImg{margin-right:20px;
+                            img{width:80px;}
+                        }
+                        .authorDesc{
+                            h4{margin-bottom:7px;}
+                        }
+                    }
+                }
+                .slick-dots{bottom:90px;}
+            }
+        }
+        .brandsSection{
+            .brandDetails{
+                top:77px;
+                padding:50px 75px 50px 80px;
+                .brandDetailsBox{display:none;
+                    .brandLogo{margin-bottom:50px;
+                        img{height:180px;}
+                    }
+                    .brandLogoDesc{
+                        p{line-height: 25px;}
+                    }
+                }
+                
+            }
+            .brandIcons{
+                .brandIconsInfo{
+                    padding:30px 0px 30px 60px;
+                    h4{margin-bottom:4px;line-height:35px;}
+                    p{line-height:25px;}
+                }
+                
+            }
+        }
+    }
+
+    @media screen and (max-width: 1024px) {
+        margin-top: 73px;
+        .clientsContentBox {padding: 0px 35px;
+           .clientSlider{
+                .clientSliderSection {padding: 45px 0px 40px;margin-left: 85px;
+                    .clientContent{
+                        h2{font-size:40px; line-height: 55px;margin-bottom:55px;
+                            .beforeQuote{
+                                top:-25px;
+                                left:-60px;
+                            }
+                            .afterQuote{
+                                bottom:-25px;
+                                margin-left: 25px;
+                            }
+                            img{
+                                width: 45px;
+                            }
+                        }
+                    }
+                    .authorBox{
+                        .authorImg{margin-right:15px;
+                            img{width:60px;}
+                        }
+                        .authorDesc{
+                            h4{margin-bottom:5px;}
+                        }
+                    }
+                }
+                .slick-dots{bottom:50px;}
+            }
+        }
+        .brandsSection{
+            .brandDetails{
+                top:73px;
+                padding:20px 40px 20px 40px;
+                .brandDetailsBox{display:none;
+                    .brandLogo{margin-bottom:20px;
+                        img{height:150px;}
+                    }
+                    .brandLogoDesc{
+                        p{line-height: 20px;}
+                    }
+                }
+                
+            }
+        }
+    }
+
+    @media screen and (max-width: 920px) {
+        margin-top:73px;
+        .clientsContentBox {padding: 10px 25px 40px;
+            .clientSlider{margin-bottom: 10px !important;
+                .clientSliderSection {margin-left:35px;padding: 40px 0px 0px;
+                    .clientContent{
+                        h2{position:relative;margin-bottom:35px;line-height: 30px;letter-spacing: -0.055em; width:95%; font-size:24px;
+                            .beforeQuote{
+                                top:-15px;
+                                left:-30px;
+                            }
+                            .afterQuote{
+                                bottom:-15px;
+                                margin-left: 10px;
+                            }
+                            img{
+                                width: 25px;
+                            }
+                        }
+                    }
+                    .authorBox{
+                        display:flex;align-items:self-start;margin-bottom: 34px;
+                        .authorImg{margin-right:13px;
+                            img{width:40px;}
+                        }
+                        .authorDesc{
+                            h4{margin-bottom:8px;}
+                            p{font-size: 14px;}
+                        }
+                    }
+                }
+                .slick-dots{
+                    position: absolute;
+                    bottom: -15px;
+                    right: -23px;
+                    left: unset;
+                    text-align: left;
+                    li{
+                       width: 8px;
+                       height: 8px;
+                       margin: 0px 10px;
+                       button{
+                            &:before{
+                              content: " ";
+                              border-radius: 10px;
+                              width:8px;
+                              height: 8px;
+                              background: #000;
+                              opacity: 1;
+                            }
+                       }
+                    }
+                    li.slick-active{margin-right:40px;}
+                    li.slick-active button:before{
+                        opacity: 1;
+                        color: black;
+                        width: 50px;
+                        border-radius: 10px;
+                        transition: .9s all ease-in-out;
+                    }
+                }
+            }
+        }
+        .brandsSection{display:none;}
+        .brandsSectionMobile{display:block;
+            .voprosnik {
+                .klundesaga-item {
+                    padding: 25px 25px 30px 25px;
+                    border-top: 1px solid #000000;
+                    .klundesaga-title {
+                        cursor: pointer;
+                        transition: transform 0.4s ease-in-out;
+                        &.active-title { 
+                            .rmTxt{
+                                display:none;
+                            }
+                        }
+                        h4 {
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            font-size: 16px;
+                            letter-spacing: -0.055em;
+                            line-height: 20px;
+                        }
+                        img {
+                            transform: rotate(0);
+                            transition: 0.4s;
+                            max-width: 100%;
+                            height: 100%;
+                            width: auto;
+                            &.chevron-top {
+                                transform: rotate(-180deg);
+                                color: #fa5019;
+                            }
+
+                        }
+                        .rmTxt{
+                            font-size: 16px;
+                            line-height: 24px;
+                            letter-spacing: 0.03em;
+                            margin-top: 10px;
+                            transition: ease-in-out all 1s;
+                            width: 90%;
+                        }
+                    }
+                    .klundesaga-content {
+                        display: none;
+                        padding-top: 30px;
+                        &.active {
+                            display: block;
+                        }
+                        p {
+                            font-size: 16px;
+                            line-height: 24px;
+                            letter-spacing: 0.03em;
+                        }
+                        img{
+                            max-width: 100%;
+                            margin-bottom: 35px;
+                            height: 150px;
+                        }
+                    }
+                }
+                .someClass{
+                    padding: 35px 25px 30px 25px;
+                    transition: ease-in-out all 1s;
+                }
+            }
+
+        }
+
+    }
+    @media screen and (max-width: 575px) {
+        .brandsSectionMobile{
+            .voprosnik {
+                .klundesaga-item {
+                    .klundesaga-title {
+                        .rmTxt{
+                            font-size: 14px;
+                            line-height: 20px;
+                        }
+                    }
+                    .klundesaga-content {
+                        p {
+                            font-size: 14px;
+                            line-height: 20px;
+                        }
+                        img{
+                            margin-bottom: 25px;
+                            height: 100px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}

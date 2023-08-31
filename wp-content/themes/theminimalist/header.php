@@ -22,17 +22,9 @@
 	<title>The Minimalist</title>
 	<link href="<?php echo get_template_directory_uri(); ?>/scss/main.css" rel="stylesheet">
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/animate.css">
-	<!-- <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/site.css"> -->
-	<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery-3.3.1.min.js"></script>
-
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-
-	<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" /> -->
-	
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-	<script src="<?php echo get_template_directory_uri(); ?>/js/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/css/swiper.min.css'>
+	<!--	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/css/swiper.min.css'>-->
 	<script src="<?php echo get_template_directory_uri(); ?>/js/WOW.js"></script>
 	<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/form.js"></script>
 	<script type="text/javascript">
@@ -41,71 +33,72 @@
 
 
 	<?php wp_head(); ?>
+
 </head>
 
 <body <?php body_class(); ?>>
 	<?php wp_body_open(); ?>
 
 
-	
+
 
 	<header>
 		<div class="headerContent">
-		
-			              
-                           
-		<!-- <?php echo  get_page_template() ?> -->
-		
+
+
+
+			<!-- <?php echo  get_page_template() ?> -->
+
 			<?php if (is_front_page()) { ?>
 				<!-- Homepage Header -->
 				<div class="logoBox">
 					<a href="<?php echo site_url('/homepage-two/'); ?>">
-						<img src="<?php bloginfo('template_directory'); ?>/images/tm-logo.svg" alt="">
+						<img src="<?php bloginfo('template_directory'); ?>/images/tm-logo.svg" width="100%" height="100%" alt="The Minimalist">
 					</a>
 				</div>
 			<?php } elseif (is_page('enquiries-careers')) { ?>
 				<!-- Form Page Header -->
 				<div class="logoBox">
 					<a href="<?php echo site_url(''); ?>">
-						<img src="<?php bloginfo('template_directory'); ?>/images/tm-logo.svg" alt="">
+						<img src="<?php bloginfo('template_directory'); ?>/images/tm-logo.svg" width="100%" height="100%" alt="The Minimalist">
 					</a>
 				</div>
-			<?php } elseif (is_page ('blogs')||is_page('case-study')||is_page('case-study-details')||is_page('privacy-policy')||is_page('our-clients')) { ?>
+			<?php } elseif (is_page('blogs') || is_page('case-study') || is_page('case-study-details') || is_page('privacy-policy') || is_page('our-clients')) { ?>
 				<div class="logoBox titleBox">
 					<a class="backArrow" onclick="GoBackWithRefresh();return false;"><img src="<?php bloginfo('template_directory'); ?>/images/arrow-title.svg" alt="Back Arrow"></a>
 					<h3 class="fontW800 font30 fontPoppins colorBlack" style="text-transform:capitalize;"><?php the_title(); ?></h3>
 				</div>
-			<?php } elseif (is_page ('casestudy-details')) { ?>
+			<?php } elseif (is_page('casestudy-details')) { ?>
 				<div class="logoBox titleBox">
 					<a class="backArrow" onclick="GoBackWithRefresh();return false;"><img src="<?php bloginfo('template_directory'); ?>/images/arrow-title.svg" alt="Back Arrow"></a>
-					<h3 class="fontW800 font30 fontPoppins colorBlack" style="text-transform:capitalize;"><?php echo get_the_title( $post->ID ); ?> </h3>
+					<h3 class="fontW800 font30 fontPoppins colorBlack" style="text-transform:capitalize;"><?php echo get_the_title($post->ID); ?> </h3>
 				</div>
-			<?php } else{ ?> 
-			<div class="logoBox titleBox">
-				<a class="backArrow" onclick="GoBackWithRefresh();return false;"><img src="<?php bloginfo('template_directory'); ?>/images/arrow-title.svg" alt="Back Arrow"></a>
-				<h3 class="fontW800 font30 fontPoppins colorBlack" style="text-transform:capitalize;">
-				<?php
-$currentPageUrl = 'http://' . $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"];
-$uriArray = explode('/', $currentPageUrl);
-if($uriArray[4]=='casestudy'){
-	echo get_the_title($post->ID);
-}
-else
-{		            
- $terms = get_the_category( $post->ID, 'categories' );
- $links = array();
- foreach ( $terms as $term ) { $links[] = $term->slug;}
- $tax_links = str_replace('-', ' ', $links[0]);
- echo $tax_links;
-}
- ?>
-				</h3>
-			</div>
+			<?php } else { ?>
+				<div class="logoBox titleBox">
+					<a class="backArrow" onclick="GoBackWithRefresh();return false;"><img src="<?php bloginfo('template_directory'); ?>/images/arrow-title.svg" alt="Back Arrow"></a>
+					<h3 class="fontW800 font30 fontPoppins colorBlack" style="text-transform:capitalize;">
+						<!-- <?php
+						$currentPageUrl = 'http://' . $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"];
+						$uriArray = explode('/', $currentPageUrl);
+						if ($uriArray[5] == 'casestudy') {
+							echo get_the_title($post->ID);
+						} else {
+							$terms = get_the_category($post->ID, 'categories');
+							$links = array();
+							foreach ($terms as $term) {
+								$links[] = $term->slug;
+							}
+							$tax_links = str_replace('-', ' ', $links[0]);
+							echo $tax_links;
+						}
+						?> -->
+					</h3>
+				</div>
 
 			<?php } ?>
 
 			<div class="homeBox">
-<!-- 				<div class="headerCta headerActive">
+				<!-- 				<div class="headerCta headerActive">
 					<a href="<?php echo site_url('/case-study-listing/'); ?>" class="connectCta connectCtatwo">Case Studies</a>
 				</div> -->
 				<div class="headerCta headerActive active">
@@ -130,8 +123,10 @@ else
 							<!-- <li class="menu_sub"><a href="<?php echo site_url('/case-study-listing/'); ?>" class="menu__item font64">Case Studies </a>
 							</li>
 							<li class="menu_sub"><a href="<?php echo site_url('/service/'); ?>" class="menu__item font64">Services </a>
-							</li> --> 
+							</li> -->
 							<li class="menu_sub"><a href="<?php echo site_url('/enquiries-careers/?signup-tab-content'); ?>" class="menu__item font64">Scope My Project </a>
+							</li>
+							<li class="menu_sub"><a href="<?php echo site_url('/case-study/'); ?>" class="menu__item font64">Case Study </a>
 							</li>
 							<li class="menu_sub"><a href="<?php echo site_url('/enquiries-careers/?login-tab-content'); ?>" class="menu__item font64">Careers </a>
 							</li>
@@ -139,10 +134,10 @@ else
 							</li> -->
 							<li class="menu_sub"><a href="<?php echo site_url('/blogs/'); ?>" class="menu__item font64">Blogs </a>
 							</li>
-							<li class="menu_sub"><a href="<?php echo site_url('/case-study/'); ?>" class="menu__item font64">Case Study </a>
+							<li class="menu_sub"><a href="https://ixdtm.com/projects/theminimalist-site/establishing-the-code-of-content/" class="menu__item font64">#TheAuthenticons </a>
 							</li>
 						</ul>
-<!-- 						<div class="footerLinksmbl">
+						<!-- 						<div class="footerLinksmbl">
 							<div class="Linksmblft">
 								<a href="<?php echo site_url('/privacy-policy/'); ?>" class="fontPoppins fontW600 font14 colorBlack">Privacy Policy</a>
 							</div>
@@ -155,5 +150,3 @@ else
 			</div>
 		</div>
 	</header>
-
-	

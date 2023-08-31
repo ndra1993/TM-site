@@ -1387,7 +1387,7 @@ footer .ftbutton {
       /* ===== Scrollbar CSS ===== */
       /* Firefox */
       scrollbar-width: auto;
-      scrollbar-color: #00ffa3 #ffffff;
+      scrollbar-color: #000;
       /* Chrome, Edge, and Safari */ }
       @media screen and (max-width: 1600px) {
         .formSection .form-wrap .tabs-content {
@@ -1406,7 +1406,7 @@ footer .ftbutton {
       .formSection .form-wrap .tabs-content::-webkit-scrollbar-track {
         background: #ffffff; }
       .formSection .form-wrap .tabs-content::-webkit-scrollbar-thumb {
-        background-color: #00ffa3;
+        background-color: #000;
         border-radius: 15px;
         border: 3px solid #ffffff; }
       .formSection .form-wrap .tabs-content div[id$="tab-content"] {
@@ -3102,7 +3102,6 @@ footer .ftbutton {
       padding: 0;
       list-style: none; }
       .desktopSection .filterDiv .caseStudyFilter #filters li {
-        padding: 7px 15px;
         background: #EEEEEE;
         border-radius: 10px;
         margin-right: 10px;
@@ -3117,7 +3116,8 @@ footer .ftbutton {
         .desktopSection .filterDiv .caseStudyFilter #filters li span {
           display: block;
           text-decoration: none;
-          cursor: pointer; }
+          cursor: pointer;
+          padding: 7px 15px; }
   .desktopSection .filter-btn-mbl {
     display: none; }
   .desktopSection .casestudyContainerBox {
@@ -3185,7 +3185,7 @@ footer .ftbutton {
               line-height: 30px;
               color: #000000; }
           .desktopSection .casestudyContainerBox .containerinnerBox .csheadings .csheadingsBox.showHover {
-            border-bottom: 10px solid #00FFA3; }
+            border-bottom: 5px solid #00FFA3; }
             .desktopSection .casestudyContainerBox .containerinnerBox .csheadings .csheadingsBox.showHover a {
               padding-top: 50px;
               padding-bottom: 50px;
@@ -3222,33 +3222,36 @@ footer .ftbutton {
         border-radius: 0px;
         background-color: #F5F5F5; }
       .desktopSection .casestudyContainerBox .containerinnerBox #style-1::-webkit-scrollbar {
-        width: 8px;
-        background-color: #00FFA3; }
+        width: 5px;
+        background-color: #000000; }
       .desktopSection .casestudyContainerBox .containerinnerBox #style-1::-webkit-scrollbar-thumb {
-        border-radius: 10px;
-        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-        background-color: #00FFA3; }
+        border-radius: 5px;
+        background-color: #000000; }
 
 /* media quary */
 @media screen and (max-width: 1800px) {
-  .desktopSection .casestudyContainerBox .containerinnerBox .csheadings .csheadingsBox a {
-    padding: 32px 0px;
-    margin: 0px 75px; }
-    .desktopSection .casestudyContainerBox .containerinnerBox .csheadings .csheadingsBox a p {
-      font-size: 12px;
-      line-height: 12px; }
-    .desktopSection .casestudyContainerBox .containerinnerBox .csheadings .csheadingsBox a h2 {
-      font-size: 20px;
-      line-height: 26px; }
-  .desktopSection .casestudyContainerBox .containerinnerBox .csheadings .csheadingsBox.showHover a {
-    padding-top: 40px;
-    padding-bottom: 40px; }
-    .desktopSection .casestudyContainerBox .containerinnerBox .csheadings .csheadingsBox.showHover a h2 {
-      font-size: 26px;
-      line-height: 32px; } }
+  .desktopSection .casestudyContainerBox {
+    height: calc(100vh - 146px); }
+    .desktopSection .casestudyContainerBox .containerinnerBox .csheadings .csheadingsBox a {
+      padding: 32px 0px;
+      margin: 0px 75px; }
+      .desktopSection .casestudyContainerBox .containerinnerBox .csheadings .csheadingsBox a p {
+        font-size: 12px;
+        line-height: 12px; }
+      .desktopSection .casestudyContainerBox .containerinnerBox .csheadings .csheadingsBox a h2 {
+        font-size: 20px;
+        line-height: 26px; }
+    .desktopSection .casestudyContainerBox .containerinnerBox .csheadings .csheadingsBox.showHover a {
+      padding-top: 40px;
+      padding-bottom: 40px; }
+      .desktopSection .casestudyContainerBox .containerinnerBox .csheadings .csheadingsBox.showHover a h2 {
+        font-size: 26px;
+        line-height: 32px; } }
 @media screen and (max-width: 1600px) {
   .desktopSection {
     margin-top: 77px; }
+    .desktopSection .filterDiv .caseStudyFilter {
+      padding: 20px 0px 10px 60px; }
     .desktopSection .casestudyContainerBox {
       height: calc(100vh - 122px); }
       .desktopSection .casestudyContainerBox .containerinnerBox .csheadings .csheadingsBox a {
@@ -3257,15 +3260,18 @@ footer .ftbutton {
       .desktopSection .casestudyContainerBox .containerinnerBox .csheadings .csheadingsBox.showHover a {
         padding-top: 35px;
         padding-bottom: 35px; } }
+@media screen and (max-width: 1440px) {
+  .desktopSection .filterDiv .caseStudyFilter {
+    padding: 10px 0px 10px 60px; } }
 @media screen and (max-width: 1400px) {
   .desktopSection {
     margin-top: 77px; }
     .desktopSection .filterDiv .caseStudyFilter {
       padding: 7px 0px 7px 60px; }
-      .desktopSection .filterDiv .caseStudyFilter #filters li {
+      .desktopSection .filterDiv .caseStudyFilter #filters li span {
         padding: 5px 10px; }
     .desktopSection .casestudyContainerBox {
-      height: calc(100vh - 121px); }
+      height: calc(100vh - 122px); }
       .desktopSection .casestudyContainerBox .containerinnerBox .csheadings .csheadingsBox a {
         padding: 24px 0px;
         margin: 0px 55px; }
@@ -3332,7 +3338,8 @@ footer .ftbutton {
       background: #fff; }
       .desktopSection .filterDiv .caseStudyFilter .heading-div {
         display: flex;
-        margin-bottom: 10px; }
+        margin-bottom: 10px;
+        align-items: center; }
         .desktopSection .filterDiv .caseStudyFilter .heading-div .select-filter-heading {
           font-size: 24px;
           line-height: 30px; }
@@ -3341,17 +3348,21 @@ footer .ftbutton {
           border: none;
           background: transparent;
           margin-left: auto; }
+          .desktopSection .filterDiv .caseStudyFilter .heading-div .cross-btn img {
+            width: 20px;
+            height: 20px; }
       .desktopSection .filterDiv .caseStudyFilter #filters {
         display: flex;
         flex-flow: wrap; }
         .desktopSection .filterDiv .caseStudyFilter #filters li {
-          padding: 15px 20px;
           border-radius: 40px;
-          padding: 28px 24px;
           margin: 16px 4px; }
+          .desktopSection .filterDiv .caseStudyFilter #filters li span {
+            padding: 10px 15px; }
       .desktopSection .filterDiv .caseStudyFilter.active {
         transition: 0.5s all ease-in-out;
-        bottom: 0; }
+        bottom: 0;
+        padding: 28px 20px; }
     .desktopSection .filter-btn-mbl {
       display: block;
       position: fixed;
@@ -7346,6 +7357,8 @@ footer .ftbutton {
         word-break: break-all; }
       .blogsDetails .blogsDetailsSection .blogsDetailsTwo .wp-block-image {
         margin: 0 !important; }
+        .blogsDetails .blogsDetailsSection .blogsDetailsTwo .wp-block-image img {
+          width: 100%; }
       .blogsDetails .blogsDetailsSection .blogsDetailsTwo img {
         padding-bottom: 36px;
         max-width: 100%; }
@@ -7983,7 +7996,7 @@ footer .ftbutton {
       position: absolute;
       top: 10%;
       padding-left: 112px;
-      width: 32%;
+      width: 35%;
       z-index: 2; }
       .csdetailBg .bannerSection .sectionOne .mobtext h5 {
         text-transform: uppercase;
@@ -7993,7 +8006,7 @@ footer .ftbutton {
         margin: 35px 0px; }
       .csdetailBg .bannerSection .sectionOne .mobtext p {
         line-height: 30px;
-        width: 73%; }
+        width: 100%; }
     .csdetailBg .bannerSection .sectionOne .mobImg {
       margin: 0px auto 0 24%;
       width: 60%; }
@@ -8013,7 +8026,7 @@ footer .ftbutton {
       padding: 115px 0px 94px 115px;
       width: 50%; }
       .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent {
-        width: 60%; }
+        width: 70%; }
         .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent h5 {
           text-transform: uppercase;
           margin-bottom: 15px;
@@ -8031,7 +8044,7 @@ footer .ftbutton {
     .csdetailBg .leftheading-rightText .sectionThree .mobtextThree {
       width: 50%; }
       .csdetailBg .leftheading-rightText .sectionThree .mobtextThree .innerContianer {
-        width: 60%; }
+        width: 70%; }
         .csdetailBg .leftheading-rightText .sectionThree .mobtextThree .innerContianer h5 {
           text-transform: uppercase;
           margin-bottom: 15px;
@@ -8041,7 +8054,7 @@ footer .ftbutton {
     .csdetailBg .leftheading-rightText .sectionThree .mobsubtextThree {
       width: 45%; }
       .csdetailBg .leftheading-rightText .sectionThree .mobsubtextThree .innerContianertwo {
-        width: 60%; }
+        width: 70%; }
         .csdetailBg .leftheading-rightText .sectionThree .mobsubtextThree .innerContianertwo p {
           line-height: 30px; }
   .csdetailBg .centerheading-centerText .fullSection {
@@ -8063,7 +8076,7 @@ footer .ftbutton {
     flex-direction: row-reverse; }
   .csdetailBg .fullimgwithHeading {
     text-align: center;
-    padding: 70px 0px; }
+    padding: 70px 0px 0px; }
     .csdetailBg .fullimgwithHeading .headingSec {
       width: 60%;
       margin: 0 auto 78px; }
@@ -8218,12 +8231,12 @@ footer .ftbutton {
       top: 120px;
       left: 100px;
       z-index: 1;
-      width: 28%; }
+      width: 32%; }
       .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara h5 {
         line-height: 14px; }
       .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara p {
         line-height: 30px;
-        width: 75%; }
+        width: 100%; }
       .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara h1 {
         line-height: 70px;
         margin: 35px 0px; }
@@ -8264,6 +8277,14 @@ footer .ftbutton {
     .csdetailBg.tataAig .fullimgwithHeading .fullimghead {
       display: block !important;
       margin-bottom: 0px; }
+  .csdetailBg.neemans {
+    background: #CAB392; }
+    .csdetailBg.neemans video {
+      width: 100%;
+      padding: 0px;
+      background: #CAB392; }
+    .csdetailBg.neemans .fullimgwithHeading .imgDiv img {
+      padding-top: 0px !important; }
   .csdetailBg.dozeeBanner {
     background: #0733B5; }
     .csdetailBg.dozeeBanner .sectionOne {
@@ -8302,6 +8323,39 @@ footer .ftbutton {
     background: linear-gradient(158.47deg, #070707 4.94%, #101010 53.55%, #070707 58.48%, #020202 65.02%, #131313 77.34%); }
     .csdetailBg.meeshoMain .lefttext-rightImg .mobileImg {
       padding: 0px !important; }
+  .csdetailBg.nykaaCasestudy {
+    background: linear-gradient(208.42deg, #000000 -2.49%, #F82F7C 100%); }
+    .csdetailBg.nykaaCasestudy .bannerSlidermain .bannerInnerDiv {
+      padding: 0px !important; }
+      .csdetailBg.nykaaCasestudy .bannerSlidermain .bannerInnerDiv .bannerSlider .bannerSliderSection .bannerSliderimg {
+        width: 100% !important; }
+  .csdetailBg.fractalCasestudies .sectionOne {
+    padding: 0px !important; }
+    .csdetailBg.fractalCasestudies .sectionOne .mobImg {
+      width: 100% !important;
+      margin: 0px !important; }
+  .csdetailBg.Pocket52 {
+    background: linear-gradient(170.93deg, #086D4F -8.51%, #098862 23.14%, #054230 168.34%); }
+  .csdetailBg.FireFly {
+    background: #000000; }
+    .csdetailBg.FireFly .bannerSlidermain .bannerInnerDiv {
+      padding: 0px !important; }
+      .csdetailBg.FireFly .bannerSlidermain .bannerInnerDiv .awardSec {
+        display: none !important; }
+      .csdetailBg.FireFly .bannerSlidermain .bannerInnerDiv .bannerSlider .bannerSliderSection .bannerSliderimg {
+        width: 100% !important;
+        padding-top: 0px !important; }
+  .csdetailBg.mtv-nishedh {
+    background: #fff; }
+    .csdetailBg.mtv-nishedh .bannerSlidermain .bannerInnerDiv {
+      padding: 0px !important; }
+      .csdetailBg.mtv-nishedh .bannerSlidermain .bannerInnerDiv .bannerSlider .bannerSliderSection .bannerSliderimg {
+        width: 100% !important;
+        padding-top: 0px !important; }
+    .csdetailBg.mtv-nishedh .fullimgwithHeading {
+      padding: 0px; }
+      .csdetailBg.mtv-nishedh .fullimgwithHeading .imgDiv img {
+        padding: 0px; }
   .csdetailBg .desktopImg {
     display: block; }
   .csdetailBg .mobileImg {
@@ -8323,7 +8377,7 @@ footer .ftbutton {
       .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo {
         padding: 90px 0px 94px 90px; }
         .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent {
-          width: 50%; }
+          width: 65%; }
           .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent h2 {
             margin: 0px 0px 25px 0px;
             line-height: 50px; }
@@ -8333,8 +8387,10 @@ footer .ftbutton {
         width: 50%; }
       .csdetailBg .leftheading-rightText .sectionThree {
         padding: 90px 0px 90px 90px; }
-        .csdetailBg .leftheading-rightText .sectionThree .mobtextThree .innerContianer h2 {
-          line-height: 50px; }
+        .csdetailBg .leftheading-rightText .sectionThree .mobtextThree .innerContianer {
+          width: 65%; }
+          .csdetailBg .leftheading-rightText .sectionThree .mobtextThree .innerContianer h2 {
+            line-height: 50px; }
         .csdetailBg .leftheading-rightText .sectionThree .mobsubtextThree .innerContianertwo p {
           line-height: 27px; }
       .csdetailBg .centerheading-centerText .fullSection {
@@ -8347,7 +8403,7 @@ footer .ftbutton {
       .csdetailBg .fullscreenBigimg .sectionFour {
         padding: 30px 0px; }
       .csdetailBg .fullimgwithHeading {
-        padding: 50px 0px; }
+        padding: 50px 0px 0px; }
         .csdetailBg .fullimgwithHeading .headingSec {
           margin: 0 auto 58px; }
           .csdetailBg .fullimgwithHeading .headingSec h2 {
@@ -8384,12 +8440,12 @@ footer .ftbutton {
         .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara {
           top: 100px;
           left: 80px;
-          width: 26%; }
+          width: 30%; }
           .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara h5 {
             line-height: 12px; }
           .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara p {
             line-height: 26px;
-            width: 70%; }
+            width: 100%; }
           .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara h1 {
             line-height: 50px;
             margin: 20px 0px; }
@@ -8408,7 +8464,11 @@ footer .ftbutton {
       .csdetailBg.tataAig .fullAnimation {
         padding: 0px 80px; }
       .csdetailBg.taggedBanner .fullAnimation {
-        padding-top: 150px; } }
+        padding-top: 150px; }
+      .csdetailBg.nykaaCasestudy .bannerSlidermain .bannerInnerDiv {
+        padding: 0px !important; }
+        .csdetailBg.nykaaCasestudy .bannerSlidermain .bannerInnerDiv .bannerSlider .bannerSliderSection .bannerSliderimg {
+          width: 100% !important; } }
   @media screen and (max-width: 1450px) {
     .csdetailBg {
       margin-top: 76px; }
@@ -8426,7 +8486,7 @@ footer .ftbutton {
       .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo {
         padding: 50px 0px 94px 50px; }
         .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent {
-          width: 65%; }
+          width: 70%; }
           .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent h5 {
             margin-bottom: 10px; }
           .csdetailBg .lefttext-rightImg .sectionTwo .mobtextTwo .innerContent h2 {
@@ -8439,15 +8499,13 @@ footer .ftbutton {
       .csdetailBg .leftheading-rightText .sectionThree {
         padding: 50px 0px 50px 50px; }
         .csdetailBg .leftheading-rightText .sectionThree .mobtextThree .innerContianer {
-          width: 65%; }
+          width: 70%; }
           .csdetailBg .leftheading-rightText .sectionThree .mobtextThree .innerContianer h5 {
             margin-bottom: 10px; }
           .csdetailBg .leftheading-rightText .sectionThree .mobtextThree .innerContianer h2 {
             line-height: 45px; }
-        .csdetailBg .leftheading-rightText .sectionThree .mobsubtextThree .innerContianertwo {
-          width: 58%; }
-          .csdetailBg .leftheading-rightText .sectionThree .mobsubtextThree .innerContianertwo p {
-            line-height: 25px; }
+        .csdetailBg .leftheading-rightText .sectionThree .mobsubtextThree .innerContianertwo p {
+          line-height: 25px; }
       .csdetailBg .centerheading-centerText .fullSection {
         padding: 80px 52px 80px 52px; }
         .csdetailBg .centerheading-centerText .fullSection h1 {
@@ -8458,7 +8516,7 @@ footer .ftbutton {
       .csdetailBg .fullscreenBigimg .sectionFour {
         padding: 20px 0px; }
       .csdetailBg .fullimgwithHeading {
-        padding: 40px 0px; }
+        padding: 40px 0px 0px; }
         .csdetailBg .fullimgwithHeading .headingSec {
           margin: 0 auto 50px; }
           .csdetailBg .fullimgwithHeading .headingSec h2 {
@@ -8493,7 +8551,7 @@ footer .ftbutton {
         .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara {
           top: 80px;
           left: 60px;
-          width: 24%; }
+          width: 28%; }
           .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara h5 {
             line-height: 12px; }
           .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara p {
@@ -8516,7 +8574,11 @@ footer .ftbutton {
       .csdetailBg.tataAig .fullAnimation {
         padding: 0px 60px; }
       .csdetailBg.taggedBanner .fullAnimation {
-        padding-top: 100px; } }
+        padding-top: 100px; }
+      .csdetailBg.nykaaCasestudy .bannerSlidermain .bannerInnerDiv {
+        padding: 0px !important; }
+        .csdetailBg.nykaaCasestudy .bannerSlidermain .bannerInnerDiv .bannerSlider .bannerSliderSection .bannerSliderimg {
+          width: 100% !important; } }
   @media screen and (max-width: 1200px) {
     .csdetailBg .bannerSection .sectionOne {
       padding: 35px 0px 80px 0px; }
@@ -8544,10 +8606,8 @@ footer .ftbutton {
         width: 70%; }
         .csdetailBg .leftheading-rightText .sectionThree .mobtextThree .innerContianer h2 {
           line-height: 40px; }
-      .csdetailBg .leftheading-rightText .sectionThree .mobsubtextThree .innerContianertwo {
-        width: 62%; }
-        .csdetailBg .leftheading-rightText .sectionThree .mobsubtextThree .innerContianertwo p {
-          line-height: 23px; }
+      .csdetailBg .leftheading-rightText .sectionThree .mobsubtextThree .innerContianertwo p {
+        line-height: 23px; }
     .csdetailBg .centerheading-centerText .fullSection {
       padding: 50px 32px 60px 32px; }
       .csdetailBg .centerheading-centerText .fullSection h1 {
@@ -8558,7 +8618,7 @@ footer .ftbutton {
     .csdetailBg .fullscreenBigimg .sectionFour {
       padding: 20px 0px; }
     .csdetailBg .fullimgwithHeading {
-      padding: 30px 0px; }
+      padding: 30px 0px 0px; }
       .csdetailBg .fullimgwithHeading .headingSec {
         width: 75%;
         margin: 0px auto 40px; }
@@ -8590,7 +8650,7 @@ footer .ftbutton {
       .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara {
         top: 60px;
         left: 30px;
-        width: 26%; }
+        width: 28%; }
         .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara h5 {
           line-height: 10px; }
         .csdetailBg .bannerSlidermain .bannerInnerDiv .bannerslidePara p {
@@ -8611,7 +8671,11 @@ footer .ftbutton {
     .csdetailBg.tataAig .fullAnimation {
       padding: 0px 40px; }
     .csdetailBg.taggedBanner .fullAnimation {
-      padding-top: 80px; } }
+      padding-top: 80px; }
+    .csdetailBg.nykaaCasestudy .bannerSlidermain .bannerInnerDiv {
+      padding: 0px !important; }
+      .csdetailBg.nykaaCasestudy .bannerSlidermain .bannerInnerDiv .bannerSlider .bannerSliderSection .bannerSliderimg {
+        width: 100% !important; } }
   @media screen and (max-width: 1024px) {
     .csdetailBg {
       margin-top: 72px; }
@@ -8623,6 +8687,12 @@ footer .ftbutton {
         padding: 20px 0px 15px; }
         .csdetailBg.almaraiCasestudy .fullAnimation .mobileImg {
           padding: 0px 0px; }
+      .csdetailBg.FireFly .mobileImg {
+        padding: 0px !important; }
+      .csdetailBg.FireFly .bannerSlidermain .bannerInnerDiv {
+        padding: 32px 0px 0px 0px !important; }
+        .csdetailBg.FireFly .bannerSlidermain .bannerInnerDiv .bannerslidePara p {
+          margin-bottom: 15px; }
       .csdetailBg.tataAig .sectionOne {
         padding: 32px 0px 0px; }
       .csdetailBg.tataAig .fullAnimation {
@@ -8633,17 +8703,42 @@ footer .ftbutton {
           display: none !important; }
       .csdetailBg.tataluxuryCasestudy .lefttext-rightImg .sectionTwo {
         padding: 30px 0px; }
-        .csdetailBg.tataluxuryCasestudy .lefttext-rightImg .sectionTwo .mobimgTwo .mobileImg {
-          width: 45%; }
       .csdetailBg.tataluxuryCasestudy .fullimgwithHeading .imgDiv {
         padding: 0px 20px; }
       .csdetailBg.one-to-11 .lefttext-rightImg .sectionTwo .mobimgTwo {
         padding: 35px; }
       .csdetailBg.one-to-11 .fullAnimation {
         padding: 20px 0px 60px; }
+      .csdetailBg.dozeeBanner .fullimgwithHeading .fullimghead {
+        padding-bottom: 20px; }
       .csdetailBg.dozeeBanner .mobileImg {
         padding: 0px 0px; }
       .csdetailBg.meeshoMain .mobileImg {
+        padding: 0px 0px; }
+      .csdetailBg.neemans .bannerSection .sectionOne {
+        padding: 0px 0px 20px 0px; }
+      .csdetailBg.neemans .mobileImg {
+        padding: 0px 0px; }
+      .csdetailBg.nykaaCasestudy .bannerSlidermain .bannerInnerDiv {
+        padding: 32px 0px 0px 0px !important; }
+        .csdetailBg.nykaaCasestudy .bannerSlidermain .bannerInnerDiv .bannerslidePara {
+          text-align: left;
+          padding: 0px 24px; }
+          .csdetailBg.nykaaCasestudy .bannerSlidermain .bannerInnerDiv .bannerslidePara p {
+            margin-bottom: 15px; }
+          .csdetailBg.nykaaCasestudy .bannerSlidermain .bannerInnerDiv .bannerslidePara h5 {
+            margin-bottom: 10px; }
+        .csdetailBg.nykaaCasestudy .bannerSlidermain .bannerInnerDiv .bannerSlider .bannerSliderSection .bannerSliderimg {
+          width: 100% !important; }
+        .csdetailBg.nykaaCasestudy .bannerSlidermain .bannerInnerDiv .awardSec {
+          display: none !important; }
+      .csdetailBg.nykaaCasestudy .mobileImg {
+        padding: 0px 0px !important; }
+      .csdetailBg.fractalCasestudies .sectionOne {
+        padding: 0px 0px 0px 0px !important; }
+        .csdetailBg.fractalCasestudies .sectionOne .mobImg {
+          width: 100% !important; }
+      .csdetailBg.fractalCasestudies .mobileImg {
         padding: 0px 0px; }
       .csdetailBg .desktopImg {
         display: none; }
@@ -8735,7 +8830,7 @@ footer .ftbutton {
             width: 150px;
             top: -6px; }
       .csdetailBg .fullimgwithHeading {
-        padding: 20px 0px; }
+        padding: 20px 0px 0px; }
         .csdetailBg .fullimgwithHeading .headingSec {
           width: 100%;
           padding: 0px 20px;
@@ -9099,5 +9194,66 @@ footer .ftbutton {
   justify-content: center;
   align-items: center;
   z-index: 1; }
+
+.ourClientsection {
+  margin-top: 96px; }
+  .ourClientsection img {
+    max-width: 100%; }
+  .ourClientsection .sixBoxlayout {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; }
+    .ourClientsection .sixBoxlayout .innerBoxes {
+      width: 33.33%;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+  .ourClientsection .fourBoxlayout {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; }
+    .ourClientsection .fourBoxlayout .innerBoxes {
+      width: 25%; }
+      .ourClientsection .fourBoxlayout .innerBoxes a {
+        display: flex;
+        align-items: center;
+        justify-content: center; }
+  .ourClientsection .fiveBoxlayout {
+    display: flex;
+    justify-content: center; }
+    .ourClientsection .fiveBoxlayout .smallboxes {
+      width: 50%;
+      display: flex;
+      flex-wrap: wrap; }
+      .ourClientsection .fiveBoxlayout .smallboxes .innerBoxes {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center; }
+    .ourClientsection .fiveBoxlayout .bigBox {
+      width: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+  @media screen and (max-width: 1600px) {
+    .ourClientsection {
+      margin-top: 86px; } }
+  @media screen and (max-width: 1600px) {
+    .ourClientsection {
+      margin-top: 76px; } }
+  @media screen and (max-width: 1024px) {
+    .ourClientsection {
+      margin-top: 72px; } }
+  @media screen and (max-width: 720px) {
+    .ourClientsection .sixBoxlayout .innerBoxes {
+      width: 50%; }
+    .ourClientsection .fourBoxlayout .innerBoxes {
+      width: 50%; }
+    .ourClientsection .fiveBoxlayout {
+      display: block; }
+      .ourClientsection .fiveBoxlayout .smallboxes {
+        width: 100%; }
+      .ourClientsection .fiveBoxlayout .bigBox {
+        width: 100%; } }
 
 /*# sourceMappingURL=main.css.map */

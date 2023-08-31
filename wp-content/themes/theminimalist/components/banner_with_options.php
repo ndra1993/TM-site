@@ -11,27 +11,27 @@
       <?php while (have_rows('banner_option')) : the_row(); ?>
 
         <?php if (get_row_layout() == 'banner_image_box') : ?>
-          <div class="mobImg desktopImg wow fadeInUp" data-wow-duration="4s">
+          <div class="mobImg desktopImg wow fadeInUp" data-wow-duration="10s">
             <?php $bannerimage = get_sub_field('banner_image');
             if (!empty($bannerimage)) : ?>
-              <img src="<?php echo esc_url($bannerimage['url']); ?>" loading="lazy" alt="<?php echo esc_attr($bannerimage['alt']); ?>" />
+              <img src="<?php echo esc_url($bannerimage['url']); ?>" alt="<?php echo esc_attr($bannerimage['alt']); ?>" />
             <?php endif; ?>
           </div>
 
           <?php
           $value = get_sub_field( "mobile_banner_image" );
           if ( $value ) {?>
-            <div class="mobImg mobileImg wow fadeInUp" data-wow-duration="4s">
+            <div class="mobImg mobileImg wow fadeInUp" data-wow-duration="10s">
               <?php $mobbannerimage = get_sub_field('mobile_banner_image');
               if (!empty($mobbannerimage)) : ?>
-                <img src="<?php echo esc_url($mobbannerimage['url']); ?>" loading="lazy" alt="<?php echo esc_attr($mobbannerimage['alt']); ?>" />
+                <img src="<?php echo esc_url($mobbannerimage['url']); ?>" alt="<?php echo esc_attr($mobbannerimage['alt']); ?>" />
               <?php endif; ?>
             </div>
           <?php } else { ?>
-            <div class="mobImg mobileImg wow fadeInUp" data-wow-duration="4s">
+            <div class="mobImg mobileImg wow fadeInUp" data-wow-duration="10s">
               <?php $bannerimage = get_sub_field('banner_image');
               if (!empty($bannerimage)) : ?>
-                <img src="<?php echo esc_url($bannerimage['url']); ?>" loading="lazy" alt="<?php echo esc_attr($bannerimage['alt']); ?>" />
+                <img src="<?php echo esc_url($bannerimage['url']); ?>" alt="<?php echo esc_attr($bannerimage['alt']); ?>" />
               <?php endif; ?>
             </div>
           <?php } ?>

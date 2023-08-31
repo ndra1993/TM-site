@@ -25,7 +25,7 @@
                 position: absolute;
                 top: 10%;
                 padding-left: 112px;
-                width: 32%;
+                width: 35%;
                 z-index: 2;
 
                 h5 {
@@ -40,7 +40,7 @@
 
                 p {
                     line-height: 30px;
-                    width: 73%;
+                    width: 100%;
                 }
             }
 
@@ -78,7 +78,7 @@
                 width: 50%;
 
                 .innerContent {
-                    width: 60%;
+                    width: 70%;
 
                     h5 {
                         text-transform: uppercase;
@@ -110,7 +110,7 @@
                 width: 50%;
 
                 .innerContianer {
-                    width: 60%;
+                    width: 70%;
 
                     h5 {
                         text-transform: uppercase;
@@ -128,7 +128,7 @@
                 width: 45%;
 
                 .innerContianertwo {
-                    width: 60%;
+                    width: 70%;
 
                     p {
                         line-height: 30px;
@@ -176,7 +176,7 @@
 
     .fullimgwithHeading {
         text-align: center;
-        padding: 70px 0px;
+        padding: 70px 0px 0px;
 
         .headingSec {
             width: 60%;
@@ -429,7 +429,7 @@
                 top: 120px;
                 left: 100px;
                 z-index: 1;
-                width: 28%;
+                width: 32%;
 
                 h5 {
                     line-height: 14px;
@@ -437,7 +437,7 @@
 
                 p {
                     line-height: 30px;
-                    width: 75%;
+                    width: 100%;
                 }
 
                 h1 {
@@ -522,6 +522,15 @@
             margin-bottom: 0px;
         }
     }
+    &.neemans{
+        background: #CAB392;
+        video {
+            width: 100%;
+            padding: 0px;
+            background: #CAB392;
+        }
+		.fullimgwithHeading .imgDiv img{padding-top:0px !important;}
+    }
 
     // tata aig style ends
 
@@ -571,26 +580,31 @@
     //tcl style starts
     &.tataluxuryCasestudy {
         background: #000000;
+
         .bannerSlidermain {
             .bannerInnerDiv {
                 padding: 0px !important;
+
                 .bannerSlider .bannerSliderSection .bannerSliderimg {
                     width: 100% !important;
                     padding-top: 0px !important;
                 }
             }
         }
-        .lefttext-rightImg{
-            .sectionTwo{
+
+        .lefttext-rightImg {
+            .sectionTwo {
                 padding: 60px 0px;
             }
         }
-        &:nth-child(3){
-            .sectionTwo{
+
+        &:nth-child(3) {
+            .sectionTwo {
                 padding: 0px !important;
-            } 
+            }
         }
-        .fullimgwithHeading{
+
+        .fullimgwithHeading {
             .imgDiv {
                 padding: 60px 50px;
             }
@@ -605,8 +619,85 @@
             padding: 0px !important;
         }
     }
-
     // meesho ends
+    &.nykaaCasestudy {
+        background: linear-gradient(208.42deg, #000000 -2.49%, #F82F7C 100%);
+        .bannerSlidermain {
+            .bannerInnerDiv {
+                padding: 0px !important;
+                .bannerSlider {
+                    .bannerSliderSection {
+                        .bannerSliderimg {
+                            width: 100% !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &.fractalCasestudies{
+        .sectionOne{
+            padding: 0px !important;
+            .mobImg{
+                width: 100% !important;
+                margin :0px !important;
+            }
+        }
+    }
+
+    &.Pocket52{
+        background: linear-gradient(170.93deg, #086D4F -8.51%, #098862 23.14%, #054230 168.34%);
+    }
+
+    //firefly style starts
+    &.FireFly{
+        background: #000000;
+
+        .bannerSlidermain {
+            .bannerInnerDiv {
+                padding: 0px !important;
+				.awardSec{display:none !important}
+                .bannerSlider .bannerSliderSection .bannerSliderimg {
+                    width: 100% !important;
+                    padding-top: 0px !important;
+                }
+            }
+        }
+
+        
+    }
+
+    //firefly style ends
+
+    //mtv-nishedh style starts
+    &.mtv-nishedh{
+        background: #fff;
+
+        .bannerSlidermain {
+            .bannerInnerDiv {
+                padding: 0px !important;
+
+                .bannerSlider .bannerSliderSection .bannerSliderimg {
+                    width: 100% !important;
+                    padding-top: 0px !important;
+                }
+            }
+        }
+        .fullimgwithHeading{
+            padding: 0px;
+            .imgDiv {
+                img{
+                    padding: 0px;
+                }
+            }
+        }
+        
+    }
+
+    //mtv-nishedh style ends
+
+    
     .desktopImg {
         display: block;
     }
@@ -647,7 +738,7 @@
                 padding: 90px 0px 94px 90px;
 
                 .innerContent {
-                    width: 50%;
+                    width: 65%;
 
                     h2 {
                         margin: 0px 0px 25px 0px;
@@ -670,8 +761,11 @@
             padding: 90px 0px 90px 90px;
 
             .mobtextThree {
-                .innerContianer h2 {
-                    line-height: 50px;
+                .innerContianer{
+                    width: 65%;
+                    h2 {
+                        line-height: 50px;
+                    }
                 }
             }
 
@@ -702,7 +796,7 @@
         }
 
         .fullimgwithHeading {
-            padding: 50px 0px;
+            padding: 50px 0px 0px;
 
             .headingSec {
                 margin: 0 auto 58px;
@@ -787,7 +881,7 @@
                 .bannerslidePara {
                     top: 100px;
                     left: 80px;
-                    width: 26%;
+                    width: 30%;
 
                     h5 {
                         line-height: 12px;
@@ -795,7 +889,7 @@
 
                     p {
                         line-height: 26px;
-                        width: 70%;
+                        width: 100%;
                     }
 
                     h1 {
@@ -838,6 +932,20 @@
                 padding-top: 150px;
             }
         }
+        &.nykaaCasestudy {
+            .bannerSlidermain {
+                .bannerInnerDiv {
+                    padding: 0px !important;
+                    .bannerSlider {
+                        .bannerSliderSection {
+                            .bannerSliderimg {
+                                width: 100% !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 
     @media screen and (max-width:1450px) {
@@ -871,7 +979,7 @@
                 padding: 50px 0px 94px 50px;
 
                 .innerContent {
-                    width: 65%;
+                    width: 70%;
 
                     h5 {
                         margin-bottom: 10px;
@@ -899,7 +1007,7 @@
 
             .mobtextThree {
                 .innerContianer {
-                    width: 65%;
+                    width: 70%;
 
                     h5 {
                         margin-bottom: 10px;
@@ -913,7 +1021,7 @@
 
             .mobsubtextThree {
                 .innerContianertwo {
-                    width: 58%;
+                    // width: 58%;
 
                     p {
                         line-height: 25px;
@@ -943,7 +1051,7 @@
         }
 
         .fullimgwithHeading {
-            padding: 40px 0px;
+            padding: 40px 0px 0px;
 
             .headingSec {
                 margin: 0 auto 50px;
@@ -1024,7 +1132,7 @@
                 .bannerslidePara {
                     top: 80px;
                     left: 60px;
-                    width: 24%;
+                    width: 28%;
 
                     h5 {
                         line-height: 12px;
@@ -1073,6 +1181,20 @@
         &.taggedBanner {
             .fullAnimation{
                 padding-top: 100px;
+            }
+        }
+        &.nykaaCasestudy {
+            .bannerSlidermain {
+                .bannerInnerDiv {
+                    padding: 0px !important;
+                    .bannerSlider {
+                        .bannerSliderSection {
+                            .bannerSliderimg {
+                                width: 100% !important;
+                            }
+                        }
+                    }
+                }
             }
         }
     }
@@ -1136,7 +1258,7 @@
 
             .mobsubtextThree {
                 .innerContianertwo {
-                    width: 62%;
+                    // width: 62%;
 
                     p {
                         line-height: 23px;
@@ -1166,7 +1288,7 @@
         }
 
         .fullimgwithHeading {
-            padding: 30px 0px;
+            padding: 30px 0px 0px;
 
             .headingSec {
                 width: 75%;
@@ -1232,7 +1354,7 @@
                 .bannerslidePara {
                     top: 60px;
                     left: 30px;
-                    width: 26%;
+                    width: 28%;
 
                     h5 {
                         line-height: 10px;
@@ -1281,6 +1403,20 @@
                 padding-top: 80px;
             }
         }
+        &.nykaaCasestudy {
+            .bannerSlidermain {
+                .bannerInnerDiv {
+                    padding: 0px !important;
+                    .bannerSlider {
+                        .bannerSliderSection {
+                            .bannerSliderimg {
+                                width: 100% !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 
     @media screen and (max-width:1024px) {
@@ -1301,6 +1437,18 @@
                 }
             }
         }
+		
+		&.FireFly{
+			.mobileImg{padding:0px !important}
+        .bannerSlidermain {
+            .bannerInnerDiv {
+                padding: 32px 0px 0px 0px !important;
+				.bannerslidePara p{margin-bottom:15px;}
+            }
+        }
+
+        
+    }
 
         &.tataAig {
             .sectionOne {
@@ -1315,22 +1463,26 @@
             .bannerSlidermain {
                 .bannerInnerDiv {
                     padding: 32px 0px 0px 0px !important;
-                    .awardSec{
+
+                    .awardSec {
                         display: none !important;
                     }
                 }
             }
-            .lefttext-rightImg{
-                .sectionTwo{
+
+            .lefttext-rightImg {
+                .sectionTwo {
                     padding: 30px 0px;
-                    .mobimgTwo{
-                        .mobileImg{
-                            width: 45%;
-                        }
-                    }
+
+                    // .mobimgTwo {
+                    //     .mobileImg {
+                    //         width: 45%;
+                    //     }
+                    // }
                 }
             }
-            .fullimgwithHeading .imgDiv{
+
+            .fullimgwithHeading .imgDiv {
                 padding: 0px 20px;
             }
         }
@@ -1345,9 +1497,56 @@
             }
         }
         &.dozeeBanner {
+            .fullimgwithHeading{
+
+                .fullimghead{padding-bottom: 20px;}
+            }
             .mobileImg {padding: 0px 0px;}
         }
         &.meeshoMain {
+            .mobileImg {padding: 0px 0px;}
+        }
+        &.neemans{
+            .bannerSection {
+                .sectionOne{
+                    padding: 0px 0px 20px 0px;
+                }
+            }
+            .mobileImg {padding: 0px 0px;}
+        }
+
+        &.nykaaCasestudy {
+            .bannerSlidermain {
+                .bannerInnerDiv {
+                    padding: 32px 0px 0px 0px !important;
+                    .bannerslidePara {
+                        text-align: left;
+                        padding: 0px 24px;
+                        p{margin-bottom:15px;}
+                        h5{margin-bottom: 10px;}
+                    }
+                    .bannerSlider {
+                        .bannerSliderSection {
+                            .bannerSliderimg {
+                                width: 100% !important;
+                            }
+                        }
+                    }
+                    .awardSec{
+                        display: none !important;
+                    }
+                }
+            }
+            .mobileImg {padding: 0px 0px !important;}
+        }
+
+        &.fractalCasestudies{
+            .sectionOne{
+                padding: 0px 0px 0px 0px !important;
+                .mobImg{
+                    width: 100% !important;
+                }
+            }
             .mobileImg {padding: 0px 0px;}
         }
 
@@ -1520,7 +1719,7 @@
 
 
         .fullimgwithHeading {
-            padding: 20px 0px;
+            padding: 20px 0px 0px;
 
             .headingSec {
                 width: 100%;
