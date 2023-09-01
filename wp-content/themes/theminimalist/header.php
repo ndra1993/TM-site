@@ -63,7 +63,7 @@
 						<img src="<?php bloginfo('template_directory'); ?>/images/tm-logo.svg" width="100%" height="100%" alt="The Minimalist">
 					</a>
 				</div>
-			<?php } elseif (is_page('blogs') || is_page('case-study') || is_page('case-study-details') || is_page('privacy-policy') || is_page('our-clients')) { ?>
+			<?php } elseif (is_page('blogs') || is_page('case-study') || is_page('case-study-details') || is_page('privacy-policy') || is_page('our-clients') || is_page('our-clients-two')) { ?>
 				<div class="logoBox titleBox">
 					<a class="backArrow" onclick="GoBackWithRefresh();return false;"><img src="<?php bloginfo('template_directory'); ?>/images/arrow-title.svg" alt="Back Arrow"></a>
 					<h3 class="fontW800 font30 fontPoppins colorBlack" style="text-transform:capitalize;"><?php the_title(); ?></h3>
@@ -77,7 +77,7 @@
 				<div class="logoBox titleBox">
 					<a class="backArrow" onclick="GoBackWithRefresh();return false;"><img src="<?php bloginfo('template_directory'); ?>/images/arrow-title.svg" alt="Back Arrow"></a>
 					<h3 class="fontW800 font30 fontPoppins colorBlack" style="text-transform:capitalize;">
-						<!-- <?php
+						<?php
 						$currentPageUrl = 'http://' . $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"];
 						$uriArray = explode('/', $currentPageUrl);
 						if ($uriArray[5] == 'casestudy') {
@@ -91,7 +91,7 @@
 							$tax_links = str_replace('-', ' ', $links[0]);
 							echo $tax_links;
 						}
-						?> -->
+						?>
 					</h3>
 				</div>
 
